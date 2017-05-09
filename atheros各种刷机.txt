@@ -1,0 +1,75 @@
+ap2 板刷cpe-km
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 vmlinux_routing.lzma.uImage &&erase 0x9f680000 +$filesize&&cp.b $fileaddr 0x9f680000 $filesize 
+tftp 0x80060000 tozedcpe-km_routing-jffs2 && erase 0x9f050000 +0x630000&&cp.b $fileaddr 0x9f050000 $filesize
+
+
+9531:
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+setenv bootcmd "bootm 0x9F050000"
+
+setenv bootargs "board=AP147  console=ttyS0,115200 root=31:03 rootfstype=squashfs rw init=/sbin/init mtdparts=spi0.0:256k(u-boot)ro,64k(u-boot-env),1408k(kernel),14080k(rootfs),512k(data),64k(ART)"
+
+tftp 0x80060000 vmlinux_routing.lzma.uImage && erase 0x9f050000 +$filesize && cp.b $fileaddr 0x9f050000 $filesize
+tftp 0x80060000 board953x_ap143-squashfs   && erase 0x9f1b0000 +$filesize && cp.b   $fileaddr 0x9f1b0000 $filesize
+tftp 0x80060000 board953x_ap143_data-jffs2  && erase 0x9ff70000 +$filesize && cp.b $fileaddr 0x9ff70000 $filesize && boot
+
+
+p10p刷p11s:
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+ tftp 0x80060000 vmlinux_routing.lzma.uImage.inbin &&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftp 0x80060000 tozedap-p11_4g_ap123-jffs2 && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+set bootargs "console=ttyS0,115200 root=31:01 rootfstype=jffs2 ro init=/sbin/init mtdparts=ath-nor0:64k(u-boot),6976k(rootfs),1024k(uImage),64k(mib0),64k(ART)"
+
+
+p10刷工业路由器qsdk程序quashfs系统
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftp 0x80060000 tozedap-cp_ap123-squashfs && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+
+cpe-df qsdk版
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 tozedcpe-df_ap123-jffs2 && erase 0x9f010000 +0x6d0000 && cp.b $fileaddr 0x9f010000 $filesize
+tftp 0x80060000 vmlinux_ap123.lzma.uImage && erase 0x9f6e0000 +$filesize && cp.b $fileaddr 0x9f6e0000 $filesize
+
+ap-cp使用qsdk
+set bootargs "console=ttyS0,115200 root=31:01 rootfstype=jffs2 rw init=/sbin/init mtdparts=spi0.0:64k(u-boot),6976k(rootfs),1024k(uImage),64k(mib0),64k(ART) machtype=DB120"
+
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftp 0x80060000 tozedap-cp_ap123-jffs2 && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+tftp 0x80060000 tuboot.bin && erase 0x9f000000 +0x10000&&cp.b $fileaddr 0x9f000000 $filesize
+
+cpe-df
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 tozedcpe-df_ap123-jffs2 && erase 0x9f010000 +0x6d0000 && cp.b $fileaddr 0x9f010000 $filesize
+tftp 0x80060000 vmlinux_routing.lzma.uImage && erase 0x9f6e0000 +$filesize && cp.b $fileaddr 0x9f6e0000 $filesize
+ 
+p10刷工业路由器qsdk程序
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftp 0x80060000 tozedap-router_4g_industry_ap123-squashfs && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+set bootargs "console=ttyS0,115200 root=31:01 rootfstype=squanshfs ro init=/sbin/init mtdparts=spi0.0:64k(u-boot),6848k(rootfs),1152k(uImage),64k(mib0),64k(ART) machtype=DB120"
+ 
+工业路由器使用qsdk
+set ipaddr 192.168.19.33 && set serverip 192.168.19.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9fd70000 +$filesize&&cp.b $fileaddr 0x9fd70000 $filesize
+tftp 0x80060000 tozedap-router_4g_industry_ap123-squashfs&&erase 0x9f010000 +0x6b0000&&cp.b $fileaddr 0x9f010000 $filesize
+tftp 0x80060000 tozedap-router_4g_industry_ap123_data-jffs2&&erase 0x9ff70000 +$filesize&&cp.b $fileaddr 0x9ff70000 $filesize
+
+set bootargs console=ttyS0,115200 root=31:01 rootfstype=squashfs ro init=/sbin/init mtdparts=spi0.0:64k(u-boot),6848k(rootfs),6848k(rootfs-backup),1024k(uImage),1024k(uImage-backup),512k(data),64k(ART)) machtype=DB120
+
+ap-si
+set ipaddr 192.168.19.33 && set serverip 192.168.19.100
+tftp 0x80060000 vmlinux.lzma.uImage&&erase 0x9f680000 +$filesize&&cp.b $fileaddr 0x9f680000 $filesize 
+tftp 0x80060000 tozedap-si-jffs2 && erase 0x9f050000 +0x630000&&cp.b $fileaddr 0x9f050000 $filesize
+
+ap-cp
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftp 0x80060000 tozedap-cp_ap123-jffs2 && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+tftp 0x80060000 tuboot.bin && erase 0x9f000000 +0x10000&&cp.b $fileaddr 0x9f000000 $filesize
+ 
+p21
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 tozedap-p11_4g_ap123-jffs2 && erase 0x9f010000 +0xed0000&&cp.b $fileaddr 0x9f010000 $filesize
