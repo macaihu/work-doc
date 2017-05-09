@@ -1,0 +1,2366 @@
+12-29
+123上面的几个编译原来的lsdk9.2的编译器的包也是错的。
+ 
+12-28
+8:48 123上面的gcc-4.3.3还是错的。是我上传的p11-gcc.tar.gz是错的，没有修改。
+8:30 当前ath9.5仓中的json-c无法编译。
+ 
+12-27
+sudo dpkg-reconfigure wireshark-common
+sudo usermod -a -G wireshark $USER
+ 
+删除这两个转发吧，还没有删除：
+1 http2 8080-8080 8080-8080 192.168.1.197 
+2 1450 1450-1450 1450-1450 192.168.1.197 
+ 
+12-26
+15:04  qemu的configure报这样的错误：glib-2.22 gthread-2.0 is required to compile QEMU
+这样： sudo apt-get install libglib2.0-dev
+ 
+14:00 林小珊 说赵刚中午一个人挺可怜的。
+14:37 查看了一下22上的微机登记，好多已经改变了。各种机器还存在，更换了ip继续在内网中使用。
+14:48 为什么vmplayer每次都要重新编译些东西呢？
+ 
+ 
+p11s也出现了某些卡不能拨号的问题。
+linux 下的小狼毫为什么引入词典后没有任何变化呢，以前输入的名字都没有出现。
+赵刚来入职了，颜斌说还是非常明显的。
+ 
+12-25
+在ubuntu16下不能编译的qsdk3中的tools，可以在其makefile中增加：
+HOST_CFLAGS += -std=gnu89
+来解决
+ 
+禁用GSSAPIAuthentication可以加快ssh的登陆
+https://linux.cn/article-5851-1-rel.html
+ 
+12-24
+昨天那个win7的虚拟机firefox又不能运行了，出现了那个什么could not load xpdom? 问题。重新安装了一个xp，发现那个passkeeper又能运行了。那么就用xp吧。而印象笔记又不能运行了。现在换了一个leanote这样的工具，能够直接导入原来的笔记，就是所有的笔记全到在一个地方了。这个笔记的有linux版本，这点比较好，而且默认笔记在只读状态，不用担心原来的笔记不小心删掉某些字符。搜索不是特别方便，没有在有搜索框的情况下加亮搜索内容。
+ 
+xp下重新下载了一个sumatrapdf，这个比原来的foxit要小很多了。
+ 
+12-23
+陈玉 离菲律宾出货还有1个半月的事件，有可能改成工业路由器的版本进行出货。
+张勇 使用gcc-4.6编译过程中出现了各种问题。我这里的复制目录是错的。
+
+12-17
+./lib                                                                           
+./lib/valgrind                                                                 
+./lib/valgrind/vgpreload_core-mips32-linux.so                                   
+./lib/valgrind/default.supp                                                     
+./lib/valgrind/memcheck-mips32-linux                                           
+./bin                                                                           
+./bin/valgrind
+
+configure.ac:4015: error: required file 'valgrind.spec.in' not found
+configure.ac:4015: error: required file 'valgrind.pc.in' not found
+configure.ac:4015: error: required file 'glibc-2.X.supp.in' not found
+configure.ac:4015: error: required file 'drd/scripts/download-and-build-splash2.in' not found
+configure.ac:4015: error: required file 'cachegrind/cg_annotate.in' not found
+configure.ac:4015: error: required file 'cachegrind/cg_diff.in' not found
+configure.ac:4015: error: required file 'callgrind/callgrind_annotate.in' not found
+configure.ac:4015: error: required file 'callgrind/callgrind_control.in' not found
+configure.ac:4103: error: required file 'coregrind/link_tool_exe_linux.in' not found
+configure.ac:4105: error: required file 'coregrind/link_tool_exe_darwin.in' not found
+configure.ac:4107: error: required file 'coregrind/link_tool_exe_solaris.in' not found
+configure.ac:4015: error: required file 'massif/ms_print.in' not found
+configure.ac:4015: error: required file 'perf/vg_perf.in' not found
+configure.ac:4015: error: required file 'tests/vg_regtest.in' not found
+
+
+12-15
+qsdk3使用外部编译器e2fsprogs这个东西又报rpath这样的错误，改成cc中的1.42.12试试。
+.codeaurora.org这个网站各种慢啊。
+在openwrt_cc这个仓里面的下载成功了，再看看qsdk3。还是报一样的错误。
+/usr/share/mips-gcc-4.6/staging_dir/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6.3/../../../../mips-openwrt-linux-uclibc/bin/ld: warning: libdl.so.0, needed by ../lib/libss.so, not found (try using -rpath or -rpath-link)
+../lib/libss.so: undefined reference to `dlclose'
+../lib/libss.so: undefined reference to `dlopen'
+../lib/libss.so: undefined reference to `dlsym'
+在/usr/share/mips-gcc-4.6/staging_dir/usr/lib软链接到lib，同样报错。
+debugfs: $(DEBUG_OBJS) $(DEPLIBS)
+        $(E) "  LD $@"
+        $(Q) $(CC) $(ALL_LDFLAGS) -o debugfs $(DEBUG_OBJS) $(LIBS)
+
+
+12-14
+
+
+12-13
+好吧，再次用gcc-4.6来编译2.6.31的内核，还是停留在Staring kernel....
+这使用gcc4.6编译的qsdk2版本。
+drwxrwxr-x 2 jian jian     4096 12月 12 23:08 ./
+drwxrwxr-x 3 jian jian     4096 12月 12 22:53 ../
+-rw-rw-r-- 1 jian jian 14090240 12月 12 23:08 P53_ap123_6.7.7_161212.bin
+-rw-r--r-- 1 jian jian   131072 12月 12 23:08 tozedap-router_4g_industry_ap123_data-jffs2
+-rw-r--r-- 1 jian jian  4280320 12月 12 23:08 tozedap-router_4g_industry_ap123-squashfs
+-rw-rw-r-- 1 jian jian    59440 12月 12 23:03 tuboot.bin
+-rwxrwxr-x 1 jian jian  3026620 12月 12 23:01 vmlinux_ap123.bin*
+-rw-rw-r-- 1 jian jian  1418791 12月 12 23:01 vmlinux_ap123.bin.gz
+-rw-rw-r-- 1 jian jian  1048739 12月 12 23:03 vmlinux_ap123.bin.lzma
+-rw-rw-r-- 1 jian jian       35 12月 12 23:01 vmlinux_ap123.info
+-rw-rw-r-- 1 jian jian  1048803 12月 12 23:03 vmlinux_ap123.lzma.uImage
+-rw-rw-r-- 1 jian jian  1048803 12月 12 23:08 vmlinux_routing.lzma.uImage
+
+12-12
+20：12 先设置一下外部编译器：
+# CONFIG_NATIVE_TOOLCHAIN is not set
+CONFIG_TARGET_NAME="mipsel-openwrt-linux-uclibc"
+CONFIG_TOOLCHAIN_PREFIX="mipsel-openwrt-linux-uclibc-"
+CONFIG_TOOLCHAIN_ROOT="/usr/share/mips-gcc-4.6/staging_dir"
+CONFIG_TOOLCHAIN_BIN_PATH="./usr/bin ./bin"
+CONFIG_TOOLCHAIN_INC_PATH="./usr/include ./include"
+CONFIG_TOOLCHAIN_LIB_PATH="./usr/lib ./lib"
+
+
+17:49 特殊应用程序这个东西不理解为什么要搞出来，也许是可以让任何的lan ip都可以做到运行某个程序时能够监听到一些端口。但是如果两个pc同时触发了呢？那转给谁呢？
+
+17:20 这篇文章号称实现了全部的类型
+http://os.51cto.com/art/201103/249324.htm
+/-"Full Cone NAT":/ 
+iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to-source 202.96.209.111 
+iptables -t nat -A PREROUTING -i eth0 -j DNAT --to-destination 192.168.1.1 
+
+/-"Port Restricted Cone NAT":/ 
+iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to-source 202.96.209.111 
+
+/-"Restricted Cone NAT":/ 
+iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to-source 202.96.209.111 
+iptables -t nat -A PREROUTING -i eth0 -j DNAT --to-destination 192.168.1.1 
+iptables -A FORWARD -d 202.96.209.111 -j ACCEPT 
+iptables -A FORWARD -m state --state ESTABLISHED,RELATED -j ACCEPT 
+iptables -I FORWARD 1 -s 85.214.128.86 -j ACCEPT(加入对点IP，作弊型连通)
+ 
+17:16 这个文章号称实现了cone nat
+https://www.larrysalibra.com/symmetric-cone-nat-using-linux-iptables/
+eth1 = public ip
+eth0 = lan ip
+echo "1" > /proc/sys/net/ipv4/ip_forward
+/sbin/iptables --flush
+/sbin/iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE --random
+/sbin/iptables -A FORWARD -i eth1 -o eth0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+/sbin/iptables -A FORWARD -i eth0 -o eth1 -j ACCEPT
+
+17:12 Linux的NAT“MASQUERADE”属于对称形NAT。
+http://blog.csdn.net/farrellcn/article/details/7229143
+17:09 华为的某个cpe还有Cone NAT类型，Symmetric NAT两种模式的选择，还不知道linux是如何实现的。
+15:42 复制staging的方式貌似不怎么好用啊，所有的东西还是在重新编译。
+15:17 ubuntu 1610 server版居然没有自动有openssh-server，真奇怪。难道是虚拟机自动安装的问题？
+15:10 王伍又开始催那个通用平台了。
+14:43 今天这个小新笔记本的无线网卡看起来不太正常，总是无法ping到mywifi
+14:42 修改后貌似要apt-get update一下。
+14:41 vi 中的替换，在记录一次吧，每次都忘记：:%s#us.#cn.#
+14:20 下载一个ubuntu1610server来测试一下直接复制qsdk3的staging目录是否可以编译通过吧。
+14:10 gcc-4.6编译ppp的时候出现的错误：
+In file included from plugin.c:53:0:
+/usr/share/mips-gcc-4.6/staging_dir/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6.3/../../../../mips-openwrt-linux-uclibc/sys-include/linux/if_pppox.h:87:25: error: field 'pppol2tp' has incomplete type
+
+11:45 
+11:15 任银善 张勇 讨论后面的工作：
+QCA9531和AR9341需要完成事项(讨论记录)：
+1、增加CFG到UCI接口；
+整理原来LSDK所使用到的CFG命令，查看是否可以用QSDK的接口代替。或者直接移植CFG命令。
+2、把网页换成李瑶的；
+更换QSDK自带的网页，主要是配置读写部分需要整理，并进行修改。
+3、4G模块支持；
+QSDK已经自带4G模块的驱动接口，可以先调试一下，是否可以使用。在进行对比测试，决定是否需要移植。
+4、拨号支持；
+直接进行移植。
+5、tozed xx.ko 加入（保留通用寄存器的读写）
+保留通用寄存器读写的命令接口。
+6、生产工具支持；
+默认第一次烧片后，自动进入art校准模式，增加判断Flag；校准完成后，保存校准后的数据到指定的备份区。
+7、校准支持；（必须pass才能写）
+校准脚本配置：必须规定pass后，才能写入校准后的数据。
+8、自建型号；（P22、P10p）
+在QSDK中，增加P22和P10p的board type，并修改对应的netwrok、LED、Button、MAC等配置部分。
+9、远程升级；
+类似AC管理，需要提供可以针对单台、多台、区域、所有等AP进行升级。
+
+qsdk里面编译wlan驱动的速度好慢啊。
+昨天那个编译错误只要加上 -ldl就好了。
+
+12-11
+使用gcc-4.6编译当前有这样的错误：
+cd ../apps/autoset_channel && make CC=mips-linux-uclibc-gcc autoset_channel
+make[1]: Entering directory `/home/jian/work/ath9.5/apps/autoset_channel'
+mips-linux-uclibc-gcc -o autoset_channel -O2 -Wall -Werror -I../wireless_tools.2        9 main.o wlanconfig.o iw.o tlog.o cfg.o -lpthread -lm  -L../wireless_tools.29 -l        iw
+/usr/share/mips-gcc-4.6/staging_dir/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6        .3/../../../../mips-openwrt-linux-uclibc/bin/ld: warning: libdl.so.0, needed by         /usr/share/mips-gcc-4.6/staging_dir/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6        .3/../../../../mips-openwrt-linux-uclibc/lib/libpthread.so.0, not found (try usi        ng -rpath or -rpath-link)
+这个错误一点曾经碰到过，不知道怎么解决的。
+
+git clone --bare的东西，会没有remote？奇怪啊。
+push的时候碰到了：error: insufficient permission for adding an object to repository database ./objects
+fatal: failed to write object
+error: unpack failed: unpack-objects abnormal exit
+到服务器上看到git/objects下有一些所有者是root的文件，都是2014年的。git gc也同样报错，运行sudo chown -R git:git objects 就可以了。
+
+12-10
+无网络的qsdk3编译，这个算是完成了。
+编译8m的程序会报错：
+ssh: Could not resolve hostname qca-git01.qualcomm.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Makefile:281: *** Download/default is missing the FILE field..  Stop.
+Package prerequisite check failed.
+make[2]: *** [tmp/.prereq_packages] Error 1
+make[1]: *** [prereq] Error 2
+make: *** [world] Error 2
+
+看这个qca-git01.qualcomm.com在哪里用过了：
+jian@jian-OptiPlex-9020:~/work/qsdk3$ grep qca-git01.qualcomm.com * -r
+qca/feeds/wlan_10_2/qca-wifi/Makefile:PKG_SOURCE_URL:=ssh://qca-git01.qualcomm.com:29418/wifi/$(PKG_NAME)-10.2.git
+qca/feeds/qca_10_4/utils/qca-spectral-10.4/Makefile:PKG_SOURCE_URL:=ssh://qca-git01.qualcomm.com:29418/wifi/$(PKG_NAME).git
+qca/feeds/qca_10_4/net/qca-acfg-10.4/Makefile:PKG_SOURCE_URL:=ssh://qca-git01.qualcomm.com:29418/wifi/$(PKG_NAME).git
+qca/feeds/qca_10_4/net/qca-wrapd-10.4/Makefile:PKG_SOURCE_URL:=ssh://qca-git01.qualcomm.com:29418/wifi/$(PKG_NAME).git
+qca/feeds/whc/qca-whc-repacd/Makefile:PKG_SOURCE_URL:=ssh://qca-git01.qualcomm.com:29418/whc/qca-whc-repacd
+qca/feeds/wlan_10_4/net/qca-wifi-10.4/Makefile:PKG_SOURCE_URL:=ssh://qca-git01.qualcomm.com:29418/wifi/$(PKG_NAME).git
+qca/feeds/wlan_10_4/net/qca-hostap-10.4/Makefile:PKG_SOURCE_URL:=ssh://qca-git01.qualcomm.com:29418/wifi/$(PKG_NAME).git
+
+12-9
+使用gcc4.3.3编译的工业路由器qsdk版本大小：
+drwxrwxr-x 2 jian jian     4096 11月 20 17:45 burn
+-rw-rw-r-- 1 jian jian 26731779 11月 20 17:45 P53_6.5_161120_all.zip
+drwxrwxr-x 2 jian jian     4096 11月 20 17:45 remote_update
+drwxrwxr-x 2 jian jian     4096 11月 20 17:45 tftp
+-rw-r--r-- 1 jian jian   131072 11月 20 17:45 tozedap-router_4g_industry_ap123_data-jffs2
+-rw-r--r-- 1 jian jian  4296704 11月 20 17:45 tozedap-router_4g_industry_ap123-squashfs
+-rw-rw-r-- 1 jian jian    55553 11月 20 17:43 tuboot.bin
+drwxrwxr-x 2 jian jian     4096 11月 20 17:45 update
+-rwxrwxr-x 1 jian jian  3080740 11月 20 17:42 vmlinux_ap123.bin
+-rw-rw-r-- 1 jian jian  1413274 11月 20 17:42 vmlinux_ap123.bin.gz
+-rw-rw-r-- 1 jian jian  1042725 11月 20 17:43 vmlinux_ap123.bin.lzma
+-rw-rw-r-- 1 jian jian       35 11月 20 17:42 vmlinux_ap123.info
+-rw-rw-r-- 1 jian jian  1042789 11月 20 17:43 vmlinux_ap123.lzma.uImage
+-rw-rw-r-- 1 jian jian  1042789 11月 20 17:45 vmlinux_routing.lzma.uImage
+
+
+15:41 git-daemon --reuseaddr --base-path=/opt/git --verbose --export-all 这样就可以开一个没有权限的git仓了。而且是只读的，就这样可以把
+14:00 openwrt_cc和qsdk的dl放在一起
+11:07 为什么123从112上复制文件的速度只有10mb，奇怪的事情。
+11:03 张勇 qsdk的加密是对的，只是由于没有4g支持，脚本运行错误，没有运行到加密的部分。
+
+10:36 
+梁剑 花生壳的ddns已经可以得到地址了，但没法ping通。苗立双说只有电信的3g网络给的是公网地址。
+苗立双 还是想让华域的增加一些函数，当前恢复出厂太慢了。
+
+12-8
+14:40 终于把1.2换成了我这里，主要是找那个mac克隆找了好久，开始还以为是没有。还有就是速度一直限制在10m，原来是恢复出厂后有个qos?的设置限制了，奇怪的默认配置。再往前居然是恢复出厂搞了半天，192.168.1.1连不到，再次恢复还过了好久又莫名其妙的可以了。再往前，把mac写成了全0，不能连了，只好恢复出厂。不过参数已经备份下来了。
+14:30 忘记去7天酒店拿发票，根本就扔在脑后了。
+9:34 249ssh的速度非常慢，奇怪的事情，感觉所有的机器登录ssh都很慢。
+
+12-7
+李柱栋 没有去上海，clk出来了，但是只有64k，不够slic的速度。
+15:30 华为的egw2160路由器中，如果没有密码的ssid，可以设置的最大用户数就是124，如果是wpa以上的加密方式，就只能设置64个了。
+15:20 张勇 汪光华 吴曦 讨论了一下dhcpd和网关不在一起的网络。
+11:30 和中兴微电子的人来，杨学森和许兴奎。王伍说了几个方面，全包升级，时间是否太长，flash要求是否太大。wifi是否要校准，厂测工具。底板的参考设计，网优参数，snir srnp等， volte的apn要能修改。
+9:09 陈良 菲律宾的要再14日长测，想黄武今天出板和bom。姚国梁的签证没法加快，这样13日就没有人去菲律宾了。
+
+12-6
+22：00 李柱栋 方陈 李柱栋非常着急pcm的clk没有出来，想去联芯调试，方陈想等板子回来。
+
+这个puk是哪张卡的？18119992
+
+工业路由器移植qsdk后还需要进行的工作：
+wlanconfig ath0 list中又0m的显示
+tozedxxx。ko需要移植到新的内核，实现看门狗，gpio， 各种灯，commreg
+最好不要升级uboot，内核写死启动参数。
+wifi加密方式支持
+wifi功率验证
+wifi距离测试
+ddns, l2tp, pptp
+内核中的以太网驱动看起来只有eth0了。
+4g模块支持
+校准支持
+
+1 当前连续运行2天没有无线中断的情况，同样的硬件lsdk驱动连续1天后出现不定时wifi中断情况。但可以恢复。
+2 使用馈线之间连接测试中，切换到单天线打流未发现出现断流情况。
+3 使用联想小新笔记本无线网卡linux可以长连10多个小时，同样的笔记本，如果连m60，2个小时左右就会无法ping通，必须笔记本重新连接。
+
+12-5
+15:32 route del default
+route add -net 192.168.1.0/24 gw 10.8.0.2
+这样来能够访问公司网络，但是不能出外网。
+
+15:06 谢世乐写了些软件登记的信息。
+
+14:26 qsdk3看起来编译成功了。
+
+11:00 陈良 p21剩余的工作一个是wps的灯还需要修改，另外由于更改了拨号流程，需要大量的测试。当前由占永平进行。天线的问题当时还存在一个问题，华为的设备是两个天线接上才能切换到外置天线，中兴的是接了哪个切哪个。而我们的则是接上了一个就切了。后面改成华为的样子的。由于gpio不够，那么就只有自动模式，没有网页设置，两个都接上了就是外置，否则就是内置。
+安徽的不断断线的情况，是核心网升级了，1761模块存在问题。联芯的人去过现场，改过程序后的两个点没有再出现断线的情况。后续的升级就比较复杂，主要是1761模块的版本特别多。准备只升级那些报有问题的。
+7628的那个ap在陈良看来不好用，进程微信的图片无法发出去。
+菲律宾的网速非常慢，存在非常多的小运营商。所以陈良认为wbs还是很有机会。
+
+10:32 delphi7中的listview改变了column后，貌似要重启才能真的改变内容的显示。否则总是不对的。
+
+10:20 徐钢雄带测试的来借卡，他的卡被刘云借走了，刘云的被华域的借走了。
+任银善 已经上传了qsdk中的其他代码，继续编译中。
+
+
+9：58 喻潇 一个工业路由器今天来发现卡不识别了。放在其他机器上可以使用，这个机器使用其他卡也可以使用。这个问题原来是这个卡存在pin码，而宽翼的模块在有pin的情况下
+
+李柱栋 slic的驱动api看起来还比较复杂。pcm应该比较简单，就是几个语句的事情。
+
+张勇 海外来问一个吸顶的ap，需要poe向外供电，使用路由方式。软件改动到不是很大的样子。
+工业路由器还要加ddns, l2tp, pptp.
+ubus的使用还比较陌生，还要多看看。
+
+总感觉系统的速度有点慢，貌似把virtualbox中的win7内存改小一点就好了。
+
+12-1
+11:19 重新在virtualbox中安装win7，又能发送邮件了。win7给24g空间，是不是太小了？
+任银善 qsdk3.0已经可以编译。
+
+9:26 工业路由器的wifi又恢复了，而且没有什么报错之类的。真的好难受了。
+
+工业路由器那个wifi也连不上了，真是个悲催的日子。
+
+邮件又开始发送不了了。换回旧版本的bat也报那个什么is not porperly address。卸载那个无线驱动也没有用。
+
+编译qsdk出现./build_dir/target-mips_r2_uClibc-0.9.33.2/qca-legacy-uboot/ap135/mkconfig这个文件没有执行权限的错误。
+
+11-29
+通过这样来把svn的仓转到本地的git:
+git svn clone  http://192.168.1.123/svn/am3517sd
+
+李柱栋 和吴曦简单的聊了一下，吴曦觉得今年太累了。李柱栋自己有一定的提升，以前确实有不在其位，不谋其政的思想。现在觉得，如果混日子，老板损失的只是一份工资，根本不算是损失，而个人损失的是青春，非常大的损失。
+
+编译dnsmasq最新版需要COPTS=-DNO_INOTIFY
+
+
+11-28
+把路由器的地址设置到了10.19.0.1，本地地址设置到了10.8.0.100，本来192.168.19.x也是特别的。
+google.cn本身是可以访问的，可以在它里面下载chrome，不过搜索功能还是转到了hk，继续不能用。
+chrome的字体很奇怪，fxiaoke这个网站更加，各种字体分开来。感觉只有xiaoke这个网站问题大一些，那就这样吧。
+
+梁剑 原来方舒做的烤机程序在win7下出现某些设备不能用的问题，想用vc重新做一个。
+
+喻潇 出现笔记本不能连接wifi的情况，dmesg出现"not sta mode"这样的错误。同时她的iphone连接正常，上网无异常。重启后一样。我再重启后消失，但发现如果在13信道效果非常差，换6信道还行。到屏蔽房关门ping没有问题，开门非常差。徐钢雄认为是pa坏掉了。
+
+11-25
+宽翼模块的mtd部分
+dev:    size   erasesize  name
+mtd0: 00280000 00040000 "sbl"
+mtd1: 00280000 00040000 "mibib"
+mtd2: 00c00000 00040000 "efs2"
+mtd3: 00100000 00040000 "tz"
+mtd4: 00080000 00040000 "rpm"
+mtd5: 00080000 00040000 "aboot"
+mtd6: 00800000 00040000 "boot"
+mtd7: 01440000 00040000 "scrub"
+mtd8: 037c0000 00040000 "modem"
+mtd9: 01440000 00040000 "misc"
+mtd10: 00700000 00040000 "recovery"
+mtd11: 05040000 00040000 "fota"
+mtd12: 00980000 00040000 "recoveryfs"
+mtd13: 12400000 00040000 "system"
+
+
+11-21
+在win7下这个微信客户端又占用的大量的连接，导致印象笔记没法同步。也有可能是这个笔记自己同步不了了，从任务管理器kill笔记这个进程，重新运行才好用的。
+win7本身居然存在“基于unix的应用程序子系统”这样的东西。
+
+11-20
+总算重新在工业路由器中编译了qsdk，当前还有art, 4g驱动, 自己的ko没有编译好。
+这个地址讲述如何在ubuntu中右键打开terminal
+http://www.linuxidc.com/Linux/2012-05/59565.htm
+步骤其实很简单：sudo apt-get install nautilus-open-terminal 然后：nautilus -q或者重新登录。
+
+ 订单编号：600000000000008316112053273626
+大三元套餐 每月仅需3元 玩出×1
+17388731322
+卡类型：4G小卡
+号码低消：0.0
+套餐：欢go大三元套餐
+简亮
+¥30
+在线支付
+WEB订单
+2016-11-20 18:49:21
+系统审核订单
+订单详情
+订单跟踪
+
+
+11-18
+用一个ubuntu15来编译qsdk吧
+/etc/apt/sources.list 这个是ubuntu的源的文件。
+
+这个虚拟机居然只配置了4.6g的空间，有点搞了。
+apt-get install make gcc g++ sharutils zip zlib1g-dev automake autoconf libtool subversion libncurses5-dev ocaml-nox
+
+11-15
+今天来这个小狼毫输入法不能输入任何信息了，在任何窗口都是这样，只好重新启动win7的虚拟机。
+姚国梁 p21存在不能启动的现象，如果是联芯的模块，每次都能启动，如果是宽翼的模块，就有不能启动的情况发生。串口无响应，不能ping通。
+吴曦 在做双apn的时候，需要两个网卡都加入缺省路由，再加上两个无线的ssid就可以分别走两个lmi40,lim41分别出去了。
+梁剑 广东的银联测试还有最后一个问题。
+
+11-11
+在sdk9.5上尝试各种补丁，还是存在设置为单天线时很快挂掉的情况。
+
+11-10
+21:10 王伍 继续讨论中间层的东西。
+18:20 单总 开短会要求把7628的wifi搞好，还是有很多机会。
+
+16:07 18109e20这个寄存器的值貌似没有办法修改，总是初始化的值。
+viewreg 18109e20
+3ce
+/bin # echo 18109e20 3d6 > /proc/tozed/commreg
+setting comm reg 18109e20 to value 3d6...
+/bin # viewreg 18109e20
+3ce
+
+14:00 张勇 升级包名称各种规则比较烦。
+11：21信可模块公司来了一群人，来谈合作的事情。王伍认为他们没有做多少工作，想自己做中兴的模块。
+9:10 王伍开了短会，讨论使用宽翼模块会在串口偶然吐出大量的错误信息导致系统停滞，表现为网页不能刷新的现象。苗认为是linux系统的问题，应该和宽翼无关。
+p21的开机速度问题，这次需要加快。
+9:00 王伍 说那个softethnet太复杂，需要专门的小组来完成才有可能。用户分级是指web,telnet,ssh的用户统一管理。
+
+
+11-9
+单总早上说了几个事情：总结来说就是摄像头和工业路由器都有相当的市场。需要继续投入力量。
+王伍继续催中间平台的事情。
+
+
+11-8
+貌似很忙，但是事情好多都不记得了。
+
+
+11-7
+set ipaddr 192.168.19.33 && set serverip 192.168.19.100
+tftp 0x80060000 vmlinux.lzma.uImage&&erase 0x9f680000 +$filesize&&cp.b $fileaddr 0x9f680000 $filesize 
+tftp 0x80060000 tozedap-si-jffs2 && erase 0x9f050000 +0x630000&&cp.b $fileaddr 0x9f050000 $filesize
+
+15：15 陈良 问那个wifi中继器的事情，我还不知道那个产品要做什么。
+
+14:54 使用这个win7虚拟机复制又不能共享了，难道是设置的原因？恩，在设置中没有把剪贴板的使能打开。
+
+14:46 iperf2在cpe上运行-s，那么在pc端要打上行就会变成一秒的时间，其他10秒都是下行。
+如果编译iperf3呢，一开始是那个fp_zero没有定义的情况，其实在所有的math.h中都存在它的定义。但是它就是报没有定义。好吧，把它们的定义直接复制到那个cjson.c中，那么在link的时候出现：
+.../mips-linux-uclibc/bin/ld:gcrt1.o: No such file: No such file or directory.
+在这个帖子中：
+https://www.linux-mips.org/archives/linux-mips/2008-12/msg00148.html
+最后提问者号称要重新编译一个出来，但后面就没有了。
+在这个帖子中：
+http://bbs.csdn.net/topics/390723992，直接没有任何回应。
+
+9:01 微信这个软件有些搞吧，有一大堆 
+  TCP    jian-3fc56876ff:4672   183.3.229.91:http      CLOSE_WAIT
+  TCP    jian-3fc56876ff:4693   183.3.229.86:https     CLOSE_WAIT
+  TCP    jian-3fc56876ff:4714   183.3.229.91:https     CLOSE_WAIT
+  TCP    jian-3fc56876ff:4816   183.3.229.44:https     CLOSE_WAIT
+  TCP    jian-3fc56876ff:4858   183.3.229.140:https    CLOSE_WAIT
+  TCP    jian-3fc56876ff:4864   183.3.229.156:http     CLOSE_WAIT
+  TCP    jian-3fc56876ff:4870   183.3.229.143:https    CLOSE_WAIT
+  TCP    jian-3fc56876ff:4964   183.3.229.88:https     CLOSE_WAIT
+  TCP    jian-3fc56876ff:4980   183.3.229.92:https     CLOSE_WAIT
+  TCP    jian-3fc56876ff:4996   183.3.229.156:https    CLOSE_WAIT
+导致发邮件失败。
+居然还不是这个原因，仍然报错。切换到win7就可以了，看来这个xp又出问题了。难道是我关闭了某些服务导致的？还有,就是那个passkeeper在win7下可以运行，但是在xp上总是报打开那个存档文件有问题，难道win7增加了些什么东西？
+
+姚国梁 出现的视频通过4g上传会出现不规律的停止现象，当前修改mtu从1500到1200后没有出现了。没有机会测试更多的值的情况。
+
+11-4
+set ipaddr 192.168.19.33 && set serverip 192.168.19.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftp 0x80060000 tozedap-cp_ap123-jffs2 && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+tftp 0x80060000 tuboot.bin && erase 0x9f000000 +0x10000&&cp.b $fileaddr 0x9f000000 $filesize
+
+11-3
+昨天遗留的一些问题：
+非洲一个客户不能使用xl2tp拨号上网
+
+早上处理几件事情，苗立双那里出现的udp转发，必须重启才生效，这个是非常奇怪的现象。而tcp转发的规则是立即就又效果的。
+刘云的华域模块以太网和wifi测速，发现很多情况根本没有什么速度。
+
+为什么今天编译iperf会出现这么多错误：
+Listener.cpp: In member function 'void Listener::Accept(thread_Settings*)':
+Listener.cpp:430: error: invalid conversion from 'int*' to 'socklen_t*'
+Listener.cpp:430: error:   initializing argument 6 of 'ssize_t recvfrom(int, void*, size_t, int, sockaddr*, socklen_t*)'
+Listener.cpp:455: error: invalid conversion from 'int*' to 'socklen_t*'
+Listener.cpp:455: error:   initializing argument 3 of 'int accept(int, sockaddr*, socklen_t*)'
+Listener.cpp:463: error: invalid conversion from 'int*' to 'socklen_t*'
+Listener.cpp:463: error:   initializing argument 3 of 'int getsockname(int, sockaddr*, socklen_t*)'
+Listener.cpp: In member function 'void Listener::UDPSingleServer()':
+Listener.cpp:495: error: invalid conversion from 'int*' to 'socklen_t*'
+Listener.cpp:495: error:   initializing argument 6 of 'ssize_t recvfrom(int, void*, size_t, int, sockaddr*, socklen_t*)'
+Listener.cpp:523: error: invalid conversion from 'int*' to 'socklen_t*'
+Listener.cpp:523: error:   initializing argument 3 of 'int getsockname(int, sockaddr*, socklen_t*)'
+还有：
+ReportCSV.c:(.text+0xa8): undefined reference to `rpl_malloc'
+Reporter.o: In function `ReportServerUDP':
+好吧，总算编译过了。
+感觉如果使用make BOARD_TYPE=db12x toolchain_build编译出来的编译器就会报那个ccache错误，如果直接编译就没事。
+
+梁剑 为开机启动折腾了好久。
+
+set ipaddr 192.168.19.33 && set serverip 192.168.19.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftp 0x80060000 tozedcpe-ap_ap123-jffs2 && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+tftp 0x80060000 tuboot.bin && erase 0x9f000000 +0x10000&&cp.b $fileaddr 0x9f000000 $filesize
+
+11-2
+16:20 iperf这个东西的编译需要用到g++，我现在重新编译这个编译器，出现了无数多的texi的错误，真的非常郁闷的事情。算了删除toolchain目录重新来过吧。还是不行啊，这也奇怪，本来昨天都编译通过了的。
+有一个测试人员来应聘，测试过网站的，使用过mantis，禅道等工具，使用供loadrunner等自动化测试工具。要5.5k。
+王伍 在产线上碰到这样的问题，启动后网络不通，通过wifi登录后发现eth0存在，但是如果ifconfig eth0 down可以，但是ifconfig eth0 up就会报错了。从网站上来看这颗芯片有多种型号，我们使用的是C，支持所谓的always on always connect特性，不知道这个特性是做什么的。有一个更新的版本从4.17到4.18，但看改动似乎没有太多的修改。
+汪光华在做不停的重新启动测试，到现在似乎没有发现类似的情况。
+
+pdca: plan do check act.
+
+为什么会有这么多错误：
+/opt/work/ath9.5/build/gcc-4.3.3/toolchain_build_mips/gcc-4.3.3/gcc/doc/invoke.texi:961: @itemx must follow @item
+/opt/work/ath9.5/build/gcc-4.3.3/toolchain_build_mips/gcc-4.3.3/gcc/doc/invoke.texi:8580: @itemx must follow @item
+/opt/work/ath9.5/build/gcc-4.3.3/toolchain_build_mips/gcc-4.3.3/gcc/doc/extend.texi:4234: @subsection seen before @end table
+/opt/work/ath9.5/build/gcc-4.3.3/toolchain_build_mips/gcc-4.3.3/gcc/doc/extend.texi:4263: @item outside of table or list
+/opt/work/ath9.5/build/gcc-4.3.3/toolchain_build_mips/gcc-4.3.3/gcc/doc/extend.texi:4264: @itemx outside of table or list
+/opt/work/ath9.5/build/gcc-4.3.3/toolchain_build_mips/gcc-4.3.3/gcc/doc/extend.texi:4277: unmatched `@end table'
+
+17:05 梁剑 下周要去调广州银联。
+17:43 彭广才 王伍 问关于工业路由器重启的事情，早上测试的情况是使用tplink的9v的电源，那么就会出现把模块断电，上电而系统复位的情况。
+
+18:41 为什么还是报这样的错误：ccache: failed to create /opt/work/ath9.5/build/gcc-4.3.3/toolchain_build_mips/ccache-2.4/cache (No such file or directory)
+
+安装这样把makeinfo降级
+wget http://ftp.gnu.org/gnu/texinfo/texinfo-4.13a.tar.gz
+tar -zxvf texinfo-4.13a.tar.gz
+cd texinfo-4.13
+./configure
+make
+sudo make install
+
+11-1
+刘云来请求支援。关于fota的几个开机启动检查更新等，希望由梁剑来做。
+
+10-21
+set ipaddr 192.168.19.33 && set serverip 192.168.19.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftp 0x80060000 tozedcpe-df_ap123-jffs2 && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+tftp 0x80060000 tuboot.bin && erase 0x9f000000 +0x10000&&cp.b $fileaddr 0x9f000000 $filesize
+10-18
+使用sort可以简单的把git中backup的文件排序。
+
+10-17
+killall TZmacwriter
+tzphone wdt_disable
+
+killall valgrind ; killall -9 boa ; valgrind -v --leak-check=full --trace-children=yes --trace-children-skip=/system/bin/iptables,/system/bin/chmod,/system/bin/getprop,/data/tz_local_conf/iptables_build_all,/system/bin/sh --log-file=/tmp/11.log boa
+
+busybox tail -f /tmp/11.log
+10-15
+早上增加对键盘的初始化gpio操作。
+
+10-14
+一早开会，李总总体来说对研发满意，认为研发走在了公司的前列。许诺有期权等多种分配方式。
+早上得到西森美康的消息，我们的打分在第一名。
+下午折腾了一下valgrind，在1860平台上已经有这个软件，编译起来也没有碰到多少问题，由于tzphone现在无法从命令行简单的运行，所以如何查错还是个问题。
+
+10-12
+早上做了什么，这是个问题。
+彭广才：希望射频工程师能做得住，一点一点对指标，然后和天线厂家仔细对指标，花大力气把wifi性能提高。
+李忠 使用9531的两个板子，在李忠那里双向打流的效果也很差，加起来只用3m。同时也认为上下行不一致，上行高于下行。
+
+10-10
+10:42 4g固定台使用最新的程序，拔掉天线，没有出现重启的情况。扣上天线，界面还是很快出现了中国移动的字样。
+任银善 按照朱建文的反馈，9531无法再sdk9.5上编译。ath9.5下的9531似乎无法编译。
+下午朱建文发来了驱动，应该还是原来发给我的那个吧。
+宽翼的程序重新下载可用编译了，但是删除了算有的git目录又无法编译了。先不删除再编译一次看看吧。不删除任何东西，那么是可用编译通过的。
+姚国梁 ip passthough貌似不好用，开始是去掉了usb0的ip后，苗立双的容错程序立即重新得到一个地址。
+比较两次下载的宽翼的sdk，4个文件的md5都不相同，好吧，居然会这样。
+颜斌 在72m下功率不会增加，还是10dm，也许是只有低功率的情况下增加了。
+
+10-9
+早上虚拟机出现了dns变成192.168.1.45的情况。真的非常奇怪啊。
+10.10在笔记本上也出现了这样的情况，感觉是我的路由器上在wan口和lan口上同时插了公司局域网网线的原因。这样会有回环吗？难道是我把公司局域网搞瘫痪了？
+下午在华域，商讨的问题是，算了，刘云的那个邮件不见了。
+
+
+10-8
+晚上王伍使用双流cpe对4g固定台进行测试，发现了奇怪的现象。cpe用馈线连接1860，cpe网口和1860网扣各接一台电脑。从cpe下面的电脑ping王伍的电脑，但是不能ping到另外一台电脑，1860上王伍的电脑和另外一台电脑更换了许多次都是这样的现象。
+
+9-30
+工业路由器西森美康说路由器有不断的拨号，断开动作，到了现场发现ip并没有改变。关闭了那个第二个连接后，仍然存在，又去看什么保持连接的方式，应该是重启后就没有这样的事情了。
+
+9-29
+4g固定台：
+修正了br0随机地址，余小虎又谈到了eth0的地址是随机的问题，原来是他使用新的usb网卡驱动的时候没有把重试的次数增加到10。
+
+陈良：安徽的割接已经算是顺利的通过了吧，现在河北的cpe网管问题是主要问题了。河北当前有三个问题
+
+9-28
+王伍：
+菲律宾的4g cpe方案要采用以9x07为主，以9531为辅助的方案，这样的做法就类似于p11套装了。认为这样的做法能比较块的出成品。
+和陈玉商量，让余小虎继续斯里兰卡呆着，在十一这段时间里，629能调斯里兰卡的voip程序。
+余小虎在我在成都的时候向陈玉抱怨，说公司没有很好的支持斯里兰卡的项目。
+4g固定台需要增加功能：
+1 增加一个ip转发的页面, 配置工具需要支持ip转发的配置，当前要把斯里兰卡电信voip服务器地址做为斯里兰卡电信的配置，要到吉林移动voip的几个地址
+2 增加一个设备信息的按键，按键后读取ifconfig, route, iptables, netstat, meminfo, ps, top 等信息，下载到计算机，给以后的分析方便。
+3 网页增加分析工具，包括ping和tracert
+
+李柱栋：今天继续测试voip，发现拨打我的电话能拨通，但是我这里没有任何提示。使用天波的机器也是这样。
+
+9-27
+彭广才 原来赚钱的时候成了无线部，开发了模块。打价格战容易把自己拖死。现在战线有点长。
+张勇 去看实际运行的工业路由器白跑了一次。
+
+9-26
+喻潇那里待机的机器4g固定台出现了不能上网的情况，那个双向箭头的图标没有了，web页面上的可用内存只有15m，cache还有50多。killall rild没有作用，killall tilc后机器重启。从logcat来看，又ril层通讯失败的样子。郑杏泉说ril层是android的，而联芯在其上又做了一层。上次网页不停的调用后，出现了问题，郑杏泉也写过一个调用的程序，感觉有时候可用，有时候有问题。
+
+汪光华那里的机器出现状态网页点一次内存下降1m的情况。但是点击多次后，会从cache中释放到可用内存中。
+
+王伍 如果出现内存变到cache中的情况，就非常容易出现，
+
+9-20
+/sys/devices/platform/comip-wdt.0
+19:26 使用吸顶ap，速度是环创的2倍。
+讨论去重庆的事情。
+李忠：4g固定台的wifi，在环创吸顶ap开启的时候打流会受非常大的影响。
+16:09 使用环创的程序的吸顶ap，用户增加到18个，速度保持不变。
+15:32 梁剑 张勇 使用其他的串口转接板不能看到9344的串口数据，我机器上的可以。
+15:21 使用环创的程序的吸顶ap的速度再800-1m，还比较平稳。
+11:37 张勇 双wan情况，切换到4g后，自动检查以太网是否能够联网不容易做到。
+10:12 梁剑 考虑如何动态换logo。
+陈玉发来了印度ap的logo。颜斌问要做成9341小ap的功能要多长的时间。
+9:53 好吧，又拔了半天的网线。
+人事来问招人的情况。
+刘汉琴 说有经验的人不好招，停下来再开始会有较长的周期。苗立双请假不扣钱的事情还要再想办法。
+
+9-18
+事情太多了：
+王伍 早上开4g固定台的会，感觉气氛紧张。
+
+9-14
+郑杏泉 free-cwap这个软件是openwrt专用的，而我们一直用的是net-cwapd这个软件，还比较复杂，貌似没有现成的bb文件。
+net-snmp已经可以在windows上的软件看见相应的内容了。
+
+吴曦 为什么ifconfig什么都没有显示了？也不知道什么时候ifconfig又变回不是busybox的ifconfig了。
+
+赵金 发出生产的邮件，P10PF机型测试信号灯异常事宜！
+昨日我司生产P10PF机型时，产线测试发现机台插上电源时信号灯出现红灯闪亮，测试2000PCS，发现68PCS不良，不良率：3.4%。
+苗立双认为要么是程序的问题，要么是硬件的问题。红灯亮时，表示的时信号很差，只有一格。
+
+张勇 如果能够自定义网卡的每个灯的状态就比较好。
+
+早上开会。说了几个项目：
+1 m60斯里兰卡的测速，感觉是斯里兰卡电信中有两派，其中反对我们的设备方提出供货的产品都要能达到75m。昨天测试的时候，关闭了天线中3个小区的2个，这样就只有1个可以使用，开始找的点，m60测速不好，拿出华为的速度也不能到75m，所以继续找，到第二个点，华为的5次测速有两次在60多，3次在80m以上。而m60平均只有60左右。
+2 dialog要的volte，
+这个原来答应在8月底完成，当前其实还对完成日期没有底。白俊剑发出邮件，详细说了几个可能的问题。目前分析要点：
+3 p21有需求，当前卡在629上，而629在吉林和斯里兰卡都没有处理完。
+4 南美项目
+南美对我们的报价满意，将要进行验厂和西安测试。
+5 印度小ap, 这个wifi性能还没有把握。
+6 菲律宾的g20，菲律宾这个客户是优质客户，付款非常及时。有新的需求，就是要5.8g或者2.4g的cpe，还要了解清楚一下客户的需求。
+7 机顶盒项目。
+
+
+9.13
+virtualbox可以多个虚拟机同时加载某个物理硬盘。
+
+9.12
+几个项目的进展
+工业路由器：张勇想把拨号程序和脚本进行简化，加上data区，改为squash文件系统，配置文件放在data区，web保存命令简化。其中“加上data区，改为squash文件系统 ”已经完成。
+
+9.10
+在华域，郑庆全程陪护，把net-snmp编译完成，编译的过程出现过各种错误，比如一开始就有的文件已经存在等，是否要bitbake加 -b参数等。
+李瑶的网页那端看起来到没有什么问题，本来以为没有html文件的，实际上全在index.html文件中，非常大，几千行。所有的页面其实都是一个页面，控制是否隐藏。他感觉可以完成。
+刘云主要讨论灯的控制由谁来完成，由于还有对按键的控制，那么觉得还是由华域来完成算了。
+
+密:by 23110046
+9.9
+工具升级还存在升级慢的问题，颜斌提出做一个应用程序，在用工具升级的时候下载进去，控制灯的闪烁。这样，升级操作后，可以把设备放在一边，不必等待升级过程，直接操作下一台。
+
+王伍 使用iptables限速，限速非常没有规律。
+
+赵金 下午请假去看眼睛。
+
+陈华彬的ap：
+开始进入的是工程模式，要设置一下,aadmin,密码adminsangfornetwork
+要先把校准区搞好，否则不断重启。
+好吧，以太网不能通，这搞笑了。
+Sundray-AP / #ifconfig wan 192.168.19.9
+Sundray-AP / #ping 192.168.19.1
+PING 192.168.19.1 (192.168.19.1): 56 data bytes
+
+--- 192.168.19.1 ping statistics ---
+3 packets transmitted, 0 packets received, 100% packet loss
+dmesg中有这样的错误：
+[    2.480000] eth0: Atheros AG71xx at 0xb9000000, irq 4
+[    3.036000] ag71xx ag71xx.0: eth0: no PHY found with phy_mask=000000ff
+进去后：factest --mode -w factory
+
+这个脚本用来查找arp表，并自动对其中的ip进行限速。
+if [ -e /tmp/.rm_iplimit ] ; then
+        /tmp/.rm_iplimit   
+       rm /tmp/.rm_iplimit                                                                       
+fi
+
+#set -x
+if [ "$1" = "0" ] ; then
+        exit
+fi
+
+
+ips=$(busybox arp -a | busybox cut -d ' ' -f 2 | busybox cut -d '(' -f 2 | busybox cut -d ')' -f 1)
+for  ip in $ips ;  do
+echo $ip
+iptables -A FORWARD -s $ip -m limit --limit $1/sec -j ACCEPT
+echo iptables -D FORWARD -s $ip -m limit --limit $1/sec -j ACCEPT  >> /tmp/.rm_iplimit
+iptables -A FORWARD -s $ip -j DROP
+echo iptables -D FORWARD -s $ip -j DROP >> /tmp/.rm_iplimit
+done
+
+if [ -e /tmp/.rm_iplimit ] ; then
+        chmod 777 /tmp/.rm_iplimit
+fi
+
+
+9.8
+关于升级失败的问题苗立双给出了如下几个方面的改进意见：
+1 减少系统文件的占用，把校准文件nart.out和模块升级文件adb从系统中去处。当需要进行这样操作时，临时上传相应的文件。
+2 赵金的升级工具同时使用另外一个接口查看系统运行状态，是否存在tar, update在运行，如果以上程序在运行，那么即使和李瑶的升级伺服程序通讯失败也暂时不要报失败。
+
+郑杏泉 已经可以在9x07上编译一个应用程序。
+
+梁剑 问mib中各个值如何填写，其实我们应该不用提供mib文件给招标商。
+
+拉美9x07应该缺如下内容：
+1 lte缺参数
+2 snmp
+3 tr069
+4 网页（管理页面）
+
+9.7
+喻潇 赵金的升级程序仍然会出现升级失败的情况。
+
+为什么当前使用4.4.7的编译器会出现 crt1.o: No such file: No such file or directory这样的错误呢。
+
+9.6
+9x07中运行telnetd，可以登录，但是输入密码后要等好久才能出现命令提示。
+
+web编译过去了，原因有几个，第一是从virtualbox复制出来的文件，居然把MAKEFILE变成了全0，奇怪的事情。第二是又是文件存在，要手工提前删除，第三是要给rpm目录下的文件增加运行权限。
+
+工程生产p10p，使用赵金的工具升级，出现升级失败的情况。按照苗立双的分析，是因为从非只读系统到只读系统，读取sessions的位置改变，导致升级过程中赵金读取升级过程的网页判断返回的就是验证失败导致404错误，如果出现这样的错误，那么重新验证就应该可以 了。
+
+面试一个人，一直做项目管理的。但从事行业到差不多，给邦讯供过货。去年移动室外机出了20万，室内机应该出了几百万。
+
+整个研发只有苹果和mate8支持volte。
+
+晚上电话给吴福得电话，他在一个机器人公司工作，但由于项目停滞，很多人已经开始离职。感觉还是非常希望更换工作，在做9342的过程中，对驱动的修改在extap模式下，修正了当客户端的mac改变时有错误。对于传输距离的问题，开始软件也改了很多，也修改了acktimeout这个参数，但后来硬件上做了电阻电容匹配，使用了陶瓷天线后，软件不用修改也可以使用。pa做到了26。薪金要求税后23k。
+
+9.5
+王伍 估计volte没法让李柱栋来做了，要白俊剑他们自己完成。
+
+徐钢雄 还有灯一定要做。
+如果usermod -a -G dialout jian这样， 运行minicom就不用sudo了。
+
+如果以太网卡不采用swap的方式，那么就没有软件去控制灯了。写gpio_function就能起作用了。不过加载usb模块的驱动后，又被占用了，还要不断写function寄存器。
+
+姚国梁 宽翼模块的多apn程序已经发来，要进行验证了。
+
+华域的web已经发来，但是按照编译说明还无法编译。晕死，文档中的-是中文符号。不过使用的web服务器是一个叫做Mongoose的轻量级级web服务，从网上的资料来看，是直接支持https的，可以不用额外去找其他服务器了。
+
+张勇 有个工业路由器校准后wifi就不能启动了。
+
+9.4
+virtualbox4 剪贴板失效, 原因是那个virtualbox tray没有运行。差点重新安装ubuntu。
+http://blog.csdn.net/lazyclough/article/details/7485999
+
+打电话给朱建文和陈华彬，朱对802.1x没有太多研究，陈说hostapd有很多日志，要通过日志查问题。
+
+用户组操作的指令，原来是把“增加”组的指令输入成了“修改”组的指令，所以导致好几个问题，第一是sudo不能用了，导致不得不去到所谓的安全模式重新增加用户到sudoers中。第二是不能在界面上直接访问第二个硬盘了。第三是莫名其妙的virtualbox的usb又不能共享了。
+usermod -g group loginname
+强行设置某个用户所在组
+usermod -G groups loginname
+把某个用户改为 group(s)
+usermod -a -G groups loginname
+把用户添加进入某个组(s）
+
+陈良
+各地都有双apn的需求，当前李柱栋在1860上实现的双apn还没有完成，下周姚国梁计划在宽翼的模块上实现双apn。其他模块还没有计划。
+
+张勇
+在makefile中%.o:%.c *.h这样的写法，如果目录中没有一个.h文件，居然会不执行，而采用一个默认的规则去编译，找了半天。
+在uboot中打开watchdog会导致内核出现一个奇怪的错误，访问一个0x7fff....的地址，从内核的map文件来看，都是从0x8000000开始的地址。只有不在uboot中喂狗了。
+
+9.3
+和陈玉对了几个项目的进程：
+1 菲律宾g20 主要是保证质量，不要在细节上翻船
+2 m60 主要时间节点卡在629上。
+3 拉美cpe 当前华域提供了最初版本的sdk，编译成功。算是开始了第一步。但由于集采的事情，项目成员还没有进入对应工作。
+4 dialog volte，volte部分还没有开始，
+5 印度5.8g 小ap，暂定由梁剑在广东银联完成阶段性工作，后期由谢世乐继续广东银联的情况下，来接手这个软件。
+
+工业路由器当前了解到有三个地方需要：
+西森美康 
+吴开莉提到的使用1761模块的
+陈良提到的某个省的要求
+当前需要全力把主备系统做好，达到系统稳定可靠性大幅提高后再讨论后续的要求问题。
+这两天和张勇多次讨论了主备分区的方案，当前准备采用如下方式：
+uboot一份, 内核，文件系统各一份，参数文件系统一份，校准区一份。为实现简单起见，其中内核，文件系统直接使用绑定的方式。9341带有sticky寄存器，特点是能在加电周期内保持不变，不受重启影响。
+普通启动过程和恢复：
+1 启动时，uboot判断sticky寄存器，有三种情况：0 1 2
+为0，表示重新加电或者是正常启动，从1号内核，文件系统启动。寄存器写1，打开硬件看门狗。
+为1，表示从1区启动失败，从2区启动，寄存器写2，打开硬件看门狗。
+为2，表示从2区启动失败，从1区启动，寄存器写1，打开硬件看门狗。
+正常启动后，应用程序读取sticky寄存器，得到当前启动区信息，了解自己是从那个区启动的，并记录在/tmp文件中。
+为0，1: 从1区启动。把寄存器值改为0
+为2: 认为1区需要升级或者修复，把2区内容复制到1区，把寄存器值改为0。
+
+升级过程：在flash中找一个字节记录，初始化值为0xff
+如果当前从1区启动时，升级写2区，在flash记录值为0xf0。
+如果当前从2区启动时，升级写1区，在flash记录值为0x0f。
+uboot优先判断该字节，在f0时1区启动，其他情况
+
+
+9.1
+陈华彬发来了16m 9344的程序，上次的没有保存，在微信上就过期了。
+
+4g固定台以太网有丢包发生：
+15123 packets transmitted, 15089 received, 0% packet loss, time 15141360ms
+rtt min/avg/max/mdev = 0.828/2.330/17.034/0.729 ms
+而另外一个dlink的路由器：
+5587 packets transmitted, 5587 received, 0% packet loss, time 5586144ms
+rtt min/avg/max/mdev = 0.621/0.722/2.075/0.047 ms
+17969 packets transmitted, 17969 received, 0% packet loss, time 17968949ms
+rtt min/avg/max/mdev = 0.597/0.724/1.566/0.038 ms
+
+
+8-31
+只有在虚拟机上的ubuntu1604上编译通过了9207，本身机器编译永远是arm-oe-linux-gnueabi-gcc报： fails sanity check这个错误，昨天查到一个网页说是在当前的terminal上运行了其他编译器， 关闭终端重开， 重启都没有用啊。
+
+vi中的替换：
+:%s#vivian/#sky/# 替换全部 vivian/ 为 sky/
+
+没有安装说明中的超多的包之前， 编译还报一个文件没有找到的错误。
+在笔记本上的ubuntu16安装那些9207乱七八糟的包，还爆出来什么没有找到， 只有apt-get update才继续。
+
+那么， 在一个ubuntu server14.04上面进行编译试试吧。
+
+印度ap的以太网卡都有丢包的现象。
+
+在新安装的一个ubuntu1404 server的机器上能正常编译9207,难道我的机器又要重装？
+
+刘云 mtk的vlan似乎没有起到作用。
+
+8-30
+编译9x07系统， 总是有问题。现在重新安装一个虚拟机来做这个事情吧。
+居然还要安装texlive-picture这样的超级大的系统。
+
+这台机器的行为也非常奇怪了。virtualbox的剪贴板不能共用了， usb也不能到虚拟机中了， 在界面上也不能加载第二个硬盘了。只有使用mount指令，但是加载后呢， 和虚拟机中不是同步的。 奇怪的事情。
+
+苗立双决定在9月的下半月请假了。
+
+在ubuntu16上面编译9x07会有那个ncurses的错误， 在1404上没有，都会出sysroot已经有文件的错误。
+
+张勇 福桥的还是想要大功率的9341或9531, 这里还没有调出来。
+
+王伍 没有测试项目的就可以不理会。
+
+刘云 使用了windows下的一个radius软件，可以在linux下使用命令连通，但是使用w13选择802.1x， 还是不对，从radius服务器抓包来看， 服务器收到了w13的请求包，但没有发出接受包。
+
+白俊剑 搞定了一个单纯模块没有启动的原因， 原来是李柱栋增加在内核中增加键盘扫描时，没有考虑到i2c设备不存在的情况， 虽然设置判断了空指针，但没有做判断。
+
+张勇 gpio的原因是config中的变量在=后面加了个空格，但在makefile文件中没有加strip，导致判断错误。
+
+8-29
+王伍: 碰到整机死掉的情况，按键没有响应，秒钟也不跳动。想解决watchdog的事情。要在kernel中关闭看门狗，在程序中打开看门狗，并且在某些情况下，不使用看门狗。另外，升级的情况一定要关闭看门狗。
+voip当前主要在下载网速变化的情况下的声音有问题，629的做法是在没有收到所以包的情况下进行插值，导致声音发闷。而天波的产品估计一直等所有的包收到，有一次居然延时了10秒。
+苗请假需要带着电脑。
+
+张勇：
+8m的程序居然能刷16m的程序，而且能跑起来，只是跑了第一次以后，第二次启动就不对了。难道是uboot写的时候地址回环了？
+
+翟志华：问wbs内的用户数限制的作用。
+
+金晶 陈良总是没有空，调试程序非常麻烦。
+
+下午 海外来找说华域模块的事情，听说时间非常长，显得非常沮丧。
+
+给联芯的邮件
+看了一下1860的看门狗，好像很复杂的样子，完全不知道如何使用。
+   comip-wdt-lc1860.c里面的内容和我们原来的使用的其他平台的的看门狗有些不同，其他平台基本是
+简单的做以下操作：
+1 启动看门狗，比如cat /dev/watchdog
+2 定时喂狗，如果超时没有喂狗，系统自动复位
+3 某些时候可以关闭看门狗。echo "V" > /dev/watchdog
+请问在当前平台是如何实现呢？
+  我在内核中打开comip-watchdog选项后，/sys/devices/platform/comip-wdt.0中会增加
+  wdt_worktype, wdt_timeout, wdt_heartbeat文件，看起来wdt_worktype是看门狗的类型，修改它
+  改为reset，也没有什么现象发生，而wdt_timeout， wdt_heartbeat这两个文件内的数值查看和填写
+  似乎没有什么变化
+
+
+8-26
+来刷qsdk编译的东西吧：
+set bootargs "console=ttyS0,115200 root=31:01 rootfstype=squanshfs ro init=/sbin/init mtdparts=spi0.0:64k(u-boot),6848k(rootfs),1152k(uImage),64k(mib0),64k(ART) machtype=DB120"
+set ipaddr 192.168.19.33 && set serverip 192.168.19.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6c0000 +$filesize&&cp.b $fileaddr 0x9f6c0000 $filesize 
+tftp 0x80060000 openwrt-ar71xx-generic-db120-rootfs-squashfs.bin&&erase 0x9f010000 +0x6b0000&&cp.b $fileaddr 0x9f010000 $filesize
+bootm 9f6c0000
+这样能进入系统，但是出现这样的错误：
+/etc/init.d/rcS: line 19: can't create /dev/null: Read-only file system
+/etc/init.d/rcS: line 26: can't open '/dev/null'
+
+我的用户居然没有sudo权限了，只好开机时候不断按esc， 进入recovery mode, 选择fsck那个选项， 完成提示按enter后， 再选择root的那个选项。 usermod -a -G admin jian这个指令居然说没有admin组，好吧直接改/etc/sudoers文件了。
+
+每次重启ubuntu， /dev/sdb1和/dev/sdb的权限都会变回去，还要重新增加。
+
+更加不对的地方在于virtualbox的剪贴版不能和ubuntu共享了。
+
+8-25
+9344的试试，刷了个uboot，不能启动了。
+
+
+8-24
+自己的9341测试的效果还是要差一些。
+15:15 李忠说了几个问题：当前m20的短信中心错误的问题，把原来的那个看变量的程序实现的问题，测试的问题。
+早上面试了姜涛，谈15000就直接走人了。
+set bootargs "console=ttyS0,115200 root=31:01 rootfstype=jffs2 rw init=/sbin/init mtdparts=spi0.0:64k(u-boot),6848k(rootfs),1152k(uImage),64k(mib0),64k(ART) machtype=DB120"
+set ipaddr 192.168.19.33 && set serverip 192.168.19.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6c0000 +$filesize&&cp.b $fileaddr 0x9f6c0000 $filesize
+tftp 0x80060000 tozedap-cp_ap123-jffs2&&erase 0x9f010000 +0x6b0000&&cp.b $fileaddr 0x9f010000 $filesize
+bootm 9f6c0000
+
+开始砍砍砍：
+去掉：CONFIG_HAMRADIO=y
+去掉pci无线不能起来了，那么我把无线的部分先换一下吧。
+
+这个看起来是对的了：
+set bootargs "console=ttyS0,115200 root=31:01 rootfstype=jffs2 rw init=/sbin/init mtdparts=spi0.0:64k(u-boot),6976k(rootfs),1024k(uImage),64k(mib0),64k(ART) machtype=DB120"
+
+set ipaddr 192.168.19.33 && set serverip 192.168.19.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize
+tftp 0x80060000 tozedap-cp_ap123-jffs2&&erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+tftp 0x80060000 tuboot.bin && erase 0x9f000000 +0x10000&&cp.b $fileaddr 0x9f000000 $filesize
+
+8-23
+做了什么，真的不容易想起来：
+继续和中试争论问题，黄礼仪等认为研发必须要先测试，而且要提供自测报告给中试。
+测试了若干种限速的方法，看起来只有针对单个ip的限速有效果，其他限速方式要么没有用，要么限速效果太明显，下载速度立即变成10多k。
+下午余小虎开了电话会议，他可能在斯里兰卡太孤独了。会中喻潇问几个产品哪个的优先级高。陈玉说李忠的中试人员太少了。
+用买来的9531测试看起来还不错。
+iptables -d INPUT -i wlan0 -m limit --limit 1000/s -j ACCEPT
+iptables -D INPUT -i wlan0 -j DROP
+
+8-22
+17:40好吧，怎么今天一天都在说话？
+早上先是颜斌来问为什么p10p上的加功率没有作用。说要生产了。
+还有泰尔实验室下面的测试要求非常高，要100个用户。还有一点，写的有信噪比改善的一条，不知道如何展示。
+吴曦：周六周日腰疼，于是拿着笔记本在家里折腾，今天开始牙肿了。wifi认证的事情应该问题不大了。
+郑杏泉：早上生了个儿子，7.5斤。
+颜斌，李忠 有激烈的争吵，李忠认为颜斌不尊重中试。
+王伍 1860在下载的时候拨打voip电话，会出现效果变差的情况。要进行限速。
+下午 被和金晶和吴曦的面谈占领了。吴曦提到两点：能否多给予表扬，少进行批评。导师对个人的未来指导的太少。
+
+晚上搞了一下1860的tc，编译iproute2中的tc，运行显示：
+./tc qdisc add dev wlan0 root handle 1:0 tbf rate 400Mbit burst 1500k
+Android does not support qdisc 'tbf'
+发现网页有这样的现象：
+中英文切换要点2次。而且也会切换lcd的显示界面，有这个必要吗？
+
+苑德强来说巴西有日本公司“谷和电工”，买了他上一家公司的大量gpon设备，想购买wbs设备来发展山区的网络。想把gpon的snmp和wbs的snmp在一个软件上查看。应该没有问题吧。
+
+苗立双 l2tp拨号后， cntv上的视频就没法看了。
+
+8-21
+总算把qsdk中的wifi编译过去了，增加了几个参数，在生成烧片文件的时候居然报错了。先不管了。
+继续下载吧:
+set bootargs "console=ttyS0,115200 root=31:01 rootfstype=jffs2 rw init=/sbin/init mtdparts=spi0.0:64k(u-boot),6976k(rootfs),1024k(uImage),64k(mib0),64k(ART) machtype=DB120"
+set ipaddr 192.168.19.33 && set serverip 192.168.19.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize
+tftp 0x80060000 tozedap-cp_ap123-jffs2&&erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+这样可用运行，但是wifi不能启动。但eth0是对的，从路由器上得到了地址。
+第一个报错：[  208.460000] adf: Unknown symbol register_simple_config_callback (err 0)
+那么把NO_SIMPLE_CONFIG=1这个加到config中看看吧。
+编译完成后，刷了jffs2为什么内核又变成crc error呢？
+现在的错误变成了：[  143.360000] umac: Unknown symbol HIFDetachHTC (err 0)
+终于不是这个错误了。
+又来了：[   18.670000] ath_pktlog: Unknown symbol g_ol_pl_os_dep_funcs (err 0)
+加上REMOVE_PKT_LOG=0这个东东看看有没有效果。
+
+内核还是太大了，那么换下地址吧
+set bootargs "console=ttyS0,115200 root=31:01 rootfstype=jffs2 rw init=/sbin/init mtdparts=spi0.0:64k(u-boot),6848k(rootfs),1152k(uImage),64k(mib0),64k(ART) machtype=DB120"
+set ipaddr 192.168.19.33 && set serverip 192.168.19.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6c0000 +$filesize&&cp.b $fileaddr 0x9f6c0000 $filesize
+tftp 0x80060000 tozedap-cp_ap123-jffs2&&erase 0x9f010000 +0x6b0000&&cp.b $fileaddr 0x9f010000 $filesize
+bootm 9f6c0000
+
+计划
+姚国梁：
+1.单口VoIP路由器发出程序进行测试，周一发出。
+2.在新板子上修改i2c的驱动部分，四口VoIP路由器发出程序进行测试。周三发出测试。
+3.配合629调试VoIP的通话，寄过去的板子周一应该收到了。
+4.支持维护bm806和7100e模块程序。
+
+白俊剑：
+R10版本锁频段功能解决，R10版本稳定性使用测试，斯里兰卡要求完善：多SSID网页及终端侧、DDNS网页及终端侧、其他问题修复。
+
+李瑶：
+熟悉5寸屏安卓系统开发，自定义联系人功能
+
+汪光华：
+改bug.
+
+刘云：
+TR069服务器ACS搭建
+修改客户端配置freecwmp相应参数的相应源码，修改LUA脚本使网页增加相应参数配置菜单
+列出需要和网管交互的参数表
+
+梁剑：
+谢世乐基本完成了旭子键盘，由于我回家了，就叫他先做政通键盘
+广东银联读卡器还剩下应用密文计算，交易后脚本处理以及二次应用密文计算。
+广东银联的事，这周刚收到邮件，还要增加一个密码键盘主密钥下载工具，下载工具的协议以及界面要求需要符合银联的一个标准。
+
+余小虎
+08/15-08/21 工作总结
+     1.  协调解决SLT初步测试报告中反馈的问题
+     2.  测试webui/反馈问题，部分跟进
+     3.  整理SLT后续待支持功能情况
+     4.  R10版本编译程序提供内部测试/简单测试以太网网口
+08/22-08/29 工作计划
+     1. 协调项目组出满足如下条件的新版本：
+       1）解决SLT初步测试所反馈的问题
+       2）基础版本较为稳定
+     2. 配合光华测试验证DDNS
+     3. 跟进VOIP呼叫等待在斯里兰卡不生效问题
+     4. 开发调试VOIP呼叫转移功能
+     5. 针对可能收到的SLT报告进行内部反馈/外部确认
+
+8-19
+早上好像什么都没有做啊：
+和派联的冯树彬联系，感觉单总对从派联直接拿程序还是有顾忌，所以还是先选择询问的方式吧。他建立一个qq讨论组，发了一个xacs的系统来。
+李总开会说斯里兰卡的事情。
+白俊剑 刷ue也会出现网卡掉的情况。
+
+下午 和泰尔实验室的人聊，单总说关于当前wifi的情况。李莉莉主要想了解当前移动准备搞wifi到货检测到底是想做什么。
+张勇 改变区后，wifi总是无法启动。
+
+晚上 徐华彬来，带来了一个9344的板子，测试的效果还可用，总速度还可用。
+
+8-18
+19:28 朱建文发来的9344的qsdk的文件，貌似和9531是一样的。
+
+18:53 http://blog.163.com/ksharp_dabu/blog/static/1954880222011102121517766/
+这个文章讲述了如何使用物理硬盘做为virtualbox内部的磁盘使用，有意思的时，这时候其实linux也可以访问这个硬盘。
+    将当前用户加入到vboxusers用户组sudo usermod -G vboxusers -a `whoami`
+    需重新登录
+    对指定的硬盘设备添加访问权限sudo chmod o+rw /dev/设备(如:/dev/sda 整块硬盘,/dev/sda1 某分区)
+    建立一个虚拟硬盘镜像VBoxManage internalcommands createrawvmdk -filename ~/winxp.vmdk -rawdisk /dev/sda -partitions 1 -relative -register
+    新建一虚拟机并指定上面建立好的虚拟硬盘镜像(略)
+
+16:38 来记录一下早上的事情：
+王伍 继续测试4g固定台的wifi，发现我的机器和李柱栋的机器都在windows下ping到固定台会丢包。从各个机器若干次抓包的情况来看，4g固定台收到了icmp echo包，并立即做了返回，而且空间包也出现了回包。但在windows上，会有4-5秒才在抓包的上面显示这个回包，这个时候，windows已经认为是丢包了。
+姚国梁 演示了一下wps，使用android手机确实可以做到不查找ssid，不输入密码连接wifi。但苹果手机看起来没有找到没有这个功能。
+电信安装iptv的人来了，说我们没有猫，只有走了。
+方陈 测试mtk小ap的板子多用户的情况，貌似有很多9331能连接的用户无法连上。
+刘云 问是否继续使用派联的网管。 
+
+16：37 新的9344的板子，居然任何一个口都可以接受供电。
+set bootargs "console=ttyS0,115200 root=31:01 rootfstype=jffs2 rw init=/sbin/init mtdparts=spi0.0:64k(u-boot),6976k(rootfs),1024k(uImage),64k(mib0),64k(ART) machtype=DB120"
+set ipaddr 192.168.19.33 && set serverip 192.168.19.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize
+从qqq目录编译的kernel目录中复制.config到ath9.5中，把kernel 3.3.8也复制过去，修改配置文件改编译3.3.8，增加对jffs2中的若干种压缩算法支持，就能够在9344上起来了。
+cped这个程序运行马上就重启，而且马上kernel就不对了，不能启动。mac输出的是这样的：cd:b4:e2:0c:13:a0 a1:ec:3e:88:6d:d1
+
+
+8-17
+21:44 使用4.4.7的gcc编译的内核也无法启动。
+方陈 测试mtk小ap的板子，发现使用笔记本走远的时候，速度是慢慢下降的，但是往回走时，速度一直很慢，直到某个点才突然变得很高。
+14:50 金晶 汪光华 讨论时区问题，加入配置应该问题不大。
+吸顶ap去掉那个lan的mirror功能
+14:24 4g固定台中，原来那个掉网口的dma选项没有重新加上。
+14:03 ath9.5使用p11-gcc编译器好像有问题，那些库还是0.9.30的。也许是gcc-4.3.3下面的db12x.config被改过，那个BR2_STAGING_DIR指向了固定目录。就是这个原因了。
+11:54 张勇 黄武 5模的模块似乎不容易出现重启后不能枚举模块的现象，而7模的模块容易出现，接上串口都不容易出现枚举不到设备的情况。黄武认为有个地方需要上拉。
+姚国梁 wps好像用几次就又不好用了。
+4g 固定台出现dns转向错误，猜测是断网和重新驻网后net_config.sh重新执行了一次，把一个像lan.ip的属性setprop修改后正常了。这些属性貌似不会保持，需要每次开机重新设置。
+9:10 林汉琴 来催给李总发绩效结算意见。
+8:57 金晶 讨论tr069服务端的事情。
+
+8.16
+9331的flash选择的是mx25l6406@sop8
+
+17:26
+set lk "tftp 0x80060000 openwrt-ar71xx-generic-vmlinux.lzma && erase 0x9f6e0000 +$filesize && cp.b $fileaddr 0x9f6e0000 $filesize"
+
+17:16 金晶，git服务器莫名其妙的又块了。
+16:57 virtualbox中如果隐藏了菜单栏，还可以使用又ctrl+home键搞出来。
+16:54 开会看ac路由器的外观效果图，主要集中在包装中天线如何处理方面，如果使用可以旋转拧下来的设计，那么每个头是2块，4个天线就要8块了。
+15:57 从网上搜索的情况来看，openwrt应该已经有ipsec的实现的。
+15:26 测试的机器重启了，不知道是什么原因，那么就接个串口看看吧。
+李总 来问刚果布的电视网的事情。
+林汉琴 继续问绩效结算的事情，对其他人不扣钱很有意见。
+来了一个7年经验的，编程经验太少，是我没有看清楚。
+燃烧奖自荐者有余小虎， 曹拓，陈良，黄武，李柱栋，苗立双，吴曦。
+郑杏泉 问为什么没有自己的tr069服务器。
+金晶 问为什么现在git服务貌似很慢。有时候确实要等。
+李柱栋 明天请假陪妈妈去看关节炎，后天还是周五去考科目一。
+
+8.15
+王伍 开4g固定台的例会：wifi还有问题，出现连上不能用，搜不到ssid等情况。需要待机测试。
+使用我的苹果手机连上后，无法上网，ping 192.168.0.1不能通。重启话机后可以上网。
+
+刘云：说要了解商业wifi的细节。今天应该可以出山西的吸顶ap程序。
+
+张勇：派联那里使用的机器出现了奇怪的问题，用了一个小时后，不能使用了。ssid不见了。感觉所有的参数变成了0，从网管上也看不见。ps上看client程序只有一个线程，应该没有去联网管。重新下载参数后可以使用了。
+使用30版本测试，多个用户速度确实非常低，总速度只有200k。
+
+郑杏泉：还要出一个带有默认app的iptv程序。
+
+李瑶：要修改通讯录app，能够支持一键拨号。
+
+8.14
+下周计划：
+白俊剑： 1，LC1860_R09版本合并。
+2，R10版本不能锁频问题、无法连接miniTT问题跟踪解决。
+3，跟踪解决M60、M61问题，把中兴版本确定下来，测试验证WIFI偶发不启动、无法搜索到等问题。
+
+陈良：海外项目跟进，4G固定台升级平台，Wbs网管统计功能修改。一共2张表要按他们的格式统计，具体的我也记不清楚了，主要是新增用户数，基站故障率这几块。
+
+汪光华：周一到周三准备G20M菲律宾程序，后面两天1860。
+
+刘云：1.山西吸顶AP软件跟踪和测试。2.网管程序移植。
+
+姚国梁：  1.    在单口和四口路由器上添加ＷＰＳ功能，出完整的程序进行测试。星期三之前完成。
+    ２.编写四口路由器新板子的控制ｌｅｄ灯的驱动，完成时间星期五。
+    ３.配合６２９那边调试ｖｏｉｐ的通话。具体完成时间要看６２９的调试进度。
+    ４.维护海外的Ｐ１１和Ｐ１０Ｐ程序。
+
+李瑶：法语的基本完成，开始5寸屏的工作。
+
+金晶：主要时自动升级部分和tr069的客户端。
+
+赵金：1 完成wifi生产工具的调试，看是否有修改需求。2继续5寸屏android系统的摘机
+
+梁剑：  1、写北京移动集采总结。
+    2、 查找二代证阅读器在测试过程中碰到的问题原因。主要问题是同样的DLL在2013的测试工具中可以正常转换身份证图片，在最新的测试工具中去报没有授权错误。
+    3、指导谢世乐完成广东银联的密码键盘（含政通键盘、旭子键盘、通则键盘）。
+    4、完成广东银联的读卡器部分代码。
+    5、等待广东移动通知，去广州调试广东银联。
+
+8.12
+早上骆晓峰 赵金 颜斌和山西的移动一个老总， 彭立涛介绍自助。 骆晓峰讲了三个， 河北沧州营业厅， 小arm壁挂， 坐式带视频自助。 移动的人关心河北厅的布局， 坐式自助需要的条件， 小壁挂的优势。  不过对于小壁挂， 他认为方向性错误。 说是移动营业厅非常多， 无需再在社会渠道扩展。
+
+王伍 白俊剑 李柱栋 金晶 吉林要求的双apn问题， 要改那些东西。 主要在于什么时候建立两个网络， 什么时候建立静态路由表， voip额外的服务器ip如何得到。
+
+wifi测试早上还好， 11点多出现速率很低的情况， 但可以自动恢复。 使用29版本似乎没有碰到完全断网的情况。
+
+ubuntu带的那个输入法， 总是在鼠标划过的时候， 清除划过的内容，  是在逗我吗？
+
+8.11
+ 
+wifi测试上， 使用陈工给的bin档， 测试效果非常不理想。
+把三个小网卡离开5m以上的距离， 效果变差。 30版本速度会到0， 不恢复。 29版本的效果也不好， 有到0情况， 好像还没有不恢复的情况，后来晚上了， 就没啥问题了。
+
+工业路由器， 甲方要到深圳来考察， 同时考察的是宏电。
+
+中午朱建文过来， 还是说要用9531， 说增加一个参数看看效果如何。
+
+在一台新的ubuntu14.04 server上， 那个iptables就是无法编译， 报
+./configure: line 11933: syntax error near unexpected token `libnfnetlink,'
+./configure: line 11933: `PKG_CHECK_MODULES(libnfnetlink, libnfnetlink >= 1.0,'
+这样的错误。
+
+在bigap仓中， 改用编译好的编译器编译， 会出现复制库文件错误的情况， 是由于gcc下面的.config文件没有创建。
+
+从一个空的ubuntu server编译，使用编译好的编译器， 需要安装
+sudo apt-get install make gcc g++ sharutils zip zlib1g-dev automake autoconf libtool
+
+编译时提示：uuencode: command not found原因是sharutils没有安装
+编译的时候出现"/usr/bin/ld: cannot find -lz"错误，需要安装zlib-dev这个包，在线安装命令为：apt-get install zlib1g-dev。
+./autogen.sh: 4: autoreconf: not found
+  是在不同版本的 tslib 下执行 autogen.sh 产生。它们产生的原因一样,是
+因为没有安装
+  automake 工具,      (ubuntu 8.04)用下面的命令安装好就可以了。
+  sudo apt-get install autoconf automake libtool
+
+碰到perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+
+这样：
+The locale settings can be set (to en_US.UTF-8 in the example) as follows:
+
+  
+exportLANGUAGE=en_US.UTF-8
+exportLANG=en_US.UTF-8
+exportLC_ALL=en_US.UTF-8
+locale-genen_US.UTF-8
+dpkg-reconfigurelocales
+
+重新登录又出现了。
+
+8.10
+张勇 富桥那里的测试认为30版本很容易出现没有流量的情况， 登录进去看protmode模式是0， rts也是打开的。 从修订历史来看， 29版本后并没有对无线部分进行修改。
+
+余小虎 发送邮件：
+1.  Ubuntu下通过wifi连接到安装SLT卡的M60（无法驻网），在chromium浏览器中查看WebUI，不会卡。
+2.  WIN7下通过wifi连接到安装SLT卡的M60（无法驻网），在chromium、遨游浏览器中都出现WebUI很卡，有时打卡异常；改用以太网连接，WebUI正常。
+3.  WIN7下通过wifi连接到安装Dialog卡的M60（成功驻网），在chromium浏览器中查看WebUI，不会卡。
+
+bigap如果要编译一个可以下载使用的编译器，  先把gcc-4.3.3目录中对应的config文件做如下修改：
+-BR2_STAGING_DIR="$(BUILD_DIR)/staging_dir"
++BR2_STAGING_DIR="/usr/share/p11-gcc/staging_dir"
+要使用绝对路径，
+
+8.9
+工业路由器： 李光达发现一个无线无法连接， 软件上看各种没有问题， 在屏蔽房中也无法连接， 后来上仪器检查， 有一路射频有问题。 只有换下来使用另外一块板子。  这还导致以为是dnsmasq作为dhcp使用时， 和苗立双的脚本可能有冲突， 退回到使用udhcpd这个程序。 这个软件还是由张勇来负责吧， 不要让赵金做了。
+
+陈玉号称又可以把m60卖到dialog， 但必须有volte， 还要在9月初就出来， 说把小虎调回来， 马上又说不行。 李柱栋说要跳过so, til等层， 直接发送soket包给rild这个程序进行控制。 郑杏泉原来都是使用so中现成的函数。  白俊剑那里列举的问题还包括远程升级支持， 二层mac过滤这两个是可以做到的。
+
+4口voip产品 姚国梁说按键的状态不好记录， 徐刚雄说还有一个使用状态灯要控制， 就是摘机、 来电需要亮灯， 而这个状态只有629知道。
+
+刘云 关于山西的吸顶ap， 开始以为走我们的网管， 实际还是使用派联的网管， 而且作为二层设备， 也不需要wifidog进行工作。
+
+使用陈华彬发过来的系统， 使用dd if=art.bin of=/dev/mtd4这样的命令写校准区后， 可以正常启动了。
+
+工业路由器： 当前测试的问题有wifi有密码无法连接， 输入超级长的密码后无法连接。
+
+昨天： 安徽那里还是要改xl2tp程序，自己来处理多个lac， 随机选择服务器。
+
+使用qsdk的bin档， 进入了系统， 当前在无限重启。
+
+8.4
+8:50 富桥那里显示上行总速率 307050 下行 2974503 在线 1167
+
+日志：
+有机会重开工业路由器这个项目， 看得出大家都很兴奋， 相信大家有这样的热情， 加 上细致的工作， 一定能有所突破。软件方面只读系统，已经实际使用，程序数据区分开，有1860系统和openwrt可以借鉴，额外的flash这个方 面，其实王总也考虑过， 这次来把它实现吧。
+
+atheros软件后面工作量较大的方面有两个： 一个是新的qsdk的引入， 一个是vpn的实现。
+
+多个用户测试情况： 使用12个左右的ftp下载，派联当前的mtk平台效果还可以，徐工做的新的mtk的吸顶ap效果不错，非常稳定的有20m的速度，不过我位置上的小网卡无法连接。 后来徐工帮忙把9341吸顶ap的天线重新焊了一下，效果比昨天有很大的提高，波动比mtk的吸顶ap要大些，速度也可以20多m,  晚上更到了30-40.
+
+
+8.3
+安徽 华为认为我们的探测导致服务器满负荷， 服务器同时连接过程是700个。
+这个是王伍发出的邮件：
+    移动需要提供的信息：
+    1）BAS是否有过调整；
+    我们的应对方案：
+    1）探测L2TP的流程没有STOP消息，会BAS需要超时才能释放--------------不用给移动提；
+    应对:探测L2TP的流程会增加STOP消息，避免BAS超时；
+    2）CPE下挂的路由器会自动PPPOE拨号，同时CPE也会有探测BAS的动作，在BAS拥塞时，会加大BAS的负担；
+     应对:PPPOE拨号时CPE探测BAS的动作,会增加时间间隔保护，初步定为3分钟，每次探测必须间隔3分钟，减轻BAS负担。
+    3)L2TP 消息中的端口会改变
+     应对：如果移动没有强烈要求修改，我们就不改；
+   后续处理方案：
+   1）如果现网还有很多设备不能上网，就分片关闭没有PPPOE用户的CPE拨号上网，减轻BAS的负担；
+   2）我们会按应对方案出程序，新程序需要注意淘宝是否正常，BAS分担是否正常；
+
+商晋川： 要接5.8g的串口，以为板子右边的六个没有接器件的焊点是串口。 实际上5.8g的串口是有3个插针的。
+
+方城： 接好了15个终端， 刚开始还跑了起来，后面就很容易到0速度， 不过莫名其妙能恢复， 又到0 又恢复。
+
+11:58 富桥那里显示上行总速率 937545 下行 4110922 在线 1666
+14:04                                       643974         3475866        1157
+15:33                                        563999         2493772       1268
+18:42                                        902567        4376176       1443
+20:37                                      1238860        5821261         1504
+
+张勇 富桥反应说用户量达到10多个的时候， 新的手机连上去就会出现不断等待ip地址， 或者得到ip后不能上网的情况， 退掉在线的几个用户， 这些不能使用的用户就又可以使用了。
+
+陈华彬 提供了几个方面的参考： 给了新的qsdk中的ini文件， 建议可以试试， 提到原来使用lsdk的软件会断流， 使用qsdk就不会断流， 使用老的qsdk会断流的， 用新的qsdk就不会断了。
+
+日志：
+安徽那里的移动核心网有内容割接出现问题， 今天陈良已经出发去那里进行交流。 华为分析认为我们的多服务器探测机制可能对他的LNS服务造成冲击，苗工分析判断如果在探测机制中增加断线消息可以有效避免。
+
+方城搭出了10个用户的测试环境， 测试发现ftp的速度并不快， 大约在400k-1.5m之间，换上张勇带回来的环创设备的也没有什么亮点。 接上w13， 那么速度明显快很多， 有3m，但有明显的速度到0的现象，非常频繁。
+
+8.1
+新的qsdk运行make menuconfig出现Build dependency: Please install the Objective Caml compiler (ocaml-nox) v3.11 or later
+安装它：sudo apt-get install ocaml-nox
+
+
+7-22
+iwconfig中的Rx invalid nwid应该是这里统计的：
+    is->discard.nwid = iv_stats->is_rx_wrongbss        + iv_stats->is_rx_ssidmismatch;
+
+7-14
+邓杏泉 iptv的板子是基于andriod4.4版本的，而google的tv版本的android是基于5.0版本的，所以国外的支持遥控器的tv应用都需要使用5.0以上的版本。瑞芯微的3128不支持android 5. 所以只有放弃那些app的预装。如果以后海外有量，再考虑做新的板子来支持。
+
+5寸屏，现在还没有来硬件。可以做到把微信联系人放在桌面，一键进入联系人，但不能一键语音，因为没有对应的接口，考虑是否可以用模拟触摸位置来完成。
+
+7-13
+昨天去现场，开一个用户视频用户。代维的测试还是很快，遥控器翻飞，我们基本没看清电视机的屏幕上显示的内容，就已经换成了其他内容。
+
+从另外一个厂商的测试报告上看到，他们使用了5.7g的频段。翟志华说其他省份也碰到过这样的情况，2.4g使用2.3g，也向当地移动公司反应过，但没有下文。
+
+今日从达州回深圳。
+
+7-11
+昨天把ap的程序换了个sdk9.5的无线程序，所有频道都能看了。但测试从cpe加vlan时，所有点播都失效。抓包来看ap无线端有数据，而cpe无线端无数据。打开cpe的杂散模式也无效。
+
+回到原来的sdk，修改一个max_snoop_entries的宏，从32改为128。所有的频道都能看了。这个宏是一个数组的下标，有空再研究一下它的用途。
+
+7-10
+在达州测电视直播。
+
+一开始5.8g不能看直播是由于5.8g的模块没有开组播功能，只在2.4g部分开了组播功能。
+
+可以看直播后，大约有一半的频道无法看，无法出现该频道的画面。打开无线的杂散模式后，大部分频道可以观看，仍然有几个频道无法观看，只能出现1-2秒的画面。
+
+临时编译了一个sdk9.5版本的程序，不开杂散模式也可以看到大部分的频道，仍然有些频道无法观看。
+
+在cpe测使用hub来抓包，验证了王伍的想法，不能观看的频道虽然有直播udp数据流，但流量不足。正常需要8.8mb的流量，而不能播放时只有5.5mb。
+
+试图在ap上侧使用hub抓包，机顶盒无法登陆。
+
+观察ap上的以太网和无线网的数据流量，发现以太网数据流量貌似正常，而无线网的数据流量明显不足。而且出现这样的情况时，访问ap的速度变得非常慢。
+
+
+另外，如果使用cpe来做小ap，当前cpe使用的eth1不能有效支持管理vlan，也就是没法上网管。硬件上要改到和吸顶ap一样，使用eth0就正常。这一点，张勇已经反复验证。
+
+7-7
+翟志华：使用2.4g，播放组播可以使用。不知道5.8g是什么问题。单ap又坏掉了。
+
+王伍 単建新：富桥还是投诉我们的距离问题。使用看信号强度的方法。
+
+2016-6-23
+张勇 富桥不愿意使用mtk方案是原来曾经使用过reltk的方案，结果在使用半年左右返修率特别高，各种重启，厂家刷各种软件都无效，最后直接放弃，富桥只好重新找了一个方案。一朝被蛇咬，十年怕井绳了。另外一个问题是支持voip中的g.723存在问题。对我们的设备当前觉得覆盖范围不够远，只有30m左右。希望改成适合走廊使用的两个方向的定向天线。
+
+吴曦 想简单的把sysconfig放到/amt目录中。
+
+张勇 觉得差不多移动到ath9.5了。通知姚国梁从新仓开始下载。
+
+商晋川 和机顶盒配套使用，使用了ath9.5版本的2.4g cpe，也出现了卡顿1分钟的情况。想把一些已经升级到ap的cpe退回到cpe，结果还是挂掉了。
+
+李瑶 下周请两天假。小孩周岁了。他自己刚刚下载了一个android的开发环境。
+
+2016-6-22
+[<c02c700c>] ath_tx_update_stats+0x54/0x4e4 [ath_dev]
+[<c046f270>] ath_handle_intr_aponly+0x3fc/0x120c [umac]
+
+2016-6-21
+感觉去掉那个当对端支持n时只发n的速率的限制后，打流会好一些，王伍说如果这样要加多个设备来进行测试。可能打流的总速度就会降低了。
+增加那个ack的txpower的寄存器貌似没有明显的区别。
+
+
+2016-6-20
+邓杏泉 在做iptv的东西，增加另外一种模块，主要是1761不支持fdd。增加的内容是要改驱动，并修改相应的at指令。还有使用usb升级要做，ota升级还在考虑。
+
+余小虎 几个事情，4g固定台入网的事情，还有一个指标没有过，曹拓要做相应的修改才行。5寸彩屏的事情，一个是如何升级，说展讯的android升级存在问题。电源方案问题。还有一个是如何建仓问题。
+
+金晶 似乎对如何让汪光华上手，还没有明确的计划。他总数希望由李瑶来接手这个工作。
+
+
+2016-6-18
+李柱栋 键盘扫描快完成了，还有和用户态通信的部分，让它可以通过select来了解到有按键。但是没有上传，也没有开分支。她在日志中写道，不能和其他的，信号量同时出发。
+
+王伍 说了几个项目的情况：
+
+当前需要维护的项目有p11系列产品。包括p11,p10p,p19等。4g固定台。9x07项目。5寸屏的固定台。工业路由器。iptv。
+
+
+2016-6-17
+
+梁剑 广东银联非常复杂，估计没有时间来完成9341的voip了。
+
+白俊剑 xdos似乎没有起作用啊。在我的win7虚拟机上和白俊剑的win7机器上都没有把1860搞重启。
+
+李柱栋 已经可以在内核中扫描按键了，按照下降延来触发，貌似上升也会触发。造成这时候去扫描按键什么也扫描不到。
+
+熊立宇 说最后一次为档案的事情请假了。
+
+fail commit 7c80e7b81267a3e234a3f1cfd79f5f1510bae8f6     cpe-5g2g: add files in old system
+commit d1b91def4bddfcab9ceb48ed67fa9ae69d84845a     cpe-5g2g: remove usb files.
+commit debace0617da46703debe1deb0144824fa76e986     cpe-5g2g: use compressed uboot.
+fail commit 5e595283d87f4c9e41ebc3b6305a5cc28a9dd085     cpe-5g2g: add mac & update
+commit 73b0e31e83a952316ec5980fd7c3ec42d739dd20     cpe-5g2g: add web.
+commit 8a7cf2225aa57578a4240cd5b7e20b7b7acac7db     cpe-5g2g: change watchdog init value.
+ok  commit dee195803bbd4c7940e462174fa7b7e7b6ff3af4     cpe-5g2g: set nart pin gpio.
+
+白俊剑 当前和后面的工作都是负责4g固定台。4g固定台除了金晶仍然在做web方面，考虑留下吴曦和汪光华，其他人员已经陆续在退出。如果后期有特别的需要，再加入人手。
+
+吴曦 当前在做4g固定台wifi部分和其他修改。这段时间工作能力进步有点小。
+
+刘云 当前做w13的入库，后期加入到mtk的7628平台中。
+
+李瑶 当前在做印度小ap的web部分。小设备的上的web基本是他完成的，前一段时间想让姚国梁和他学习一下这部分的工作，但一直没有真正能接手。李瑶曾经做过挂墙linux终端的前后台，学习能力也不错。感觉还没有发挥出他的真正的实力。
+
+陈良 各种设备的集中网管，有交流意愿和交流能力，做的集中网管也没有出现大的问题。但和公司主要产品技术差异有些大，当前不太容易安排做某个项目的项目管理。
+
+张勇 当前做吸顶ap和印度小ap，后面准备把9341平台的其他产品，让他和梁剑、姚国梁等人一起担负起来。并参与mtk平台。
+
+梁剑 当前在做自助缴费中的广东银联改造和移动集团自助招标事情。前面一段时间做了印度小ap和网管部分的验证和修改。虽然由于前些年一直在做自助平台，有些游离于公司其他项目及人员，个人还是有参与主要产品的意愿。现在是谢世乐的导师，谢世乐毕业到公司后，希望能担负其自助的一些事物。
+
+姚国梁 前一段时间主要调了多种模块，当前在做和张勇做印度小ap。如前，希望后面能和梁剑等一起把9341平台产品担负起来。
+
+苗立双 后期准备做9x07平台，一个新的平台。感觉他做9x07平台还是要增加一个得力的人一起做，以期望不出现担子都压在他一个人的情况。其实张勇是比较好的人选。苗立双做的工作，如果做到后期再加人，担心效果会差强人意。
+
+金晶：4g固定台的web部分，中兴对此没有要求，但海外会对此较为重视，昨天看了一下，还有很多细节需要调整。前面也征求过白俊剑的意见，让汪光华也开始学习此部分的工作，并希望以后能接手。让金晶完成此工作后能退出，完成一直以来想完成的tr069平台的工作。
+
+赵金：工业路由器亮衡模块支持，这个功能完成后加入到郑杏泉的工作中，郑杏泉当前有些忙不过来，也需要增加助手。加入亮衡模块其实苗立双已经完成，但是由于他的分支存在了太长时间，给赵金合并分支带来较大的困扰。
+
+郑杏泉：当前忙mtk的openwrt平台，后面还有5寸彩屏的固话和iptv需要他参与。
+
+余小虎：当前忙4g固定台入库的支持，后面有5寸彩屏的固话。
+
+汪光华：4g固定台剩下工作，如前，希望能接手其中web部分。汪光华自我评价不是很高，还需要激励。
+
+熊立宇：在4g固定台前期完成一些辅助功能，但当前4g固定台遗留工作都有些难度，他暂时较有困难继续在这个项目中，考虑将他更换到其他项目中。
+
+
+2016-6-16
+廖中举 贵州移动的网络重新划分的事情，昨天下午给电话到我这里，移动工作人员说他们的内部网络由于移动自身原因有所调整，提到了对ac，dhcp中继等要求做的修改，这两个问题在我们农宽设备上都不存在，就不理解为什么要找到我们来谈这些问题。于是建议先去找移动公司分管我们设备技术人员做更多的了解。后来从他的日志上来看是在服务器设置后解决了。
+
+下午去楼顶测试，还是w13最强，到了100m仍然有1MB的速率，而9341的吸顶ap还能将就，也有几百，能看到1m。mtk的7628还不太好。
+
+程玉：斯里兰卡已经中标，5000万的任务完成了一小半。
+
+2016-6-15
+总数把试题出了一份，已经发给王伍
+
+刘云 不同批次的w13打流速度差别很大，同样环境下差别又20mb
+
+Sound card support
+ HID Devices 
+USB support
+SCSI device support 
+Second extended fs support
+
+下午测试了吸顶ap， w13，7628等设备，吸顶ap被摔了一下，不运行了。使用手机打流，能到8\90m。而一个7628则非常好，有时能2-4m，最高能看到5m。但另外一块板不行，走到几十米就不到100k了。
+
+梁剑 要做广东银联和中国移动招标的工作。感慨以前有时间的时候没有把这项工作完成。
+
+刘云 王伍还是决定使用w13去完成入网。要增加多ssid，无线用户间的隔离等。但是vlan的估计太困难了。
+
+李柱栋 能够在内核中触发gpio中断了。
+
+2016-6-14
+赵金 还没有上传ebtables的代码和发出xdos的邮件。
+金晶 网页上仍然存在比较多的问题，感觉一些基本的功能没有测试。
+李柱栋 还是先编译android6吧。
+
+在p10p上，以下脚本实现ip passthrogh
+ifconfig usb0 0.0.0.0 up
+route add -host 10.148.55.102 dev usb0
+route add default gw 10.148.55.102
+route add -host 10.148.55.101 dev br0
+echo "1" > /proc/sys/net/ipv4/conf/usb0/proxy_arp
+echo "1" > /proc/sys/net/ipv4/conf/br0/proxy_arp
+iptables -F -t nat
+iptables -t nat -I POSTROUTING -s 192.168.0.1/255.255.255.0 -o usb0 -j SNAT --to-source 10.148.55.101
+所连的pc可以设置
+ip  10.148.55.101
+netmask  255.255.255.255
+gateway 10.148.55.102
+dns 221.179.38.7 120.192.165.7
+也可以这样设置：
+ip  192.168.0.100
+netmask  255.255.255.0
+gateway 192.168.0.1
+dns 221.179.38.7 120.192.165.7
+两种方式都可以上网。
+
+1860上看起来也可以：
+WANIP=`ifconfig lmi40 | grep inet | busybox cut -d : -f 2 | busybox cut -d ' ' -f 1`                                                                                      echo $WANIP                                                                                                                                                               
+ifconfig lmi40 0.0.0.0 up                                                                                                                                                busybox route add -host $WANIP dev br0                                                                                                                                    
+busybox route add default gw dev lmi40                                                                                                                                    
+echo "1" > /proc/sys/net/ipv4/conf/lmi40/proxy_arp                                                                                                                        echo "1" > /proc/sys/net/ipv4/conf/br0/proxy_arp                                                                                                                          
+iptables -F -t nat                                                                                                                                                        iptables -t nat -I POSTROUTING -s 192.168.0.1/255.255.255.0 -o lmi40 -j SNAT --to-source $WANIP
+所连的pc可以设置
+ip  10.42.39.122
+netmask  255.255.255.255
+dns 221.179.38.7 120.192.165.7
+也可以这样设置：
+ip  192.168.0.100
+netmask  255.255.255.255
+dns 221.179.38.7 120.192.165.7
+两种方式都可以上网。
+如果设置为其他网段的地址，不能上网。神奇的情况是完全不需要设置网关。没有网关，本地路由怎么走的？
+
+
+2016-6-12
+严俊 打了2次电话进来，打过去又没有接。还是那个偶然停顿的问题。
+
+
+
+2016-6-8
+李柱栋 还没有开始测试那个ip passthrough的脚本。也许这样的东西不应该给他搞。
+
+王伍 金晶 白俊剑 讨论网页上锁频应该做的修改。
+
+严俊 上次说的那个每天有半小时会卡的情况，代理商又接了一个环创的设备，也会出现卡顿，但是每次卡的时间只有2-3秒。而通则的设备可能卡的时间长达30秒到1分钟。从速度上来看，通则的设备可以高达2000k-3000k，环创的只有1800，但出现卡顿的时候，通则的只有几百，而环创的仍然有1600。
+
+王伍 继续说l2tp的方案了，各地的voip调试太复杂了，要每个地方打开firewall等，非常麻烦。
+
+李柱栋 对nat等网络概念还不了解。
+
+白俊剑 sml工具的源码联芯已经给了，今天的邮件是走的流程。功能是自动组成bins文件，不用再sml工具中选择那么多。
+
+2016-6-7
+颜斌 希望富桥那里先使用25版本验证一段时间，然后再继续开发新功能。
+
+王伍 还是希望能把sdk9.5中的无线部分迁移到原来的sdk中，这样原来的产品也可以用。否则整体迁移成本太大。
+
+使用张勇的那个编译器有错误，他的还是用他本机编译好的。ccache中存在他机器的特定路径。
+
+余小虎 愿意承担招聘新人的任务。
+
+周茜来了，正在做题。题目没有做完，算了让他走了。
+
+颜斌 陈总觉得如果用mtk做cpe便宜很多，那么不用通知市场，直接换掉。
+
+为什么修改后的无线启动不了，切换到master似乎是好的，再来试试master。确实，master是可以正常启动的。出现的错误是Unknown symbol __floatsidf，难道里面根本没有对浮点数的支持？先用+3来吧。
+
+富桥那里在批量升级25版本的程序了。
+
+在楼顶测试了吸顶ap, 印度ap的板子，w13，感觉全向天线真的很差，换成吸顶ap的天线就和w13的效果差不多了。
+
+这个也有点像ip passthrough
+https://forum.openwrt.org/viewtopic.php?id=20276
+watts, I have this working. It was fairly straightforward to do. The only thing I haven't done yet is to get dnsmasq to serve up the WAN IP and gateway to one client.
+
+ifconfig ppp0 0.0.0.0
+route add -net $WANIP netmask 255.255.255.255 dev br-lan
+route add default ppp0
+route add -host $GATEWAY dev ppp0
+echo "1" > /proc/sys/net/ipv4/conf/ppp0/proxy_arp
+echo "1" > /proc/sys/net/ipv4/conf/br-lan/proxy_arp
+
+Then I assign my laptop the WAN IP and GW from the ppp connection and bam, I'm online. I've tested on Sprint and AT&T so far.
+
+
+
+2016-6-6
+郑杏泉 从明天开始请2天假，把家人送回广西待产。大约6个月了。
+
+张勇 姚国梁 9341平台，无线当作客户端，那么密码输入错误，不会有任何提示。
+
+李柱栋 ip passthough技术，如果在br0上增加一个虚拟接口，再增加一个dhcpc得到额外的地址，就可以实现两个设备都能被访问。
+
+王伍 郑杏泉 iptv上要增加若干个vlan，不同的vlan做不同的用处，如果是linux，那么vconfig应该能做到，看看在android下是否可行。
+
+余小虎 发现一个^dmrst的东西蹦出来，然后tzphone无响应，看top，tzphone占用33%，看日志，后面没有任何输出。从其他串口得到cfun已经变成了4。
+
+小马oem9激活工具这个可以激化在虚拟机中安装的win7.
+
+在虚拟机中运行通则终端就没有乱码，而linux本身反而有乱码，真奇怪啊。后来再看，其实也有乱码。
+
+张勇修改了/staging_dir/usr/include/linux/fs.h，第25行增加了：这样busybox中的umount就可以编译了。
+#define MNT_FORCE       0x00000001      /* Attempt to forcibily umount */
+#define MNT_DETACH      0x00000002      /* Just detach from the tree */
+#define MNT_EXPIRE      0x00000004      /* Mark for expiry */
+
+2016-6-5
+ubuntu linux 下建立 纯L2TP 服务端和客户端
+http://blog.csdn.net/lfw19891101/article/details/7206217
+
+mtpd编译没有问题，运行直接退出，使用logcat -s mtpd看：
+I/mtpd    (17988): Using protocol l2tp
+I/mtpd    (17988): Connecting to 192.168.0.50 port 1701 via br0
+I/mtpd    (17988): Connection established (socket = 23)
+D/mtpd    (17988): Sending SCCRQ (local_tunnel = 6909)
+D/mtpd    (17988): Received SCCRP without valid challenge response
+E/mtpd    (17988): Protocol error
+D/mtpd    (17988): Sending STOPCCN
+I/mtpd    (17988): Mtpd is terminated (status = 4)
+
+刷ap-cp的
+setenv ipaddr 192.168.19.118 && setenv serverip 192.168.19.100
+tftp 0x80060000 tozedap-cp_ap123-jffs2 && erase 0x9f010000 +0x6d0000 && cp.b $fileaddr 0x9f010000 $filesize
+tftp 0x80060000 vmlinux_ap123.ma.uImage && erase 0x9f6e0000 +$filesize && cp.b $fileaddr 0x9f6e0000 $filesize
+
+使用这个指令来搜索局域网内的地址：
+nmap -sP 192.168.1.0/24
+
+上次王伍打电话来 有这么几件事情： volte的呼叫转移这样的补充业务，在中国移动是使用向服务器发送特定的数据包来实现，这个联芯是使用java来做的，我们没有这个标准呢，貌似需要抓包来实现。
+
+人员方面：斯里兰卡的volte voip都要有人来接下来。金晶先把web认真做好，他水平还是有的。汪光华要压担子。吴曦没有学习的积极性。需要通过考试来给大家学习的压力。比如说在linux下的cpu占用率，内存使用情况，命令的重定向，路由，静态路由等。
+
+在上海搞无线，发现在某些情况下cpu的主频会降下来，导致wifi速率下降。而如果永远不降，那么就发热的厉害。
+
+还有几个问题一直拖着：ip passthrough， l2tp的直通， 9341的wifi。
+
+2016-6-3
+这个文章有在ubuntu16.04下编译 android 6
+http://www.68idc.cn/help/mobilesys/other/20160530618129.html
+
+徐刚雄 629那里说9341上的voip需要12m的空间，我们最大能使用的nor flash只能是16m的。
+
+张勇 使用新版本的sdk，一次wifi异常都没有出现。考虑是否把那个拉的动作也去除。ifconfig ath0 down && ifconfig ath0 up对用户体验确实不好。
+
+梁剑 使用cpe的程序，连接带加密的ap有问题。
+
+史朝龙 单ap中5.8g的会出问题，当前已经出了10多个站，能连接上，但是不能ping通，协议连接是未连接。其中一个站，他刚到开机是好的，半小时后不能连接。颜斌认为是速率的问题。那么改成单流的速率就可以连接了，难道是其中的一个天线出问题了？先这样处理了，速度比原来有减慢。
+到另外一个基站，2.4和5.8都搜不到，但是进入系统现实没有发现问题，让他搜索一下周边ap看看。
+
+在ath_xmit.c中ath_buf_set_rate函数中增加打印，发现所有0x8x的值，其txpower_cap，都是40。那我把假的校准值变得小一些，来打印看看吧。还是40，那么说明在ath_xmit.c中，似乎只处理iwconfig ath0 txpower设置的值。
+
+如果在ar9300_xmit_ds.c中的ar9300_set_11n_rate_scenario中对有txpower的地方进行打印，如果eeprom中设置的是10，那么设置的值是24, 其他的设置的是34。那么我在eeprom中这样做吧：p_pwr_array[ALL_TARGET_HT20_7] = 38; 感觉没有作用啊，还是24.
+
+张勇 下午用版本搜索了一下，确实一个wifi异常的错误都没有报。许多设备流量看起来也有不少。当前富桥升级了80多个设备。还有两个问题是：root密码要修改，程序会挂掉。那些运行时间短的，登陆上去看/proc/tozed/lastboot是reset by watchdog，这样看来应该是程序出现了非法错误。
+
+梁剑 笔记本连印度ap连不上。
+
+郑杏泉 问脚本是否可以实现位操作，建议还是算了吧，脚本写运算就是坑。
+
+
+2016-6-2
+严峻 四川移动拉光纤到用户门口后，想用一对5.8g的cpe把信号传到用户家中，需要组播支持。当时是在ap和cpe上增加了mcastchance来支持组播通过的功能，然后有两种方式，一个是定时写寄存器，一直让所有的包通过。一种是监听组播包，每秒自己发送一个组播join包过去。两种方式好像都有问题，一直让所有的包通过，貌似是ftp下载有问题。而每秒再次发送组播join包, 有什么问题不记得了。以前的日志也没有对应的记录了。
+
+梁剑 apcd代码中的一些问题。
+
+颜斌发了一个ap-c5 2c的版本给严峻，让他自己去输入macastenance指令去测试。
+
+李柱栋 云os和android是不同的系统，兼容了android，如果采用yunos，资料应该会比较少。
+
+9341 voip评审， 软件方面是要对i2c器件进行模拟。
+
+5寸彩屏的固定台：将使用android6的系统。
+
+2016-6-1
+李瑶 是否采用tplink的无线设置方式？
+张勇 不小心把master rebase到了一个分支上，貌似没有办法恢复了。
+李柱栋 吉林那里还有回声抑制和呼叫未接听的处理问题。
+张勇 解释了一下openwrt的网络设置的基本设置。
+梁剑 昨天那个只发了一个心跳包的情况，今天又没有出现了。
+张勇 24a的程序vlan还是有问题。
+
+ar9300Set11nTxDesc这个函数里面的txpower看起来永远是40.
+
+通过抓包等看数据，还是在0x87的速率上功率非常低，当强制设置到其他速率时，看起来是正常的。通过写所谓的寄存器变大时，没有效果。但如果写这些寄存器改为较小的值，确实有了限制。
+抓到的包中大量存在block ack这样的包，这个包总是用24m的速率发送的。而这个速率，是ofdm的0x9这个值，但是我在程序中已经把所有的非ht20的速率都改为了ht20
+
+5-31
+openwrt下的网络配置其实有些奇怪的，不过张勇、郑杏泉还是把管理vlan确定了。
+郑杏泉 下载了某个软件编译成so后，网页上可以进行搜索了。
+余小虎 4g固定台入网当前有两个问题，一个是不识别某个实验室的卡，一个是没有开放上网，所以其射频没有测。
+严峻  有个站只有代理这个用户，测试机顶盒看直播，有时候会卡，再卡的时候，连接电脑看直播是好的。
+金晶 网页改成中兴的样子，页面非常多。
+夏荣平 那个带5寸屏的固定台采用什么样的flash和内存？
+陈良 富桥要把部分ac放到路由器下面去，这样portal的推送压力就能被分担。然后要增加一条修改admin密码的指令。
+
+新的ath9.5中的wlanconfig的数据结构改变了，导致取的client不断增加。
+
+5-30
+/proc/net/dev中打印的貌似在net/core/dev.c中的dev_seq_show中。应该是tx_bytes这个变量吧。
+
+现在查到ath_net80211_tx_complete这个函数在原来的sdk中有不断的调用，而新的sdk中没有。
+
+5-28
+1 cenos最新版来编译ath9.5: yum install wget gcc ctags gcc-c++  sharutils
+ uuencode: command not found 对应的是sharutils
+2 dlink这个路由器直接不能过vlan的包，考虑淘汰它。
+3 感觉win10会去掉虚拟机发出的vlan包。算了还是使用存linux系统吧。
+4 来刷cpe-df吧
+setenv ipaddr 192.168.19.118 && setenv serverip 192.168.19.100
+tftp 0x80060000 tozedcpe-df_ap123-jffs2 && erase 0x9f010000 +0x6d0000 && cp.b $fileaddr 0x9f010000 $filesize
+tftp 0x80060000 vmlinux_routing.lzma.uImage && erase 0x9f6e0000 +$filesize && cp.b $fileaddr 0x9f6e0000 $filesize
+5 ft230x在win10下面终于可以使用了，要在ftdichip.com网页上下载那个vcp drivers里面的驱动。
+6 为什么w11下载ap-cp的程序，无线部分会狂吐东西，下载cpe-df的就貌似没啥出来。
+
+5-27
+1 富桥希望天线做修改，不要被板子挡住，徐刚雄说已经在做一个这样的板子，是mtk的。但富桥显然不会接受mtk的方案。
+2 富桥按安装了一个影视城的地方，重启的非常频繁。
+3 如果是使用编译好的编译器编译ath9.5，那么要安装make
+4 vm12对ubuntu1404就不能自动安装了。
+5 断开网络安装速度就快多了。
+6 ubuntu14的apt-get貌似就很不好用了。update全是错误。也许不应该选择hk吧。
+7 好像ubuntu14换到请求美国地址，同样apt-get update也无法得到数据。
+8 用ubuntu14.10desktop来试试吧。它可以进行自动安装的，也许是那个ubuntu1410server有些问题，删掉，重新下载一个。
+9 14.10desktop也同样没有用，就要放弃ubuntu1410了，太快了。
+10 好吧，总算从网页下载的14.04server看起来还可以使用apt-get。
+11 在虚拟机内3分钟编译完成。
+12 在249这台32位的机器上，编译出来的gcc是无法运行的。
+13 如果是ubuntu16,04还要增加zlib1g-dev这个东西。
+14 王伍 在屏蔽房，9341可以到40m，在外面，一般都只有20m了。
+15 赵金 ebtable编译进去后执行就是非法错。郑杏泉找了个其他版本的android中带有ebtables. 
+16 联想小新使用fn+f2进入cmos，因为需要修改vt这个选项。
+
+5-26
+9:20 atheros平台使用预编译的编译器，还需要复制gcc下的.config文件。否则复制库时会报错。
+9:29 使用预编译的，在77上不能编译。
+9:30 使用预编译的，如果先make clean，又重新下载各种包了。
+9:35 我自己的机器上如果重新clone，update这个程序编译过不去。
+10:12 原来是少复制了一个路径，但是既然kernels中有，就改一下-I算了。
+11:12 张勇 程序退出是有个printf的%写错了。有编译告警。所以要清除所有的编译告警。
+11:24 在虚拟机的ubuntu16.04上也编译错误。
+11:39 貌似使用了固定的目录来进行编译，真的是好悲催。
+梁剑：还是存在主动断线后windows那边没有反应过来的情况。
+
+5-25
+有一台吸顶ap不停的重启。好像是ifconfig ath0 down && ifconfig ath0 up必然重启。
+王伍： 富桥还想做一个5.8g的吸顶ap，定向天线的ap。
+富桥现在对重启没有太大的意见了。相对不能使用，用户断一下，半个面包总比没有面包好。
+10:36 王伍 键盘改为中断方式可以安排赵金完成。
+梁剑 问当使用pppoe方式时，eth0使用的是什么地址？其实这个时候eth0的地址无意义。
+金晶 汪光华 如何统一时区设置。
+王伍 要苗立双去做9x07这个平台。
+11：43 当前这个ap出现了无法连接的情况，打开iwpriv ath0 dbgLVL 0xf0000后，手机试图连接出现：     vap-0: [80:22:75:1a:60:4b]ieee80211_node_saveq_cleanup 0 sta's in ps mode
+如果打开iwpriv ath0 dbgLVL 0xf00000 ，那么会出现：
+vap-0: [88:32:9b:eb:96:d9]recv auth frame with algorithm 0 seq 1
+vap-0: [88:32:9b:eb:96:d9]ieee80211_alloc_node: vap=0x83d3c000, nodecount=2, ni=
+0x8391f000, ni_bss_node=0x8391f000 bss_ref=2
+vap-0: [88:32:9b:eb:96:d9] num auth'd STAs is 65535, max is 128, rejecting new a uth
+vap-0: [88:32:9b:eb:96:d9] send auth frmae
+ vap-0: [88:32:9b:eb:96:d9]ieee80211_sta_leave: 0x8391f000
+vap-0: [88:32:9b:eb:96:d9]node_cleanup: vap=0x83d3c000, nodecount=2, ni=0x8391f0
+00, ni_bss_node=0x83a0c000 bss_ref=5
+vap-0: [88:32:9b:eb:96:d9]station free
+vap-0: [88:32:9b:eb:96:d9]_ieee80211_free_node: vap=0x83d3c000, nodecount=2, ni=
+0x8391f000, ni_bss_node=0x83a0c000 bss_ref=4
+vap-0: [88:32:9b:eb:96:d9]node_cleanup: vap=0x83d3c000, nodecount=2, ni=0x8391f0
+00, ni_bss_node=0x83a0c000 bss_ref=4
+如果打开iwpriv ath0 dbgLVL 0xf000000
+会出现大量的vap-0:  discard unhandled information element id 74, len 14
+如果打开iwpriv ath0 dbgLVL 0xf0000000
+会出现大量的： vap-0: ieee80211_add_htcap_pre_ana: use HT caps IE pre-ANA
+
+16:34 生产的来电话，说5.8g cpe升级到17c之后，搜网到100%后，有10%的机器不动了，重启也无法访问了。
+富桥在阿里云上的服务器远程桌面非常容易停止响应。
+17:50 刘云 原来周坦的笔记本上安装ubunut14，无线网卡没有出现。
+
+
+5-24
+忙碌的早上。
+郑杏泉：使用openwrt_cc这个最新的版本，那么无线的设置有问题。如果使用mtk给的openwrt版本，那么没有vlan的设置。其中的wlan启动脚本也比较复杂，单独运行没有效果。
+赵金：使用xdos测试很快4g固定太就重启了，还没有找到有效的防止命令。
+曾小星：富桥那里改回了重启次数多的配置，联不上的情况少了。但是重启也是个问题。
+刘云：git clone的时候加不加最后的.git是一样的。
+金晶：中兴认为web界面太丑了，干脆用中兴的模板来做吧。
+
+5-21
+张勇： 目录下面全是readme.eml文件，估计是中招了。
+meld中，如果一个文件没有写权限，那么箭头就不对了。
+要增加模块卸载。
+要增加update程序。
+
+
+5-20
+1、看了一下dialog的测试结果，把几个没有加入的项目加入了4g固定台表中。
+2、9341的无线，在富桥使用的中，还存在故障无法自动恢复的情况。考虑重新使用新的sdk来做一个。
+
+下午了：
+包雪峰：内蒙，某个地市要出特别的5.8g的程序。这个程序如何没有设置pppoe帐号，那么就没法拨号上网。
+新的印度吸顶ap测速比较差。后来说是选择的信道问题，选择了6。选到13就好多了。
+白俊剑 voip未授权，应该是mac不对。
+张勇： 印度ap刷机后ath0不能加入网桥的问题是没有校准的原因，梁剑把cpe上已经校准的校准区写入有问题机器后，就可以了。
+吴曦  还没有问无线抓包网卡是什么型号。
+
+5-19
+上午的几个事情：
+赵金把读写imei改为dll，并必须用ukey是可以做到的。
+颜斌mtk是两层板，硬件上能否正常出来还有问题。
+袁阳下午去极智联和商谈具体的生产事情。
+张勇：如果上来就编译cpe-ap，那么会出现ath0无法加入网桥的情况。
+白俊剑：开始测试voip，组建网络。
+赵金：准备使用netstat来判断攻击ip，然后用iptables去禁止它。
+张勇： 富桥反应，如果使用限速6m的配置，那么报wifi异常的次数就会减少，但联不上的情况就会增加。现在又把配置改了回去。
+金晶：web可以给多个普通用户。喻潇：两个就可以了，一个超级用户，一个普通用户，普通用户用户名可以修改。
+吴曦：当dhcp设置为2个用户时，第三个手机无法得到ip，断开连接中的其中一个，第三个手机马上能连上了。
+金晶： linux下也可以使用adb
+
+12:01 ar5416_11g_table中去掉cck中数据，看起来ap没有起来。
+13:51 手上这个板子貌似总是启动不了无线了。
+14:22 感觉编译脚本中的再加一次那个_ap123有问题，编译后程序wifi不能启动了。
+15:12 烧了一个张勇编译的程序，也是这个样子。
+15:40 用两个程序对比打流测试吧。使用三星手机：
+nob :     23.738     9.321     6.313   16.535    7.178    15.253    avg:  13.056
+normal: 12.908     4.351   10.159     8.322     9.658    12.041   avg:    9.573
+nob:      23.884   23.429   18.041   18.261   18.400    18.443   avg:  17.009
+normal: 15.016   14.576   11.339   16.066   14.539    12.707   avg:   14.040   
+nob:      20.527   18.496   12.765   12.769   12.739    10.566  
+normal: 17.870   13.693   12.610   12.548   12.536    12.628
+后面的事情：
+1、修改去掉72m等，但是颜斌抓数据包还是能看到
+
+
+5-18
+9:10 印象笔记的搜索居然不支持搜索带空格的字符串，搜两个。
+郑杏泉：派联给的openwrt里面没有wtk的内容，那和网络上下载的有什么区别。
+9:21 郑杏泉 openwrt_cc中支持7628的。不过是在原来那个rt2xxx的里面。
+9:53 张勇 忘了对灯的寄存器修改了。
+富桥那里又没有报非常大的问题了，对重启的问题也没有再说。只有上次他们老板有些莫名其妙的咆哮。
+10:06 使用我的手机，使用全sdk9.5，0.33%
+10:13 那个w13居然内核报错，再也不能启动了。换一个p10p来试试吧。
+10:23 使用p10p的丢包率在0.33% 7.542/13.658/106.397，似乎没有必要使用ping包工具来测试了。
+10:51 富桥那里查了一下表，每天由于wifi错误重启的总次数在300-500次左右，有一个ap在15日重启了60次。
+11:53 张勇 富桥反应有一批设备不能登陆。
+endpoint这个要用兼容模式才能运行。
+11:56 使用我的苹果手机， p10p，打流平均速度是32.229
+
+后来的几件事情：
+1、新的生产厂家需要自己做生产工具，需要提供写imei，检查imei, rssi，版本等信息。王伍坚持需要用我们提供的ukey。需要问一下赵金，是否能做一个dll，这个dll也需要ukey才能运行。
+2、当前生产做最后的版本检查，还是肉眼看，赵金的工具喻潇觉得不好用，就没有发给生产。
+3、富桥哪里有一个区大量的不能上网，富桥认为是vlan设置的问题。
+4、梁剑那里重新编译后烧录的机器wlan不能启动，检查后发现张勇rc.d中的文件没有上传。
+5、颜斌想用派联的sdk，但看起来派联有抵触。
+6、金晶看起来比较想做android的系统，我说还有tr069的系统等着他，有些失望的样子。
+
+
+5-17
+9-29 梁剑 颜斌的那个5.8g cpe在他那里可以访问网页，但我的手机搜索不到那个ssid。工作是把默认参数设置一下。看一下如何操作校准区。
+金晶 脚本中的变量赋值中，等号的两边不能加空格。
+刘小虎 贵州需要用农宽设备来做专线，但移动那个人也说的不是很清楚。按理来说是可以实现的。
+彭广才 赛特尔同意给我们做一个板子，键盘会给我们调好。
+9:50 张勇 来问extap， wds, repeat的概念。看起来应该写到ppt中去。
+10:32 完全是新的sdk，那么喻潇的手机丢包率只有0.32%了，7.288/16.507/63.785ms
+再来一次吧：为0了，8.017/14.980/73.281ms
+再来一次吧：有电话进来了。
+是不是要刷回原来的程序来试试？
+11:26 金晶 想把所有的iptables脚本放成一个文件。
+汪光华 赵金说下了配置后telnet服务打开失败。
+张勇 led的那个程序要改动貌似有些复杂，是否要重新了一个。
+喻潇的手机再测试： 0.33% 7.919/18.045/456.764ms
+再次测试变成0啦： 0% 7.276/15.484/40.285ms
+看起来不错啊，不知道其他方面怎么样。
+13:40 使用我自己的手机则还是有2.32% 7.310/42.895/745.018
+14:13 斯里兰卡的服务器地址是172.16.1.1，帐号密码是：
+0113600332-2661429174143
+0113600333-273142A174144
+0113600334-283142B174145
+0113600335-285142C174146
+0113600331-2651428174142
+14:48 这一次要差一些 1.32%, 8.044/100.195/1266.058
+15:17 安装郑杏泉给的一个驱动后，笔记本终于可以使用sml下载工具了。
+15:36 梁剑 那个机器总会报非法错。
+16:00 这次喻潇的手机又是0, 8.156/14.990/79.166ms
+16:06 拿一个原来的设备来对比测试吧：这一次好像也是0 啊。
+这一次是1.97% 8.83/33.441/1640.383
+再来一次是0% 8.5/19.346/705.688
+16:37 那么拿一个w11来测试吧：0.32% 7.955/36.049/598.399
+再来一次吧：0% 7.978/15.829/72.333 算了，今天认为都是好的吧。
+16:59 忘记写了，彭广才，p10p要做很多，希望加快校准的速度。
+17:15 金晶 升级后，telnet不能进入了。
+18:06 吸顶ap从加电到进入校准状态27秒，而p10p的时间是42秒。
+19:43 梁剑 如果使用cpe的程序，那么没有怪事情发生，如果使用ap-c5的程序，那么各种不顺畅就出现。
+22:00 颜斌 印度ap做成柱状灯陈玉说没有和她说，这应该是当时印度人提的需求。
+
+5-16
+8:47 喻潇 还没有看李柱栋的文档。
+9:01 刷了一遍机器怎么还有以前的文件？
+9:07 好吧，这次出现了bummer, could not run '/sbin/getty': No such file or directory. 晕死，把擦除区扩大就可以了。
+张勇 比较了当前的ap-cpe和以前的参数，看起来都是一样的。
+9:40 余小虎 有一台机器打过静电就显示完全不对了。
+升级了一台机器，还是网络没有启动。
+10:21 金晶 修改的文件运行cool后恢复原样了，这个设计确实也存在问题。
+苗立双：tr069编译有问题，但重新操作又能编译了。
+10:36 朱建文 管理包改为6m发送他也没有做过，是其他厂家改的思路。
+12:00 喻潇的手机连接结果是这样：丢包率2.97%  8.482/27.189/2080.179ms
+13:52 77 上对perl5.22这个分支进行编译。可以编译通过了。
+14:28 新的openwrt要求安装subversion，还有sudo apt-get install libssl-dev
+14:48 吴曦 王伍的机器升级后wifi没有启动，后来又能启动了，这真的让人头痛啊。
+15:06 张勇 不能访问加密的wifi的原因居然是brctl setfd br0 0这个脚本没有执行，真的不了解。
+15:25 吴曦 怀疑是程序生成的那个脚本还没有生成的原因。
+15:26 249上开始重新编译。
+15:34 拿喻潇的手机来，发现无法连到这个sdk9.5编译的ap上了，从串口上看到奇怪的报错：ath_open: unable to reeset hardware; hal status 14(freq 2462 flags 0x1000)，apdown  apup无效，重新启动能看到了。
+15:42 喻潇的手机， 300个包2.31% 7.844/68.242/2104.206
+那么关掉wmm看看吧：关掉就没有问题，丢包0。听说关闭wmm就是g模式，那么如果开启puren那么是不是就很差。
+16:28 吴曦 如果总是没有tzphone生成的文件，那么还是继续跑下去吧，不要退出了，导致网络都不能使用。
+16:32 白俊剑 配置文件增加字段必须加在结构最后，但吴曦把它加到了中间。
+19:20 给李光达刷的机器没有ssid出来，iwconfig看txpower是50db，设置了也没有用。ath_open: unable to reeset hardware; hal status 14(freq 2462 flags 0x1000), 刷一个完全用sdk9.5编译的就可以，不会出现问题。
+20:00 张勇 梁剑 测试了ap模式下的bridge模式，上联口使用的是p10，可以互相ping通。
+
+
+5-14
+18:48 在笔记本上串口看起来是没有乱码的，而台式机上总有那么些。
+要安装那个盗版的驱动串口才能使用。
+
+5-13
+10:09 给朱建文发邮件说把昨天会议他说的几点再催一下。
+10:25 李柱栋 voip使用阿里云，声音还有一点点延时，收听有偶然的缺失。希望他把wiki百科或者其他方式的知识记录和共享建立起来。
+李瑶 认为当前没有什么简单的东西给姚国梁来做，找些书给他。
+吴曦 找到了udhcpd这个程序的位置。在external/udhcp-0.9.9中。
+金晶 一天有130万的日志记录。有些文件没有更新到，应该是没有写到cool中的更新列中。我这台机器的信号显示不对，但是他的机器上看到的信号是满格。
+张勇 富桥希望把网管做到linux上面，windows系统总是受到攻击。配置参数测试wifi，非常难得到对的数据，也不知道好不好是不是修改参数的结果。
+梁剑 强制更新c5的程序后，无法ping到设备了。串口那里疯狂的出无线信息的错误，那个错误是什么，不记得了。
+熊立宇 要测试一下配置工具。
+11:16 键盘还是要改为中断的方式，后期还要做掉电注销网络。
+11:37 梁剑 王伍 当前江西的网管方案可能在其他地方用不了，会白做。
+15:56 简单写了一个wlan的说明ppt。
+16:23 吴曦 wlan_8192c.sh使用网页升级，总是没有执行权限。
+梁剑 已经发出ap-c5的程序。
+单总 印度程序最终还是要满足客户要求。
+王伍 考虑在1860上用w13的mtk芯片代替riltek芯片
+16:28 atheros新的9.5版本的sdk, sudo apt-get install exuberant-ctags
+16:31 atheros新的9.5版本的sdk，看起来一点要解压special这个包。
+16:34 新版本编译出来的无线驱动还要小一些。
+17:03 余小虎 pull --rebase出现冲突时，add后做了commit操作。应该做rebase --continue。
+17:32 vim的替换   :s/vivian/sky/g 替换当前行所有 vivian 为 sky
+:n,$s/vivian/sky/ 替换第 n 行开始到最后一行中每一行的第一个 vivian 为 sky
+17:40 如果复制9.5的wlan过到原来的sdk中，hostapd编译错误。原来也碰到过吧。都不记得原来怎么处理的。对啊，在后来的10.1版本上碰到过。
+18:05 张勇 印度小ap作为cpe时，去连接有加密的ap有问题，不能连上。
+18:23  git remote add 249 ssh://jian@192.168.1.249/home/jian/work/bigap/.git 这样才能呢过连到其他机器上的仓
+20:17 张勇 刷个cpe的程序可以连。
+梁剑 问网桥、nat 和dmz。
+22:30 白俊剑 脚本不能用dos的工具新建，但是原来的脚本用si改都没有关系，不会出现^M这样的东西。
+
+5-12
+8:56 昨天姚国梁修改了程序，在他那里master下可以编译p10p的程序了。我这里确实也编译过去了。
+王伍 中兴有个实验网我们的话机注册不了。
+9:06 金晶 从凌晨到现在，ap历史表11万记录，用户记录30多万。
+9:17 吴曦 tzphone一起来就设置参数，无效。如果用tzphone load_wifi这样的写法那么屏幕会闪。
+9:32 金晶 在linux下的si，不能输入中文，但可以在它的搜索界面中输入中文，然后复制，粘贴到代码中。
+10:25 77和249上的ip命令结果还不同。ip l2tp add tunnel tunnel_id 3000 peer_tunnel_id 4000 encap udp local 1.2.3.4 remote 5.6.7.8 udp_sport 5000 udp_dport 6000这个命令，77上RTNETLINK answers: Protocol not supported，而249上直接Object "l2tp" is unknown, try "ip help".
+10:29 虚拟机内的ubuntu16.04执行貌似正常，还出现了一个l2tpeth0这个网卡。
+14:04 629要加spi支持。但是spi_gpio没有可以选择的地方。
+王伍 l2tp可以不用管v3之类，只要能借用国外的4g网络调试程序。
+金晶 已经60多万数据了，那么一天超过100万是必然的。
+熊立宇 如果不加sync，那么10次有6次会没有写入配置，如果加上了，那么试过多次，没有出现过。
+14:16 linux下，不知道如何使用iw改变信道。
+14:26 使用wireshark开始抓包后，就可以使用sudo iwconfig wlan0 channel 11来改变信道了。
+14:38 虚拟机内的ubuntu居然重新启动不超过10秒，太惊人了。完全关闭vmplayer，再开启进入的速度也是非常的快的。
+15:36 吴曦 在程序中生成脚本，再wifi的脚本再调用，wlan_8192c.sh会被调用多次。当前貌似正常了。
+17:27 来atheros，atheros有usb3.0的芯片是 4018+8075/2 ，价格在12美元。arm构架，4核。openwrt。便宜的是9531, 2.2$，比9341便宜。加强无线的措施有：修改control_table, 将管理帧改为6m发送，改burst值，调cwm参数。
+说道atheros的缺点还有就是一定要校准，非常费人工。加上pa后功率还是不够。成本高。
+17:59 梁剑编译的貌似spi没有加入。CONFIG_SPI=Y，后面又有config_spi is not set，那么在config中，就是not set。
+18:21 李柱栋 启动的第一次以太网的mac是随机的。这应该是正常，ubi刷完之后有个fixed up过程，这样文件系统就应该没有加载了，以太网的驱动读取的是/amt中的文件。
+18:35 梁剑 编译出来还是不对的。
+19:01 梁剑 现在的是对的了，除了那个gpio的没有了。
+20:15 笔记本上以太网驱动又变成5.5日的了，没事自动升级做啥？
+20:41 印象笔记的网页版真的很难用。速度超慢。
+
+面谈小结：
+
+汪光华： 似乎对自己的评价并不高。说自己还是不够聪明。
+梁剑：主要提了对培训的建议。觉得自己网络知识缺乏。分配的任务尽量明确或者有类似的产品来对比。需要填写的表格太多，比较费时间。
+
+李瑶：在武汉买了房子，可能明年撤退。提出了代码重复的太多，没有统一的接口和精简。
+赵金：提出在向别人提出需要帮助时，有些人有不耐烦的时候。
+张勇：早上上班的时间有些赶，能否放宽一些。
+吴曦：希望公司给出盈利后给出多少来改善待遇的具体值。老婆怀孕了，需要照顾。
+刘云：1一件事最好不要多个领导来催，比较影响效率。2即使没有量产的项目也应该在测试结束它，不必等到要量产的时候又手忙脚乱。
+白俊剑：公司可以花小钱办大事。出差补助10年没有提高了。
+李柱栋：出差补助10年没有变了。小房间有不努力的情况。知识共享。产品向智能化专业化发展。
+
+5-11
+8:49 vm中跑ghost的时候，会跳找不到文件的错误。算了，还是按照那个上海政府版吧。
+9:00 vm安装xp貌似也非常快啊，已经进入系统了。但在窗口模式下，它点不到内部的状态栏。还有一点，内部的网卡总是自己会断开/连接。
+9:09 usb设备也没有到虚拟机中。
+9:16 感觉是连接了4g固定台就会出现虚拟机网卡断开的情况。
+10:13 王伍 刘子军测试10多分钟后会掉下来。
+10:17 喻潇 和金晶讨论网页的问题。
+http://mirrors.163.com/ 是网易的镜像站点。
+10:40 张勇 9341和w13一起打流，w13几乎没有影响，9341的掉到1-2m。
+使用linux下的wireshark就可以直接抓到无线包了。而且有解析。
+吴曦 把dhcp换成其他网段没有试过。
+10:46 来使用若干个linux的系统来测试各个产品的编译吧。先用64位的12.04吧。
+10:51 吴曦 修改了dhcp参数可以ping到，测试是喻潇的机器不可以，吴曦的机器可以。
+11:45 张勇 富桥的老板薛雪峰打电话过来，说用户投诉很多，经常重启的问题要解决。从金晶查数据来看从昨天开始有100多个设备出现wifi异常的情况。
+13:53 ubuntu 12.04的server光盘上似乎没有git,不过现在居然还可以从apt-get来，不过要先安装写别的东西。
+14:05 http://mirrors.sohu.com/还有非常早期的ubuntu版本。
+14:10 在ubuntu 12.04上要安装一个gcc看起来有些困难啊。各种库没有。算了，不折腾了。要折腾也折腾新版本的linux.
+15:16 ubuntu15.04看起来openswan已经没有在ubuntu的软件仓中了，看起来是有strongswan的。
+15:45 bigap分支ubuntu14.04在249上成功编译cpe-8m。还有77上也试试吧。
+15:47 ubuntu14.04上倒是可以apt-get install openswan。怎么变化会这么多呢？
+15:52 为什么77上就不能免密码登陆呢？奇怪的事情。
+16:05 bigap内，使用build目录下的make BOARD_TYPE=db12x clean会报错，而到linux的目录去，make clean就正常跑了。
+16:11 廖中举来电话，移动测试单ap，设备在楼顶，在楼下搜索发现信号值很差，80多，联上后显示又有40多，可以上网。ssid使用的是唯一的字符串，没有和其他重名。
+16:43 找了半天，也没有找到原来给工程的如何取扫描的日志文件的。
+16:48 吴曦 如果tzphone中不对wifi进行处理，那么自动信道是可以找到不同的信道的。王伍让他在init.sh之前就设置好参数。
+16:57 扫描保存的文件是temp.log，为什么那个邮件就找不到了呢？
+17:10 金晶 想用select  into， delete from的方式每天修改日志记录。
+17:18 给廖中举发两个邮件，一个是cpe-df 32a，一个是取log的。
+17:31 颜斌未碰到过搜网很差，而连上很好的情况。把ap的txpower改为23则稍微稳定一些。
+17:38 下载一个“华文楷体”的字体后，陈曦发的文档看起来正常多了。
+18:10 https://hjc.im/shi-yong-strongswanda-jian-ipsecikev2-vpn/ 这个链接有strongswan的配置说明，以后再看吧。
+18:19 l2tp v3 使用的文件是这个((CONFIG_L2TP_V3)) += l2tp_netlink.o，目录在net/l2tp中。
+18:27 l2tp v3有三种链接方式: lns - lac lac-lac
+18:58 77上编译bigap cpe8m居然用了3163秒。
+18:59 如果用rename table, select into原表的方式，那么原来的依赖和约束都没有了。
+19:40 http://manpages.ubuntu.com/manpages/xenial/en/man8/ip-l2tp.8.html这个链接说明无状态的l2tp。
+20:57 win10的共享无论输入什么密码都过不了。
+20:59 vmplayer安装ubuntu的时候什么也不用选，直接就开始安装了。这样也有一个问题，就是没法制止它安装的时候不去联网。
+21:10 姚国梁那里master下面27h是可以编译的。
+21:26 虚拟机器的ubuntu 16.04安装完成了。这样安装的ubuntu，其源总是跑到美国。
+
+5-10
+8:58 boxes这个东西重启后貌似又能用了，但是你查看了device后，又不动了。
+昨天还问了一下喻潇，她还是希望不同产品的做配置的工具分开，原来的都在一起是因为全是话机，配置项目都是一样的。
+10:24 单总开会，说了几件事情。一个是移动可能在8月底完成对4g cpe和自助设备的招标。局面非常严峻。讨论是否要对新的外壳模具进行入网的问题。担心一个室外型出货量比室内型多的多，其他厂家必然有所动作，比如提高防水等级，fdd要求等。
+另外一个问题是我们的成本太高，已经比其他厂家的出货价还高。供应链体系还没有建立起来。有些小厂能拿到比较好的价格。
+10:29 在ubuntu 14上面，vmplayer看起来是正zlib1g-dev常的。不行把笔记本上的ubuntu换掉？
+12:24 继续面谈白俊剑，赵金，汪光华。
+赵金选择：苗立双，梁剑，李瑶
+白俊剑选择：李柱栋，郑杏泉，余小虎。如果只选择一个人，那么是苗立双。
+汪光华选择：白俊剑，吴曦，余小虎。
+12:29 使用ubuntu server对bigap进行编译，需要安装的包：make gcc bison flex gettext g++ libncurses5-dev zlib1g-dev:i386 autoconf automake libtool
+14:05 吴曦 问三种加载配置的方式，想对sysconfig等进行整理。
+16:04 面谈只有陈良了。
+刘云选择了： 苗立双 张勇 郑杏泉
+李柱栋选择了：白俊剑 余小虎 郑杏泉
+李瑶选择了：李柱栋 梁剑 陈良
+16:06 余小虎问自动拨号，手动拨号的问题。网页上的设置是能起作用的。
+20:31 苗立双发出的对姚国梁的git提交的检查，有些姚认为是不同机器的编译生成的文件不同。
+22:00 那么我这里统计的结果是： 郑杏泉 李柱栋 4票， 白俊剑 苗立双 余小虎 张勇 3票 李瑶 梁剑 2票 陈良 吴曦 汪光华 1票。 金晶 赵金 刘云 为0
+
+5-9
+
+今天貌似说了一天的话。
+
+早上王伍说4g固定台还需要增加的功能。就说到了10点。然后呢，和张勇、王伍说wifi那个轮着发包没有起效果的问题。再是开wifi问题的会议。
+下午呢，三点之前和白俊剑一起把增加的问题列入表格中，三点开始又开始说4g固定台的事情，一下子就开到了4点办。
+在进行了金晶，张勇，梁剑，吴曦的面谈。
+金晶希望合作的人是：郑杏泉，白俊剑，李柱栋
+梁剑希望合作的人是：苗立双，李瑶，张勇
+吴曦希望合作的人是：汪光华，李柱栋，张勇
+张勇希望合作的人是：
+苗立双终于搞了一下那个gpio的事情，原来是以太网也在操作gpio。
+
+5-8
+9:42 我的机器上的box就只能安装xp的windows，其他几个, win7, deepin都失败。
+9:54 mm clean貌似把所有的clean了。
+10:07 ubuntu 16中的/etc/default/rcS中已经没有UTC=yes这个项目了，那么直接加上UTC=no看看吧。貌似是没有用的。
+10:35 boxes中的xp不能ping但是上网是可以的，真的很奇怪啊。
+10:50 在boxes中的xp安装联芯的工具，最后报"无法定位程序输入点encodepointer于动态库kernel32.dll上"，不过安装程序似乎继续了。
+
+5-7
+14:39 有两台机器出现了wifi没有启动的情况，针对其中一台进行了折腾。boa没有启动, wlan0也没有出现。直接运行init.sh，没有出现昨天的那个无资源的情况。查到每个va0-4的wlan-disabled都是0，而正常的机器 都是1, 再发现boa中的那个setting.bin文件为0自己，按照mifi_start.sh中的命令，把/system/etc/mifi/boa目录下 的文件复制过来，那么就再运行init.sh，wifi就正常了。
+陶嵩他们也碰到一台wifi不能起来的机器，一直都不能起来，重新刷机后正常。应该也是这个问题。
+20:47 ubuntu 16 居然没有win在软件中心中。14还是可以直接装的。按照winehq主页上的安装指南，居然要600多m空间了。
+
+5-6
+8:35 ubuntu 16.04上面的box貌似有usb的连接配置了。
+8:38 感觉运行box的时候笔记本很难从黑屏恢复了。
+8:59 让张勇改王伍的想法。
+11:27 从赛特尔通讯回来。需要重新做版。
+box里面安装的xp貌似卡在开机上了。
+12:11 强制重启一下box中的xp，启动了，但是貌似网络不能出去。
+颜斌：方陈确实有些情绪，一是感觉做的产品没有卖掉，另外是充电没有按照王伍的方式有充电显示被骂了心情不好。
+12:20 /proc/sys/net/ipv4/ip_forward已经是1了。
+12:30 我自己使用的机器也出现了没有wifi的情况。
+13:00 eddy lin来问gpio不能控制的问题。
+14:04 不能启动wifi的机器会报ifconfig: SIOCSIFFLAGS: Device or resource busy这样的错误，wlan0无法正常up
+金晶 香港阿里云的服务器需要续费了。
+14:27 金晶 碰到了查询拼命吃内存的情况。
+吴曦 正常的机器也有cat: data/var/boa/rtl8192c/wlan0-vxd/ssid: No such file or directory这个错误。
+14:49 网上有报boxes不能访问网络的，还没有找到解答。
+15:22 吴曦测试了40-50次开机，每次wifi都启动了，奇怪啊。
+15:27 李柱栋 如何把sip放到系统中。还是用tzphone里面的复制过程吧。
+15:44 安装了vm player，出现Could not open /dev/vmmon: No such device.的错误。
+15:45 刘云 看wifi看哪里呢？那么先看nvram和寄存器吧。
+15:48 运行 sudo /etc/init.d/vmware start 出现 virtual machine monitor failed和 virtual ethernet failed.
+16:38 李柱栋 system中的sipclient居然没有运行权限。
+张勇 修改后有效果，但是4分钟后打流会停止。
+eddy说还是无法控制gpio，回头要找个板子来试试。
+17:08 看了一下张勇改的程序，还没有做到每个buff发一次，而是每次清空所有的buff，就已经出现了效果。如果不开，那么两个机器的速度在20和8，开了15和12。
+17:34 使用徐刚熊给我的新的串口，貌似没有乱码了。
+18:22 还是有些乱码的。为什么gpio 18等不受控制呢？
+22:06
+
+
+5-5
+14:06 开了一个早上的会议。主要是要增强wifi的功能。
+李东风测试的结果看来还可以，还要增加对acktimeout的设置，增加对5个信道的设置。
+节前键盘不响应的原因居然是扩展gpio的那个芯片送错了。
+14:14 汪光华修改了中英文切换后“中国移动”显示错误的问题，每次都去查表，应该也问题不大。
+14:31 廖中举电话问题单ap是否有光口。说有些单ap用了一年后速度变差，原来测速有10m的，后来测速就只有2m了，只有换设备。
+14:38 梁剑准备继续做江西的网管控制程序。
+16:50 在一台新的机器上编译bigap，出现了没有bison，没有termcap libary的，安装libncurses5-dev。
+17:14 余小虎从网页那里下载tzphone的log结果没有下载，而且/tmp下的打包文件也是空的。
+17:31 金晶 原因是压缩文件的时候使用了gzip这个文件，而这个文件是临时建立的一个链接到busybox。
+17:44 继续编译，出现了这样的错误Can't use 'defined(@array)' (Maybe you should just omit the defined()?) at kernel/timeconst.pl line 373.
+
+20:37 吴曦，喻潇，白俊剑，苗立双讨论配置加载。原来的4g cpe有三种加载配置的方式，生产工具加载、网页上传和远程网管加载。其中生产工具加载会清除保存的锁卡、锁的基站信息等数据，而网页上传加载配置不会。 生产工具加载和网页上传加载使用同样的文件名加载。而远程网管加载优先级最高。任何加载配置时，恢复默认配置，加载生产工具加载的配置，加载网管的配置。
+21:08 王伍 说使用hao123连续打开网页会出现打不开网页的情况。
+王伍 提出在以太网中，一种实现平均分配带宽的办法。
+21:32 吴曦 又出现wifi未启动的现象。感觉是那个init.sh没有运行，所以wifi没有，dhcpd也没有运行。
+21:49 win10的系统貌似不能使用下载工具啊。
+22:00 刘云 p11和w13的协议分析中有个长度计数器使用了char变量，所以在包长超过256时，就有错误发生。
+
+5-4
+11:59 开会讨论人员的事宜，涉及到多个人员的评论。
+使用tc后，内存有泄露。暂时还没有找到原因。
+14:51 使用iperf这个工具，立刻就挂掉了。
+17:34 原来是判断buff满这个条件错了。
+
+5-3
+13:52 李跃鹏来电话，两个问题，1个是锁小区的时候，当某个小区失效时，是在锁定的小区中继续附着吗，其实应该不是的。另外一个是锁基站的时候是否要输入频点。
+早上4g固定台开会。
+李总来问wifi的性能问题。
+14:14 看了半天的邮件，还没有看完。
+14:26 吴曦 来签两个小时的请假单。去苏州发现两个问题，一个是发射饱和，所以很难在n模式下进行传输。一个是抗干扰能力，在发包之前发送一个请求，这个不就是rts么？
+14:36 继续看邮件。
+14:56 单总来问wifi的问题如何继续。
+15:27 张勇 使用自己写的tc那么，如果设置的比较小，打流容易重启。
+单总 程总：翰达的4gcpe已经没有模块了，能不能用我们的模块顶上？
+余小虎：又碰到一次花屏的情况，无法恢复。
+17:56 联想v4000这个机器，总觉得win10下面显示有些灰蒙蒙的。
+19:11 把popstr和pushstr加上保护，还是会挂掉。
+20:38 和eddy讨论版权控制的问题。当前采用锁mac的方式，正式版本将采用后台服务器注册的方式。
+白俊剑：升级搞了半天才好。还有锁机锁卡安装吉林的要求使用iccid进行计算出pin来。
+
+5-8
+9:42 我的机器上的box就只能安装xp的windows，其他几个, win7, deepin都失败。
+9:54 mm clean貌似把所有的clean了。
+10:07 ubuntu 16中的/etc/default/rcS中已经没有UTC=yes这个项目了，那么直接加上UTC=no看看吧。貌似是没有用的。
+10:35 boxes中的xp不能ping但是上网是可以的，真的很奇怪啊。
+10:50 在boxes中的xp安装联芯的工具，最后报"无法定位程序输入点encodepointer于动态库kernel32.dll上"，不过安装程序似乎继续了。
+
+5-7
+14:39 有两台机器出现了wifi没有启动的情况，针对其中一台进行了折腾。boa没有启动, wlan0也没有出现。直接运行init.sh，没有出现昨天的那个无资源的情况。查到每个va0-4的wlan-disabled都是0，而正常的机器都是1, 再发现boa中的那个setting.bin文件为0自己，按照mifi_start.sh中的命令，把/system/etc/mifi/boa目录下的文件复制过来，那么就再运行init.sh，wifi就正常了。
+陶嵩他们也碰到一台wifi不能起来的机器，一直都不能起来，重新刷机后正常。应该也是这个问题。
+20:47 ubuntu 16 居然没有win在软件中心中。14还是可以直接装的。按照winehq主页上的安装指南，居然要600多m空间了。
+
+5-6
+8:35 ubuntu 16.04上面的box貌似有usb的连接配置了。
+8:38 感觉运行box的时候笔记本很难从黑屏恢复了。
+8:59 让张勇改王伍的想法。
+11:27 从赛特尔通讯回来。需要重新做版。
+box里面安装的xp貌似卡在开机上了。
+12:11 强制重启一下box中的xp，启动了，但是貌似网络不能出去。
+颜斌：方陈确实有些情绪，一是感觉做的产品没有卖掉，另外是充电没有按照王伍的方式有充电显示被骂了心情不好。
+12:20 /proc/sys/net/ipv4/ip_forward已经是1了。
+12:30 我自己使用的机器也出现了没有wifi的情况。
+13:00 eddy lin来问gpio不能控制的问题。
+14:04 不能启动wifi的机器会报ifconfig: SIOCSIFFLAGS: Device or resource busy这样的错误，wlan0无法正常up
+金晶 香港阿里云的服务器需要续费了。
+14:27 金晶 碰到了查询拼命吃内存的情况。
+吴曦 正常的机器也有cat: data/var/boa/rtl8192c/wlan0-vxd/ssid: No such file or directory这个错误。
+14:49 网上有报boxes不能访问网络的，还没有找到解答。
+15:22 吴曦测试了40-50次开机，每次wifi都启动了，奇怪啊。
+15:27 李柱栋 如何把sip放到系统中。还是用tzphone里面的复制过程吧。
+15:44 安装了vm player，出现Could not open /dev/vmmon: No such device.的错误。
+15:45 刘云 看wifi看哪里呢？那么先看nvram和寄存器吧。
+15:48 运行 sudo /etc/init.d/vmware start 出现 virtual machine monitor failed和 virtual ethernet failed.
+16:38 李柱栋 system中的sipclient居然没有运行权限。
+张勇 修改后有效果，但是4分钟后打流会停止。
+eddy说还是无法控制gpio，回头要找个板子来试试。
+17:08 看了一下张勇改的程序，还没有做到每个buff发一次，而是每次清空所有的buff，就已经出现了效果。如果不开，那么两个机器的速度在20和8，开了15和12。
+17:34 使用徐刚熊给我的新的串口，貌似没有乱码了。
+18:22 还是有些乱码的。为什么gpio 18等不受控制呢？
+22:06
+
+
+5-5
+14:06 开了一个早上的会议。主要是要增强wifi的功能。
+李东风测试的结果看来还可以，还要增加对acktimeout的设置，增加对5个信道的设置。
+节前键盘不响应的原因居然是扩展gpio的那个芯片送错了。
+14:14 汪光华修改了中英文切换后“中国移动”显示错误的问题，每次都去查表，应该也问题不大。
+14:31 廖中举电话问题单ap是否有光口。说有些单ap用了一年后速度变差，原来测速有10m的，后来测速就只有2m了，只有换设备。
+14:38 梁剑准备继续做江西的网管控制程序。
+16:50 在一台新的机器上编译bigap，出现了没有bison，没有termcap libary的，安装libncurses5-dev。
+17:14 余小虎从网页那里下载tzphone的log结果没有下载，而且/tmp下的打包文件也是空的。
+17:31 金晶 原因是压缩文件的时候使用了gzip这个文件，而这个文件是临时建立的一个链接到busybox。
+17:44 继续编译，出现了这样的错误Can't use 'defined(@array)' (Maybe you should just omit the defined()?) at kernel/timeconst.pl line 373.
+
+20:37 吴曦，喻潇，白俊剑，苗立双讨论配置加载。原来的4g cpe有三种加载配置的方式，生产工具加载、网页上传和远程网管加载。其中生产工具加载会清除保存的锁卡、锁的基站信息等数据，而网页上传加载配置不会。生产工具加载和网页上传加载使用同样的文件名加载。而远程网管加载优先级最高。任何加载配置时，恢复默认配置，加载生产工具加载的配置，加载网管的配置。
+21:08 王伍 说使用hao123连续打开网页会出现打不开网页的情况。
+王伍 提出在以太网中，一种实现平均分配带宽的办法。
+21:32 吴曦 又出现wifi未启动的现象。感觉是那个init.sh没有运行，所以wifi没有，dhcpd也没有运行。
+21:49 win10的系统貌似不能使用下载工具啊。
+22:00 刘云 p11和w13的协议分析中有个长度计数器使用了char变量，所以在包长超过256时，就有错误发生。
+
+5-4
+11:59 开会讨论人员的事宜，涉及到多个人员的评论。
+使用tc后，内存有泄露。暂时还没有找到原因。
+14:51 使用iperf这个工具，立刻就挂掉了。
+17:34 原来是判断buff满这个条件错了。
+
+5-3
+13:52 李跃鹏来电话，两个问题，1个是锁小区的时候，当某个小区失效时，是在锁定的小区中继续附着吗，其实应该不是的。另外一个是锁基站的时候是否要输入频点。
+早上4g固定台开会。
+李总来问wifi的性能问题。
+14:14 看了半天的邮件，还没有看完。
+14:26 吴曦 来签两个小时的请假单。去苏州发现两个问题，一个是发射饱和，所以很难在n模式下进行传输。一个是抗干扰能力，在发包之前发送一个请求，这个不就是rts么？
+14:36 继续看邮件。
+14:56 单总来问wifi的问题如何继续。
+15:27 张勇 使用自己写的tc那么，如果设置的比较小，打流容易重启。
+单总 程总：翰达的4gcpe已经没有模块了，能不能用我们的模块顶上？
+余小虎：又碰到一次花屏的情况，无法恢复。
+17:56 联想v4000这个机器，总觉得win10下面显示有些灰蒙蒙的。
+19:11 把popstr和pushstr加上保护，还是会挂掉。
+20:38 和eddy讨论版权控制的问题。当前采用锁mac的方式，正式版本将采用后台服务器注册的方式。
+白俊剑：升级搞了半天才好。还有锁机锁卡安装吉林的要求使用iccid进行计算出pin来。
+
+2016-4-28
+9:49 早上的速度貌似不怎么样啊，后面就还好了，三分钟平均92.1.
+9:53 刷一个不带那个赋值1的试试。这个确实好像要差一些啊，居然挂了。重新测吧。
+9:59 三分钟平均是86.8，那么再测一次吧。
+10:07 三分钟平均89.5，再继续量一次。
+10:11 这一次断过，平均值只有73.6了。
+10:16 换回那个有赋值的内核。这个很快就上了90m。三分钟平均92.9
+10:23 继续统计，存在掉落到一半的情况，这个是什么原因呢？换系统吧。
+10:28 还是用联芯的系统来测试。内核是有赋值的那个内核，也存在曲线图挖坑的情况。
+10:45 那么再刷一些联芯提供的内核试试吧。也会出现挖坑的情况。
+11:06 那么用usb测试看看吧：也会出现有坑的情况，那就认为是网络的问题了？usb还是出现的少，10分钟只出现了2次。
+14:17 去掉dma，貌似速度不错哦。头4分钟完美无缺。后面有挖坑现象，10分钟平均93.2
+14:54 加上dma的，其实也不错，多跑跑看看。第一分钟完美。第二分钟开始挖坑了。
+16:41 重新开始测试，好像还不错。三分钟平均93.2,还没有开始挖坑。4分钟开始挖了一个坑。4：28第二个。4:46第三个，5:05-5:16， 5:45-5:55，6分钟在70m了。直到10分钟。
+16:56 换去掉dma的吧，速度非常差啊，只有6-70，和2点的完全不同啊。三分钟平均65.
+17:04 换加上dma的再测，还是能到90的，又退回到70多了，三分钟平均71.4
+17:12 换那个能到90m的吧，这个上来就是90多，18秒退回70多。三分钟平均73.7
+换机器试试吧：
+
+
+2016-4-27
+9:07 当前测试是50m的样子，应该是昨天编译的程序吧。换一个早上最新的看看。
+9:10 令人振奋啦，有70m了。三分钟平均是72.1
+2016/04/26  21:25         4,023,080 kernel.nochangeotg
+2016/04/26  22:29         4,023,160 kernel.nopanic
+2016/04/26  22:42         4,022,608 kernel.nosb
+2016/04/26  22:57         4,022,216 kernel.nogpioh
+2016/04/26  23:13         4,022,128 kernel.nobattery
+2016/04/26  23:28         4,021,648 kernel.nocodec
+2016/04/26  23:44         4,021,792 kernel.nou2d           一分半平均53.9
+2016/04/26  23:56         4,021,816 kernel.nohcd
+2016/04/27  06:16         4,021,592 kernelnomodem   一分半平均53.3
+2016/04/27  07:15         4,021,608 kernel.noasix          一分半平均53.3
+2016/04/27  07:33         4,021,608 kernel.nocore          一分半平均69.7
+2016/04/27  07:49         4,021,608 kernel.tzlcd   一分半平均70.2
+2016/04/27  08:14         4,021,608 kernel.nopca953x
+2016/04/27  08:29         4,021,608 kernel.noboardcomm     72.1
+10:41 重新编译一个kernel.dma打开的 4分钟平均73.6
+
+14:17 使用新的内核编译出来的，也只有70m左右。三分钟平均72.8
+14:26 这就奇怪了。换个能到90m的看看。90m的就是有90m啊。三分钟平均88.2
+15:01 重新编译了一次，还是只有70多。三分钟平均72.1
+15:46 不管了，先刷文件系统吧。刷入ramdisk，kernel,和system，速度可达70多，感觉系统其它的影响都是比较小的。3分半的平均速率是75m。
+16:00 刷回90m的还是有90m。回到linux系统中看看默认的dma是不是开的吧。
+18:32 tz.tar.gz这个内核编译出来的版本，上来就有98m，不过现在降了下来。不过总能突破70m的限制。来搞个平均吧。4分钟的平均是90m，现在降到了35m，又回到了90多。
+19:44 仅仅修改dma那个文件中的那个变量没用，还是73.9m
+20:20 去掉那个hisc支持，速度上来了，三分钟平均94.4.
+20:33 刷入ramdisk, system，貌似是一样的，三分钟平均92.2,主要问题是下载一开始比较慢，后面才能稳定到90。
+20:42 使用无线就差多了，只有20-30m
+
+2016-4-26
+10:39 那个-CONFIG_COMIP_FLOWCAL=y 去掉没有问题。也许是联芯的新内核就不支持吧。 
+10:42 那么用联芯原始的.config加上otg和网卡来试试吧。CONFIG_USB_NET_AX8817X=y
+      还是先去掉我们加上的东西。i2c器件。编译的文件是cpe5mod_1461639987.zip
+11:14 这个内核没啥区别。还是只有50多。
+11:25 内核里面的修改还是比较多的。还是使用加入的方法，先编出联芯的内核吧。
+16:57 使用了联芯本身的内核，加上lan的驱动，速度只有70m，平均75m。
+18:05 现在使用我们的内核测试，只有40多m
+18:15 怎么换刚才联芯的那个，也只有40-50m了。三分钟均速38.2
+18:19 来换我们的吧：47.5
+18:36 测完三分钟再用前面测试到90m的来试试：当前三分钟测试的值是72m。但它有90m的时候，比如现在。
+18:53 再换成我们的吧：53.5m
+18:57 再换联芯的：测试1分钟，看来有70m，
+19:12 果断换回我们的再测试。只有52.9额。
+19:47 把联芯里面的config复制过来，测速也只有50m。三分钟平均52.7
+19:53 再把能到70m的看看，还是70m的。三分钟平均：72.9
+20:54 去掉bordcpe.c中的修改，保持和sdk中一样，貌似也不高。三分钟平均53m
+21:32 去掉otg那个lcokwake的修改，还是一样50多。
+
+2016-6-25
+10:54 kill掉tzphone速率未见明显提升。30多。
+10:57 刷一个联芯的kernel试试。刷了uboot内核.syetem，速度到了5、60m，坚持了一会儿后，现在又70多了。
+11:15 再刷moden后，现在有8、90多了。过了一会，又变成6-70了。
+11:21 再刷ramdisk, ramdisk_amt1, cache, userdata,重新设置仅4g，连上速度80-90，后变为70-80，换个网线，差不多。
+14:04 再次测试，基本为70-80
+14:12 使用留在联芯的板子，上来有95m以上，过一段时间有80多m，但一般都有85m以上。
+14:16 现在就只有60多了。
+14:32 重新开机测试，约3分钟后退回到70-80
+      再次重新开机，使用联芯的电脑测试，2分钟后退回70-80
+15:30 联芯使用另外一个程序，在留在那里的板子上跑了一次10分钟稳定在90多，有两次掉0的情况。
+
+15:41 使用带来的两个板子中的另外一块，大约是80-90
+15:44 现在是70-80.
+
+16:12 使用上面这个板，刷新给的程序，速度可达90多。现在是85-89.
+16:16 现在好像平均有90了。
+
+16:21 把第一块板子也刷新给我的uboot和内核看看。
+16:26 忘记了插卡。
+16:32 前3分钟的平均速度死85，继续跑三分钟试试：这三分钟平均到90
+
+16:40 这样，这个板子换我们的uboot来试试，上来就有90m嘛，看来和uboot没有什么关系。
+16:58 那么，再把我们的kernel放进去吧，上来就只有50多了。跑3分钟试试。
+17:03 最高也只有67.5，平均56.刷回去看看。
+17:07 刷回联芯提供的kernel,上来是90,1分钟平均84
+17:12 再刷我们的内核，看起来只有50多啊。
+
+2016-4-24
+11:23 吴曦：电脑锁在了屏蔽房。
+
+14:45 加快的程序键盘和wifi都不正确。
+
+15:40 王伍 使用新的无线驱动非常慢。
+
+2016-4-23
+
+12:25 陈良 金晶的udp server还是有问题。导致富桥的吸顶ap大量掉线。
+
+2016-4-22
+
+8:47 苗立双 大部分国家都是从1开始的信道。
+
+8:53 onenote无论是注册还是用原来的用户登陆，都回到那个需要登陆的界面，难道是没有安装office？删掉吧。
+
+8:56 王伍 要和刘子军联系去上海。
+
+9:03 minicom可以使用这样的方式指定波特率：minicom -D /dev/ttyS0 -b 57600 -8 -c on    
+
+9:06 苗立双还差代码规范文档没有给我。
+
+9:09 赵金发出邮件，想要实际设备模拟掉线问题。打电话来，正在躲雨。
+
+9:43 CMD>reg w 1011008c 3ff7f7f
+Address = 0xb011008c, Value = 0x 3ff7f7f
+设置这个值后，w13的ipv6 邻居发现包就能过了。
+
+郑杏泉：把tzphone加入服务中，启动时间能提升20多秒。而这个方法原来白俊剑试过是不能启动的。
+
+10:10 看起来修改 1011008c 这个寄存器中的cpu_selection就可以了。
+
+赵金：苏州的dtu只有两台在线了。
+
+10:23 当前默认值是if_ra305x.c中第1164行写死的，没有任何注释说明这样设置的意义。
+
+11:01 陈良：有个设备不能农宽的设备不能登陆，发现telnet登陆界面不同，应该不是我们的设备。
+
+13:48 mtk发来标准包，测试也是一样的现象。
+
+13:56 吴曦：wifi找到一些眉目，还要看下午的进展情况。
+
+14:00 李金龙、王伍、夏荣平、颜斌开会。
+
+赵金：dtu的服务器有问题，貌似被换掉了。
+
+16:00 研发开会。
+
+李柱栋那里黑龙江已经可以使用voip了。
+
+吴曦发出wifi补丁。
+
+
+
+2016-4-21 
+
+14:25  李柱栋来问为什么黑龙江设置了apn也没有用，既然在吉林的时候已经进行了设置，那么应该是移动给的数据有问题。
+
+张勇：富桥还是需要一个telnet的命令界面来设置设备的参数，考虑做一个专门的程序来完成这个功能。
+
+王伍：4g固定台还不能松劲，还要做以下功能：4g only下的短信功能、斯里兰卡的功能点、配置工具和配置参数的校验、要能看到配置参数的版本、web对上级网络不能开放、admin的密码可以配置、tr069列出功能、测试网络切换会不会有问题、大流量下时曾经出现的键盘反应慢、sip alg功能、dhcp只有少量地址的情况、省电模式、无线wps功能。
+
+王伍：9x07的编译需要狗，还要去谈如何进行开发。
+
+金晶：每个网页需要可以配置是否显示。
+
+徐刚雄：派联的设备使用我的笔记本搜索不到。
+
+陈玉：印度人发来测试情况，速度只有几百k，看图片上发送成功率非常低。
+
+李柱栋：当前629把音频控制权全部拿去了。怕我们的程序和他强pcm设备。
+
+15:18 当前的配置文件写法，如果文件小于结构体，那么就认为文件不对，会导致增加变量后重写配置。
+
+15:48 李柱栋说tcpdump会出现抓包但保存的字节数为0的情况，在斯里兰卡也曾经出现，但我忘记是什么原因和如何又正常了的。
+
+16:07 张勇、梁剑：印度的小ap还没有开始，张勇在列功能，梁剑在看以前留下的资料。
+
+16:41 陈良，深圳这里的移动网络之间是不通的，所以感觉测试有些困难。其实可以让梁剑的程序连到本地李瑶进行测试。
+
+白俊剑：李柱栋那里不能存tcpdump可能是关闭了log的原因，应该和设置联芯的log参数没有什么关系。
+
+17:11 刘云：我们的程序flash放到水星的机器上跑，也存在问题，那么这样看来，硬件应该是没有问题的。
+
+17:14 李柱栋：换了好几台机器，都没法抓包。
+
+17:29 李柱栋：打开了界面的log，log下也没有对应的文件。
+
+陈玉：斯里兰卡用户下周一会开始自测，需要英文版的web
+
+17:36 mtk回邮件，说水星的产品使用的是tp自己做的vxWorks系统。
+
+17:41 金晶，去看的是视频会议的公司。
+
+18:01 张勇：苗立双简单的认为1信道一直都有也是不正确的。自动信道程序也没有考虑5.8的情况。
+
+18:11 张勇：路由模式下可以数据0vlan,但是桥接模式下无法支持数据0, 管理有的情况。
+
+李柱栋：感觉包多就能抓到，也许是操作系统有缓存。
+
+18:26 王伍发邮件要求629加入需要生产的mac。张勇问cpe的vlan。
+
+19:50 王伍要求去掉lcd的延时，他觉得快了，我觉得差不多。
+
+23:00 晚上乱改了一通寄存器之后，发现可以ping通了，但是后来和刘云一起再不断重试，一直没有能够复现。
