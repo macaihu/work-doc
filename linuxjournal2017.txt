@@ -1,0 +1,1019 @@
+
+5.10
+
+
+sudo apt-get install libgnomeui-dev
+gcc -shared -o libsublime-imfix.so sublime_imfix.c  `pkg-config --libs --cflags gtk+-2.0` -fPIC
+LD_PRELOAD=./libsublime-imfix.so subl 
+終於可以輸入中文了。
+http://blog.csdn.net/cywosp/article/details/32350899
+还要使用搜狗的输入法，这个输入法为什么输入框总是在屏幕的左下角？
+
+5.9
+what? I could not input chinese in sublime text3. how bad.
+
+5.8
+总是有人不写日志，给王伍发了个消息
+通知：4月开始，日志每月少于15篇的，绩效直接在0.8以下，5月开始，由于日志少绩效低的，扣绩效不设豁免期，发放时直接扣除。6月开始，连续3个月日志少于15篇的，降岗降职。
+他倒是没有什么意见。颜斌这边硬件基本上没有人写。如果这样发，不知道有没有麻烦。
+
+5.7
+ARP daemon support的解释在：
+http://linux.chinaunix.net/techdoc/net/2005/03/21/921746.shtml
+不过去掉这个功能也只减少了内核3个字节的大小。
+
+nfs:
+sudo apt-get install nfs-kernel-server 
+sudo vi /etc/exports 
+/opt/work *(rw,sync,no_root_squash,no_subtree_check)
+sudo /etc/init.d/rpcbind restart
+sudo /etc/init.d/nfs-kernel-server restart
+
+mount -t nfs 192.168.254.254:/opt/work/ /tmp/1
+
+5.2
+tftp -g 10.8.0.100 -l ag71xx.ko
+rmmod ag71xx
+insmod ag71xx.ko
+ifconfig eth0 up
+brctl addif br0 eth0
+brctl addif br0 eth1
+
+
+2017-4-27
+set bootargs "console=ttyS0,115200 root=31:01 rootfstype=jffs2 rw init=/sbin/init mtdparts=spi0.0:64k(u-boot),6976k(rootfs),1024k(uImage),64k(mib0),64k(ART) machtype=DB120"
+[    0.000000] id                       name                                                                 [    0.000000] Generic                  Generic AR71XX/AR724X/AR913X based board                             
+[    0.000000] ALFA-AP96                ALFA Network AP96                                                    
+[    0.000000] ALFA-NX                  ALFA Network N2/N5                                                   
+[    0.000000] ALL0258N                 Allnet ALL0258N                                                      
+[    0.000000] ALL0315N                 Allnet ALL0315N                                                      
+[    0.000000] AP113                    Atheros AP113                                                        
+[    0.000000] AP121-MINI               Atheros AP121-MINI                                                   
+[    0.000000] AP121                    Atheros AP121 reference board                                        
+[    0.000000] AP136                    Atheros AP136 reference board                                        
+[    0.000000] AP137                    Atheros AP137 reference board                                        
+[    0.000000] AP143                    Qualcomm Atheros AP143 reference oard                               
+[    0.000000] AP147                    Qualcomm Atheros AP147 reference oard                               
+[    0.000000] AP151                    Qualcomm Atheros AP151 reference oard                               
+[    0.000000] AP152                    Qualcomm Atheros AP152 reference oard                               
+[    0.000000] AP81                     Atheros AP81 reference board                                         
+[    0.000000] AP83                     Atheros AP83                                                         
+[    0.000000] AP96                     Atheros AP96                                                         
+[    0.000000] AW-NR580                 AzureWave AW-NR580                                                   
+[    0.000000] CAP4200AG                Senao CAP4200AG                                                             [    0.000000] DB120                    Atheros DB120 reference board                                                                                                                                                                                                                                       
+[    0.000000] DB120TB388               Atheros DB120 reference board with TB388 extension                                                                                                                                                                                                                  
+[    0.000000] DIR-615-E4               D-Link DIR-615 rev. E4                                                                                                                                                                                                                                              
+[    0.000000] DIR-600-A1               D-Link DIR-600 rev. A1                                                                                                                                                                                                                                              
+[    0.000000] DIR-615-C1               D-Link DIR-615 rev. C1                                                                                                                                                                                                                                              
+[    0.000000] DIR-825-B1               D-Link DIR-825 rev. B1                                                                                                                                                                                                                                              
+[    0.000000] EW-DORIN-ROUTER          EmbWir-Dorin-Router                                                                                                                                                                                                                                                 
+[    0.000000] EW-DORIN                 EmbWir-Dorin                                                                                                                                                                                                                                                        
+[    0.000000] ALL0305                  Allnet ALL0305                                                                                                                                                                                                                                                      
+[    0.000000] EAP7660D                 Senao EAP7660D                                                                                                                                                                                                                                                      
+[    0.000000] GENERIC-DT               Qualcomm GENERIC-DT reference board                                                                                                                                                                                                                                 
+[    0.000000] JA76PF2                  jjPlus JA76PF2                                                                                                                                                                                                                                                      
+[    0.000000] JA76PF                   jjPlus JA76PF                                                                                                                                                                                                                                                       
+[    0.000000] JWAP003                  jjPlus JWAP003                                                                                                                                                                                                                                                      
+[    0.000000] HORNET-UB                ALFA NETWORKS Hornet-UB                                                                                                                                                                                                                                             
+[    0.000000] MR600                    OpenMesh MR600                                                                                                                                                                                                                                                      
+[    0.000000] MZK-W04NU                Planex MZK-W04NU                                                                                                                                                                                                                                                    
+[    0.000000] MZK-W300NH               Planex MZK-W300NH                                                                                                                                                                                                                                                   
+[    0.000000] NBG460N                  Zyxel NBG460N/550N/550NH                                                                                                                                                                                                                                            
+[    0.000000] OM2P-HS                  OpenMesh OM2P HS                                                                                                                                                                                                                                                    
+[    0.000000] OM2P-LC                  OpenMesh OM2P LC                                                                                                                                                                                                                                                    
+[    0.000000] OM2P                     OpenMesh OM2P                                                                                                                                                                                                                                                       
+[    0.000000] PB42                     Atheros PB42                                                                                                                                                                                                                                                        
+[    0.000000] PB44                     Atheros PB44 reference board                                                                                                                                                                                                                                        
+[    0.000000] PB92                     Atheros PB92                                                                                                                                                                                                                                                        
+[    0.000000] 493G                     MikroTik RouterBOARD 493G                                                                                                                                                                                                                                           
+[    0.000000] 493                      MikroTik RouterBOARD 493/AH                                                                                                                                                                                                                                         
+[    0.000000] 450G                     MikroTik RouterBOARD 450G                                                                                                                                                                                                                                           
+[    0.000000] 450                      MikroTik RouterBOARD 450                                                                                                                                                                                                                                            
+[    0.000000] 435G                     MikroTik RouterBOARD 435G                                                                                                                                                                                                                                           
+[    0.000000] 433U                     MikroTik RouterBOARD 433UAH                                                                                                                                                                                                                                         
+[    0.000000] 433                      MikroTik RouterBOARD 433/AH                                                                                                                                                                                                                                         
+[    0.000000] 411U                     MikroTik RouterBOARD 411U                                                                                                                                                                                                                                           
+[    0.000000] 411                      MikroTik RouterBOARD 411/A/AH                                                                                                                                                                                                                                       
+[    0.000000] 751g                     MikroTik RouterBOARD 751G                                                                                                                                                                                                                                           
+[    0.000000] 751                      MikroTik RouterBOARD 751                                                                                                                                                                                                                                            
+[    0.000000] 750Gr3                   MikroTik RouterBOARD 750GL                                                                                                                                                                                                                                          
+[    0.000000] 750i                     MikroTik RouterBOARD 750                                                                                                                                                                                                                                            
+[    0.000000] 2011G                    MikroTik RouterBOARD 2011UAS-2HnD                                                                                                                                                                                                                                   
+[    0.000000] 2011L                    MikroTik RouterBOARD 2011L                                                                                                                                                                                                                                          
+[    0.000000] RUBBERDUCK               Qualcomm-Atheros RubberDuck custom design                                                                                                                                                                                                                           
+[    0.000000] RW2458N                  Redwave RW2458N                                                                                                                                                                                                                                                     
+[    0.000000] TEW-632BRP               TRENDnet TEW-632BRP                                                                                                                                                                                                                                                 
+[    0.000000] TEW-673GRU               TRENDnet TEW-673GRU                                                                                                                                                                                                                                                 
+[    0.000000] TEW-712BR                TRENDnet TEW-712BR                                                                                                                                                                                                                                                  
+[    0.000000] TL-MR3040                TP-LINK TL-MR3040                                                                                                                                                                                                                                                   
+[    0.000000] TL-MR11U                 TP-LINK TL-MR11U                                                                                                                                                                                                                                                    
+[    0.000000] TL-MR3020                TP-LINK TL-MR3020                                                                                                                                                                                                                                                   
+[    0.000000] TL-WR841N-v7             TP-LINK TL-WR841N/ND v7                                                                                                                                                                                                                                             
+[    0.000000] TL-MR3420                TP-LINK TL-MR3420                                                                                                                                                                                                                                                   
+[    0.000000] TL-MR3220                TP-LINK TL-MR3220                                                                                                                                                                                                                                                   
+[    0.000000] TL-WA7510N               TP-LINK TL-WA7510N v1                                                                                                                                                                                                                                               
+[    0.000000] TL-WA901ND               TP-LINK TL-WA901ND                                                                                                                                                                                                                                                  
+[    0.000000] TL-WA901ND-v2            TP-LINK TL-WA901ND v2                                                                                                                                                                                                                                               
+[    0.000000] TL-WDR4300               TP-LINK TL-WDR3600/4300/4310                                                                                                                                                                                                                                        
+[    0.000000] TL-WR741ND               TP-LINK TL-WR741ND                                                                                                                                                                                                                                                  
+[    0.000000] TL-WR741ND-v4            TP-LINK TL-WR741ND v4                                                                                                                                                                                                                                               
+[    0.000000] TL-WR841N-v1.5           TP-LINK TL-WR841N v1                                                                                                                                                                                                                                                
+[    0.000000] TL-WR841N-v8             TP-LINK TL-WR841N/ND v8                                                                                                                                                                                                                                             
+[    0.000000] TL-WR941ND               TP-LINK TL-WR941ND                                                                                                                                                                                                                                                  
+[    0.000000] TL-WR1041N-v2            TP-LINK TL-WR1041N v2                                                                                                                                                                                                                                               
+[    0.000000] TL-WR1043ND              TP-LINK TL-WR1043ND                                                                                                                                                                                                                                                 
+[    0.000000] TL-WR2543N               TP-LINK TL-WR2543N/ND                                                                                                                                                                                                                                               
+[    0.000000] TL-WR703N                TP-LINK TL-WR703N v1                                                                                                                                                                                                                                                
+[    0.000000] UBNT-LS-SR71             Ubiquiti LS-SR71                                                                                                                                                                                                                                                    
+[    0.000000] UBNT-LSX                 Ubiquiti LSX                                                                                                                                                                                                                                                        
+[    0.000000] UBNT-RSPRO               Ubiquiti RouterStation Pro                                                                                                                                                                                                                                          
+[    0.000000] UBNT-RS                  Ubiquiti RouterStation                                                                                                                                                                                                                                              
+[    0.000000] UBNT-U20                 Ubiquiti UniFiAP Outdoor                                                                                                                                                                                                                                            
+[    0.000000] UBNT-UF                  Ubiquiti UniFi                                                                                                                                                                                                                                                      
+[    0.000000] UBNT-AR                  Ubiquiti AirRouter                                                                                                                                                                                                                                                  
+[    0.000000] UBNT-NM                  Ubiquiti Nanostation M                                                                                                                                                                                                                                              
+[    0.000000] UBNT-RM                  Ubiquiti Rocket M                                                                                                                                                                                                                                                   
+[    0.000000] UBNT-BM                  Ubiquiti Bullet M                                                                                                                                                                                                                                                   
+[    0.000000] UBNT-XM                  Ubiquiti Networks XM (rev 1.0) board                                                                                                                                                                                                                                
+[    0.000000] WHR-HP-GN                Buffalo WHR-HP-GN                                                                                                                                                                                                                                                   
+[    0.000000] WHR-G301N                Buffalo WHR-G301N                                                                                                                                                                                                                                                   
+[    0.000000] WHR-HP-G300N             Buffalo WHR-HP-G300N                                                                                                                                                                                                                                                
+[    0.000000] WLAE-AG300N              Buffalo WLAE-AG300N                                                                                                                                                                                                                                                 
+[    0.000000] WNDR3700                 NETGEAR WNDR3700/WNDR3800/WNDRMAC                                                                                                                                                                                                                                   
+[    0.000000] WNR2000                  NETGEAR WNR2000                                                                                                                                                                                                                                                     
+[    0.000000] WP543                    Compex WP543                                                                                                                                                                                                                                                        
+[    0.000000] WPE72                    Compex WPE72                                                                                                                                                                                                                                                        
+[    0.000000] WRT160NL                 Linksys WRT160NL                                                                                                                                                                                                                                                    
+[    0.000000] WRT400N                  Linksys WRT400N                                                                                                                                                                                                                                                     
+[    0.000000] WZR-HP-G300NH            Buffalo WZR-HP-G300NH                                                                                                                                                                                                                                               
+[    0.000000] WZR-HP-G300NH2           Buffalo WZR-HP-G300NH2                                                                                                                                                                                                                                              
+[    0.000000] WZR-HP-AG300H            Buffalo WZR-HP-AG300H                                                                                                                                                                                                                                               
+[    0.000000] WZR-HP-G450H             Buffalo WZR-HP-G450H                                                                                                                                                                                                                                                
+[    0.000000] ZCN-1523H-5              Zcomax ZCN-1523H-5                                                                                                                                                                                                                                                  
+[    0.000000] ZCN-1523H-2              Zcomax ZCN-1523H-2 
+
+为什么我的电脑tftp不能默认启动了？
+sudo service tftpd-hpa restart
+
+2017-4-25
+board=AP147 console=ttyS0,115200 mtdparts=spi0.0:256k(u-boot)ro,64k(u-boot-env),14528k(rootfs),1472k(kernel),64k(art),16000k@0x50000(firmware) rootfstype=squashfs,jffs2 noinitrd crashkernel=10M@20M
+
+
+2017-4-22
+arm编译出来的东西还是比mips要小好多：
+jian@jian-OptiPlex-9020:~/work/ath9.5$ ll rootfs-tozedap-cp_ap123.optbuild/bin/update 
+-rwxrwxr-x 1 jian jian 6540  4月 15 21:59 rootfs-tozedap-cp_ap123.optbuild/bin/update*
+jian@jian-OptiPlex-9020:~/work/zte7520_ap$ ll ./linux_plat/base/linux/romfs/bin/update
+-rwxrwxr-x 1 jian jian 5048  4月 22 15:53 ./linux_plat/base/linux/romfs/bin/update*
+居然能小15k。
+
+2017-4-21
+MemFree:            6708 kB MemAvailable:       9356 kB Cached:            10988 kB
+MemFree:            7544 kB MemAvailable:       9500 kB Cached:            10144 kB
+MemFree:            6640 kB MemAvailable:       8628 kB Cached:            10172 kB
+MemFree:            7184 kB MemAvailable:       8948 kB Cached:             9816 kB
+MemFree:            7044 kB MemAvailable:       8856 kB Cached:             9844 kB
+MemFree:            6996 kB MemAvailable:       8816 kB Cached:             9848 kB
+MemFree:            6976 kB MemAvailable:       8796 kB Cached:             9848 kB
+MemFree:            7096 kB MemAvailable:       8920 kB Cached:             9856 kB
+MemFree:            7084 kB MemAvailable:       8912 kB Cached:             9860 kB
+MemFree:            7188 kB MemAvailable:       8956 kB Cached:             9804 kB
+MemFree:            7096 kB MemAvailable:       8904 kB Cached:             9828 kB
+
+2017-4-20
+中兴中 HOST_NCPU=1 可以指定单cpu编译。
+
+2017-4-19
+        src/xlat/gen.sh src/xlat/blkpg_ops.in src/xlat/blkpg_ops.h 
+        src/xlat/gen.sh src/xlat/bpf_commands.in src/xlat/bpf_commands.h
+        src/xlat/gen.sh src/xlat/bpf_map_types.in src/xlat/bpf_map_types.h
+        src/xlat/gen.sh src/xlat/bpf_prog_types.in src/xlat/bpf_prog_types.h
+        src/xlat/gen.sh src/xlat/bpf_map_update_elem_flags.in src/xlat/bpf_map_update_elem_flags.h
+        src/xlat/gen.sh src/xlat/cap_mask0.in src/xlat/cap_mask0.h
+        src/xlat/gen.sh src/xlat/cap_mask1.in src/xlat/cap_mask1.h
+        src/xlat/gen.sh src/xlat/cap_version.in src/xlat/cap_version.h
+        src/xlat/gen.sh src/xlat/clone_flags.in src/xlat/clone_flags.h
+        src/xlat/gen.sh src/xlat/advise.in src/xlat/advise.h
+        src/xlat/gen.sh src/xlat/at_flags.in src/xlat/at_flags.h
+        src/xlat/gen.sh src/xlat/addrfams.in src/xlat/addrfams.h
+        src/xlat/gen.sh src/xlat/af_packet_types.in src/xlat/af_packet_types.h
+        src/xlat/gen.sh src/xlat/cap.in src/xlat/cap.h
+        src/xlat/gen.sh src/xlat/adjtimex_modes.in src/xlat/adjtimex_modes.h
+        src/xlat/gen.sh src/xlat/adjtimex_status.in src/xlat/adjtimex_status.h
+        src/xlat/gen.sh src/xlat/audit_arch.in src/xlat/audit_arch.h
+
+
+
+zte_libs/libnl_2这个目录看起来是完全重新编译了的。          ok
+zte_apps/auth/src/dlisten里面也是做了clean操作。              ok
+zte_apps/c-ares 								     ok
+zte_web_util.c 这些文件警告太多。
+/zte_apps/miniupnpd_linux               				     应该没有问题。                                     
+zte_apps/netdog/refcode/net_test		                             ok			     
+zte_apps/netpcap                                                                 ok
+zte_apps/zte_arp_proxy                                                        ok
+zte_apps/zte_fota/zte_topsw_dmapp                                     应该没有问题。    
+zte_apps/zte_ipv6_addr_conver                                             ok
+zte_apps/zte_ipv6_slaac                                                     ok
+zte_apps/zte_ndp                                                         ok
+zte_apps/zte_router                                                       ok
+zte_apps/zte_topsw_qrcode                                        ok
+
+lib的先记录下来：
+	if [ -e libnl-2.0/Makefile ] ; then \
+		echo libnl-2.0 configure seemed ok; \
+	else \
+	(cd libnl-2.0 && cp configure.linux configure && CFLAGS="-O2 -g -fomit-frame-pointer -pipe -msoft-float -fno-common -fno-builtin -Wall -DEMBED  -Dlinux -D__linux__ -Dunix " ./configure $(CONFIGURE_OPTS) $(CONFOPTS) --host=arm-linux --build=i686-pc-linux-gnu --target=arm-linux --enable-static --disable-shared ) ;\
+	fi
+
+为什么strace编译不了了：
+-all: confcode
+-       cd ./src && sh ./configure --host=arm-linux $(CONFIGURE_OPTS) $(CONFOPTS)
++all: 
++       if [ -e ./src/Makefile ] ; then \
++               echo strace seemed configured.;\
++       else \
++               cd ./src && sh ./configure --host=arm-linux $(CONFIGURE_OPTS) $(CONFOPTS); \
++       fi
+        $(MAKE) -C src
+ 
+ confcode:
+        -rm -rf *.o ./.deps
+ 
+ clean:
+-       -rm -rf ./src/strace ./src/*.o ./src/.deps
++       -rm -rf ./src/strace ./src/*.o ./src/.deps 
++       -cat .gitignore | xargs rm -rf
+
+
+
+2017-4-16
+编译iptables 1.16.1
+sudo apt-get install libmnl-dev
+
+在ubuntu16 server上编译工业路由器的程序，编译到iptables的时候报
+fatal error: libnfnetlink/libnfnetlink.h: No such file or directory
+这样的错误。先留着吧。
+
+我的机器上的tftp server居然不支持-r里面的路径，总是说文件未找到。
+
+umount /fotaupdate
+ubirmvol /dev/ubi2 -n 0
+
+ubiattach /dev/ubi_ctrl -m 18
+ ubimkvol /dev/ubi2  -s 55000000  -N fota_bui
+mount -t ubifs ubi2_0 /fotaupdate/
+
+/fotaupdate/busybox tar xzvf /fotaupdate/rootfs.tgz -C /
+tftp -g 192.168.0.50 -l securefs.tgz
+mount -o remount w /securefs
+tar xzvf securefs.tgz -C /
+update ap_cpuap.bin /dev/mtd12
+
+开始只有3m的free内存，执行一下
+echo 3 > /proc/sys/vm/drop_caches
+就变成20m了。
+
+
+2017-4-15
+新安装的ubuntu1610server的ssh总是无法登录，报22端口被拒接，重启虚拟机，重启虚拟机程序貌似都不行。
+
+2017-4-8
+
+11185快递：9974465912026 不知道是谁的东西，哦有可能是茶叶。
+p21上联芯的模块吧：
+行   								不行
+10.150.239.124					10.79.224.41
+10.29.182.46						10.92.218.43
+10.21.13.132						10.31.237.99
+10.172.131.151
+10.3.61.107
+
+
+
+用电脑吧：
+行   								不行
+10.101.107.127                               10.75.32.99
+-							10.8.179.255 
+-							10.61.126.40 
+
+
+用工业路由器来测试吧：
+c1的模块：
+不行  1     
+行      1  2  3 4 5  6
+记录ip吧：
+行   								不行
+10.9.14.184						10.13.69.237
+10.7.188.139
+10.41.37.102
+10.6.254.189
+
+
+
+可以不行10.100.47.23310.25.200.24510.146.69.16910.60.224.5210.1.122.1710.26.67.21810.26.79.7410.60.186.10310.159.127.199
+换个模块吧
+行   								不行
+10.17.75.38                                            10.2.107.151
+10.172.22.212						10.59.47.86
+10.152.202.34						10.61.59.118
+10.161.102.219					10.45.219.184
+10.221.132.101
+
+
+
+
+这样看工业路由器的版本貌似正常。
+usb0      Link encap:Ethernet  HWaddr B2:D9:7A:D1:9E:C2  
+          inet addr:10.160.216.88  Bcast:10.160.216.95  Mask:255.255.255.240
+
+cat /proc/version 
+Linux version 3.3.8- (zy@zy-OptiPlex-9020) (gcc version 4.3.3 (GCC) ) #92 Wed Mar 29 11:43:05 CST 2017
+ # iptables -S
+-P INPUT ACCEPT
+-P FORWARD ACCEPT
+-P OUTPUT ACCEPT
+/tmp # iptables -S -t nat
+-P PREROUTING ACCEPT
+-P INPUT ACCEPT
+-P OUTPUT ACCEPT
+-P POSTROUTING ACCEPT
+-A PREROUTING -i br0 -p udp -m udp --dport 5060 -j REDIRECT
+-A POSTROUTING -o usb0 -j MASQUERADE
+
+工业路由器使用宽翼模块：
+/tmp # ./busybox traceroute -I www.163.com
+traceroute to www.163.com (112.51.121.164), 30 hops max, 38 byte packets
+ 1  *  *  *
+ 2  *  *  *
+ 3  *  *  *
+ 4  *  *  *
+ 5  183.235.32.133 (183.235.32.133)  42.088 ms  22.033 ms  19.157 ms
+ 6  *  *  *
+ 7  221.183.18.217 (221.183.18.217)  40.263 ms  24.643 ms  25.926 ms
+ 8  *  *  *
+ 9  *  *  *
+10  112.5.209.2 (112.5.209.2)  44.655 ms  30.321 ms  34.221 ms
+11  *  *  *
+12  183.252.196.52 (183.252.196.52)  45.431 ms  31.151 ms  34.833 ms
+13  112.51.121.164 (112.51.121.164)  34.680 ms  33.753 ms  34.801 ms
+/tmp # ./busybox traceroute  www.163.com
+traceroute to www.163.com (112.51.121.164), 30 hops max, 38 byte packets
+ 1  *  *  *
+ 2  *  *  *
+ 3  *  *  *
+ 4  *  *  *
+ 5  183.235.32.133 (183.235.32.133)  43.120 ms  27.951 ms  22.489 ms
+ 6  211.136.240.205 (211.136.240.205)  21.373 ms  211.136.240.201 (211.136.240.201)  18.001 ms  211.136.240.205 (211.136.240.205)  17.924 ms
+ 7  221.183.38.141 (221.183.38.141)  24.634 ms  221.183.18.217 (221.183.18.217)  22.173 ms  221.183.12.117 (221.183.12.117)  23.554 ms
+ 8  *  221.176.16.133 (221.176.16.133)  45.342 ms  *
+ 9  221.183.27.230 (221.183.27.230)  44.268 ms  *  *
+10  112.5.209.2 (112.5.209.2)  47.981 ms  31.370 ms  *
+11  *  *  *
+12  183.252.196.52 (183.252.196.52)  40.083 ms  34.790 ms  40.273 ms
+13  112.51.121.164 (112.51.121.164)  34.839 ms  31.263 ms  34.809 ms
+
+工业路由器上使用联芯的模块：
+ ./busybox traceroute -I www.163.com
+traceroute to www.163.com (112.51.121.165), 30 hops max, 38 byte packets
+ 1  *  *  *
+ 2  *  *  *
+ 3  *  *  *
+ 4  *  *  *
+ 5  183.235.32.101 (183.235.32.101)  52.618 ms  38.832 ms  39.799 ms
+ 6  211.136.240.197 (211.136.240.197)  39.809 ms  *  *
+ 7  221.183.19.233 (221.183.19.233)  56.656 ms  45.582 ms  49.939 ms
+ 8  *  *  *
+ 9  *  *  *
+10  *  *  *
+11  112.5.209.2 (112.5.209.2)  99.758 ms  65.345 ms  69.810 ms
+12  *  *  *
+13  183.252.196.52 (183.252.196.52)  75.398 ms  68.775 ms  69.839 ms
+14  112.51.121.165 (112.51.121.165)  69.758 ms  64.691 ms  69.673 ms
+
+
+2017-4-7
+在仓中看起来没有的文件：
+ZMPSDK7520V2V1.0.4B02P02_20170329/linux_plat/base/linux/securefs/
+看起来这些文件在 ./linux_plat/base/linux/user/zte_apps/zte_webui中
+ZMPSDK7520V2V1.0.4B02P02_20170329/linux_plat/base/linux/user/gdb/gdb/ada-exp.c 若干个
+ZMPSDK7520V2V1.0.4B02P02_20170329/linux_plat/base/linux/user/Kconfig
+ZMPSDK7520V2V1.0.4B02P02_20170329/linux_plat/base/linux/user/Makefile
+ZMPSDK7520V2V1.0.4B02P02_20170329/linux_plat/base/linux/vendors/ZXIC/zx297520v2/config.linux
+ZMPSDK7520V2V1.0.4B02P02_20170329/linux_plat/base/linux/vendors/ZXIC/zx297520v2/config.vendor
+
+usbproxy中的文件确实有区别：
+ZMPSDK7520V2V1.0.4B02P02_20170329/linux_plat/base/linux/linux-3.4.x/drivers/staging/usbproxy/Kconfig
+ZMPSDK7520V2V1.0.4B02P02_20170329/linux_plat/base/linux/linux-3.4.x/drivers/staging/usbproxy/Makefile
+ZMPSDK7520V2V1.0.4B02P02_20170329/linux_plat/base/linux/linux-3.4.x/drivers/staging/usbproxy/cp_log_drv.c
+ZMPSDK7520V2V1.0.4B02P02_20170329/linux_plat/base/linux/linux-3.4.x/drivers/staging/usbproxy/f_adb.c
+ZMPSDK7520V2V1.0.4B02P02_20170329/linux_plat/base/linux/linux-3.4.x/drivers/staging/usbproxy/ramdump_drv.c
+
+2017-4-5
+湖北联通p10p开箱10台有2台无配置问题：
+同样的程序已经出过9000台，以前的设备没有报这样严重的问题。湖北联通的程序是去年8月发行的，一直没有做任何修改。wifi上已经去掉了prot-mode和软件强制提高功率。
+
+3-31
+为什么要用git checkout -b sip-alg origin/sip-alg 这样来跟踪远程分支呢？
+
+ insmod ip_gre.ko
+ ip tunnel add tunnel0 mode gre remote 192.168.1.10  local 192.168.1.220  ttl 255
+ ip link set tunnel0 up
+ ip addr add  192.168.33.1 dev tunnel0
+ ip route add 192.168.33.0/24 dev tunnel0
+
+sudo ip tunnel add tunnel0 mode gre remote 192.168.1.220 local 192.168.1.10  ttl 255
+sudo ip link set tunnel0 up
+sudo ip addr add 192.168.33.2 dev tunnel0
+sudo ip route add 192.168.33.0/24 dev tunnel0
+
+考虑去掉的wlan参数：
+export AH_SUPPORT_EEPROM_AR9287=1
+export NUM_TX_CHAINS=2
+export SA_NUMANT_PERCHAIN=2
+export SA_11N_SUPPORT=1
+export ATH_SUPPORT_TxBF=1
+
+网易的这个云笔记体验也太差了，动不动就停止不动若干秒。
+
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 u-boot.bin 
+好像不管什么样的地址，使用go都会直接复位。
+
+3-30
+新的zte7520使用了ubi的文件系统，在build中增加了工具，所以要删除原来的build重新下载一个。
+rm linux_plat/base/build -r
+
+3-29
+这样的简历
+１９８１－－１９８５东南大学无线电工程系。
+１９８５－－１９８８北京理工大学电子工程系。南京十四所研究生。
+
+１９８８－－１９９１南京十四所４０４室
+１９９１－－１９９５南京康奇电子技术公司
+１９９５－－１９９６巨龙通信公司南京办事处
+１９９６－－１９９７新地网络公司南京办事处
+１９９７－－１９９８南京光阳通信公司
+１９９８－－１９９９南京自动化设备三厂
+１９９９－－２０００江苏宏图高科技公司
+２０００－－２００１中科院紫金山天文台华福数字视频公司
+2001-2002苏源高科技公司
+2002年9月-2002年12月南京西三艾电子公司
+2002-2003年 南京汇翔自动化公司
+2003-2003年8月金宁星拓电源设备研究所
+2003年8月-2003年10月 科融数据系统有限公司
+2003年10月-2004年2月 钢加远程数据系统有限公司
+2004年8月--2005年8月苏州华硕电脑有限公司
+2005年９月－2006年3月 上虞市胜昔信息科技有限公司
+2006年4月-2006年7月北京正荣网际公司
+2007年12月---2008年2月成都市佳灵电气制造有限公司
+2008年2月---2009年12月十堰市华海达汽车安全技术有限公司
+2010年1月---2010年11月北京固安信通铁路信号科技有限公司
+2010年11月----2011年02月南京文采科技有限公司
+2011年03月----2012年04月南京日新机电有限公司
+2012年04月----2012年07月北京东方泰华投资有限公司
+2012年07月-------2013年07月青岛日森机电有限公司
+2013年07月-----2014年07月南京正銮电子有限公司 开发
+2014 /7--2015 /7： 南京milink电子有限公司 （500-1000人） 
+2015 /7--2016 /11： 深圳维兴顺科技有限公司 （5-200人）
+
+3-28
+周湘理
+在公司认识了更多的人，学到更多的知识。
+刚开始做网页的时候，太忙，吃力。当时是2月底，从伊朗的开始。
+网页知识复杂在网页布局，javascript， JQuery封装。有点难。
+何文秋： 还了解后端，能修改c语言
+尚杰：c语言基础差，只能做前端。
+以前是做控制电机的，使用C， fpga，stm32这样的cpu。其中fpga可以写逻辑，产生各种不同的波形，方波，三角波等。
+还在arm9上做过控制面板，使用linux，qt系统。
+对4g参数不了解，对网络了解有限。
+其他公司的优势：管理措施多一些。强制性规定较多。比如要写周计划，每两周开会，每个人用几分钟说一下计划。每次一个多小时。
+有其他培训，演讲，礼仪等。和领导见面沟通的机会多一些，经理会主动召集会议，主动关心进度。生产经常去，看看有什么问题。
+
+3-27
+赵刚：
+系统基于非openwrt的系统，比较底层，不太熟悉，升级等和openwrt都不同。
+对fireware分区使用mtd命令，可能把必要的命令放到了tmp下。
+主要认为做项目的交流比较少。
+原来在成都瑞小博，技术氛围比较好，任务规划比较细，具体功能能细化出来，现做什么，后做什么，比较明确。
+有完善的流程。
+提交代码有code review过程。这个过程也是交流的过程。
+这个公司固件4-5人，平台20多人以上。
+在通则开始移植网页，很多东西不知道，没有文档，没有统一风格，标准。读状态都有若干种方式，配置，环境变量，tmp下的文件等。
+希望对业务熟悉一些。希望基于openwrt系统开发。
+
+jian@jian-OptiPlex-9020:~/work/zte7520_ap/apps/zte/common/apps$ find  . -name 'Makefile' | xargs cat | grep EXEC | grep =
+EXEC = embms_data
+EXEC    = fluxstat
+EXEC    = sale_stat
+EXEC = net_test
+EXEC = igmpproxy
+EXEC    += dhcp6c
+EXEC 	+= dhcp6s
+EXEC    = zte_tools_agent
+EXEC = slictool
+EXEC    = zte_blc
+EXEC    = cfgnv_init
+EXEC = tr069
+EXEC = zte_router 
+EXEC = dnsmasq
+EXEC    = zte_pcs
+EXEC = clatd
+EXEC    = zte_log_agent
+EXEC = ipv6_addr_conver
+EXEC = sntp
+EXEC    = zte_rj45
+EXEC    = at_cmd
+EXEC = auto_connect
+EXEC = zte_ipv6_slaac
+EXEC    = nv
+EXEC    = goahead
+#EXEC = libwebuiwifi.a
+#EXEC = libwebuinet.a
+EXEC = hotplugnl
+EXEC = eth_auto_connect
+EXEC = nvserver
+EXECUTABLES = testobsdrdr testpfpinhole
+EXECUTABLES = testgetifstats
+EXECUTABLES = testgetifstats testifacewatcher
+EXECUTABLES = miniupnpd testupnpdescgen testgetifstats \
+EXEC = zte_ipsec_proxy
+EXEC    = at_main
+EXEC    = zte_bip
+EXEC = pc_server
+EXEC = uart_proxy
+EXEC = sd_hotplug
+EXEC    = wl
+EXEC = ccapp
+EXEC    = embms_ctrl
+EXEC = zte_ndp
+EXEC = zte_arp_proxy
+EXEC = zte_ipv6_addr_collect
+
+
+3-26
+openwrt使用了#ifdef CONFIG_MTD_ROOTFS_ROOT_DEV
+
+把那个padjffs2部分加载
+mount -t jffs2 /dev/mtdblock2 /tmp/1
+内容是存在的，但是为什么空间的容量有问题：
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 3.3M      3.3M         0 100% /
+/dev/mtdblock2           56.0M      4.1M     51.9M   7% /tmp/1
+
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftp 0x80060000 tozedap-cp_ap123-squashfs && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+
+3-25
+这个东西好像没有使用：
+ATH_SUPPORT_ICM=1
+OL_ATH_SUPPORT_STATS
+
+9341在3.3.8的内核中默认进行了端口隔离：
+echo 10c 3e0000 > /proc/phys26/reg
+echo 20c 3d0000 > /proc/phys26/reg
+echo 30c 3b0000 > /proc/phys26/reg
+echo 40c 370000 > /proc/phys26/reg
+echo 50c 2f0000 > /proc/phys26/reg
+echo 60c 1f0000 > /proc/phys26/reg
+
+
+3-24
+9x07中snmp执行
+ /usr/sbin/snmpd -Lsd -Lf /dev/null -p /var/run/snmpd.pid
+
+./scripts/feeds update -a
+接下来安装feeds包，只有安装之后，在make menuconfig的时候才能够对相关的配置进行修改：
+http://www.cnblogs.com/rohens-hbg/articles/4969222.html
+
+3-23
+mini_snmpd:
+http://troglobit.com/mini-snmpd.html
+https://github.com/troglobit/mini-snmpd/blob/master/README.develop
+使用：
+http://riceball.com/d/content/mini-howto-minisnmpd-small-snmpd-embedded-systems-openwrt
+snmpwalk -v 1 -c public 192.168.0.1
+
+3-22
+去掉了 ATH_SUPPORT_DFS
+-rw-rw-r-- 1 jian jian   21704  3月 22 17:44 adf.ko
+-rw-rw-r-- 1 jian jian   50844  3月 22 17:44 ag71xx.ko
+-rw-rw-r-- 1 jian jian   11592  3月 22 17:44 asf.ko
+-rw-rw-r-- 1 jian jian  332624  3月 22 17:44 ath_dev.ko
+-rw-rw-r-- 1 jian jian   67828  3月 22 17:44 ath_dfs.ko
+-rw-rw-r-- 1 jian jian  753748  3月 22 17:44 ath_hal.ko
+-rw-rw-r-- 1 jian jian   22928  3月 22 17:44 ath_pktlog.ko
+-rw-rw-r-- 1 jian jian   40616  3月 22 17:44 ath_rate_atheros.ko
+-rw-rw-r-- 1 jian jian   13928  3月 22 17:44 hst_tx99.ko
+-rw-rw-r-- 1 jian jian 1253880  3月 22 17:44 umac.ko
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 6976      4572      2404  66% /
+
+3-21
+把修改了的文件列出来：
+git status . | cut -c 14-  >my
+cat my | xargs git checkout
+cat my |xargs git rm 
+cat my >> .gitingore
+
+3-20
+去掉ATH_SUPPORT_SPECTRAL
+-rw-rw-r-- 1 jian jian   21704  3月 20 13:33 adf.ko
+-rw-rw-r-- 1 jian jian   50844  3月 20 13:33 ag71xx.ko
+-rw-rw-r-- 1 jian jian   11592  3月 20 13:33 asf.ko
+-rw-rw-r-- 1 jian jian  337872  3月 20 13:33 ath_dev.ko
+-rw-rw-r-- 1 jian jian   67828  3月 20 13:33 ath_dfs.ko
+-rw-rw-r-- 1 jian jian  764664  3月 20 13:33 ath_hal.ko
+-rw-rw-r-- 1 jian jian   22952  3月 20 13:33 ath_pktlog.ko
+-rw-rw-r-- 1 jian jian   40616  3月 20 13:33 ath_rate_atheros.ko
+-rw-rw-r-- 1 jian jian   40076  3月 20 13:33 ath_spectral.ko
+-rw-rw-r-- 1 jian jian   13928  3月 20 13:33 hst_tx99.ko
+-rw-rw-r-- 1 jian jian 1270656  3月 20 13:33 umac.ko
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 6976      4764      2212  68% /
+
+/tzadmin/cgi-bin # df 
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 6976      4824      2152  69% /
+/tzadmin/cgi-bin # ls -l
+-rwxrwxr-x    1 1000     normal      314860 Mar 20  2017 shakehand.cgi
+
+web的shakehand改为使用so之后
+/tzadmin/cgi-bin # df 
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 6976      4816      2160  69% /
+/tzadmin/cgi-bin # ls -l
+-rwxrwxr-x    1 1000     normal      157980 Mar 20  2017 shakehand.cgi
+如果一块是1k，那么省了8k吧。
+
+3-19
+ tftp -g 10.8.0.100 -l /tmp/my.tar.gz -r my.tar.gz
+tar zxvf /tmp/my.tar.gz
+
+去掉hyfi
+-rw-rw-r-- 1 jian jian   21704  3月 19 11:47 adf.ko
+-rw-rw-r-- 1 jian jian   50844  3月 19 11:47 ag71xx.ko
+-rw-rw-r-- 1 jian jian   11592  3月 19 11:47 asf.ko
+-rw-rw-r-- 1 jian jian  344836  3月 19 11:47 ath_dev.ko
+-rw-rw-r-- 1 jian jian   67828  3月 19 11:47 ath_dfs.ko
+-rw-rw-r-- 1 jian jian  777392  3月 19 11:47 ath_hal.ko
+-rw-rw-r-- 1 jian jian   22952  3月 19 11:47 ath_pktlog.ko
+-rw-rw-r-- 1 jian jian   40616  3月 19 11:47 ath_rate_atheros.ko
+-rw-rw-r-- 1 jian jian   40076  3月 19 11:47 ath_spectral.ko
+-rw-rw-r-- 1 jian jian   13928  3月 19 11:47 hst_tx99.ko
+-rw-rw-r-- 1 jian jian 1272460  3月 19 11:47 umac.ko
+
+去掉wapi这个
+-rw-rw-r-- 1 jian jian   21704  3月 19 11:18 adf.ko
+-rw-rw-r-- 1 jian jian   50844  3月 19 11:18 ag71xx.ko
+-rw-rw-r-- 1 jian jian   11592  3月 19 11:18 asf.ko
+-rw-rw-r-- 1 jian jian  347240  3月 19 11:18 ath_dev.ko
+-rw-rw-r-- 1 jian jian   67828  3月 19 11:18 ath_dfs.ko
+-rw-rw-r-- 1 jian jian  777392  3月 19 11:18 ath_hal.ko
+-rw-rw-r-- 1 jian jian   22952  3月 19 11:18 ath_pktlog.ko
+-rw-rw-r-- 1 jian jian   40848  3月 19 11:18 ath_rate_atheros.ko
+-rw-rw-r-- 1 jian jian   40076  3月 19 11:18 ath_spectral.ko
+-rw-rw-r-- 1 jian jian   13928  3月 19 11:18 hst_tx99.ko
+-rw-rw-r-- 1 jian jian 1292648  3月 19 11:18 umac.ko
+
+原有文件大小
+-rw-rw-r-- 1 jian jian   21704  3月 19 10:04 adf.ko
+-rw-rw-r-- 1 jian jian   50841  3月 19 10:23 ag71xx.ko
+-rw-rw-r-- 1 jian jian   11592  3月 19 10:04 asf.ko
+-rw-rw-r-- 1 jian jian  347352  3月 19 10:04 ath_dev.ko
+-rw-rw-r-- 1 jian jian   67828  3月 19 10:04 ath_dfs.ko
+-rw-rw-r-- 1 jian jian  779664  3月 19 10:04 ath_hal.ko
+-rw-rw-r-- 1 jian jian   22952  3月 19 10:04 ath_pktlog.ko
+-rw-rw-r-- 1 jian jian   40848  3月 19 10:04 ath_rate_atheros.ko
+-rw-rw-r-- 1 jian jian   40076  3月 19 10:04 ath_spectral.ko
+-rw-rw-r-- 1 jian jian   13928  3月 19 10:04 hst_tx99.ko
+-rw-rw-r-- 1 jian jian 1307668  3月 19 10:04 umac.ko
+
+3-18
+那个升级错误居然是内核中的mtd错了，把内核扩大了些，问题是boot没有改，还是在同样的位置去启动，就不行了。
+
+今天怎么dnsmasq 2.76不用修改任何东西就能编译通过了，奇怪的事情，原来谢世乐上传的时候总是编译不过。
+
+ insmod ip_gre.ko
+ ip tunnel add tunnel0 mode gre remote 10.8.0.100 local 10.8.0.103 ttl 255
+ ip link set tunnel0 up
+ ip addr add  192.168.33.1 dev tunnel0
+ ip route add 192.168.33.0/24 dev tunnel0
+
+2828  sudo ip tunnel add tunnel0 mode gre remote 10.8.0.103 local 10.8.0.100 ttl 255
+ 2831  sudo ip link set tunnel0 up
+ 2833  sudo ip addr add 192.168.33.2 dev tunnel0
+ 2835  sudo ip route add 192.168.33.0/24 dev tunnel0
+
+
+
+cp ./net/ipv4/ip_gre.ko ~/tftpboot
+cp ./net/ipv4/gre.ko ~/tftpboot
+cp ./net/ipv6/ipv6.ko ~/tftpboot
+
+strongswan使用mips-gcc4.3.3编译出的问题：
+checking gmp.h version >= 4.1.4... no
+configure: error: No usable gmp.h found!
+
+ Symbol: ATH79_DEV_NAND [=y]                                                                                                    │  
+  │ Type  : boolean                                                                                                                │  
+  │   Selects: ATH79_NAND_CALDATA_FIXUP [=y]                                                                                       │  
+  │   Selected by: ATH79_MACH_AP135_DUAL [=y] && ATH79 [=y] || ATH79_MACH_CUS227 [=y] && ATH79 [=y] || ATH79_MACH_CUS531_NAND [=y] │  
+  │   
+
+Symbol: ATH79_MACH_AP135_DUAL [=y]                                                                                             │  
+  │ Type  : boolean                                                                                                                │  
+  │ Prompt: Atheros AP135 Dual reference board                                                                                     │  
+  │   Defined at arch/mips/ath79/Kconfig:98                                                                                        │  
+  │   Depends on: ATH79 [=y]                                                                                                       │  
+  │   Location:                                                                                                                    │  
+  │     -> Machine selection                                                                                                       │  
+  │       -> Atheros AR71XX/AR724X/AR913X machine selection 
+
+3-17
+为什么ap-cp改到qsdk版本网页升级不行了，网页执行了：
+ update /tmp/vmlinux.lzma.uImage /dev/mtd2 > /tmp/updateboot
+然后变成了：## Booting image at 9f6e0000 ...
+Bad Magic Number
+
+3-14
+好容易把cpe-df的软件改成了qsdk版本。为什么每次都这么复杂呢？
+cpe-df qsdk版
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 tozedcpe-df_ap123-jffs2 && erase 0x9f010000 +0x6d0000 && cp.b $fileaddr 0x9f010000 $filesize
+tftp 0x80060000 vmlinux_ap123.lzma.uImage && erase 0x9f6e0000 +$filesize && cp.b $fileaddr 0x9f6e0000 $filesize
+
+3-13
+ubuntu 运行32位程序
+sudo apt-get install libc6:i386
+
+libz.so.1: cannot open shared object file: No such file or directory
+
+3-11
+tftp -g 10.8.0.100 -l ag71xx.ko
+rmmod ag71xx
+insmod ag71xx.ko
+ifconfig eth0 up
+brctl addif br0 eth0
+
+
+3-2
+列出所有的用户和提交次数：
+git log --pretty='%aN' | sort | uniq -c | sort -k1 -n -r
+
+3-1
+找到所有的ko, 并复制到当前目录：find . -name '*.ko'  -exec cp  {} . \;
+
+2-25
+终端颜色：
+http://weakbrother.blog.163.com/blog/static/14067678120113125183337/
+
+2-23
+使用：
+Linux version 3.4.110 (jian@jian-OptiPlex-9020) (gcc version 4.7.2 (Buildroot 2013.02) ) #16 Wed Feb 22 18:08:26 CST 2017
+tcp pc->cpe [  8]  0.0-10.1 sec   112 MBytes  93.3 Mbits/sec
+tcp cpe->pc [  6]  0.0-10.0 sec   109 MBytes  91.4 Mbits/sec
+udp pc->cpe [  3]  0.0-10.0 sec   114 MBytes  95.5 Mbits/sec  (-b 100M)
+udp cpe->pc [  6]  0.0-10.0 sec   111 MBytes  93.2 Mbits/sec
+
+Linux version 3.4.110 (zq@zq-ThinkPad-E450) (gcc version 4.7.2 (Buildroot 2013.02) ) #2 Wed Feb 22 10:30:56 CST 2017
+tcp pc->cpe [  3]  0.0-10.1 sec  7.88 MBytes  6.53 Mbits/sec
+tcp cpe->pc [  6]  0.0-10.1 sec  2.50 MBytes  2.07 Mbits/sec
+udp pc->cpe [  3]  0.0-10.0 sec   114 MBytes  95.5 Mbits/sec
+udp cpe-pc [  6]  0.0-10.0 sec  1.88 MBytes  1.58 Mbits/sec
+
+2-21
+福建的ip从211.143.218.54,  211.143.218.35 211.143.218.108-122
+
+2-17
+phy 0 reg =0x3100 	phy 1 reg =0x7849		phy 2 reg =0x243	phy 3 reg =0xc54
+phy 4 reg =0x1e1	phy 5 reg =0x0	phy 6 reg =0x4	phy 7 reg =0x2001
+phy 8 reg =0x0	phy 9 reg =0x0	phy 10 reg =0x0	phy 11 reg =0x0
+phy 12 reg =0x0	phy 13 reg =0x0	phy 14 reg =0x0	phy 15 reg =0x0
+phy 16 reg =0x2	phy 17 reg =0x700	phy 18 reg =0x6101	phy 19 reg =0x0
+phy 20 reg =0x10	phy 21 reg =0x0	phy 22 reg =0x0	phy 23 reg =0x0
+phy 24 reg =0x0	phy 25 reg =0x12	phy 26 reg =0x1249	phy 27 reg =0x12
+phy 28 reg =0x1	phy 29 reg =0x182	phy 30 reg =0x0	phy 31 reg =0x1409
+
+qsdk: uboot boot kernel ok.
+adb shell mkdir /jian
+adb push ./linux_plat/base/linux/user/busybox/busybox /jian/
+adb shell chmod +x /jian/busybox
+
+2-16
+adb push ./project/prj_cpe/bins/allbins/ap_cpuap.bin /tmp
+adb push ./linux_plat/base/linux/user/updatesystem/update /tmp
+adb shell cp /tmp/update /sbin 
+adb shell chmod +x /sbin/update
+adb shell update /tmp/ap_cpuap.bin /dev/mtd10
+
+2-15
+中兴平台上的fota分区还比较大，而且可以mount上来，作为升级使用。
+mount -t jffs2 -o rw mtd:fotaupdate /tmp/1
+这个是以前的kernel:
+Linux (zx297510-A9) 3.4.110 #2 Wed Jan 4 13:48:29 CST 2017 armv7l GNU/Linux
+使用update后，看来没有什么问题
+Linux (zx297510-A9) 3.4.110 #2 Wed Feb 15 11:21:18 CST 2017 armv7l GNU/Linux
+
+2-14
+zte7520的板子回来，第一个刷信可的程序貌似正常，第二个就没法启动了，从usb口上看，pc端总是显示两个trap口。
+
+ccapp这个程序难道是控制slic的，里面又slic的消息。
+
+zte7520中的nv set 后，nv save重新启动，设置的参数看起来没有保存。
+
+Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!
+这个要安装：sudo apt-get install libnss-myhostname
+
+看起来wifi也没有起来。
+
+2-13
+赵刚 和李瑶一起，在pc上可以连接尼日利亚的tr069服务器了。还需要在板子上实现。
+张勇 江西那边在公交站台进行工业路由器的测试，发现需要使用静态地址的，这样，拨号程序还需要进行修改。
+
+忙了3天，总算把ap-cp使用qsdk再次编译成功了，以太网部分的eth0和eth1也出来了，可以ping通了，那么还有其他的扩展的部分还不知道怎么做。编译上去的u11的以太网驱动报错：phy not found!
+
+使用mount -t debugfs none /tmp/1可以把debugfs建立起来，不过看起来里面的东西不多。
+
+任银善手上的工作：
+1 巴西openwrt 9531, 拨号需要加容错
+2 9531 lsdk版本 性能测试
+3 9531+9887双频， 5.8g感觉还有不正常
+4 vpn
+5 4018 已经编译成功
+6 32m 的双系统
+
+工业路由器在测试中会出现概率性的启动后完全
+
+2-10
+grep -n '\.$' pp     //小数点是特殊字符 需要用\进行转义
+
+黄武 问p21生产能否和m60一样检查天线是否扣好。
+
+任银善 这个2.4g+5.8g的机器修改了mac结果好像校准的内容后移动了一个字节，所以看到5.8g的txpower是off，这也是头一次看到。也没有搞过ipsec，但原来的公司有人做过。
+
+张勇 即使是7模的模块，使用电信的卡，cs还是写着“注册被拒接”的红字。在电信3g的情况下，拨号程序无法正常拨号，而额外的使用指令是可以的。所以估计还要改拨号程序。 
+
+早上华润的商务人员来了，希望尽快完成测试。
+
+2-9
+好像非常忙的样子。
+首先是李瑶 若干个产品都要改网页，当前已经成为阻碍节点。他终于愿意招一个人，只要愿意做网页就好了。
+廖媛 尼日利亚的p21还差ssl方式的tr069, voip。
+
+2-7 
+zte为什么telnet进去速度响应非常慢，而使用adb则看起来是正常的。
+
+2-6
+菲律宾使用的是一个叫做wifi sweetspot的软件进行测速，这个软件直接发送udp包，不需要其他软件支持，连接wifi后即可使用。使用我的华为手机一直平稳，而使用占永平的手机就会明显的有起伏的现象。如果农宽cpe改为ap使用，那么看起来是平稳的。
+
+年前的5.8g cpe报的不好用的问题是距离远了就不行，原因还是天线的问题。
+
+zte7520以前的记录：
+mmi模块的主要功能对不同的业务进行lcd或lde显示，lde是什么？
+mmi存在对关机充电的支持。
+已经存在恢复出厂的实现
+adb看起来一定是通过usb来实现的
+busybox中，没有dmesg和uptime这些指令。
+存在nv这个指令，nv get telnted_enable
+atserver的at log在/etc_rw/config/satlog这个文件中，还有一个ratlog不知道是谁发的。
+
+海外会议。
+
+
+1-22
+上午王伍 白俊剑 等说m60相关产品后面的做的东西。
+
+还是换一个本地的笔记吧，先用tomboy这个ubuntu自带的用着吧，其他都开始收费了。
+折腾了半天，居然没有办法在win7上运行，算了，不能就不能吧。
+
+1-20
+这次年度的汇报本来我准备多汇报一点的，但是通知出来后发现研发的汇报时间被减少了不少，真是人生不如意，十有八九。我这里不是抱怨，下一次也不用增加时间，而是以这个作为一个计划不如变化的例子。
+
+1-19
+p21上的开机过一段时间天线检测错误居然是wifi驱动中ar9300Reset这个函数里面对这个gpio直接进行了操作。怎么会有这样的事情发生？
+可以使用dd命令直接把iso文件写入u盘，简单的方法，不用找各种软件了。
+http://www.veryhuo.com/a/view/80220.html
+
+1-18
+任银善 还在编译wlan_10.4，有个奇怪的define，总是报没有定义，应该是某些配置的问题。在我这里试试，cool 5是编译成功的，原来编译的是v10的，而不是v10_4的无线驱动。
+工业路由器当前报每周有3-4台安装的机器不能使用的情况。
+王伍重新写了一个i2c的程序，开始没有加延时，后来读寄存器有问题，应该是gpio的读法有问题
+苑德强 tplink也在做海外市场，巴西一半的路由器被它占领。tp的质量其实不算完美，但是管理上应该有独到的地方。他举了个例子，有客户需要生产后立即得到发货的产品的sn号，tp可以立即给出，而他上个公司，动用了好多人力，一个个去扫描sn码，费了非常大的力气。
+
+赵刚 openwrt上的openssl比较小，不过也有1.5m
+梁剑 湖北自助一旦绑定了工号后，就不会去加载ocx，应该是移动数据的问题。
+占永平 工业路由器断电48次也出现了不能ping到的情况，重启正常。要接串口看了。
+张勇 3.3.8的程序出现了不能telnet，但能上网的情况。
+
+p10刷工业路由器qsdk程序
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize
+tftp 0x80060000 tozedap-router_4g_industry_ap123-squashfs && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+set bootargs "console=ttyS0,115200 root=31:01 rootfstype=squanshfs ro init=/sbin/init mtdparts=spi0.0:64k(u-boot),6848k(rootfs),1152k(uImage),64k(mib0),64k(ART) machtype=DB120"
+
+1-17
+赵刚 可以使用在tr069中增加openssl的库了，但是openssl非常大，不是要裁减，就是要换库。
+
+1-16
+梁剑 明天请假，但是还是要远程查湖北自助不能使用的问题。谌杰现在在证通，当前是在做自助，已经申请转岗。广东自助这次谢世乐还是找他要了程序，才发现问题，能够使用银联了。方舒现在在人民银行，貌似折腾网上对银行不利的言论。万辉已经回南昌，貌似也是在做linux相关。
+
+下午把原来的以太网驱动在3.3.8下编译过去。
+
+早上那个9531的机器出现不能连接wifi的问题，telnet进去发现系统响应也很慢。还是那个问题，ubusd已经无法运行了，导致hostapd无法运行，所以wifi能搜索到，但是不能连接。另外log中保存了dmesg.log这个文件，非常大，有19m，删除它以后，系统看起来响应没有那么慢了。对于tftp不能上传创建文件的事情，使用那个tftp-hpa，进行配置后，就可以了。参考这个网页：http://wiki.ubuntu.com.cn/Tftpd-hpa
+当前使用的配置文件：
+/etc/default$ cat tftpd-hpa
+TFTP_USERNAME="tftp"
+TFTP_DIRECTORY="/var/lib/tftpboot"
+TFTP_ADDRESS="0.0.0.0:69"
+#TFTP_ADDRESS="[::]:69"
+#TFTP_OPTIONS="--secure"
+TFTP_OPTIONS="-l -c -s"
+
+张勇 在ubuntu16下编译zte7520，也出现了编译openwrt下面的那个config工具编译inline错误。
+大连奥远的电梯运用场景是这样的，设备不是安装在电梯里，而是安装在电梯井的最上端机房内，wifi采用定向天下向下，设备也不多，所以wifi从来没有报问题，主要是4g上1761模块有不能用的情况。当前就只有重启机器了，如果按照苗立双那样去重启模块，脚本做的太复杂。
+
+1-12
+郑荣俊 河南人。从前在一个做后视镜的公司，主要做单片机的工作。
+
+1-9
+上午王伍催着把9250分配下去，找来张勇和周湘理简单说了一下。
+电梯里面的工业路由器存在拨号程序挂掉的情况，这样就有运行了一周多后不能上网的情况。先做一个容错吧。
+把qsdk2.9中的nart编译成一个整个的文件看起来还比较繁琐，还是使用原来的方式吧。做makefile的时候跳过那些作为链接的so文件。
+单总召开会议讨论南美和菲律宾的事情。
+
+1-6
+lc1860这个仓的内核每次都会完全重新编译了。
+王伍：7520是个优先级最高的项目。
+7520编译boot也没有什么问题。
+rdesktop 增加-x 0x80这个参数，那么字体就不会发虚了。这个被称为user experience level
+使用rdesktop有个好处是窗口大小不变，这样避免了virtualbox窗口变化时，thebat跟着调整，每次都要拉，比较麻烦。
+任赢善 搞定了校准。9341的qsdk驱动移植基本没有难点了。下面就要把p21的改成这个程序。
+git commit --amend 可以修改最后一次 commit
+
+1-5
+张勇 移植qsdk3的nart，不能开始校准。仁赢善给中电电话，说是官方不支持在9341上使用qsdk，后来换了qsdk2.9的，可以开始校准了，但是脚本需要重新写。
+
+梁剑 修改了uboot，当然内核跑完成后，文件系统没有成功加载。
+
+白俊剑 还是放周湘理来做7520的网页部分。
+
+下午折腾了半天的虚拟机，试图安装一个64的win7，直接上win7 64位sp1的版本，出现了那个寻找驱动程序的界面就不走了。查找是说使用u盘安装才会有这样的错误。安装ghost版，选择第一项立即停止响应了。还是安装ghost版，先进入pe系统，然后选择ghost，这样就安装成功了。里面大量的各种软件，可以卸载。但是主页永远都在2345那个，算了，直接删除吧。受不了了。
+主要是昨天开启了一次win7虚拟机器之后，xp就不识别那个1t的硬盘了。
+
+Shell脚本中$0、$?、$!等的意义
+http://www.sijitao.net/1613.html
+$$
+Shell本身的PID（ProcessID）
+$!
+Shell最后运行的后台Process的PID
+$?
+最后运行的命令的结束代码（返回值）
+$-
+使用Set命令设定的Flag一览
+$*
+所有参数列表。如"$*"用「"」括起来的情况、以"$1 $2 … $n"的形式输出所有参数。
+$@
+所有参数列表。如"$@"用「"」括起来的情况、以"$1" "$2" … "$n" 的形式输出所有参数。
+$#
+添加到Shell的参数个数
+$0
+Shell本身的文件名
+$1～$n
+添加到Shell的各参数值。$1是第1参数、$2是第2参数…。
+
+7520可以上网，但是看起来pc上无法得到ipv6的地址。貌似也没有radvd程序。
+按照这个文章的修改，也不能使用linux下的adb来连接7520
+http://wyoojune.blog.163.com/blog/static/57093325201452753323250/
+
+1-4
+张勇 无论怎么尝试，都只能出一个eth0或者eth1。那就算了吧。编译原来那个校准的ko，在新的内核下面加载会失败。
+在3.3.8下，暂时没有出现宽翼模块不停的报错的情况。
+信可的成伟平过来，试图在虚拟机中使用刷机程序，看起来是无法成功的，直接使用笔记本才能成功。系统中adbd已经在运行。是不是要在9341上也移植一个看看，这样即使没有网络地址的情况下，是不是也能进入系统。如何单独编译某个模块，显然他们还没有折腾过。还不能在adb中直接发送at指令。后来何伟和王伍也过来，说的主要是升级的事情。不做差分，fota，只做全包升级。
+对于存在大量空目录的系统，先这样折腾一下再git add, 这些空目录就保存下来了。
+find . -type d -empty -exec touch {}/.gitignore \;
+
+1-3
+16:48
+张勇 问phy, switch等的区别
+王伍 说中兴的目录很有借鉴，apps里面是各种程序。这个都是这样做的啊。
+中兴的编译貌似没有碰到什么问题，直接过了。
+中兴的内核居然已经把其他的arch删除了，比较好。
+
+15:32
+git for windows 2.11以后的版本就不再支持xp系统了，只能下载一个2.10版本的用着了。
+
+14:58
+来给郑荣俊分配git权限吧。
+
+13:56
+看起来如果在linux下操作另外挂载的那个磁盘，在linux下创建的文件，在windows下是没有看见的。如果在linux弹出设备，再重新挂载，那么那些文件也就不存在了。总感觉这样做，同样一块硬盘，变成了两个独立的系统。
+
+11：56
+好像好忙碌的样子，其实也没有。
+张勇：9341一种新的类型，使用2.6.31的内核启动宽翼模块还是会挂掉。需要在复位后30秒再去加载usb模块，又要出新程序了。
+3.3.8内核程序还有两个问题，一个是校准的ko编译，一个只出一个是eth0的问题。
+刘云 苗立双 刘咏辉 徐钢雄 华域设备启动有概率不能起来的情况：当前使用华域本身的程序，无论什么硬件都没有问题，使用通则的软件，使用华域的底板没有问题，使用通则的底板就可能会出现不启动的情况。
+
+昨天下午林小珊还打电话来问新同事坐哪里。Describe your new note here.
