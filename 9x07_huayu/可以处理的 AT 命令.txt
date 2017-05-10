@@ -1,0 +1,451 @@
+可以处理的 AT 命令:
++NV:%s
++CGSN:%s
++MIFICHARG:0,0
++MIFIMAC:%s
++MIFIBAT:0,0,0
++MIFIBAT:%s,%s,%.3f
++MIFIVER:
++MRD_MEID:%s
++MRD_IMEI:%s
++MIFIENYSWT:%s
++MIFIUPGRADENQT:%s
++MIFIUPGRADEURL:%s, %s
++MIFILOGIN:%s,%s
++MIFIUPGRADEVER:%s,%s,%s,%s,%s,%s
++MPSWITCH:%d
++NTPSERVER:%s
++UTCTIME:%s
++MIFIPROVINCE:%s
++LOGSWITCH:%s
++LANMAC:
++WEBVERSION:%d
++MIFISIMKEY:%s
++LENDSWITCH:%s
++MIFIQQ:%s
++LANG:%s
++MRD_SN:%s
++MIFIVERTYPE:%d
++SETUIPAGE:%s
++LANG
++LANG:<en/cn>
++MIFIVER
++MIFIVER:[<SwVer>],[<HwVer>],[<model>]
++MPSWITCH
++MPSWITCH:<0/1/2>,(0:OT, 1:MP, 2:CTA)
++MIFIVERTYPE
++MIFIVERTYPE:<0/1/2>,(0:CMCC, 1:UNICOM, 2:TELECOM)
++SETUIPAGE
++SETUIPAGE:<123456>
++MIFIQQ
++MIFIQQ:<QQ>
++MIFIMAC
++MIFIMAC:<MAC>
++LANMAC
++LANMAC:[<LAN0/LAN1/LAN2/LAN3>,<MAC>]
++MIFILOGIN
++MIFILOGIN:<user name>,<password>
++MIFIUPGRADEVER
++MIFIUPGRADEVER:[<SwVer>,<SwName>,<Model>,<SoftVer>,<HardVer>,<FirmVer>]
++MIFIUPGRADEURL
++MIFIUPGRADEURL:[<upgrade_mode>, <url>]
++MIFIENYSWT
++MIFIENYSWT:<0/1/2>,(0:COMMON, 1:ENY, 2:BOTH)
++MIFISIMKEY
++MIFISIMKEY:[<com>, <ver>, <encrykey>]
++MIFIUPGRADENQT
++MIFIUPGRADENQT:[<NextQueryTime(unit:second;gt 10)>]
++LOGSWITCH
++LOGSWITCH =<0/1>
++WEBVERSION
++WEBVERSION=<value>
++MIFIBAT
++BAT:S,B,V
++MIFICHARG
++CHARG:S,B
++CGSN
++CGSN=<a>
++MRD_MEID
++MRD_MEID=<meid>
++LENDSWITCH
++LENDSWITCH=<0/1>
++MEID
++MEID:<meid>
++NTPSERVER
++NTPSERVER=<value>
++UTCTIME
++UTCTIME=<-12~12>(8:UTC+8, 7:UTC+7)
++MIFIPROVINCE
++MIFIPROVINCE=<province>
++MRD_IMEI
++MRD_IMEI=<IMEI>
++MRD_SN
++MRD_SN:<SN>
++MIFIDM:%d
++MIFIDMIMSI:%s
++MIFIDMINFO:
++MIFIDMADDR:
++MAXPINPUK:%s,%s
++MIFIDIALMODE:%s
++LOCKCARD:%s
++LOCKCELL:%s,%s
++DEFAULTPIN:%s
++WEBLOCKNET:%s,%s
++MIFIDNS:%s,%s,%s
++REJECTOPERATOR:%s
++MIFIDIALMODE
++MIFIDIALMODE:<0/1/2>
++WEBLOCKNET
++WEBLOCKNET:<lock network list>,<default network>
++LOCKCARD
++LOCKCARD=<0/1>,<0:close lock card switch 1:open lock card switch>
++LOCKCELL
++LOCKCELL=<switch>,<maximum count>
++LOCKCELLINFO
++LOCKCELLINFO=<operate>
++MIFIDNS
++MIFIDNS=<mode>,<dns1>,<dns2>
++MAXPINPUK
++MAXPINPUK=<max_pin>,<max_puk>
++DEFAULTPIN
++DEFAULTPIN=pin1:pin2:pin3
++WIFIMAXCLIENTS:%s
++MIFISSID:%s
++MIFIPASSWORD:%s
++MIFISSID
++MIFISSID:<ssid>
++MIFIPASSWORD
++MIFIPASSWD:<password>
++WIFIMAXCLIENTS
++MIFIMAXCLIENTS:<1~10>
++MIFIWIFI:%d
++IPV6SWITCH:%d
++WIFIAUTOUNLOAD:%s
++POWERMODE:%d
++MIFIPROFILE:%s
++ATTACHAPN:%s
++WLANLTECOE:%d, %s
++WLANLTECOE:%d
++MIFIDHCP:<interface>,<gateway_ip>,<start_ip>,<end_ip>,<sub_mask>,<lease>
+AT+MIFIDHCP=<BRIDGE/AP/USB/LAN0/LAN1/LAN2/LAN3>
++IPV6SWITCH
++IPV6SWITCH:<0/1>
++WLANLTECOE
++WLANLTECOE=<0/1>,<0xE000000000>
++POWERMODE
++POWERMODE:<0/1>/0:close save mode 1:open save mode
++MIFIPROFILE
++MIFIPROFILE:<op>,<rowid>,<name>,<apn>,<user>,<password>,<auth_type>,<ip_version>,<is
+_selected>
++ATTACHAPN
++ATTACHAPN:<op>,<rowid>,<apn>,<user>,<password>,<auth_type>,<ip_version>
++MIFIWIFI
++MIFIWIFI:<0/1>
++MIFIDHCP
++MIFIDHCP:<interface>,<gateway_ip>,<start_ip>,<end_ip>,<sub_mask>,<lease>
++WIFIAUTOUNLOAD
++WIFIAUTOUNLOAD:<time>
++PPPOETOL2TP:%s
++PPPOETOL2TP
++PPPOETOL2TP:<0/1>
++MIFIVEREX:
++TRAFFICSET:
++REGSET:%s
++ADJUSTPERFORMANCE:1
++ADJUSTPERFORMANCE:0
++TRSNMPCONFIG:%s
++MIFISUBVER:%s
++MIFISUBVER:%s
++FOTA:
++READCARDSMS:%s
++WEBSHOWFUNC:<func_name>
++WEBSHOW:%s
++ACTIVATEMIFI:%d
++IS_REBOOT:%s
++LOGCAT:
++MIFIBACKUP:%d
++MIFIUSBMODE:%d
++MIFIUSBMODE:%s
++MIFIKEY:
+at+mifissid
+at+mifipassword
+at+mifimac
+at+mifiupgradenqt
+at+setuipage
+at+mifiqq
+at+lendswitch
+at+mifimaxclients
+at+lang
+at+ntpserver
+at+utctime
+at+weblocknet
+at+mifidialmode
+at+mifiupgradever
+at+logswitch
+at+powermode
+at+ipv6switch
+at+mpswitch
+at+wlanltecoe
+at+mifidm
+at+mifivertype
+at+webversion
+at+mrd_imei
+at+mifilogin
+at+mifiver
+at+mifidminfo
+at+mifidmaddr
++MIFIUPDPRM:%s
++SLEEPENABLE
++SLEEPENABLE=<0/1>
++MIFIALLLEDS
++MIFIALLLEDS=<0/1/2>,(0:OFF, 1:ON, 2:RECOVER)
++RESET
++MIFIUSBMODE
++MIFIUSBMODE=(0-2)
++MIFISUBVER
++MIFISUBVER=<DISPLAY,WIFI,LAN,TECH,HUB,COR,CHG>
++FOTA
++FOTA=<name(|value)>,<name(|value)>,...
++MIFIKEY
++MIFIKEY:<0/1>
++SHELL
++SHELL=<commond>
++VERSION
++VERSION=<1>
++NV:<nv op size [data] offset/path>
++MIFIRECY
++MIFIBACKUP
++MIFIBACKUP:<0/1>
++PRODUCTFUN
++PRODUCTFUN=<name>,<value>
++ACTIVATEMIFI
++ACTIVATEMIFI:<0/1>
++MIFIVEREX
++MIFIVEREX:<SwVer>,<HwVer>,<CompileTime>
++LOGCAT
++LOGCAT=[<on>]
++LOGCAT=[<stop>]
++LOGCAT=[<filter>,<module>,<level>]
++LOGCAT=[<format>,<1-7>]
++LOGCAT=[<output>,<1-2>]
++LOGCAT=[<unfilter>]
++CUSTOM
++CUSTOM=<1>
++REGSET
++REGSET=n1<000000-111111>,n2<0-1> n1 = nv66011,nv66012,nv66013,nv880,nv881,nv882 n2
+= 0 (user mode)/1 (calibrate mode)
++BANDSET
++BANDSET=314256(1:LTE/2:TDS/3:GSM/4:WCDMA/5:CDMA/6:HDR)
++MIFIOLED
++MIFIOLED=<0/1/2>,<time_delay> 0:close oled 1:open oled 2:restore oled 3:open oled subsection
++MIFILAMP
++MIFILAMP=<red(1)/green(2)>,<0:close lamp 1:open lamp>,None:restore
++READCARDSMS
++READCARDSMS=<0/1> 0:close function 1:open function
++ADJUSTPERFORMANCE
++ADJUSTPERFORMANCE=<0/1>,<0:open device not operate performance_tuning.sh 1:open
+device operate performance_tuning.sh>
++TRSNMPCONFIG
++TRSNMPCONFIG=<0/1>,<0/1>, <0:close tr/snmp 1:open tr/snmp>
++TRAFFICSET
++TRAFFICSET=<0(disable),null,null/1(enable),traffic size,date>
++ISREBOOT
++ISREBOOT:<0/1>
++WEBSHOWFUNC
++WEBSHOWFUNC:<func_name>,<show_state>
++WEBSHOW
++WEBSHOW:<web_version>
++MIFIUPDPRM
++MIFIUPDPRM:<name>,<value>
+可能被操作的文件:
+/usr/data/hojydb_mifi_config.sqlite
+/usr/data/hojydb_mifi_info.sqlite
+/nv/item_files/modem/tdscdma/rrc/integrity_enabled
+/nv/item_files/modem/tdscdma/rrc/ciphering_enabled
+/nv/item_files/modem/tdscdma/rrc/fake_sec_enabled
+/proc/hw_version
+/sys/class/power_supply/battery/present
+/sys/class/power_supply/battery/temp
+/sys/class/power_supply/battery/voltage_now
+/sys/class/power_supply/battery/status
+/etc/upgrade/product_province
+/usr/mifi/lan_mac_file
+/usr/mifi/compile_time
+/etc/upgrade/upgrade_version
+/etc/upgrade/upgrade_mode
+/etc/upgrade/hswork_url
+/etc/upgrade/upgrade_device
+/usr/data/encrypt_sim_mode
+/usr/data/simkey.conf
+/etc/upgrade/auto_query_next_t_intv
+/sys/module/restart/parameters/download_mode
+/etc/log_switch
+/usr/mifi/hwebserver/system.config
+/etc/cwmp_config
+/usr/mifi/logcat.sh
+/usr/data/custom.xml
+//config/DynamicData/IMEI
+//config/DynamicData/SSID
+//config/DynamicData/Password
+//config/DynamicData/MacAddress
+//config/DynamicData/MEID
+//config/StaticData/ClientDataConfig/UpgradeNQT
+//config/StaticData/ClientDataConfig/WifiPowerMode
+//config/StaticData/ClientDataConfig/IPv6Switch
+//config/StaticData/ClientDataConfig/VerType
+//config/StaticData/ClientDataConfig/MifiLogin/UserName
+//config/StaticData/ClientDataConfig/MifiLogin/Password
+//config/StaticData/ClientDataConfig/WifiMaxClients
+//config/StaticData/ClientDataConfig/Language
+//config/StaticData/ClientDataConfig/WlanLTECoexist
+//config/StaticData/ClientDataConfig/WebLockNet/NetworkList
+//config/StaticData/ClientDataConfig/WebLockNet/DefaultNetwork
+//config/StaticData/ClientDataConfig/DIALMODE
+//config/StaticData/ClientDataConfig/Version/SoftwareVersion
+//config/StaticData/ClientDataConfig/Version/HardwareVersion
+//config/StaticData/ClientDataConfig/Version/ProductType
+//config/StaticData/ClientDataConfig/UpgradeVersion
+//config/StaticData/ClientDataConfig/LogSwitch
+//config/StaticData/ClientDataConfig/UIPage
+//config/StaticData/ClientDataConfig/LendSwitch
+//config/StaticData/ClientDataConfig/NtpServer
+//config/StaticData/ClientDataConfig/UtcTime
+//config/StaticData/ClientDataConfig/UIQQ
+//config/StaticData/ClientDataConfig/MPSwitch
+//config/StaticData/ClientDataConfig/DM/OpenAndCloseFlag
+//config/StaticData/ClientDataConfig/DM/MannfactureName
+//config/StaticData/ClientDataConfig/DM/SoftwareVersion
+//config/StaticData/ClientDataConfig/DM/DeviceMode
+//config/StaticData/ClientDataConfig/DM/ServiceNum
+//config/StaticData/ClientDataConfig/DM/PortNum
+//config/StaticData/ClientDataConfig/WebVersion
+//config/StaticData/ClientDataConfig/ActivateMifi
+//config/StaticData/ClientDataConfig/UsbMode
+//config/StaticData/ClientDataConfig/BackupData
+/usr/mifi/hwebserver/www/defaults/app_fun_support_list.xml
+/sys/devices/platform/mdss_fb.0/leds/lcd-backlight/brightness
+/sys/power/autosleep
+/usr/mifi/restart_uc_gui &
+/sys/devices/platform/msm_ssbi.0/pm8018-core/pm8xxx-led/leds/led:breath/trigger
+/sys/devices/platform/msm_ssbi.0/pm8018-core/pm8xxx-led/leds/led:breath/brightness
+/sys/class/leds/signal_red/trigger
+/sys/class/leds/signal_red/brightness
+/sys/class/leds/signal_green/trigger
+/sys/class/leds/signal_green/brightness
+/sys/class/leds/battery_red/trigger
+/sys/class/leds/battery_red/brightness
+/sys/class/leds/battery_green/trigger
+/sys/class/leds/battery_green/brightness
+/sys/class/leds/wifi/trigger
+/sys/class/leds/wifi/brightness
+/sys/class/leds/sms/trigger
+/sys/class/leds/sms/brightness
+/sys/class/leds/power/trigger
+/sys/class/leds/power/brightness
+/sys/class/leds/net_mode/trigger
+/sys/class/leds/net_mode/brightness
+/sys/class/leds/signal1/trigger
+/sys/class/leds/signal1/brightness
+/sys/class/leds/signal2/trigger
+/sys/class/leds/signal2/brightness
+/sys/class/leds/signal3/trigger
+/sys/class/leds/signal3/brightness
+/sys/class/leds/signal4/trigger
+/sys/class/leds/signal4/brightness
+mv /usr/sbin/performance_tuning.sh /usr/sbin/performance_tuning_bak.sh &
+mv /usr/sbin/performance_tuning_bak.sh /usr/sbin/performance_tuning.sh &
+/usr/sbin/performance_tuning.sh
+/usr/mifi/hwebserver/func_show_list.xml
+touch /misc/activate_mifi_flag
+rm /misc/activate_mifi_flag
+//RGW/app_fun_support_list/activate_mifi
+rm -rf /tmp/usb_tmp
+ls -l %s > /tmp/usb_tmp
+/sbin/usb/boot_hsusb_composition
+/tmp/usb_tmp
+/sbin/usb/compositions/9025
+/sbin/usb/compositions/9110
+/sys/devices/gpio_leds.49/leds/led1/brightness
+/sys/devices/gpio_leds.49/leds/led2/brightness
+/etc/upgrade/device_imei
+/etc/upgrade/gs_upgrade_oem
+/etc/upgrade/gs_upgrade_token
+/etc/upgrade/gs_upgrade_device_type
+/etc/upgrade/gs_upgrade_models
+/etc/upgrade/gs_upgrade_platform
+//config/StaticData/NVDataConfig/CloseGSM/GSM800/offset
+//config/StaticData/NVDataConfig/CloseGSM/GSM800/op
+//config/StaticData/NVDataConfig/CloseGSM/GSM800/size
+//config/StaticData/NVDataConfig/CloseGSM/GSM800/data
+//config/StaticData/NVDataConfig/CloseGSM/GSM800/path
+//config/StaticData/NVDataConfig/CloseGSM/GSM1900/offset
+//config/StaticData/NVDataConfig/CloseGSM/GSM1900/op
+//config/StaticData/NVDataConfig/CloseGSM/GSM1900/size
+//config/StaticData/NVDataConfig/CloseGSM/GSM1900/data
+//config/StaticData/NVDataConfig/CloseGSM/GSM1900/path
+//config/StaticData/NVDataConfig/CloseGSM/GSM1800/offset
+//config/StaticData/NVDataConfig/CloseGSM/GSM1800/op
+//config/StaticData/NVDataConfig/CloseGSM/GSM1800/size
+//config/StaticData/NVDataConfig/CloseGSM/GSM1800/data
+//config/StaticData/NVDataConfig/CloseGSM/GSM1800/path
+//config/StaticData/NVDataConfig/NV66024/offset
+//config/StaticData/NVDataConfig/NV66024/op
+//config/StaticData/NVDataConfig/NV66024/size
+//config/StaticData/NVDataConfig/NV66024/data
+//config/StaticData/NVDataConfig/NV66024/path
+//config/StaticData/NVDataConfig/NV67232/offset
+//config/StaticData/NVDataConfig/NV67232/op
+//config/StaticData/NVDataConfig/NV67232/size
+//config/StaticData/NVDataConfig/NV67232/data
+//config/StaticData/NVDataConfig/NV67232/path
+//config/StaticData/NVDataConfig/NV67353/offset
+//config/StaticData/NVDataConfig/NV67353/op
+//config/StaticData/NVDataConfig/NV67353/size
+//config/StaticData/NVDataConfig/NV67353/data
+//config/StaticData/NVDataConfig/NV67353/path
+//config/StaticData/NVDataConfig/NV6828/offset
+//config/StaticData/NVDataConfig/NV6828/op
+//config/StaticData/NVDataConfig/NV6828/size
+//config/StaticData/NVDataConfig/NV6828/data
+//config/StaticData/NVDataConfig/NV6828/path
+//config/StaticData/NVDataConfig/NV6829/offset
+//config/StaticData/NVDataConfig/NV6829/op
+//config/StaticData/NVDataConfig/NV6829/size
+//config/StaticData/NVDataConfig/NV6829/data
+//config/StaticData/NVDataConfig/NV6829/path
+//config/StaticData/NVDataConfig/NV65537/offset
+//config/StaticData/NVDataConfig/NV65537/op
+//config/StaticData/NVDataConfig/NV65537/size
+//config/StaticData/NVDataConfig/NV65537/data
+//config/StaticData/NVDataConfig/NV65537/path
+//config/StaticData/NVDataConfig/NV65538/offset
+//config/StaticData/NVDataConfig/NV65538/op
+//config/StaticData/NVDataConfig/NV65538/size
+//config/StaticData/NVDataConfig/NV65538/data
+//config/StaticData/NVDataConfig/NV65538/path
+//config/StaticData/NVDataConfig/NV65539/offset
+//config/StaticData/NVDataConfig/NV65539/op
+//config/StaticData/NVDataConfig/NV65539/size
+//config/StaticData/NVDataConfig/NV65539/data
+//config/StaticData/NVDataConfig/NV65539/path
+/dev/input/event0
+/dev/input/event1
+/sbin/usb/compositions/0312
+/sbin/usb/compositions/9027
+/usr/data/hwebserver/pswd.htdigest
+使用到的 sql 语句:
+select rowid from data_profile;
+insert into data_profile(operator,name,apn,user,password,auth_type,ip_version,is_selected)
+values('%s','%s','%s','%s','%s','%s','%s','%s');
+UPDATE data_profile SET operator = '%s',name = '%s',apn='%s',user ='%s', password = '%s',
+auth_type = '%s', ip_version = '%s',is_selected = '%s' WHERE rowid = '%s';
+DELETE FROM %s where rowid = '%s'
+select operator,name,apn,user,password,auth_type,ip_version,is_selected FROM %s where rowid
+='%s';
+select operator,name,apn,user,password,auth_type,ip_version,is_selected FROM %s;
+insert into attach_apn(operator,apn,user,password,auth_type,ip_version)
+values('%s','%s','%s','%s','%s','%s');
+UPDATE attach_apn SET operator = '%s',apn='%s',user ='%s', password = '%s', auth_type = '%s',
+ip_version = '%s' WHERE rowid = '%s';
+select operator,apn,user,password,auth_type,ip_version FROM %s where rowid ='%s';
+select operator,apn,user,password,auth_type,ip_version FROM %s;

@@ -1,0 +1,20 @@
+使用adb_putty
+一、从工程模式进入用户模式：
+       （1）putty连接设备中的linux adb 
+              连接配置：host name：transport-usb     port：5037  connection type：adb
+              连接成功后使用命令at_cmd at+mifiusbmode=2 at_cmd at+reset 两条命令使设备进入用户模式，等设备重启之后即进入用户模式。
+              
+       （2）
+              找到设备管理器在调制解调器的子选项下右键找到对于的端口，然后使用putty连接COM3(不一定都是COM3)端口
+Putty连接配置：
+  Name：COM3            serial line:COM3  speed:115200 connection type：seri
+              使用AT+MIFIUSBMODE=W,2设置用户模式，然后使用AT+RESET复位设备
+              用户模式下，输入192.168.0.1进入web端接入设备
+       
+       二、从用户模式进入工程模式：
+              （1）找到设备管理器在端口中找到com11（DriverCoding USB-to-Serial Port，不一定都是com11）端口，使用putty进行连接serial line:COM11  speed:9600 connection type：seri使用AT指令
+              使用AT+MIFIUSBMODE=W,0设置用户模式，然后使用AT+RESET复位设备，设备重启后进入工程模式
+              （2）若没有出现此端口，则通过putty 以ssh的方式连接设备的网关（192.168.0.1或者192.168.8.1），登录的用户名root，密码oelinux123，使用at_cmd at+mifiusbmode=0然后reboot设备进入工程模式
+              
+              
+       三、按住wps键插入usb可以进入工程模式，按住reset键插入usb可以进入fastboot模式。
