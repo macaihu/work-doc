@@ -31,6 +31,20 @@ sudo /etc/init.d/nfs-kernel-server restart
 
 mount -t nfs 192.168.254.254:/opt/work/ /tmp/1
 
+5.3
+任银善：
+1 按键
+2 灯
+3 tf 卡
+4 usb支持u盘
+5 usb->serial
+6 uboot   ok
+7 16m的flash分区划分：考虑uboot到128k，去掉uboot-env区，内核1.5m，data区1m，art 64k，这样文件系统区能到13m，应该可以满足以后的需要。
+8 网页升级修正
+9 网页5.8g信息设置，查看
+10 usb信息查看
+11 校准操作流程
+
 5.2
 tftp -g 10.8.0.100 -l ag71xx.ko
 rmmod ag71xx
@@ -39,6 +53,26 @@ ifconfig eth0 up
 brctl addif br0 eth0
 brctl addif br0 eth1
 
+余小虎去斯里兰卡的工作：
+1 p11s 兰卡贝尔的gre测试跟进工作
+2 dialog m60
+  a 问题机器的跟进，dialog只发了不到6k的机器，只发了200台左右到客户那里，共有9台出现各种问题。通过查找生产imei号，其中6台机器是前面斯里兰卡电信的尾机。这样的尾机有200台。当前还无法确实是否是尾机造成的。
+  b 培训
+  c 多ssid和多nat 的验证
+  d 外置天线测试
+  e 合并moden后的验证
+3 dialog p28
+  a 测试跟进
+  b 外置天线测试
+ 4 斯里兰卡电信
+  a m60 p28  r12三个产品招标 
+  b 前期m60出货遗留的两个问题：ssid密码显示问题，斯里兰卡电信有提出不能在话机上看到wlan密码，一个是kandy的信号弱。
+
+郑达：
+中继器：手机网页，接口已经提供了scan列表，还要提供设置ap信息，ssid， 加密方式等。这样就可以做到所有手机通用了。
+还有dns劫持。
+其他项目r10:俄罗斯需要，已经编译成功，没有下载尝试。余小虎希望他来做后期的设备支持。
+r12: 各地没有反馈需求。
 
 2017-4-27
 set bootargs "console=ttyS0,115200 root=31:01 rootfstype=jffs2 rw init=/sbin/init mtdparts=spi0.0:64k(u-boot),6976k(rootfs),1024k(uImage),64k(mib0),64k(ART) machtype=DB120"
@@ -245,7 +279,9 @@ lib的先记录下来：
 +       -rm -rf ./src/strace ./src/*.o ./src/.deps 
 +       -cat .gitignore | xargs rm -rf
 
-
+4.17
+占永平
+禅道很难用起来，沟通方面，说的比较少。有些东西不知道是不是bug，主要测试的是p21和p10p
 
 2017-4-16
 编译iptables 1.16.1
@@ -274,6 +310,11 @@ update ap_cpuap.bin /dev/mtd12
 echo 3 > /proc/sys/vm/drop_caches
 就变成20m了。
 
+程洪卫 
+5.20准备开研发大会， 李总讲企业文化，对研发的希望，要求。
+过程： 谁来讲，讲什么，设计理念，怎么做。
+碰到的问题，案例，下一步如何
+去海外支持的分享
 
 2017-4-15
 新安装的ubuntu1610server的ssh总是无法登录，报22端口被拒接，重启虚拟机，重启虚拟机程序貌似都不行。
