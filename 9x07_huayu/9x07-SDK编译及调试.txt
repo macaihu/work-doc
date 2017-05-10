@@ -1,0 +1,49 @@
+
+9x07-SDK 编译及调试
+拟 制： 刘 智
+审 核：
+批 准：
+深圳市华域无线技术股份有限公司
+Shenzhen Hojy Wireless Co., Ltd.
+
+1. 以 root 权限进入 linux 虚拟机或服务器，下载安装如下文件：
+apt-get install build-essential chrpath coreutils
+apt-get install cvs desktop-file-utils diffstat docbook-utils fakeroot
+apt-get install g++ gawk gcc git git-core help2man libgmp3-dev libmpfr-dev
+apt-get install libreadline6-dev libtool libxml2-dev make python-pip python-pysqlite2 quilt sed
+subversion texi2html texinfo unzip wget
+2. 安装完上面的文件后，切换为非 root 用户，拷贝 9x07-sdk.tar.gz 文件到 linux 系统下的工
+作区，并解压，通过 chmod -R +x oe-core/，将 oe-core 文件内的内容赋予一定权限；
+3. 以文件中 cpe 内的测试程序为例，说明编译过程如下；
+4. 在 cpe 内创建 1 个文件夹作为某个应用模块的工作目录，如 test-zzm；
+5. 在该目录下编写源码及 Makefile，具体内容可以参考 test-zzm 下的测试程序；
+6. 然后回到 9x07-sdk 目录下，进入\9x07-sdk\oe-core\meta-hojy\recipes，创建一个同名的目录，
+如 test-zzm，在该目录下创建 1 个.bb 文件，提供为后续的 bitbake 编译，具体内容可以参考
+test_zzm_0.0.bb；
+7. 在上面 2 个目录均完成后，开始对\9x07-sdk\cpe\test-zzm 模块进行编译，编译之前需要设
+置环境变量，在***@***\9x07-sdk\oe-core#下，输入 source build/conf/set_bb_env.sh，回车，
+环境变量设置 OK 后，输入如下命令进行编译即可：
+bitbake -fc clean test-zzm && bitbake -fc compile test-zzm
+8. 编译 OK 后，进入\9x07-sdk\oe-core\build\tmp-glibc\work\armv7a-vfp-neon-oe-linux-gnueabi
+下，会看到生成 1 个文件目录\test-zzm-r0，进入该目录\test-zzm-r0\test-zzm 下，有执行程序
+test-zzm 生成。
+注意：第一次编译的时候需要网络连接正常，因为有很多基础组件需要下载编译，所以编译
+时间也较长一些，后续对模块进行单独编译的时候就很快了。
+进入调试：
+1. 将 adb 工具拷贝到 C:\WINDOWS\system32 中；
+2. 在 windows 中运行 cmd 命令，打开“命令提示符”，通过 adb push \xxx\test-zzm /usr/bin
+将 test-zzm 执行程序放到 cpe 的/usr/bin 目录下，然后记得对执行程序赋权限：adb shell chmod
++x /usr/bin/test-zzm
+3. 通过 adb shell 进入调试，执行./usr/bin/test-zzm，运行结果如下：
+Test start, ready to get device version...
+software_version: V4260R01C01S99
+hardware_version: L260V13
+device_model: Mifi
+device_name: HOJY Mifi
+compile_time: 2016-08-23 22:46:57
+Test OK, have a good time!...
+4. 调试结束。
+另外，关于编译上层应用所设计主要库文件的相关头文件路径为：
+\9x07-sdk\oe-core\build\tmp-eglibc\sysroots\mdm9625\usr\include\mifi_sdk
+需要的库文件的路径为：
+\9x07-sdk\\oe-core\build\tmp-eglibc\sysroots\mdm9625\usr\lib\libmifi_sdk.so

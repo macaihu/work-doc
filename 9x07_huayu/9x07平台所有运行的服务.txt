@@ -1,0 +1,47 @@
+9x07 平台所有运行的服务
+服务脚本	作用
+S00start-cfg -> ../init.d/start-cfg	对配置进行初始化
+S01networking -> ../init.d/networking	开启网络
+S10dropbear -> ../init.d/dropbear	开启 ssh 服务器
+S20hwclock.sh -> ../init.d/hwclock.sh	时钟设置
+S20syslog -> ../init.d/syslog	开启停止 syslog 服务
+S20tftp_server.sh -> ../init.d/tftp_server.sh	开启关闭 tftp 服务器
+S25rild -> ../init.d/rild	rild
+S27atfwd_daemon -> ../init.d/atfwd_daemon	开启 AT 命令处理服务 ;
+S29init_irsc_util -> ../init.d/init_irsc_util
+S30mssboot -> ../init.d/mssboot
+S35start_embms_le -> ../init.d/start_embms_le
+S40qmuxd -> ../init.d/qmuxd
+S40thermal-engine -> ../init.d/thermal-engine
+S45netmgrd -> ../init.d/netmgrd
+S55reset_reboot_cookie ->
+../init.d/reset_reboot_cookie
+S65usb_eth -> /etc/init.d/usb_eth
+S70start_eMBMs_TunnelingModule_le ->
+../init.d/start_eMBMs_TunnelingModule_le
+S70start_mifi_service ->
+../init.d/start_mifi_service	这个服务非常重要 , 几乎包括了所有重要的东西
+S80start_stop_qmi_ip_multiclient ->
+../init.d/start_stop_qmi_ip_multiclient
+S85start-macwriter -> ../init.d/start-macwriter	开启 macwriter
+S86start-configtool	开启 configtools
+S86start-l2tplinkmanager -> ../init.d/start
+l2tplinkmanager	开启 l2tplinkmanager
+S88init-app.sh -> /usr/sbin/init-app.sh
+S90start_subsystem_ramdump ->
+../init.d/start_subsystem_ramdump
+S91start_shortcut_fe_le ->
+../init.d/start_shortcut_fe_le
+S97data-init -> ../init.d/data-init
+S98dbus-1 -> ../init.d/dbus-1
+
+
+S98misc-daemon -> ../init.d/misc-daemon
+S99power_config -> ../init.d/power_config
+S99rmnologin.sh -> ../init.d/rmnologin.sh
+S99start_fs-scrub-daemon -> ../init.d/start_fs
+scrub-daemon
+S99start_pdcd -> ../init.d/start_pdcd
+S99stop-bootlogd -> ../init.d/stop-bootlogd
+S99time_serviced -> ../init.d/time_serviced
+

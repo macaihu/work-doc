@@ -1,0 +1,20 @@
+请在使用以下教程之前先按照9x07编译平台及编译方式说明把编译环境配置好
+编译工具以及函数库准备
+解压web编译压缩文件，会得到rpm文件夹、opkg-build、补充库文件夹以及web源码MIFI_WEB、hwebserver_0.bb
+把rpm文件夹复制到oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/lib/ 
+并再rpm目录下执行chmod–R +x *
+把opkg-build复制到oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/bin/下，并加可执行权限
+把补充库下的所有文件复制到oe-core/build/tmp-glibc/sysroots/mdm9607/usr/lib/下
+把源代码拷贝到oe-core\build\downloads下
+编译
+2.1 把MIFI_WEB/hwebserver下的所有文件和文件夹拷贝到oe-core/build/downloads/MiFi/app/hwebserver下，如果没有MiFi/app/hwebserver这个文件夹则创建，
+2．2编译命令：
+切换目录到oe-core下，运行一下命令
+source  build/conf/set_bb_env.sh && bitbake -fc clean hwebserver && bitbake -b  ../meta-msm/recipes/hojy-bb/hwebserver_0.bb
+编译结束之后会在
+oe-core\build\tmp-glibc\work\armv7a-vfp-neon-oe-linux-gnueabi\hwebserver\0-r0\image\usr\mifi\hwebserver目录下生成编译结果
+bb文件可以参考解压出来的bb文件
+安装
+3.1、通过usb连接设备，进入工程模式，进入/usr/mifi/hwebserver目录下，把该目录下的文件备份后删除，然后在DOS命令窗口使用adb push  xxx     /usr/mifi/hwebserver命令把编译生成的文件push到设备中，其中xxx是编译成功后的编译结果的输出目录。
+3.2、Push成功后，通过chmod –R +x *命令给push进去的文件加可执行权限。
+3.3、通过at_cmd at+lang=en命令设置web的语言为英文，然后重启设备。

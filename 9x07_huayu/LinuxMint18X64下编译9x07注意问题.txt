@@ -1,0 +1,30 @@
+Linux Mint 18 X64下编译9x07_sdk.tar.gz注意问题
+目录
+Linux Mint 18 X64下编译9x07_sdk.tar.gz注意问题.......................................................................1
+(1):编译与错误解决........................................................................................................................1
+(1):编译与错误解决
+按照文档<<9x07-SDK编译及调试.pdf>>的说明一路安装需要的软件包即可;
+需要注意的地方:
+另外,关于编译上层应用所设计主要库文件的相关头文件路径为:
+\9x07-sdk\oe-core\build\tmp-eglibc\sysroots\mdm9625\usr\include\mifi_sdk
+需要的库文件的路径为:
+\9x07-sdk\\oe-core\build\tmp-eglibc\sysroots\mdm9625\usr\lib\libmifi_sdk.so
+在执行如下命令:
+source build/conf/set_bb_env.sh
+时,如果/bin/sh链接的不是/bin/bash,则会提示出错,因此最好使用如下命令查看一下:
+ls -al /bin/sh
+创建符号连接:
+sudo ln -sf /bin/bash /bin/sh
+编译过程中会出现如下错误:
+In file included from 9x07_sdk/oe-core/build/tmp-glibc/work/x86_64-linux/ncurses-native/5.9-r15.1/ncurses-5.9/ncurses/curses.priv.h:283:0,
+from ../ncurses/lib_gen.c:19:
+_4209.c:835:15: error: expected ')' before 'int'
+../include/curses.h:1594:56: note: in definition of macro 'mouse_trafo'
+#define mouse_trafo(y,x,to_screen) wmouse_trafo(stdscr,y,x,to_screen)
+可以通过:
+删除文件oe-core/build/tmp-glibc/work/x86_64-linux/ncurses-native/5.9-r15.1/ncurses-5.9/include/curses.tail中的如下行最后的注释/* generated */的方法解决:
+extern NCURSES_EXPORT(bool) mouse_trafo (int*, int*, bool); /* generated */
+并删除文件:
+oe-core/build/tmp-glibc/work/x86_64-linux/ncurses-native/5.9-r15.1/build/narrowc/include/curses.h
+重新编译即可;
+另外对于 sysroot 文件夹下提示文件已存在的情况下,可以直接删除对应的文件来解决该问题;
