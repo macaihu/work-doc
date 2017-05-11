@@ -1,0 +1,163 @@
+这样需求可以吗：
+
+第一步需求：
+1. 在client（笔记本、手机等）没有连接AP的情况下，可以扫描到覆盖范围内的所有client MAC地址，并上报；
+2. 提供client的数据上网。
+3.覆盖范围>100米（直视环境）；
+第二步需求：
+4. 将上网应用数据汇报到AC。
+
+什么是wifi探针
+
+看到探针，感觉很高大上的样子，其实就是通过wifi搜集经过这个AP范围的手机的mac地址，没有什么深刻的东西，知乎上关于这个东西讨论的很多，有人觉得很有用，可以做很多增值的应用，有人觉得没啥用，不过这并不妨碍我们从技术上去实现它。
+
+802.11协议
+协议里面要求每个AP每隔一定时间（几十毫秒到几秒不等）向周围的sta和AP广播beacon帧，就是告诉周围的sta和其他的AP：我是xxxx（bssid），快来连我！我是xxxx（bssid），快来连我！瞬间感觉每个AP都有一颗放荡的心，有木有！有木有！
+每个sta（可以理解为手机、笔记本）除了默默监听周边AP发送的beacon帧以外，还会偷偷发送probe帧：我是xxxx（mac地址），我能连你吗？我是xxxx（mac地址）我能连你吗？十足一个闷骚的小婊砸，所以我每次出门都默默关掉手机的wifi，现在的无线环境实在是太不安全了。
+
+在7620a上的实现
+基本思路是在AP收到探测帧后，将mac地址记录下来，通过proc文件系统上报给应用层。下面是代码：
+mac地址获取部分：
+在函数VOID APPeerProbeReqAction(IN PRTMP_ADAPTER pAd,IN MLME_QUEUE_ELEM *Elem)；中添加
+extern UCHAR GLOBAL_AddrLocalNum;
+extern UCHAR GLOBAL_AddrLocal[ADDR_LOCAL_NUMBER][MAC_ADDR_LEN];
+
+PFRAME_802_11 pFramelxd = (PFRAME_802_11)Elem->Msg;
+
+if(GLOBAL_AddrLocalNum >ADDR_LOCAL_NUMBER || GLOBAL_AddrLocalNum == ADDR_LOCAL_NUMBER)
+
+{
+
+//GLOBAL_AddrLocalNum = 0;
+
+}
+
+else
+
+{
+
+int index = 0;
+
+BOOLEAN flag = 1;
+
+for(index=0; index<GLOBAL_AddrLocalNum; index++)
+
+{
+
+if(NdisCmpMemory(GLOBAL_AddrLocal[index],pFramelxd->Hdr.Addr2,MAC_ADDR_LEN)==0)
+
+{
+
+flag = 0;
+
+break;
+
+}
+
+}
+
+//COPY_MAC_ADDR(GLOBAL_AddrLocal[GLOBAL_AddrLocalNum], pFramelxd->Hdr.Addr1);
+
+//GLOBAL_AddrLocalNum++;
+
+//COPY_MAC_ADDR(GLOBAL_AddrLocal[GLOBAL_AddrLocalNum], pFramelxd->Hdr.Addr2);
+
+//GLOBAL_AddrLocalNum++;
+
+if(flag)
+
+{
+
+COPY_MAC_ADDR(GLOBAL_AddrLocal[GLOBAL_AddrLocalNum], pFramelxd->Hdr.Addr2);
+
+GLOBAL_AddrLocalNum++;
+
+}
+
+}
+proc部分：
+应用层向proc的节点中写入“s”，告知驱动需要获取sta相关的数据，驱动给出采集到的maclist。
+static struct proc_dir_entry *entry_wl_beacon_mac;
+UCHAR GLOBAL_AddrLocalNum = 0;
+
+UCHAR GLOBAL_AddrLocal[MAX_MCAST_LIST_SIZE][6];
+static char *maclistbuffer;
+static int maclist_proc_show(struct seq_file *m, void *v)
+
+{
+
+if(maclistbuffer[0] == 's')
+
+{
+
+maclistbuffer[0] = '0';
+
+int index=0;
+
+for(index=0;index<GLOBAL_AddrLocalNum;index++)
+
+{
+
+seq_printf(m,"%02x:%02x:%02x:%02x:%02x:%02x\n", GLOBAL_AddrLocal[index][0],GLOBAL_AddrLocal[index][1],GLOBAL_AddrLocal[index][2],GLOBAL_AddrLocal[index][3],GLOBAL_AddrLocal[index][4],GLOBAL_AddrLocal[index][5]);
+
+}
+
+GLOBAL_AddrLocalNum = 0;
+
+}
+
+else
+
+{
+
+//seq_printf(m,"sta number is %d, proc!\n", GLOBAL_AddrLocalNum);
+
+//seq_printf(m,"ap number is %d, proc!\n", GLOBAL_AddrLocalNum1);
+
+}
+
+return 0;
+
+}
+
+static int maclist_proc_open(struct inode *inode, struct file *file)
+
+{
+
+return single_open(file,maclist_proc_show,inode->i_private);
+
+}
+static ssize_t maclist_proc_write(struct file *file, const char *buffer, size_t len, loff_t *off)
+
+{
+
+int user_len = 0;
+
+
+if (len > MAX_MACLIST_LENGTH)
+
+{
+
+user_len = MAX_MACLIST_LENGTH;
+
+}
+
+else
+
+{
+
+user_len = len;
+
+}
+
+if(copy_from_user(maclistbuffer, buffer, user_len))
+
+{
+
+return -EFAULT;
+
+}
+
+return user_len;
+
+}
