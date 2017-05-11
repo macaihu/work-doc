@@ -1,6 +1,45 @@
 
-5.10
 
+待解决问题：
+cat-m模块调试
+m60 存在掉校准信息 吴曦
+repeater 手机网页的数据交换  向杰
+9531 工业路由器 升级  1：流量报警 2 对ip限速。 任银善
+p25 需要强制刷新缓存，否则升级后ie下非常显示的还是原来的页面
+南非p21 加wan口功能。
+尼日利亚 m60 1 bridge 2 ipsec 3 tr069+ssl
+
+5.11
+9:48 姚国梁： 查看一下其他的应用，是否也编译了cmdlib但没有修改为so方式。
+10:51  python的循环打印
+for i in range(1300,1500) : print i  
+
+廖媛
+尼日利亚 m60 
+1 bridge 2 ipsec 3 tr069+ssl
+
+叶京平
+南非p21 加wan口功能。
+
+5.10
+占永平
+那张卡在所有其他的机器中都没有出现不读卡的问题。
+
+程洪卫
+关于5.20在海贝湾的研发大会，计划早上9：30出发，9点集合，中午左右到，吃饭，下午到晚上自由活动，晚上吃烧烤。21号早上留给李总，下午从1点半到4点留给研发部。
+对于新人，要实时关注，合适不合适，及时换。看有没有进取心，有没有成长的愿望。
+
+郑达
+repeator 1 https 无法推送 2 带路径的地址无法推送 3 带html后缀的无法推送
+
+朱卫平
+工业路由器要求 1：流量报警 2 对ip限速。
+
+赵芳文：
+正在改onvif，需要和onvif管理软件相配合。
+当前使用的是hi3516cv200这个芯片
+要完成：搜索 设置 取视频流 交互 报警 取参数等功能。
+预计下周五完成onvif协议交互。
 
 sudo apt-get install libgnomeui-dev
 gcc -shared -o libsublime-imfix.so sublime_imfix.c  `pkg-config --libs --cflags gtk+-2.0` -fPIC
@@ -11,6 +50,20 @@ http://blog.csdn.net/cywosp/article/details/32350899
 
 5.9
 what? I could not input chinese in sublime text3. how bad.
+
+赵金：
+生产工具还有：
+p25 1 写imei, mac 2 测试4g信号值， wifi，3 连通性测试 wifi， 4 打流测试 iperf 5 校验 版本imei等 6 升级 配置升级
+m60 存在掉校准信息
+
+张勇：
+工业路由器还有各种锁运营商之类的没有做。
+
+刘文齐：
+sdk的编译难度并不大，一个刚毕业的员工，使用了2周编译运行了一个板子。
+刘芳文也用了2周。
+使用vlc？视频播放器，windows下的视频播放器，都可以使用输入摄像头ip地址的方式直接播放摄像头的视频。
+刘芳文做onvif协议已经是第四周了。
 
 5.8
 总是有人不写日志，给王伍发了个消息
@@ -75,117 +128,6 @@ brctl addif br0 eth1
 r12: 各地没有反馈需求。
 
 2017-4-27
-set bootargs "console=ttyS0,115200 root=31:01 rootfstype=jffs2 rw init=/sbin/init mtdparts=spi0.0:64k(u-boot),6976k(rootfs),1024k(uImage),64k(mib0),64k(ART) machtype=DB120"
-[    0.000000] id                       name                                                                 [    0.000000] Generic                  Generic AR71XX/AR724X/AR913X based board                             
-[    0.000000] ALFA-AP96                ALFA Network AP96                                                    
-[    0.000000] ALFA-NX                  ALFA Network N2/N5                                                   
-[    0.000000] ALL0258N                 Allnet ALL0258N                                                      
-[    0.000000] ALL0315N                 Allnet ALL0315N                                                      
-[    0.000000] AP113                    Atheros AP113                                                        
-[    0.000000] AP121-MINI               Atheros AP121-MINI                                                   
-[    0.000000] AP121                    Atheros AP121 reference board                                        
-[    0.000000] AP136                    Atheros AP136 reference board                                        
-[    0.000000] AP137                    Atheros AP137 reference board                                        
-[    0.000000] AP143                    Qualcomm Atheros AP143 reference oard                               
-[    0.000000] AP147                    Qualcomm Atheros AP147 reference oard                               
-[    0.000000] AP151                    Qualcomm Atheros AP151 reference oard                               
-[    0.000000] AP152                    Qualcomm Atheros AP152 reference oard                               
-[    0.000000] AP81                     Atheros AP81 reference board                                         
-[    0.000000] AP83                     Atheros AP83                                                         
-[    0.000000] AP96                     Atheros AP96                                                         
-[    0.000000] AW-NR580                 AzureWave AW-NR580                                                   
-[    0.000000] CAP4200AG                Senao CAP4200AG                                                             [    0.000000] DB120                    Atheros DB120 reference board                                                                                                                                                                                                                                       
-[    0.000000] DB120TB388               Atheros DB120 reference board with TB388 extension                                                                                                                                                                                                                  
-[    0.000000] DIR-615-E4               D-Link DIR-615 rev. E4                                                                                                                                                                                                                                              
-[    0.000000] DIR-600-A1               D-Link DIR-600 rev. A1                                                                                                                                                                                                                                              
-[    0.000000] DIR-615-C1               D-Link DIR-615 rev. C1                                                                                                                                                                                                                                              
-[    0.000000] DIR-825-B1               D-Link DIR-825 rev. B1                                                                                                                                                                                                                                              
-[    0.000000] EW-DORIN-ROUTER          EmbWir-Dorin-Router                                                                                                                                                                                                                                                 
-[    0.000000] EW-DORIN                 EmbWir-Dorin                                                                                                                                                                                                                                                        
-[    0.000000] ALL0305                  Allnet ALL0305                                                                                                                                                                                                                                                      
-[    0.000000] EAP7660D                 Senao EAP7660D                                                                                                                                                                                                                                                      
-[    0.000000] GENERIC-DT               Qualcomm GENERIC-DT reference board                                                                                                                                                                                                                                 
-[    0.000000] JA76PF2                  jjPlus JA76PF2                                                                                                                                                                                                                                                      
-[    0.000000] JA76PF                   jjPlus JA76PF                                                                                                                                                                                                                                                       
-[    0.000000] JWAP003                  jjPlus JWAP003                                                                                                                                                                                                                                                      
-[    0.000000] HORNET-UB                ALFA NETWORKS Hornet-UB                                                                                                                                                                                                                                             
-[    0.000000] MR600                    OpenMesh MR600                                                                                                                                                                                                                                                      
-[    0.000000] MZK-W04NU                Planex MZK-W04NU                                                                                                                                                                                                                                                    
-[    0.000000] MZK-W300NH               Planex MZK-W300NH                                                                                                                                                                                                                                                   
-[    0.000000] NBG460N                  Zyxel NBG460N/550N/550NH                                                                                                                                                                                                                                            
-[    0.000000] OM2P-HS                  OpenMesh OM2P HS                                                                                                                                                                                                                                                    
-[    0.000000] OM2P-LC                  OpenMesh OM2P LC                                                                                                                                                                                                                                                    
-[    0.000000] OM2P                     OpenMesh OM2P                                                                                                                                                                                                                                                       
-[    0.000000] PB42                     Atheros PB42                                                                                                                                                                                                                                                        
-[    0.000000] PB44                     Atheros PB44 reference board                                                                                                                                                                                                                                        
-[    0.000000] PB92                     Atheros PB92                                                                                                                                                                                                                                                        
-[    0.000000] 493G                     MikroTik RouterBOARD 493G                                                                                                                                                                                                                                           
-[    0.000000] 493                      MikroTik RouterBOARD 493/AH                                                                                                                                                                                                                                         
-[    0.000000] 450G                     MikroTik RouterBOARD 450G                                                                                                                                                                                                                                           
-[    0.000000] 450                      MikroTik RouterBOARD 450                                                                                                                                                                                                                                            
-[    0.000000] 435G                     MikroTik RouterBOARD 435G                                                                                                                                                                                                                                           
-[    0.000000] 433U                     MikroTik RouterBOARD 433UAH                                                                                                                                                                                                                                         
-[    0.000000] 433                      MikroTik RouterBOARD 433/AH                                                                                                                                                                                                                                         
-[    0.000000] 411U                     MikroTik RouterBOARD 411U                                                                                                                                                                                                                                           
-[    0.000000] 411                      MikroTik RouterBOARD 411/A/AH                                                                                                                                                                                                                                       
-[    0.000000] 751g                     MikroTik RouterBOARD 751G                                                                                                                                                                                                                                           
-[    0.000000] 751                      MikroTik RouterBOARD 751                                                                                                                                                                                                                                            
-[    0.000000] 750Gr3                   MikroTik RouterBOARD 750GL                                                                                                                                                                                                                                          
-[    0.000000] 750i                     MikroTik RouterBOARD 750                                                                                                                                                                                                                                            
-[    0.000000] 2011G                    MikroTik RouterBOARD 2011UAS-2HnD                                                                                                                                                                                                                                   
-[    0.000000] 2011L                    MikroTik RouterBOARD 2011L                                                                                                                                                                                                                                          
-[    0.000000] RUBBERDUCK               Qualcomm-Atheros RubberDuck custom design                                                                                                                                                                                                                           
-[    0.000000] RW2458N                  Redwave RW2458N                                                                                                                                                                                                                                                     
-[    0.000000] TEW-632BRP               TRENDnet TEW-632BRP                                                                                                                                                                                                                                                 
-[    0.000000] TEW-673GRU               TRENDnet TEW-673GRU                                                                                                                                                                                                                                                 
-[    0.000000] TEW-712BR                TRENDnet TEW-712BR                                                                                                                                                                                                                                                  
-[    0.000000] TL-MR3040                TP-LINK TL-MR3040                                                                                                                                                                                                                                                   
-[    0.000000] TL-MR11U                 TP-LINK TL-MR11U                                                                                                                                                                                                                                                    
-[    0.000000] TL-MR3020                TP-LINK TL-MR3020                                                                                                                                                                                                                                                   
-[    0.000000] TL-WR841N-v7             TP-LINK TL-WR841N/ND v7                                                                                                                                                                                                                                             
-[    0.000000] TL-MR3420                TP-LINK TL-MR3420                                                                                                                                                                                                                                                   
-[    0.000000] TL-MR3220                TP-LINK TL-MR3220                                                                                                                                                                                                                                                   
-[    0.000000] TL-WA7510N               TP-LINK TL-WA7510N v1                                                                                                                                                                                                                                               
-[    0.000000] TL-WA901ND               TP-LINK TL-WA901ND                                                                                                                                                                                                                                                  
-[    0.000000] TL-WA901ND-v2            TP-LINK TL-WA901ND v2                                                                                                                                                                                                                                               
-[    0.000000] TL-WDR4300               TP-LINK TL-WDR3600/4300/4310                                                                                                                                                                                                                                        
-[    0.000000] TL-WR741ND               TP-LINK TL-WR741ND                                                                                                                                                                                                                                                  
-[    0.000000] TL-WR741ND-v4            TP-LINK TL-WR741ND v4                                                                                                                                                                                                                                               
-[    0.000000] TL-WR841N-v1.5           TP-LINK TL-WR841N v1                                                                                                                                                                                                                                                
-[    0.000000] TL-WR841N-v8             TP-LINK TL-WR841N/ND v8                                                                                                                                                                                                                                             
-[    0.000000] TL-WR941ND               TP-LINK TL-WR941ND                                                                                                                                                                                                                                                  
-[    0.000000] TL-WR1041N-v2            TP-LINK TL-WR1041N v2                                                                                                                                                                                                                                               
-[    0.000000] TL-WR1043ND              TP-LINK TL-WR1043ND                                                                                                                                                                                                                                                 
-[    0.000000] TL-WR2543N               TP-LINK TL-WR2543N/ND                                                                                                                                                                                                                                               
-[    0.000000] TL-WR703N                TP-LINK TL-WR703N v1                                                                                                                                                                                                                                                
-[    0.000000] UBNT-LS-SR71             Ubiquiti LS-SR71                                                                                                                                                                                                                                                    
-[    0.000000] UBNT-LSX                 Ubiquiti LSX                                                                                                                                                                                                                                                        
-[    0.000000] UBNT-RSPRO               Ubiquiti RouterStation Pro                                                                                                                                                                                                                                          
-[    0.000000] UBNT-RS                  Ubiquiti RouterStation                                                                                                                                                                                                                                              
-[    0.000000] UBNT-U20                 Ubiquiti UniFiAP Outdoor                                                                                                                                                                                                                                            
-[    0.000000] UBNT-UF                  Ubiquiti UniFi                                                                                                                                                                                                                                                      
-[    0.000000] UBNT-AR                  Ubiquiti AirRouter                                                                                                                                                                                                                                                  
-[    0.000000] UBNT-NM                  Ubiquiti Nanostation M                                                                                                                                                                                                                                              
-[    0.000000] UBNT-RM                  Ubiquiti Rocket M                                                                                                                                                                                                                                                   
-[    0.000000] UBNT-BM                  Ubiquiti Bullet M                                                                                                                                                                                                                                                   
-[    0.000000] UBNT-XM                  Ubiquiti Networks XM (rev 1.0) board                                                                                                                                                                                                                                
-[    0.000000] WHR-HP-GN                Buffalo WHR-HP-GN                                                                                                                                                                                                                                                   
-[    0.000000] WHR-G301N                Buffalo WHR-G301N                                                                                                                                                                                                                                                   
-[    0.000000] WHR-HP-G300N             Buffalo WHR-HP-G300N                                                                                                                                                                                                                                                
-[    0.000000] WLAE-AG300N              Buffalo WLAE-AG300N                                                                                                                                                                                                                                                 
-[    0.000000] WNDR3700                 NETGEAR WNDR3700/WNDR3800/WNDRMAC                                                                                                                                                                                                                                   
-[    0.000000] WNR2000                  NETGEAR WNR2000                                                                                                                                                                                                                                                     
-[    0.000000] WP543                    Compex WP543                                                                                                                                                                                                                                                        
-[    0.000000] WPE72                    Compex WPE72                                                                                                                                                                                                                                                        
-[    0.000000] WRT160NL                 Linksys WRT160NL                                                                                                                                                                                                                                                    
-[    0.000000] WRT400N                  Linksys WRT400N                                                                                                                                                                                                                                                     
-[    0.000000] WZR-HP-G300NH            Buffalo WZR-HP-G300NH                                                                                                                                                                                                                                               
-[    0.000000] WZR-HP-G300NH2           Buffalo WZR-HP-G300NH2                                                                                                                                                                                                                                              
-[    0.000000] WZR-HP-AG300H            Buffalo WZR-HP-AG300H                                                                                                                                                                                                                                               
-[    0.000000] WZR-HP-G450H             Buffalo WZR-HP-G450H                                                                                                                                                                                                                                                
-[    0.000000] ZCN-1523H-5              Zcomax ZCN-1523H-5                                                                                                                                                                                                                                                  
-[    0.000000] ZCN-1523H-2              Zcomax ZCN-1523H-2 
-
 为什么我的电脑tftp不能默认启动了？
 sudo service tftpd-hpa restart
 
