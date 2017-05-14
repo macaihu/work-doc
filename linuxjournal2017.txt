@@ -7,9 +7,25 @@ repeater 手机网页的数据交换  向杰
 9531 工业路由器 升级  1：流量报警 2 对ip限速。 任银善
 p25 需要强制刷新缓存，否则升级后ie下非常显示的还是原来的页面
 南非p21 加wan口功能。
-尼日利亚 m60 1 bridge 2 ipsec 3 tr069+ssl
+尼日利亚 m60 1 bridge 2 ipsec 3 tr069+ssl 
+
+5.12
+17:33 曾小星 问湖北联通减成本方案。就是中兴的方案。
+17:07 毛浩明 问是否有中继的功能，原来的cpe是有的。他卖掉了200个使用cpe改成ap的小cpe, 现在还有200个的订单意向。
+王伍 marval方案：
+cat 6 只是在marval和 gct之间选择。
+gct： 没有volte，需要买软件，费用在上百万。gct本身还要$2-3万，套片价格也到了$16. 优点是支持cat 5 6 7
+marval： 报价$12,可能谈到$10
+   但marval这个部门可能被卖掉，而且传言已经和asr谈好了。当前这个部门还有3-400人。
+   asr这个公司几年就烧掉了几个亿。
+   只支持4*2mimo。
+cat 6 : 下行载波聚合
+cat 7 : 上下行载波聚合
+cat 5: 4*4mimo
 
 5.11
+晚上发现网页无法刷出来，开始应该使用那个finder来抓包看看的。
+
 9:48 姚国梁： 查看一下其他的应用，是否也编译了cmdlib但没有修改为so方式。
 10:51  python的循环打印
 for i in range(1300,1500) : print i  
@@ -81,8 +97,8 @@ sudo vi /etc/exports
 /opt/work *(rw,sync,no_root_squash,no_subtree_check)
 sudo /etc/init.d/rpcbind restart
 sudo /etc/init.d/nfs-kernel-server restart
-
-mount -t nfs 192.168.254.254:/opt/work/ /tmp/1
+mkdir -p /tmp/1
+mount -t nfs 192.168.254.50:/opt/work/ /tmp/1 --nolock
 
 5.3
 任银善：
