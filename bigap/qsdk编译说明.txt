@@ -1,0 +1,21 @@
+repo init -u git://codeaurora.org/quic/qsdk/releases/manifest/qstak -b release -m caf_AU_LINUX_QSDK_RELEASE_BANANA_10.2.4_U1_TARGET_ALL.2.9.0.009.xml
+$ repo sync
+
+$ mkdir -p qsdk/dl
+$ tar xjvf qsdk-qca-wifi-2.9.0.009.tar.bz2 -C qsdk
+$ tar xjvf qsdk-qca-wlan-2.9.0.009.tar.bz2 -C qsdk
+$ tar xjvf qsdk-qca-wifi-fwbin-2.9.0.009.tar.bz2 -C qsdk/qca/src/qca-wifi/
+$ tar xjvf qsdk-qca-wifi-fwcommon-2.9.0.009.tar.bz2 -C qsdk/qca/src/qca-wifi/
+$ mv qsdk/qca/src/qca-wifi/fwcommon qsdk/qca/src/qca-wifi/fwincludes
+$ tar xjvf qsdk-whc-2.9.0.009.tar.bz2 -C qsdk
+$ tar xjvf qsdk-qca-shortcut-fe-2.9.0.009.tar.bz2 -C qsdk
+
+1. Install the different feeds in the build framework.
+$ cd qsdk
+$ make package/symlinks
+2. Copy the base configuration to use for the build. In this command, replace <profile> with wireless to generate.
+$ cp qca/configs/qca955x.ln/ar71xxx_<profile>.config .config
+3. Regenerate a complete configuration file and start the build:
+$ make defconfig $ make V=s
+To build, art alone,
+$ make V=s package/feeds/qca/art2/compile
