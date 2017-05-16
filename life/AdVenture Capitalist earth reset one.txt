@@ -1,0 +1,45 @@
+
+12.7	19:37	573	otcogintillion
+		19:51	2.319	unoctogintillion
+		20:09	33.643	..
+		20:30	75.364	..
+		20:56	574.686	..
+		21:17	50.831	duooctogintillion
+		21:34	6.768	treoctogintillion
+		21:42	2.988	quttuoroctogintillion
+		21:55	187.28	..
+		22:05	2.523	sexoctogintillion
+		22:15	164.798	..
+		22:23	759.943	..
+		23:12	4.638	septoctogintillion
+		23:26	103.657	..
+		23:36	398.963	..
+		23:45	4.674	octooctogintillion
+12.8	0:19	82.818	..
+		0:35	281.076	..
+		8:31	570.854	..
+		12:23	13.543	novemoctogintillion
+		19:13	40.247	..
+		20:32	7.905	nonagintillion
+		21:11	30.93	..
+		21:46	81.536	..
+		23:22	185.052	..
+12.9	7:55	3.219	unnonagintillion
+		13:37	252.753	..
+		16:11	2.035	duononagintillion
+		19:06	237.186	..
+		.....		
+12.10	11.37	45.577	quattuornonagitillion
+		11:41	18.671	quinuonagintillion
+		11:44	97.923	..
+		11:49	217.473	..(reached all)
+			
+			
+			
+			
+			
+			
+			
+			
+
+
