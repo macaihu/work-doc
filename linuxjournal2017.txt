@@ -2,12 +2,56 @@
 
 待解决问题：
 cat-m模块调试
-m60 存在掉校准信息 吴曦
+m60 存在掉校准信息 吴曦：
 repeater 手机网页的数据交换  向杰
 9531 工业路由器 升级  1：流量报警 2 对ip限速。 任银善
 p25 需要强制刷新缓存，否则升级后ie下非常显示的还是原来的页面
 南非p21 加wan口功能。
 尼日利亚 m60 1 bridge 2 ipsec 3 tr069+ssl 
+
+5.16
+看起来9344的主频比9341高一点。
+SoC: Atheros AR9341 rev 1
+Clocks: CPU:535.000MHz, DDR:400.000MHz, AHB:200.000MHz, Ref:25.000MHz
+SoC: Atheros AR9344 rev 2
+Clocks: CPU:560.000MHz, DDR:450.000MHz, AHB:225.000MHz, Ref:40.000MHz
+
+编译ath9.5 #cool 3看起来也加sudo apt install squashfs-tools
+15:37 和俄罗斯客户交流，他希望下一代工业路由器需要双频wifi， 4个千兆网口。问到了ipv6和slaac这样的问题。
+
+周湘理看起来有点空，让他先处理一下工业路由器的网页。
+
+洛晓峰：问上海的轮船的拨号问题，姚国梁今天请假。认为已经拖了太久。
+
+占永平 p21曾经出现过一次wifi不能连接的情况，当时以太网也是不能得到地址的。所以和刚刚生产的100台p21的情况不一样，说有5台wifi不能起来，但是重新参数初始化之后就可以了。
+
+5.15
+
+梁剑：原来吸顶ap的多ssid网页有错误，加密选项不能生效，如果写好参数，那么加密是正常的。
+
+16:49 貌似最新的vmave player 12.5 可以安装ubunt17了。原来的12.1在头几步那里会报个错误，已经不记得是什么错误了。
+居然安装的是32位系统，还需要重新来过。
+
+telnetd -l /bin/sh 这样运行的telnet，就不用密码就进入系统了。
+riltek这个wifi有无数的工具，包括了auth, utility, wsc,wireless_tools.25等
+auth目录中有auth和iwcontrol， 貌似和scan都没有关系
+utility中有flash和webs，貌似和scan也没有关系
+wireless_tools.25中有iwlist这个工具，原生的makefile中没有复制进去，复制了scanning第一次运行没有结果，第二次就系统挂起了，从usb连接的电脑上显示了trap状态。
+wscd这个工具从命令上来看是给wps使用的。
+
+李柱栋：
+http://blog.csdn.net/cnmilan/article/details/38369519
+这个网页解决adb shell 报没有权限的问题。
+
+王伍：
+要吴曦每周发出需要信可解决的问题。
+要工业路由器加快完成vpn等，完成这个项目
+
+汪光华：
+上午陈良那边开始出现网页不能出来的情况，发现是realtime_tx_xxxx什么值总是在报错。查看调用的地方，发现sizeof一个指针，那么就只取4个。修改gohead后，暂时没有报网页刷不出来的情况。不过也不对，已经做了保护，当取出来的值长度大于传入的值，那么只会复制相应的字节数出去，不应有错。
+
+陈富军：
+修改uboot的难度太大了。
 
 5.12
 17:33 曾小星 问湖北联通减成本方案。就是中兴的方案。
