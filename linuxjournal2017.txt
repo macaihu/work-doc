@@ -10,6 +10,78 @@ p25 需要强制刷新缓存，否则升级后ie下非常显示的还是原来�
 尼日利亚 m60 1 bridge 2 ipsec 3 tr069+ssl 
 
 5.19
+setenv ipaddr 10.8.0.33 && setenv serverip 10.8.0.100
+tftp 0x80060000 uboot.bin.lingjia && erase 0x9f000000 +0x20000&&cp.b $fileaddr 0x9f000000 $filesize
+这样把老外的uboot写进去看起来正常启动了系统。
+
+启动第三次发现
+[    0.600000] libphy: ag71xx_mdio: probed
+[    1.190000] ag71xx ag71xx.0: connected to PHY at ag71xx-mdio.1:00 [uid=004dd042, driver=Generic PHY]
+[    1.200000] eth0: Atheros AG71xx at 0xb9000000, irq 4, mode:MII
+[    1.200000] TCP: cubic registered
+[    1.210000] NET: Registered protocol family 17
+[    1.210000] bridge: automatic filtering via arp/ip/ip6tables has been deprecated. Update your scripts to load br_netfilter if you n.
+[    1.230000] 8021q: 802.1Q VLAN Support v1.8
+[    1.240000] VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+[    1.250000] Freeing unused kernel memory: 248K (80332000 - 80370000)
+[    1.980000] SQUASHFS error: xz decompression failed, data probably corrupt
+[    1.990000] SQUASHFS error: squashfs_read_data failed to read block 0x604f6
+[    2.030000] SQUASHFS error: xz decompression failed, data probably corrupt
+[    2.030000] SQUASHFS error: squashfs_read_data failed to read block 0x604f6
+[    2.040000] Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000a
+[    2.040000] 
+[    2.040000] ---[ end Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000a
+[    2.040000] 
+
+重新来的第5次：
+Press the [f] key and hit [enter] to enter failsafe mode
+Press the [1], [2], [3] or [4] key and hit [enter] to select the debug level
+[    6.260000] eth0: link up (100Mbps/Full duplex)
+[    7.170000] jffs2: notice: (327) jffs2_build_xattr_subsystem: complete building xattr subsystem, 0 of xdatum (0 unchecked, 0 orphan.
+[    7.190000] mount_root: switching to jffs2 overlay
+[    7.220000] eth0: link down
+[   11.300000] usb 1-1.4: new high-speed USB device number 3 using ehci-platform
+然后重启。
+
+第6次：
+Press the [f] key and hit [enter] to enter failsafe mode
+Press the [1], [2], [3] or [4] key and hit [enter] to select the debug level
+[    6.260000] eth0: link up (100Mbps/Full duplex)
+[    7.170000] jffs2: notice: (327) jffs2_build_xattr_subsystem: complete building xattr subsystem, 0 of xdatum (0 unchecked, 0 orphan.
+[    7.190000] mount_root: switching to jffs2 overlay
+[    7.220000] eth0: link down
+[   11.300000] usb 1-1.4: new high-speed USB device number 3 using ehci-platform
+[   82.560000] random: nonblocking pool is initialized
+好像也不动了，拔电继续。
+
+第14次：
+[    0.000000] NR_IRQS:51
+[    0.000000] Clocks: CPU:550.000MHz, DDR:400.000MHz, AHB:200.000MHz, Ref:25.000MHz
+[    0.000000] Calibrating delay loop... 274.02 BogoMIPS (lpj=1370112)
+[    0.070000] pid_max: default: 32768 minimum: 301
+[    0.070000] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.080000] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+停止了，拔电继续。
+
+第16次：
+[    0.000000] Calibrating delay loop... 274.02 BogoMIPS (lpj=1370112)
+[    0.070000] pid_max: default: 32768 minimum: 301
+[    0.070000] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.080000] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+停止了，拔电继续。好像和上一次一样。
+
+
+
+
+
+
+
+各个仓编译错误：
+sequans3220: 真悲催，编译失败！
+lc1860: 修改了啥？出错了吧。
+zte7520_ap: 不如意事常八九，可与语人无二三。
+ath9.5: 路漫漫其修远兮.... 
+
 看起来换了那个uboot，跑了一个晚上，另外一台机器，连续拔插，也都正常启动了。
 
 何文秋：
