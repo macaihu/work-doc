@@ -89,5 +89,5 @@ multriplier 45	flux 3
 2.14	22:10	2.91	septnonagintillion
 multriplier 126	
 3.18	5:00	17.992	septnonagintillion
-			
+5.20    7:17    37.101  septnonagintillion			
 
