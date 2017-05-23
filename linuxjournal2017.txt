@@ -11,6 +11,132 @@ p25 需要强制刷新缓存，否则升级后ie下非常显示的还是原来�
 
 
 5.20
+换w10这个板子来吧：
+setenv ipaddr 10.8.0.33 && setenv serverip 10.8.0.100
+tftpboot 0x80060000 uboot.bin.topap && erase 0x9f000000 +0x20000&&cp.b $fileaddr 0x9f000000 $filesize
+tftpboot 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftpboot 0x80060000 tozedap-cp_ap123-jffs2 && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+
+第12次
+Booting image from 0x9F020000...
+
+   Image name:    MIPS OpenWrt Linux-3.18.36
+   Build date:    2016-09-28 16:05:46 UTC
+   Architecture:  MIPS
+   OS/image type: Linux Kernel
+   Compression:   LZMA
+   Data size:     1003.8 kB (1027913 bytes)
+   Load address:  0x80060000
+   Entry point:   0x80060000
+
+   Header CRC...  OK!
+   Data CRC...    skipped
+
+Stopping network... OK!
+Uncompressing Kernel... ERROR
+## Error: LZMA error '1'!
+
+第22次
+[    1.980000] SQUASHFS error: xz decompression failed, data probably corrupt
+[    1.990000] SQUASHFS error: squashfs_read_data failed to read block 0x604f6
+[    2.030000] SQUASHFS error: xz decompression failed, data probably corrupt
+[    2.040000] SQUASHFS error: squashfs_read_data failed to read block 0x604f6
+[    2.040000] Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000a
+[    2.040000] 
+[    2.040000] ---[ end Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000a
+[    2.040000] 
+
+
+
+# $(1): vendor, board name/model
+# $(2): hostname
+# $(3): default FLASH size in MB
+# $(4): reset button GPIO number
+# $(5): 1 if reset button is active low
+# $(6): SOC_TYPE
+define config_init
+
+lsdk_kernel:
+        @$(call define_add,CONFIG_LSDK_KERNEL,1)
+#if defined(CONFIG_LSDK_KERNEL)
+                "lsdk_kernel=1\0"
+#endif
+
+法国佬的uboot似乎加了CONFIG_FOR_TPLINK_WR842N_V3这个类型。也许应该是tp-link_tl-wr842n_v3这个？
+setenv ipaddr 10.8.0.33 && setenv serverip 10.8.0.100
+tftpboot 0x80060000 u-boot.1 && erase 0x9f000000 +0x20000&&cp.b $fileaddr 0x9f000000 $filesize
+
+setenv bootargs "console=ttyS0,115200 root=31:02 rootfstype=squashfs rw init=/sbin/init mtdparts=mtdparts=ath-nor0:128k(u-boot)ro,1280k(uImage),6656k(rootfs),64k(mib0),64k(ART)"
+
+u-boot> md 18050000
+18050000: 00021580 00214000 01308000 00000000    .....!@..0......
+18050010: 40010400 C009FFFE 0009F33A 00000014    @..........:....
+18050020: 00000000 00000271 00098000 00000101    .......q........
+18050030: 000010B3 0A47F028 00004000 0523F828    .....G.(..@..#.(
+18050040: 41020CCC 781003E8 0050103C 00000000    A...x....P.<....
+18050050: 00000000 00000000 00000000 00000000    ................
+18050060: 00000000 00000000 00000000 00000000    ................
+18050070: 00000000 00000000 00000000 00000000    ................
+
+
+uboot> md 18050000
+18050000: 00021580 00214000 01308000 00000000    .....!@..0......
+18050010: 00000800 C013FFFE 00138000 00000014    ................
+18050020: 00000000 00000271 0013BB10 00000101    .......q........
+18050030: 000010B3 0A47F028 00004000 0523F828    .....G.(..@..#.(
+18050040: 41020CCC 781003E8 0050103C 00000000    A...x....P.<....
+
+
+第8次：
+[    1.250000] Freeing unused kernel memory: 248K (80332000 - 80370000)
+[    1.980000] SQUASHFS error: xz decompression failed, data probably corrupt
+[    1.990000] SQUASHFS error: squashfs_read_data failed to read block 0x604f6
+[    2.030000] SQUASHFS error: xz decompression failed, data probably corrupt
+[    2.040000] SQUASHFS error: squashfs_read_data failed to read block 0x604f6
+[    2.040000] Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000a
+[    2.040000] 
+[    2.040000] ---[ end Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000a
+[    2.040000] 
+
+第12次 哪里不对的样子，modem没有看到起来。
+[    1.990000] init: Console is alive
+[    1.990000] init: - watchdog -
+[   81.700000] random: nonblocking pool is initialized
+[  122.010000] init: - preinit -
+Press the [f] key and hit [enter] to enter failsafe mode
+Press the [1], [2], [3] or [4] key and hit [enter] to select the debug level
+[  126.330000] eth0: link up (100Mbps/Full duplex)
+[  127.010000] jffs2: notice: (310) jffs2_build_xattr_subsystem: complete building xattr subsystem, 0 of xdatum (0 unchecked, 0 orphan.
+[  127.020000] mount_root: switching to jffs2 overlay
+[  127.100000] eth0: link down
+[  127.110000] procd: - early -
+[  127.110000] procd: - watchdog -
+[  128.090000] procd: - ubus -
+[  129.280000] procd: - init -
+Please press Enter to activate this console.
+
+第22次：
+Booting image from 0x9F020000...
+
+   Image name:    MIPS OpenWrt Linux-3.18.36
+   Build date:    2016-09-28 16:05:46 UTC
+   Architecture:  MIPS
+   OS/image type: Linux Kernel
+   Compression:   LZMA
+   Data size:     1003.8 kB (1027913 bytes)
+   Load address:  0x80060000
+   Entry point:   0x80060000
+
+   Header CRC...  OK!
+   Data CRC...    skipped
+
+Stopping network... OK!
+Uncompressing Kernel... ERROR
+## Error: LZMA error '1'!
+
+何文秋
+又碰到了速度慢的问题。关闭网页一段时间后，貌似正常了，他前几天还以为是nv导致的，今天又不知道是什么导致的，看的时候不停的有ifconfig wlan0 up的命令出现。从top 命令追源，发现是wlan-sever发出的命令。他现在觉得是不是他折腾了一天，就出现了这个情况。
+
 陶嵩
 1860的机器，现在不能不插卡测信号了，原来是可以的。
 
@@ -20,8 +146,7 @@ p25 需要强制刷新缓存，否则升级后ie下非常显示的还是原来�
 2 reboot不能重启moden的还没有在init文件中尝试。
 3 改风格准备让何文秋来做
 4 汪光华还有生产工具和m60的一些东西要做。
-5 赵刚 还在处理限速的问题。
-6 ussd还没有进行处理
+ 6 ussd还没有进行处理
 
 梁剑
 自助那个打印机终于差不多了，它的接口dll必须使用静态加载的方式，而且是接口都是类中的方法。等对方的测试了。
