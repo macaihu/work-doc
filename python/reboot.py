@@ -26,6 +26,9 @@ def reboot():
 
 	tn.close()
 
+count=0;
 while 1 :
+	count = count+1
+	print "reboot %d times" %count
 	reboot()
 	time.sleep(30)
