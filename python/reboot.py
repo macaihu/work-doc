@@ -7,17 +7,21 @@ username='root'
 password='Tztopap1234'
 finish='#'
 
-print("conneting...")
-tn = telnetlib.Telnet(host)
 
-print tn.read_until('login:')
+def reboot():
+	print("conneting...")
+	tn = telnetlib.Telnet(host)
 
-tn.write(username + '\n')
-print tn.read_until('Password:')
-tn.write(password + '\n')
-print tn.read_until(finish)
-tn.write('ps\n')
+	print tn.read_until('login:')
 
-print tn.read_until(finish)
+	tn.write(username + '\n')
+	print tn.read_until('Password:')
+	tn.write(password + '\n')
+	print tn.read_until(finish)
+	tn.write('ps\n')
 
-tn.close()
+	print tn.read_until(finish)
+
+	tn.close()
+
+reboot()
