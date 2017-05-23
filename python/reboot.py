@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import telnetlib
+import time
 
 host='10.8.0.103'
 username='root'
@@ -19,9 +20,12 @@ def reboot():
 	tn.write(password + '\n')
 	print tn.read_until(finish)
 	tn.write('ps\n')
-
+	print tn.read_until(finish)
+	tn.write('reboot\n')
 	print tn.read_until(finish)
 
 	tn.close()
 
-reboot()
+while 1 :
+	reboot()
+	time.sleep(30)
