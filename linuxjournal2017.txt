@@ -10,7 +10,13 @@ p25 需要强制刷新缓存，否则升级后ie下非常显示的还是原来�
 尼日利亚 m60 1 bridge 2 ipsec 3 tr069+ssl 
 
 
-5.20
+5.23
+setenv ipaddr 10.8.0.33 && setenv serverip 10.8.0.100
+tftpboot 0x80060000 uboot.1 && erase 0x9f000000 +0x20000&&cp.b $fileaddr 0x9f000000 $filesize
+u-boot> md 18050000
+
+
+5.22
 换w10这个板子来吧：
 setenv ipaddr 10.8.0.33 && setenv serverip 10.8.0.100
 tftpboot 0x80060000 uboot.bin.topap && erase 0x9f000000 +0x20000&&cp.b $fileaddr 0x9f000000 $filesize
@@ -188,7 +194,7 @@ Uncompressing Kernel... ERROR
 
 5.19
 setenv ipaddr 10.8.0.33 && setenv serverip 10.8.0.100
-tftp 0x80060000 uboot.bin.lingjia && erase 0x9f000000 +0x20000&&cp.b $fileaddr 0x9f000000 $filesize
+tftpboot 0x80060000 uboot.bin.lingjia && erase 0x9f000000 +0x20000&&cp.b $fileaddr 0x9f000000 $filesize
 这样把老外的uboot写进去看起来正常启动了系统。
 
 启动第三次发现
