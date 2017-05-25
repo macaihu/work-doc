@@ -1,0 +1,316 @@
+2003-7-3
+如果从TcustomMemo或TcustomRichEdit继承Terminal，画面闪烁的太厉害。
+
+2003-6-27
+完成监视某个地址不停监视功能。
+完善客户端功能。
+
+2003-6-26
+完成写内存数据。
+
+2003-6-25
+                  if (uartKeys.keys[i] >= 'A' )
+                     addr += ( uartKeys.keys[i] - 'A' + 10 ) * power;
+                  else
+                     addr += ( uartKeys.keys[i] - '0' ) * power;
+                  power *= 16;   
+文件大小是0x94b4
+                  if (uartKeys.keys[i] >= 'A' )
+                     addr += ( uartKeys.keys[i] - 'A' + 10 ) * pow(16,8-i);
+                  else
+addr += ( uartKeys.keys[i] - '0' ) * pow(16,8-i);
+使用了arm251的math.h 的pow函数 功能是一样的
+文件大小变成了0xa4c4
+不过毕竟还是可以利用arm提供的库函数。
+
+     完成: 
+     1、显示菜单，可以根据菜单提示用户输入
+     2、可以动态接受需要显示的内存变量
+        此功能和客户端miniTerm.exe结合使用效果最好
+        和其他term，如超级终端必须自己查找变量地址，手工输入信息
+    修改的文件有uart.c uart.h monitor.c
+
+2003-6-23
+下午，一个数组越界的错误查了半天，吐血。
+
+
+2003-6-13
+改写后的statePro函数
+
+2003-6-5
+本周重写了用户框中cpu板中的statepro函数。完成一个用户框中相互打电话的功能。
+重写DialNumberAnalyse：
+1、 拨一个号码后停送拨号音
+2、 在拨了一位号码之后，不能在拨0－9以外。	
+
+
+
+2003-05-20
+metaProducts Offline Exploerer Pro
+zMud 4.6
+absolute MP3 Recorder
+HEML Compress
+Winiso
+Delphi
+The bat!
+Aspack
+紫光拼音3.0
+
+
+2003-05-18
+http://www.delphibbs.com/delphibbs/dispq.asp?lid=1772610 dll退出报错
+
+2003-05-07
+我刚刚看到设计的原理部分。先摘抄：
+里氏代换原则：一个软件实体如果使用的是一个基类，那么一定使用于子类，而且它根本不能察觉出子类和基类对象的区别。
+
+依赖倒转原则：客户端依赖于抽象耦合。抽象不应该依赖于细节，细节应该依赖于抽象。要针对接口编程，不要针对实现编程。
+
+里氏代换原则似乎好理解，在oo中的有多态性。
+
+2003-04-26
+设想这样一个系统界面：
+左边是树型导航，右边是panel，在panel上根据不同的导航显示不同的form.
+在工具栏有一个“打印”按钮。
+当然，我们希望点击这个按钮调用的方法随当前显示form的不同而不同。
+不同的form打印的情况都不相同，有的屏幕打印即可，有的需要做报表。
+请实现之。
+
+1、我原来的
+procedure tform1.printButtonClick(sender:Tobjet)
+begin
+  if currentForm = showform1 then  //currentForm保存当前显示的窗口，为tform类型
+    showform1.printIt;
+  else if currentForm = showform2 then
+    showform2.printIt;
+.....
+end;
+
+2、使用继承和多态的方法
+所有的显示form都从一个fathrForm中继承。
+在fatherForm中写一个虚方法printIt
+所有继承的form根据自己的情况重载这个方法。
+我们再看
+procedure tform1.printButtonClick(sender:Tobjet)
+begin
+   currentForm.printIt;//currentForm保存当前显示窗口，为tFatherForm类型
+end
+
+代码是不是简单了些，当新增加显示form时，这段代码不用改动了吧。
+
+2003-04-22
+今天用了C++builder发现可以这样写代码：
+    DWORD done, length;
+    Label1->Caption = 100*done / length;
+这让我有些喜欢C++builder了，谁清楚这里面的原因？
+
+还有
+int hIn = open(Edit1->Text.c_str(), O_RDONLY | O_BINARY);
+我花了好久的时间才知道Edit1->Text.c_str()可以把widestring转换成pchar
+我是看到别人的代码才知道的。
+我想问的是我怎么能从帮助里知道使用这种转换方法。
+
+
+2003-04-10
+更改ext.c 程序：
+将void  InitCPU()中的
+		MyBoardAddr = (RB0<<3)|(RB1<<2)|(RB2<<1)|RB3;
+		if(MyBoardAddr==0)
+			SSPADD=0x9<<1;		
+		else
+			SSPADD=MyBoardAddr<<1;
+代码提出，单独变成一个函数：void readBoardAddr()
+除了供initCPC调用外，在main中也每1秒调用一次。
+
+2003-4-6
+
+数据库和面向对象如何衔接，我看过一本书提出这种方法：
+书名字不记得了，有uml这几个字。
+书中的原文早不见得了，我们以操作员管理为例吧：
+我们很容易把操作员抽象成一个类：
+Toperator = class
+   private
+     FName :String;
+     FId:String;
+     FdelpartmentId,FDepartmentName:String;
+   public
+     con..(不记得怎么拼写了) create(id:String);
+   property
+     name string read FName write Fname;
+     departmentId : String read FdepartmentId write setDepartment;
+     departmentName :String read Fdepartmentname;
+   end;
+这里部门做了简化，不使用一个新的类了。
+改变某个操作员的部门这个担子无疑落在了setDepartment上，
+它要做的事情有：
+1、改变FdepartmentId、改变FdelpartmentName
+2、更改数据库
+按照这样，调用toperator的界面就不需要知道数据库在做什么了。
+更进一步，我们是不是可以把一个form放在这个类中，来编辑
+操作员属性呢？
+增加一个public方法：
+  procedure toperator.edit;
+  begin
+     with ToperatorEditForm.create(self) do
+     begin
+        getData(id);
+        showmodal;
+        if modified then //modified 是ToperatorEditForm属性
+           reload;//toperater方法，重新读数据库。
+     end;
+  end;
+这样，在操作员管理界面中，我们基本上就不太需要数据库了。
+最后，为了在管理界面中列出所有的或部分操作员，必须还有一个容器类。
+TOperatorContainer = class
+   private
+     operatorList:array of toperator;
+   public
+     procedure getAllOprator;
+     procedure fisrt;
+     ...
+     procedure find(string); 
+     procedure findInDepartment(delpartmentId:string);//查找某个部门的人员
+     procedure findOnPower(powerId:String);//查找具有某种权限的人员
+     procedure findOnSalary(salary:real);//查找某个薪水的人员
+     procedure view(listview);
+   property
+       
+end;
+这样操作员管理这个界面就彻底和数据无关了。
+
+无论是什么样的团队开发，首先都是要有一个优秀的项目经理。
+在项目初期，他要大致分析问题难度，估计开发人员数量，估计开发时间，估计开发成本。
+开发中，这个人其实未必是水平最高的，但他一定要能够使得团队在没有干扰下进行工作。
+最重要的是，他能协调这么些优秀的人才的关系，保证每个成员的积极性。这决不是老好
+人似的人物可以解决的问题。他必须知道每个人的长处，并给予发挥，让每个人承认别人
+的优点，并从中得到受益。要制止任何形式的相互攻击。
+行业专家是提出需求的人，有人说用户是提出需求的人。从我的经验来看，用户站的角度
+不够，他们往往只了解自己手头上的工作。你认为化2－3个月和用户交流就能得到你所想
+要的需求吗？如果没有行业专家，软件公司往往要做了好几个项目之后，才自己培养了行业
+专家。他了解企业内部数据的分布，数据流转和数据分析的方向。他真正站在客户的角度
+描述问题，给出问题的合理解决方法。从某种意义而言，他可以不懂计算机编程。
+系统分析员是个骄傲而尴尬的角色。他必须上知天文（行业需求），下知地理（编程）。
+否则他的分析无异于隔山打牛。
+
+其实最主要的是交流，角色可以残缺，变换，交流不能少。
+
+2003-04-02
+进一步的测试表明每秒中可以发两个4000的数据。这和预期的是一致的。
+
+2003-04-01
+加入和校验。才发现接收时最后两个字节时CRC校验码，程序接受了一个，甩掉了一个。但是指针和长度位未包含最后接受。加入校验时去掉这个CRC校验码，接受和发送的和校验一致了。
+使用定时器来发送进行测试，每秒发送4000个没问题。正准备进一步测试，停电了。
+
+2003-03-31
+终于成功发送了。
+在timer中每2ms判断一次，如果csr判断fifo为半空，则发送32字节。
+增加了byte E1SendBufp4096],word E1SendHead,E1SendTrail变量作为发送缓存和指针。
+发送4000个字节也没问题。
+接受方面，长度增加一位来存储。
+
+Ds21354Reg(span,HIMR)=0x54; 		发送中断的方式结果是死机
+Ds21354Reg(span,HIMR)=0x51;  似乎没有作用
+
+这是发送e1数据包的代码。
+void TestLoopBack(byte span)
+{
+	byte i;
+		for(i=0;i<200;i++)
+			{
+			SendPacketBuf[i]=i;//(SendPacketBuf[i]+1)&0xff;
+			//SendPacketBuf[i]++;
+			//HDLCSendCount[span]+=8;
+			}
+		//PutMsgToPool(span, 10, tempbuf);
+		//HDLCSendPacket[span]++; 	
+	SendOnePacketToPartner(span, 100);
+}
+
+下面这段代码在void SendOnePacketToPartner(byte span,byte len)中，但无法发挥作用，现在把它删除，改用中断的方式处理试试。
+	byte j,count;
+	if (span > 3) return;
+	Disable_Int(nGLOBAL_INT);
+	Ds21354Reg(span, HCR) = 0x30;
+	len--;
+       count = len /32 ;	
+        //HDLCTempBuf[14]=500>>6;
+	for( j=0 ; j <= len ;j++)
+	{
+	 /*    for(i=0; i < 32; i++)
+	     {
+                 if( j*32+i >= len )
+                     break;
+	          Ds21354Reg(span, THFIFO) = SendPacketBuf[i + j * 32];
+	          HDLCTempBuf[14]++;
+	          // HDLCTempBuf[13] = i + j * 20;
+	     }*/
+	     Ds21354Reg(span, THFIFO) = SendPacketBuf[j];
+          /* while (1)
+	    {
+	         //delay();
+	       Ds21354Reg(span, HSR)=0xFF;
+		st=Ds21354Reg(span,HSR);	
+    	if //(//((st & 0x04) == 0x04)  ||
+		     ((st &0x02)==0x02 )// ||
+		     //((st & 0x01 )==1))
+	        { 
+	           // if ((st & 0x02) == 0x02)  
+	             HDLCTempBuf[12] ++;
+	            //  if ((st & 0x01 )==1)
+	            // HDLCTempBuf[13] ++;
+			break;
+	        }
+	     }*/
+	/*      delay();
+	      delay();
+	      delay();
+	      delay();
+	      delay();
+*/
+	}
+       Ds21354Reg(span,HCR)=0x24;
+       Ds21354Reg(span, THFIFO)=SendPacketBuf[len];
+	Enable_Int(nGLOBAL_INT);
+
+2003-3-28
+ds21354中span＝1时，不能设置loop Back否则接受不正常。这是昨天莫名其妙的原因。
+在hdlc发送过程中：一次发送若干个字节，以64个分组发送，发送间隔采用延时的方法时，不能完全接收数据。
+在不使用延时的情况
+字节数
+DsE1HDLCIsr执行次数
+Len+
+len
+E1ReceiveBuf尾指针和头指针之差
+16
+2
+0x21
+0x11
+0x13
+50
+4
+0x89
+0x43
+0x45
+70
+5
+0x65
+0x33
+0x 35
+100
+
+0xA8
+0x44
+0x 43
+200
+6
+0x13
+0x4b
+0x 4d
+如果使用延时，对于发200个数据则每增加一个延时，多接收4个数据，超过6个后为0
+如果不采用延时，采用循环读取THIR内容判断的方法，则死机，难道是判断不正确？
+
+2003-03-27
+编写ds31354控制hdlc的部分，要将发送和接受的包的大小扩大。
+完成了ds21354 framer loop back 部分。
+原来写的在超级终端中显示变量地址的代码可能有问题，在显示发送和接受部分时，接受部分莫名其妙的有时无法接收。无奈，只好把那一部分代码全部还原，因为不知道是什么原因。而且显示变量的地址显示的内容和直接写这个地址显示的内容不相同，所以，输入地址直接看变量内容的工作还有很多路要走。
+今天拿到了商调函。
