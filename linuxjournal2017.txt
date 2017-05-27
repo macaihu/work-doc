@@ -9,6 +9,39 @@ p25 需要强制刷新缓存，否则升级后ie下非常显示的还是原来�
 南非p21 加wan口功能。
 尼日利亚 m60 1 bridge 2 ipsec 3 tr069+ssl 
 
+5.26
+
+貌似在ath9.5中的cpe-df的apup中还没有对extap的支持。
+        if [ "${EXTAP}" = "on" ]; then
+            iwpriv ath0 extap 1
+        fi
+
+以前的文档貌似有错误，1860的要这样设置
+WANIP=`ifconfig lmi40 | grep inet | busybox cut -d : -f 2 | busybox cut -d ' ' -f 1`
+echo $WANIP 
+ifconfig lmi40 0.0.0.0 up                   
+busybox route add -host $WANIP dev br0
+busybox route add default dev lmi40
+echo "1" > /proc/sys/net/ipv4/conf/lmi40/proxy_arp 
+echo "1" > /proc/sys/net/ipv4/conf/br0/proxy_arp 
+iptables -F -t nat  
+iptables -t nat -I POSTROUTING -s 192.168.1.1/255.255.255.0 -o lmi40 -j SNAT --to-source $WANIP
+
+pc这样设置，要删掉那个masq的规则，现在有个容错的程序，要砍掉。
+ip  10.42.39.122
+netmask  255.255.255.255
+dns 221.179.38.7 120.192.165.7
+
+可以这样设置是可以的
+ip  192.168.0.100
+netmask  255.255.255.255
+dns 221.179.38.7 120.192.165.7
+
+汪光华
+对makefile, 编译中-l的使用还不了解。
+
+王伍
+还有加强web的人手
 
 5.25
 领佳 屈工
@@ -17,9 +50,12 @@ p25 需要强制刷新缓存，否则升级后ie下非常显示的还是原来�
 郑达
 突然，中继器的软件不能申请内存了，只有编译到10几号向杰增加的大量网页前才不报错，这样，基本不能使用了。
 
+李金龙
+问了一下各个项目的情况，说将在自助，工业路由器， ict上加大力量。ict主要是wifi覆盖。今年过关，不亏本，信心能够提示一个层次，下决心重启上市。
+
 这个sublime打开有些文本文件，里面的双字节的符号似乎总是乱码。
 
-郑达 金晶
+郑达 赵金
 问中继器是否所以的命令从串口出。
 
 姚国梁
@@ -1435,4 +1471,4 @@ git for windows 2.11以后的版本就不再支持xp系统了，只能下载一�
 3.3.8内核程序还有两个问题，一个是校准的ko编译，一个只出一个是eth0的问题。
 刘云 苗立双 刘咏辉 徐钢雄 华域设备启动有概率不能起来的情况：当前使用华域本身的程序，无论什么硬件都没有问题，使用通则的软件，使用华域的底板没有问题，使用通则的底板就可能会出现不启动的情况。
 
-昨天下午林小珊还打电话来问新同事坐哪里。Describe your new note here.
+昨天下午林小珊还打电话来问新同事坐哪里。
