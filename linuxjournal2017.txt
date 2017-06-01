@@ -8,6 +8,89 @@ m60 存在掉校准信息 吴曦：
 尼日利亚 m60 1 ip passthough 2 ipsec
 
 5.31
+王伍：
+张勇 3号要把程序发出去。还有在电信2g的情况下信号显示不正常，可能是解析方式不对。
+电源已经给夏荣平，去路测。
+姚国梁：陈良测的锁频有问题，要使用屏蔽房不断开门关门来测试。
+
+Rj45 main start
+[01 00:00:22] Rj45 main start
+[/sys/dwc_usb/usbconfig/usblan0] plug_state:1
+[01 00:00:22] [Rj45_Init_Hotplug_Sock]
+netdev_plugin_byname, netdev usblan0 is plugin, source_id = 4153
+[01 00:00:22] Rj45_Init_Hotplug_Sock s = 6 
+[01 00:00:22] Rj45StateInit start !!!
+[01 00:00:22] [R[   13.744506] attrname: eth_state.
+j45_Plug_State_Read]
+netapi:getDevId_byname start!dev_name=usblan0
+netapi:netdev_plugin_proc start!netdev_id=11
+netapi:netdev_plugin_proc: netdev_id=11
+recv msg MSG_NET_PLUGIN 
+zte_router:net_netdev_plugin_proc start! netdev_id=11
+[01 00:00:22] Rj45_Plug_State_Read plug_state:phy_on, len = 1
+[01 00:00:22] [Rj45_Plug_State_Read]  wan_on_lan_off!
+[01 00:00:22] [Rj45_Plug_State_Read]  rj45_eth0 =1 !
+[01 00:00:22] [rj45_set_plugstate] g_Rj45PlugState = wan_on_lan_off !
+[01 00:00:22] wgh blc_wan_mode=BRIDGE, go rj45
+[01 00:00:22] [rj45_get_plugstate] g_Rj45PlugState = wan_on_lan_off !
+[01 00:00:22] Rj45_Open_Acess Call  netdev_plugin_proc RJ45_WAN_DEV!
+netapi:netdev_plugin_proc start!netdev_id=5
+netapi:netdev_plugin_proc: netdev_id=5
+[01 00:00:22] Rj45_Open_Acess result = 1 !
+[01 00:00:22] [Rj45_Handle_Hotplug_Event]  begin recv!
+[   14.051055] br0: port 1(usblan0) entered disabled state
+[   14.066528] br0: port 1(usblan0) entered forwarding state
+[   14.070770] br0: port 1(usblan0) entered forwarding state
+brctl: bridge br0: Device or resource busy
+usb as lan plugin end!
+zte_router:net_netdev_plugin_proc success!
+recv msg MSG_NET_PLUGIN 
+zte_router:net_netdev_plugin_proc start! netdev_id=5
+[   14.166748] br0: port 1(usblan0) entered forwarding state
+[   14.293701] .ok
+[   14.294006] gmac zx_gmac_phy_open 
+[   14.297607] ZTE-TSP zx29 gmac net open
+[   14.306304] device eth0 entered promiscuous mode
+[   14.309844] br0: port 3(eth0) entered forwarding state
+[   14.314788] br0: port 3(eth0) entered forwarding state
+[   14.320129] ZTE-TSP zx29 gmac xmit  phy not link
+[   14.324615] ZTE-TSP zx29 gmac xmit  phy not link
+
+
+更换内核，还是可以自动把eth0起来的。
+
+比较一下，我编译的系统在这几个程序大小和汪光华的不一样：
+unzip
+zte_fota_reco
+zte_topsw_dmapp
+dhcp6c
+这些和网卡有什么不同呢？
+
+
+这个地址还能用，还是用起来吧，多一个备份的地方。
+https://github.com/netjianl/work-doc.git
+
+升级到汪光华编译的程序就可以自动把eth0起来，奇怪的事情，从脚本来看是没有什么区别的，但是有些程序的大小不一样。但是二进制也看不出来啊。原来是没有加上执行权限。
+
+梁剑
+ath0总是被设置到桥中，奇怪的现象。
+
+廖媛
+抱怨白俊剑ip passthrogh出的太慢了。
+
+白俊剑
+ippassthrogh只剩下默认网关没有设置了。
+
+刘凯内蒙办
+问网管服务器变得很慢了。
+
+吴曦
+问明天去信可的情况，当前主要的问题是搜网锁band，下at有时候正常，有时候不正常。
+还有就是校准区被冲掉的情况了。
+
+吴开利
+问内蒙联通和湖北联通的模块是否一样，我印象中是不同的。
+
 我这里编译的程序以太网默认就没有启动。奇怪的事情。
 
 郑达
@@ -15,6 +98,8 @@ m60 存在掉校准信息 吴曦：
 现在问题还有有一个ap无法连接，但是其他的手机，我的9341的cpe是可以连这个ap的。
 还有一个ap，是魏启婷的，无法搜索到它。
 riltek说无法做的检查一个天线能否联通。
+还修改了原有的自动信道，是处于自动信道时无法搜索到repeator的ssid，改成了即使在client情况下也设置固定信道，而这个固定信道是在搜索的设置设置的。但这样对那些20/40的ap就有问题。
+现在修正了自动信道的问题，但是那个无法连接的ap还是无法连接。
 
 使用这个5.15版本似乎也是正常的，那么这个问题可以采用2分法去查了。
 汪光华找了一遍，是b3bb6246ee39e81ac97e3d74a5387851cd75a393这个提交，那么认为是赵刚没有判断(wp->path)是否为空造成的。
