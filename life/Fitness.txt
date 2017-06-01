@@ -1,2 +1,6 @@
-5.31
+
+2017.6.1
+weight: 68.6kg
+
+2017.5.31
 run 8.3km/h 21min heart beat 120/min
