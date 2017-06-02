@@ -7,55 +7,58 @@ m60 存在掉校准信息 吴曦：
 南非p21 加wan口功能。
 尼日利亚 m60 1 ip passthough 2 ipsec
 
+6.1
+
+郑达
+那个写了mac后ssid无法搜索的问题，是不但要写wifi的地址，还要写wan,lan等地址，还要按照规则写。
+
+还有若干个端口是开放的。
+nmap 192.168.254.254 -v -A -p1-65535
+Scanning 192.168.254.254 [65535 ports]
+Discovered open port 80/tcp on 192.168.254.254
+Discovered open port 53/tcp on 192.168.254.254
+Discovered open port 10020/tcp on 192.168.254.254
+Discovered open port 4719/tcp on 192.168.254.254
+Discovered open port 3535/tcp on 192.168.254.254
+Discovered open port 10005/tcp on 192.168.254.254
+
+netstat -lnp
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.1:5037          0.0.0.0:*               LISTEN      1491/adbd
+tcp        0      0 0.0.0.0:3535            0.0.0.0:*               LISTEN      1500/chkSvr
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      1486/goahead
+tcp        0      0 0.0.0.0:10005           0.0.0.0:*               LISTEN      1445/zte_tools_agen
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      1239/dnsmasq
+tcp        6      0 192.168.254.254:10020   0.0.0.0:*               LISTEN      1448/pc_server
+tcp        0      0 :::4719                 :::*                    LISTEN      1515/telnetd
+tcp        0      0 :::53                   :::*                    LISTEN      1239/dnsmasq
+udp        0      0 0.0.0.0:53              0.0.0.0:*                           1239/dnsmasq
+udp        0      0 :::53                   :::*                                1239/dnsmasq
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node PID/Program name    Path
+unix  2      [ ACC ]     STREAM     LISTENING       1514 1491/adbd           @jdwp-control
+
+goahead，有网页连接，那么有非常多的TIME_WAIT存在。
+
+我这里网卡不能自动起来的事情，应该是：
+linux_plat/base/linux/lib/zte_libs/libnetapi这个so里面的MSG_NET_PLUGIN消息，变成了MSG_STATIC_DHCP这个消息。
+
+苑德强
+要p21的root密码。以后的程序要默认关闭telnetd
+
+吴曦
+1 信可说，可以关闭trap模式，碰到问题直接重启。
+2 nv 坏掉， 反复重启不能上网的，需要在信可模拟出来
+3 未来几天将在信可上班，一起工作。
+
+每次上传github都要输入用户名密码么？
+
 5.31
 王伍：
 张勇 3号要把程序发出去。还有在电信2g的情况下信号显示不正常，可能是解析方式不对。
 电源已经给夏荣平，去路测。
 姚国梁：陈良测的锁频有问题，要使用屏蔽房不断开门关门来测试。
-
-Rj45 main start
-[01 00:00:22] Rj45 main start
-[/sys/dwc_usb/usbconfig/usblan0] plug_state:1
-[01 00:00:22] [Rj45_Init_Hotplug_Sock]
-netdev_plugin_byname, netdev usblan0 is plugin, source_id = 4153
-[01 00:00:22] Rj45_Init_Hotplug_Sock s = 6 
-[01 00:00:22] Rj45StateInit start !!!
-[01 00:00:22] [R[   13.744506] attrname: eth_state.
-j45_Plug_State_Read]
-netapi:getDevId_byname start!dev_name=usblan0
-netapi:netdev_plugin_proc start!netdev_id=11
-netapi:netdev_plugin_proc: netdev_id=11
-recv msg MSG_NET_PLUGIN 
-zte_router:net_netdev_plugin_proc start! netdev_id=11
-[01 00:00:22] Rj45_Plug_State_Read plug_state:phy_on, len = 1
-[01 00:00:22] [Rj45_Plug_State_Read]  wan_on_lan_off!
-[01 00:00:22] [Rj45_Plug_State_Read]  rj45_eth0 =1 !
-[01 00:00:22] [rj45_set_plugstate] g_Rj45PlugState = wan_on_lan_off !
-[01 00:00:22] wgh blc_wan_mode=BRIDGE, go rj45
-[01 00:00:22] [rj45_get_plugstate] g_Rj45PlugState = wan_on_lan_off !
-[01 00:00:22] Rj45_Open_Acess Call  netdev_plugin_proc RJ45_WAN_DEV!
-netapi:netdev_plugin_proc start!netdev_id=5
-netapi:netdev_plugin_proc: netdev_id=5
-[01 00:00:22] Rj45_Open_Acess result = 1 !
-[01 00:00:22] [Rj45_Handle_Hotplug_Event]  begin recv!
-[   14.051055] br0: port 1(usblan0) entered disabled state
-[   14.066528] br0: port 1(usblan0) entered forwarding state
-[   14.070770] br0: port 1(usblan0) entered forwarding state
-brctl: bridge br0: Device or resource busy
-usb as lan plugin end!
-zte_router:net_netdev_plugin_proc success!
-recv msg MSG_NET_PLUGIN 
-zte_router:net_netdev_plugin_proc start! netdev_id=5
-[   14.166748] br0: port 1(usblan0) entered forwarding state
-[   14.293701] .ok
-[   14.294006] gmac zx_gmac_phy_open 
-[   14.297607] ZTE-TSP zx29 gmac net open
-[   14.306304] device eth0 entered promiscuous mode
-[   14.309844] br0: port 3(eth0) entered forwarding state
-[   14.314788] br0: port 3(eth0) entered forwarding state
-[   14.320129] ZTE-TSP zx29 gmac xmit  phy not link
-[   14.324615] ZTE-TSP zx29 gmac xmit  phy not link
-
 
 更换内核，还是可以自动把eth0起来的。
 
@@ -65,7 +68,6 @@ zte_fota_reco
 zte_topsw_dmapp
 dhcp6c
 这些和网卡有什么不同呢？
-
 
 这个地址还能用，还是用起来吧，多一个备份的地方。
 https://github.com/netjianl/work-doc.git
