@@ -67,6 +67,12 @@ configure.ac:4015: error: required file 'massif/ms_print.in' not found
 configure.ac:4015: error: required file 'perf/vg_perf.in' not found
 configure.ac:4015: error: required file 'tests/vg_regtest.in' not found
 
+12-16
+王伍
+信可模块：1 moden的版本，不同频段如何区分，不能升级错误。
+		2 基线版本如何对接
+		3 wifi使用我们的pa
+		4 使用单口phy, 不加switch.
 
 12-15
 qsdk3使用外部编译器e2fsprogs这个东西又报rpath这样的错误，改成cc中的1.42.12试试。
