@@ -7,6 +7,26 @@ m60 存在掉校准信息 吴曦：
 南非p21 加wan口功能。
 尼日利亚 m60 1 ip passthough 2 ipsec
 
+6.2
+只编译squashfs_build貌似修改的文件没有合并到squashfs中去。
+
+killall  sh
+killall dialtool_new
+rm /tmp/.dialtool_indicator
+cd /tmp
+tftp -g 10.8.0.100 -l dialtool_new
+chmod +x dialtool_new
+./dialtool_new -s /tmp/dialtool_config &
+
+sim卡的pin相关指令，好久了。
+1.AT+CLCK="SC",1,"1234"		使用SIM卡锁功能,密码为为上次设置的(或初始密码),或者使用CPWD更改后的密码
+2.AT+CLCK="SC",2				查询SIM卡锁功能
+3.AT+CLCK="SC",0,"1234"		关闭SIM卡锁功能
+4.AT+CPWD="SC","1234","4321"	修改PIN码
+5.AT+CPIN?					查询PIN码的状态,是否需要输入PIN码
+6.AT+CPIN="1234"				输入PIN码
+7.AT+CPIN="88139522","1234"	输入PUK码和新的PIN码
+
 6.1
 
 郑达
