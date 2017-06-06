@@ -1,13 +1,206 @@
 
 
 待解决问题：
-cat-m模块调试,增加到拨号程序中
+cat-m模块调试,各种页面信息
 m60 存在掉校准信息 吴曦：
 9531 工业路由器 升级  1：流量报警 2 对ip限速。 任银善
 南非p21 加wan口功能。
 尼日利亚 m60 1 ip passthough 2 ipsec
+喻潇 还有测试一下p21电信卡屏蔽房不断开门关门的情况。
+
+6.6
+为什么每次都会重启：
+4g disconnect reboot
+
+菲律宾功能测试第一次反馈
+
+1.logo修改，具体由陈良提供
+2.支持3G，shpa+显示为4G，LTE还是显示为LTE
+3.internet 设置按钮没有下划线，与其他不一样
+4.快速设置与短信之间添加“device setting”
+5.主菜单中的导航菜单列表，需要在每个子菜单可见可选
+6.connected devices 下添加帮助信息，告知wifi的operation功能如何使用
+7.短信，发送短信多号码时不要分开存储，列表显示时多号码都要显示出来
+8.流量统计：
+  关闭流量统计功能时清除已使用流量;
+  禁止编辑，只能打开或者关闭;（陈良确认一下是不是只是用户禁止编辑）
+  单位与数字之间加个空格
+9.一键自检的运行时间显示格式不对
+10.网页上有实时参数的，需要实时刷新
+11.apn做两套参数，不让编辑，仅能勾选测试或默认。（具体默认参数由陈良提供）
+
+
+空闲时：
+CPU:  0.8% usr  5.0% sys  0.0% nic 93.3% idle  0.0% io  0.0% irq  0.8% sirq
+Mem: 22504K used, 18008K free, 0K shrd, 0K buff, 3736K cached
+
+使用sweetspot
+Mem: 22444K used, 18068K free, 0K shrd, 0K buff, 3736K cached
+CPU:  0.2% usr 36.8% sys  0.0% nic 46.5% idle  0.0% io  0.0% irq 16.3% sirq
+Load average: 8.42 7.39 4.31 1/137 1651
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  598     2 admin    DW       0  0.0   0 24.4 [sdio_thread0/mm]
+ 1109     2 admin    DW       0  0.0   0 14.6 [ksdioirqd/mmc0]
+  614     2 admin    DW       0  0.0   0 11.8 [rtw_rx/wlan0]
+
+iperf
+Mem: 23128K used, 17384K free, 0K shrd, 0K buff, 4044K cached
+CPU:  0.6% usr 45.5% sys  0.0% nic 40.2% idle  0.0% io  0.0% irq 13.5% sirq
+Load average: 8.36 8.01 5.70 1/142 1663
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  598     2 admin    DW       0  0.0   0 29.1 [sdio_thread0/mm]
+ 1109     2 admin    SW       0  0.0   0  9.1 [ksdioirqd/mmc0]
+  614     2 admin    DW       0  0.0   0  7.9 [rtw_rx/wlan0]
+
+
+
+192.168.1.154 c盘满了。
+把 ErrorLog scss10 转移到F盘
+c.inetpub.logs.LogFiles.W3SVC3里面的文件超级大，移动到F盘。
+
+6.5
+华润的招标的技术部分，任银善做了备注，请查看:
+路由器_设备应用标准							
+指标类别	指标名称	指标说明	应用场景	是否核心指标	是否必须满足项	备注	说明
+硬件要求	产品类型	企业级路由器（支持4G，可直接插卡）	门店、DC内外网连接	是	是	适用于大超门店、DC、小业态门店内外网连接	
+	内存	容量：16-512MB	门店、DC内外网连接	是	是		
+		FLASH:16-512MB	门店、DC内外网连接	是	是	必填项	
+	线速转发能力	转发性能：350-550Kpps	门店、DC内外网连接	是	是	必填项	
+		带业务转发性能：150Mbps	门店、DC内外网连接	是	是		
+	固定WAN端口	2*GE(其中1个GE由以太网交换端口提供)	门店、DC内外网连接	是	是	必填项	
+	固定以太网交换端口	4*GE	门店、DC内外网连接	是	是		
+	内置LTE	FDD LTE	A4文件打印	是	是	必填项	
+	USB2.0端口	1个	A3文件打印	是	是		
+	串行辅助/控制台端口	1个					
+	串行辅助/控制台端口	1个					
+软件要求	基础功能	DHCP server/client/relay，PPPoE server/client，PPPoA server/client，PPPoEoA server/client，NAT，子接口管理	门店、DC内外网连接	是	是		PPPoE无server,PPPoA无server，无子接口管理
+	无线局域网(AP)	AP设备管理（VAP管理），WLAN QoS（WMM），WLAN安全（WEP/WPA/WPA2/密钥管理），WLAN射频管理（802.11 b/g/n），WLAN用户管理(AP功能仅W无线款型支持)	门店、DC内外网连接	是	是		无用户管理，只能查看
+	无线局域网(AC)	AP设备管理(AC发现/AP接入/AP管理)，CAPWAP协议, WLAN用户管理，WLAN射频管理（802.11 b/g/n），WLAN QoS（WMM），WLAN安全（WEP/WPA/WPA2/密钥管理）	门店、DC内外网连接	是	是	必填项	AC先只有派联的平台，无WLAN Qos（WMM），WLAN安全（WEP/WPA/WPA2）
+	局域网功能	IEEE 802.1P，IEEE 802.1Q，IEEE 802.3，VLAN管理，MAC管理，MSTP等	门店、DC内外网连接	是	是	必填项	无IEEE 802.1P，IEEE 802.1Q，IEEE 802.3，VLAN管理，MSTP等
+	IPv4单播路由	路由策略，静态路由，RIP，OSPF，IS-IS，BGP	门店、DC内外网连接	是	是	必填项	
+	IPv6基本功能	IPv6 ND，IPv6 PMTU，IPv6 FIB，IPv6 ACL	门店、DC内外网连接	是	是	必填项	？
+	IPv6隧道技术	手工隧道，自动隧道，GRE隧道，6to4，ISATAP	门店、DC内外网连接	是	是	必填项	？
+	IPv6单播路由	路由策略，静态路由，RIPng，OSPFv3，IS-ISv6，BGP4+	门店、DC内外网连接	是	是	必填项	？
+	组播功能	IGMP version1/2/3，PIM SM，PIM DM，MSDP	门店、DC内外网连接	是	是	必填项	无
+	QoS	Diffserv模式，优先级映射，流量监管（CAR），流量整形，拥塞避免（基于IP优先级/DSCP WRED），拥塞管理（LAN接口：SP/WRR/SP+WRR；WAN接口：PQ/CBWFQ），MQC（流分类，流行为，流策略），端口三级调度和三级整形（Hierarchical QoS），智能应用控制（SAC	门店、DC内外网连接	是	是	必填项	无
+	安全	ACL，防火墙，802.1x认证，AAA认证，RADIUS认证，HWTACACS认证，广播风暴抑制，ARP安全，ICMP反攻击，URPF，CPCAR，黑名单，攻击源追踪，PKI	门店、DC内外网连接	是	是	必填项	无
+	管理维护	升级管理，设备管理，Web网管，GTL，SNMP（v1/v2c/v3），RMON，NTP，CWMP，Auto-Config，U盘开局，NetConf，命令行	门店、DC内外网连接	是	是	必填项	无GTL，RMON，Auto-Config，NetConf，U盘开局
+	VPN	PSec VPN，GRE VPN，DSVPN，SSL VPN，L2TP VPN	门店、DC内外网连接	是	是	必填项	无DSVPN，SSL VPN
+功率及保修信息	电源及功率	电源：100-240V	门店、DC内外网连接	是	是	选填项	
+		支持最大功率：24W	门店、DC内外网连接				
+	环境参数	工作温度：0-45℃，工作湿度：5-95%	门店、DC内外网连接				
+	售后	一年标准维保	门店、DC内外网连接	是	是		
+							
+
+
+~ # cat /proc/meminfo 
+MemTotal:          40512 kB
+MemFree:           15976 kB
+Buffers:               0 kB
+Cached:             5876 kB
+
+[New process 9776]
+#0  0x004041c0 in main (argc=3, argv=0x7fedcbf4) at main.c:546
+warning: Source file is more recent than executable.
+546				if(ids_module->idVendor==modules_info_summary[i]->module_serial.idVendor && 
+
+[ 2055.170000] rc.check_reboot invoked oom-killer: gfp_mask=0xd0, order=1, oom_adj=0, oom_score_adj=0
+[ 2055.180000] Call Trace:[<80077f88>] 0x80077f88
+[ 2055.190000] [<802b0b98>] 0x802b0b98
+[ 2055.190000] [<802b0b98>] 0x802b0b98
+[ 2055.190000] [<800c09cc>] 0x800c09cc
+[ 2055.200000] [<800ccbc4>] 0x800ccbc4
+[ 2055.200000] [<800c0ddc>] 0x800c0ddc
+[ 2055.210000] [<800c0d28>] 0x800c0d28
+[ 2055.210000] [<800c129c>] 0x800c129c
+[ 2055.210000] [<800c4be4>] 0x800c4be4
+[ 2055.220000] [<80075740>] 0x80075740
+[ 2055.220000] [<800ef1ec>] 0x800ef1ec
+[ 2055.220000] [<80101d90>] 0x80101d90
+[ 2055.230000] [<8007642c>] 0x8007642c
+[ 2055.230000] [<800f5a04>] 0x800f5a04
+[ 2055.230000] [<800f5f18>] 0x800f5f18
+[ 2055.240000] [<80068fac>] 0x80068fac
+[ 2055.240000] [<8006c6a4>] 0x8006c6a4
+[ 2055.250000] 
+[ 2055.250000] Mem-Info:
+[ 2055.250000] Normal per-cpu:
+[ 2055.250000] CPU    0: hi:   18, btch:   3 usd:   1
+[ 2055.260000] active_anon:560 inactive_anon:1 isolated_anon:0
+[ 2055.260000]  active_file:10 inactive_file:11 isolated_file:0
+[ 2055.260000]  unevictable:8129 dirty:0 writeback:0 unstable:0
+[ 2055.260000]  free:1082 slab_reclaimable:236 slab_unreclaimable:2809
+[ 2055.260000]  mapped:2 shmem:1 pagetables:77 bounce:0
+[ 2055.290000] Normal free:4328kB min:1016kB low:1268kB high:1524kB active_anon:2240kB inactive_anon:4kB active_file:40kB inactive_fils
+[ 2055.330000] lowmem_reserve[]: 0 0
+[ 2055.330000] Normal: 954*4kB 58*8kB 3*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 4328kB
+[ 2055.340000] 8151 total pagecache pages
+[ 2055.350000] 0 pages in swap cache
+[ 2055.350000] Swap cache stats: add 0, delete 0, find 0/0
+[ 2055.360000] Free swap  = 0kB
+[ 2055.360000] Total swap = 0kB
+[ 2055.370000] 16384 pages RAM
+[ 2055.370000] 1012 pages reserved
+[ 2055.370000] 26 pages shared
+[ 2055.370000] 14176 pages non-shared
+[ 2055.380000] [ pid ]   uid  tgid total_vm      rss cpu oom_adj oom_score_adj name
+[ 2055.390000] [ 1447]     0  1447      289       22   0       0             0 macwriter
+[ 2055.390000] [ 1452]     0  1452      216       10   0       0             0 httpd
+[ 2055.400000] [ 2260] 65534  2260      261       21   0       0             0 dnsmasq
+[ 2055.410000] [ 2324]     0  2324      370       20   0       0             0 hostapd
+[ 2055.420000] [ 2325]     0  2325      524      120   0       0             0 autoset_channel
+[ 2055.430000] [ 2326]     0  2326      296       16   0       0             0 tzupdate
+[ 2055.430000] [ 2370]     0  2370      217       11   0       0             0 syslogd
+[ 2055.440000] [ 2480]     0  2480      217       12   0       0             0 logread
+[ 2055.450000] [ 2822]     0  2822      218       12   0       0             0 dialtool_d
+[ 2055.460000] [ 2823]     0  2823      279       21   0       0             0 flowstat
+[ 2055.470000] [ 2824]     0  2824      218       13   0       0             0 rc.check_reboot
+[ 2055.480000] [ 2835]     0  2835      277       19   0       0             0 ntpsupplicant
+[ 2055.480000] [ 2837]     0  2837      523      118   0       0             0 autoset_channel
+[ 2055.490000] [ 2845]     0  2845      235       34   0       0             0 system_moniter
+[ 2055.500000] [ 3126]     0  3126      267       12   0       0             0 tzresetd
+[ 2055.510000] [ 3127]     0  3127      218       13   0       0             0 rc.check_nat_is
+[ 2055.520000] [ 3151]     0  3151      217       11   0       0             0 telnetd
+[ 2055.530000] [ 3945]     0  3945      222       20   0       0             0 sh
+[ 2055.530000] [ 6242]     0  6242      217       11   0       0             0 getty
+[ 2055.540000] [ 1526]     0  1526      220       15   0       0             0 sh
+[ 2055.550000] [ 3135]     0  3135      220       15   0       0             0 vi
+[ 2055.560000] [16926]     0 16926      216       10   0       0             0 sleep
+[ 2055.570000] Out of memory: Kill process 1447 (macwriter) score 1 or sacrifice child
+[ 2055.570000] Killed process 1447 (macwriter) total-vm:1156kB, anon-rss:88kB, file-rss:0kB
+
+占永平
+菲律宾p21，有时会出现中英文选择的选项出来。
+
+廖媛：
+2017年6月5日  P21 会议记录 ------尼日利亚  
+待解决问题 :
+1. Key 测试，确认生产工具 ，并且给到生产。
+2.内部搭建VOIP 服务器。
+3.WIFI 掉线原因分析。
+4. 出最后一版本“ 生产程序 ” 给客户测试。
+5.TRO69 远程升级：请姚协调同事安排本地远程测试，同时我会再次跟客户确认 "ZIP “文件 是否可行 。
+
+最近发现越来越多的office里过多的在上班时间滥用视频网站，可能是由于脑残会的影响，但必竟是上班时间，不应该做与工作无关的事，也过多地影响了office的工作带宽。我在路由上测试了一条规则来block视频网站的访问请求，发现非常有效：
+iptables -A FORWARD  -m string –-string “ku6.com” --algo bm -j DROP
+iptables -A FORWARD  -m string –-string “tudou.com” –-algo bm -j DROP
+iptables -A FORWARD  -m string –-string “ouou.com” –-algo bm -j DROP
+http://blog.sina.com.cn/s/blog_690b92530100zggp.html
 
 6.2
+p25 测试 占永平
+ID	缺陷名	现象	修复状态	备注
+P25	版本:v15	配置版本：P25_1.17	模块	信可
+1	导入功能不可用	将备份好的防火钱文件加载进去，直接返回失败	未修复	
+2	在网络工具长时间pnig，仍会出现超时	在网络工具中ping外网，一直ping下去，十五分钟后仍会显示超时	未修复	
+3	网络工具中的trace无法使用	URL中输入“www.baidu.com”,端口为“1-65535”或者80，网页 上没有显示路由信息	未修复	
+4	网络工具中抓包功能用不了		未修复	
+5	APN设置手动下无法编辑		未修复	这个不确定是不是bug,不知道实际的实现方式
+6	PIN无法开启	输入当前PIN码，网页上一直返回失败的提示	未修复	
+7	PIN码设置为disable下仍可以输入	开始在默认下输入会有禁止输入提示，点击PIN码开启，再关闭，就一直没有禁止输入的提示	未修复	
+8	流量到达阈值后，页面提示是否断开网络，点击确定，页面返回失败		未修复	
+
+
 只编译squashfs_build貌似修改的文件没有合并到squashfs中去。
 
 killall  sh
@@ -28,7 +221,6 @@ sim卡的pin相关指令，好久了。
 7.AT+CPIN="88139522","1234"	输入PUK码和新的PIN码
 
 6.1
-
 郑达
 那个写了mac后ssid无法搜索的问题，是不但要写wifi的地址，还要写wan,lan等地址，还要按照规则写。
 
