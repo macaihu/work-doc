@@ -8,6 +8,35 @@ m60 存在掉校准信息 吴曦：
 尼日利亚 m60 1 ip passthough 2 ipsec
 喻潇 还有测试一下p21电信卡屏蔽房不断开门关门的情况。
 
+6.8
+set bootargs "root=/dev/nfs rw nfsroot=192.168.0.50:/opt/work/ath9.5/rootfs-tozedap-router_4g_industry_ap123.optbuild,nolock  init=/sbin/init noinitrd ip=192.168.0.1:192.168.0.50:192.168.0.1:255.255.255.0::eth0::off console=ttyS0,115200 machtype=DB120"
+
+set bootargs "root=nfs nfsroot=192.168.0.50:/opt/work/ath9.5/rootfs-tozedap-router_4g_industry_ap123.optbuild,nolock   ip=192.168.0.1:192.168.0.50:192.168.0.1:255.255.255.0::eth0:off console=ttyS0,115200 machtype=DB120"
+
+set bootargs "root=nfs nfsroot=192.168.0.50:/opt/work/ath9.5/rootfs-tozedap-router_4g_industry_ap123.optbuild,nolock   ip=dhcp::eth0:off console=ttyS0,115200 machtype=TZ-9341"
+
+setenv bootargs board=AP143 console=ttyS0,115200 nfsroot=192.168.0.10:/tftpboot/rootfs rw ip=192.168.0.99:192.168.0.10:196.168.0.1:255.255.255.0::eth1:off
+解释：
+
+    board=AP143，板子类型最好设对，不然kernel可能启动失败；
+    nfsroot=192.168.0.10:/tftpboot/rootfs，就是tftp server ip: + rootfs路径，解压xxx-rootfs.tar.gz出来的；
+    rw设置可读可写权限；
+    ip=板子IP: tftp server ip :网关ip(都在同一网段，网关ip随意填写):掩码：板子eth接口；（这里使用的是静态IP，如果想设置成dhcp，需要在make kernel_menuconfig中，在Networking support里，打开IP: kernel level autoconfiguration的dhcp支持）
+
+set bootargs "console=ttyS0,115200 root=31:01 rootfstype=squanshfs ro init=/sbin/init mtdparts=spi0.0:64k(u-boot),6848k(rootfs),1152k(uImage),64k(mib0),64k(ART) machtype=DB120"
+
+
+
+
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 5184      5184         0 100% /
+
+6.7
+当前工业路由器的内核还是有些大：
+-rw-rw-r-- 1 jian jian  1034294  6月  6 18:02 vmlinux_routing.lzma.uImage
+去掉乱七八糟的板子的支持：
+-rw-rw-r-- 1 jian jian  1019593  6月  7 14:17 vmlinux_ap123.lzma.uImage
+
 6.6
 为什么每次都会重启：
 4g disconnect reboot
