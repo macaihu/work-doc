@@ -134,15 +134,11 @@ Tyrion..........................................................................
 
 Sansa ....................................................................................................................................................... 401 
 
-Eddard ..................................................................................................................................................... 407 
-
-Catelyn .................................................................................................................................................... 413 
-
-Jon ........................................................................................................................................................... 422 
-
-Daenerys ................................................................................................................................................. 430 
-
-Tyrion...................................................................................................................................................... 437 
+Eddard ........................................................................................ 407 
+Catelyn ....................................................................................... 413 
+Jon ........................................................................................... 422 
+Daenerys ...................................................................................... 430 
+Tyrion......................................................................................... 437 
 Catelyn ....................................................................................... 449 
 Daenerys ...................................................................................... 455 
 Arya........................................................................................... 464 
@@ -517,109 +513,55 @@ weight behind it. The Other's parry was almost lazy.
 
  When the blades touched, the steel shattered. 
 
-
-
-        A scream echoed through the forest night, and the longsword shivered into a hundred brittle 
-
+ A scream echoed through the forest night, and the longsword shivered into a hundred brittle 
 pieces, the shards scattering like a rain of needles. Royce went to his knees, shrieking, and covered his 
-
 eyes. Blood welled between his fingers. 
 
-
-
-        The watchers moved forward together, as if some signal had been given. Swords rose and fell, all 
-
+ The watchers moved forward together, as if some signal had been given. Swords rose and fell, all 
 in a deathly silence. It was cold butchery. The pale blades sliced through ringmail as if it were silk. Will 
-
 closed his eyes. Far beneath him, he heard their voices and laughter sharp as icicles. 
 
+ When he found the courage to look again, a long time had passed, and the ridge below was empty. 
 
-
-        When he found the courage to look again, a long time had passed, and the ridge below was 
-
-empty. 
-
-
-
-        He stayed in the tree, scarce daring to breathe, while the moon crept slowly across the black sky. 
-
+ He stayed in the tree, scarce daring to breathe, while the moon crept slowly across the black sky. 
 Finally, his muscles cramping and his fingers numb with cold, he climbed down. 
 
-
-
-        Royce's body lay facedown in the snow, one arm outflung. The thick sable cloak had been 
-
+ Royce's body lay facedown in the snow, one arm outflung. The thick sable cloak had been 
 slashed in a dozen places. Lying dead like that, you saw how young he was. A boy. 
 
-
-
-        He found what was left of the sword a few feet away, the end splintered and twisted like a tree 
-
+ He found what was left of the sword a few feet away, the end splintered and twisted like a tree 
 struck by lightning. Will knelt, looked around warily, and snatched it up. The broken sword would be 
-
 his proof. Gared would know what to make of it, and if not him, then surely that old bear Mormont or 
-
 Maester Aemon. Would Gared still be waiting with the horses? He had to hurry. 
 
+ Will rose. Ser Waymar Royce stood over him. 
 
-
-    Will rose. Ser Waymar Royce stood over him. 
-
-
-
-        His fine clothes were a tatter, his face a ruin. A shard from his sword transfixed the blind white 
-
+ His fine clothes were a tatter, his face a ruin. A shard from his sword transfixed the blind white 
 pupil of his left eye. 
 
+ The right eye was open. The pupil burned blue. It saw. 
 
-
-    The right eye was open. The pupil burned blue. It saw. 
-
-
-
-        The broken sword fell from nerveless fingers. Will closed his eyes to pray. Long, elegant hands 
-
+ The broken sword fell from nerveless fingers. Will closed his eyes to pray. Long, elegant hands 
 brushed his cheek, then tightened around his throat. They were gloved in the finest moleskin and sticky 
-
 with blood, yet the touch was icy cold. 
-
 
 ----------------------- Page 11-----------------------
 
-                                          Chapter 1 
+                                    Chapter 1   Bran 
 
-
-
-                                                    Bran 
-
-
-
-        The morning had dawned clear and cold, with a crispness that hinted at the end of summer. They 
-
+ The morning had dawned clear and cold, with a crispness that hinted at the end of summer. They 
 set forth at daybreak to see a man beheaded, twenty in all, and Bran rode among them, nervous with 
-
 excitement. This was the first time he had been deemed old enough to go with his lord father and his 
-
 brothers to see the king's justice done. It was the ninth year of summer, and the seventh of Bran's life. 
 
-
-
-        The man had been taken outside a small holdfast in the hills. Robb thought he was a wildling, his 
-
+ The man had been taken outside a small holdfast in the hills. Robb thought he was a wildling, his 
 sword sworn to Mance Rayder, the King-beyond-the-Wall. It made Bran's skin prickle to think of it. He 
-
 remembered the hearth tales Old Nan told them. The wildlings were cruel men, she said, slavers and 
-
 slayers and thieves. They consorted with giants and ghouls, stole girl children in the dead of night, and 
-
 drank blood from polished horns. And their women lay with the Others in the Long Night to sire terrible 
-
 half-human children. 
 
-
-
-        But the man they found bound hand and foot to the holdfast wall awaiting the king's justice was 
-
+ But the man they found bound hand and foot to the holdfast wall awaiting the king's justice was 
 old and scrawny, not much taller than Robb. He had lost both ears and a finger to frostbite, and he 
 
 dressed all in black, the same as a brother of the Night's Watch, except that his furs were ragged and 
