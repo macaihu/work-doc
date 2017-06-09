@@ -1,0 +1,105 @@
+使用xl2tpd连接安徽华为设备
+
+安徽测试的lns地址是120.210.236.221， 
+用户名18456117239 密码117239  
+用户名18456115672 密码115672
+用户名18456128985 密码128985
+用户名18456127958 密码127958
+
+使用内核转发方式：
+1、 配置和ppp转发一样，需要更新内核。也就是pppoe-server 增加 -t lac 参数，走转发方式，不加这个参数，走nat方式。
+2、 可以在./proc/net/pppoe和/proc/net/pppol2tp查看pppoe连接和l2tp连接。
+
+使用ppp转发方式需要进行的配置
+1、 对pppoe-server和xl2tpd进行了一定修改，修改的程序在apps/pppoe_l2tp目录中，makefile增加了pppoe_l2tp_build，可编译出支持ppp转发的pppoe-server和xl2tpd来，这两个程序需要配套使用才有效果。可兼容它们原来的功能。
+2、 Pppoe-server增加-t lacname 参数，当配置为使用ppp转发功能时，运行pppoe-server时加上这个参数, lacname 是/etc/xl2tpd/xl2tpd.conf 中 [lac testvpn]的名字。Xl2tpd运行方式不变。
+3、 Pc端得到的地址将是lns端分配的地址，pc端pppoe的报错也更准确，比如如果usb0没有上网的情况下，就不报密码错。
+
+
+注意要增加/etc/hosts文件，内容为：
+127.0.0.1 (none)
+127.0.0.1 localhost
+否则pppd可能停止响应，而出现不能拨号的问题。
+
+客户端使用pppoe拨号需要做的修改
+1、 需要编译apps/rp-pppoe-3.11和apps/ppp-2.4.5。复制pppoe-server ，pppd 到目标板 /usr/sbin目录中，复制pppd中的两个插件l2tpst.so lte_l2tp.so到/lib中
+2、 /etc/ppp/pppoe-server-optiions加入这些
+require-pap
+plugin lte_l2tp.so
+lcp-echo-interval 10
+lcp-echo-failure 2
+#require-chap     #验证方式
+3、/etc/ppp/options.l2tpd.client 文件加入
+plugin l2tpst.so
+在文件/etc/iproute2/rt_tables中增加：
+200 ppp0
+201 ppp1
+202 ppp2
+203 ppp3
+204 ppp4
+205 ppp5
+206 ppp6
+207 ppp7
+208 ppp8
+
+4、 开机启动xl2tpd，启动pppoe-server 
+pppoe-server -I br0 -k -L xx.xx.xx.xx -R xx.xx.xxx.xx 
+5、从pc上拨号，使用正确的密码拨号成功，可以上网则正确。2个账号可分别在两台计算机上拨。下面操作中的 发出连接指令， nat修改部分不需要进行。
+
+
+
+xl2pd 拨号的设置
+1、 编译安装xl2tpd，如果是ubuntu ，可以简单的apt-get install x2tpd，centos似乎没有，可以使用源码进行编译。复制xl2tpd和xl2tpd-control到目标板
+编译pppd 2.4.5 复制pppd到/usr/sbin  pppol2tp.so passwordfd.so到/lib
+内核需要增加ppp支持和
+[*] Networking support  --->
+      Networking options  --->
+[*]   IP: advanced router 
+[*]   IP: policy routing 
+2、 建立xl2tpd执行环境：mkdir -p /var/run/xl2tpd
+3、 修改以下文件
+#cat /etc/xl2tpd/xl2tpd.conf
+[lac anhui]
+lns = 120.210.236.221
+ppp debug = yes
+pppoptfile = /etc/ppp/options.l2tpd.client
+hostname = ltekd
+challenge = yes
+
+#cat /etc/xl2tpd/l2tp-secrets 
+* * Amcc@123
+
+#cat / etc/ppp/options.l2tpd.client
+noauth
+mtu 1467     //大于这个值时不能ping -s 1500的包   
+mru 1467
+ipcp-accept-local
+ipcp-accept-remote
+lcp-echo-interval 3
+lcp-max-configure 10
+usepeerdns
+
+4、 运行xl2tpd
+#xl2tpd
+
+5、 发出连接指令
+# echo "c anhui 18456117239 117239" > /var/run/xl2tpd/l2tp-control
+再连接建立后，可以再建立第二个：
+# echo "c anhui 18456115672 5672" > /var/run/xl2tpd/l2tp-control
+
+6、 pppd使用的是2.4.5版本。
+
+7、 nat的修改：
+#route del default
+#route add -host 120.210.236.221 gw 10.203.22.181   //第一个地址是lns地址，第二个地址是原来的缺省路由。
+#route add default gw 120.193.74.1   //这个地址是ppp0的对端地址
+#iptables -t nat -F
+#iiptables -t nat -APOSTROUTING -o ppp0 -j MASQUERADE
+这样以192.168.0.1的机器可以ping到互联网。
+
+8、 
+
+参考链接：
+ubuntu linux 下建立 纯L2TP 服务端和客户端
+L2TP服务器和客户端移植ﾧ
+
