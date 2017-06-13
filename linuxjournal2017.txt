@@ -7,8 +7,96 @@ m60 存在掉校准信息 吴曦：
 南非p21 加wan口功能。
 尼日利亚 m60 1 ip passthough 2 ipsec
 喻潇 还有测试一下p21电信卡屏蔽房不断开门关门的情况。
+p53 加tr069
+越南p21: 增加越南语言。
+
+6.12
+张勇
+cfg -t 确实存在问题，有读不到的情况。
+
+周湘理
+要开始9x07的tr069, 要求有7000多行，可能需要1000多个参数。当然存在可选项。菲律宾当前做了300多个。
+
+李柱栋
+新的slic已经调通，但是由于在驱动部分和原来的slic行为不同，这个slic必须发空，所以不能兼容，准备先用一种方式读id，如果读不到，就使用另外一种方式。
+
+
+6.11
+去掉：UMAC_SUPPORT_WNM
+-rw-rw-r--    1 1000     normal       18112 Jun 11  2017 adf.ko
+-rw-rw-r--    1 1000     normal       47120 Jun 11  2017 ag71xx.ko
+-rw-rw-r--    1 1000     normal       10228 Jun 11  2017 asf.ko
+-rw-rw-r--    1 1000     normal      305940 Jun 11  2017 ath_dev.ko
+-rw-rw-r--    1 1000     normal       64260 Mar 20  2017 ath_dfs.ko
+-rw-rw-r--    1 1000     normal      732800 Jun 11  2017 ath_hal.ko
+-rw-rw-r--    1 1000     normal       20988 Jun 11  2017 ath_pktlog.ko
+-rw-rw-r--    1 1000     normal       38948 Jun 11  2017 ath_rate_atheros.ko
+-rw-rw-r--    1 1000     normal       36680 Mar 20  2017 ath_spectral.ko
+-rw-rw-r--    1 1000     normal       13100 Jun 11  2017 hst_tx99.ko
+-rw-rw-r--    1 1000     normal     1094860 Jun 11  2017 umac.ko
+
+sar的用法：
+整体CPU使用统计(-u)   sar -u 1 2cd 
+各个CPU使用统计(-P)   sar -P ALL 1 1
+内存使用情况统计(-r)   sar -r  1 2
+整体I/O情况(-b)       sar -b 1 2
+各个I/O设备情况(-d)    sar -d -p 1 1
+网络统计(-n)          sar -n DEV 1 1
+http://www.cnblogs.com/bangerlee/articles/2545747.html
+
+6.9
+为什么新的程序会变成这样？
+Jan  1 08:09:29 (none) daemon.err pppd[9812]: Can't create lock file /var/lock/LCK..ttyUSB3: No such file or directory
+
+工业路由器中一开始就加载了所有的ko，貌似这样内存占用就太大了。
+
+梁剑
+脚本中使用了大量的cfg -e 来取参数，应该直接使用参数。
+
+kate这个文本编辑器，198.4mb when installed，好像超大的样子。
+ubuntu带的居然是4.x,而官网上已经到了16了，貌似也不是那么好用的样子，算了，还是用这个subline text吧。
+
+李柱栋
+认为没有必要去
+认为支持验证是所有acs服务器必须遵循的标准。不过maik貌似对他这样搬标准的行为有些不满：
+It supports both but globe production does not use unauthenticated http, so regardless, your device must support unauthenticated http
+Every other device does and your last firmware did as well
+So.... ? Let's please not push standard papers onto each other?
+
+吴曦
+开始进行版本合并操作，有些不敢动手
+
+郑达
+repeator 直接使用静态网页，也会出现错码。
+有时候这些错误又非常非常难出现。wep不管，那么就只有dns劫持后出现的问题。也许使用wifi连接后出现的登录页面也是个不错的选择。
+
+王伍
+把周连鹏的机器用nmap扫描一下。
+认为领佳已经知道了那个板子后面的黄绿灯已经修改。
+有板子还是会重启。
+
+屈峥嵘
+不知道那个板子已经改了gpio。
+
+何文秋
+把那些js优化了一下，减少到几百k，那个晚显示的问题没有明显的改善。
 
 6.8
+汪光华
+gre配置已经可以手工ping到pc了。
+
+吴曦 7520
+1 wifi 校准工具，如果使用信可提供的工具，需要升级两次。
+2 升级cp
+3 陈良提出的短信修改
+4 改logo
+5 配置问题
+6 监控网络的容错程序，reboot需要重启cp侧
+7 挂测
+
+梁剑
+升级第一次，一定不能读到cfg的参数，后面随机读不到参数。
+
 set bootargs "root=/dev/nfs rw nfsroot=192.168.0.50:/opt/work/ath9.5/rootfs-tozedap-router_4g_industry_ap123.optbuild,nolock  init=/sbin/init noinitrd ip=192.168.0.1:192.168.0.50:192.168.0.1:255.255.255.0::eth0::off console=ttyS0,115200 machtype=DB120"
 
 set bootargs "root=nfs nfsroot=192.168.0.50:/opt/work/ath9.5/rootfs-tozedap-router_4g_industry_ap123.optbuild,nolock   ip=192.168.0.1:192.168.0.50:192.168.0.1:255.255.255.0::eth0:off console=ttyS0,115200 machtype=DB120"
@@ -25,13 +113,13 @@ setenv bootargs board=AP143 console=ttyS0,115200 nfsroot=192.168.0.10:/tftpboot/
 
 set bootargs "console=ttyS0,115200 root=31:01 rootfstype=squanshfs ro init=/sbin/init mtdparts=spi0.0:64k(u-boot),6848k(rootfs),1152k(uImage),64k(mib0),64k(ART) machtype=DB120"
 
-
-
-
 Filesystem           1K-blocks      Used Available Use% Mounted on
 /dev/root                 5184      5184         0 100% /
 
 6.7
+何文秋
+使用js控制的按键，会在页面出来1-2秒才会出现。
+
 当前工业路由器的内核还是有些大：
 -rw-rw-r-- 1 jian jian  1034294  6月  6 18:02 vmlinux_routing.lzma.uImage
 去掉乱七八糟的板子的支持：

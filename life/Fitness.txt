@@ -1,10 +1,29 @@
-2016.6.7
+2017.6.12
+weight: 67.2kg
+
+2017.6.11
+weight: 67.9kg
+run 8.5km/h 22min heart beat 139
+
+2017.6.10
+weight: 67.8kg
+向中拉 60b 4 50b 4
+下拉   90b 7 80b 6 70b 6 60b 6 50b 8
+
+
+2017.6.9
+run 8.5km/h 22min heart beat 139
+
+2017.6.8
+run 8.5km/h 22min heart beat 125/min(广告太长)
+
+2017.6.7
 weight: 67.9kg
 
-2016.6.6
+2017.6.6
 run 8.5km/h 22min heart beat 139/min
 
-2016.6.5
+2017.6.5
 weight: 67.6kg
 
 2017.6.4
