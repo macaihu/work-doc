@@ -9,6 +9,119 @@ m60 存在掉校准信息 吴曦：
 喻潇 还有测试一下p21电信卡屏蔽房不断开门关门的情况。
 p53 加tr069
 越南p21: 增加越南语言。
+athadhoc quagga这个东西是做什么用的？
+
+6.15
+如果去掉libm这个数学库，那么这些函数就没有实现了：
+cJSON.o: In function `parse_number':
+cJSON.c:(.text+0xc00): undefined reference to `pow'
+cJSON.o: In function `print_number':
+cJSON.c:(.text+0xef0): undefined reference to `floor'
+collect2: ld returned 1 exit status
+
+6.14
+菲律宾的5g看来是全的：
+cfg -a ATH_countrycode=608
+
+喻潇
+p21的测试是在李光达，没有进行屏蔽房不断开关门测试。
+
+苗立双
+开始编译1826程序。另外一个压缩包中有编译的说明。
+
+赵金去掉了busybox中的静态库
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 4800      4800         0 100% /
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.7M      4.7M         0 100% /
+去掉iproute2,使用busybox中的ip
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 4736      4736         0 100% /
+
+
+吴曦
+没有看到升级脚本中升级内核的地方。
+对升级nv有些担忧。
+
+curl的功能还是强大的：
+http://flyheaven.blog.163.com/blog/static/7401172201193111112273/
+
+廖媛
+那个sip alg还是enable不能用,disable可以用.
+
+6.13
+余小虎
+v10:
+要增加会议和转接
+
+p11s:
+测试出修改室外单元的dhcp后,pc获得ip存在不正常的情况。
+gre算通过了，需要写一个说明。
+
+p28
+存在硬件问题，充电ic，电池不供电了。有重启问题，电路要改。
+软件上voip有回声。
+三个运营商都有送。dialog: fax要匹配华为的设备。
+斯里兰卡电信：测试voip, fax。要想办法换掉客户手中的机器。
+兰卡贝尔：已经发现重启问题，修改后在挂测。
+
+
+赵金去掉了剩下的几个cmdlib.c
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 4864      4864         0 100% /
+
+tftp $loadaddr $firmware_name && erase 0x9F000000 +$filesize && cp.b $loadaddr 0x9F000000 $filesize
+
+周连鹏
+使用nmap扫描在公网上的路由器，会出现这样的情况：
+Completed NSE at 14:08, 16.16s elapsed
+Nmap scan report for 122.190.248.194
+Host is up (0.13s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+53/tcp   open     tcpwrapped
+80/tcp   filtered http
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+8080/tcp filtered http-proxy
+这几个filtered有些奇怪，看解释是这样：
+
+filtered(被过滤的)
+    由于包过滤阻止探测报文到达端口， Nmap无法确定该端口是否开放。过滤可能来自专业的防火墙设备，路由器规则 或者主机上的软件防火墙。这样的端口让攻击者感觉很挫折，因为它们几乎不提供 任何信息。有时候它们响应ICMP错误消息如类型3代码13 (无法到达目标: 通信被管理员禁止)，但更普遍的是过滤器只是丢弃探测帧， 不做任何响应。 这迫使Nmap重试若干次以访万一探测包是由于网络阻塞丢弃的。 这使得扫描速度明显变慢。
+
+
+
+郑达
+手机上连接wifi后，直接出登录界面的情况，苹果和android的实现是不同的。
+苹果的做法是使用http 1.0的方法去访问apple的网站，如果发现访问的和预期的不一样，那么就认为这个wifi需要登录，弹出登录的页面。
+android的情况比较复杂，有些是使用url转移的。
+还是要使用dns劫持来完成，这样这个系统无法这样做。
+
+另外存在p28的中文ssid无法连接的情况，这个发现p28使用的是gbk编码，手机支持显示他的中文。
+
+这个板子上的灯是折腾，有些板子的灯是错的，不同的板子灯gpio不同。
+cd /sys/class/leds
+# disable everything
+echo none > ap123\:green\:lan/trigger
+echo none > ap123\:blue\:wan/trigger
+echo none > ap123\:green\:wan/trigger
+echo none > ap123\:red\:wan/trigger
+# then do tests
+echo default-on > ap123\:blue\:wan/trigger 
+echo none > ap123\:blue\:wan/trigger
+echo default-on > ap123\:green\:wan/trigger 
+echo none > ap123\:green\:wan/trigger
+echo default-on > ap123\:red\:wan/trigger 
+echo none > ap123\:red\:wan/trigger
+
+领佳板子刷个topap的程序吧
+setenv ipaddr 10.8.0.33 && setenv serverip 10.8.0.100
+tftpboot 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftpboot 0x80060000 tozedap-cp_ap123-jffs2 && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+bootm 0x9f6e0000
 
 6.12
 张勇
