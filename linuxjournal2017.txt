@@ -7,11 +7,106 @@ m60 存在掉校准信息 吴曦：
 南非p21 加wan口功能。
 尼日利亚 m60 1 ip passthough 2 ipsec
 喻潇 还有测试一下p21电信卡屏蔽房不断开门关门的情况。
-p53 加tr069
+p53 加tr069 a9500加pin验证
 越南p21: 增加越南语言。
 athadhoc quagga这个东西是做什么用的？
 
+6.20
+
+陈良：
+p21的sn号原来是tz+0406(日期)+imei(后若干位组成)， tr069要上报sn号。估计要一直采用这个规则了。
+要安排软件著作权的事情。
+
+
+6.19
+郑达
+来提加薪的事情，他的同学，一般转正是7k左右，一年左右能加2-3k。最高的那个有14k，觉得自己不比这些同学差，薪水却要低，心里比较失落。
+
+廖媛
+意大利的p10出现某些ip ping包周期性掉包的情况。貌似这样的情况不好分析。
+
+李柱栋
+p28接到m60后面，发现ping非常慢，两次间隔会到好多秒。但是p28直接连接到公司网络，ping出去没有异常，使用pc连接到m60去ping没有
+
+刘云
+bigap1总是编译不过去，还是苗立双手工改了一下。
+余小虎发现恢复出厂的情况下pc可能无法得到正常的ip地址，后来王伍发出邮件，如果找不到w13断网口的地方，就不要解了。
+
+张勇
+tree是看代码树的工具。
+
+吴曦
+湖北：需要锁物理小区，汪光华处理，有at指令
+	 登录后直接跳转到apn页面，完成，以后是不是考虑做到配置中去。
+	 apn需要登录，这个要在本地测试。
+	 band1/3 模块不够，考虑把手头上的模块当做样机发出。信可估计要到周三后才能到。
+柬埔寨：叶京平已经把设备带到了现场。这些修改需要变成配置。
+基本：cp侧升级。当前升级了几个区，貌似也成功了，但是读取moden的版本还没有变化。
+	 感觉每次开机，nv都会改变。
+     trap状态通过ap指令关闭后，出现问题机器会重启。
+生产：wifi校准工具，郑伟峰认为使用这个工具灵敏度较差。
+短信：存储修改，重复显示问题。
+通讯录：也出现过重复显示的问题。
+
+工业路由器免密码登录：
+改成这样看起来是可以用了：
+ttyS0::respawn:/bin/sh
+
+如果改成：
+::respawn:/bin/sh
+那么会出现这样的提示：
+/bin/sh: can't access tty; job control turned off
+
+在inittab这个文件去掉
+::respawn:/sbin/getty ttyS0 115200
+加上
+::askconsole:/bin/ash --login
+串口不会出现任何提示。
+
+6.16
+inittab改成这样，那么串口登录不了：
+::respawn:/sbin/getty -l /bin/sh ttyS0 115200
+
+iperf3的最新版本增加了ssl，还不知道如何砍掉。
+感觉是iperf_auth.c这个文件导致的。
+
+/usr/sbin/httpd -h /tzwww -c /etc/httpd.conf
+cat /etc/httpd.conf
+/moduleinfo.txt:module:info
+这个文件什么概念？
+
+
+网页的wan配置中
+PIN码验证: 	已关闭
+PIN操作: 	开启PIN码验证  
+似乎是网页去发at进行pin查询的，在sim7000c时，会出现这样的情况：
+12471 root      1476 S    http.cgi
+12498 root      1196 S    sh -c sendat -d/dev/ttyUSB1 -f/tmp/at_send -o/tmp/at
+12502 root      1120 S    sendat -d/dev/ttyUSB1 -f/tmp/at_send -o/tmp/at_recv
+12506 root      1120 S    sendat -d/dev/ttyUSB1 -f/tmp/at_send -o/tmp/at_recv
+12507 root      1120 S    sendat -d/dev/ttyUSB1 -f/tmp/at_send -o/tmp/at_recv
+~ # cat /tmp/at_send
+AT+CPIN?
+网页为什么要查cpin?貌似有些搞笑。
+
 6.15
+张勇
+原来的那个tzupdate的程序完全不靠谱，写的非常随意。
+
+CQ17051111
+allrun1111
+
+当前的ath0中，txbyte还是错误的，永远都是0.
+recover config.tozedap-cp,and repair RX error
+
+去掉checkmoduletype_build checkusbnet_build checksysmanagetool_build system_updater_build monitortool_build后
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 4672      4672         0 100% /
+
+ntpclient这个应用貌似已经被放弃，还有rc.date这个脚本。
+
+whatsapp经常提示更新，现在的版本是2.17.221
+
 如果去掉libm这个数学库，那么这些函数就没有实现了：
 cJSON.o: In function `parse_number':
 cJSON.c:(.text+0xc00): undefined reference to `pow'
@@ -20,6 +115,31 @@ cJSON.c:(.text+0xef0): undefined reference to `floor'
 collect2: ld returned 1 exit status
 
 6.14
+周连鹏 打流的效果： 
+7620 单流 20m： 56m
+7628 单流 20m： 只有40-50m
+从编码上看，7628是ofdm，而7620是ht。
+
+王伍
+sip-alg的实现方式有两种，一种是使用内核的方式，加上sipalg的支持，并且加上iptable的命令就可以实现。
+另外一种方式是在应用级别的程序，这样做的问题可能是本地的sip程序就无法监听5060?端口了。
+
+张勇
+当前的公司测试的网络结构
+1.77 gw/1.3 ------------- 1.3/113..202 
+	 ppp0 192.168.33.1
+
+1.148 gw/1.3
+
+
+pc 0.236		p53 ----4g 
+    			ppp0 192.168.33.2
+
+从pc可以ping到1.148，但是0.236这个地址看起来被直接带到了148上面。从1.77上抓包看，是出现了0.236这个地址的。
+
+刘云
+如果不开设备网页，那么运行正常，一开设备页面，内存马上下降。
+
 菲律宾的5g看来是全的：
 cfg -a ATH_countrycode=608
 
@@ -37,7 +157,6 @@ Filesystem                Size      Used Available Use% Mounted on
 去掉iproute2,使用busybox中的ip
 Filesystem           1K-blocks      Used Available Use% Mounted on
 /dev/root                 4736      4736         0 100% /
-
 
 吴曦
 没有看到升级脚本中升级内核的地方。
@@ -65,6 +184,14 @@ p28
 斯里兰卡电信：测试voip, fax。要想办法换掉客户手中的机器。
 兰卡贝尔：已经发现重启问题，修改后在挂测。
 
+m60:
+dialog还有检查2000台，1500台很难收回来。物料可能今天到，没有物料，检查也没有用。
+整体的故障率在8-9%.
+本月下旬，m60的新版本算完成了，要自测。
+
+斯里兰卡电信 上voip+volte，程序+配置进行升级。
+外置天线要测试。
+扯皮中。
 
 赵金去掉了剩下的几个cmdlib.c
 Filesystem           1K-blocks      Used Available Use% Mounted on

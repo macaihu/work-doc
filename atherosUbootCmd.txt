@@ -1,3 +1,15 @@
+工业路由器使用qsdk
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9fd70000 +$filesize&&cp.b $fileaddr 0x9fd70000 $filesize
+tftp 0x80060000 tozedap-router_4g_industry_ap123-squashfs&&erase 0x9f010000 +0x6b0000&&cp.b $fileaddr 0x9f010000 $filesize
+
+tftp 0x80060000 vmlinux_routing.lzma.uImage&&erase 0x9fe70000 +$filesize&&cp.b $fileaddr 0x9fe70000 $filesize
+tftp 0x80060000 tozedap-router_4g_industry_ap123-squashfs&&erase 0x9f6c0000 +0x6b0000&&cp.b $fileaddr 0x9f6c0000 $filesize
+
+tftp 0x80060000 tozedap-router_4g_industry_ap123_data-jffs2&&erase 0x9ff70000 +$filesize&&cp.b $fileaddr 0x9ff70000 $filesize
+
+set bootargs console=ttyS0,115200 root=31:01 rootfstype=squashfs ro init=/sbin/init mtdparts=spi0.0:64k(u-boot),6848k(rootfs),6848k(rootfs-backup),1024k(uImage),1024k(uImage-backup),512k(data),64k(ART)) machtype=DB120
+
 ap2 板刷cpe-km
 set ipaddr 10.8.0.33 && set serverip 10.8.0.100
 tftp 0x80060000 vmlinux_routing.lzma.uImage &&erase 0x9f680000 +$filesize&&cp.b $fileaddr 0x9f680000 $filesize 
@@ -51,17 +63,7 @@ tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fi
 tftp 0x80060000 tozedap-router_4g_industry_ap123-squashfs && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
 set bootargs "console=ttyS0,115200 root=31:01 rootfstype=squanshfs ro init=/sbin/init mtdparts=spi0.0:64k(u-boot),6848k(rootfs),1152k(uImage),64k(mib0),64k(ART) machtype=DB120"
  
-工业路由器使用qsdk
-set ipaddr 10.8.0.33 && set serverip 10.8.0.100
-tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9fd70000 +$filesize&&cp.b $fileaddr 0x9fd70000 $filesize
-tftp 0x80060000 tozedap-router_4g_industry_ap123-squashfs&&erase 0x9f010000 +0x6b0000&&cp.b $fileaddr 0x9f010000 $filesize
 
-tftp 0x80060000 vmlinux_routing.lzma.uImage&&erase 0x9fe70000 +$filesize&&cp.b $fileaddr 0x9fe70000 $filesize
-tftp 0x80060000 tozedap-router_4g_industry_ap123-squashfs&&erase 0x9f6c0000 +0x6b0000&&cp.b $fileaddr 0x9f6c0000 $filesize
-
-tftp 0x80060000 tozedap-router_4g_industry_ap123_data-jffs2&&erase 0x9ff70000 +$filesize&&cp.b $fileaddr 0x9ff70000 $filesize
-
-set bootargs console=ttyS0,115200 root=31:01 rootfstype=squashfs ro init=/sbin/init mtdparts=spi0.0:64k(u-boot),6848k(rootfs),6848k(rootfs-backup),1024k(uImage),1024k(uImage-backup),512k(data),64k(ART)) machtype=DB120
 
 ap-si
 set ipaddr 192.168.19.33 && set serverip 192.168.19.100
