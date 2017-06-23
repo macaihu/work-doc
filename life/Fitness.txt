@@ -1,3 +1,11 @@
+2017.6.22
+weight: 67.3kg 
+heart beat 72(8:25)
+
+2017.6.21
+下拉   90b 7 80b  7 70b 7 60b 8 60b 8 50b 8  
+run 8.5km/h 22min heart beat 119（？？）
+
 2017.6.19
 weight: 67.3kg
 下拉   90b 5 80b  7 70b 7 60b 8 50b 8  
