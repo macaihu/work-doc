@@ -12,11 +12,66 @@ p53 加tr069 a9500加pin验证
 athadhoc quagga这个东西是做什么用的？
 ap-cp中去掉ntfs等。
 
+
+6.27
+openwrt里面的程序非常非常小啊。
+使用里面的busybox的.config编译的文件
+-rwxrwxr-x 1 jian jian 361352  6月 27 10:45 busybox*
+而9531中的更小，而且vi sed之类也不缺
+-rwxr-xr-x    1 root     root        292928 Jun 26 12:33 busybox
+
+6.26
+向杰
+明天请假。
+
+刘汉琴
+程洪卫问为什么研发一下走了多个人，把我说的顶不住压力的话说了出来。
+
+梁剑
+重写switchwan，以期达到支持wan, wifi, 静态地址，动态地址，pppoe的效果。
+
+叶京平
+柬埔寨认为我们的工业路由器wifi性能很好，在别墅中比tplink的要好很多，希望我们去掉4g模块，直接出路由器产品给他们。
+
+郑达
+还没有验证pin功能是否有效果
+大连奥远的来问网管的事情。
+
+陈良
+让大连的人去看tr069,建议他们用tr069
+
+吴曦
+从04升级到06版本，不升级nv，可以启动，升级nv，进入trap模式。
+
+mini-snmp的1.4版本，比起当前仓中的版本，貌似没有改变。
+
+何文秋：
+毕业证已经拿到了。
+
+王伍
+为什么p21使用安全工具扫描之后网页不能看到了？
+查找了一些ubi系统崩溃的文章。
+
+姚国梁 何文秋
+扫描之后确实网页不能打开了，是切换到了中文版本，而中文版本不对，少了个逗号，导致网页无法显示了。
+
+汪光华 吴曦
+看起来dnsmasq好像不能只分配一个ip。
+
 6.25
+这样openvpn就可以编译了。
+OPENVPN_DIR=../apps/openvpn/openvpn-2.3.6
+openvpn_build:polarssl-1.2.19_build
+        if ( test ! -e $(OPENVPN_DIR)/Makefile );then \
+                cd $(OPENVPN_DIR) && ./configure  --host=mips-linux --disable-lzo --disable-plugin-auth-pam --with-crypto-library=polarssl POLARSSL_CFLAGS=-I$(TOPDIR)/apps/polarssl-1.2.19/include POLARSSL_LIBS=$(TOPDIR)/apps/polarssl-1.2.19/library/libpolarssl.a; \
+        fi
+        make -C  $(OPENVPN_DIR) CC=$(TOOLPATH)/bin/mips-linux-uclibc-gcc
+
 为什么在77上cpe-ap的tozedmgr还是编译报错？
 
 任银善：
-第一家企业是做地震监测的。
+第一家企业是做地震监测的。这样在各种地方安装个比较大的铁盒子，里面是陀螺仪监测数据，通过网络发送出去，然后通过计算及时算出结果，在地震发生时对边缘地带进行预警，能提前10多秒的样子。据说很多人都是在家门口被压住，即使只提前1s也能挽救不少。这个还需要很多的志愿者来发送消息。
+
 
 6.23
 向杰
