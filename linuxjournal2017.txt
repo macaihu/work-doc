@@ -14,11 +14,87 @@ ap-cp中去掉ntfs等。
 
 
 6.27
+当前ath9.5仓大小是2.5G ，目标考虑减少到1g。
+jian@jian-PowerEdge-2950:~/work/ath9.5$ du . -s
+2586872 .
+
+工业路由器增加了什么东西？
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 4864      4864         0 100% /
+
+
+白俊剑
+正在搬家，北站那里1房1厅要到3000了。
+
+刘汉琴
+问职称的事情。
+
+任银善
+要宽翼的at指令。
+
+喻潇
+p53中的智能重启，工具的默认值和设备的默认值是不同的。
+
+河北办 史军龙
+没有对cpe 5g升级过。
+说升级后也不能搜索到其他厂商的ap.
+
+王伍
+认为内核中的ubi系统可能太老了。
+
+使用我的机器buildall一次ath9.5，大约需要40分钟吧。
+
+有些进程看起来ctl+c不能停止，即使kill -9了，还是在ps中存在：
+jian@jian-OptiPlex-9020:~/work/ath9.5/build$ ps
+  PID TTY          TIME CMD
+ 6101 pts/0    00:00:01 bash
+10228 pts/0    00:00:00 bash
+10230 pts/0    00:00:00 bash
+10326 pts/0    00:00:00 wget <defunct>
+21462 pts/0    00:00:00 ps
+
+嗯，这个里面貌似是我在编译的时候退出了？
+jian@jian-OptiPlex-9020:~/work/ath9.5/build$ ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000  6101  6093  0  80   0 -  7840 wait   pts/0    00:00:01 bash
+0 R  1000  9552  6101  0  80   0 -  4069 -      pts/0    00:00:00 ps
+1 T  1000 10228  6101  0  80   0 -  7840 signal pts/0    00:00:00 bash
+1 T  1000 10230 10228  0  80   0 -  7840 signal pts/0    00:00:00 bash
+0 Z  1000 10326 10230  0  80   0 -     0 exit   pts/0    00:00:00 wget <defunct>
+jian@jian-OptiPlex-9020:~/work/ath9.5/build$ kill -9 10228
+jian@jian-OptiPlex-9020:~/work/ath9.5/build$ ps
+  PID TTY          TIME CMD
+ 6101 pts/0    00:00:01 bash
+ 9901 pts/0    00:00:00 ps
+[1]+  Killed                  ./buildall.sh  (wd: ~/work/temp/ath9.5/build)
+(wd now: ~/work/ath9.5/build)
+
+
+河北 翟福坤
+河北发了10台5.8g的cpe，但是扫描不到其他公司的ap，把115版本，国家代码改成菲律宾的版本发给他试试。
+
+鄂尔多斯移动李工
+服务器已经安装，需要安装网管软件了。
+
+何文秋
+居然知道tamper，1 (未经许可擅自) 变更 [原文等] ,窜改[with]这个词。
+
+吴曦
+联通和柬埔寨的修改已经改成了配置。
+
+金晶
+定位需要这些内容：cellid, lac, mnc mcc.
+谷歌提供开发的api
+在江西永新的设备有奇怪的现象，使用了vlan，上端是华为的交换设备。设备会掉线，开始认为是设备问题，后来发现设备断电重开还是不能连接，连接到交换设备的那些设备在线的口，正常。关电10分钟再开，正常。其他电脑连接，正常。
+
+朱卫平
+要在wifi覆盖中增加审计软件，需要任银善或赵刚支持。
+
 openwrt里面的程序非常非常小啊。
 使用里面的busybox的.config编译的文件
 -rwxrwxr-x 1 jian jian 361352  6月 27 10:45 busybox*
 而9531中的更小，而且vi sed之类也不缺
--rwxr-xr-x    1 root     root        292928 Jun 26 12:33 busybox
+-rwxr-xr-x    1 root     root       292928 Jun 26 12:33 busybox
 
 6.26
 向杰
