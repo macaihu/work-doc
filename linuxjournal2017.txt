@@ -12,7 +12,30 @@ p53 加tr069 a9500加pin验证
 athadhoc quagga这个东西是做什么用的？
 ap-cp中去掉ntfs等。
 
+7.2
+9531 openwrt上
+lrwxrwxrwx    1 root     root            16 May  8  2017 dbclient -> ../sbin/dropbear
+lrwxrwxrwx    1 root     root            16 May  8  2017 dropbearkey -> ../sbin/dropbear
+lrwxrwxrwx    1 root     root            16 May  8  2017 scp -> ../sbin/dropbear
+lrwxrwxrwx    1 root     root            16 May  8  2017 ssh -> ../sbin/dropbear
+-rwxr-xr-x    1 root     root        160821 Dec  6  2016 dropbear
+真的小到离谱啊。
+
+
+6.30
+华润的早上一来就报不能使用了，
+
+当前ath9.5仓大小
+du . -s
+2537636	.
+
 6.29
+王伍
+斯里兰卡电信还要做一个类似wifidog的东西。
+
+向杰
+越南文版本已经发出。
+
 14:59 手上的这个p53居然串口停止响应，然后复位了。
 
 梁剑
@@ -29,7 +52,7 @@ p53的新程序wifi灯不亮了。
 发现那个aaa账号的不会一直断线，而其他的账号在日志中总是有不断的上线消息。
 
 6.28
-华润我们的地址是120.167.116.46:8100
+华润我们的地址是120.197.116.46:8100
 tozed 1qazxsw2
 
 当前卡是13602680403
