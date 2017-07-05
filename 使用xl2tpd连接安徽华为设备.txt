@@ -101,5 +101,5 @@ usepeerdns
 
 参考链接：
 ubuntu linux 下建立 纯L2TP 服务端和客户端
-L2TP服务器和客户端移植ﾧ
+L2TP服务器和客户端移植
 

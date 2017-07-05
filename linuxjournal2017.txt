@@ -12,6 +12,19 @@ p53 加tr069 a9500加pin验证
 athadhoc quagga这个东西是做什么用的？
 ap-cp中去掉ntfs等。
 
+7.3
+叶京平
+问单ap的事情，认为2.4+5.8可以使用300m的带宽。
+
+在没有开启dhcp的情况下，修改ip地址无效果。
+
+当前ath9.5仓 2481464
+
+姚国梁
+查80端口默认没有屏蔽
+电信卡选择3g还是在4g
+把telnet换为ssh方式
+
 7.2
 9531 openwrt上
 lrwxrwxrwx    1 root     root            16 May  8  2017 dbclient -> ../sbin/dropbear
