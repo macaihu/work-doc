@@ -12,6 +12,113 @@ p53 加tr069 a9500加pin验证
 athadhoc quagga这个东西是做什么用的？
 ap-cp中去掉ntfs等。
 
+7.13
+把web_update改为update的方式，recovery这个程序仍然在112次的时候，进入了停住响应的模式。
+那么不要关看门狗试试吧。
+
+7.12
+p25更加10就挂了，不断重启中。
+
+工业路由器今天去掉lteup的重复调用，也拔掉了模块，仍然会出现write 101系统停住的问题。换一个板子来测试吧，现在没有卡，测试了78次了。
+
+fedora 直接安装vim居然失败：
+先更新了下vi，再装vim就好了 就是yum update vi 然后yum install vim
+http://www.cnblogs.com/flyfish919/p/7152005.html
+
+7.11
+直接写复位寄存器都会失败？
+[  243.180000] setting phy reg 1806001c to value ffffffff...
+
+7.10
+#
+# AP91 -- Kernel configuration file for FreeBSD/mips for Atheros AP91 reference
+#         board (AR7240)
+#
+# $FreeBSD$
+#
+
+
+Atheros Reference AP93
+Clone this wiki locally
+
+The Atheros AP93 is an AR7240 MIPS24k SoC enterprise reference design.
+Overview
+
+It has:
+
+    AR7240 SoC, 400MHz
+    64MB RAM
+    16MB NOR flash
+    USB 2.0 EHCI port
+    on-chip 10/100 ethernet switch (LAN ports)
+    10/100/1000 WAN port
+    AR9280 2x2 2GHz wifi NIC
+
+
+
+Atheros AP96 Reference board
+Introduction
+
+The Atheros AP96 is an AR7161 based, dual-AR9280 (2GHz + 5GHz) reference design.
+Hardware
+
+    AR7161, 680MHz
+    64MB RAM
+    8MB SPI flash
+    1 x AR8316 10/100/1000BaseT ethernet switch
+    2 x USB ports
+    1 x AR9280 5GHz NIC
+    1 x AR9283 2GHz NIC
+
+
+The AP135 is a Qualcomm Atheros reference board, with:
+
+    QCA9558 SoC (Scorpion) - 720MHz MIPS74kc; 600MHz DDR2 RAM; 3x3 2GHz 11n wifi;
+    128MiB RAM;
+    16MiB NOR flash (boot);
+    128MiB NAND flash;
+    AR8327 ethernet switch;
+    QCA9880v2 3x3 11ac PCIe NIC.
+
+
+Atheros PB47 Reference board
+Introduction
+
+The Atheros PB47 is an AR7161 based, single Mini-PCI+ slot reference board.
+Hardware
+
+    AR7161, 680MHz
+    64MB RAM
+    8MB SPI flash
+    1 x AR8021 10/100/1000BaseT ethernet PHY (attached to arge1)
+    1 x Akros Silicon AS1834
+    2 x USB ports
+    1 x Mini-PCI+ slot (see blow)
+    1 x xMII slot
+
+
+
+7.7
+当前的工业路由器的大小
+Filesystem           1K-blocks      Used Available Use% Mounted on
+rootfs                    4800      4800         0 100% /
+
+7.6
+system_moniter -s /tmp/.system_protect.config
+
+spectraltool这个进程会导致一个segmentation fail, 并导致其他登录的ifconfig 都停住不动。不知道是什么原因了。
+
+7.5
+吴曦
+信可的说看门狗的做法是一个单片机的核，来监控其他的几个核。发过来的cp程序包括了这个功能，所以升级cp侧程序后，就不断在重启了。
+
+为什么把rootfs改为staging目录就有问题？
+cp ../apps/pptp-1.8.0/pptp /home/jian/work/ath9.5/build/../staging/rootfs-tozedap-cp_ap123.build/usr/sbin/
+cp: failed to access ‘/home/jian/work/ath9.5/build/../staging/rootfs-tozedap-cp_ap123.build/usr/sbin/’: Not a directory
+前面的pppd和chat都没有报错啊。
+前面的把pppd和chat复制为sbin这个文件了。
+但是，没有加上staging这个文件夹的时候是对的。
+
 7.3
 叶京平
 问单ap的事情，认为2.4+5.8可以使用300m的带宽。
