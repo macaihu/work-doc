@@ -1,0 +1,7 @@
+buildall
+
+2017-7-26
+Fedora-Server-dvd-x86_64-25-1.3 ath9.5 buildall ok
+
+2017-7-25
+CentOS-7-x86_64-Minimal-1611 ath9.5 buildall ok

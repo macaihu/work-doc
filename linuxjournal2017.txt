@@ -7,12 +7,356 @@ m60 存在掉校准信息 吴曦：
 南非p21 加wan口功能。
 尼日利亚 m60 1 ip passthough 2 ipsec
 喻潇 还有测试一下p21电信卡屏蔽房不断开门关门的情况。
-p53 加tr069 a9500加pin验证
-越南p21: 增加越南语言。
+p53 加tr069 
 athadhoc quagga这个东西是做什么用的？
 ap-cp中去掉ntfs等。
 
+8.3
+http.cgi居然很容易错误：
+/usr/share/p11-gcc/staging_dir/usr/bin/mips-linux-gdb --exec=/home/jian/work/ath9.5/staging/rootfs-tozedap-router_4g_industry_ap123.build/tzwww/cgi-bin/http.cgi -c core.http.cgi.9957 看不到什么。
+只要刷新主页就能刷出来。
+
+
+华润的邮件服务器地址 168.1.2.117
+好像pptp和l2tp拨入的速度完全不同。一个正常，另外一个ping值高达几秒.
+
+Ethernet MinSize = 512bit = 64 Byte
+Ethernet MaxSize = 1518 Byte
+so Ethernet IP MTU = 1518 - 18 ( 6 SRCMAC+ 6 DSTMAC+ 2 TYPE+ 4 CRC) = 1500 B
+so Ethernet IP TCP MSS = 1500 - 40 ( 20 IP_HEADER + 20 TCP_HEADER) = 1460 B
+so Ethernet IP UDP MTU/MRU = 1500 - 28 ( 20 IP_HEADER + 8 UDP_HEADER ) = 1472 B
+so PPPoE MTU/MRU = 1500 - 8 ( 6 PPPoE_SESSION + 2 PPP_HEADER ) = 1492 B
+so TCP over PPPoE MSS = 1492 ( PPPoE MTU/MRU ) - 40 ( 20 IP_HEADER + 20 TCP_HEADER) = 1452
+so PPTP MTU/MRU = 1500 - 56 ( 20 IP_HEADER + 20 TCP_HEADER + 12 GRE_HEADER + 4 PPP_HEADER ) = 1444 B
+so TCP over PPTP MSS = 1444 ( PPTP MTU/MRU ) - 40 ( 20 IP_HEADER + 20 TCP_HEADER) = 1404
+so L2TP MTU/MRU = 1500 - 40 ( 20 IP_HEADER +8 UDP_HEADER + 8 L2TP_HEADER + 4 PPP_HEADER ) = 1460 B
+so TCP over L2TP MSS = 1460 ( L2TP MTU/MRU ) - 40 ( 20 IP_HEADER + 20 TCP_HEADER) = 1420 B
+so PPTP over PPPoE MTU/MRU = 1492 ( PPPoE MTU/MRU ) - 56 ( 20 IP_HEADER + 20 TCP_HEADER + 12 GRE_HEADER + 4 PPP_HEADER ) = 1436 B
+so PPTP over PPTP MTU/MRU = 1444 ( PPTP MTU/MRU ) - 56 ( 20 IP_HEADER + 20 TCP_HEADER + 12 GRE_HEADER + 4 PPP_HEADER ) = 1388 B
+so PPTP over L2TP MTU/MRU = 1460 ( L2TP MTU/MRU ) - 56 ( 20 IP_HEADER + 20 TCP_HEADER + 12 GRE_HEADER + 4 PPP_HEADER ) = 1404 B
+so L2TP over PPPoE MTU/MRU = 1492 ( PPPoE MTU/MRU ) - 40 ( 20 IP_HEADER +8 UDP_HEADER + 8 L2TP_HEADER + 4 PPP_HEADER ) = 1452 B
+so L2TP over PPTP MTU/MRU = 1444 ( PPTP MTU/MRU ) - 40 ( 20 IP_HEADER +8 UDP_HEADER + 8 L2TP_HEADER + 4 PPP_HEADER ) = 1404 B
+so L2TP over L2TP MTU/MRU = 1460 ( L2TP MTU/MRU ) - 40 ( 20 IP_HEADER +8 UDP_HEADER + 8 L2TP_HEADER + 4 PPP_HEADER ) = 1420 B
+
+p53的端口映射是不起作用的。
+
+好像总是很多事情，然后没有时间记录，这样也不好吧。
+
+郑达：
+udpserver的基本功能有了，数据库也建了，但是由于sql server 2008没有内存表这样的东西，所以要考虑一个复杂的内存结构来实现。考虑还是在2016上直接完成。
+
+8.1
+去掉recovery程序后的9341，继续测试了792次，停止响应了。
+
+7.31
+去掉recovery程序后的9341，已经测试了779次，转到笔记本继续吧。
+
+
+ Symbol: IP_VS_PE_SIP [=n]                                                                                                                                          │  
+  │ Type  : tristate                                                                                                                                                  │  
+  │ Prompt: SIP persistence engine                                                                                                                                     │  
+  │   Defined at net/netfilter/ipvs/Kconfig:274                                                                                                                        │  
+  │   Depends on: NET [=y] && NETFILTER [=y] && IP_VS [=n] && IP_VS_PROTO_UDP [=n] && NF_CONNTRACK_SIP [=m]                                                            │  
+  │   Location:                                                                                                                                                        │  
+  │     -> Networking support (NET [=y])                                                                                                                               │  
+  │       -> Networking options                                                                                                                                        │  
+  │         -> Network packet filtering framework (Netfilter) (NETFILTER [=y])                                                                                         │  
+  │           -> IP virtual server support (IP_VS [=n])  
+
+9531已经测试了2803次，加上前面的700多次，已经超过300次了。
+去掉recovery程序后的9341，已经测试了494次。
+
+7.30
+...............................................................................2017-07-28 19:18:50
+reboot  68 times
+conneting...ok
+ uptime
+ 08:01:09 up 1 min,  load average: 0.69, 0.22, 0.07
+/tmp/tools #
+wait 80 sec.
+...............................................................................2017-07-28 19:20:10
+
+
+7.28
+貌似终端寄存器很多，一个一个看看：
+
+GPIO Interrupt Mask (GPIO_INT_MASK)                      18040024 值 0
+Miscellaneous Interrupt Mask (RST_MISC_INTERRUPT_MASK)   18060014 值 c
+LUTs Ager Interrupt Mask (LUTS_AGER_INTR_MASK) Address:  18070008 值 f
+Primary Interrupt Mask (IMR_P)                           181000A0 值 81810175
+Secondary Interrupt Mask 0 (IMR_S0)                      181000A4 值 3cf
+Secondary Interrupt Mask 1 (IMR_S1)                      181000A8 3cf
+Secondary Interrupt Mask 3                               181000B0 0
+Secondary Interrupt Mask 4 (IMR_S4)                      181000B4 0
+Secondary Interrupt Mask 5 (IMR_S5)                      181000B8 0
+Synchronous Interrupt Mask                               1810401C 5c
+Asynchronous Interrupt Mask                              18104020 0
+Asynchronous Priority Interrupt Mask                     1810408c 0 
+Synchronous Priority Interrupt Mask                      18104090 0
+RTC Interrupt Mask                                       18107058 0
+Checksum Interrupt Mask                                  18400044 0
+Interrupt Mask (DMAINTRMASK)                             19000198 0
+                                                         1A000198 d9
+
+
+使用9531做复位动作，已经做了728次，现在增加了查看启动时间，继续做吧。
+
+
+7.27
+p59命令升级：
+tftp -g 192.168.0.50 -l tozedap-p59_ap143-squashfs
+update tozedap-p59_ap143-squashfs /dev/mtd3
+tftp -g 192.168.0.50 -l vmlinux_routing.lzma.uImage
+flashcp tozedap-p59_ap143-squashfs /dev/mtd3
+7.26
+只要系统设置为中文版，编译就会出现
+/mkimage: invalid entry point -n
+这样的东西。
+
+【fedora】设置中文为默认语言
+安装Fedora时，界面语言是英语，手动安装简体中文语言包：
+1、打开终端，执行yum install system-config-language命令来安装语言套件；
+2、然后执行system-config-language
+选择中文简体。
+在重启后会自动设置成中文。
+http://www.cnblogs.com/lizunicon/p/3509559.html
+换成英文也要狂下载一堆东西么？
+
+
+7.24
+p25的
+ find -type f -print -exec cat {} \;
+./ip_conntrack_buckets 	1024
+./ip_conntrack_checksum 	1
+./ip_conntrack_count 	6
+./ip_conntrack_generic_timeout 	600
+./ip_conntrack_icmp_timeout 30
+./ip_conntrack_log_invalid 0
+./ip_conntrack_max 7248
+./ip_conntrack_tcp_be_liberal 0
+./ip_conntrack_tcp_loose 1
+./ip_conntrack_tcp_max_retrans 3
+./ip_conntrack_tcp_timeout_close 120
+./ip_conntrack_tcp_timeout_close_wait 60
+./ip_conntrack_tcp_timeout_established 7200
+./ip_conntrack_tcp_timeout_fin_wait 120
+./ip_conntrack_tcp_timeout_last_ack 30
+./ip_conntrack_tcp_timeout_max_retrans 300
+./ip_conntrack_tcp_timeout_syn_recv 60
+./ip_conntrack_tcp_timeout_syn_sent 120
+./ip_conntrack_tcp_timeout_syn_sent2 120
+./ip_conntrack_tcp_timeout_time_wait 120
+./ip_conntrack_udp_timeout 120
+./ip_conntrack_udp_timeout_stream 180
+
+p53的
+ find -type f -print -exec cat {} \;
+./ip_conntrack_generic_timeout 600
+./ip_conntrack_tcp_timeout_syn_sent 120
+./ip_conntrack_tcp_timeout_syn_sent2 120
+./ip_conntrack_tcp_timeout_syn_recv 60
+./ip_conntrack_tcp_timeout_established 1200
+./ip_conntrack_tcp_timeout_fin_wait 120
+./ip_conntrack_tcp_timeout_close_wait 60
+./ip_conntrack_tcp_timeout_last_ack 30
+./ip_conntrack_tcp_timeout_time_wait 120
+./ip_conntrack_tcp_timeout_close 10
+./ip_conntrack_tcp_timeout_max_retrans 300
+./ip_conntrack_tcp_loose 1
+./ip_conntrack_tcp_be_liberal 0
+./ip_conntrack_tcp_max_retrans 3
+./ip_conntrack_udp_timeout 30
+./ip_conntrack_udp_timeout_stream 180
+./ip_conntrack_icmp_timeout 30
+./ip_conntrack_max 8000
+./ip_conntrack_count 13
+./ip_conntrack_buckets 1024
+./ip_conntrack_checksum 1
+./ip_conntrack_log_invalid 0
+
+
+p56
+./ip_conntrack_buckets 1024
+./ip_conntrack_checksum 0
+./ip_conntrack_count 45
+./ip_conntrack_generic_timeout 600
+./ip_conntrack_icmp_timeout 30
+./ip_conntrack_log_invalid 0
+./ip_conntrack_max 1964
+./ip_conntrack_tcp_be_liberal 1
+./ip_conntrack_tcp_loose 1
+./ip_conntrack_tcp_max_retrans 3
+./ip_conntrack_tcp_timeout_close 10
+./ip_conntrack_tcp_timeout_close_wait 60
+./ip_conntrack_tcp_timeout_established 432000
+./ip_conntrack_tcp_timeout_fin_wait 120
+./ip_conntrack_tcp_timeout_last_ack 30
+./ip_conntrack_tcp_timeout_max_retrans 300
+./ip_conntrack_tcp_timeout_syn_recv 60
+./ip_conntrack_tcp_timeout_syn_sent 120
+./ip_conntrack_tcp_timeout_syn_sent2 120
+./ip_conntrack_tcp_timeout_time_wait 120
+./ip_conntrack_udp_timeout 30
+./ip_conntrack_udp_timeout_stream 180
+
+如下1860平台的M60和P28参数。
+./ip_conntrack_buckets                  2048
+./ip_conntrack_checksum               1
+./ip_conntrack_count                     26（M60：164）
+./ip_conntrack_generic_timeout     600
+./ip_conntrack_icmp_timeout         30
+./ip_conntrack_log_invalid              0
+./ip_conntrack_max                       8012
+./ip_conntrack_sctp_timeout_closed                      10
+./ip_conntrack_sctp_timeout_cookie_echoed         3
+./ip_conntrack_sctp_timeout_cookie_wait              3
+./ip_conntrack_sctp_timeout_established               432000
+./ip_conntrack_sctp_timeout_shutdown_ack_sent  3
+./ip_conntrack_sctp_timeout_shutdown_recd         0
+./ip_conntrack_sctp_timeout_shutdown_sent         0
+./ip_conntrack_tcp_be_liberal                                 0
+./ip_conntrack_tcp_loose                                       1
+./ip_conntrack_tcp_max_retrans                            3
+./ip_conntrack_tcp_timeout_close                      10
+./ip_conntrack_tcp_timeout_close_wait              60
+./ip_conntrack_tcp_timeout_established            432000
+./ip_conntrack_tcp_timeout_fin_wait                 120
+./ip_conntrack_tcp_timeout_last_ack                 30
+./ip_conntrack_tcp_timeout_max_retrans          300
+./ip_conntrack_tcp_timeout_syn_recv                60
+./ip_conntrack_tcp_timeout_syn_sent                120
+./ip_conntrack_tcp_timeout_syn_sent2              120
+./ip_conntrack_tcp_timeout_time_wait              120
+./ip_conntrack_udp_timeout                             30
+./ip_conntrack_udp_timeout_stream                 180
+
+7.22
+pptpd的程序貌似只有在这里才找到
+https://sourceforge.net/projects/pptpclient/files/pptp/
+
+7.21
++l2tp拨号修正4g网络断线重连后可能无法再次拨入（梁剑）
++加上对poweon的操作，兼容联芯L1761模块（刘云）
++pptp拨号修正4g网络断线重连后可能无法再次拨入（梁剑）
++修正新的拨号程序后，tcp网管程序tzupdate不上报数据。（郑达）
++将有线中的IP地址与WIFI客户端中的IP地址分开保存在不同的配置中（向杰）
++当使用以太网客户端模式时，两个网口，左边为wan，右边为lan（梁剑）
++以太网客户端网页配置（向杰）
++增加以太网客户端模式，支持动态地址和静态地址（梁剑）
++pppd参考openwrt中的配置，删除ipx,tdb支持。（简亮）
++udp网管新程序增加上报参数（郑达）
++使用pptp 1.9.0，pptp 1.8.0太老了（任银善）
+
+
+7.20
+
+./cool ap-p11_4g_router switchwan_build
+./cool p10p switchwan_build
+
+
+只做复位，做到340次的时候没有响应了。
+/tmp/tools #
+wait 80 sec.
+...............................................................................reboot  340 times
+conneting...ok
+BusyBox v1.24.2 (2017-07-18 09:20:31 CST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+/tmp/tools #
+wait 80 sec.
+...............................................................................reboot  341 times
+conneting...[Errno 110] Connection timed out
+wait 80 sec.
+...............................................................................reboot  342 times
+conneting...[Errno 113] No route to host
+wait 80 sec.
+
+
+
+7.19
+昨天的测试到了74次还是挂了。
+
+7.18
+[  126.660766] Kernel panic - not syncing: ERR: send to CP skb->data% != 0
+[  126.666839] [<c000d4cc>] (unwind_backtrace+0x0/0xf8) from [<c04d4a24>] (panic+0x78/0x1ac)
+[  126.674987] [<c04d4a24>] (panic+0x78/0x1ac) from [<c038cf24>] (insert_toext_dbg+0x15c/0x17c)
+[  126.683380] [<c038cf24>] (insert_toext_dbg+0x15c/0x17c) from [<c038d750>] (insert_toext_mem+0xc/0x18)
+[  126.692596] [<c038d750>] (insert_toext_mem+0xc/0x18) from [<c02b9d2c>] (ddrnet_tx_packet+0x60/0xe0)
+[  126.701629] [<c02b9d2c>] (ddrnet_tx_packet+0x60/0xe0) from [<c03716e8>] (dev_hard_start_xmit+0x3dc/0x63c)
+[  126.711181] [<c03716e8>] (dev_hard_start_xmit+0x3dc/0x63c) from [<c0397008>] (sch_direct_xmit+0xa4/0x198)
+[  126.720733] [<c0397008>] (sch_direct_xmit+0xa4/0x198) from [<c0371b10>] (dev_queue_xmit+0x1c8/0x518)
+[  126.729858] [<c0371b10>] (dev_queue_xmit+0x1c8/0x518) from [<c03db790>] (ip_finish_output+0x138/0x2bc)
+[  126.739135] [<c03db790>] (ip_finish_output+0x138/0x2bc) from [<c03dbce0>] (ip_local_out+0x28/0x2c)
+[  126.748077] [<c03dbce0>] (ip_local_out+0x28/0x2c) from [<c03dbe1c>] (ip_queue_xmit+0x138/0x394)
+[  126.756774] [<c03dbe1c>] (ip_queue_xmit+0x138/0x394) from [<c04ab288>] (l2tp_xmit_skb+0x2fc/0x524)
+[  126.765716] [<c04ab288>] (l2tp_xmit_skb+0x2fc/0x524) from [<c04ad45c>] (pppol2tp_xmit+0x140/0x1d0)
+[  126.774658] [<c04ad45c>] (pppol2tp_xmit+0x140/0x1d0) from [<c01edd14>] (ppp_channel_push+0x48/0x94)
+[  126.783660] [<c01edd14>] (ppp_channel_push+0x48/0x94) from [<c01ede58>] (ppp_write+0xf8/0x138)
+[  126.792266] [<c01ede58>] (ppp_write+0xf8/0x138) from [<c007e6cc>] (vfs_write+0xa0/0x144)
+[  126.800354] [<c007e6cc>] (vfs_write+0xa0/0x144) from [<c007e958>] (sys_write+0x38/0x70)
+[  126.808349] [<c007e958>] (sys_write+0x38/0x70) from [<c0009020>] (ret_fast_syscall+
+
+
+ killall wlan-server zte_usbCfgMng hotplugnl zte_rj45
+
+各位同事请注意，把开票资料保存好！从7月1号开始无论是普通发票还是专用发票，发票上的这些信息一条都不能少。          
+
+公司名称：深圳市通则技术股份有限公司
+地址电话：深圳市福田区车公庙天安工业区天吉大厦4楼A1、A2
+          0755-83583715
+税    号：91440300734188444E
+开户银行：建设银行深圳泰然支行
+银行帐号：44201530300052506208
+
+
+早上来，145次挂了，最后一次看起来是
+Writing kb: 408/6848 (5%) ntpd: setting time to 2017-07-18 08:43:49.747861 (offset +1500338536.021268s)
+Writing kb: 6848/6848 (100%) 
+Verifying kb: 6848/6848 (100%) 
+sysfile vice recover end
+2048+0 records in
+2048+0 records out
+1048576 bytes (1.0MB) copied, 0.499123 seconds, 2.0MB/s
+Erasing block: 16/16 (100%) 
+Writing kb: 1024/1024 (100%) 
+Verifying kb: 868/1024 (8[  123.010000] setting phy reg 180600b8 to value 0...
+Verifying kb: 1024/1024 (100%) 
+ker vice recover end,recover vice successful
+write nart flag :ff
+[  242.260000] setting phy reg 180600b8 to value 0...
+[  284.380000] setting phy reg 1806001c to value 0...
+[  287.390000] setting phy reg 1806001c to value ffffffff...
+
+
+
 7.16
+为什么我的电脑tftp不能默认启动了？
+sudo service tftpd-hpa restart
+
+即使使用mtd-util 2.0,mkfs.jffs2里面还是没有对其他压缩格式的支持。
+
+77上面echo 1 >  /proc/sys/net/ipv4/ip_forward 居然没有开。
+
+即使不加开机复位，p53仍然存在开发停住的情况。
+
+Filesystem                Size      Used Available Use% Mounted on
+rootfs                    3.8M      3.8M         0 100% /
+rootfs                    3840      3840         0 100% /
+比zlib算法少了1m。
+如果是gcc-4.6编译的，就还要小一点
+Filesystem           1K-blocks      Used Available Use% Mounted on
+rootfs                    3776      3776         0 100% /
+
+
+使用xz压缩算法后，p53的文件系统变得小到惊人：
+
+
+p53上访问/mnt内部的文件
+/mnt/etc # cat iptables_config
+[  113.210000] JFFS2 compression type 0x06 not available.
+[  113.210000] Error: jffs2_decompress returned -5
+
+
+
 让vim记住上次编辑的位置
 以下内容，保存到 ~/.vimrc 文件即可，以作备份。
 " ======= 恢复上次文件打开位置 ======= "  
