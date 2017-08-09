@@ -1,3 +1,15 @@
+p59:
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+setenv bootcmd "bootm 0x9F050000"
+
+setenv bootargs "board=AP147  console=ttyS0,115200 root=31:03 rootfstype=squashfs rw init=/sbin/init mtdparts=spi0.0:256k(u-boot)ro,64k(u-boot-env),1408k(kernel),14080k(rootfs),512k(data),64k(ART)"
+tftp 0x80060000 vmlinux_routing.lzma.uImage && erase 0x9f050000 +$filesize && cp.b $fileaddr 0x9f050000 $filesize
+tftp 0x80060000 vmlinux_ap143.lzma.uImage && erase 0x9f050000 +$filesize && cp.b $fileaddr 0x9f050000 $filesize
+tftp 0x80060000 tozedap-p59_ap143-squashfs   && erase 0x9f1b0000 +$filesize && cp.b   $fileaddr 0x9f1b0000 $filesize
+tftp 0x80060000 tozedap-p59_ap143_data-jffs2  && erase 0x9ff70000 +$filesize && cp.b $fileaddr 0x9ff70000 $filesize && boot
+
+setenv bootargs "board=TZ317  console=ttyS0,115200 root=31:03 rootfstype=squashfs rw init=/sbin/init mtdparts=spi0.0:256k(u-boot)ro,64k(u-boot-env),1408k(kernel),14080k(rootfs),512k(data),64k(ART)"
+
 工业路由器使用qsdk
 set ipaddr 10.8.0.33 && set serverip 10.8.0.100
 tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9fd70000 +$filesize&&cp.b $fileaddr 0x9fd70000 $filesize
@@ -25,9 +37,7 @@ tftp 0x80060000 openwrt-AC_V1.0.0-ar71xx-generic-ap147-010-squashfs-sysupgrade.b
 
 setenv bootargs "board=AP147  console=ttyS0,115200 root=31:03 rootfstype=squashfs rw init=/sbin/init mtdparts=spi0.0:256k(u-boot)ro,64k(u-boot-env),1408k(kernel),14080k(rootfs),512k(data),64k(ART)"
 
-tftp 0x80060000 vmlinux_routing.lzma.uImage && erase 0x9f050000 +$filesize && cp.b $fileaddr 0x9f050000 $filesize
-tftp 0x80060000 board953x_ap143-squashfs   && erase 0x9f1b0000 +$filesize && cp.b   $fileaddr 0x9f1b0000 $filesize
-tftp 0x80060000 board953x_ap143_data-jffs2  && erase 0x9ff70000 +$filesize && cp.b $fileaddr 0x9ff70000 $filesize && boot
+
 
 
 p10p刷p11s:
