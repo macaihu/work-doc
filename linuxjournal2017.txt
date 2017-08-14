@@ -11,6 +11,23 @@ p53 加tr069
 athadhoc quagga这个东西是做什么用的？
 ap-cp中去掉ntfs等。
 
+8.10
+当前p53大小，增加了pppoe这个程序。
+Filesystem           1K-blocks      Used Available Use% Mounted on
+rootfs                    3904      3904         0 100% /
+
+
+8.9
+陈良计划和总结：
+菲律宾GLOBE P25项目: 升级还会出现升挂的情况,短消息会出现重复读取的情况。TR069还没有完成。
+
+这几天的提交看起来非常多，应该出一个版本了。
+
+早上过来的时候，桌面上的联芯模块的p53已经不能ping出去了。结果直接升级了。
+
+编译有如下错误：
+rm: cannot remove ‘nart.tar.gz’: No such file or directory
+
 8.3
 http.cgi居然很容易错误：
 /usr/share/p11-gcc/staging_dir/usr/bin/mips-linux-gdb --exec=/home/jian/work/ath9.5/staging/rootfs-tozedap-router_4g_industry_ap123.build/tzwww/cgi-bin/http.cgi -c core.http.cgi.9957 看不到什么。
