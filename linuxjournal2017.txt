@@ -11,6 +11,33 @@ p53 加tr069
 athadhoc quagga这个东西是做什么用的？
 ap-cp中去掉ntfs等。
 
+8.17
+/opt/work/ath9.5/drivers/wlan_v10.4/os/linux/../../umac/../os/linux/src/if_ath_ahb.c:35:21: error: ath_pci.h: No such file or directory
+/opt/work/ath9.5/drivers/wlan_v10.4/os/linux/../../umac/../os/linux/src/if_ath_ahb.c: In function 'ath_ahb_probe':
+/opt/work/ath9.5/drivers/wlan_v10.4/os/linux/../../umac/../os/linux/src/if_ath_ahb.c:202: error: implicit declaration of function 'ol_ath_ahb_probe'
+/opt/work/ath9.5/drivers/wlan_v10.4/os/linux/../../umac/../os/linux/src/if_ath_ahb.c: In function 'ath_ahb_remove':
+/opt/work/ath9.5/drivers/wlan_v10.4/os/linux/../../umac/../os/linux/src/if_ath_ahb.c:249: error: implicit declaration of function 'ol_ath_ahb_remove'
+
+
+/opt/work/ath9.5/drivers/wlan_v10.4/os/linux/../../umac/mlme/ieee80211_mgmt_sta.c: In function 'ieee80211_recv_beacon_sta':
+/opt/work/ath9.5/drivers/wlan_v10.4/os/linux/../../umac/mlme/ieee80211_mgmt_sta.c:666: error: 'struct ieee80211com' has no member named 'ic_dfs_cancel_waitfor_csa_timer'
+
+今天使用联芯模块，没有出现在win7下载网易iso下载一段时间，几秒钟，就停止的情况。
+使用手机连到wifi，看微博视频貌似也是没有异常。
+
+昨天的情况是用联芯模块，在win7下下载文件，很快就会停止，地址如下
+wget http://mirrors.163.com/ubuntu-releases/17.04/ubuntu-17.04-desktop-amd64.iso
+其实其他地址也差不多。
+
+QGDW 11009-2013 电能计量封印技术规范
+QGDW 11009-2013 电能计量封印技术规范_文库下载http://www.wenkuxiazai.com/doc/b2aa9c81cc175527072208dc-7.html 
+科陆电子RFID计量封印管理系统
+http://solution.rfidworld.com.cn/2013_10/2d2ef4b90af72c28.html
+
+8.14
+王伍
+电话主要说工业路由器的事情，问2个新人的情况，我需要再次催促
+
 8.10
 当前p53大小，增加了pppoe这个程序。
 Filesystem           1K-blocks      Used Available Use% Mounted on
