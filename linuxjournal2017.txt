@@ -11,6 +11,89 @@ p53 加tr069
 athadhoc quagga这个东西是做什么用的？
 ap-cp中去掉ntfs等。
 
+8.23
+ubuntu的wine版本应该比较老吧，装这里的看看：
+https://wiki.winehq.org/Ubuntu
+jian@jian-OptiPlex-9020:~/work/temp/ath9.5/build$ wine --version
+wine-1.6.2
+jian@jian-OptiPlex-9020:~/work/temp/ath9.5/build$ wine --version
+wine-2.0.2
+
+8.22
+是不是这样就解决问题了？
+echo 1 > /proc/sys/net/netfilter/nf_conntrack_tcp_no_window_check
+
+在/proc/sys/net/ipv4/conf/default，p53和p25是一样的。
+/proc/sys/net/ipv4/conf/all这里也一样
+
+桌面上这个9344的0keeper运行了38天，今天下午3点不能连接了，是不是这段时间连接的客户端超级多？
+
+TOZED_SOFTVERSION TOZED_VERSION
+ Symbol: IP_ROUTE_MULTIPATH [=y]                                                                                                │  
+  │ Type  : boolean                                
+  │ Prompt: IP: equal cost multipath                                                                                               │   Defined at net/ipv4/Kconfig:84                                                                                               │   Depends on: NET [=y] && INET [=y] && IP_ADVANCED_ROUTER [=y]                                                                 │   Location:                                                                                                                    │     -> Networking support (NET [=y])                                                                                           │       -> Networking options                                                                                                    │         -> TCP/IP networking (INET [=y])                                                                                       │           -> IP: advanced router (IP_ADVANCED_ROUTER [=y])                  
+
+
+8.21
+qsdk中qca/src/qca-wifi-10.4/os/linux/configs/目录中看起来是wifi的配置文件。
+
+看起来区别也不是非常大。
+~/work/ath9.5/linux/kernels/linux-3.3.8$ meld .config ~/work/zte7520_ap/linux_plat/base/linux/linux-3.4.x/.config
+
+ Symbol: NF_NAT_SNMP_BASIC [=m]    
+
+这个CONFIG_ARCH_HIBERNATION_POSSIBLE=y看起来没有任何地方用到了。
+
+这个TRAD_SIGNALS也不知道是什么
+ Symbol: TRAD_SIGNALS [=y]                                                                                                      │  
+  │ Type  : boolean                                                                                                                │  
+  │   Selected by: 32BIT [=y] && <choice> && CPU_SUPPORTS_32BIT_KERNEL [=y] && SYS_SUPPORTS_32BIT_KERNEL [=y]         
+
+8.20
+CONFIG_SLUB=y改为slab，貌似也没有什么效果。
+
+这些选项需要开么：
+CONFIG_PERF_EVENTS=y
+CONFIG_SLUB=y
+CONFIG_TRAD_SIGNALS=y
+CONFIG_ARCH_HIBERNATION_POSSIBLE=y
+CONFIG_ETHERNET_PACKET_MANGLE=y
+CONFIG_XFRM_IPCOMP=m
+CONFIG_IP_ROUTE_MULTIPATH=y
+CONFIG_NET_IPIP=m
+CONFIG_ARPD=y
+CONFIG_SYN_COOKIES=y
+CONFIG_INET_AH=m
+CONFIG_INET_IPCOMP=m
+CONFIG_INET_XFRM_TUNNEL=m
+CONFIG_TCP_CONG_ADVANCED=y
+CONFIG_IPV6_PRIVACY=y
+CONFIG_INET6_AH=m
+CONFIG_INET6_XFRM_TUNNEL=m
+CONFIG_NF_CONNTRACK_EVENTS=y
+CONFIG_NF_CONNTRACK_SNMP=m
+CONFIG_NETFILTER_XT_TARGET_CONNMARK=m
+CONFIG_NETFILTER_XT_TARGET_CT=m
+CONFIG_NETFILTER_XT_TARGET_NOTRACK=m
+CONFIG_NETFILTER_XT_MATCH_COMMENT=m
+CONFIG_NETFILTER_XT_MATCH_CONNBYTES=m
+CONFIG_NETFILTER_XT_MATCH_ESP=m
+CONFIG_NETFILTER_XT_MATCH_HASHLIMIT=m
+CONFIG_NETFILTER_XT_MATCH_HELPER=m
+CONFIG_HAVE_IDE=y
+CONFIG_INPUT=y
+
+貌似p25开了的
+
+# CONFIG_NETFILTER_NETLINK is not set
+# CONFIG_NETFILTER_NETLINK_ACCT is not set
+# CONFIG_NETFILTER_NETLINK_QUEUE is not set
+# CONFIG_NETFILTER_XT_MARK is not set
+# CONFIG_NETFILTER_XT_TARGET_CLASSIFY is not set
+# CONFIG_NETFILTER_XT_TARGET_MARK is not set
+# CONFIG_NETFILTER_XT_MATCH_DSCP is not set
+# CONFIG_NETFILTER_XT_MATCH_LENGTH is not set
+
 8.17
 /opt/work/ath9.5/drivers/wlan_v10.4/os/linux/../../umac/../os/linux/src/if_ath_ahb.c:35:21: error: ath_pci.h: No such file or directory
 /opt/work/ath9.5/drivers/wlan_v10.4/os/linux/../../umac/../os/linux/src/if_ath_ahb.c: In function 'ath_ahb_probe':
@@ -36,7 +119,7 @@ http://solution.rfidworld.com.cn/2013_10/2d2ef4b90af72c28.html
 
 8.14
 王伍
-电话主要说工业路由器的事情，问2个新人的情况，我需要再次催促
+电话主要说工业路由器的事情，问2个新人的情况，我需要再次
 
 8.10
 当前p53大小，增加了pppoe这个程序。
