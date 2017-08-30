@@ -3,13 +3,258 @@
 待解决问题：
 cat-m模块调试,各种页面信息
 m60 存在掉校准信息 吴曦：
-9531 工业路由器 升级  1：流量报警 2 对ip限速。 任银善
 南非p21 加wan口功能。
-尼日利亚 m60 1 ip passthough 2 ipsec
 喻潇 还有测试一下p21电信卡屏蔽房不断开门关门的情况。
 p53 加tr069 
 athadhoc quagga这个东西是做什么用的？
 ap-cp中去掉ntfs等。
+
+8.30
+:set nu可以在vi中显示行号.
+http://blog.csdn.net/chuanj1985/article/details/6873830
+
+梁剑
+叶京平客户要求的到达公交站后自动连接到公交站的wifi的要求, 可以直接把覆盖的那个ap的改一下, 不变它,这样网页设置的参数改一下存储的参数, 改一下wifi启动脚本, switchwan不用修改.
+
+
+
+8.29
+任银善
+问防火墙设置和操作.
+
+刘云
+p59貌似升级挂了. 原因是刘云的机器uboot没有升级.
+
+梁剑
+为什么5.8g的频道设置不了,要设置到5.2g去? 难道是国家代码的问题?
+
+王伍
+工业路由器:
+6台坏机器的说明.
+p53的测试表格.
+p53的丝印要改.
+-40度,要加加热芯片
+天线要防雷
+不知道的概念:冷压端正, igmp代理, 后路由.
+
+李柱栋
+可以在mini-snmp中增加设置操作了.
+郑荣俊没有时间来改i2c的芯片了.
+
+吴曦
+信可认为找到了写mac等失败的原因, 写mac,imei等是cp侧处理的,而写usb网卡的mac是ap测处理, 写在同一个位置,这样
+
+8.28
+C语言实现程序跳转到绝对地址0x100000处执行： ((void(*)(void))0x100000)();
+http://blog.csdn.net/jipingyuan/article/details/39297409
+跳转到0处，无论放在应用程序还是内核中，都是非法错。
+
+梁剑
+编译程序发现不能用4g了，原来是编译p59后，没有做clean动作. 增加一个说明到脚本中吧,也许应该发现修改了类型,就clean.
+
+任银善
+参考了openwrt的脚本,发现它的加载umac驱动时增加了testmode=1和ahbskip=1 两个参数。并在wifi驱动编译时，打开了对应的2个开关。现在可以进行art校准2.4G和5G。
+
+汪光华
+1860内核中增加了那个no_window的参数,但是发现没有那个文件, dmesg发现这个模块没有加载起来,跟踪程序发现里面的data字段都消失了. android奇怪的现象. 
+
+叶京平
+要一个p59, 要增加gps, 还有增加一个到了总站自动切换到总站的wifi去.
+
+郑达
+反复重启挂掉了, 改为reboot看看.
+
+周洪亮
+有个手环的, 硬件由
+
+
+8.27
+来来来，做消除吧:
+/opt/work/ath9.5/drivers/wlan_v10/os/linux/../../umac/../adf/include/os/adf_os_defer.h:101:1: note: expected 'adf_os_defer_fn_t' but argument is of type 'void * (*)(void *)'
+
+
+/opt/work/ath9.5/drivers/wlan_v10/os/linux/../../umac/wnm/ieee80211_wnm_sta.c: In function 'ieee80211_recv_fms_rsp':
+/opt/work/ath9.5/drivers/wlan_v10/os/linux/../../umac/wnm/ieee80211_wnm_sta.c:331:1: warning: the frame size of 5096 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ }
+ ^
+/opt/work/ath9.5/drivers/wlan_v10/os/linux/../../umac/wnm/ieee80211_wnm_sta.c: In function 'ieee80211_add_tfs_resp':
+/opt/work/ath9.5/drivers/wlan_v10/os/linux/../../umac/wnm/ieee80211_wnm_sta.c:447:1: warning: the frame size of 5328 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ }
+ ^
+/opt/work/ath9.5/drivers/wlan_v10/os/linux/../../umac/wnm/ieee80211_wnm_sta.c: In function 'ieee80211_recv_tfs_recv_notify':
+/opt/work/ath9.5/drivers/wlan_v10/os/linux/../../umac/wnm/ieee80211_wnm_sta.c:481:1: warning: the frame size of 4128 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+
+/opt/work/ath9.5/drivers/wlan_v10/os/linux/../../umac/wnm/ieee80211_wnm.c:1121:1: warning: the frame size of 4136 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ }
+ ^
+/opt/work/ath9.5/drivers/wlan_v10/os/linux/../../umac/wnm/ieee80211_wnm.c: In function 'wlan_wnm_set_fms':
+/opt/work/ath9.5/drivers/wlan_v10/os/linux/../../umac/wnm/ieee80211_wnm.c:1254:1: warning: the frame size of 4144 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+/opt/work/ath9.5/drivers/wlan_v10/os/linux/../../umac/../os/linux/src/ald_netlink.c:151:1: warning: the frame size of 3688 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+
+
+
+WARNING: /opt/work/ath9.5/drivers/wlan_v10/os/linux/../../lmac/ath_dev/ath_dev: 'bus_dma_sync_single' exported twice. Previous export was in /opt/work/ath9.5/drivers/wlan_v10/os/linux/../../lmac/ath_dev/ath_dev.ko
+WARNING: /opt/work/ath9.5/drivers/wlan_v10/os/linux/../../lmac/ath_dev/ath_dev: 'bus_unmap_single' exported twice. Previous export was in /opt/work/ath9.5/drivers/wlan_v10/os/linux/../../lmac/ath_dev/ath_dev.ko
+WARNING: /opt/work/ath9.5/drivers/wlan_v10/os/linux/../../lmac/ath_dev/ath_dev: 'bus_map_single' exported twice. Previous export was in /opt/work/ath9.5/drivers/wlan_v10/os/linux/../../lmac/ath_dev/ath_dev.ko
+
+/opt/work/ath9.5/drivers/wlan_v10/os/linux/../../lmac/ratectrl/if_athrate.c:1084:46: warning: 'rix' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         pRc->TxRateInMbps += pRateTable->info[rix].rateKbps / 1000;
+/opt/work/ath9.5/drivers/wlan_v10/os/linux/../../lmac/spectral/spectral.c:1362:1: warning: the frame size of 10120 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+
+
+
+
+
+
+使用3.18.23的
+In file included from ./arch/mips/include/asm/page.h:15:0,
+                 from /opt/work/temp/ath9.5/drivers/wlan_v10/os/linux/ath_hal/../../../include/compat.h:101,
+                 from <command-line>:0:
+./arch/mips/include/asm/mipsregs.h:769:33: error: unknown type name 'u16'
+ static inline int mm_insn_16bit(u16 insn)
+内核，4.8编译器，wlan_v10的无线驱动，好像报错也是一大堆。
+
+这个文章要求改 mipsisa32-be-elf.inc这个文件：
+https://codedump.io/share/fPhSVNKO0bjT/1/compiling-a-driver-for-mips-architecture-on-44-kernel
+去掉这个system是可以去掉这个错误的，不过：
+wlan_v10/os/linux/../../adf/net/linux/adf_net.c:424:38: error: macro "alloc_netdev" requires 4 arguments, but only 3 given
+                           ether_setup);
+                                      ^
+/opt/work/temp/ath9.5/drivers/wlan_v10/os/linux/../../adf/net/linux/adf_net.c:423:14: error: 'alloc_netdev' undeclared (first use in this function)
+     netdev = alloc_netdev(sizeof(struct __adf_softc), info->if_name,
+
+按照这个文章的说明，是3.17以后的内核修改了这个函数的定义
+http://rglinuxtech.com/?p=1184
+Thanks to Erwin Zoer (see his comment below the earlier post for 3.17-rc1..), there is a fix available – for ~/vmware-only/netif.c
+For kernel 3.17-rc3 and later, change line 152 from
+dev = alloc_netdev(sizeof *netIf, deviceName, VNetNetIfSetup);
+to 
+dev = alloc_netdev(sizeof *netIf, deviceName, NET_NAME_UNKNOWN, VNetNetIfSetup);
+那样这样改看起来是不会报错的：
+#if LINUX_VERSION_CODE > KERNEL_VERSION(3,17,0)
+    netdev = alloc_netdev(sizeof(struct __adf_softc), info->if_name,NET_NAME_UNKNOWN,
+                          ether_setup);
+#else
+    netdev = alloc_netdev(sizeof(struct __adf_softc), info->if_name,
+                          ether_setup);
+#endif
+
+然后是这个：
+error: incompatible types when assigning to type 'u_int32_t' from type 'kuid_t'
+这样的问题，强制转换怎么样？
+http://blog.csdn.net/CSDN5741/article/details/38637641
+这样不行，变成了这样的错误：
+os/linux/src/ath_netlink.c:97:30: note: in expansion of macro 'NETLINK_CREDS'
+          uid = *(u_int32_t *)NETLINK_CREDS(skb)->uid;
+注释掉算了，反正只是一个为了print，赋值没有其他作用。
+
+然后变成了：
+/opt/work/temp/ath9.5/drivers/wlan_v10/os/linux/../../lmac/ath_dev/../../os/linux/src/if_bus.o:(___ksymtab+bus_dma_sync_single+0x0): multiple definition of `__ksymtab_bus_dma_sync_single'
+直接注释掉aponly中的export，不知道有没有问题。
+
+还有，此恨绵绵无绝期啊：
+/opt/work/temp/ath9.5/drivers/wlan_v10/os/linux/../../lmac/ath_pktlog/../../os/linux/include/osdep_adf.h:188:3: error: unknown type name 'ctl_table'
+ f(ctl_table *ctl, int write, void *buffer,     
+加一个struct解决了。
+
+还有：
+os/linux/src/if_ath_ahb.c:409:75: error: macro "alloc_netdev" requires 4 arguments, but only 3 given
+     dev = alloc_netdev(sizeof(struct ath_ahb_softc), "wifi%d", ether_setup);
+和上面的一样，
+继续：
+/osif_umac.c:6009:59: error: macro "alloc_netdev" requires 4 arguments, but only 3 given
+     dev = alloc_netdev(sizeof(osif_dev), name, ether_setup);
+
+换了：
+/opt/work/temp/ath9.5/drivers/wlan_v10/os/linux/../../umac/../os/linux/src/adf_net_vlan.c:83:19: error: 'NETIF_F_HW_VLAN_TX' undeclared (first use in this function)
+  dev->features |= NETIF_F_HW_VLAN_TX | NETIF_F_HW_VLAN_RX
+这个宏可能已经修改了名字：
+文件中drivers/net/ethernet/realtek/8139cp.c 
+ if (features & NETIF_F_HW_VLAN_CTAG_RX)
+那么改成这样吧：
+#if LINUX_VERSION_CODE > KERNEL_VERSION(3,18,0)
+        dev->features |= NETIF_F_HW_VLAN_CTAG_TX | NETIF_F_HW_VLAN_CTAG_RX |
+                NETIF_F_HW_VLAN_CTAG_FILTER;
+#else
+        dev->features |= NETIF_F_HW_VLAN_TX | NETIF_F_HW_VLAN_RX |
+                NETIF_F_HW_VLAN_FILTER;
+#endif
+
+还有：
+os/linux/src/osif_proxyarp.c:40:19: error: conflicting types for 'ipv6_addr_is_multicast'
+ static inline int ipv6_addr_is_multicast(const struct in6_addr *addr)
+应该是内核中已经存在了，加上
+#if LINUX_VERSION_CODE < KERNEL_VERSION(3,18,0)
+不编译就可以了。
+
+终于编译通过了。
+
+怎么又有问题了？
+/home/jian/work/temp/ath9.5/build/../linux/kernels/linux-3.18.23/include/linux/sysfs.h:457:2: error: pointer targets in passing argument 2 of 'kernfs_find_and_get' differ in signedness [-Werror=pointer-sign
+这里有同样的问题，但没有解答https://pastebin.com/gbjTKwSy
+干脆让告警通过吧。
+
+可以了，可以了。but连不上了。悲催啊。算了，不管这个分支了。从代码看，还是应该使用10.4的那个wlan驱动。
+
+
+8.26
+[   43.230000] [<801ab2c0>] 0x801ab2c0 ffffffff801ab2c0 t mem32_serial_out
+[   43.230000] [<80075794>] 0x80075794 ffffffff80075c90 T sys_syslog
+[   43.230000] [<80091af0>] 0x80091af0 ffffffff800918f8 T hrtimer_interrupt
+[   43.230000] [<865a8510>] 0x865a8510
+[   43.230000] [<865a8548>] 0x865a8548
+[   43.230000] [<865b0f70>] 0x865b0f70
+[   43.230000] [<865b0000>] 0x865b0000
+[   43.230000] [<8582216c>] 0x8582216c
+[   43.230000] [<85871a88>] 0x85871a88
+[   43.230000] [<801ab9a4>] 0x801ab9a4 ffffffff801ab9a4 t serial8250_console_putchar
+[   43.230000] [<80205814>] 0x80205814 ffffffff802057c8 T dev_addr_init
+[   43.230000] [<858722a8>] 0x858722a8 
+[   43.230000] [<801b4cac>] 0x801b4cac ffffffff801b4bf4 T driver_probe_device
+[   43.230000] [<801b4e54>] 0x801b4e54 ffffffff801b4ddc t __driver_attach
+[   43.230000] [<801b3298>] 0x801b3298 ffffffff801b3288 t next_device
+[   43.230000] [<801b4ddc>] 0x801b4ddc ffffffff801b4ddc t __driver_attach
+[   43.230000] [<801b3340>] 0x801b3340 ffffffff801b32b0 T bus_for_each_dev
+[   43.230000] [<801b3138>] 0x801b3138 ffffffff801b3110 t bus_get
+[   43.230000] [<801b4510>] 0x801b4510 ffffffff801b43f4 T bus_add_driver
+[   43.230000] [<80094bf0>] 0x80094bf0 ffffffff80094bcc T __wake_up
+[   43.230000] [<80089304>] 0x80089304 ffffffff800892d0 T queue_work_on
+[   43.230000] [<801b532c>] 0x801b532c ffffffff801b5264 T driver_register
+[   43.230000] [<85bff030>] 0x85bff030
+[   43.230000] [<85bff000>] 0x85bff000
+[   43.230000] [<80060904>] 0x80060904
+[   43.230000] [<800db318>] 0x800db318
+[   43.230000] [<80092db8>] 0x80092db8
+[   43.230000] [<800a6290>] 0x800a6290
+[   43.230000] [<800e573c>] 0x800e573c
+[   43.230000] [<8006b0b0>] 0x8006b0b0
+[   43.230000] [<8017a3bc>] 0x8017a3bc
+
+8.25
+编译双wan的p53新程序，使用以太网做为wan，自动获得ip成功，上网成功，拔掉网线自动切换到了4g，换成了静态地址后，如果不是设置的上次获得的地址，就不能ping到192.168.19.1,能ping到其他机器。只好换成上次分配的地址，这样上网后，第一次拔网线sub，出现问题，两个路由都存在，那么check_nat那个脚本出现了问题，不知道该伪装到哪个网卡。再插上网线对了，后面没有再次出现这样的情况。
+
+王伍
+工业路由器考虑后面是加一个硬件看门狗。
+要郑达做重启测试。
+
+梁剑
+还有一直无线单模式没有做。
+
+8.24
+[   20.390000] usb 1-1.2: FTDI USB Serial Device converter now attached to ttyUSB0
+[   20.490000] usb 1-1.3: new high-speed USB device number 4 using ehci-platform
+[   20.700000] usb 1-1.4: new high-speed USB device number 5 using ehci-platform
+[   20.820000] cdc_ncm_probe : InterfaceNumber = 0
+[   20.820000] USBNCM cdc_ncm_probe : usb\vid_1ab7&pid_1761&mi_00
+[   20.830000] cdc_ncm_probe : InterfaceNumber = 1
+[   20.830000] USBNCM cdc_ncm_probe : usb\vid_1ab7&pid_1761&mi_01
+[   20.850000] option 1-1.4:1.2: GSM modem (1-port) converter detected
+[   20.850000] usb 1-1.4: GSM modem (1-port) converter now attached to ttyUSB1
+[   20.870000] option 1-1.4:1.3: GSM modem (1-port) converter detected
+[   20.870000] usb 1-1.4: GSM modem (1-port) converter now attached to ttyUSB2
+[   20.890000] option 1-1.4:1.4: GSM modem (1-port) converter detected
+[   20.890000] usb 1-1.4: GSM modem (1-port) converter now attached to ttyUSB3
+
 
 8.23
 ubuntu的wine版本应该比较老吧，装这里的看看：

@@ -1,14 +1,18 @@
-p59:
-set ipaddr 10.8.0.33 && set serverip 10.8.0.100
-setenv bootcmd "bootm 0x9F050000"
 
-setenv bootargs "board=AP147  console=ttyS0,115200 root=31:03 rootfstype=squashfs rw init=/sbin/init mtdparts=spi0.0:256k(u-boot)ro,64k(u-boot-env),1408k(kernel),14080k(rootfs),512k(data),64k(ART)"
-tftp 0x80060000 vmlinux_routing.lzma.uImage && erase 0x9f050000 +$filesize && cp.b $fileaddr 0x9f050000 $filesize
-tftp 0x80060000 vmlinux_ap143.lzma.uImage && erase 0x9f050000 +$filesize && cp.b $fileaddr 0x9f050000 $filesize
-tftp 0x80060000 tozedap-p59_ap143-squashfs   && erase 0x9f1b0000 +$filesize && cp.b   $fileaddr 0x9f1b0000 $filesize
-tftp 0x80060000 tozedap-p59_ap143_data-jffs2  && erase 0x9ff70000 +$filesize && cp.b $fileaddr 0x9ff70000 $filesize && boot
-
-setenv bootargs "board=TZ317  console=ttyS0,115200 root=31:03 rootfstype=squashfs rw init=/sbin/init mtdparts=spi0.0:256k(u-boot)ro,64k(u-boot-env),1408k(kernel),14080k(rootfs),512k(data),64k(ART)"
+p59双文件系统：
+setenv ipaddr 10.8.0.33 && setenv serverip 10.8.0.100
+uboot：
+tftpboot 0x80060000 tuboot.bin && erase 0x9f000000 +$filesize && cp.b 0x80060000 0x9f000000 $filesize
+kernel:
+tftpboot 0x80060000 vmlinux_routing.lzma.uImage && erase 0x9f020000 +$filesize && cp.b $fileaddr 0x9f020000 $filesize
+rootfs:
+tftpboot 0x80060000 tozedap-p59_ap143-squashfs && erase 0x9f160000 +$filesize && cp.b $fileaddr 0x9f160000 $filesize
+kernel_bak:
+tftpboot 0x80060000 vmlinux_routing.lzma.uImage && erase 0x9f7c0000 +$filesize && cp.b $fileaddr 0x9f7c0000 $filesize
+rootfs_bak:
+tftpboot 0x80060000 tozedap-p59_ap143-squashfs && erase 0x9f900000 +$filesize && cp.b $fileaddr 0x9f900000 $filesize
+data:
+tftpboot 0x80060000 tozedap-p59_ap143_data-jffs2 && erase 0x9ff60000 +$filesize && cp.b $fileaddr 0x9ff60000 $filesize
 
 工业路由器使用qsdk
 set ipaddr 10.8.0.33 && set serverip 10.8.0.100
@@ -22,6 +26,20 @@ tftp 0x80060000 tozedap-router_4g_industry_ap123_data-jffs2&&erase 0x9ff70000 +$
 tftp 0x80060000 tuboot.bin && erase 0x9f000000 +0x10000&&cp.b $fileaddr 0x9f000000 $filesize
 
 set bootargs console=ttyS0,115200 root=31:01 rootfstype=squashfs ro init=/sbin/init mtdparts=spi0.0:64k(u-boot),6848k(rootfs),6848k(rootfs-backup),1024k(uImage),1024k(uImage-backup),512k(data),64k(ART)) machtype=DB120
+
+
+p59 单文件系统:
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+setenv bootcmd "bootm 0x9F050000"
+
+setenv bootargs "board=AP147  console=ttyS0,115200 root=31:03 rootfstype=squashfs rw init=/sbin/init mtdparts=spi0.0:256k(u-boot)ro,64k(u-boot-env),1408k(kernel),14080k(rootfs),512k(data),64k(ART)"
+tftp 0x80060000 vmlinux_routing.lzma.uImage && erase 0x9f050000 +$filesize && cp.b $fileaddr 0x9f050000 $filesize
+tftp 0x80060000 vmlinux_ap143.lzma.uImage && erase 0x9f050000 +$filesize && cp.b $fileaddr 0x9f050000 $filesize
+tftp 0x80060000 tozedap-p59_ap143-squashfs   && erase 0x9f1b0000 +$filesize && cp.b   $fileaddr 0x9f1b0000 $filesize
+tftp 0x80060000 tozedap-p59_ap143_data-jffs2  && erase 0x9ff70000 +$filesize && cp.b $fileaddr 0x9ff70000 $filesize && boot
+
+setenv bootargs "board=TZ317  console=ttyS0,115200 root=31:03 rootfstype=squashfs rw init=/sbin/init mtdparts=spi0.0:256k(u-boot)ro,64k(u-boot-env),1408k(kernel),14080k(rootfs),512k(data),64k(ART)"
+
 
 ap2 板刷cpe-km
 set ipaddr 10.8.0.33 && set serverip 10.8.0.100
