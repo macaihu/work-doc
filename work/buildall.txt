@@ -1,5 +1,8 @@
 buildall
 
+2017-9-1
+linuxmint-18.1-xfce-64bit.iso  ath9.5 buildall ok.
+
 2017-8-23 
 deepin-15.4.1-amd64.iso  ath9.5 buildall ok
 

@@ -9,9 +9,108 @@ p53 加tr069
 athadhoc quagga这个东西是做什么用的？
 ap-cp中去掉ntfs等。
 
+9.3
+libnetlink.h No such file or directory这个是怎么解的?忘记了.
+冲掉
+mkfs.jffs2没有增加lzma之前
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 6.8M      5.6M      1.3M  82% /
+增加之后
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 6.8M      4.8M      2.0M  70% /
+
+
+9.1
+#!/bin/bash
+a="one,two,three,four"
+#要将$a分割开，可以这样：
+OLD_IFS="$IFS"
+IFS=","
+arr=($a)
+IFS="$OLD_IFS"
+for s in ${arr[@]}
+do
+    echo "$s" 
+done
+
+8.31
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+set bootargs "console=ttyS0,115200 root=31:01 rootfstype=jffs2 rw init=/sbin/init mtdparts=spi0.0:64k(u-boot),6720k(rootfs),1280k(uImage),64k(mib0),64k(ART) machtype=DB120"
+
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6a0000 +$filesize&&cp.b $fileaddr 0x9f6a0000 $filesize 
+tftp 0x80060000 tozedap-cp_ap123-jffs2 && erase 0x9f010000 +0x690000&&cp.b $fileaddr 0x9f010000 $filesize
+bootm 0x9f6a0000
+
+
+   insmod $MODULE_PATH/adf.ko
+    insmod $MODULE_PATH/asf.ko
+    insmod $MODULE_PATH/ath_hal.ko
+    insmod $MODULE_PATH/ath_spectral.ko $SPECTRAL_ARGS
+    if [ "${AP_NO_A_BAND}" != "1" ]; then
+        echo AP_NO_A_BAND=${AP_NO_A_BAND}
+        #load DFS if A band is supported,default is supported and set AP_NO_A_BAND=1 if not supported
+        insmod $MODULE_PATH/ath_dfs.ko $DFS_ARGS
+    fi     
+    insmod $MODULE_PATH/hst_tx99.ko
+    insmod $MODULE_PATH/mem_manager.ko
+    insmod $MODULE_PATH/umac.ko
+    insmod $MODULE_PATH/ath_rate_atheros.ko
+    insmod $MODULE_PATH/ath_dev.ko
+    insmod $MODULE_PATH/ath_pktlog.ko
+    insmod $MODULE_PATH/qca_da.ko
+    insmod  $MODULE_PATH/tm.ko
+
+
+/lib/modules/3.18.23/net # /tmp/busybox depmod -n
+net/ath_rate_atheros.ko: net/ath_hal.ko net/umac.ko net/adf.ko net/ath_dfs.ko net/ath_spectral.ko net/asf.ko net/mem_manager.ko
+net/ag71xx.ko:
+net/ath_dev.ko: net/hst_tx99.ko net/ath_rate_atheros.ko net/ath_hal.ko net/umac.ko net/adf.ko net/ath_dfs.ko net/mem_manager.ko net/ath_spectral.ko net/asf.ko
+net/tm.ko: net/umac.ko net/adf.ko net/ath_dfs.ko net/ath_spectral.ko net/asf.ko net/mem_manager.ko
+net/ath_pktlog.ko: net/umac.ko net/adf.ko net/ath_dfs.ko net/ath_spectral.ko net/mem_manager.ko net/asf.ko
+net/ath_dfs.ko: net/asf.ko
+net/mem_manager.ko:
+net/ath_spectral.ko: net/asf.ko
+net/ath_hal.ko:
+net/asf.ko:
+net/umac.ko: net/adf.ko net/ath_dfs.ko net/ath_spectral.ko net/asf.ko net/mem_manager.ko
+net/adf.ko:
+net/hst_tx99.ko: net/adf.ko net/ath_hal.ko
+
+
 8.30
+看看这个文件吧:
+jian@jian-OptiPlex-9020:~/work/ath9.5/build$ cat ../drivers/qca-wifi-10.4/lmac/tx99/.ath_tx99.o.cmd
+这个区别巨大.
+
+比较offload/htt/.htt_h2t.o.cmd文件看起来没有太多的不同,只有两个.
+@@ -256,7 +256,7 @@ export AR5416_INT_MITIGATION=1
+ export ATH_SUPPORT_GREEN_AP=1
+ export ATH_SUPPORT_DYN_TX_CHAINMASK=1
+ export AH_DESC_NOPACK=1
+-export UMAC_SUPPORT_OPMODE_APONLY=1
++export UMAC_SUPPORT_OPMODE_APONLY=0
+ export UMAC_SUPPORT_STATS_APONLY=1
+ export ATH_SUPPORT_STATS_APONLY=1
+ 
+@@ -375,7 +375,7 @@ export ATH_TXBUF=540
+ 
+ export KBUILD_MODPOST_WARN=y
+ export JUMPSTART_GPIO=16
+-export ATH_SUPPORT_TIDSTUCK_WAR=1
++export ATH_SUPPORT_TIDSTUCK_WAR=0
+ export ATH_SUPPORT_KEYPLUMB_WAR=1
+
+
+为什么现在出现的是这样的错误:/home/jian/work/ath9.5/build/../linux/kernels/linux-3.18.23/arch/mips/include/asm/war.h:12:17: fatal error: war.h: No such file or directory?
+都是config里面东西搞的,非常非常多的选项.
+
 :set nu可以在vi中显示行号.
 http://blog.csdn.net/chuanj1985/article/details/6873830
+
+:89,102s#insmod#modprobe#
+在89到102行进行替换
+https://segmentfault.com/q/1010000002552573/a-1020000002552589
 
 梁剑
 叶京平客户要求的到达公交站后自动连接到公交站的wifi的要求, 可以直接把覆盖的那个ap的改一下, 不变它,这样网页设置的参数改一下存储的参数, 改一下wifi启动脚本, switchwan不用修改.
@@ -42,7 +141,7 @@ p53的丝印要改.
 郑荣俊没有时间来改i2c的芯片了.
 
 吴曦
-信可认为找到了写mac等失败的原因, 写mac,imei等是cp侧处理的,而写usb网卡的mac是ap测处理, 写在同一个位置,这样
+信可认为找到了写mac等失败的原因, 写mac,imei等是cp侧处理的,而写usb网卡的mac是ap测处理, 写在同一个位置,这样如果同时写,就会出现一个冲突. 但晚上去掉,还有同样的问题.
 
 8.28
 C语言实现程序跳转到绝对地址0x100000处执行： ((void(*)(void))0x100000)();
