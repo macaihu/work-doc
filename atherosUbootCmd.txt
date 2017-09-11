@@ -27,6 +27,14 @@ tftp 0x80060000 tuboot.bin && erase 0x9f000000 +0x10000&&cp.b $fileaddr 0x9f0000
 
 set bootargs console=ttyS0,115200 root=31:01 rootfstype=squashfs ro init=/sbin/init mtdparts=spi0.0:64k(u-boot),6848k(rootfs),6848k(rootfs-backup),1024k(uImage),1024k(uImage-backup),512k(data),64k(ART)) machtype=DB120
 
+ap-cp使用qsdk
+set bootargs "console=ttyS0,115200 root=31:01 rootfstype=jffs2 rw init=/sbin/init mtdparts=spi0.0:64k(u-boot),6976k(rootfs),1024k(uImage),64k(mib0),64k(ART) machtype=DB120"
+
+set ipaddr 10.8.0.33 && set serverip 10.8.0.100
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftp 0x80060000 tozedap-cp_ap123-jffs2 && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
+tftp 0x80060000 tuboot.bin && erase 0x9f000000 +0x10000&&cp.b $fileaddr 0x9f000000 $filesize
+
 
 p59 单文件系统:
 set ipaddr 10.8.0.33 && set serverip 10.8.0.100
@@ -74,14 +82,6 @@ cpe-df qsdk版
 set ipaddr 10.8.0.33 && set serverip 10.8.0.100
 tftp 0x80060000 tozedcpe-df_ap123-jffs2 && erase 0x9f010000 +0x6d0000 && cp.b $fileaddr 0x9f010000 $filesize
 tftp 0x80060000 vmlinux_ap123.lzma.uImage && erase 0x9f6e0000 +$filesize && cp.b $fileaddr 0x9f6e0000 $filesize
-
-ap-cp使用qsdk
-set bootargs "console=ttyS0,115200 root=31:01 rootfstype=jffs2 rw init=/sbin/init mtdparts=spi0.0:64k(u-boot),6976k(rootfs),1024k(uImage),64k(mib0),64k(ART) machtype=DB120"
-
-set ipaddr 10.8.0.33 && set serverip 10.8.0.100
-tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
-tftp 0x80060000 tozedap-cp_ap123-jffs2 && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
-tftp 0x80060000 tuboot.bin && erase 0x9f000000 +0x10000&&cp.b $fileaddr 0x9f000000 $filesize
 
 cpe-df
 set ipaddr 10.8.0.33 && set serverip 10.8.0.100
