@@ -1,15 +1,250 @@
 
 
+我的iphone mac fc:e9:98:14:58:1f
 待解决问题：
-cat-m模块调试,各种页面信息
-m60 存在掉校准信息 吴曦：
 南非p21 加wan口功能。
-喻潇 还有测试一下p21电信卡屏蔽房不断开门关门的情况。
 p53 加tr069 
-athadhoc quagga这个东西是做什么用的？
-ap-cp中去掉ntfs等。
+
+ap101-2.6.31              ok
+ap101-small               make: *** [toolchain_build] Error 2
+ap111-2.6.31              ok
+ap111-2.6.31-clean        make: *** [art_mod] Error 127
+ap113                     ok
+ap120                     make: *** [uboot_mainline] Error 2
+ap121-2.6.31              make: *** [sqlzma_build] Error 2
+ap121-2.6.31-2MB          make: *** [sqlzma_build] Error 2
+ap91-2MB                  make: *** [toolchain_build] Error 2
+ap91-2x8                  make: *** [sqlzma_build] Error 2
+ap91-small                make: *** [toolchain_build] Error 2
+ap93-small                make: *** [toolchain_build] Error 2
+ap96-small                make: *** [toolchain_build] Error 2
+ap99-2.6.31               ok
+ap99-small                make: *** [toolchain_build] Error 2
+board953x                 make: *** [kernel_build] Error 2
+board955x                 make: *** [kernel_build] Error 2
+board955x-offload-host    make: *** [config_fix] Error 1
+board955x-offload-target  make: *** [config_fix] Error 1
+CaviumFus                 make: *** [wpa2] Error 2
+common
+db12x                     ok
+db12x-aow                 make: *** [athr-wpa_supplicant] Error 1
+db12x-carrier             ok
+db12x-db12x-master        make: *** [athlogger_build] Error 2
+db12x-enterprise          ok
+db12x-extender            make: *** No rule to make target 'uboot_build', needed by 'common_mainline'.  Stop.
+db12x-hybrid              Makefile:123: *** "Must specify TOOLCHAIN value".  Stop.
+db12x-offload-gmac        make: *** [driver_build] Error 2
+db12x-offload-gmac-flash  make: *** [driver_build] Error 2
+db12x-offload-pcie-flash  
+dhp1565
+ika-vox180
+pb44-carrier
+pb44-ce
+pb44-clean
+pb44-p2p-small
+pb44-small
+pb44-usb-p2p-small
+pb44-usb-small
+pb47-xmii
+pb47-xmii-2.6.31
+pb90
+pb92
+pb9x
+pb9x-2.6.31
+pb9x-aow
+pb9x-carrier
+pb9x-ce
+pb9x-clean
+pb9x-offload-gmac-flash
+pb9x-offload-pcie-flash
+pb9x-offload-ub124
+pb9x-sta
+tozedap-cp
+tozedap-p11_4g_router
+tozedap-p51
+tozedap-p59
+tozedap-router_4g_industry
+tozedcpe-5g2g
+tozedcpe-ap
+tozedcpe-df -> tozedcpe-5g2g
+ub124-offload
+x86-usb
+
+9.13
+好像已经很难把qca-wifi-10.4的option减少了, 都是一大堆的编译错误.
+
+郑达
+在内核中增加32m支持还非常复杂, 3.15以后的内核修改了mtd接口, 修改非常大. 而只有3.15后的内核才有人打增加nor flash到32m的补丁.
+
+任银善
+
+9.12
+江健
+一些基本的摄像头概念:
+mipi 这个是sense 和mpu的接口, 还有并行 parallel, sub-LVDS
+WDR 宽动态范围.
+FHD 全高清输出.
+3D de-intenlace 隔行扫描
+isp image signal processor.
+video scalier 缩放
+
+硬件上主要组成:
+镜头: 指标有焦距, 口径, 定焦变焦
+传感器 sense,
+光敏 感应环境亮度, 可读, 是个adc
+红外led灯 6-10m 图像改变为黑白.
+白光灯 补光
+
+存储:
+tf卡
+nvr: 网络存储 rtsp 国际标准
+     onvif
+云存储: hls 苹果的标准
+       rtmp adobe的标准
+
+音频 speaker+mic
+双向语音: 半双工, 全双工. 回声消除, 背景噪音, 电路声.
+
+梁剑
+使用pppoe的情况下, echo c > ... 发起l2tp连接后, 需要1分钟后才能连接, 而使用4g的情况就很快就回了. 
+如果是4g切换到pppoe的情况, 那么要到6-7分钟后才正常. 直接使用pppoe, 要2-3分钟才能使用.
+检查默认路由的方式应该改为链路检查的方式.
+使用一段时间后拔掉网线, 4g不能得到ip, 4-5分钟才能恢复(一次).
+当使用了一段时间工业路由器后, 把网线拔到原来用的tplink上后, tplink无法拨上pppoe, 重启后可以拨上了. 
+
+摄像头:
+长按5秒恢复出厂的状态. ssid以smart开头, 密码是6个9.
+
+刘汉琴
+赵金加班在玩魔方.问上报是否有效的. 李总让她了解企业亏损是否对情绪有影响.
+
+李柱栋
+fon那里主要是两个问题, 一个是热点, 一个是控制. 控制使用的tr069, 但fon还没有服务器进行测试. 热点方面还有
+
+苗立双将开始联芯提供一个8905的cpe, 但还没有多少资料.
+
+9.11
+AH_SUPPORT_AR5416
+ATH_SUPPORT_WIFIPOS
+UMAC_SUPPORT_WIFIPOS_LEANCC
+ATH_SUPPORT_HYFI_ENHANCEMENTS
+ATH_SUPPORT_DSCP_OVERRIDE
+UNIFIED_SMARTANTENNA
+ATH_BAND_STEERING
+ATH_TX_OVERFLOW_IND
+ATH_SUPPORT_WIFIPOS_ONE_VAP
+WMI_RECORDING
+ATH_SUPPORT_LOWI
+
+洛晓峰
+有个客户只要工业路由器的pppoe功能.
+
+江健:
+卡片机和摇头机主要给海外, 需要对视频数据进行加密. 
+
+叶京平
+欧洲那个车载的对方已经找了一个有现成软件的, 还有欧洲认证的广州公司. 报价也低很多, 只报了100多美金, 我们报了300多.
+
+赵金
+没有明白怎么样一个pc访问多个m60.
+
+摄像头监听了这些端口:
+Discovered open port 80/tcp on 192.168.19.175
+Discovered open port 7001/tcp on 192.168.19.175
+Discovered open port 7070/tcp on 192.168.19.175
+Discovered open port 8011/tcp on 192.168.19.175
+
+AH_SUPPORT_KITE_x 这几个参数看起来也是在5416内部, 或者是2133内部. 从makefile.inc的结构来看, 必须有AH_SUPPORT_KITE_10或者AH_SUPPORT_KITE_12为1才会把这个any设置, 所以那个any是没有意义的.
+AH_SUPPORT_EEPROM_AR9287这个参数貌似在5416内部, 既然去掉AH_SUPPORT_AR5416支持, 那么大小应该不会改变吧. 确实是这样的.
+
+去掉ATH_SUPPORT_WRAP, 有很多的错误啊.
+
+ATH_TX_OVERFLOW_IND=0 没有什么变化:
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 6976      4704      2272  67% /
+
+ATH_BAND_STEERING=0
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 6976      4704      2272  67% /
+
+WMI_INTERFACE_EVENT_LOGGING这个东西在qca-wifi-10.4目录中找不到.
+
+WMI_RECORDING=0
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 6976      4724      2252  68% /
+感觉没有变化
+
+ap-cp中设置ATH_SUPPORT_LOWI=0, 再次减少一点点: 没有减少之前是4732
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 6976      4724      2252  68% /
+默认情况REMOVE_INIT_DEBUG_CODE这个值看起来就是1, 可以不用管它. 按照文档中, 可以忽略这些功能, 现在, UMAC_SUPPORT_ACFG, AH_SUPPORT_AR5416 ATH_SUPPORT_WIFIPOS  ATH_SUPPORT_LOWI ATH_SUPPORT_DSCP_OVERRIDE已经去掉了,剩下的放在文档最前面吧. REMOVE_INIT_DEBUG_CODE默认就是1.
+      the following features not only increase the Host Driver package size, but also need user space utility to provide the
+      support.
+      AH_SUPPORT_AR5416=0
+      ATH_SUPPORT_SPECTRAL=0
+      ATH_SUPPORT_WIFIPOS=0
+      UMAC_SUPPORT_WIFIPOS_LEANCC=0
+      ATH_SUPPORT_HYFI_ENHANCEMENTS=0
+      ATH_SUPPORT_WRAP=0
+      UNIFIED_SMARTANTENNA=0
+      UMAC_SUPPORT_ACFG=0
+      QCA_AIRTIME_FAIRNESS=0
+      ATH_BAND_STEERING=0
+      ATH_TX_OVERFLOW_IND=0
+      ACFG_NETLINK_TX=0
+      ACFG_MON_FILTER=0
+      WMI_RECORDING=0
+      REMOVE_INIT_DEBUG_CODE=1
+      ATH_RXBUF=256
+      ATH_SUPPORT_LOWI=0
+      WMI_INTERFACE_EVENT_LOGGING=0
+
+
+复制黎汝祥的虚拟机, 会出现这样的提示:
+This virtual machine's snapshot is expecting graphics features that VMware is unable to provide on this host. Restoring the VM might be possible, but could cause serious problems if the guest OS is relying on any of the missing features.
+先continue吧. 还有告警:
+VMware Player is unable to provide all of the graphics features expected by this VM. The graphics hardware, graphics drivers, or version of VMware software might have changed since this VM was booted. The VM will continue running but some graphics operations might behave unpredictably until the VM is shut down.
+然后是黑屏.重启看看吧.
+总是提示要安装什么vmware tools for linux version 10.1.6, 那么先安装一个吧.
+进去了, 进去了.
+
+这个是黎汝祥写的readme, 貌似太简单了一点:
+    1：ubuntu:
+      user:root
+      password:1234
+      
+    2：和目云与onenet平台应用：ChinaMobile
+    /usr/src/lrxPrj/APP-ChinaMobile/OpenAPUPD-rtmp
+     make 得到ChinaMobile
+      其中:1)onnet代码目录:rtmppp
+          ont_mqtt_sample_main.c
+          rtspmain()
+           2)和目代码目录:soure
+          main.cpp
+    3:卡片机固件打包:
+     /root/share/image/target/SmartBell/TZK61-ChinaMobile
+      运行：SmartHome136.sh 得到固件Smarttzk61.bin
+
+    4:设备系统命令升级: sysupdate -d -f Smarttzk61.bin 
+
+
+王伍:
+赵金正在做m60一拖n的生产工具,这个是袁阳提出的需要, 需要有个计划, 不能做得没有边.
+想着用anychat来完成摄像头部分的视频通话工作. 江键的邮件回复:看了下，LINUX平台没有ARM的SDK，在摄像机端无法使用。价格授权好黑。一台服务器下来60几万。
+
+陈玉告诉王伍: dialog的m60天线反馈不好, 在没有信号的地方, 换用华为的cpe, 就能用. 影响了销量. 下一批货推迟一个月.
+
+今天的tftp又不能用了,为什么有时候可以,有时候不可以?
+sudo service tftpd-hpa restart
+
 
 9.3
+onenet密码: keeper90
+
+郑达
+p53重启测试: 3台测试了 2-3天. 1台测试了6-7天. 无异常.
+升级: 1台机器40多小时, 上报就升级, 无异常.
+
 libnetlink.h No such file or directory这个是怎么解的?忘记了.
 冲掉
 mkfs.jffs2没有增加lzma之前
