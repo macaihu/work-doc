@@ -1,5 +1,8 @@
 buildall
 
+2017-9-18
+ubuntu-17.04-server-amd64.iso ath9.5 buildall ok
+
 2017-9-1
 linuxmint-18.1-xfce-64bit.iso  ath9.5 buildall ok.
 

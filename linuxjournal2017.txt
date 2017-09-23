@@ -5,6 +5,92 @@
 南非p21 加wan口功能。
 p53 加tr069 
 
+ap120                     make: *** [uboot_mainline] Error 2
+ap121-2.6.31              make: *** [sqlzma_build] Error 2
+ap121-2.6.31-2MB          make: *** [sqlzma_build] Error 2
+ap91-2x8                  make: *** [sqlzma_build] Error 2
+board953x                 make: *** [kernel_build] Error 2
+board955x                 make: *** [kernel_build] Error 2
+board955x-offload-host    make: *** [config_fix] Error 1
+board955x-offload-target  make: *** [config_fix] Error 1
+CaviumFus                 make: *** [wpa2] Error 2
+db12x-aow                 make: *** [athr-wpa_supplicant] Error 1
+db12x-db12x-master        make: *** [athlogger_build] Error 2
+db12x-extender            make: *** No rule to make target 'uboot_build', needed by 'common_mainline'.  Stop.
+db12x-hybrid              Makefile:123: *** "Must specify TOOLCHAIN value".  Stop.
+db12x-offload-gmac        make: *** [driver_build] Error 2
+db12x-offload-gmac-flash  make: *** [driver_build] Error 2
+db12x-offload-pcie-flash  make: *** [driver_build] Error 2
+dhp1565                   cp: cannot stat '../rootfs/dhp1565/*': No such file or directory
+ika-vox180                scripts/ika-vox180/config.ika-vox180:2: *** "You have to define BSP_VERSION to use this Makefile. 0:BSP 5.8 1:BSP 6.0 2:BSP 6.1 3:BSP 8.0 4:BSP 8.1&8.2&8.3" .  Stop.
+pb44-ce                   cd: can't cd to /home/jian/work/ath9.5/build/../linux/kernels/mips-linux-2.6.15/
+pb44-usb-p2p-small        can't cd to /home/jian/work/ath9.5/build/../linux/kernels/mips-linux-2.6.15/
+pb47-xmii                 make: *** [config_fix] Error 1
+pb47-xmii-2.6.31          make: *** [kernel_build] Error 2
+pb92                      make: *** No rule to make target 'uboot_build', needed by 'common_mainline'. 
+pb9x-carrier              make: *** [driver_build] Error 2
+pb9x-clean                make: *** [driver_build] Error 2
+pb9x-offload-gmac-flash   make: *** [acfg_build] Error 2
+pb9x-offload-pcie-flash   make: *** [acfg_build] Error 2
+pb9x-offload-ub124        make: *** [wpa2] Error 2
+pb9x-sta                  make: *** [athr-wpa_supplicant] Error 1
+ub124-offload             make: *** [driver_build] Error 2
+x86-usb                   make: *** [fusion_hal_build] Error 2
+
+9.23
+看起来没有的wfi选项:
+ATH_SUPPORT_ICM=1
+IEEE80211_MCAST_ENHANCEMENT=1
+ATH_TXQ_BH_LOCK=1
+
+9.20
+这个脚本分裂文本:
+#!/bin/bash
+arr=$(cat $1)
+echo 111111111111111 > $2
+for s in ${arr[@]}
+do
+    echo "$s" >> $2
+done
+
+
+9.18
+编译3.18.23的内核居然要使用到bc这个计算器工具
+http://blog.csdn.net/wulantian/article/details/11976511
+这里有个使用指南:
+http://www.cnblogs.com/lovevivi/p/4359296.html
+好像好复杂的样子.
+
+9.17
+ATH_SUPPORT_DYNAMIC_VENDOR_IE
+DBDC_REPEATER_SUPPORT UMAC_SUPPORT_TXDATAPATH_NODESTATS AH_PRIVATE_DIAG
+QCA_OL_NAPI_SUPPORT 
+ATH_SSID_STEERING 
+ATH_SUPPORT_FIPS 
+PEER_FLOW_CONTROL 
+ATH_SUPPORT_GREEN_AP 
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 6976      4548      2428  65% /
+
+这个脚本可以删除scritps中的东西, 并且自动提交.
+if [ "$1" == "" ] ; then
+        echo what you want del?
+        exit
+fi
+git rm scripts/$1 -r
+git rm ../rootfs/$1 -r
+git rm ../apps/busybox-1.01/defconfig-$1
+git commit -m "byebye $1, whick want gcc-3.4.4"
+
+
+9.16
+为什么做了buidall.sh clean之后,  ap-cp的driver编译还是报错了, 看来这个脚本出现问题了?
+感觉是换了版型后, 出现的问题. 应该是
+
+9.15
+ap-cp中继续砍砍砍:ATH_SUPPORT_11N_CHANWIDTH_SWITCH MESH_MODE_SUPPORT DBG_LVL_MAC_FILTERING UMAC_SUPPORT_VI_DBG QCA_OL_VLAN_WAR
+
+ath9.5里面的scripts大部分是无法编译的, 先每天删除一个使用gcc-3.4.4的吧.
 ap101-2.6.31              ok
 ap101-small               make: *** [toolchain_build] Error 2
 ap111-2.6.31              ok
@@ -25,7 +111,6 @@ board955x                 make: *** [kernel_build] Error 2
 board955x-offload-host    make: *** [config_fix] Error 1
 board955x-offload-target  make: *** [config_fix] Error 1
 CaviumFus                 make: *** [wpa2] Error 2
-common
 db12x                     ok
 db12x-aow                 make: *** [athr-wpa_supplicant] Error 1
 db12x-carrier             ok
@@ -35,48 +120,64 @@ db12x-extender            make: *** No rule to make target 'uboot_build', needed
 db12x-hybrid              Makefile:123: *** "Must specify TOOLCHAIN value".  Stop.
 db12x-offload-gmac        make: *** [driver_build] Error 2
 db12x-offload-gmac-flash  make: *** [driver_build] Error 2
-db12x-offload-pcie-flash  
-dhp1565
-ika-vox180
-pb44-carrier
-pb44-ce
-pb44-clean
-pb44-p2p-small
-pb44-small
-pb44-usb-p2p-small
-pb44-usb-small
-pb47-xmii
-pb47-xmii-2.6.31
-pb90
-pb92
-pb9x
-pb9x-2.6.31
-pb9x-aow
-pb9x-carrier
-pb9x-ce
-pb9x-clean
-pb9x-offload-gmac-flash
-pb9x-offload-pcie-flash
-pb9x-offload-ub124
-pb9x-sta
-tozedap-cp
-tozedap-p11_4g_router
-tozedap-p51
-tozedap-p59
-tozedap-router_4g_industry
-tozedcpe-5g2g
-tozedcpe-ap
-tozedcpe-df -> tozedcpe-5g2g
-ub124-offload
-x86-usb
+db12x-offload-pcie-flash  make: *** [driver_build] Error 2
+dhp1565                   cp: cannot stat '../rootfs/dhp1565/*': No such file or directory
+ika-vox180                scripts/ika-vox180/config.ika-vox180:2: *** "You have to define BSP_VERSION to use this Makefile. 0:BSP 5.8 1:BSP 6.0 2:BSP 6.1 3:BSP 8.0 4:BSP 8.1&8.2&8.3" .  Stop.
+pb44-carrier              make: *** [toolchain_build] Error 2
+pb44-ce                   cd: can't cd to /home/jian/work/ath9.5/build/../linux/kernels/mips-linux-2.6.15/
+pb44-clean                make: *** [toolchain_build] Error 2
+pb44-p2p-small            make: *** [toolchain_build] Error 2
+pb44-small                make: *** [toolchain_build] Error 2
+pb44-usb-p2p-small        can't cd to /home/jian/work/ath9.5/build/../linux/kernels/mips-linux-2.6.15/
+pb44-usb-small            make: *** [toolchain_build] Error 2
+pb47-xmii                 make: *** [config_fix] Error 1
+pb47-xmii-2.6.31          make: *** [kernel_build] Error 2
+pb90                      make: *** [toolchain_build] Error 2
+pb92                      make: *** No rule to make target 'uboot_build', needed by 'common_mainline'. 
+pb9x                      make: *** [toolchain_build] Error 2
+pb9x-2.6.31               ok
+pb9x-aow                  make: *** [toolchain_build] Error 2
+pb9x-carrier              make: *** [driver_build] Error 2
+pb9x-ce                   make: *** [toolchain_build] Error 2
+pb9x-clean                make: *** [driver_build] Error 2
+pb9x-offload-gmac-flash   make: *** [acfg_build] Error 2
+pb9x-offload-pcie-flash   make: *** [acfg_build] Error 2
+pb9x-offload-ub124        make: *** [wpa2] Error 2
+pb9x-sta                  make: *** [athr-wpa_supplicant] Error 1
+ub124-offload             make: *** [driver_build] Error 2
+x86-usb                   make: *** [fusion_hal_build] Error 2
+
+9.16
+去掉AH_SUPPORT_WASP=1, 系统启动到这里停止了.
+Created ath0 mode ap for 0keeper
+wifi0     no wireless extensions.
+lo        no wireless extensions.
+br0       no wireless extensions.
+eth0      no wireless extensions.
+
+9.14
+鼎桥工业路由器电话会议:
+1 貌似没有通过网络抓log的模式. 需要做硬开关.
+2 GE应该不是强制要求.
+
+去掉ATH_SUPPORT_CAL_REUSE, 非常微弱的少了一点点.
+
+占永平
+只有p28某个版本后才存在url过滤后网页变慢的现象.
+
+iperf如果采用udp方式, 如果没有加上-b参数指定带宽, 那么速度只有1Mb
 
 9.13
+摄像头那个编译器运行报错, 要安装这个:
+sudo apt-get install libmpfr4:i386
+
 好像已经很难把qca-wifi-10.4的option减少了, 都是一大堆的编译错误.
 
 郑达
 在内核中增加32m支持还非常复杂, 3.15以后的内核修改了mtd接口, 修改非常大. 而只有3.15后的内核才有人打增加nor flash到32m的补丁.
 
 任银善
+修改了cfg -e的问题, 但是ipsec放在启动脚本中, 也是不正常的.
 
 9.12
 江健
