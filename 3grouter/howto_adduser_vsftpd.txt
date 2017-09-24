@@ -1,0 +1,15 @@
+如何在vsftpd中增加虚拟用户
+
+1、sudo vim /home/loguser.txt
+将用户名、密码分别加入到最后两行
+db4.6_load -T -t hash -f /home/loguser.txt /etc/vsftpd_login.db\
+sudo chmod 600 /etc/vsftpd_login.db
+2、sudo mkdir /home/ftp/username
+3、sudo chown +R virtual:virtual /home/ftp/username
+4、cd /etc/vsftpd_user_conf
+5、sudo touch username
+6、sudo cp oldusername username
+7、sudo username 改变其用户目录就ok了。
+
+
+

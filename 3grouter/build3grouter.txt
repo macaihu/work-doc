@@ -1,0 +1,8 @@
+1、按照必要的包
+    sudo apt-get install openssh-server,ncurses-dev,zlib1g-de,bison,flex,gettext,build-essential,texinfo
+
+2、sudo ln -s /lib/libncurses.so.5 /usr/lib/libtinfo.so.5
+
+3、vim toolchain_build_mipsel/binutils-2.18-build/Makefile将MAKEINFO的值改成这样
+   MAKEINFO = /usr/bin/makeinfo 
+

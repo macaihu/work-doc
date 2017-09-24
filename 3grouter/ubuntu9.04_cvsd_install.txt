@@ -1,0 +1,32 @@
+1、sudo apt-get install cvsd，开始安装了。
+
+2、在弹出的设置界面中输入/router，这是仓库的名称，没有仓库中有多个模块，一般来说，一个项目或者几个相类似的项目是作为一个仓库来进行管理的，权限也是安装仓库来进行划分的。
+
+3、cd /var/lib/cvsd
+    sudo cvsd-buildroot /var/lib/cvsd 貌似是把这个目录当作root吧，不执行不行。
+
+4、在/var/lib/cvsd目录下建立仓库的目录，设置其权限，并初始化
+    sudo mkdir router
+    sudo chown -R cvsd:cvsd router
+    sudo cvs -d /var/lib/cvsd/router init
+    sudo chown -R cvsd:cvsd router/CVSROOT
+
+5、创建用户
+    sudo cvsd-passwd /var/lib/cvsd/router +username
+    输入两次密码
+
+6、修改配置文件
+    sudo vim /var/lib/cvsd/router/CVSROOT/config
+    将"SystimAuth=no"前面的#去掉
+
+    sudo vim /etc/cvsd/cvsd.conf
+    将其中的listen * 2401 中的＊改为0.0.0.0，很奇怪，如果使用*，那么cvsd无法启动，并在syslog中留下无法绑定ip的遗言后退出。
+   而Repos //router中去掉一个/就好了。可以设置多个仓库，都应该使用Repos列在那里。
+
+7、终于可以启动cvsd了
+    sudo /etc/init.d/cvsd restart
+
+参看网页：
+http://blog.csdn.net/moonsky/archive/2007/02/03/1501916.aspx
+http://sanatio.blogspot.com/2005/12/cvs-server-on-ubuntu.html 
+

@@ -1,0 +1,12 @@
+1、直接www.nomachine.com上下载free版本的client,node,server三个组件的deb包后安装,安装时是需要安装顺序的client->node->server，安装的时候打开它的详细过程，如果发现它有什么要求执行的指令，执行它。
+
+2、进入/usr/NX/bin执行./nxserver--useradd yourname
+    ./nxserver--restart
+
+3、这样，对ubuntu8.04而言，就已经可以了，对于9.04，还需要：
+    ln -s /usr/share/fonts/X11/* /usr/X11R6/lib/X11/fonts/
+    ln -s /usr/share/X11/XKeysymDB /usr/X11R6/lib/X11/XKeysymDB
+
+4、在客户端运行nxclient，选择unix ghome就可以登录了。
+    非常有意思的是，声音还是在宿主机上的，登录时可能会唱歌。 
+

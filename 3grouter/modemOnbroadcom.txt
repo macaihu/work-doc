@@ -1,0 +1,74 @@
+1、准备工作
+   mkdir router
+    cd router
+    tar -xvf ../linux-2.6-router-5.20.25.0.tar.gz
+    cd src/router
+
+2、修改主要的Makefile
+    vim Makefile
+    a. LINUX_VERSION ?= 2_4 改为LINUX_VERSION ?= 2_6
+    b. $(MAKE) -C ppp/pppoecd $* INSTALLDIR=$(INSTALLDIR)/ppp
+        注释掉，增加一条
+        $(MAKE) -C ppp $* INSTALLDIR=$(INSTALLDIR)/ppp
+        这样编译整个ppp，而不仅仅是pppoecd部分
+    c. 找到addpattern,在其前面加上#
+
+3、对ppp部分进行修改
+    运行ppp/configure，生成ppp部分的makefile文件
+    vim ppp/pppd/plugins/pppoe/pppoe.c 在193行最后增加一个\
+    vim ppp/pppd/plugins/pppoe/pppoehash.c
+    vim ppp/pppd/plugins/pppoe/pppoe_client.c
+    vim ppp/pppd/plugins/pppoe/libpppoe.c
+    这几个文件的#include <pppoe.h> 改成#include "pppoe.h"
+
+    修改ppp/Makefile文件，增加一行：
+    DESTDIR = $(INSTALLDIR)
+    将install: 后面的$(MANDIR)/man8 去掉
+    $(ETCDIR)/chap-secrets:
+        $(INSTALL) -c -m 600 etc.ppp/chap-secrets $@
+    增加以下几行
+        mkdir -p $(ETCDIR)/peers/
+        mkdir -p $(ETCDIR)/chat/
+        $(INSTALL) -c -m 600 etc.ppp/resolv.conf $(ETCDIR)/../resolv.conf
+        $(INSTALL) -c -m 600 etc.ppp/cmnet $(ETCDIR)/peers/cmnet
+        $(INSTALL) -c -m 600 etc.ppp/cmtc-isp $(ETCDIR)/chat/cmtc-isp
+
+    vim ppp/pppd/plugins/Makefile
+    将LIBDIR  = /usr/lib/pppd 改为LIBDIR  = $(INSTALLDIR)/usr/lib/pppd
+    vim ppp/chat/Makefile
+    vim ppp/pppd/Makefile
+    vim ppp/pppdump/Makefile
+    vim ppp/pppstats/Makefile
+    这几个文件将$(INSTALL) -c 后面的-s去掉，并加上类似
+    $(STRIP) $(BINDIR)/pppd/pppd
+    将有关man的部分注释掉
+    如果install 后面有-o，-g之类的参数也去掉。
+
+
+4、运行make menuconfig
+     Additional C libraries  --->
+         [*] libdl
+    
+    在linux内核的menuconfig中，ppp相关部分能加上的先都加上
+
+    Device Drivers  --->
+     USB support  --->
+             <*> Support for Host-side USB
+            [*]   USB device class-devices (DEPRECATED)
+             <*>   EHCI HCD (USB 2.0) support
+             <*>   OHCI HCD support
+            <*>   UHCI HCD (most Intel and VIA) support
+            [*] USB Monitor
+            USB Serial Converter support  --->
+                    <*> USB Serial Converter support
+                    [*]   USB Generic Serial Driver
+                    <*>   USB CP2101 UART Bridge Controller
+                    <*>   USB Prolific 2303 Single Port Serial Driver
+
+5、修改usb定义码 
+    修改文件../linux/linux-2.6/drivers/usb/serial/generic.c中的 
+    //#static __u16 vendor  = 0x05f9;
+    //#static __u16 product = 0xffff;
+    static __u16 vendor  = 0x1ab7;
+    static __u16 product = 0x6000; 
+

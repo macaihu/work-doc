@@ -1,0 +1,32 @@
+pppd程序在统计在线时间时，采用的是取系统时间的办法，在连接开始时记录系统时间，结束的时候再去系统时间，两者作减法后得到了在线时间。这个方法对于大多数系统是正确的，但对于不保留系统时间的小系统，由于开机的时间是初始化时间，而拨号上网后，从时间服务器得到了真正的时间，那么这两个时间的差值就非常大了。
+
+解决方法很简单，使用sysinfo中的uptime就可以了。代码修改如下：
+修改ppp/pppd/main.c
+
+42d41
+< #include <sys/sysinfo.h>
+136c135
+< static int start_time;    /* Time when link was started. */
+---
+> static struct timeval start_time;    /* Time when link was started. */
+474,479c473
+<     //gettimeofday(&start_time, NULL);
+<     {
+<         struct sysinfo info;
+<         sysinfo(&info);
+<         start_time = info.uptime;
+<     }
+---
+>     gettimeofday(&start_time, NULL);
+1065,1067d1058
+<     struct sysinfo info;
+<     sysinfo(&info);
+<
+1071,1072c1062
+<
+<     link_connect_time = info.uptime - start_time;
+---
+>     link_connect_time = now.tv_sec - start_time.tv_sec;
+
+
+
