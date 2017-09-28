@@ -42,6 +42,7 @@ x86-usb                   make: *** [fusion_hal_build] Error 2
 ATH_SUPPORT_ICM=1
 IEEE80211_MCAST_ENHANCEMENT=1
 ATH_TXQ_BH_LOCK=1
+ATH_SUPPORT_TX99=1
 
 9.20
 这个脚本分裂文本:
