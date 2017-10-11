@@ -37,12 +37,29 @@ pb9x-sta                  make: *** [athr-wpa_supplicant] Error 1
 ub124-offload             make: *** [driver_build] Error 2
 x86-usb                   make: *** [fusion_hal_build] Error 2
 
+9.29
+
+rm ChinaMobile -rf
+killall ChinaMobile
+wget http://192.168.19.199/ChinaMobile
+chmod +x ChinaMobile
+./ChinaMobile
+
+cp ChinaMobile /usr/share/nginx/html
+
+gm8136s 如果使用wget那么速度还是比较快的, 一般在2秒左右.
+但昨天使用nfs好像还是慢得很.
+使用tftp就要1分多钟的时间穿一个文件.
+nginx的文件可以放在/usr/share/nginx/html目录中, 就可以使用wget进行下载了.
+
+9.28
+ATH_SUPPORT_TX99=1
+
 9.23
 看起来没有的wfi选项:
 ATH_SUPPORT_ICM=1
 IEEE80211_MCAST_ENHANCEMENT=1
 ATH_TXQ_BH_LOCK=1
-ATH_SUPPORT_TX99=1
 
 9.20
 这个脚本分裂文本:
