@@ -586,6 +586,96 @@ crided card
    主卡：简亮(RMB交易) 
   nullcq 20150420 20150420 6558 跨行自动还款中国建设银行   RMB -2,342.11 RMB -2,342.11 
  
+
+最后还款日：2015年04月20日 
+卡号 上期应还款额 - 上期已还款额 + 本期新增金额 = 本期应还款额 最低还款额 
+ Card Number Previous Balance Payments New Activity Current Balance Min.Payment 
+     EUR 5201-0880-****-**58 RMB 1,213.50 951.50 2,080.11 2,342.11 117.11 
+卡号:5201-0880-****-**58 
+   交易日 银行记账日  卡号后四位  交易描述    交易货币/金额   记账货币/金额 
+ Trans Date Post Date Card Number Description Trx.Amt Setl.Amt 
+   主卡：简亮(RMB交易) 
+  RMB nullAf 20150206 20150303 6558 支付宝快捷支付   RMB -262.00 RMB -262.00 
+  20150417 20150410 20150302 20150302 6558 支付宝快捷支付   RMB 546.50 RMB 546.50 
+  nullvT RMB 20150303 20150303 6558 支付宝快捷支付   RMB 38.61 RMB 38.61 
+  nullD RMB 20150303 20150303 6558 支付宝快捷支付   RMB 318.00 RMB 318.00 
+  nullmNG nullTb 20150303 20150303 6558 支付宝快捷支付   RMB 340.00 RMB 340.00 
+  nullc null Gj 20150304 20150304 6558 支付宝快捷支付   RMB 360.00 RMB 360.00 
+  20150432 nullB 20150305 20150305 6558 支付宝快捷支付   RMB 201.00 RMB 201.00 
+  20150426 EUR 20150305 20150305 6558 支付宝快捷支付   RMB 538.00 RMB 538.00 
+  20150415 nullsw 20150320 20150320 6558 跨行自动还款中国建设银行   RMB -951.50 RMB -951.50 
+ 
+ 
+最后还款日：2015年03月20日
+卡号 上期应还款额 - 上期已还款额 + 本期新增金额 = 本期应还款额 最低还款额 
+ Card Number Previous Balance Payments New Activity Current Balance Min.Payment 
+     HKD nullec j 5201-0880-****-**58 RMB 4,428.33 4,428.33 1,213.50 1,213.50 60.68 
+卡号:5201-0880-****-**58 
+   交易日 银行记账日  卡号后四位  交易描述    交易货币/金额   记账货币/金额 
+ Trans Date Post Date Card Number Description Trx.Amt Setl.Amt 
+   主卡：简亮(RMB交易) 
+  20150303 20150203 20150203 6558 支付宝快捷支付   RMB 45.00 RMB 45.00 
+  nullD S 20150205 20150205 6558 支付宝快捷支付   RMB 360.00 RMB 360.00 
+  nullLJ 20150205 20150205 6558 支付宝快捷支付   RMB 546.50 RMB 546.50 
+  USD 20150206 20150206 6558 支付宝快捷支付   RMB 262.00 RMB 262.00 
+  nullD 20150220 20150220 6558 跨行自动还款中国建设银行   RMB -4,428.33 RMB -4,428.33 
+ 
+ 
+最后还款日：2015年02月20日
+卡号 上期应还款额 - 上期已还款额 + 本期新增金额 = 本期应还款额 最低还款额 
+ Card Number Previous Balance Payments New Activity Current Balance Min.Payment 
+     nullPYyC 5201-0880-****-**58 RMB 1,432.50 1,432.50 4,428.33 4,428.33 221.42 
+卡号:5201-0880-****-**58 
+   交易日 银行记账日  卡号后四位  交易描述    交易货币/金额   记账货币/金额 
+ Trans Date Post Date Card Number Description Trx.Amt Setl.Amt 
+   主卡：简亮(RMB交易) 
+  HKD USD 20150102 20150102 6558 上海棒约翰餐饮管理有限ZHONGGUO     CN   RMB 183.00 RMB 183.00 
+  20150210 nullMJtL 20150102 20150102 6558 江西财富广场有限公司（ZHONGGUO     CN   RMB 2,100.00 RMB 2,100.00 
+ 
+
+最后还款日：2015年01月20日
+卡号 上期应还款额 - 上期已还款额 + 本期新增金额 = 本期应还款额 最低还款额 
+ Card Number Previous Balance Payments New Activity Current Balance Min.Payment 
+     USD HKD 5201-0880-****-**58 RMB 2,581.19 2,581.19 1,432.50 1,432.50 71.63 
+卡号:5201-0880-****-**58 
+   交易日 银行记账日  卡号后四位  交易描述    交易货币/金额   记账货币/金额 
+ Trans Date Post Date Card Number Description Trx.Amt Setl.Amt 
+   主卡：简亮(RMB交易) 
+  EUR RMB 20141203 20141203 6558 支付宝快捷支付   RMB 510.00 RMB 510.00 
+  RMB nullmviZ 20141204 20141204 6558 支付宝快捷支付   RMB 207.00 RMB 207.00 
+  RMB 20150103 20141204 20141204 6558 支付宝快捷支付   RMB 337.00 RMB 337.00 
+  nullxF RMB 20141204 20141207 6558 支付宝快捷支付   RMB -337.00 RMB -337.00 
+  nulljz EUR 20141206 20141206 6558 支付宝快捷支付   RMB 221.00 RMB 221.00 
+  nullc HKD 20141206 20141206 6558 支付宝快捷支付   RMB 337.00 RMB 337.00 
+  nullL nully 20141206 20141206 6558 支付宝快捷支付   RMB 546.50 RMB 546.50 
+  nullc USD 20141206 20141212 6558 支付宝快捷支付   RMB -221.00 RMB -221.00 
+  HKD 20150137 20141206 20141208 6558 支付宝快捷支付   RMB -337.00 RMB -337.00 
+  20150113 nullsC 20141207 20141207 6558 亚马逊中国  Amazon.cn   ZHONGGUO     CN   RMB 169.00 RMB 169.00 
+  USD HKD 20141220 20141220 6558 跨行自动还款中国建设银行   RMB -2,581.19 RMB -2,581.19 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 
+   
+ 
+ 
+ 
  
  
  
