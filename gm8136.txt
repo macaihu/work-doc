@@ -1,0 +1,30 @@
+gm8136
+
+运行ChinaMobile
+rm ChinaMobile -rf
+killall ChinaMobile
+wget http://192.168.19.199/ChinaMobile
+chmod +x ChinaMobile
+date
+./ChinaMobile
+
+
+复制程序到http
+cp ChinaMobile /usr/share/nginx/html
+
+
+在ap-cp上运行抓包程序:
+/tmp/tcpdump -w /tmp/tcpdump_log.cap -i br0 -C 20M -Z root -W 1
+
+
+设备系统命令升级: 
+sysupdate -d -f Smarttzk61.bin 
+
+运行iperf3
+tftp -g 192.168.19.199 -l iperf3
+tftp -g 192.168.19.199 -l libiperf.so.0.0.0
+chmod +x iperf3
+ln -sf libiperf.so.0.0.0 libiperf.so.0.0
+ln -sf libiperf.so.0.0.0 libiperf.so.0
+export LD_LIBRARY_PATH=/root
+

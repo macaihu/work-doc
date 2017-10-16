@@ -37,12 +37,47 @@ pb9x-sta                  make: *** [athr-wpa_supplicant] Error 1
 ub124-offload             make: *** [driver_build] Error 2
 x86-usb                   make: *** [fusion_hal_build] Error 2
 
+
+10.15
+这样可以做的tcpdump循环抓包.
+/tmp/tcpdump -w /tmp/tcpdump_log.cap -i br0 -C 20M -Z root -W 1
+
+
+FactoryDefault
+
+tftp -g 192.168.19.199 -l iperf3
+tftp -g 192.168.19.199 -l libiperf.so.0.0.0
+chmod +x iperf3
+ln -sf libiperf.so.0.0.0 libiperf.so.0.0
+ln -sf libiperf.so.0.0.0 libiperf.so.0
+export LD_LIBRARY_PATH=/root
+
+
+net.core.wmem_max=12582912
+net.core.rmem_max=12582912
+net.ipv4.tcp_rmem= 10240 87380 12582912
+net.ipv4.tcp_wmem= 10240 87380 12582912
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 1
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_no_metrics_save = 1
+net.core.netdev_max_backlog = 5000
+
+10.13
+各个仓编译错误：
+sequans3220: 真悲催，编译失败！
+lc1860: 修改了啥？出错了吧。
+zte7520_ap: 不如意事常八九，可与语人无二三。
+ath9.5: 路漫漫其修远兮.... 
+gm8136s: 举杯邀明月, 对影成三人...
+
 9.29
 
 rm ChinaMobile -rf
 killall ChinaMobile
 wget http://192.168.19.199/ChinaMobile
 chmod +x ChinaMobile
+date
 ./ChinaMobile
 
 cp ChinaMobile /usr/share/nginx/html
@@ -2643,11 +2678,7 @@ Press the [1], [2], [3] or [4] key and hit [enter] to select the debug level
 
 
 
-各个仓编译错误：
-sequans3220: 真悲催，编译失败！
-lc1860: 修改了啥？出错了吧。
-zte7520_ap: 不如意事常八九，可与语人无二三。
-ath9.5: 路漫漫其修远兮.... 
+
 
 看起来换了那个uboot，跑了一个晚上，另外一台机器，连续拔插，也都正常启动了。
 
