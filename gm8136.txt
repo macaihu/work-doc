@@ -1,5 +1,28 @@
 gm8136
 
+
+
+echo rm ChinaMobile -rf >> 1
+echo killall ChinaMobile >> 1
+echo wget http://192.168.19.199/ChinaMobile >> 1
+echo chmod +x ChinaMobile >> 1
+echo date >> 1
+echo ./ChinaMobile >> 1
+chmod +x 1
+
+
+
+echo rm ChinaMobile -rf >> 1
+echo killall ChinaMobile >> 1
+echo wget http://192.168.1.100/ChinaMobile >> 1
+echo chmod +x ChinaMobile >> 1
+echo date >> 1
+echo ./ChinaMobile >> 1
+chmod +x 1
+
+cp ChinaMobile /mnt/flash/
+
+
 运行ChinaMobile
 rm ChinaMobile -rf
 killall ChinaMobile
@@ -27,4 +50,8 @@ chmod +x iperf3
 ln -sf libiperf.so.0.0.0 libiperf.so.0.0
 ln -sf libiperf.so.0.0.0 libiperf.so.0
 export LD_LIBRARY_PATH=/root
+
+
+和目账号 15012979031 123456tozed
+
 
