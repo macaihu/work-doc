@@ -2,8 +2,6 @@
 
 我的iphone mac fc:e9:98:14:58:1f
 待解决问题：
-南非p21 加wan口功能。
-p53 加tr069 
 
 ap120                     make: *** [uboot_mainline] Error 2
 ap121-2.6.31              make: *** [sqlzma_build] Error 2
@@ -36,6 +34,135 @@ pb9x-offload-ub124        make: *** [wpa2] Error 2
 pb9x-sta                  make: *** [athr-wpa_supplicant] Error 1
 ub124-offload             make: *** [driver_build] Error 2
 x86-usb                   make: *** [fusion_hal_build] Error 2
+
+10.23
+17：11:43
+
+10.20
+rm ChinaMobile -rf
+killall ChinaMobile
+wget ftp://192.168.1.103/ChinaMobile
+chmod +x ChinaMobile
+date
+./ChinaMobile
+
+
+gpio是: 1 20-21
+
+echo rm ChinaMobile -rf >> 1
+echo killall ChinaMobile >> 1
+echo wget ftp://192.168.99.100/ChinaMobile >> 1
+echo chmod +x ChinaMobile >> 1
+echo date >> 1
+echo ./ChinaMobile >> 1
+chmod +x 1
+
+换宾馆  
+ID	客户端名	MAC地址	IP地址	有效时间
+1	Mike-iPhone	64-B0-A6-CE-B1-EE	192.168.99.100	01:26:30
+2	android-3738671a589436c	7C-70-BC-00-08-19	192.168.99.101	01:21:30
+3	GJSROX0FSVCLWJ8	2C-6E-85-2D-18-74	192.168.99.102	01:22:12
+4	Liangde-iPhone	FC-E9-98-14-58-1F	192.168.99.103	01:59:49
+5	SmartHome-ZLT-CM11-001	EC-3D-FD-BD-90-61	192.168.99.104	01:41:19
+6	MacBook-Pro	78-31-C1-C0-C5-8E	192.168.99.105	01:37:41
+7	android-dc2d0b43308d7f5b	F4-E3-FB-BB-A9-1D	192.168.99.106	01:32:42
+8	SmartHome-BRUBADSRTGG6ZZXU111A	00-6C-FD-82-22-0D	192.168.99.107	01:49:08
+9	ubuntu	08-00-27-C2-BC-E1	192.168.99.108	01:44:1
+
+
+
+权重	时间	问题描述	解决情况	负责人	补充																				
+重	2017.10.17	不规律断开服务器连接，卡顿	Pending	简亮	
+重	2017.10.17	视频达到25帧	已解决	黎汝祥
+重	2017.10.17	关闭移动侦测，关闭声音侦测依然有。	已解决	梁剑
+重	2017.10.17	移动侦测区域布防设置无效	Pending	黎汝祥
+较重	2017.10.17	自动获得MAC地址及手动写入IMEI号	已解决	梁剑
+较重	2017.10.17	WifiTool连接无密码SSID无法完成	已解决	简亮
+重	2017.10.17	声音有背景噪音	已解决	黎汝祥
+轻	2017.10.17	仅第一次提示连接成功，其余断线不提示语音。	已解决 简亮
+轻	2017.10.17	SD卡插入加载生效时间较长（约10秒）	Pending	黎汝祥
+轻	2017.10.18	没有IMEI号直接启动提示（文件名修正：IEMI）	Pending
+轻	2017.10.19	正在连接路由器语音报半截共两次	Pending
+轻	2017.10.19	下发语音再次卡顿	已解决	简亮
+轻	2017.10.19	增加恢复默认参数语音提醒	已解决	简亮
+轻	2017.10.19	测试说明文件	已解决	江健
+轻	2017.10.19	第一张抓图有绿色线，且尺寸很小	已解决	简亮
+轻	2017.10.19	收到配置信息偶现程序不往下跑	Pending
+以下为平台建议
+轻	2017.10.19	了解断网续传时间条刷新机制	Pending
+较重	2017.10.19	流量优化15分钟静态，5分钟动态。50M流量得8分	Pending	画质跟码率的折中点
+轻	2017.10.19	核实下丢帧策略（P帧发送失败，则主动丢弃后面整个GOP）	Pending		个人理解：有利于缩减延时以及保持时间戳跟平台同步
+轻	2017.10.19	音频帧检查是否发送了音频格式类型	Pending
+较重	2017.10.19	检查缓存了多少帧，建议100帧为佳（也有50帧的）	Pending
+轻	2017.10.19	缓存策略（队列后打包，目前是打包后队列）	Pending
+较重	2017.10.19	保持长时间运行，需要保证RTP时间戳的增量和系统时间的增量是匹配的	Pending		这个怎么理解？
+轻	2017.10.19	每次发送应该先发视频I桢再发音频	Pending
+重	2017.10.19	麦克风静音时，发送声音进程不能停止，仅发送静音数据	Pending
+重	2017.10.19	事件要通知到手机通知栏（同时通知OPENAPI）	Pending
+较重	2017.10.19	切换视频流时，Rtp时间戳要重取，重新步增（平台分文件存储）	Pending
+重	2017.10.19	全双工能力集可以打开，平台要求全双工	Pending
+较重	2017.10.19	语音提示要严格按照平台要求做	Pending
+较重	2017.10.19	指示灯指示和颜色要严格按照平台要求做	Pending
+轻	2017.10.19	按键偶尔引起掉线	Pending
+轻	2017.10.19	Wi-Fi模组性能是否可能影响了发送性能，造成断线	Pending
+重	2017.10.19	客流统计算法（线性和非线性，平台采用的是矩形非线性）	Pending		矩形结合线性
+轻	2017.10.19	音频下发，建议存文件后再播放	Pending
+较重	2017.10.19	明早安排寄出双向语音版本机器	Pending
+重	2017.10.20	机器断线后，机器缩略图不会自动刷新。	Pending
+重	2017.10.20	打开关闭摄像头，实时视频未能恢复，未收到打开消息	Pending
+较重	2017.10.20	更换6灯板参加测试，寄6灯灯板	Pending
+重	2017.10.20	机器断线后，机器缩略图不会自动刷新。	Pending
+轻	2017.10.20	恢复默认参数时间太短	Pending
+重	2017.10.20	声音告警不起作用	Pending
+轻	2017.10.20	图像瞬间加速	Pending
+较重	2017.10.20	发送离线及断线日志	Pending
+																									
+
+
+
+10.19
+序号	中文	英文	文件名
+1	正在连接无线路由器。	Y Fi Connecting.	NetInitting
+2	无线网络断开。	Y Fi Disconnected.	Disconnected
+3	连接无线网络失败。	Connecting Y Fi failed.	DontConnect
+4	连接无线网络成功,信号很好。	Connecting Y Fi successfully, signal is excellent.	ConnectedOK_VeryGood
+5	连接无线网络成功,信号好。	Connecting Y Fi successfully, signal is good.	ConnectedOK_Good
+6	连接无线网络成功,信号一般。	Connecting Y Fi successfully, signal is normal.	Connected_Ordinary
+7	连接无线网络成功,信号差。	Connecting Y Fi successfully, signal is poor.	Connected_Poor
+8	连接无线网络成功,信号很差。	Connecting Y Fi successfully, signal is very poor.	Connected_VeryPoor
+9	请用手机客户端连接设备。	Please use your mobile to connect the device.	ConnectAP
+11	设备正在恢复默认参数，请等待。	Device resotring to factory default, please wait.	FactoryCfg
+12	云设备升级中。	Device's upgrading, please keep the power on.	update
+13	初始化无线AP模式。	Initializing Y Fi AP mode.	InitAPmode
+16	无线网络设置失败，请重新设置。	Y Fi setting incorrect, please retry.	ConfigFault
+17	无线网络设置成功 	Configure Y Fi successfully.	NetConfigOK 
+18	收到设置无线网络设置参数，正在连接无线路由器，请等待。		ObtainNetConfigParam
+
+
+
+
+10.18
+重庆宾馆：
+git remote add tozed ssh://git@113.98.195.201:10003/gm8136s
+
+echo rm ChinaMobile -rf >> 1
+echo killall ChinaMobile >> 1
+echo wget ftp://192.168.43.66/ChinaMobile >> 1
+echo chmod +x ChinaMobile >> 1
+echo date >> 1
+echo ./ChinaMobile >> 1
+chmod +x 1
+
+ubuntu 192.168.43.155
+smart-home 192.168.43.165
+pc: 192.168.43.66
+
+查看局域网内机器：nmap -sP 192.168.1.0/24  
+
+error while loading shared libraries: libmpfr.so.1: cannot open shared object
+file: No such file or directory
+解决方法：
+$ sudo apt-get install libmpfr4:i386
 
 
 10.15
