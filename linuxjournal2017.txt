@@ -35,6 +35,45 @@ pb9x-sta                  make: *** [athr-wpa_supplicant] Error 1
 ub124-offload             make: *** [driver_build] Error 2
 x86-usb                   make: *** [fusion_hal_build] Error 2
 
+10.30
+刘云 周湘理: 
+
+运行rtspd20 , 结果重启了.
+Usage:
+  Multiple H.264 streams (1080p + VGA):
+    #./rtspd
+  Single H.264 stream (max resolution):
+    #./rtspd -s
+Error! Abnormal AP exit under graphid=0x1
+Error! Abnormal AP exit under graphid=0x2
+Error! Abnormal AP exit under graphid=0x3
+Poll timeout!!Poll timeout!!GM RTSP Library [build - Oct  2 2014 15:03:35]
+Connect command:
+    rtsp://104.191.138.126/live/ch00_0
+    rtsp://0.0.0.0/live/ch00_1
+Press 'q' to exit.
+Connection closed by foreign host.
+
+向杰重新安装了机器,生成了新的key.
+刘云: 还需要周湘理分析一些网页的问题.
+姚国梁: 陶嵩问一拖多的时候如何下载校准文件, 想起来有些困难啊.
+
+金晶: 一个阳光万峰的项目, 是连接若干个传感器, 不同车间显示本车间的传感器, 还有一个总的显示, 取代巡检的功能. 问陈良是否有空.
+
+任银善: wpa2的补丁似乎还没有.
+netcwmp软件已经移植, 但是感觉以前的软件做的有些乱, 好多东西揉在了一起. 本周预计完成可以进行portal的配置.
+wifidog已经可以使用, 验证过的手机能上网, 没有验证的出现portal页面, 但是感觉有些奇怪的是, 删除了相应的iptables规则,验证的手机仍然可以上网. 重新启动wifidog后, 规则又加入了, 没有找到wifidog保存白名单的地方.
+郑达开始做tr069.
+赵钢因为在做watchdog, 还没有在做.
+现在测试出来的问题主要集中在wifi做客户端的时候, 有时候不能保存, 有时候保存错误. 其他网络做wan的时候, p59的显示看起来是正常的,但p53可能错误.
+性能方面, 李建华测试说在p59距离上比p21要差. 吞吐量ok, 另外做客户端的情况下, 不能增加nob这个选项, 否则很多ap都连不上.
+华润方面, 在做一个简单的命令行接口. mpls, 移动的已经过了测试期, 不能测了. 电信的没有测试线路, 也没法测. snmp只提供了private等设置, 没有要求mib等. 
+
+
+10.27
+当前我的串口线,白线是地线.
+连接后uboot可以显示一点内容,然后就全部是乱码了.
+
 10.23
 17：11:43
 

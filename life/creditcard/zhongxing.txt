@@ -654,6 +654,31 @@ crided card
   USD HKD 20141220 20141220 6558 跨行自动还款中国建设银行   RMB -2,581.19 RMB -2,581.19 
  
  
+最后还款日：2014年12月20日
+卡号 上期应还款额 - 上期已还款额 + 本期新增金额 = 本期应还款额 最低还款额 
+ Card Number Previous Balance Payments New Activity Current Balance Min.Payment 
+     USD 5201-0880-****-**58 RMB 647.90 647.90 2,581.19 2,581.19 129.06 
+卡号:5201-0880-****-**58 
+   交易日 银行记账日  卡号后四位  交易描述    交易货币/金额   记账货币/金额 
+ Trans Date Post Date Card Number Description Trx.Amt Setl.Amt 
+   主卡：简亮(RMB交易) 
+  EUR 20141102 20141102 6558 南昌百货大楼股份有限    ZHONGGUO     CN   RMB 103.89 RMB 103.89 
+  nullEL u 20141102 20141102 6558 江西开心人大药房连锁有  ZHONGGUO     CN   RMB 467.30 RMB 467.30 
+  HKD 20141103 20141103 6558 支付宝快捷支付   RMB 348.00 RMB 348.00 
+  USD 20141104 20141104 6558 格林豪泰酒店            ZHONGGUO     CN   RMB 174.00 RMB 174.00 
+  HKD 20141105 20141105 6558 支付宝快捷支付   RMB 248.00 RMB 248.00 
+  nullmzxi 20141105 20141105 6558 支付宝快捷支付   RMB 1,240.00 RMB 1,240.00 
+  20141216 20141120 20141120 6558 跨行自动还款中国建设银行   RMB -647.90 RMB -647.90 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
  
  
  
