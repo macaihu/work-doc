@@ -1,10 +1,13 @@
 #!/bin/sh
 
-thisdate=$(date +%Y%m%d)
+thisdate=$(date +%Y%m%d%H%M%S)
 mypath=/tmp/jian-doc_$thisdate
 
+rm *.7z -rf
+rm $mypath -rf
 mkdir -p $mypath
 cp . $mypath -rf
 rm $mypath/.git -rf
-7z a mydoc_$thisdate $mypath
+7z a mydoc_$thisdate $mypath -pss7u#g2
+echo "jian-doc" | mutt jianliang@139.com -s "jian-doc"_$thisdate  -a mydoc_$thisdate.7z
 
