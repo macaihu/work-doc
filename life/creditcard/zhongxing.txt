@@ -671,6 +671,34 @@ crided card
   20141216 20141120 20141120 6558 跨行自动还款中国建设银行   RMB -647.90 RMB -647.90 
  
  
+最后还款日：2014年11月20日 
+卡号 上期应还款额 - 上期已还款额 + 本期新增金额 = 本期应还款额 最低还款额 
+ Card Number Previous Balance Payments New Activity Current Balance Min.Payment 
+     nulld 5201-0880-****-**58 RMB 147.86 147.86 647.90 647.90 32.40 
+卡号:5201-0880-****-**58 
+   交易日 银行记账日  卡号后四位  交易描述    交易货币/金额   记账货币/金额 
+ Trans Date Post Date Card Number Description Trx.Amt Setl.Amt 
+   主卡：简亮(RMB交易) 
+  EUR USD 20141002 20141002 6558 南昌市东湖鸿环旺中旺    ZHONGGUO     CN   RMB 55.40 RMB 55.40 
+  RMB RMB 20141002 20141002 6558 南昌市东湖鸿环旺中旺    ZHONGGUO     CN   RMB 93.60 RMB 93.60 
+  20141122 20141122 20141005 20141005 6558 南昌市青山湖区鸿铁旺中  ZHONGGUO     CN   RMB 30.70 RMB 30.70 
+  nullh 20141102 20141005 20141005 6558 南昌市东湖鸿环旺中旺    ZHONGGUO     CN   RMB 58.70 RMB 58.70 
+  HKD HKD 20141006 20141006 6558 南昌市东湖鸿环旺中旺    ZHONGGUO     CN   RMB 32.20 RMB 32.20 
+  HKD 20141136 20141006 20141006 6558 江西宝元商贸有限公司    ZHONGGUO     CN   RMB 339.00 RMB 339.00 
+  nullce 20141121 20141007 20141007 6558 南昌市东湖鸿环旺中旺    ZHONGGUO     CN   RMB 38.30 RMB 38.30 
+  nullB nullotku 20141020 20141020 6558 跨行自动还款中国建设银行   RMB -147.86 RMB -147.86 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  

@@ -35,8 +35,44 @@ pb9x-sta                  make: *** [athr-wpa_supplicant] Error 1
 ub124-offload             make: *** [driver_build] Error 2
 x86-usb                   make: *** [fusion_hal_build] Error 2
 
+ap-cp:
+保存无线参数后断网, 看起来只有重启.
+加上nob选项
+继续减少wifi的选项.
+
+11.1
+郑荣俊: 正在建立mtk的仓, 做自定义的升级网页. 抱怨点在出一个m60, p25, p21的程序就要测试一遍tr069.
+
+江健: 想在服务端建立udp的语言缓存.
+
+10.31
+姚国梁: upnp开始连自己的计算机, 没有规则出现, 移到汪光华那里, 出现了, 回来自己的计算机, 也好了.
+
+江健: 后面的工作还有双向语音, 奥远驱动, p2p代码.
+
+gm8136存在pin指定从spi还是nand启动.
+
+ubuntu下升级flash
+选择tar方式,解压文件
+sudo cp ~/111/libflashplayer.so ./usr/lib/flashplugin-installer/libflashplayer.so
+sudo cp ~/111/usr/* /usr
+还需要重新启动firefox, 这样就不会报flash过期了.
+
+已经处理的地址:
+211.143.218.108 - 126 已经处理, 118不存在.
+211.143.218.35 211.143.218.54已经处理.
+福建的登录信息:
+远程桌面登陆地址:211.143.218.55,
+账号:administrator
+密码:Yrf2017!a
+网管服务器登陆:211.143.218.55:8000
+账号:admin
+密码:ND_HSWXKD
+ap-si的网页登录密码 NDHSWXKD
+
+
 10.30
-刘云 周湘理: 
+刘云 周湘理: ap客户端不用处理repeator的情况.
 
 运行rtspd20 , 结果重启了.
 Usage:

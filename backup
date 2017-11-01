@@ -1,0 +1,10 @@
+#!/bin/sh
+
+thisdate=$(date +%Y%m%d)
+mypath=/tmp/jian-doc_$thisdate
+
+mkdir -p $mypath
+cp . $mypath -rf
+rm $mypath/.git -rf
+7z a mydoc_$thisdate $mypath
+
