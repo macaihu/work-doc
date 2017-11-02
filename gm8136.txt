@@ -1,6 +1,15 @@
 gm8136
 
-
+1 尝试从开发包生成文件系统.
+2 程序用到的各种软件包的编译
+3 灯的控制修改为标准方式
+4 声音的播放和制作
+5 声音的驱动程序编译
+6 flash划分
+7 新的wifi驱动编译和测试
+8 和目协议的剩余上报和操作指令. 包括sd卡, wifi等.
+9 程序稳定性, 断线, 出错等.
+10 视频格式等了解.
 
 echo rm ChinaMobile -rf >> 1
 echo killall ChinaMobile >> 1
@@ -40,8 +49,8 @@ cp ChinaMobile /usr/share/nginx/html
 /tmp/tcpdump -w /tmp/tcpdump_log.cap -i br0 -C 20M -Z root -W 1
 
 
-设备系统命令升级: 
-sysupdate -d -f Smarttzk61.bin 
+设备系统命令升级:
+sysupdate -d -f Smarttzk61.bin
 
 运行iperf3
 tftp -g 192.168.19.199 -l iperf3
@@ -54,5 +63,3 @@ export LD_LIBRARY_PATH=/root
 
 和目账号 15012979031 123456tozed
          15920064478 abc1234567890
-
-
