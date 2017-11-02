@@ -25,7 +25,7 @@ pb44-ce                   cd: can't cd to /home/jian/work/ath9.5/build/../linux/
 pb44-usb-p2p-small        can't cd to /home/jian/work/ath9.5/build/../linux/kernels/mips-linux-2.6.15/
 pb47-xmii                 make: *** [config_fix] Error 1
 pb47-xmii-2.6.31          make: *** [kernel_build] Error 2
-pb92                      make: *** No rule to make target 'uboot_build', needed by 'common_mainline'. 
+pb92                      make: *** No rule to make target 'uboot_build', needed by 'common_mainline'.
 pb9x-carrier              make: *** [driver_build] Error 2
 pb9x-clean                make: *** [driver_build] Error 2
 pb9x-offload-gmac-flash   make: *** [acfg_build] Error 2
@@ -41,6 +41,12 @@ ap-cp:
 继续减少wifi的选项.
 
 11.1
+任银善：问为什么acl设置中使用input output规则无效，这个确实会让人迷惑。
+
+郑达：在写udp网管的时候，建立了一个简单的取数据的机制，从什么文件中读取，上送的json字段名称， 读取方式， 读取内容。
+
+梁剑：周四下午要早一点走。看onenet的视频上传， 准备先做视频文件的上传。
+
 郑荣俊: 正在建立mtk的仓, 做自定义的升级网页. 抱怨点在出一个m60, p25, p21的程序就要测试一遍tr069.
 
 江健: 想在服务端建立udp的语言缓存.
@@ -103,7 +109,7 @@ wifidog已经可以使用, 验证过的手机能上网, 没有验证的出现por
 赵钢因为在做watchdog, 还没有在做.
 现在测试出来的问题主要集中在wifi做客户端的时候, 有时候不能保存, 有时候保存错误. 其他网络做wan的时候, p59的显示看起来是正常的,但p53可能错误.
 性能方面, 李建华测试说在p59距离上比p21要差. 吞吐量ok, 另外做客户端的情况下, 不能增加nob这个选项, 否则很多ap都连不上.
-华润方面, 在做一个简单的命令行接口. mpls, 移动的已经过了测试期, 不能测了. 电信的没有测试线路, 也没法测. snmp只提供了private等设置, 没有要求mib等. 
+华润方面, 在做一个简单的命令行接口. mpls, 移动的已经过了测试期, 不能测了. 电信的没有测试线路, 也没法测. snmp只提供了private等设置, 没有要求mib等.
 
 
 10.27
@@ -132,7 +138,7 @@ echo date >> 1
 echo ./ChinaMobile >> 1
 chmod +x 1
 
-换宾馆  
+换宾馆
 ID	客户端名	MAC地址	IP地址	有效时间
 1	Mike-iPhone	64-B0-A6-CE-B1-EE	192.168.99.100	01:26:30
 2	android-3738671a589436c	7C-70-BC-00-08-19	192.168.99.101	01:21:30
@@ -146,8 +152,8 @@ ID	客户端名	MAC地址	IP地址	有效时间
 
 
 
-权重	时间	问题描述	解决情况	负责人	补充																				
-重	2017.10.17	不规律断开服务器连接，卡顿	Pending	简亮	
+权重	时间	问题描述	解决情况	负责人	补充
+重	2017.10.17	不规律断开服务器连接，卡顿	Pending	简亮
 重	2017.10.17	视频达到25帧	已解决	黎汝祥
 重	2017.10.17	关闭移动侦测，关闭声音侦测依然有。	已解决	梁剑
 重	2017.10.17	移动侦测区域布防设置无效	Pending	黎汝祥
@@ -191,7 +197,7 @@ ID	客户端名	MAC地址	IP地址	有效时间
 重	2017.10.20	声音告警不起作用	Pending
 轻	2017.10.20	图像瞬间加速	Pending
 较重	2017.10.20	发送离线及断线日志	Pending
-																									
+
 
 
 
@@ -210,7 +216,7 @@ ID	客户端名	MAC地址	IP地址	有效时间
 12	云设备升级中。	Device's upgrading, please keep the power on.	update
 13	初始化无线AP模式。	Initializing Y Fi AP mode.	InitAPmode
 16	无线网络设置失败，请重新设置。	Y Fi setting incorrect, please retry.	ConfigFault
-17	无线网络设置成功 	Configure Y Fi successfully.	NetConfigOK 
+17	无线网络设置成功 	Configure Y Fi successfully.	NetConfigOK
 18	收到设置无线网络设置参数，正在连接无线路由器，请等待。		ObtainNetConfigParam
 
 
@@ -232,7 +238,7 @@ ubuntu 192.168.43.155
 smart-home 192.168.43.165
 pc: 192.168.43.66
 
-查看局域网内机器：nmap -sP 192.168.1.0/24  
+查看局域网内机器：nmap -sP 192.168.1.0/24
 
 error while loading shared libraries: libmpfr.so.1: cannot open shared object
 file: No such file or directory
@@ -270,7 +276,7 @@ net.core.netdev_max_backlog = 5000
 sequans3220: 真悲催，编译失败！
 lc1860: 修改了啥？出错了吧。
 zte7520_ap: 不如意事常八九，可与语人无二三。
-ath9.5: 路漫漫其修远兮.... 
+ath9.5: 路漫漫其修远兮....
 gm8136s: 举杯邀明月, 对影成三人...
 
 9.29
@@ -319,11 +325,11 @@ http://www.cnblogs.com/lovevivi/p/4359296.html
 9.17
 ATH_SUPPORT_DYNAMIC_VENDOR_IE
 DBDC_REPEATER_SUPPORT UMAC_SUPPORT_TXDATAPATH_NODESTATS AH_PRIVATE_DIAG
-QCA_OL_NAPI_SUPPORT 
-ATH_SSID_STEERING 
-ATH_SUPPORT_FIPS 
-PEER_FLOW_CONTROL 
-ATH_SUPPORT_GREEN_AP 
+QCA_OL_NAPI_SUPPORT
+ATH_SSID_STEERING
+ATH_SUPPORT_FIPS
+PEER_FLOW_CONTROL
+ATH_SUPPORT_GREEN_AP
 Filesystem           1K-blocks      Used Available Use% Mounted on
 /dev/root                 6976      4548      2428  65% /
 
@@ -388,7 +394,7 @@ pb44-usb-small            make: *** [toolchain_build] Error 2
 pb47-xmii                 make: *** [config_fix] Error 1
 pb47-xmii-2.6.31          make: *** [kernel_build] Error 2
 pb90                      make: *** [toolchain_build] Error 2
-pb92                      make: *** No rule to make target 'uboot_build', needed by 'common_mainline'. 
+pb92                      make: *** No rule to make target 'uboot_build', needed by 'common_mainline'.
 pb9x                      make: *** [toolchain_build] Error 2
 pb9x-2.6.31               ok
 pb9x-aow                  make: *** [toolchain_build] Error 2
@@ -462,11 +468,11 @@ nvr: 网络存储 rtsp 国际标准
 双向语音: 半双工, 全双工. 回声消除, 背景噪音, 电路声.
 
 梁剑
-使用pppoe的情况下, echo c > ... 发起l2tp连接后, 需要1分钟后才能连接, 而使用4g的情况就很快就回了. 
+使用pppoe的情况下, echo c > ... 发起l2tp连接后, 需要1分钟后才能连接, 而使用4g的情况就很快就回了.
 如果是4g切换到pppoe的情况, 那么要到6-7分钟后才正常. 直接使用pppoe, 要2-3分钟才能使用.
 检查默认路由的方式应该改为链路检查的方式.
 使用一段时间后拔掉网线, 4g不能得到ip, 4-5分钟才能恢复(一次).
-当使用了一段时间工业路由器后, 把网线拔到原来用的tplink上后, tplink无法拨上pppoe, 重启后可以拨上了. 
+当使用了一段时间工业路由器后, 把网线拔到原来用的tplink上后, tplink无法拨上pppoe, 重启后可以拨上了.
 
 摄像头:
 长按5秒恢复出厂的状态. ssid以smart开头, 密码是6个9.
@@ -496,7 +502,7 @@ ATH_SUPPORT_LOWI
 有个客户只要工业路由器的pppoe功能.
 
 江健:
-卡片机和摇头机主要给海外, 需要对视频数据进行加密. 
+卡片机和摇头机主要给海外, 需要对视频数据进行加密.
 
 叶京平
 欧洲那个车载的对方已经找了一个有现成软件的, 还有欧洲认证的广州公司. 报价也低很多, 只报了100多美金, 我们报了300多.
@@ -568,7 +574,7 @@ VMware Player is unable to provide all of the graphics features expected by this
     1：ubuntu:
       user:root
       password:1234
-      
+
     2：和目云与onenet平台应用：ChinaMobile
     /usr/src/lrxPrj/APP-ChinaMobile/OpenAPUPD-rtmp
      make 得到ChinaMobile
@@ -581,7 +587,7 @@ VMware Player is unable to provide all of the graphics features expected by this
      /root/share/image/target/SmartBell/TZK61-ChinaMobile
       运行：SmartHome136.sh 得到固件Smarttzk61.bin
 
-    4:设备系统命令升级: sysupdate -d -f Smarttzk61.bin 
+    4:设备系统命令升级: sysupdate -d -f Smarttzk61.bin
 
 
 王伍:
@@ -621,7 +627,7 @@ arr=($a)
 IFS="$OLD_IFS"
 for s in ${arr[@]}
 do
-    echo "$s" 
+    echo "$s"
 done
 
 8.31
@@ -629,7 +635,7 @@ set ipaddr 10.8.0.33 && set serverip 10.8.0.100
 set bootargs "console=ttyS0,115200 root=31:01 rootfstype=jffs2 rw init=/sbin/init mtdparts=spi0.0:64k(u-boot),6720k(rootfs),1280k(uImage),64k(mib0),64k(ART) machtype=DB120"
 
 set ipaddr 10.8.0.33 && set serverip 10.8.0.100
-tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6a0000 +$filesize&&cp.b $fileaddr 0x9f6a0000 $filesize 
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6a0000 +$filesize&&cp.b $fileaddr 0x9f6a0000 $filesize
 tftp 0x80060000 tozedap-cp_ap123-jffs2 && erase 0x9f010000 +0x690000&&cp.b $fileaddr 0x9f010000 $filesize
 bootm 0x9f6a0000
 
@@ -642,7 +648,7 @@ bootm 0x9f6a0000
         echo AP_NO_A_BAND=${AP_NO_A_BAND}
         #load DFS if A band is supported,default is supported and set AP_NO_A_BAND=1 if not supported
         insmod $MODULE_PATH/ath_dfs.ko $DFS_ARGS
-    fi     
+    fi
     insmod $MODULE_PATH/hst_tx99.ko
     insmod $MODULE_PATH/mem_manager.ko
     insmod $MODULE_PATH/umac.ko
@@ -683,9 +689,9 @@ jian@jian-OptiPlex-9020:~/work/ath9.5/build$ cat ../drivers/qca-wifi-10.4/lmac/t
 +export UMAC_SUPPORT_OPMODE_APONLY=0
  export UMAC_SUPPORT_STATS_APONLY=1
  export ATH_SUPPORT_STATS_APONLY=1
- 
+
 @@ -375,7 +375,7 @@ export ATH_TXBUF=540
- 
+
  export KBUILD_MODPOST_WARN=y
  export JUMPSTART_GPIO=16
 -export ATH_SUPPORT_TIDSTUCK_WAR=1
@@ -746,7 +752,7 @@ http://blog.csdn.net/jipingyuan/article/details/39297409
 参考了openwrt的脚本,发现它的加载umac驱动时增加了testmode=1和ahbskip=1 两个参数。并在wifi驱动编译时，打开了对应的2个开关。现在可以进行art校准2.4G和5G。
 
 汪光华
-1860内核中增加了那个no_window的参数,但是发现没有那个文件, dmesg发现这个模块没有加载起来,跟踪程序发现里面的data字段都消失了. android奇怪的现象. 
+1860内核中增加了那个no_window的参数,但是发现没有那个文件, dmesg发现这个模块没有加载起来,跟踪程序发现里面的data字段都消失了. android奇怪的现象.
 
 叶京平
 要一个p59, 要增加gps, 还有增加一个到了总站自动切换到总站的wifi去.
@@ -818,7 +824,7 @@ http://rglinuxtech.com/?p=1184
 Thanks to Erwin Zoer (see his comment below the earlier post for 3.17-rc1..), there is a fix available – for ~/vmware-only/netif.c
 For kernel 3.17-rc3 and later, change line 152 from
 dev = alloc_netdev(sizeof *netIf, deviceName, VNetNetIfSetup);
-to 
+to
 dev = alloc_netdev(sizeof *netIf, deviceName, NET_NAME_UNKNOWN, VNetNetIfSetup);
 那样这样改看起来是不会报错的：
 #if LINUX_VERSION_CODE > KERNEL_VERSION(3,17,0)
@@ -844,7 +850,7 @@ os/linux/src/ath_netlink.c:97:30: note: in expansion of macro 'NETLINK_CREDS'
 
 还有，此恨绵绵无绝期啊：
 /opt/work/temp/ath9.5/drivers/wlan_v10/os/linux/../../lmac/ath_pktlog/../../os/linux/include/osdep_adf.h:188:3: error: unknown type name 'ctl_table'
- f(ctl_table *ctl, int write, void *buffer,     
+ f(ctl_table *ctl, int write, void *buffer,
 加一个struct解决了。
 
 还有：
@@ -859,7 +865,7 @@ os/linux/src/if_ath_ahb.c:409:75: error: macro "alloc_netdev" requires 4 argumen
 /opt/work/temp/ath9.5/drivers/wlan_v10/os/linux/../../umac/../os/linux/src/adf_net_vlan.c:83:19: error: 'NETIF_F_HW_VLAN_TX' undeclared (first use in this function)
   dev->features |= NETIF_F_HW_VLAN_TX | NETIF_F_HW_VLAN_RX
 这个宏可能已经修改了名字：
-文件中drivers/net/ethernet/realtek/8139cp.c 
+文件中drivers/net/ethernet/realtek/8139cp.c
  if (features & NETIF_F_HW_VLAN_CTAG_RX)
 那么改成这样吧：
 #if LINUX_VERSION_CODE > KERNEL_VERSION(3,18,0)
@@ -899,7 +905,7 @@ os/linux/src/osif_proxyarp.c:40:19: error: conflicting types for 'ipv6_addr_is_m
 [   43.230000] [<85871a88>] 0x85871a88
 [   43.230000] [<801ab9a4>] 0x801ab9a4 ffffffff801ab9a4 t serial8250_console_putchar
 [   43.230000] [<80205814>] 0x80205814 ffffffff802057c8 T dev_addr_init
-[   43.230000] [<858722a8>] 0x858722a8 
+[   43.230000] [<858722a8>] 0x858722a8
 [   43.230000] [<801b4cac>] 0x801b4cac ffffffff801b4bf4 T driver_probe_device
 [   43.230000] [<801b4e54>] 0x801b4e54 ffffffff801b4ddc t __driver_attach
 [   43.230000] [<801b3298>] 0x801b3298 ffffffff801b3288 t next_device
@@ -964,9 +970,9 @@ echo 1 > /proc/sys/net/netfilter/nf_conntrack_tcp_no_window_check
 桌面上这个9344的0keeper运行了38天，今天下午3点不能连接了，是不是这段时间连接的客户端超级多？
 
 TOZED_SOFTVERSION TOZED_VERSION
- Symbol: IP_ROUTE_MULTIPATH [=y]                                                                                                │  
-  │ Type  : boolean                                
-  │ Prompt: IP: equal cost multipath                                                                                               │   Defined at net/ipv4/Kconfig:84                                                                                               │   Depends on: NET [=y] && INET [=y] && IP_ADVANCED_ROUTER [=y]                                                                 │   Location:                                                                                                                    │     -> Networking support (NET [=y])                                                                                           │       -> Networking options                                                                                                    │         -> TCP/IP networking (INET [=y])                                                                                       │           -> IP: advanced router (IP_ADVANCED_ROUTER [=y])                  
+ Symbol: IP_ROUTE_MULTIPATH [=y]                                                                                                │
+  │ Type  : boolean
+  │ Prompt: IP: equal cost multipath                                                                                               │   Defined at net/ipv4/Kconfig:84                                                                                               │   Depends on: NET [=y] && INET [=y] && IP_ADVANCED_ROUTER [=y]                                                                 │   Location:                                                                                                                    │     -> Networking support (NET [=y])                                                                                           │       -> Networking options                                                                                                    │         -> TCP/IP networking (INET [=y])                                                                                       │           -> IP: advanced router (IP_ADVANCED_ROUTER [=y])
 
 
 8.21
@@ -975,14 +981,14 @@ qsdk中qca/src/qca-wifi-10.4/os/linux/configs/目录中看起来是wifi的配置
 看起来区别也不是非常大。
 ~/work/ath9.5/linux/kernels/linux-3.3.8$ meld .config ~/work/zte7520_ap/linux_plat/base/linux/linux-3.4.x/.config
 
- Symbol: NF_NAT_SNMP_BASIC [=m]    
+ Symbol: NF_NAT_SNMP_BASIC [=m]
 
 这个CONFIG_ARCH_HIBERNATION_POSSIBLE=y看起来没有任何地方用到了。
 
 这个TRAD_SIGNALS也不知道是什么
- Symbol: TRAD_SIGNALS [=y]                                                                                                      │  
-  │ Type  : boolean                                                                                                                │  
-  │   Selected by: 32BIT [=y] && <choice> && CPU_SUPPORTS_32BIT_KERNEL [=y] && SYS_SUPPORTS_32BIT_KERNEL [=y]         
+ Symbol: TRAD_SIGNALS [=y]                                                                                                      │
+  │ Type  : boolean                                                                                                                │
+  │   Selected by: 32BIT [=y] && <choice> && CPU_SUPPORTS_32BIT_KERNEL [=y] && SYS_SUPPORTS_32BIT_KERNEL [=y]
 
 8.20
 CONFIG_SLUB=y改为slab，貌似也没有什么效果。
@@ -1048,7 +1054,7 @@ wget http://mirrors.163.com/ubuntu-releases/17.04/ubuntu-17.04-desktop-amd64.iso
 其实其他地址也差不多。
 
 QGDW 11009-2013 电能计量封印技术规范
-QGDW 11009-2013 电能计量封印技术规范_文库下载http://www.wenkuxiazai.com/doc/b2aa9c81cc175527072208dc-7.html 
+QGDW 11009-2013 电能计量封印技术规范_文库下载http://www.wenkuxiazai.com/doc/b2aa9c81cc175527072208dc-7.html
 科陆电子RFID计量封印管理系统
 http://solution.rfidworld.com.cn/2013_10/2d2ef4b90af72c28.html
 
@@ -1114,16 +1120,16 @@ udpserver的基本功能有了，数据库也建了，但是由于sql server 200
 去掉recovery程序后的9341，已经测试了779次，转到笔记本继续吧。
 
 
- Symbol: IP_VS_PE_SIP [=n]                                                                                                                                          │  
-  │ Type  : tristate                                                                                                                                                  │  
-  │ Prompt: SIP persistence engine                                                                                                                                     │  
-  │   Defined at net/netfilter/ipvs/Kconfig:274                                                                                                                        │  
-  │   Depends on: NET [=y] && NETFILTER [=y] && IP_VS [=n] && IP_VS_PROTO_UDP [=n] && NF_CONNTRACK_SIP [=m]                                                            │  
-  │   Location:                                                                                                                                                        │  
-  │     -> Networking support (NET [=y])                                                                                                                               │  
-  │       -> Networking options                                                                                                                                        │  
-  │         -> Network packet filtering framework (Netfilter) (NETFILTER [=y])                                                                                         │  
-  │           -> IP virtual server support (IP_VS [=n])  
+ Symbol: IP_VS_PE_SIP [=n]                                                                                                                                          │
+  │ Type  : tristate                                                                                                                                                  │
+  │ Prompt: SIP persistence engine                                                                                                                                     │
+  │   Defined at net/netfilter/ipvs/Kconfig:274                                                                                                                        │
+  │   Depends on: NET [=y] && NETFILTER [=y] && IP_VS [=n] && IP_VS_PROTO_UDP [=n] && NF_CONNTRACK_SIP [=m]                                                            │
+  │   Location:                                                                                                                                                        │
+  │     -> Networking support (NET [=y])                                                                                                                               │
+  │       -> Networking options                                                                                                                                        │
+  │         -> Network packet filtering framework (Netfilter) (NETFILTER [=y])                                                                                         │
+  │           -> IP virtual server support (IP_VS [=n])
 
 9531已经测试了2803次，加上前面的700多次，已经超过300次了。
 去掉recovery程序后的9341，已经测试了494次。
@@ -1153,7 +1159,7 @@ Secondary Interrupt Mask 4 (IMR_S4)                      181000B4 0
 Secondary Interrupt Mask 5 (IMR_S5)                      181000B8 0
 Synchronous Interrupt Mask                               1810401C 5c
 Asynchronous Interrupt Mask                              18104020 0
-Asynchronous Priority Interrupt Mask                     1810408c 0 
+Asynchronous Priority Interrupt Mask                     1810408c 0
 Synchronous Priority Interrupt Mask                      18104090 0
 RTC Interrupt Mask                                       18107058 0
 Checksum Interrupt Mask                                  18400044 0
@@ -1360,7 +1366,7 @@ wait 80 sec.
 
  killall wlan-server zte_usbCfgMng hotplugnl zte_rj45
 
-各位同事请注意，把开票资料保存好！从7月1号开始无论是普通发票还是专用发票，发票上的这些信息一条都不能少。          
+各位同事请注意，把开票资料保存好！从7月1号开始无论是普通发票还是专用发票，发票上的这些信息一条都不能少。
 
 公司名称：深圳市通则技术股份有限公司
 地址电话：深圳市福田区车公庙天安工业区天吉大厦4楼A1、A2
@@ -1372,16 +1378,16 @@ wait 80 sec.
 
 早上来，145次挂了，最后一次看起来是
 Writing kb: 408/6848 (5%) ntpd: setting time to 2017-07-18 08:43:49.747861 (offset +1500338536.021268s)
-Writing kb: 6848/6848 (100%) 
-Verifying kb: 6848/6848 (100%) 
+Writing kb: 6848/6848 (100%)
+Verifying kb: 6848/6848 (100%)
 sysfile vice recover end
 2048+0 records in
 2048+0 records out
 1048576 bytes (1.0MB) copied, 0.499123 seconds, 2.0MB/s
-Erasing block: 16/16 (100%) 
-Writing kb: 1024/1024 (100%) 
+Erasing block: 16/16 (100%)
+Writing kb: 1024/1024 (100%)
 Verifying kb: 868/1024 (8[  123.010000] setting phy reg 180600b8 to value 0...
-Verifying kb: 1024/1024 (100%) 
+Verifying kb: 1024/1024 (100%)
 ker vice recover end,recover vice successful
 write nart flag :ff
 [  242.260000] setting phy reg 180600b8 to value 0...
@@ -1421,7 +1427,7 @@ p53上访问/mnt内部的文件
 
 让vim记住上次编辑的位置
 以下内容，保存到 ~/.vimrc 文件即可，以作备份。
-" ======= 恢复上次文件打开位置 ======= "  
+" ======= 恢复上次文件打开位置 ======= "
 set viminfo='10,\"100,:20,%,n~/.viminfo
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm'\"")|else|exe "norm $"|endif|endif
 https://my.oschina.net/dogstar/blog/911998
@@ -1439,7 +1445,7 @@ https://my.oschina.net/dogstar/blog/911998
 
 7.14
 
-请记录您的预约编号是：  44030020170714007459 
+请记录您的预约编号是：  44030020170714007459
 
  简亮： 您已预约成功，请您于  2017-07-19 下午 2:00-3:00  凭此预约编号， 提前到达  深圳市福田区  沙头派出所 (地址：深圳市福田区上沙新村20号，联系电话：83303116) 办理   市内移居  业务， 取号时间为：   下午2:00-2:45  ，凭预约成功短信密码可以取消预约，最晚取消预约时间为预约时间的前两小时。
 
@@ -1817,7 +1823,7 @@ openvpn_build:polarssl-1.2.19_build
 
 
 6.21
-何文秋 
+何文秋
 明天下午请假，后天毕业典礼。
 
 任银善
@@ -1901,7 +1907,7 @@ cat /etc/httpd.conf
 
 网页的wan配置中
 PIN码验证: 	已关闭
-PIN操作: 	开启PIN码验证  
+PIN操作: 	开启PIN码验证
 似乎是网页去发at进行pin查询的，在sim7000c时，会出现这样的情况：
 12471 root      1476 S    http.cgi
 12498 root      1196 S    sh -c sendat -d/dev/ttyUSB1 -f/tmp/at_send -o/tmp/at
@@ -1938,7 +1944,7 @@ cJSON.c:(.text+0xef0): undefined reference to `floor'
 collect2: ld returned 1 exit status
 
 6.14
-周连鹏 打流的效果： 
+周连鹏 打流的效果：
 7620 单流 20m： 56m
 7628 单流 20m： 只有40-50m
 从编码上看，7628是ofdm，而7620是ht。
@@ -1949,13 +1955,13 @@ sip-alg的实现方式有两种，一种是使用内核的方式，加上sipalg�
 
 张勇
 当前的公司测试的网络结构
-1.77 gw/1.3 ------------- 1.3/113..202 
+1.77 gw/1.3 ------------- 1.3/113..202
 	 ppp0 192.168.33.1
 
 1.148 gw/1.3
 
 
-pc 0.236		p53 ----4g 
+pc 0.236		p53 ----4g
     			ppp0 192.168.33.2
 
 从pc可以ping到1.148，但是0.236这个地址看起来被直接带到了148上面。从1.77上抓包看，是出现了0.236这个地址的。
@@ -2060,16 +2066,16 @@ echo none > ap123\:blue\:wan/trigger
 echo none > ap123\:green\:wan/trigger
 echo none > ap123\:red\:wan/trigger
 # then do tests
-echo default-on > ap123\:blue\:wan/trigger 
+echo default-on > ap123\:blue\:wan/trigger
 echo none > ap123\:blue\:wan/trigger
-echo default-on > ap123\:green\:wan/trigger 
+echo default-on > ap123\:green\:wan/trigger
 echo none > ap123\:green\:wan/trigger
-echo default-on > ap123\:red\:wan/trigger 
+echo default-on > ap123\:red\:wan/trigger
 echo none > ap123\:red\:wan/trigger
 
 领佳板子刷个topap的程序吧
 setenv ipaddr 10.8.0.33 && setenv serverip 10.8.0.100
-tftpboot 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftpboot 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize
 tftpboot 0x80060000 tozedap-cp_ap123-jffs2 && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
 bootm 0x9f6e0000
 
@@ -2099,7 +2105,7 @@ cfg -t 确实存在问题，有读不到的情况。
 -rw-rw-r--    1 1000     normal     1094860 Jun 11  2017 umac.ko
 
 sar的用法：
-整体CPU使用统计(-u)   sar -u 1 2cd 
+整体CPU使用统计(-u)   sar -u 1 2cd
 各个CPU使用统计(-P)   sar -P ALL 1 1
 内存使用情况统计(-r)   sar -r  1 2
 整体I/O情况(-b)       sar -b 1 2
@@ -2240,24 +2246,24 @@ c.inetpub.logs.LogFiles.W3SVC3里面的文件超级大，移动到F盘。
 
 6.5
 华润的招标的技术部分，任银善做了备注，请查看:
-路由器_设备应用标准							
+路由器_设备应用标准
 指标类别	指标名称	指标说明	应用场景	是否核心指标	是否必须满足项	备注	说明
-硬件要求	产品类型	企业级路由器（支持4G，可直接插卡）	门店、DC内外网连接	是	是	适用于大超门店、DC、小业态门店内外网连接	
-	内存	容量：16-512MB	门店、DC内外网连接	是	是		
-		FLASH:16-512MB	门店、DC内外网连接	是	是	必填项	
-	线速转发能力	转发性能：350-550Kpps	门店、DC内外网连接	是	是	必填项	
-		带业务转发性能：150Mbps	门店、DC内外网连接	是	是		
-	固定WAN端口	2*GE(其中1个GE由以太网交换端口提供)	门店、DC内外网连接	是	是	必填项	
-	固定以太网交换端口	4*GE	门店、DC内外网连接	是	是		
-	内置LTE	FDD LTE	A4文件打印	是	是	必填项	
-	USB2.0端口	1个	A3文件打印	是	是		
-	串行辅助/控制台端口	1个					
-	串行辅助/控制台端口	1个					
+硬件要求	产品类型	企业级路由器（支持4G，可直接插卡）	门店、DC内外网连接	是	是	适用于大超门店、DC、小业态门店内外网连接
+	内存	容量：16-512MB	门店、DC内外网连接	是	是
+		FLASH:16-512MB	门店、DC内外网连接	是	是	必填项
+	线速转发能力	转发性能：350-550Kpps	门店、DC内外网连接	是	是	必填项
+		带业务转发性能：150Mbps	门店、DC内外网连接	是	是
+	固定WAN端口	2*GE(其中1个GE由以太网交换端口提供)	门店、DC内外网连接	是	是	必填项
+	固定以太网交换端口	4*GE	门店、DC内外网连接	是	是
+	内置LTE	FDD LTE	A4文件打印	是	是	必填项
+	USB2.0端口	1个	A3文件打印	是	是
+	串行辅助/控制台端口	1个
+	串行辅助/控制台端口	1个
 软件要求	基础功能	DHCP server/client/relay，PPPoE server/client，PPPoA server/client，PPPoEoA server/client，NAT，子接口管理	门店、DC内外网连接	是	是		PPPoE无server,PPPoA无server，无子接口管理
 	无线局域网(AP)	AP设备管理（VAP管理），WLAN QoS（WMM），WLAN安全（WEP/WPA/WPA2/密钥管理），WLAN射频管理（802.11 b/g/n），WLAN用户管理(AP功能仅W无线款型支持)	门店、DC内外网连接	是	是		无用户管理，只能查看
 	无线局域网(AC)	AP设备管理(AC发现/AP接入/AP管理)，CAPWAP协议, WLAN用户管理，WLAN射频管理（802.11 b/g/n），WLAN QoS（WMM），WLAN安全（WEP/WPA/WPA2/密钥管理）	门店、DC内外网连接	是	是	必填项	AC先只有派联的平台，无WLAN Qos（WMM），WLAN安全（WEP/WPA/WPA2）
 	局域网功能	IEEE 802.1P，IEEE 802.1Q，IEEE 802.3，VLAN管理，MAC管理，MSTP等	门店、DC内外网连接	是	是	必填项	无IEEE 802.1P，IEEE 802.1Q，IEEE 802.3，VLAN管理，MSTP等
-	IPv4单播路由	路由策略，静态路由，RIP，OSPF，IS-IS，BGP	门店、DC内外网连接	是	是	必填项	
+	IPv4单播路由	路由策略，静态路由，RIP，OSPF，IS-IS，BGP	门店、DC内外网连接	是	是	必填项
 	IPv6基本功能	IPv6 ND，IPv6 PMTU，IPv6 FIB，IPv6 ACL	门店、DC内外网连接	是	是	必填项	？
 	IPv6隧道技术	手工隧道，自动隧道，GRE隧道，6to4，ISATAP	门店、DC内外网连接	是	是	必填项	？
 	IPv6单播路由	路由策略，静态路由，RIPng，OSPFv3，IS-ISv6，BGP4+	门店、DC内外网连接	是	是	必填项	？
@@ -2266,14 +2272,14 @@ c.inetpub.logs.LogFiles.W3SVC3里面的文件超级大，移动到F盘。
 	安全	ACL，防火墙，802.1x认证，AAA认证，RADIUS认证，HWTACACS认证，广播风暴抑制，ARP安全，ICMP反攻击，URPF，CPCAR，黑名单，攻击源追踪，PKI	门店、DC内外网连接	是	是	必填项	无
 	管理维护	升级管理，设备管理，Web网管，GTL，SNMP（v1/v2c/v3），RMON，NTP，CWMP，Auto-Config，U盘开局，NetConf，命令行	门店、DC内外网连接	是	是	必填项	无GTL，RMON，Auto-Config，NetConf，U盘开局
 	VPN	PSec VPN，GRE VPN，DSVPN，SSL VPN，L2TP VPN	门店、DC内外网连接	是	是	必填项	无DSVPN，SSL VPN
-功率及保修信息	电源及功率	电源：100-240V	门店、DC内外网连接	是	是	选填项	
-		支持最大功率：24W	门店、DC内外网连接				
-	环境参数	工作温度：0-45℃，工作湿度：5-95%	门店、DC内外网连接				
-	售后	一年标准维保	门店、DC内外网连接	是	是		
-							
+功率及保修信息	电源及功率	电源：100-240V	门店、DC内外网连接	是	是	选填项
+		支持最大功率：24W	门店、DC内外网连接
+	环境参数	工作温度：0-45℃，工作湿度：5-95%	门店、DC内外网连接
+	售后	一年标准维保	门店、DC内外网连接	是	是
 
 
-~ # cat /proc/meminfo 
+
+~ # cat /proc/meminfo
 MemTotal:          40512 kB
 MemFree:           15976 kB
 Buffers:               0 kB
@@ -2282,7 +2288,7 @@ Cached:             5876 kB
 [New process 9776]
 #0  0x004041c0 in main (argc=3, argv=0x7fedcbf4) at main.c:546
 warning: Source file is more recent than executable.
-546				if(ids_module->idVendor==modules_info_summary[i]->module_serial.idVendor && 
+546				if(ids_module->idVendor==modules_info_summary[i]->module_serial.idVendor &&
 
 [ 2055.170000] rc.check_reboot invoked oom-killer: gfp_mask=0xd0, order=1, oom_adj=0, oom_score_adj=0
 [ 2055.180000] Call Trace:[<80077f88>] 0x80077f88
@@ -2302,7 +2308,7 @@ warning: Source file is more recent than executable.
 [ 2055.230000] [<800f5f18>] 0x800f5f18
 [ 2055.240000] [<80068fac>] 0x80068fac
 [ 2055.240000] [<8006c6a4>] 0x8006c6a4
-[ 2055.250000] 
+[ 2055.250000]
 [ 2055.250000] Mem-Info:
 [ 2055.250000] Normal per-cpu:
 [ 2055.250000] CPU    0: hi:   18, btch:   3 usd:   1
@@ -2353,7 +2359,7 @@ warning: Source file is more recent than executable.
 菲律宾p21，有时会出现中英文选择的选项出来。
 
 廖媛：
-2017年6月5日  P21 会议记录 ------尼日利亚  
+2017年6月5日  P21 会议记录 ------尼日利亚
 待解决问题 :
 1. Key 测试，确认生产工具 ，并且给到生产。
 2.内部搭建VOIP 服务器。
@@ -2371,14 +2377,14 @@ http://blog.sina.com.cn/s/blog_690b92530100zggp.html
 p25 测试 占永平
 ID	缺陷名	现象	修复状态	备注
 P25	版本:v15	配置版本：P25_1.17	模块	信可
-1	导入功能不可用	将备份好的防火钱文件加载进去，直接返回失败	未修复	
-2	在网络工具长时间pnig，仍会出现超时	在网络工具中ping外网，一直ping下去，十五分钟后仍会显示超时	未修复	
-3	网络工具中的trace无法使用	URL中输入“www.baidu.com”,端口为“1-65535”或者80，网页 上没有显示路由信息	未修复	
-4	网络工具中抓包功能用不了		未修复	
+1	导入功能不可用	将备份好的防火钱文件加载进去，直接返回失败	未修复
+2	在网络工具长时间pnig，仍会出现超时	在网络工具中ping外网，一直ping下去，十五分钟后仍会显示超时	未修复
+3	网络工具中的trace无法使用	URL中输入“www.baidu.com”,端口为“1-65535”或者80，网页 上没有显示路由信息	未修复
+4	网络工具中抓包功能用不了		未修复
 5	APN设置手动下无法编辑		未修复	这个不确定是不是bug,不知道实际的实现方式
-6	PIN无法开启	输入当前PIN码，网页上一直返回失败的提示	未修复	
-7	PIN码设置为disable下仍可以输入	开始在默认下输入会有禁止输入提示，点击PIN码开启，再关闭，就一直没有禁止输入的提示	未修复	
-8	流量到达阈值后，页面提示是否断开网络，点击确定，页面返回失败		未修复	
+6	PIN无法开启	输入当前PIN码，网页上一直返回失败的提示	未修复
+7	PIN码设置为disable下仍可以输入	开始在默认下输入会有禁止输入提示，点击PIN码开启，再关闭，就一直没有禁止输入的提示	未修复
+8	流量到达阈值后，页面提示是否断开网络，点击确定，页面返回失败		未修复
 
 
 只编译squashfs_build貌似修改的文件没有合并到squashfs中去。
@@ -2416,7 +2422,7 @@ Discovered open port 10005/tcp on 192.168.254.254
 
 netstat -lnp
 Active Internet connections (only servers)
-Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
 tcp        0      0 127.0.0.1:5037          0.0.0.0:*               LISTEN      1491/adbd
 tcp        0      0 0.0.0.0:3535            0.0.0.0:*               LISTEN      1500/chkSvr
 tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      1486/goahead
@@ -2555,13 +2561,13 @@ tz_commita:prefect traffic alarm page
 
 以前的文档貌似有错误，1860的要这样设置
 WANIP=`ifconfig lmi40 | grep inet | busybox cut -d : -f 2 | busybox cut -d ' ' -f 1`
-echo $WANIP 
-ifconfig lmi40 0.0.0.0 up                   
+echo $WANIP
+ifconfig lmi40 0.0.0.0 up
 busybox route add -host $WANIP dev br0
 busybox route add default dev lmi40
-echo "1" > /proc/sys/net/ipv4/conf/lmi40/proxy_arp 
-echo "1" > /proc/sys/net/ipv4/conf/br0/proxy_arp 
-iptables -F -t nat  
+echo "1" > /proc/sys/net/ipv4/conf/lmi40/proxy_arp
+echo "1" > /proc/sys/net/ipv4/conf/br0/proxy_arp
+iptables -F -t nat
 iptables -t nat -I POSTROUTING -s 192.168.1.1/255.255.255.0 -o lmi40 -j SNAT --to-source $WANIP
 
 pc这样设置，要删掉那个masq的规则，现在有个容错的程序，要砍掉。
@@ -2634,7 +2640,7 @@ u-boot> md 18050000
 派联的要把平台的使用培训一下。
 
 苗立双
-1 赞比亚iperf， 
+1 赞比亚iperf，
   1761 会自动重启，安徽出现过，胡媛媛在现场，刘云处理
 2 阿根廷 三旗模块
   加ssh，原来加过。
@@ -2645,7 +2651,7 @@ u-boot> md 18050000
 换w10这个板子来吧：
 setenv ipaddr 10.8.0.33 && setenv serverip 10.8.0.100
 tftpboot 0x80060000 uboot.bin.topap && erase 0x9f000000 +0x20000&&cp.b $fileaddr 0x9f000000 $filesize
-tftpboot 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftpboot 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize
 tftpboot 0x80060000 tozedap-cp_ap123-jffs2 && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
 
 第12次
@@ -2673,9 +2679,9 @@ Uncompressing Kernel... ERROR
 [    2.030000] SQUASHFS error: xz decompression failed, data probably corrupt
 [    2.040000] SQUASHFS error: squashfs_read_data failed to read block 0x604f6
 [    2.040000] Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000a
-[    2.040000] 
+[    2.040000]
 [    2.040000] ---[ end Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000a
-[    2.040000] 
+[    2.040000]
 
 
 
@@ -2725,9 +2731,9 @@ uboot> md 18050000
 [    2.030000] SQUASHFS error: xz decompression failed, data probably corrupt
 [    2.040000] SQUASHFS error: squashfs_read_data failed to read block 0x604f6
 [    2.040000] Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000a
-[    2.040000] 
+[    2.040000]
 [    2.040000] ---[ end Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000a
-[    2.040000] 
+[    2.040000]
 
 第12次 哪里不对的样子，modem没有看到起来。
 [    1.990000] init: Console is alive
@@ -2837,9 +2843,9 @@ tftpboot 0x80060000 uboot.bin.lingjia && erase 0x9f000000 +0x20000&&cp.b $filead
 [    2.030000] SQUASHFS error: xz decompression failed, data probably corrupt
 [    2.030000] SQUASHFS error: squashfs_read_data failed to read block 0x604f6
 [    2.040000] Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000a
-[    2.040000] 
+[    2.040000]
 [    2.040000] ---[ end Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000a
-[    2.040000] 
+[    2.040000]
 
 重新来的第5次：
 Press the [f] key and hit [enter] to enter failsafe mode
@@ -3017,10 +3023,10 @@ cat 5: 4*4mimo
 
 9:48 姚国梁： 查看一下其他的应用，是否也编译了cmdlib但没有修改为so方式。
 10:51  python的循环打印
-for i in range(1300,1500) : print i  
+for i in range(1300,1500) : print i
 
 廖媛
-尼日利亚 m60 
+尼日利亚 m60
 1 bridge 2 ipsec 3 tr069+ssl
 
 叶京平
@@ -3048,7 +3054,7 @@ repeator 1 https 无法推送 2 带路径的地址无法推送 3 带html后缀�
 
 sudo apt-get install libgnomeui-dev
 gcc -shared -o libsublime-imfix.so sublime_imfix.c  `pkg-config --libs --cflags gtk+-2.0` -fPIC
-LD_PRELOAD=./libsublime-imfix.so subl 
+LD_PRELOAD=./libsublime-imfix.so subl
 終於可以輸入中文了。
 http://blog.csdn.net/cywosp/article/details/32350899
 还要使用搜狗的输入法，这个输入法为什么输入框总是在屏幕的左下角？
@@ -3081,8 +3087,8 @@ http://linux.chinaunix.net/techdoc/net/2005/03/21/921746.shtml
 不过去掉这个功能也只减少了内核3个字节的大小。
 
 nfs:
-sudo apt-get install nfs-kernel-server 
-sudo vi /etc/exports 
+sudo apt-get install nfs-kernel-server
+sudo vi /etc/exports
 /opt/work *(rw,sync,no_root_squash,no_subtree_check)
 sudo /etc/init.d/rpcbind restart
 sudo /etc/init.d/nfs-kernel-server restart
@@ -3123,7 +3129,7 @@ brctl addif br0 eth1
   a 测试跟进
   b 外置天线测试
  4 斯里兰卡电信
-  a m60 p28  r12三个产品招标 
+  a m60 p28  r12三个产品招标
   b 前期m60出货遗留的两个问题：ssid密码显示问题，斯里兰卡电信有提出不能在话机上看到wlan密码，一个是kandy的信号弱。
 
 郑达：
@@ -3142,7 +3148,7 @@ board=AP147 console=ttyS0,115200 mtdparts=spi0.0:256k(u-boot)ro,64k(u-boot-env),
 
 2017-4-22
 arm编译出来的东西还是比mips要小好多：
-jian@jian-OptiPlex-9020:~/work/ath9.5$ ll rootfs-tozedap-cp_ap123.optbuild/bin/update 
+jian@jian-OptiPlex-9020:~/work/ath9.5$ ll rootfs-tozedap-cp_ap123.optbuild/bin/update
 -rwxrwxr-x 1 jian jian 6540  4月 15 21:59 rootfs-tozedap-cp_ap123.optbuild/bin/update*
 jian@jian-OptiPlex-9020:~/work/zte7520_ap$ ll ./linux_plat/base/linux/romfs/bin/update
 -rwxrwxr-x 1 jian jian 5048  4月 22 15:53 ./linux_plat/base/linux/romfs/bin/update*
@@ -3165,7 +3171,7 @@ MemFree:            7096 kB MemAvailable:       8904 kB Cached:             9828
 中兴中 HOST_NCPU=1 可以指定单cpu编译。
 
 2017-4-19
-        src/xlat/gen.sh src/xlat/blkpg_ops.in src/xlat/blkpg_ops.h 
+        src/xlat/gen.sh src/xlat/blkpg_ops.in src/xlat/blkpg_ops.h
         src/xlat/gen.sh src/xlat/bpf_commands.in src/xlat/bpf_commands.h
         src/xlat/gen.sh src/xlat/bpf_map_types.in src/xlat/bpf_map_types.h
         src/xlat/gen.sh src/xlat/bpf_prog_types.in src/xlat/bpf_prog_types.h
@@ -3189,11 +3195,11 @@ zte_libs/libnl_2这个目录看起来是完全重新编译了的。          ok
 zte_apps/auth/src/dlisten里面也是做了clean操作。              ok
 zte_apps/c-ares 								     ok
 zte_web_util.c 这些文件警告太多。
-/zte_apps/miniupnpd_linux               				     应该没有问题。                                     
-zte_apps/netdog/refcode/net_test		                             ok			     
+/zte_apps/miniupnpd_linux               				     应该没有问题。
+zte_apps/netdog/refcode/net_test		                             ok
 zte_apps/netpcap                                                                 ok
 zte_apps/zte_arp_proxy                                                        ok
-zte_apps/zte_fota/zte_topsw_dmapp                                     应该没有问题。    
+zte_apps/zte_fota/zte_topsw_dmapp                                     应该没有问题。
 zte_apps/zte_ipv6_addr_conver                                             ok
 zte_apps/zte_ipv6_slaac                                                     ok
 zte_apps/zte_ndp                                                         ok
@@ -3210,20 +3216,20 @@ lib的先记录下来：
 为什么strace编译不了了：
 -all: confcode
 -       cd ./src && sh ./configure --host=arm-linux $(CONFIGURE_OPTS) $(CONFOPTS)
-+all: 
++all:
 +       if [ -e ./src/Makefile ] ; then \
 +               echo strace seemed configured.;\
 +       else \
 +               cd ./src && sh ./configure --host=arm-linux $(CONFIGURE_OPTS) $(CONFOPTS); \
 +       fi
         $(MAKE) -C src
- 
+
  confcode:
         -rm -rf *.o ./.deps
- 
+
  clean:
 -       -rm -rf ./src/strace ./src/*.o ./src/.deps
-+       -rm -rf ./src/strace ./src/*.o ./src/.deps 
++       -rm -rf ./src/strace ./src/*.o ./src/.deps
 +       -cat .gitignore | xargs rm -rf
 
 4.17
@@ -3257,7 +3263,7 @@ update ap_cpuap.bin /dev/mtd12
 echo 3 > /proc/sys/vm/drop_caches
 就变成20m了。
 
-程洪卫 
+程洪卫
 5.20准备开研发大会， 李总讲企业文化，对研发的希望，要求。
 过程： 谁来讲，讲什么，设计理念，怎么做。
 碰到的问题，案例，下一步如何
@@ -3280,13 +3286,13 @@ p21上联芯的模块吧：
 用电脑吧：
 行   								不行
 10.101.107.127                               10.75.32.99
--							10.8.179.255 
--							10.61.126.40 
+-							10.8.179.255
+-							10.61.126.40
 
 
 用工业路由器来测试吧：
 c1的模块：
-不行  1     
+不行  1
 行      1  2  3 4 5  6
 记录ip吧：
 行   								不行
@@ -3306,10 +3312,10 @@ c1的模块：
 
 
 这样看工业路由器的版本貌似正常。
-usb0      Link encap:Ethernet  HWaddr B2:D9:7A:D1:9E:C2  
+usb0      Link encap:Ethernet  HWaddr B2:D9:7A:D1:9E:C2
           inet addr:10.160.216.88  Bcast:10.160.216.95  Mask:255.255.255.240
 
-cat /proc/version 
+cat /proc/version
 Linux version 3.3.8- (zy@zy-OptiPlex-9020) (gcc version 4.3.3 (GCC) ) #92 Wed Mar 29 11:43:05 CST 2017
  # iptables -S
 -P INPUT ACCEPT
@@ -3419,7 +3425,7 @@ export ATH_SUPPORT_TxBF=1
 网易的这个云笔记体验也太差了，动不动就停止不动若干秒。
 
 set ipaddr 10.8.0.33 && set serverip 10.8.0.100
-tftp 0x80060000 u-boot.bin 
+tftp 0x80060000 u-boot.bin
 好像不管什么样的地址，使用go都会直接复位。
 
 3-30
@@ -3456,7 +3462,7 @@ rm linux_plat/base/build -r
 2012年04月----2012年07月北京东方泰华投资有限公司
 2012年07月-------2013年07月青岛日森机电有限公司
 2013年07月-----2014年07月南京正銮电子有限公司 开发
-2014 /7--2015 /7： 南京milink电子有限公司 （500-1000人） 
+2014 /7--2015 /7： 南京milink电子有限公司 （500-1000人）
 2015 /7--2016 /11： 深圳维兴顺科技有限公司 （5-200人）
 
 3-28
@@ -3497,7 +3503,7 @@ EXEC = slictool
 EXEC    = zte_blc
 EXEC    = cfgnv_init
 EXEC = tr069
-EXEC = zte_router 
+EXEC = zte_router
 EXEC = dnsmasq
 EXEC    = zte_pcs
 EXEC = clatd
@@ -3544,7 +3550,7 @@ Filesystem                Size      Used Available Use% Mounted on
 /dev/mtdblock2           56.0M      4.1M     51.9M   7% /tmp/1
 
 set ipaddr 10.8.0.33 && set serverip 10.8.0.100
-tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize 
+tftp 0x80060000 vmlinux_ap123.lzma.uImage&&erase 0x9f6e0000 +$filesize&&cp.b $fileaddr 0x9f6e0000 $filesize
 tftp 0x80060000 tozedap-cp_ap123-squashfs && erase 0x9f010000 +0x6d0000&&cp.b $fileaddr 0x9f010000 $filesize
 
 3-25
@@ -3596,7 +3602,7 @@ Filesystem           1K-blocks      Used Available Use% Mounted on
 把修改了的文件列出来：
 git status . | cut -c 14-  >my
 cat my | xargs git checkout
-cat my |xargs git rm 
+cat my |xargs git rm
 cat my >> .gitingore
 
 3-20
@@ -3615,14 +3621,14 @@ cat my >> .gitingore
 Filesystem           1K-blocks      Used Available Use% Mounted on
 /dev/root                 6976      4764      2212  68% /
 
-/tzadmin/cgi-bin # df 
+/tzadmin/cgi-bin # df
 Filesystem           1K-blocks      Used Available Use% Mounted on
 /dev/root                 6976      4824      2152  69% /
 /tzadmin/cgi-bin # ls -l
 -rwxrwxr-x    1 1000     normal      314860 Mar 20  2017 shakehand.cgi
 
 web的shakehand改为使用so之后
-/tzadmin/cgi-bin # df 
+/tzadmin/cgi-bin # df
 Filesystem           1K-blocks      Used Available Use% Mounted on
 /dev/root                 6976      4816      2160  69% /
 /tzadmin/cgi-bin # ls -l
@@ -3698,20 +3704,20 @@ strongswan使用mips-gcc4.3.3编译出的问题：
 checking gmp.h version >= 4.1.4... no
 configure: error: No usable gmp.h found!
 
- Symbol: ATH79_DEV_NAND [=y]                                                                                                    │  
-  │ Type  : boolean                                                                                                                │  
-  │   Selects: ATH79_NAND_CALDATA_FIXUP [=y]                                                                                       │  
-  │   Selected by: ATH79_MACH_AP135_DUAL [=y] && ATH79 [=y] || ATH79_MACH_CUS227 [=y] && ATH79 [=y] || ATH79_MACH_CUS531_NAND [=y] │  
-  │   
+ Symbol: ATH79_DEV_NAND [=y]                                                                                                    │
+  │ Type  : boolean                                                                                                                │
+  │   Selects: ATH79_NAND_CALDATA_FIXUP [=y]                                                                                       │
+  │   Selected by: ATH79_MACH_AP135_DUAL [=y] && ATH79 [=y] || ATH79_MACH_CUS227 [=y] && ATH79 [=y] || ATH79_MACH_CUS531_NAND [=y] │
+  │
 
-Symbol: ATH79_MACH_AP135_DUAL [=y]                                                                                             │  
-  │ Type  : boolean                                                                                                                │  
-  │ Prompt: Atheros AP135 Dual reference board                                                                                     │  
-  │   Defined at arch/mips/ath79/Kconfig:98                                                                                        │  
-  │   Depends on: ATH79 [=y]                                                                                                       │  
-  │   Location:                                                                                                                    │  
-  │     -> Machine selection                                                                                                       │  
-  │       -> Atheros AR71XX/AR724X/AR913X machine selection 
+Symbol: ATH79_MACH_AP135_DUAL [=y]                                                                                             │
+  │ Type  : boolean                                                                                                                │
+  │ Prompt: Atheros AP135 Dual reference board                                                                                     │
+  │   Defined at arch/mips/ath79/Kconfig:98                                                                                        │
+  │   Depends on: ATH79 [=y]                                                                                                       │
+  │   Location:                                                                                                                    │
+  │     -> Machine selection                                                                                                       │
+  │       -> Atheros AR71XX/AR724X/AR913X machine selection
 
 3-17
 为什么ap-cp改到qsdk版本网页升级不行了，网页执行了：
@@ -3786,7 +3792,7 @@ adb shell chmod +x /jian/busybox
 2-16
 adb push ./project/prj_cpe/bins/allbins/ap_cpuap.bin /tmp
 adb push ./linux_plat/base/linux/user/updatesystem/update /tmp
-adb shell cp /tmp/update /sbin 
+adb shell cp /tmp/update /sbin
 adb shell chmod +x /sbin/update
 adb shell update /tmp/ap_cpuap.bin /dev/mtd10
 
@@ -3835,7 +3841,7 @@ grep -n '\.$' pp     //小数点是特殊字符 需要用\进行转义
 
 任银善 这个2.4g+5.8g的机器修改了mac结果好像校准的内容后移动了一个字节，所以看到5.8g的txpower是off，这也是头一次看到。也没有搞过ipsec，但原来的公司有人做过。
 
-张勇 即使是7模的模块，使用电信的卡，cs还是写着“注册被拒接”的红字。在电信3g的情况下，拨号程序无法正常拨号，而额外的使用指令是可以的。所以估计还要改拨号程序。 
+张勇 即使是7模的模块，使用电信的卡，cs还是写着“注册被拒接”的红字。在电信3g的情况下，拨号程序无法正常拨号，而额外的使用指令是可以的。所以估计还要改拨号程序。
 
 早上华润的商务人员来了，希望尽快完成测试。
 
@@ -3844,7 +3850,7 @@ grep -n '\.$' pp     //小数点是特殊字符 需要用\进行转义
 首先是李瑶 若干个产品都要改网页，当前已经成为阻碍节点。他终于愿意招一个人，只要愿意做网页就好了。
 廖媛 尼日利亚的p21还差ssl方式的tr069, voip。
 
-2-7 
+2-7
 zte为什么telnet进去速度响应非常慢，而使用adb则看起来是正常的。
 
 2-6
