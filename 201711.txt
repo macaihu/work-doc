@@ -1,3 +1,31 @@
+11.3
+关闭一部分特效, 貌似机器xorg的占有率降低了一点点.
+参考这里:https://www.2cto.com/os/201301/181597.html
+
+机器用着用着总觉得好慢, xorg占的cpu比较多, kill掉它, 机器就重新登录了.
+
+atom的流畅度还是没有sublime好吧, 算了, 还是用sublime text吧. 
+
+开机后mediascanner-se这个进程总是占用比较大的cpu, 还是把它关掉把:
+sudo sh -c "echo manual >> /usr/share/upstart/sessions/mediascanner-2.0.conf"
+stop mediascanner-2.0 
+参考:https://binli.github.io/posts/upstart-skill.html
+
+wget http://192.168.19.199/files/rtspd
+chmod +x rtspd
+
+金晶: 当前的漫游仍然会弹portal, 想要去掉, 使用探针的数据, 由于10s, 好像有些慢.
+
+陶嵩: 其他公司的人做的多台同时校准工具, 无法做的自动下载校准程序.
+
+在vlc软件中, 设置:rtsp-tcp之前, 要增加空格, 这样就变成tcp协议.
+
+exceltk这个工具看起来还不错:
+exceltk.exe -t md -xls example.xls
+exceltk.exe -t md -xls example.xls -sheet sheetname
+exceltk.exe -t md -xls example.xlsx
+exceltk.exe -t md -xls example.xlsx -sheet sheetname
+
 11.2
 在开发板上运行
 /mnt/flash/rtspd
