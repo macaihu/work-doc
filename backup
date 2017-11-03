@@ -8,6 +8,6 @@ rm $mypath -rf
 mkdir -p $mypath
 cp . $mypath -rf
 rm $mypath/.git -rf
-7z a mydoc_$thisdate $mypath -pss7u#g2
+7z a mydoc_$thisdate $mypath -pss7u#g2 -mhe
 echo "jian-doc" | mutt jianliang@139.com -s "jian-doc"_$thisdate  -a mydoc_$thisdate.7z
 
