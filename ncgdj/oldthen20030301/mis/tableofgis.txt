@@ -1,0 +1,251 @@
+SQL> desc dbo.sbt_shebei
+名称                          是否为空？类型
+------------------------------- -------- ----
+ SHEBEIBIANHAO                   NOT NULL CHAR(10)
+ LEIBIEBIANMA                    NOT NULL CHAR(4)
+ XINGHAOBIANMA                            CHAR(10)
+ CHANGJIABIANMA                           CHAR(10)
+ DIAODUBIANHAO                            CHAR(20)
+ SHEBEIMINGCHENG                          VARCHAR2(50)
+ SHEBEIZONGLIANG                          FLOAT(126)
+ CHUCHANGBIANHAO                          VARCHAR2(20)
+ CHUCHANGRIQI                             DATE
+ ZHONGJIAGE                               NUMBER(10,2)
+ SHEBEITOUYUNRIQI                         DATE
+ SHEBEITUICHURIQI                         DATE
+ DINGJIANZHOUQI                           NUMBER
+ JIANXIURIQI                              DATE
+ DINGSHIZHOUQI                            NUMBER(38)
+ DINGSHIRIQI                              DATE
+ QUANJIANZHOUQI                           NUMBER(38)
+ QUANJIANRIQI                             DATE
+ XIAOXIUZHOUQI                            NUMBER(38)
+ XIAOXIURIQI                              DATE
+ DAXIUZHOUQI                              NUMBER(38)
+ DAXIURIQI                                DATE
+ SHEBEIZHUANGTAI                          CHAR(4)
+ SHEBEICANQUAN                            VARCHAR2(10)
+ BEIZHU                                   VARCHAR2(200)
+ CHUCHANGBIANHAOB                         VARCHAR2(20)
+ CHUCHANGBIANHAOC                         VARCHAR2(20)
+
+
+ SQL> desc dbo.sbt_biandianshebei
+名称                          是否为空？类型
+------------------------------- -------- ----
+ SHEBEIBIANHAO                   NOT NULL CHAR(10)
+ BIANDIANZHANBIANHAO             NOT NULL CHAR(5)
+ JIANGEBIANHAO                   NOT NULL CHAR(5)
+ DIANYADENGJI                    NOT NULL NUMBER(38)
+
+ SQL> desc dbo.sbt_bileiqi
+名称                          是否为空？类型
+------------------------------- -------- ----
+ SHEBEIBIANHAO                   NOT NULL CHAR(10)
+ EDINGDIANLIU                             FLOAT(126)
+ CANYA                                    FLOAT(126)
+ EDINGRONGLIANG                           FLOAT(126)
+ EDINGDIANYA                              FLOAT(126)
+ ZHUIDAYUNXUDIANYA                        FLOAT(126)
+ GONGPINGJICHUANDIANYA                    FLOAT(126)
+ SHUNLIANG                                FLOAT(126)
+ ANZHUANGDIDIAN                           VARCHAR2(30)
+ WANJUEYUEPAJU                            VARCHAR2(10)
+ WAIJUEYUEPAJU                            VARCHAR2(10)
+
+
+SQL> desc dbo.sbt_zhubian
+名称                          是否为空？类型
+------------------------------- -------- ----
+ SHEBEIBIANHAO                   NOT NULL CHAR(10)
+ RONGLIANG                                FLOAT(126)
+ JIEXIANZHUBIE                            VARCHAR2(30)
+ KONGZAISUNHAO                            FLOAT(126)
+ DUANLUSHUNHAOG                           FLOAT(126)
+ DUANLUSHUNHAOZH                          FLOAT(126)
+ DUANLUSHUNHAOD                           FLOAT(126)
+ KONGZAIDIANLIU                           FLOAT(126)
+ ZHUKANGDIANYAGZH                         FLOAT(126)
+ ZHUKANGDIANYAZHD                         FLOAT(126)
+ ZHUKANGDIANYADG                          FLOAT(126)
+ YOUHAO                                   VARCHAR2(10)
+ YOUZHONG                                 FLOAT(126)
+ SHANGYOUXIANGDIAOZHONG                   FLOAT(126)
+ TIAOYAFANGSHI                            VARCHAR2(10)
+ TIAOYAFANWEI                             VARCHAR2(20)
+ TIAOYADANGWEI                            CHAR(10)
+ SANREQIXINGHAO                           VARCHAR2(10)
+ QIANYOUBENGXINGHAO                       VARCHAR2(10)
+ TAOGUANXINGHAOG                          VARCHAR2(10)
+ TAOGUANXINGHAOZH                         VARCHAR2(10)
+ TAOGUANXINGHAOD                          VARCHAR2(20)
+ JIEDIFANGSHI                             VARCHAR2(20)
+ FENGSHANSHULIANG                         FLOAT(126)
+ SANREQISHULIANG                          FLOAT(126)
+ TAOGUANYOUHAOG                           VARCHAR2(10)
+ TAOGUANYOUHAOZH                          VARCHAR2(10)
+ TAOGUANYOUHAOD                           VARCHAR2(10)
+ JIEXIANFANGSHI                           VARCHAR2(10)
+ LEIQUEFANGSHI                            VARCHAR2(30)
+ ANZHUANGDIDIAN                           VARCHAR2(40)
+ SHIYONGTIAOJIAN                          VARCHAR2(20)
+ FENSANXINGHAO                            VARCHAR2(20)
+ TIAOYAKAIGUANXINGHAO                     VARCHAR2(20)
+ TIAOYAKAIGUANSHULIANG                    LONG
+ XIANGSHU                                 VARCHAR2(20)
+ ZHOULU                                   VARCHAR2(20)
+ JIEDIFANGSHIZH                           VARCHAR2(20)
+ JIEDIFANGSHID                            VARCHAR2(20)
+ TAOGUANCTZHONG                           VARCHAR2(20)
+ TAOGUANCTGAO                             VARCHAR2(20)
+ BIANBI                                   VARCHAR2(20)
+
+
+SQL> desc dbo.sbt_dianrongqi
+名称                          是否为空？类型
+------------------------------- -------- ----
+ SHEBEIBIANHAO                   NOT NULL CHAR(10)
+ EDINGRONGLIANG                           FLOAT(126)
+ SHICERONGLIANG                           FLOAT(126)
+ YOUHAO                                   VARCHAR2(10)
+ YOUZHONG                                 FLOAT(126)
+ SHULIANG                                 FLOAT(126)
+ JIEXIANFANGSHI                           VARCHAR2(10)
+ EDINGDIANYA                              FLOAT(126)
+ ZHOUBO                                   VARCHAR2(20)
+ ZHONGRONGLIANG                           FLOAT(126)
+ ANZHUANGDIDIAN                           VARCHAR2(30)
+ ANZHUANGCHICHENG                         VARCHAR2(30)
+
+SQL> desc dbo.sbt_ct
+名称                          是否为空？类型
+------------------------------- -------- ----
+ SHEBEIBIANHAO                   NOT NULL CHAR(10)
+ ZHUNQUIJI                                VARCHAR2(10)
+ EDINGRONGLIANG                           FLOAT(126)
+ EDINGBIANBI                              VARCHAR2(20)
+ YOUHAO                                   VARCHAR2(10)
+ YOUZHONG                                 FLOAT(126)
+ ZHUNQUEJI05                              VARCHAR2(10)
+ ZHUNQUEJI1                               VARCHAR2(10)
+ ZHUNQUEJI3                               VARCHAR2(10)
+ EDINGRONGLIANG05                         FLOAT(126)
+ EDINGRONGLIANG1                          FLOAT(126)
+ EDINGRONGLIANG3                          FLOAT(126)
+ FUXIANLIANJIE05                          VARCHAR2(10)
+ FUXIANLIANJIE1                           VARCHAR2(10)
+ FUXIANLIANJIE3                           VARCHAR2(10)
+ FUXIANLIANJIED                           VARCHAR2(10)
+ YONGTU05                                 VARCHAR2(20)
+ YONGTU1                                  VARCHAR2(40)
+ YONGTU3                                  VARCHAR2(40)
+ YONGTUD                                  VARCHAR2(40)
+ ANZHUANGDIDIAN                           VARCHAR2(30)
+ ZHOULU                                   VARCHAR2(10)
+ EDINGDIANLIU1                            FLOAT(126)
+ EDINGDIANLIU2                            FLOAT(126)
+ XMIAO                                    FLOAT(126)
+ REWEIDIANLIU                             FLOAT(126)
+ DONGWEIDIANLIU                           FLOAT(126)
+ EDINGDIANYA                              FLOAT(126)
+ WAIJUEYUANPAJU                           VARCHAR2(10)
+
+ SQL> desc dbo.sbt_pt
+名称                          是否为空？类型
+------------------------------- -------- ----
+ SHEBEIBIANHAO                   NOT NULL CHAR(10)
+ ZHUNQUIJI                                VARCHAR2(10)
+ EDINGRONGLIANG                           FLOAT(126)
+ EDINGBIANBI                              VARCHAR2(20)
+ YOUHAO                                   VARCHAR2(10)
+ YOUZHONG                                 FLOAT(126)
+ BAOXIANXINGHAO1                          VARCHAR2(20)
+ BAOXIANRONGLIANG1                        FLOAT(126)
+ BAOXIANXINGHAO2                          VARCHAR2(20)
+ BAOXIANRONGLIANG21                       FLOAT(126)
+ XIANGSHU                                 VARCHAR2(20)
+ KONGZAIDIANLIU                           FLOAT(126)
+ ZHUIDARONGLIANG                          FLOAT(126)
+ ANZHUANGDIDIAN                           VARCHAR2(20)
+ EDINGDIANYA1                             FLOAT(126)
+ EDINGDIANYA2                             FLOAT(126)
+ EDINGDIANYA3                             FLOAT(126)
+ ZHUNQUERONGLIANG1                        FLOAT(126)
+ ZHUNQUERONGLIANG2                        FLOAT(126)
+ ZHUNQUERONGLIANG3                        FLOAT(126)
+ WAIJUEYUANPAJU                           VARCHAR2(10)
+ ZHUIQUEJI05                              VARCHAR2(10)
+ ZHUIQUEJI1                               VARCHAR2(10)
+ ZHUIQUEJI2                               VARCHAR2(10)
+
+SQL> desc dbo.sbt_duanluqi
+名称                          是否为空？类型
+------------------------------- -------- ----
+ SHEBEIBIANHAO                   NOT NULL CHAR(10)
+ DUANKOUSHULIANG                          FLOAT(126)
+ HEZAZHUZHI                               FLOAT(126)
+ EDINGDIANLIU                             FLOAT(126)
+ EDINGDIANYA                              FLOAT(126)
+ KAIDUANDIANLIU                           FLOAT(126)
+ JIGOUXINGHAO                             VARCHAR2(20)
+ YOUQIXINGHAO                             VARCHAR2(10)
+ QIYA                                     FLOAT(126)
+ DANXIANGYOUZHONG                         FLOAT(126)
+ SANXIANGYOUZHONG                         FLOAT(126)
+ ZHEDUANRONGLIANG                         FLOAT(126)
+ JIXIANDIANLIUFUZHI                       FLOAT(126)
+ JIXIANDIANLIUYOUXIAOZHI                  FLOAT(126)
+ REWEIDIANLIU4                            FLOAT(126)
+ REWEIDIANLIU5                            FLOAT(126)
+ REWEIDIANLIU10                           FLOAT(126)
+ JIGOUSHULIANG                            FLOAT(126)
+ HEZHAXIANQUANXH                          VARCHAR2(30)
+ HEZHAXIANQUANSL                          FLOAT(126)
+ HEZHAXIANQUANDJ                          FLOAT(126)
+ DIAOZHAXIANQUANXH                        VARCHAR2(30)
+ DIAOZHAXIANQUANSL                        FLOAT(126)
+ DIAOZHAXIANQUANDJ                        FLOAT(126)
+ DUANZHIXIANGXH                           VARCHAR2(30)
+ DUANZHIXIANGSL                           FLOAT(126)
+ DUANZHIXIANGDJ                           FLOAT(126)
+ JIGOUDANJIA                              FLOAT(126)
+ DANXIANGZHONGLIANG                       FLOAT(126)
+ JINGZHONG                                FLOAT(126)
+ ANZHUANGDIDIAN                           VARCHAR2(40)
+ MIAO1                                    FLOAT(126)
+ MIAO2                                    FLOAT(126)
+ MIAO3                                    FLOAT(126)
+ BAOJINGQIYA                              FLOAT(126)
+ NIANLOUQILU                              VARCHAR2(20)
+ DIANJIXINGHAO                            VARCHAR2(20)
+
+SQL> desc dbo.sbt_biandianzhan
+名称                          是否为空？类型
+------------------------------- -------- ----
+ BIANDIANZHANBIANHAO             NOT NULL CHAR(5)
+ BIANDIANZHANMIN                 NOT NULL VARCHAR2(12)
+ BIANDIANZHANDIZHI                        VARCHAR2(30)
+ TOUYUNRIQI                      NOT NULL DATE
+ DIANYADENGJI                    NOT NULL NUMBER(38)
+ DIANZHUZHI                      NOT NULL FLOAT(126)
+ GAIMAOTU                                 LONG RAW
+ X                                        FLOAT(126)
+ Y                                        FLOAT(126)
+ SHUOSHUFENGJU                            CHAR(5)
+
+SQL> desc dbo.sbt_gelikaiguan
+名称                          是否为空？类型
+------------------------------- -------- ----
+ SHEBEIBIANHAO                   NOT NULL CHAR(10)
+ EDINGDIANLIU                             FLOAT(126)
+ DONGWENDINGDIANLIU                       FLOAT(126)
+ JIGOUXINGSHI                             VARCHAR2(20)
+ EDINGRONGLIANG                           FLOAT(126)
+ FUZHUJIEDIAN                             VARCHAR2(20)
+ EDINGDIANYA                              FLOAT(126)
+ JISHU                                    VARCHAR2(10)
+ JIXIANDIANLIUFUZHI                       FLOAT(126)
+ JIXIANDIANLIUYOUXIAOZHI                  FLOAT(126)
+ ANZHUANGDIDIAN                           VARCHAR2(40)
+ WAIJUEYUANPAJU                           VARCHAR2(10)
+ DIANJIXINGHAO                            VARCHAR2(20)

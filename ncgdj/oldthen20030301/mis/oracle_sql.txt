@@ -1,0 +1,38 @@
+
+--高速缓冲区的命中率
+--公式:
+--(consistent gets + logical reads_physical reads)
+--/(consistent gets+ logical reads)
+--应该>90%
+select ((sum(decode(name,'consistent gets',value,0))+
+        sum(decode(Name,'db block gets',value,0))-
+        (sum(decode(name,'physical reads',value,0)))-
+       43712))/(sum(decode(name,'consistent gets',value,0))+
+        sum(decode(name,'db block gets',value,0))*100)"hit Ratio"
+from v$sysstat
+
+--调整共享池
+--应该>95%
+select sum(pins)/(sum(pins) + sum(reloads))*100
+"cache hit ratio"
+from v$librarycache
+
+--数据字典高速缓存性能
+--应该99%-95%
+select (1-(sum(getmisses)/sum(gets)))*100
+"dictionary Cache Hit Ratio"
+ from v$rowcache
+
+--重演日志缓冲区性能
+--设置重演日志缓冲区的大小使重演日志分配等候接近0
+select name,value from v$sysstat where name in
+('redo buffer allocation retries','redo log space requests')
+
+--管理排序空间
+--sorts (disk)应该很小
+select name,value from v$sysstat where name like 'sort%'
+
+--找到数据文件热点
+select name,phyrds,phywrts,(phyrds+phywrts) total
+from v$filestat s, v$datafile d
+where s.file#=d.file#
