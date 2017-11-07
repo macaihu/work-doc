@@ -1,0 +1,891 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"conn",
+				"connect"
+			],
+			[
+				"user",
+				"usrname"
+			],
+			[
+				"host",
+				"hostname"
+			],
+			[
+				"n",
+				"nPos"
+			],
+			[
+				"s",
+				"ppp0_str"
+			],
+			[
+				"ppp",
+				"ppp0_str"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"file": "201711.txt",
+			"file_size": 4599,
+			"file_write_time": 131541765633164436,
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "english/A Game of Thrones.txt",
+			"settings":
+			{
+				"buffer_size": 1704200,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "jian-doc.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python/memery_leak_check.py",
+			"settings":
+			{
+				"buffer_size": 559,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "life/Fitness.txt",
+			"settings":
+			{
+				"buffer_size": 2684,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "linuxjournal2017.txt",
+			"settings":
+			{
+				"buffer_size": 132671,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "work/0keeper.md",
+			"settings":
+			{
+				"buffer_size": 1365,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "english/words.txt",
+			"settings":
+			{
+				"buffer_size": 17844,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "english/people in song of ice and fire.txt",
+			"settings":
+			{
+				"buffer_size": 4258,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 348.0,
+		"last_filter": "git",
+		"selected_items":
+		[
+			[
+				"git",
+				"Gitignore: New gitignore"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"markdown pr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Package Control: insl",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: inc",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"git",
+			"sh",
+			"python -u",
+			"python ",
+			"print 1",
+			"print @",
+			"print \"hello\"",
+			"pint 'hello';",
+			"pint \"hello\";",
+			"pint \"hello\"",
+			"echo 5",
+			"p=5",
+			"p",
+			"print 5",
+			"?",
+			"help",
+			"ls",
+			"pitnf $(PATH)",
+			"pitnf 5",
+			"print 5",
+			"for i in range(1,101) :print i;",
+			"for i in range(1,101) :print i",
+			"for i in range(1,101) :"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jian/work/jian-doc"
+	],
+	"file_history":
+	[
+		"/home/jian/work/jian-doc/others/phy/心理咨询师案例问答题背诵内容汇总.txt",
+		"/home/jian/work/jian-doc/work/0keeper.md",
+		"/home/jian/work/jian-doc/work/resignation/名单.txt",
+		"/home/jian/work/jian-doc/python/ssh_test.py",
+		"/home/jian/work/jian-doc/others/phy/二三级必背内容1017.txt",
+		"/home/jian/work/jian-doc/english/冰与火之歌（各族家训、家徽）.md",
+		"/home/jian/.config/sublime-text-3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/home/jian/work/jian-doc/linuxjournal2017.txt",
+		"/home/jian/work/jian-doc/ncgj/#网络安全和数据安全问题解决方案及其他相关问题.md",
+		"/home/jian/work/jian-doc/ncgj/网络安全.md",
+		"/home/jian/work/jian-doc/ncgj/2001年8月生产管理系统验收对比情况及目前存在的问题.md",
+		"/home/jian/work/jian-doc/ncgj/2001年8月行政管理系统验收对比情况及目前存在的问题.md",
+		"/home/jian/work/jian-doc/life/81108730.txt",
+		"/home/jian/.config/sublime-text-3/Packages/User/MarkdownPreview.sublime-settings",
+		"/home/jian/work/jian-doc/ncgj/**2001**** 年8月生产管理系统验收对比情况及目前存在的问题**.md",
+		"/home/jian/work/jian-doc/ncgj/2001年8月行政管理系统验收对比情况及目前存在的问题",
+		"/home/jian/work/jian-doc/ncgj/2001年8月生产管理系统验收对比情况及目前存在的问题",
+		"/home/jian/work/jian-doc/work/buildall.txt",
+		"/home/jian/work/jian-doc/life/creditcard/zhongxing.txt",
+		"/home/jian/work/jian-doc/work/upnp介绍,.txt",
+		"/home/jian/work/jian-doc/life/creditcard/ccb_hongkong",
+		"/home/jian/work/jian-doc/python/clean_fujian.py",
+		"/home/jian/work/jian-doc/gm8136.txt",
+		"/home/jian/work/jian-doc/life/tairan.txt",
+		"/home/jian/work/jian-doc/life/Fitness.txt",
+		"/home/jian/work/jian-doc/work/2017年9月研发加班明细.txt",
+		"/home/jian/work/jian-doc/life/AdVenture Capitalist earth reset two.txt",
+		"/home/jian/work/jian-doc/life/12306.txt",
+		"/home/jian/work/jian-doc/life/iphonesoftupdate.txt",
+		"/home/jian/work/jian-doc/others/mail.csai.outbox.txt",
+		"/home/jian/work/jian-doc/others/mail.csai.inbox.txt",
+		"/home/jian/work/jian-doc/work/resignation/company.txt",
+		"/home/jian/work/jian-doc/life/finace.txt",
+		"/run/user/1000/gvfs/smb-share:server=192.168.19.101,share=d$/BaiduYunDownload/log",
+		"/home/jian/work/jian-doc/work/RTP时间戳.txt",
+		"/home/jian/Documents/rtp.txt",
+		"/home/jian/work/jian-doc/work/chinamobile/华视车载WIFI项目需求V2.txt",
+		"/home/jian/work/jian-doc/work/planofmonth.txt",
+		"/home/jian/work/jian-doc/work/售前技术支持部部门职责.txt",
+		"/home/jian/work/jian-doc/work/chinamobile/中国移动内蒙古公司2017年通用产品（设备、材料）二级集中采购项目.txt",
+		"/home/jian/work/jian-doc/atherosUbootCmd.txt",
+		"/home/jian/work/jian-doc/work/plan/lizhudong.txt",
+		"/home/jian/.config/sublime-text-3/Packages/MarkdownEditing/README.md",
+		"/home/jian/work/jian-doc/work/test.md",
+		"/home/jian/work/jian-doc/work/resignation/周坦日志.txt",
+		"/home/jian/work/jian-doc/work/plan/plan201606.txt",
+		"/home/jian/work/jian-doc/work/plan/plan201603.txt",
+		"/home/jian/work/jian-doc/work/plan/plan201608.txt",
+		"/home/jian/work/jian-doc/bigap/9341平台未完成功能和bug功能列表.txt",
+		"/home/jian/work/jian-doc/work/plan/plan201706.txt",
+		"/home/jian/work/jian-doc/work/plan/plan201707.txt",
+		"/home/jian/work/jian-doc/work/8月份加班、迟到统计.txt",
+		"/home/jian/work/jian-doc/work/resignation/魏启婷日志.txt",
+		"/home/jian/work/jian-doc/python/monkey_sentence.py",
+		"/home/jian/work/jian-doc/english/people in song of ice and fire.txt",
+		"/home/jian/work/jian-doc/work/ignition.txt",
+		"/home/jian/work/jian-doc/python/checkvpn.py",
+		"/home/jian/work/jian-doc/life/zhongxing.txt",
+		"/home/jian/work/jian-doc/life/creditcard/cmb.txt",
+		"/home/jian/work/jian-doc/life/creditcard/ccb.txt",
+		"/home/jian/work/jian-doc/life/credidcard.txt",
+		"/home/jian/work/jian-doc/使用xl2tpd连接安徽华为设备.txt",
+		"/home/jian/work/jian-doc/work/errno列表.txt",
+		"/home/jian/work/jian-doc/work/\"211\"工程大学名单.txt",
+		"/home/jian/work/jian-doc/life/2017年6月月考.txt",
+		"/home/jian/work/jian-doc/notes2017.txt",
+		"/home/jian/work/jian-doc/work/roster.txt",
+		"/home/jian/work/jian-doc/work/绩效面谈记录表.txt",
+		"/home/jian/work/jian-doc/english/A Game of Thrones.txt",
+		"/home/jian/work/jian-doc/english/words.txt",
+		"/home/jian/work/jian-doc/bigap/工作交接：主要项目工业路由器.txt",
+		"/home/jian/work/jian-doc/work/resignation/张勇日志.txt",
+		"/home/jian/work/jian-doc/ascii.txt",
+		"/home/jian/work/jian-doc/3grouter/Linux 3g模块拨号上网小结.txt",
+		"/home/jian/work/jian-doc/work/report.txt",
+		"/home/jian/work/jian-doc/linuxjournal2016.txt",
+		"/home/jian/work/jian-doc/work/ip.txt",
+		"/home/jian/work/jian-doc/work/zte7520/out.jian.txt",
+		"/home/jian/work/jian-doc/work/zte7520/out.wang.txt",
+		"/home/jian/work/jian-doc/刑法全文.txt",
+		"/home/jian/work/jian-doc/work/研发部以下人员1-6月份出现绩效低于1的情况.txt",
+		"/home/jian/work/jian-doc/work/研发部7月加班2016.txt",
+		"/home/jian/work/jian-doc/work/华视车载WIFI项目需求V2.txt",
+		"/home/jian/work/jian-doc/work/talk20170521.txt",
+		"/home/jian/work/jian-doc/life/journal@etjy.txt",
+		"/home/jian/work/jian-doc/linuxjournal2003.txt",
+		"/home/jian/work/jian-doc/english/Charlotte's Web.txt",
+		"/home/jian/work/jian-doc/linuxjournal2009.txt",
+		"/home/jian/work/jian-doc/work/talk20170521",
+		"/home/jian/work/jian-doc/python/reboot.py",
+		"/home/jian/work/jian-doc/some/名单.txt",
+		"/home/jian/work/jian-doc/work/2016project.txt",
+		"/home/jian/work/jian-doc/work/soft_roster.txt",
+		"/home/jian/work/jian-doc/reboot.py",
+		"/home/jian/work/jian-doc/1.py",
+		"/home/jian/work/jian-doc/work/2016开始项目.txt",
+		"/home/jian/work/jian-doc/work/planofweek.txt",
+		"/home/jian/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/jian/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+		"/home/jian/work/jian-doc/some/git 代码仓管理.txt",
+		"/home/jian/work/jian-doc/work/护照.txt",
+		"/home/jian/work/jian-doc/life/AdVenture Capitalist earth reset one.txt",
+		"/home/jian/work/jian-doc/life/big numbers.txt",
+		"/home/jian/work/jian-doc/bigap/qsdk编译说明.txt",
+		"/home/jian/work/jian-doc/life/usa traval.txt",
+		"/home/jian/work/jian-doc/work/svn仓.txt",
+		"/home/jian/work/jian-doc/notes2016.txt",
+		"/home/jian/work/jian-doc/work/工作汇报.txt",
+		"/home/jian/work/jian-doc/work/ip管理.txt",
+		"/home/jian/work/jian-doc/work/登录入口网络平台帐号及密码.txt",
+		"/home/jian/work/jian-doc/work/燃烧奖.txt",
+		"/home/jian/work/jian-doc/some/肖治威日志.txt",
+		"/home/jian/work/jian-doc/bigap/wifi探针.txt",
+		"/home/jian/work/jian-doc/some/熊立宇日志.txt",
+		"/home/jian/work/jian-doc/some/李瑶日志.txt",
+		"/home/jian/.config/sublime-text-3/Packages/Cscope/CscopeSublime.sublime-settings",
+		"/home/jian/.config/sublime-text-3/Packages/CTags/CTags.sublime-settings",
+		"/home/jian/.config/sublime-text-3/Packages/User/CTags.sublime-settings",
+		"/home/jian/work/jian-doc/9x07_huayu/可以处理的 AT 命令.txt",
+		"/home/jian/work/jian-doc/9x07_huayu/设备模式切换.txt",
+		"/home/jian/work/jian-doc/some/周坦日志",
+		"/home/jian/work/jian-doc/some/郑杏泉日志.txt",
+		"/home/jian/work/jian-doc/9x07_huayu/9x07平台所有运行的服务.txt",
+		"/home/jian/work/jian-doc/9x07_huayu/LinuxMint18X64下编译9x07注意问题.txt",
+		"/home/jian/work/jian-doc/9x07_huayu/web模块编译.txt",
+		"/home/jian/work/jian-doc/9x07_huayu/9x07-SDK 编译及调试",
+		"/home/jian/work/jian-doc/linuxjournal2015.txt",
+		"/home/jian/work/jian-doc/linuxjournal2012-14.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<current file>",
+			"",
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\t",
+			"串口线",
+			"tftp",
+			"antler",
+			"Aerys II Targaryen",
+			"crib",
+			"rueful",
+			"Luwin",
+			"legacy",
+			"swatch",
+			"motto",
+			"Arya",
+			"|",
+			"--====----====----====----====----====----====----====----====----====----===--\n",
+			"=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=",
+			"\n        ",
+			"八九",
+			">>>",
+			"ReadHedgwMsg",
+			"error:",
+			"error",
+			"[SvrCloseCurSvr]For test exit(0)",
+			"[SendPongMsg]Error SSL_write()",
+			"Error SSL_write()",
+			"[SendAudioRtpData]Error SSL_write()",
+			"Error SSL_write()",
+			"[SendVideoRtpData]Error SSL_write()",
+			"Error SSL_write()",
+			"[SendRequest]",
+			"Error SSL_read()",
+			"[ReadHedgwMsg]",
+			"Error SSL_read()",
+			"[ReadHedgwMsg]Error",
+			"thread_ssh",
+			"MSG_P_THD_GET_CAMERA_CHN_ADDR_RSP",
+			"ssl_write",
+			"write",
+			"read",
+			"ERROR",
+			"SSL",
+			"!!\n",
+			"ssl",
+			"ping pong span",
+			"[SendAudioRtpData]Error",
+			"[HEDGW]info.message_type()=5",
+			"=5",
+			"=7",
+			"[HEDGW]info.message_type()=8",
+			"[HEDGW]info.message_type()=5",
+			"[HEDGW]info.message_type()=4",
+			"[HEDGW]info.message_type()=3",
+			"[HEDGW]info.message_type()=2",
+			"[HEDGW]info.message_type()=1",
+			"[HEDGW]info.message_type()=8",
+			"[HEDGW]info.message_type()=7",
+			"[HEDGW]info.message_type()=10",
+			"[HEDGW]info.message_type()=9",
+			"[HEDGW]info.message_type",
+			"Errno",
+			"errno",
+			"日志 - 已点评",
+			"13592950020",
+			"龙",
+			"：",
+			"李柱栋",
+			"ap99",
+			"ap101ap99",
+			"ap101",
+			"ap111",
+			"德翼",
+			"tftp",
+			"libnetlink",
+			"vmlinux_ap123.lzma.uImage",
+			"WLAN_HEADERS",
+			"AH_CAL_IN_FILE_HOST",
+			"AH_CAL_LOCATIONS_DRAM_PCI",
+			"AH_CAL_RADIOS_PCI",
+			"AH_CAL_IN_DRAM_PCI",
+			"AH_CAL_LOCATIONS_DRAM_AHB",
+			"AH_CAL_RADIOS_AHB",
+			"AH_CAL_IN_DRAM_AHB",
+			"AH_CAL_IN_DRAM_FROM_HOST",
+			"ATH_PCI",
+			"ATH_AHB",
+			"DIRECT_ATTACH",
+			"HIF_MESSAGE_BASED",
+			"QCA_OL_TX_CACHEDHDR",
+			"DATH_SUPPORT_MCAST2UCAST",
+			"DQCA9888_HEADERS_DEF",
+			"DQCA9984_HEADERS_DEF",
+			"DIPQ4019_HEADERS_DEF",
+			"DAR9888_HEADERS_DEF",
+			"DCONFIG_AR9888_SUPPORT",
+			"DAR900B_HEADERS_DEF",
+			"DCONFIG_11AC_SUPPORT",
+			"CONFIG_AR900B_SUPPORT",
+			"DTEMP_AGGR_CFG",
+			"ATH_PERF_PWR_OFFLOAD",
+			"TEMP_AGGR_CFG",
+			"ATH_PERF_PWR_OFFLOAD",
+			"CONVERGED_SW",
+			"SUPPORT_VHT",
+			"SUPPORT_11N",
+			"WLAN_HEADERS",
+			"ATH_DIRECT_ATTACH",
+			"war.h",
+			"war",
+			"war.h",
+			"war",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n(1)\n|\n回复(3)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(3)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(4)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(2)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n(1)\n|\n回复(2)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(1)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n(1)\n|\n回复(1)",
+			"5.8",
+			"次",
+			"git remote add",
+			"ATH_SUPPORT_WRAP",
+			"UMAC_SUPPORT_WNM",
+			"离职",
+			"gcc-4.6",
+			"configs",
+			"主属部门：",
+			"手机：",
+			"主手机：",
+			"主属部门："
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"|",
+			"||",
+			"",
+			"        ",
+			"",
+			" ",
+			"    ",
+			".........................................................................................",
+			"",
+			"后续",
+			" ",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "201711.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "english/A Game of Thrones.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1704200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42850,
+								42850
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 18990.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "jian-doc.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "python/memery_leak_check.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "life/Fitness.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "linuxjournal2017.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 132671,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "work/0keeper.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								821,
+								821
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "english/words.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10,
+								10
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "english/people in song of ice and fire.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3685,
+								3685
+							]
+						],
+						"settings":
+						{
+							"parser": "github",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"target": "browser"
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "jian-doc.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 301.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
