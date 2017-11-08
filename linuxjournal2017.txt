@@ -8,6 +8,10 @@ ap-cp:
 继续减少wifi的选项.
 
 11.7
+如何使用快捷键预览markdown文件：
+https://www.bbsmax.com/A/MAzAWGqM59/
+
+
 刘云: 
 p53的bug修复速度太慢了. 
 
