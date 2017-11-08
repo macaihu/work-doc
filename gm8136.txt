@@ -1,5 +1,34 @@
 gm8136
 
+
+1、先配置本机器IP，和server IP。
+setenv ipaddr 192.168.19.33
+setenv serverip 192.168.19.199
+2、更新内核
+zImage:
+mw.b 0x2000000 0xFF 0x800000;
+tftpboot 0x02000000 uImage_8136; sf probe 0; sf erase 0x60000 0x2a0000; sf write 0x2000000 0x60000 0x2a0000;
+3、更新文件系统
+rootfs:
+mw.b 0x2000000 0xFF 0x800000; tftpboot 0x02000000 rootfs-cpio_8136.squashfs.img;
+sf probe 0; sf erase 0x300000 0x200000; sf write 0x2000000 0x300000 0x200000;
+4、更新user分区
+user0:
+mw.b 0x2000000 0xFF 0x800000;
+tftpboot 0x02000000 GM8135_2MP_uclibc.NOR.jffs2.img; sf probe 0; sf erase 0xe00000 0x100000; sf write 0x2000000 0xe00000 0x100000;
+5、更新16M的all.bin
+16M full flash
+mw.b 0x2000000 0xFF 0x1000000;
+tftpboot 0x02000000 flash;
+sf probe 0; sf erase 0x0 0x1000000;
+sf write 0x2000000 0x0 0x1000000;
+6、更新8M的all.bin
+8M full flash
+mw.b 0x2000000 0xFF 0x800000;
+tftpboot 0x02000000 d2.bin;           flash;
+sf probe 0;sf erase 0x0 0x800000;sf write 0x2000000 0x0 0x800000;
+
+
 1 尝试从开发包生成文件系统.
 2 程序用到的各种软件包的编译
 3 灯的控制修改为标准方式

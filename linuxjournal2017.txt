@@ -9,13 +9,26 @@ ap-cp:
 
 
 11.8
+cp -n 就不覆盖文件了.
+
+lede中的tcpdump有mini的选项, 但是好像不能编译啊.
+
+在编译.o文件的时候也加上-g选项, 执行:
+/usr/share/p11-gcc/staging_dir/usr/bin/mips-linux-gdb dialtool_new core.dialtool_new.6370
+Program terminated with signal 11, Segmentation fault.
+[New process 6370]
+[New process 6357]
+[New process 6368]
+[New process 6369]
+#0  0x77c533b4 in ?? ()
+
+执行bt, 出现了代码: 有一个指针没有判null
 #0  0x77b473b4 in ?? ()
 #1  0x0040b400 in strip_head_tail_space (str=0x0) at common.c:18
 #2  0x00406990 in bm806_report_handle (buffer=0xa57268 "\r\n+SIGNALIND:1,-105,255\r\n") at bm806.c:2861
 #3  0x0040195c in thr_process (args=<value optimized out>) at main.c:619
 #4  0x77bc83c8 in ?? ()
 Backtrace stopped: previous frame inner to this frame (corrupt stack?)
-
 
 162机器的对外映射端口由13306改为13300-13400。
 
@@ -44,7 +57,6 @@ H264 rate control(VG) version: 1.1.12, built @ Aug 26 2016 14:21:34
    0    EVBR        25/1              0        600      32      28     51    32    30   108.5
    1     VBR        25/1              0          0      32      28     51    32    30    0.0
 两个看起来有比较大的区别, 一个30frame/sec, 一个25frame/sec. 
-
 
 
 11.7

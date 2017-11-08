@@ -54,7 +54,9 @@ swordor of winterfall.
 ### Chapter 2  Catelyn 
 
 #### Catelyn Tully
-wife of Eddard Stark. 
+凯特琳·徒利（Catelyn Tully）是临冬城夫人，艾德·史塔克公爵之妻。她的娘家是河间地的徒利家族。将她嫁给北境公爵促成了河间地与北境的联盟。她有五个孩子，并对每一个都怀有深深的爱，在一系列事件袭击史塔克家族后，如何拯救她的孩子们成为了她做出各种决断的主要考量。她没能逃过红色婚礼的浩劫，但她似乎将以另一种形式归来。
+她是书中的主要POV人物，在电视剧中由Michelle Fairley扮演。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/c/ce/Catelyn_by_aniaem.jpg/revision/latest?cb=20120206101810&path-prefix=zh)
 
 #### Brandon the Builder
 布兰登·史塔克，也被称作“筑城者”布兰登（Bran the Builder），生活在英雄纪元时期，是史塔克家族的成员。（很有可能是史塔克家族的创始人。）他因修筑了长城和临冬城而得名。[1]故事里说他修筑这些建筑时得到了巨人的帮助。很多其他的著名建筑的建造都与他有关，特别是风息堡。
@@ -125,6 +127,7 @@ http://zh.asoiaf.wikia.com/wiki/%E8%89%BE%E8%8E%89%E4%BA%9A%C2%B7%E5%8F%B2%E5%A1
 
 #### Cersei Lannister
 瑟曦·兰尼斯特（Cersei Lannister）是泰温公爵和乔安娜夫人的长女，是詹姆·兰尼斯特的孪生姐姐。在篡夺者战争之后她嫁给了新王劳勃·拜拉席恩，成为七大王国的王后。在电视剧中由琳娜·海蒂(Lena Headey)扮演.[3] 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/b/b0/Cersei_Lannister.png/revision/latest/scale-to-width-down/250?cb=20120215222814&path-prefix=zh)
 
 #### Tommen Baratheon
 托曼·拜拉席恩（Tommen Baratheon），是七大王国国王。在国民眼中被视为国王劳勃一世和王后瑟曦·兰尼斯特最小的孩子，但实际上，和瑟曦前两个孩子一样，他的亲生父亲乃是瑟曦的孪生弟弟詹姆，尽管三个孩子对此都毫不知情。托曼在哥哥乔佛里死于自己的婚宴上之后加冕称王，并在其后不久代替哥哥迎娶玛格丽·提利尔为王后。由于他年纪尚幼并且温顺乖巧，国家的实际统治权落入了他的母亲摄政太后瑟曦手中。 
@@ -195,5 +198,38 @@ http://zh.asoiaf.wikia.com/wiki/%E8%89%BE%E8%8E%89%E4%BA%9A%C2%B7%E5%8F%B2%E5%A1
 乔拉·莫尔蒙 （Jorah Mormont）爵士是一个被流放的骑士，过去的熊岛的头领以及莫尔蒙家族的族长。他离开维斯特洛是为了逃避贩卖奴隶而要接受的惩罚。他后来到达了狭海对岸的东大陆厄斯索斯 ，并成为了丹妮莉丝·坦格利安最重要和最信赖的伙伴之一。
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/8/85/Jorah_Mormont.PNG/revision/latest?cb=20120206082906&path-prefix=zh)
 
-Tyrosh
+#### Tyrosh
 泰洛西（Tyrosh）是一个港口城市，九大自由贸易城邦之一，坐落于石阶列岛北方的一个岛屿上，离争议之地的海岸不远。[1]泰洛西的统治者称为为大君。[2] 
+
+### Chapter 4   Eddard
+Jaime Lannister
+Ser Jaime Lannister, also known as the Kingslayer, is a knight from House Lannister. He is the second child and first-born son of Lord Tywin Lannister of Casterly Rock and his wife, Lady Joanna, also of House Lannister. He is the twin brother of Queen Cersei Lannister.
+
+Raised at the age of fifteen to the Kingsguard of the Mad King, Aerys II Targaryen, Jaime became the youngest member in the history of the prestigious knightly order.[3] He earned the derogatory nickname "Kingslayer" when he treasonously slew Aerys near the end of Robert's Rebellion.[4][5] In A Storm of Swords, Jaime becomes a POV character. In the television adaptation Game of Thrones he is played by Nikolaj Coster-Waldau.[6] 
+![](http://awoiaf.westeros.org/images/thumb/1/1e/Jaime_Lannister.jpg/200px-Jaime_Lannister.jpg)
+
+
+Sandor Clegane
+桑铎·克里冈（Sandor Clegane）出身西境的克里冈家族，他的爷爷为泰陀斯·兰尼斯特公爵养狗，曾在狮子口中救下了泰陀斯公爵而被封为骑士，家族徽章为咬死狮子的三条狗。桑铎是现任克里冈家族族长格雷果·克里冈爵士的弟弟。他的外号是“猎狗”，一方面因为他家族的徽章是三条黑狗，一方面也来源于他残忍的性格和对主人无条件的服从。通常人们认为在除了常有的把自己喝的七蒙八醉的时间以外，他是维斯特洛最危险的战士之一。桑铎小时候曾经由于一个玩具被格雷果提起来把头按在黄铜火盆里而烧毁了半边脸。[1] 从那以后他便开始厌恶甚至害怕火焰，仇恨他的哥哥，一心要杀死他，最重要的是从那以后桑铎完全唾弃虚伪的骑士规范。
+![](https://vignette.wikia.nocookie.net/asoiaf/images/3/35/Sandor_clegane_by_aniaem.jpg/revision/latest?cb=20120205005958&path-prefix=zh)
+ 
+Tyrion Lannister
+提利昂·兰尼斯特（Tyrion Lannister）是泰温公爵和乔安娜夫人的第三个也是最小的孩子。因为是个侏儒，他有时候被戏称为小恶魔和半人。他利用自己的智慧屡次化险为夷，帮助兰尼斯特家族赢得了五王之战，但命运的不公使得他成为了一个弑亲者和通缉犯，踏上了流亡之路。
+提利昂是书中一个非常重要的POV人物。在电视剧中，由皮特·丁拉基扮演。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/0/08/Tywin_and_Tyrion.png/revision/latest?cb=20120205044713&path-prefix=zh)
+
+Balon Greyjoy
+巴隆·葛雷乔伊（Balon Greyjoy）是葛雷乔伊家族的家主，在他统治铁群岛的历史上曾经两度发动叛乱，自立为王。他以遵循“古道”为荣，希望领导铁民再现远古时代的辉煌。289AC，他首次从铁王座治下独立，但是很快遭到镇压。五王之战期间，巴隆再度反叛，指挥铁民奇袭北境。299AC，巴隆在一场风暴中失足坠桥，当场身亡。他的长船名为泓洋巨怪号。[1]在电视剧第二季和第三季中，他由Patrick Malahide饰演。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/2/21/Balon_Greyjoy_HBO.jpg/revision/latest?cb=20120417114330&path-prefix=zh)
+
+Highgarden
+高庭（Highgarden）是河湾地位于曼德河畔的城堡。在七国时代这里是园丁家族的居城，征服战争以後被赐给了提利尔家族。
+目前高庭的统治者是南境守护提利尔家族的梅斯公爵。他的家臣有总管加尔斯·提利尔、学士洛米斯、侍卫队长艾耿·莱维尔爵士、教头佛提莫·克连恩爵士及弄臣黄油饼。[1] 
+
+Rickard Stark
+瑞卡德·史塔克（Rickard Stark），是伊里斯二世统治时期的临冬城公爵、史塔克家族族长。他是艾德·史塔克之父。在正传情节开始前他已经去世。像许多史塔克家族成员一样，他也是守夜人的朋友。[1]
+
+Brandon Stark
+布兰登·史塔克（Brandon Stark），是伊里斯二世统治时期的一位史塔克家族成员。他是瑞卡德·史塔克公爵与Lyarra Stark夫人的长子，是艾德、莱安娜和班扬的大哥。他是篡夺者战争前临冬城的继承人。[1]
+
+

@@ -1,6 +1,9 @@
 
 2017-11-8
 stark          adj.了无修饰的；荒凉的；粗陋的；严酷的 adv.一丝不挂；赤裸
+onyx           n.缟玛瑙
+emblazoned     v.（用图案、符号或文字醒目地）装饰
+subterranean   adj.地下的
 
 2017-11-7
 candidate      n.候选人；理想对象；〈正式〉考生
