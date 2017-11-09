@@ -121,6 +121,7 @@ http://zh.asoiaf.wikia.com/wiki/%E8%89%BE%E8%8E%89%E4%BA%9A%C2%B7%E5%8F%B2%E5%A1
 
 #### Lysa Tully
 莱莎·徒利（Lysa Tully），(266AC - 300AC) 是徒利家族的一员，霍斯特·徒利与米妮莎·河安之女。在劳勃叛乱期间，她嫁给了琼恩·艾林，一个比他父亲还老的男人。婚后经历了数次流产后，她最终生下一子劳勃·艾林。在权力的游戏(电视剧)中由Kate Dickie扮演。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/f/fb/Lysa_and_Robert_Arryn.png/revision/latest/scale-to-width-down/300?cb=20120211091706&path-prefix=zh)
 
 #### Benjen Stark
 班扬·史塔克 （Benjen Stark），是守夜人的首席游骑兵。他是临冬城公爵艾德·史塔克的幼弟。 
@@ -232,4 +233,18 @@ Rickard Stark
 Brandon Stark
 布兰登·史塔克（Brandon Stark），是伊里斯二世统治时期的一位史塔克家族成员。他是瑞卡德·史塔克公爵与Lyarra Stark夫人的长子，是艾德、莱安娜和班扬的大哥。他是篡夺者战争前临冬城的继承人。[1]
 
+Lyanna Stark
+莱安娜·史塔克（Lyanna Stark），是艾德·史塔克公爵的妹妹，曾和奈德童年好友劳勃·拜拉席恩订婚，但在“错误的春天”之后的一年被雷加·坦格利安“拐走”，[2]成为了篡夺者战争的导火索，进而导致了坦格利安王朝的覆灭，最终她也死于了极乐塔。
+她以任性倔强、善于骑马的特点为人所知。[3] 
+
+Howland Reed
+霍兰·黎德（Howland Reed）是灰水望的头领，颈泽全体泽地人的统帅。 黎德的孩子分别是梅拉·黎德, 一个十六岁的女孩；和玖健·黎德，一个十三岁的男孩。他也是艾德·史塔克最亲密的朋友之一。[1]
+
+Tywin Lannister
+泰温·兰尼斯特（Tywin Lannister）是凯岩城公爵、兰尼斯港之盾和西境守护。泰温生性冷酷无情、精于谋算、控制欲极强，是维斯特洛最有权力的领主之一。泰温是詹姆、瑟曦和提利昂·兰尼斯特的父亲，他喜爱詹姆和瑟曦，但看不起提利昂。一方面因为提利昂是个侏儒，另一让面是因为提利昂出生的时候难产，导致了泰温深爱的妻子乔安娜的死亡，同时泰温认为提利昂常常嫖妓玷污了家族荣誉。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/d/d8/Tywin_Lannister3.png/revision/latest/scale-to-width-down/250?cb=20120206060659&path-prefix=zh)
+
+Robert Arryn
+劳勃·艾林（Robert Arryn），昵称“乖罗宾”，是琼恩·艾林和妻子莱莎·徒利的独子。他是一个病态且狂躁的六岁男孩，新任鹰巢城公爵和谷地守护者。他以劳勃·拜拉席恩的名字命名。[1]
+在剧集中，劳勃·艾林被改名为了罗宾·艾林，以防和劳勃·拜拉席恩重名给观众带来误解。由Lino Facioli扮演。 
 
