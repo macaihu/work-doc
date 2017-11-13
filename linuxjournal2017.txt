@@ -7,8 +7,57 @@ ap-cp:
 加上nob选项
 继续减少wifi的选项.
 
+11.13
+下午又看到nautilus这个进程狂占cpu, 这个居然是Browse the file system with the file manager, 有一个窗口开着, 里面在浏览wget下载的无数个文件, 这些文件又已经被删除了...
+
+使用iftop可以看到从哪个ip有比较大的流量, 
+Display paused       191Mb      381Mb                      572Mb    763Mb                 954Mb
+└─────────────────────┴──────────┴──────────────────────────┴────────┴──────────────────────────
+jian-OptiPlex-9020               => 151.101.64.194                       30.7kb  30.7kb  30.7kb
+                                 <=                                      1.13Mb  1.13Mb  1.13Mb
+再使用这样的指令
+sudo netstat -tpn | grep 151.101.64.194
+tcp        0      0 192.168.19.199:58996    151.101.64.194:80       ESTABLISHED 2258/wget
+就找到是哪个程序在使用网络了.
+
+这样就可以实现不输入密码登录了:
+alias s='sshpass -p sztz369147258 ssh root@192.168.0.1 -p 8357'
+
+11.10
+这样连接我的机器:
+mount -t nfs 192.168.19.199:/opt/work/ /mnt/nfs --nolock
+
+p59上网:
+ifconfig br0:1 192.168.19.198
+route add default gw 192.168.19.1
+echo nameserer 192.168.1.2 > /etc/resolv.conf
+
+154这台机器居然又不能发邮件了, 远程桌面不能连接, 连接显示器有图, 但移动鼠标, 敲击键盘无响应, 直接关机吧.
+
+桌面这台p59居然在5个小时之前重启了, 什么原因呢? 
+
+现在报错:
+ierror while loading shared libraries: libz.so.1: cannot open shared object file: No 
+这样试试, 可以开始编译了.
+sudo apt-get install lib32z1
 
 11.9
+这样就可以运行32位的程序了:
+sudo apt install libc6:i386
+
+下载整个网站
+wget -r -p -np -k http://xxx.com/xxx
+
+吴曦:
+当前p25情况, 陈良去菲律宾场测, 上次是在信号差的情况不能用, 现在改了天线, 在信号差的情况可以用了. 对比以前的硬件有改进.
+尼加拉瓜的p27在招标测试. 尼加拉瓜在南美.
+斯里兰卡的p27也在测试.
+p25的生产并不多, 有了3-4次, 最多的一次只有500台. 第一次试产并没有出现烧掉模块的事情, 虽然硬件的保护电路都是去掉的.
+m60的验证软件赵金还在做, 看能否复现复制了文件, 又消失的情况.
+
+还有一种特别的情况, 两台pc连上p25, 一台有线, 一台无线, 两台机器不能ping通, iperf可以使用. 把p25换成其他设备, 就可以ping通了.同样, 如果把无线连接的pc换为一个手机, 又可以ping通.
+
+
 使用这个指令可以看到和目摄像头的数据流:
 ./tcpdump -i br0 host 192.168.19.21
 

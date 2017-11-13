@@ -21,10 +21,12 @@ frist son of Eddard Stark
 the King-beyond-the-Wall
 
 #### Jon Snow
-bastard son of Eddard Stark
+琼恩·雪诺（Jon Snow）可能是艾德·史塔克的私生子，关于其生母，存在诸多推测。[1][2]他和父亲嫡生的孩子，即琼恩同父异母的兄弟姐妹，一起长大，却在接近成年之时加入了守夜人。他的冰原狼白灵通常伴随其左右。在卷一《权力的游戏》开始时，琼恩十四岁。他是书中主要的POV人物之一。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/6/65/Jon_Snow_by_AniaEm.jpg/revision/latest?cb=20120204171733&path-prefix=zh)
 
 #### Theon Greyjoy
-ward of Eddard Stark
+席恩·葛雷乔伊（Theon Greyjoy）是巴隆·葛雷乔伊大王（后自封为国王）的儿子和继承人。在葛雷乔伊叛乱结束后，席恩被艾德·史塔克带走作为人质和养子。他后来成为海婊子号船长。[2]电视剧里，席恩由阿尔菲·艾伦扮演。[3]
+![](https://vignette.wikia.nocookie.net/asoiaf/images/8/81/Theon_Greyjoy.png/revision/latest?cb=20120206110059&path-prefix=zh)
 
 #### Eddard Stark
 Lord of Winterfell and Warden of the North
@@ -93,6 +95,7 @@ http://zh.asoiaf.wikia.com/wiki/%E8%89%BE%E8%8E%89%E4%BA%9A%C2%B7%E5%8F%B2%E5%A1
 
 #### Sansa Stark
 珊莎·史塔克（Sansa Stark）是凯特琳·徒利和艾德·史塔克的长女。她有三个兄弟罗柏，布兰和瑞肯，还有一个妹妹，艾莉亚。她曾和七大王国的王储乔佛里·拜拉席恩订婚，也曾与提利昂·兰尼斯特有一段强扭的姻缘。现在，她正化名阿莲·石东藏身于艾林谷。珊莎是书中的一个主要POV人物。在电视剧中由索菲·特纳Sophie Tunner扮演。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/0/03/2x09-Blackwater-1280-661.jpg/revision/latest?cb=20120730161130&path-prefix=zh)
 
 ####  Valyria
 瓦雷利亚（Valyria）是一座覆灭已久的城市，也是一座令人惊叹的城市，它曾是名为瓦雷利亚自由堡垒帝国的都城。其毁灭是由名为瓦雷利亚末日浩劫的灾难性事件所导致的。这个城市位于东大陆的一个半岛上。[1]那里也是坦格利安家族的发源地。[2][3] 
@@ -132,7 +135,7 @@ http://zh.asoiaf.wikia.com/wiki/%E8%89%BE%E8%8E%89%E4%BA%9A%C2%B7%E5%8F%B2%E5%A1
 
 #### Tommen Baratheon
 托曼·拜拉席恩（Tommen Baratheon），是七大王国国王。在国民眼中被视为国王劳勃一世和王后瑟曦·兰尼斯特最小的孩子，但实际上，和瑟曦前两个孩子一样，他的亲生父亲乃是瑟曦的孪生弟弟詹姆，尽管三个孩子对此都毫不知情。托曼在哥哥乔佛里死于自己的婚宴上之后加冕称王，并在其后不久代替哥哥迎娶玛格丽·提利尔为王后。由于他年纪尚幼并且温顺乖巧，国家的实际统治权落入了他的母亲摄政太后瑟曦手中。 
-
+![](https://tse2-mm.cn.bing.net/th?id=OIP.02q4ac7oEF2DWNF0qPmajQEsEs&p=0&pid=1.1)
 
 ### Chapter 3    Daenerys
 
@@ -247,4 +250,25 @@ Tywin Lannister
 Robert Arryn
 劳勃·艾林（Robert Arryn），昵称“乖罗宾”，是琼恩·艾林和妻子莱莎·徒利的独子。他是一个病态且狂躁的六岁男孩，新任鹰巢城公爵和谷地守护者。他以劳勃·拜拉席恩的名字命名。[1]
 在剧集中，劳勃·艾林被改名为了罗宾·艾林，以防和劳勃·拜拉席恩重名给观众带来误解。由Lino Facioli扮演。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/c/c6/488507-robert_arryn_large.jpg/revision/latest?cb=20120216173746&path-prefix=zh)
+
+
+
+Chapter 5 Jon
+Myrcella Baratheon
+弥赛菈·拜拉席恩（Myrcella Baratheon）公主，是拜拉席恩王室的第二个孩子。在大众眼中，她是劳勃国王和瑟曦王后的女儿，但实际上，她和哥哥乔佛里及弟弟托曼一样，是瑟曦和她的孪生弟弟詹姆·兰尼斯特的亲生女儿。 
+![](https://vignette.wikia.nocookie.net/gameofthrones/images/5/58/MyrcellaSeason5.jpg/revision/latest/scale-to-width-down/220?cb=20150318224600)
+
+Joffrey Baratheon
+乔佛里·拜拉席恩（Joffrey Baratheon），公开身份是劳勃·拜拉席恩国王和瑟曦·兰尼斯特王后的长子及继承人，真实身份是詹姆·兰尼斯特与瑟曦·兰尼斯特的乱伦所生子。在这个系列开始的时候，他12岁。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/4/4d/Joffrey_in_armor2x09.jpg/revision/latest?cb=20140912061813&path-prefix=zh)
+
+Ghost
+白灵（Ghost）是琼恩·雪诺的白色冰原狼。它因纯白毛色及安静的特性而得此名。 它与灰风，淑女，娜梅莉亚，夏天，及毛毛狗一起出生。和琼恩相同，白灵也是家族里的外人且早熟。 
+
+
+
+
+
+
 
