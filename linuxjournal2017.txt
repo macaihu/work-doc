@@ -8,6 +8,17 @@ ap-cp:
 继续减少wifi的选项.
 
 11.13
+cenos 下要安装yum install gettext-devel, 否则会出现
+error: possibly undefined macro: AC_LIB_PREFIX这样的错误.
+
+centos中居然没有ccache?
+sudo yum install epel-release
+sudo yum -y install yum-utils
+这样之后, 就有ccache 了.
+
+
+gitk中在右边选择了某个文件, 右键, highligth this too, 那么, 所有这个文件的修改的commit都会加粗, 看起来非常实用的功能.
+
 下午又看到nautilus这个进程狂占cpu, 这个居然是Browse the file system with the file manager, 有一个窗口开着, 里面在浏览wget下载的无数个文件, 这些文件又已经被删除了...
 
 使用iftop可以看到从哪个ip有比较大的流量, 
