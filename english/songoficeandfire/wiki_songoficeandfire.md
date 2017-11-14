@@ -52,6 +52,7 @@ baby sister of Bran Stark
 
 #### Desmond
 swordor of winterfall.
+戴斯蒙（Desmond）是跟随艾德·史塔克大人南下的守卫队其中一人。 
 
 ### Chapter 2  Catelyn 
 
@@ -271,6 +272,33 @@ Daeron Targaryen
 戴伦·坦格利安（Daeron Targaryen）王子是韦赛里斯一世国王与他第二任妻子阿莉森·海塔尔王后的幼子。他是伊耿二世国王、海伦娜王后和伊蒙德的弟弟。他骑乘一条名为特赛里恩的龙。 
 
 
+Chapter 6 Catelyn
+
+Edmure Tully
+德慕·徒利（Edmure Tully），徒利家族现任当家，河间地统治者，奔流城公爵。他拥有徒利家的红棕色头发，身材中等，但一把胡子看起来很威猛。[1]
+
+Rodrik Cassel
+罗德利克·凯索（Rodrik Cassel）爵士是史塔克家的一员。他是临冬城教头。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/1/1c/Rodrik_Cassel.png/revision/latest?cb=20120214104927&path-prefix=zh)
 
 
+Arthur Dayne
+亚瑟·戴恩（Arthur Dayne）爵士，人称拂晓神剑，这一名号源自其所挥舞的巨剑“黎明”，这是一柄由陨铁铸造的双手巨剑，平时亚瑟将它挎在背上。[1]
+他是一位传奇的骑士，曾是伊里斯二世的御林铁卫。 亦是已故的雷加王子最亲近的密友之一。[2] 
+
+Ashara Dayne
+亚夏拉·戴恩（Ashara Dayne）是亚瑟·戴恩的妹妹，戴恩家族的一员。 
+
+
+Chapter 7   Arya
+
+Mordane
+茉丹（Mordane），是临冬城的修女。她负责照料和抚养史塔克的孩子们。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/3/3e/Septa_mordane_by_crisurdiales.jpg/revision/latest?cb=20140803052528&path-prefix=zh)
+
+Beth Cassel
+贝丝·凯索（Beth Cassel）是临冬城教头罗德利克·凯索爵士的女儿。她有一头卷曲的褐发。[1]
+
+Jeyne Poole
+珍妮·普尔（Jeyne Poole）是临冬城管家维扬·普尔的女儿。她是珊莎·史塔克最好的朋友，同时被描述得非常漂亮.[2]
 
