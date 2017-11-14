@@ -1,28 +1,32 @@
 
-主机名称                         | IP地址         | MAC地址
--------------------------------|----------------|-----------------
-HUAWEI_Mate_9	               | 192.168.16.16  | 10:b1:f8:07:26:b6
-HUAWEI_P10                     | 192.168.16.18  | 0c:8f:ff:1e:4e:92
-                               | 192.168.16.19  | 98:e7:f5:78:50:dd
-Honor_V9                       | 192.168.16.21  | 50:04:b8:78:e4:04
-new-host-426                   | 192.168.16.22  | 2c:6e:85:2d:18:74
-AdminisdeiPhone                | 192.168.16.24  | 90:3c:92:7a:53:9c
-Honor_V8                       | 192.168.16.25  | b0:89:00:90:ef:df
-HUAWEI_P9                      | 192.168.16.37  | 5c:a8:6a:9e:2c:43
-                               | 192.168.16.38  | f4:cb:52:6a:ee:b6
-                               | 192.168.16.40  | 08:00:27:50:fe:05
-                               |                |
-HUAWEI_nova                    | 192.168.19.12  | 8c:0d:76:af:5f:b8                               
-Liangde-iPhone                 | 192.168.19.19  | fc:e9:98:14:58:1f
-                               | 192.168.19.21  | 00:25:09:6e:4b:3c
-GJSROX0FSVCLWJ8                | 192.168.19.24  | 1c:39:47:b2:7f:54
-ubuntu1710                     | 192.168.19.28  | 08:00:27:6d:93:d5         
-Kelly                          | 192.168.19.43  | dc:0c:5c:89:b6:42
-iPhone                         | 192.168.19.63  | 28:ed:6a:6b:61:c4
-xiaopeideiPhone                | 192.168.19.99  | 84:41:67:ad:6d:7c
-android-dc2d0b43308d7f5b       | 192.168.19.170 | f4:e3:fb:bb:a9:1d
-SmartHome-BRUBADSRTGG6ZZXU111A | 192.168.19.175 | 00:6c:fd:82:22:0d
-wujuande-iPhone                | 192.168.19.181 | 60:92:17:5c:d3:9b
-vivo_Y51A                      | 192.168.19.214 | 9c:fb:d5:09:87:30
-                               | 192.168.19.243 | fc:a6:67:65:05:3f
+主机名称                                                 | IP地址         | MAC地址          
+--------------------------------------------------------|----------------|-------------------
+HUAWEI_Mate_9	                                        | 192.168.16.16  | 10:b1:f8:07:26:b6 
+HUAWEI_P10                                              | 192.168.16.18  | 0c:8f:ff:1e:4e:92
+:HUAWEI TECHNOLOGIES CO.,LTD                            | 192.168.16.19  | 98:e7:f5:78:50:dd
+:Amazon Technologies Inc.                               | 192.168.16.20  | 34:d2:70:e0:ea:33
+Honor_V9                                                | 192.168.16.21  | 50:04:b8:78:e4:04
+new-host-426<br>Intel Corporate                         | 192.168.16.22  | 2c:6e:85:2d:18:74
+AdminisdeiPhone                                         | 192.168.16.24  | 90:3c:92:7a:53:9c
+Honor_V8                                                | 192.168.16.25  | b0:89:00:90:ef:df
+HUAWEI_P10                                              | 192.168.16.28  | 14:5f:94:8f:db:02
+HUAWEI_P9                                               | 192.168.16.37  | 5c:a8:6a:9e:2c:43
+:HUAWEI TECHNOLOGIES CO.,LTD                            | 192.168.16.38  | f4:cb:52:6a:ee:b6
+:PCS Systemtechnik GmbH                                 | 192.168.16.40  | 08:00:27:50:fe:05
+:Atheros Communications, Inc.                           | 192.168.16.41  | 00:03:7f:11:20:ce
+Liangde-iPhone                                          | 192.168.16.42  | fc:e9:98:14:58:1f
+:SHARETRONIC Group LTD                                  | 192.168.16.44  | 00:25:09:6e:4b:3c
+SmartHome-BRUBADSRTGG6ZZXU111A<br>Sichuan Changhong     | 192.168.16.45  | 00:6c:fd:82:22:0d
+wujuande-iPhone                                         | 192.168.16.46  | 60:92:17:5c:d3:9b
+iPhone                                                  | 192.168.16.47  | 28:ed:6a:6b:61:c4
+:Amazon Technologies Inc.                               | 192.168.16.48  | fc:a6:67:65:05:3f
+GJSROX0FSVCLWJ8                                         | 192.168.16.49  | 1c:39:47:b2:7f:54
+Honor_7X                                                | 192.168.16.50  | a8:0c:63:c1:44:0f
+xiaopeideiPhone                                         | 192.168.16.51  | 84:41:67:ad:6d:7c
+android-dc2d0b43308d7f5b<br>HUAWEI                      | 192.168.16.52  | f4:e3:fb:bb:a9:1d
+                                                        |                |
+HUAWEI_nova                                             | 192.168.19.12  | 8c:0d:76:af:5f:b8                               
+ubuntu1710                                              | 192.168.19.28  | 08:00:27:6d:93:d5         
+Kelly                                                   | 192.168.19.43  | dc:0c:5c:89:b6:42
+vivo_Y51A                                               | 192.168.19.214 | 9c:fb:d5:09:87:30
 	                               

@@ -7,6 +7,40 @@ ap-cp:
 加上nob选项
 继续减少wifi的选项.
 
+11.14
+minicom最近的一次更新在今年, 增加的是一个漏洞的修补, 而上一次的更新在2013年.
+
+minicom可以自动换行的:
+在minicom中自动换行：Ctrl+A Z W
+组合键的用法是：先按Ctrl+A组合键，然后松开这两个键，再按Z键。另外还有一些常用的组合键。
+S键：发送文件到目标系统中；
+W键：自动卷屏。当显示的内容超过一行之后，自动将后面的内容换行。这个功能在查看内核的启动信息时很有用；
+C键：清除屏幕的显示内容；
+B键：浏览Minicom的历史显示；
+X键：退出Minicom，会提示确认退出。
+http://blog.sina.com.cn/s/blog_6d2a0a1a0100vyoz.html
+
+如何在win7上安装rndis:
+http://developer.toradex.com/knowledge-base/how-to-install-microsoft-rndis-driver-for-windows-7
+可以在win7的机器上看rtspd的流媒体图像了.
+
+使用自己编译的busybox, 出错了
+/squashfs_init: line 24: echo: not found
+/squashfs_init: line 25: mdev: not found
+/squashfs_init: line 26: ln: not found
+/squashfs_init: line 27: /bin/linuxrc: not found
+/squashfs_init: line 28: can't open /dev/console: no such file
+增加一些busybox的选项, 这些错误消失了, 但是继续错误:
+Kernel panic - not syncing: [ISP] failed to open cfg file: /mnt/mtd/isp328.cfg
+
+p59又重启了, 忘记开重启记录了.
+
+这样来设置p59的上网吧:
+ifconfig br0:2 192.168.19.41 
+route add default gw 192.168.19.1
+echo nameserver 192.168.1.2 >> /etc/resolv.conf
+
+
 11.13
 cenos 下要安装yum install gettext-devel, 否则会出现
 error: possibly undefined macro: AC_LIB_PREFIX这样的错误.

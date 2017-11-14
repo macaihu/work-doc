@@ -2,16 +2,16 @@ gm8136
 
 
 1、先配置本机器IP，和server IP。
-setenv ipaddr 192.168.19.33
-setenv serverip 192.168.19.199
+setenv ipaddr 192.168.19.33 ;setenv serverip 192.168.19.199
 2、更新内核
 zImage:
-mw.b 0x2000000 0xFF 0x800000;
-tftpboot 0x02000000 uImage_8136; sf probe 0; sf erase 0x60000 0x2a0000; sf write 0x2000000 0x60000 0x2a0000;
+mw.b 0x2000000 0xFF 0x800000;tftpboot 0x02000000 uImage_8136; sf probe 0; sf erase 0x60000 0x2a0000; sf write 0x2000000 0x60000 0x2a0000;
 3、更新文件系统
 rootfs:
-mw.b 0x2000000 0xFF 0x800000; tftpboot 0x02000000 rootfs-cpio_8136.squashfs.img;
-sf probe 0; sf erase 0x300000 0x200000; sf write 0x2000000 0x300000 0x200000;
+mw.b 0x2000000 0xFF 0x800000; tftpboot 0x02000000 rootfs-cpio_master.squashfs.img;sf probe 0; sf erase 0x300000 0x200000; sf write 0x2000000 0x300000 0x200000;
+
+mw.b 0x2000000 0xFF 0x800000; tftpboot 0x02000000 rootfs-cpio_master.squashfs.img.ok;sf probe 0; sf erase 0x300000 0x200000; sf write 0x2000000 0x300000 0x200000;
+
 4、更新user分区
 user0:
 mw.b 0x2000000 0xFF 0x800000;

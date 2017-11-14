@@ -102,6 +102,7 @@ http://zh.asoiaf.wikia.com/wiki/%E8%89%BE%E8%8E%89%E4%BA%9A%C2%B7%E5%8F%B2%E5%A1
 
 #### Luwin
 鲁温（Luwin）师傅，是在临冬城史塔克家族服务的学士。凯特琳·史塔克的每一个孩子都是他接生的。[1]
+![](https://vignette.wikia.nocookie.net/asoiaf/images/7/70/Maester_Luwin_HBO.jpg/revision/latest/scale-to-width-down/200?cb=20120204142105&path-prefix=zh)
 
 #### Jon Arryn
 琼恩·艾林（Jon Arryn）是鹰巢城公爵、峡谷守护者和东境守护。他是七国国王劳勃·拜拉席恩与临冬城公爵艾德·史塔克的养父，与二人有深厚的感情。在劳勃于篡夺者战争中推翻坦格利安王室的15年间，他担任了劳勃的国王之手，直至在《冰与火之歌》的故事线发生前去世。 
@@ -266,7 +267,8 @@ Joffrey Baratheon
 Ghost
 白灵（Ghost）是琼恩·雪诺的白色冰原狼。它因纯白毛色及安静的特性而得此名。 它与灰风，淑女，娜梅莉亚，夏天，及毛毛狗一起出生。和琼恩相同，白灵也是家族里的外人且早熟。 
 
-
+Daeron Targaryen
+戴伦·坦格利安（Daeron Targaryen）王子是韦赛里斯一世国王与他第二任妻子阿莉森·海塔尔王后的幼子。他是伊耿二世国王、海伦娜王后和伊蒙德的弟弟。他骑乘一条名为特赛里恩的龙。 
 
 
 
