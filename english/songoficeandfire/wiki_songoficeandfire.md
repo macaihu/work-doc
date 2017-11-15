@@ -34,6 +34,7 @@ Lord of Winterfell and Warden of the North
 #### Jory Cassel
 the captain of his household guard.
 乔里·凯索（Jory Cassel）属于艾德·史塔克家眷一员，是史塔克家族的侍卫队长。电视剧中由Jamie Sives饰演。[1]
+![](https://vignette.wikia.nocookie.net/asoiaf/images/1/1d/Jory_Cassel.png/revision/latest?cb=20120205135653&path-prefix=zh)
 
 #### Robert Baratheon
 the First of his Name, King of the Andals and the Rhoynar and the First Men, Lord of the Seven Kingdoms and Protector of the Realm.
@@ -215,90 +216,145 @@ Raised at the age of fifteen to the Kingsguard of the Mad King, Aerys II Targary
 ![](http://awoiaf.westeros.org/images/thumb/1/1e/Jaime_Lannister.jpg/200px-Jaime_Lannister.jpg)
 
 
-Sandor Clegane
+#### Sandor Clegane
 桑铎·克里冈（Sandor Clegane）出身西境的克里冈家族，他的爷爷为泰陀斯·兰尼斯特公爵养狗，曾在狮子口中救下了泰陀斯公爵而被封为骑士，家族徽章为咬死狮子的三条狗。桑铎是现任克里冈家族族长格雷果·克里冈爵士的弟弟。他的外号是“猎狗”，一方面因为他家族的徽章是三条黑狗，一方面也来源于他残忍的性格和对主人无条件的服从。通常人们认为在除了常有的把自己喝的七蒙八醉的时间以外，他是维斯特洛最危险的战士之一。桑铎小时候曾经由于一个玩具被格雷果提起来把头按在黄铜火盆里而烧毁了半边脸。[1] 从那以后他便开始厌恶甚至害怕火焰，仇恨他的哥哥，一心要杀死他，最重要的是从那以后桑铎完全唾弃虚伪的骑士规范。
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/3/35/Sandor_clegane_by_aniaem.jpg/revision/latest?cb=20120205005958&path-prefix=zh)
  
-Tyrion Lannister
+#### Tyrion Lannister
 提利昂·兰尼斯特（Tyrion Lannister）是泰温公爵和乔安娜夫人的第三个也是最小的孩子。因为是个侏儒，他有时候被戏称为小恶魔和半人。他利用自己的智慧屡次化险为夷，帮助兰尼斯特家族赢得了五王之战，但命运的不公使得他成为了一个弑亲者和通缉犯，踏上了流亡之路。
 提利昂是书中一个非常重要的POV人物。在电视剧中，由皮特·丁拉基扮演。 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/0/08/Tywin_and_Tyrion.png/revision/latest?cb=20120205044713&path-prefix=zh)
 
-Balon Greyjoy
+#### Balon Greyjoy
 巴隆·葛雷乔伊（Balon Greyjoy）是葛雷乔伊家族的家主，在他统治铁群岛的历史上曾经两度发动叛乱，自立为王。他以遵循“古道”为荣，希望领导铁民再现远古时代的辉煌。289AC，他首次从铁王座治下独立，但是很快遭到镇压。五王之战期间，巴隆再度反叛，指挥铁民奇袭北境。299AC，巴隆在一场风暴中失足坠桥，当场身亡。他的长船名为泓洋巨怪号。[1]在电视剧第二季和第三季中，他由Patrick Malahide饰演。 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/2/21/Balon_Greyjoy_HBO.jpg/revision/latest?cb=20120417114330&path-prefix=zh)
 
-Highgarden
+#### Highgarden
 高庭（Highgarden）是河湾地位于曼德河畔的城堡。在七国时代这里是园丁家族的居城，征服战争以後被赐给了提利尔家族。
 目前高庭的统治者是南境守护提利尔家族的梅斯公爵。他的家臣有总管加尔斯·提利尔、学士洛米斯、侍卫队长艾耿·莱维尔爵士、教头佛提莫·克连恩爵士及弄臣黄油饼。[1] 
 
-Rickard Stark
+#### Rickard Stark
 瑞卡德·史塔克（Rickard Stark），是伊里斯二世统治时期的临冬城公爵、史塔克家族族长。他是艾德·史塔克之父。在正传情节开始前他已经去世。像许多史塔克家族成员一样，他也是守夜人的朋友。[1]
 
-Brandon Stark
+#### Brandon Stark
 布兰登·史塔克（Brandon Stark），是伊里斯二世统治时期的一位史塔克家族成员。他是瑞卡德·史塔克公爵与Lyarra Stark夫人的长子，是艾德、莱安娜和班扬的大哥。他是篡夺者战争前临冬城的继承人。[1]
 
-Lyanna Stark
+#### Lyanna Stark
 莱安娜·史塔克（Lyanna Stark），是艾德·史塔克公爵的妹妹，曾和奈德童年好友劳勃·拜拉席恩订婚，但在“错误的春天”之后的一年被雷加·坦格利安“拐走”，[2]成为了篡夺者战争的导火索，进而导致了坦格利安王朝的覆灭，最终她也死于了极乐塔。
 她以任性倔强、善于骑马的特点为人所知。[3] 
 
-Howland Reed
+#### Howland Reed
 霍兰·黎德（Howland Reed）是灰水望的头领，颈泽全体泽地人的统帅。 黎德的孩子分别是梅拉·黎德, 一个十六岁的女孩；和玖健·黎德，一个十三岁的男孩。他也是艾德·史塔克最亲密的朋友之一。[1]
 
-Tywin Lannister
+#### Tywin Lannister
 泰温·兰尼斯特（Tywin Lannister）是凯岩城公爵、兰尼斯港之盾和西境守护。泰温生性冷酷无情、精于谋算、控制欲极强，是维斯特洛最有权力的领主之一。泰温是詹姆、瑟曦和提利昂·兰尼斯特的父亲，他喜爱詹姆和瑟曦，但看不起提利昂。一方面因为提利昂是个侏儒，另一让面是因为提利昂出生的时候难产，导致了泰温深爱的妻子乔安娜的死亡，同时泰温认为提利昂常常嫖妓玷污了家族荣誉。 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/d/d8/Tywin_Lannister3.png/revision/latest/scale-to-width-down/250?cb=20120206060659&path-prefix=zh)
 
-Robert Arryn
+#### Robert Arryn
 劳勃·艾林（Robert Arryn），昵称“乖罗宾”，是琼恩·艾林和妻子莱莎·徒利的独子。他是一个病态且狂躁的六岁男孩，新任鹰巢城公爵和谷地守护者。他以劳勃·拜拉席恩的名字命名。[1]
 在剧集中，劳勃·艾林被改名为了罗宾·艾林，以防和劳勃·拜拉席恩重名给观众带来误解。由Lino Facioli扮演。 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/c/c6/488507-robert_arryn_large.jpg/revision/latest?cb=20120216173746&path-prefix=zh)
 
 
 
-Chapter 5 Jon
-Myrcella Baratheon
+### Chapter 5 Jon
+
+#### Myrcella Baratheon
 弥赛菈·拜拉席恩（Myrcella Baratheon）公主，是拜拉席恩王室的第二个孩子。在大众眼中，她是劳勃国王和瑟曦王后的女儿，但实际上，她和哥哥乔佛里及弟弟托曼一样，是瑟曦和她的孪生弟弟詹姆·兰尼斯特的亲生女儿。 
 ![](https://vignette.wikia.nocookie.net/gameofthrones/images/5/58/MyrcellaSeason5.jpg/revision/latest/scale-to-width-down/220?cb=20150318224600)
 
-Joffrey Baratheon
+#### Joffrey Baratheon
 乔佛里·拜拉席恩（Joffrey Baratheon），公开身份是劳勃·拜拉席恩国王和瑟曦·兰尼斯特王后的长子及继承人，真实身份是詹姆·兰尼斯特与瑟曦·兰尼斯特的乱伦所生子。在这个系列开始的时候，他12岁。 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/4/4d/Joffrey_in_armor2x09.jpg/revision/latest?cb=20140912061813&path-prefix=zh)
 
-Ghost
+#### Ghost
 白灵（Ghost）是琼恩·雪诺的白色冰原狼。它因纯白毛色及安静的特性而得此名。 它与灰风，淑女，娜梅莉亚，夏天，及毛毛狗一起出生。和琼恩相同，白灵也是家族里的外人且早熟。 
 
-Daeron Targaryen
+#### Daeron Targaryen
 戴伦·坦格利安（Daeron Targaryen）王子是韦赛里斯一世国王与他第二任妻子阿莉森·海塔尔王后的幼子。他是伊耿二世国王、海伦娜王后和伊蒙德的弟弟。他骑乘一条名为特赛里恩的龙。 
 
 
-Chapter 6 Catelyn
+### Chapter 6 Catelyn
 
-Edmure Tully
+#### Edmure Tully
 德慕·徒利（Edmure Tully），徒利家族现任当家，河间地统治者，奔流城公爵。他拥有徒利家的红棕色头发，身材中等，但一把胡子看起来很威猛。[1]
 
-Rodrik Cassel
+#### Rodrik Cassel
 罗德利克·凯索（Rodrik Cassel）爵士是史塔克家的一员。他是临冬城教头。 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/1/1c/Rodrik_Cassel.png/revision/latest?cb=20120214104927&path-prefix=zh)
 
 
-Arthur Dayne
+#### Arthur Dayne
 亚瑟·戴恩（Arthur Dayne）爵士，人称拂晓神剑，这一名号源自其所挥舞的巨剑“黎明”，这是一柄由陨铁铸造的双手巨剑，平时亚瑟将它挎在背上。[1]
 他是一位传奇的骑士，曾是伊里斯二世的御林铁卫。 亦是已故的雷加王子最亲近的密友之一。[2] 
 
-Ashara Dayne
+#### Ashara Dayne
 亚夏拉·戴恩（Ashara Dayne）是亚瑟·戴恩的妹妹，戴恩家族的一员。 
 
 
-Chapter 7   Arya
+### Chapter 7   Arya
 
-Mordane
+#### Mordane
 茉丹（Mordane），是临冬城的修女。她负责照料和抚养史塔克的孩子们。 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/3/3e/Septa_mordane_by_crisurdiales.jpg/revision/latest?cb=20140803052528&path-prefix=zh)
 
-Beth Cassel
+#### Beth Cassel
 贝丝·凯索（Beth Cassel）是临冬城教头罗德利克·凯索爵士的女儿。她有一头卷曲的褐发。[1]
 
-Jeyne Poole
+#### Jeyne Poole
 珍妮·普尔（Jeyne Poole）是临冬城管家维扬·普尔的女儿。她是珊莎·史塔克最好的朋友，同时被描述得非常漂亮.[2]
+
+#### Nymeria
+娜梅莉亚（Nymeria）是艾莉亚·史塔克的冰原狼。她与灰风、淑女、夏天、毛毛狗及白灵一起出生。娜梅莉亚的眼睛是黄色的。[1]
+![](https://vignette.wikia.nocookie.net/asoiaf/images/4/4a/Nymeria_by_daaria.jpg/revision/latest?cb=20120205105542&path-prefix=zh)
+
+#### Rhoyne
+洛恩河（Rhoyne）是东大陆上的一条河流。其由上洛恩河以及小洛恩河汇合而形成，流向葛·多荷遗址东南方。自此洛恩河继续流向东、南方向延伸，琴恩河、娜恩河、拉鲁鲁江和赛荷鲁江等支流汇入加大了干流流量。洛恩河入海口处是巨大的三角洲，瓦兰提斯即位于此处。[1]洛恩河位于洛伊拿人的故土。在洛伊拿文化中洛恩河被视作神并被称为母亲河洛恩。[2]
+洛恩河上强盗猖獗。[3] 
+
+
+### Chapter 8 Bran
+
+#### Nan
+老奶妈（Nan）是临冬城的一名女佣。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/5/53/Old_Nan.png/revision/latest/scale-to-width-down/250?cb=20120208022910&path-prefix=zh)
+
+#### Serwyn of the Mirror Shield
+萨文（Serwyn）爵士又被称为“镜盾”萨文是一位历史中的传奇人物。他是一名御林铁卫成员。[1]他的事迹深受百姓喜爱。[2]
+
+#### Ryam Redwyne
+莱安·雷德温（Ryam Redwyne）爵士，是雷德温家族的一名成员，杰赫里斯一世与韦赛里斯一世时期的御林铁卫队长和国王之手。[2]
+
+#### Aemon Targaryen
+伊蒙·坦格利安（Aemon Targaryen），人称龙骑士，是韦赛里斯二世的次子，是一名杰出的御林铁卫。他服务过五位国王：大伯“龙祸”伊耿三世、堂弟“少龙王”戴伦、堂弟“受神祝福的”贝勒、父亲韦赛里斯二世以及哥哥“庸王”伊耿四世。后来他被任命为御林铁卫队长。 
+
+#### Boros Blount
+柏洛斯·布劳恩（Boros Blount）是御林铁卫的一名骑士。 
+
+#### Meryn Trant
+马林·特兰（Meryn Trant）爵士是劳勃一世及其子嗣在位期间的御林铁卫一员。在电视剧中由Ian Beattie饰演。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/b/b2/Meryn_Trant.png/revision/latest?cb=20120214085739&path-prefix=zh)
+
+#### Barristan Selmy
+巴利斯坦·赛尔弥（Barristan Selmy）爵士，人称“无畏的巴利斯坦”，是一名非常有名气的传奇人物，并且是御林铁卫光辉历史上的重要一员，服役于御林铁卫誉满七国之时期。在电视剧权力的游戏中，他由 Ian McElhinney[1]扮演。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/a/aa/Barristan_Selmy.png/revision/latest?cb=20120212133216&path-prefix=zh)
+
+#### Gage
+盖吉（Gage）是临冬城的主厨。 [1] 他有一子，名芜菁。[2] 当他们有柠檬时，盖吉给珊莎·史塔克和珍妮·普尔制作柠檬蛋糕。[3]他和欧莎有过两性关系，据欧莎所说，盖吉比史帝夫要温柔。盖吉允许她有时候去神木林祈祷。[4]
+
+#### Mikken
+密肯（Mikken）是临冬城的铁匠。[1]
+![](https://vignette.wikia.nocookie.net/asoiaf/images/f/f2/250px-Mikken_HBO.jpg/revision/latest?cb=20120321210226&path-prefix=zh)
+
+#### Hodor
+阿多（Hodor）是临冬城的一个马僮。他的本名是瓦德。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/7/7c/Bran_Stark_and_Hodor_HBO.jpg/revision/latest?cb=20120215024248&path-prefix=zh)
+
+#### Grey Wind,
+灰风（Grey Wind）是罗柏·史塔克的冰原狼。他的兄弟姐妹有淑女、娜梅莉亚、夏天、毛毛狗和白灵。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/8/85/Greywind.jpg/revision/latest?cb=20140802162208&path-prefix=zh)
+
+
+
+
 
