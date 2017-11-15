@@ -354,7 +354,11 @@ Raised at the age of fifteen to the Kingsguard of the Mad King, Aerys II Targary
 灰风（Grey Wind）是罗柏·史塔克的冰原狼。他的兄弟姐妹有淑女、娜梅莉亚、夏天、毛毛狗和白灵。 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/8/85/Greywind.jpg/revision/latest?cb=20140802162208&path-prefix=zh)
 
+#### Stannis Baratheon
+史坦尼斯·拜拉席恩（Stannis Baratheon）是劳勃·拜拉席恩的长弟。他在其兄长的御前会议中担任海政大臣一职，并与琼恩·艾林公爵发现了瑟曦王后的孩子并非劳勃所生的真相。劳勃死后，史坦尼斯自立为七大王国国王，参与五王之战。黑水河一役史坦尼斯战败，他转战长城和北境，谋求东山再起。
+剧集中，他由Stephen Dillane饰演。[3] 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/b/bb/Stannis_tv.jpg/revision/latest?cb=20120325015024&path-prefix=zh)
 
-
+### Chapter 9  Tyrion
 
 
