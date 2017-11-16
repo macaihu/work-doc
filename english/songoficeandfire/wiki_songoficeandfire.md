@@ -361,4 +361,6 @@ Raised at the age of fifteen to the Kingsguard of the Mad King, Aerys II Targary
 
 ### Chapter 9  Tyrion
 
+#### Chayle
+柴尔修士（Chayle）是临冬城图书室和圣堂的管理员。[1]他在白刃河边长大，因此擅长游泳。[2]
 
