@@ -364,3 +364,28 @@ Raised at the age of fifteen to the Kingsguard of the Mad King, Aerys II Targary
 #### Chayle
 柴尔修士（Chayle）是临冬城图书室和圣堂的管理员。[1]他在白刃河边长大，因此擅长游泳。[2]
 
+### Chapter 10  Jon
+### Chapter 11  Daenerys
+
+
+dosh khaleen 
+多希卡林（Dosh khaleen），是位于维斯·多斯拉克的多斯拉克老妪的组织。她们都是从前的卡丽熙，已经逝去的所有卡奥们的妻子。她们是维斯·多斯拉克的永久居民。在多斯拉克，她们享有无上的荣耀和地位，充当为多斯拉克预测未来和解读征兆的先知。由阉人侍奉。[1] 
+
+Vaes Dothrak
+维斯·多斯拉克（Vaes Dothrak）是多斯拉克人唯一的一座城市，位于多斯拉克海彼端的圣母山下，被称为“世界的子宫”的湖边，又被称为“马王之城”。维斯·多斯拉克没有城墙。[1] 它大得足够容纳每一个卡拉萨，就算他们同时归来。这座城市由奴隶和多希卡林，之前所有卡奥的妻子们管理和居住。 在圣城里，携带刀具或流血打斗都被绝对禁止。[2] 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/0/06/800px-Vaes_Dothrak2.jpg/revision/latest?cb=20120211133401&path-prefix=zh)
+
+arakhs
+亚拉克弯刀（Arakh）是一种被多斯拉克人广泛使用的武器。它被铸造得半像宝剑半像镰刀。[1] 更详细的各类武器信息，见军备。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/d/d9/Chris_Dien_drogo.jpg/revision/latest?cb=20140803051628&path-prefix=zh)
+
+Irri
+伊丽（Irri）是 丹妮莉丝·坦格利安的多斯拉克侍女。她与丹妮莉丝同年。[1]在剧集中她由Amrita Acharia饰演。[2]
+![](https://vignette.wikia.nocookie.net/asoiaf/images/4/48/Irri.png/revision/latest?cb=20140802162228&path-prefix=zh)
+
+Jhiqui
+姬琪“”（Jhiqui）是 丹妮莉丝·坦格利安的多斯拉克侍女。她与丹妮莉丝同年。[1]在剧集中她由Sarita Piotrowski饰演。[2] 
+
+Doreah
+多莉亚（Doreah）是丹妮莉丝·坦格利安的侍女。她有着金色的头发和蓝色的眼睛。[1]多莉亚在剧集中由Roxanne McKee饰演。[2]
+![](https://vignette.wikia.nocookie.net/asoiaf/images/7/79/350px-Doreah.png/revision/latest?cb=20120320084932&path-prefix=zh)

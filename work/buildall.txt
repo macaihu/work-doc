@@ -1,5 +1,10 @@
 buildall
 
+
+
+2017-11-19
+ubuntu-16.04.3-desktop-amd64.iso ath9.5 buildall ok.
+
 2017-11-15
 CentOS-7-x86_64-Minimal-1708.iso ath9.5 buildall fail
 CentOS-7-x86_64-DVD-1708.iso ath9.5 buildall ok

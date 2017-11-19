@@ -7,6 +7,14 @@ ap-cp:
 加上nob选项
 继续减少wifi的选项.
 
+11.19
+win7的共享不知道什么时候出了问题:
+https://jingyan.baidu.com/article/9c69d48f603d4013c9024e2b.html
+
+使用2014年的arm gcc 4.8的版本编译的内核也可以使用, 并且大小减小了40k.
+最新的编译器在这里可以下载: 下次下载一个最新的试试.
+https://releases.linaro.org/components/toolchain/binaries/latest/
+
 11.15
 如果要换行, 在markdown中的行最后增加两个空格就可以了.
 
