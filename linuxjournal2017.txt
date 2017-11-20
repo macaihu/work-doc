@@ -7,6 +7,20 @@ ap-cp:
 加上nob选项
 继续减少wifi的选项.
 
+每次重新安装的机器要:
+git config --global user.email jianliang@szotzed.net
+git config --global user.name jianliang
+git config --global push.default simple
+
+11.20
+#!/bin/bash
+CURRENT_PATH=$(cd "$(dirname "$0")"; pwd)
+LD_PRELOAD=$CURRENT_PATH/libsublime-imfix.so subl
+这样就取得了当前目录, 
+
+sublime升级到了3143. 感觉也没啥区别.
+VMware-player版本都到14了, 为什么我还在使用12这个版本.
+
 11.19
 win7的共享不知道什么时候出了问题:
 https://jingyan.baidu.com/article/9c69d48f603d4013c9024e2b.html

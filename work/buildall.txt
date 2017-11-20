@@ -1,68 +1,55 @@
-buildall
 
 
+#buildall
 
-2017-11-19
-ubuntu-16.04.3-desktop-amd64.iso ath9.5 buildall ok.
 
-2017-11-15
-CentOS-7-x86_64-Minimal-1708.iso ath9.5 buildall fail
-CentOS-7-x86_64-DVD-1708.iso ath9.5 buildall ok
-
-2017-11-1
-ubuntu-17.10-server-amd64.iso ath9.5 buildall ok
-
-2017-9-18
-ubuntu-17.04-server-amd64.iso ath9.5 buildall ok
-
-2017-9-1
-linuxmint-18.1-xfce-64bit.iso  ath9.5 buildall ok.
-
-2017-8-23 
-deepin-15.4.1-amd64.iso  ath9.5 buildall ok
-
-2017-7-26
-Fedora-Server-dvd-x86_64-25-1.3 ath9.5 buildall ok
-
-2017-7-25
-CentOS-7-x86_64-Minimal-1611 ath9.5 buildall ok
+date       |    iso                             |  resp.  |  status.
+-----------|------------------------------------|---------|----------
+2017-11-19 | ubuntu-16.04.3-desktop-amd64.iso   | ath9.5  | buildall ok.
+2017-11-15 | CentOS-7-x86_64-Minimal-1708.iso   | ath9.5  | buildall fail
+           | CentOS-7-x86_64-DVD-1708.iso       | ath9.5  | buildall ok
+2017-11-1  | ubuntu-17.10-server-amd64.iso      | ath9.5  | buildall ok
+2017-9-18  | ubuntu-17.04-server-amd64.iso      | ath9.5  | buildall ok
+2017-9-1   | linuxmint-18.1-xfce-64bit.iso      | ath9.5  | buildall ok.
+2017-8-23  | deepin-15.4.1-amd64.iso            | ath9.5  | buildall ok
+2017-7-26  | Fedora-Server-dvd-x86_64-25-1.3    | ath9.5  | buildall ok
+2017-7-25  | CentOS-7-x86_64-Minimal-1611       | ath9.5  | buildall ok
 
 
 
 
-atheros产品系列每日重编
-日期        类型        修改内容        结果        编译机器
-2015-8-21        all        rm drivers/scsi/mpt2sas        ok        77
-2015-8-20        ap-si        rm drivers/scsi/lpfc        ok        77
-2015-8-19        ap-cp        rm drivers/scsi/aic7xxx        ok        77
-2015-8-19        tozedap2        kernel: rm drivers/ieee1394        ok        77
-2015-8-17        tozedap        kernel: rm drivers/edac        ok        77
-2015-8-14        29 ZLT P10P50         kernel: rm drivers/pcmcia        ok        77
-2015-8-13        28        kernel:rm drivers / macintosh        ok        77
-2015-8-12        27c         kernel: rm firemare        ok        77
-2015-8-7        27b        kernel: rm drivers/message        ok        77
-2015-8-6        27ZLT P10P         kernel: rm drivers/md        ok        77
-2015-8-6        26        kernel: rm drivers/misc        ok        77
-2015-8-5        25:  ZLT P16/P30        kernel: rm drivers/gpu/        ok        77
-2015-8-5        24        rm drivers/atm        ok        77
-2015-8-5        23        rm drivers/mmc        ok        77
-2015-8-4        22        kernel: rm drivers/input/        ok        77
-2015-8-4        21e        kernel: rm drivers/input/        sim5360/DiagGrabSIM5360 失败        77
-2015-8-4        21d        kernel: rm drivers/input/        sim5360/DiagGrabSIM5360 失败        77
-2015-8-4        21c:        kernel: rm drivers/input/        sim5360/DiagGrabSIM5360 失败        77
-2015-8-4        21b:         kernel: rm drivers/input/        sim5360/DiagGrabSIM5360 失败        77
-2015-8-4        21: tozedap- 3g         kernel: rm drivers/acpi/        ok        77
-2015-8-4        20: tozedap -3g        kernel: rm drivers/ata        ok        77
-2015-8-3        17c: ZLT P11+        kernel:rm  drivers/s390/        ok        77
-2015-8-3        17b: ZLT P11+,        kernel:rm drivers/ide        ok        77
-2015-8-3        17 ZLT P11+         kernel: rm drivers/infiniband        ok        77
-2015-8-3        16 ZLT P11 NO-LOGO        kernel: no hardware monitor in this system.        ok
-        77
+#atheros产品系列每日重编
+
+日期       | 类型                      修改内容                                 结果        编译机器
+2015-8-21 |  all                rm drivers/scsi/mpt2sas                       ok        77
+2015-8-20 |  ap-si              rm drivers/scsi/lpfc                          ok        77
+2015-8-19 |  ap-cp              rm drivers/scsi/aic7xxx                       ok        77
+2015-8-19 |  tozedap2           kernel: rm drivers/ieee1394                   ok        77
+2015-8-17 |  tozedap            kernel: rm drivers/edac                       ok        77
+2015-8-14 |  29 ZLT P10P50      kernel: rm drivers/pcmcia                     ok        77
+2015-8-13 |  28                 kernel:rm drivers / macintosh                 ok        77
+2015-8-12 |  27c                kernel: rm firemare                           ok        77
+2015-8-7  | 27b                 kernel: rm drivers/message                    ok        77
+2015-8-6  | 27ZLT P10P          kernel: rm drivers/md                         ok        77
+2015-8-6  | 26                  kernel: rm drivers/misc                       ok        77
+2015-8-5  | 25:  ZLT P16/P30    kernel: rm drivers/gpu/                       ok        77
+2015-8-5  | 24                  rm drivers/atm                                ok        77
+2015-8-5  | 23                  rm drivers/mmc                                ok        77
+2015-8-4  | 22                  kernel: rm drivers/input/                     ok        77
+2015-8-4  | 21e                 kernel: rm drivers/input/                     sim5360/DiagGrabSIM5360 失败        77
+2015-8-4  | 21d                 kernel: rm drivers/input/                     sim5360/DiagGrabSIM5360 失败        77
+2015-8-4  | 21c:                kernel: rm drivers/input/                     sim5360/DiagGrabSIM5360 失败        77
+2015-8-4  | 21b:                kernel: rm drivers/input/                     sim5360/DiagGrabSIM5360 失败        77
+2015-8-4  | 21: tozedap- 3g     kernel: rm drivers/acpi/                      ok        77
+2015-8-4  | 20: tozedap -3g     kernel: rm drivers/ata                        ok        77
+2015-8-3  | 17c: ZLT P11+       kernel:rm  drivers/s390/                      ok        77
+2015-8-3  | 17b: ZLT P11+,      kernel:rm drivers/ide                         ok        77
+2015-8-3  | 17 ZLT P11+         kernel: rm drivers/infiniband                 ok        77
+2015-8-3  | 16 ZLT P11 NO-LOGO  kernel: no hardware monitor in this system.   ok        77
 
 
 
-atheros产品系列每日重编
-日期        类型        修改内容        结果        编译机器
+
 2015-7-31        15tozedap-3g-wcdma-router-p11        kernel:rm drivers/media        ok        77
 2015-7-31        14ZLT P10 NO-LOGO        kernel:rm drivers/isdn        ok        77
 2015-7-30        13 ZLT P10入库版本        kernel: rm drvers/staging        ok        77

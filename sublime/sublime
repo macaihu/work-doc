@@ -1,1 +1,4 @@
-LD_PRELOAD=./libsublime-imfix.so subl
+
+#!/bin/bash
+CURRENT_PATH=$(cd "$(dirname "$0")"; pwd)
+LD_PRELOAD=$CURRENT_PATH/libsublime-imfix.so subl

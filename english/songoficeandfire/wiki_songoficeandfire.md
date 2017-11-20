@@ -368,24 +368,62 @@ Raised at the age of fifteen to the Kingsguard of the Mad King, Aerys II Targary
 ### Chapter 11  Daenerys
 
 
-dosh khaleen 
+#### dosh khaleen 
 多希卡林（Dosh khaleen），是位于维斯·多斯拉克的多斯拉克老妪的组织。她们都是从前的卡丽熙，已经逝去的所有卡奥们的妻子。她们是维斯·多斯拉克的永久居民。在多斯拉克，她们享有无上的荣耀和地位，充当为多斯拉克预测未来和解读征兆的先知。由阉人侍奉。[1] 
 
-Vaes Dothrak
+#### Vaes Dothrak
 维斯·多斯拉克（Vaes Dothrak）是多斯拉克人唯一的一座城市，位于多斯拉克海彼端的圣母山下，被称为“世界的子宫”的湖边，又被称为“马王之城”。维斯·多斯拉克没有城墙。[1] 它大得足够容纳每一个卡拉萨，就算他们同时归来。这座城市由奴隶和多希卡林，之前所有卡奥的妻子们管理和居住。 在圣城里，携带刀具或流血打斗都被绝对禁止。[2] 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/0/06/800px-Vaes_Dothrak2.jpg/revision/latest?cb=20120211133401&path-prefix=zh)
 
-arakhs
+#### arakhs
 亚拉克弯刀（Arakh）是一种被多斯拉克人广泛使用的武器。它被铸造得半像宝剑半像镰刀。[1] 更详细的各类武器信息，见军备。 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/d/d9/Chris_Dien_drogo.jpg/revision/latest?cb=20140803051628&path-prefix=zh)
 
-Irri
+#### Irri
 伊丽（Irri）是 丹妮莉丝·坦格利安的多斯拉克侍女。她与丹妮莉丝同年。[1]在剧集中她由Amrita Acharia饰演。[2]
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/4/48/Irri.png/revision/latest?cb=20140802162228&path-prefix=zh)
 
-Jhiqui
+#### Jhiqui
 姬琪“”（Jhiqui）是 丹妮莉丝·坦格利安的多斯拉克侍女。她与丹妮莉丝同年。[1]在剧集中她由Sarita Piotrowski饰演。[2] 
 
-Doreah
+#### Doreah
 多莉亚（Doreah）是丹妮莉丝·坦格利安的侍女。她有着金色的头发和蓝色的眼睛。[1]多莉亚在剧集中由Roxanne McKee饰演。[2]
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/7/79/350px-Doreah.png/revision/latest?cb=20120320084932&path-prefix=zh)
+
+#### Haggo
+哈戈（Haggo）是卓戈卡奥的一名血盟卫。他身形巨大、沉默寡言。[1]哈戈于多斯拉克海被拉卡洛杀死。 
+
+#### Cohollo
+科霍罗（Cohollo）是卓戈卡奥的一名血盟卫。 
+
+#### Qotho
+柯索（Qotho）是卓戈卡奥的一名血盟卫。他眼神冷酷、双手灵活、性喜伤人。[1]柯索于多斯拉克海被乔拉·莫尔蒙杀死。人们认为他是卓戈的血盟卫中性情最残忍的一个。[2]在电视剧中，他由 Dar Salim 扮演。[3]
+![](https://vignette.wikia.nocookie.net/asoiaf/images/b/bf/350px-Qotho.png/revision/latest?cb=20120321173852&path-prefix=zh)
+
+#### khalasar
+卡拉萨（Khalasar）指类似部落的多斯拉克游牧族群。卡拉萨的首领被称为“卡奥”，而卡拉萨的继承人则称为“卡拉喀”。
+卡拉萨通常被划分为若干个“卡斯”，每一支卡斯由一名卡奥的副手指挥，称为“寇”。当卡奥死后，新任卡奥将取得整个卡拉萨的统治权；或者卡拉萨中的各支卡斯将分裂出来，单独成为一支卡拉萨，而之前领导他们的寇则成为新的卡拉萨的卡奥。多斯拉克人不会跟随未成年的卡拉喀。寇们会相互争斗以取得卡拉萨的控制权，而年幼的卡拉喀会被杀死，以免日后成为劲敌。 
+
+#### Khaleesi
+卡丽熙（Khaleesi）是多斯拉克民族的一个头衔，用以指代卡拉萨头目--卡奥的妻子。卡丽熙为整个族群（比如卡拉萨）服务，而若卡奥死去，卡丽熙将被带到维斯·多斯拉克——多斯拉克民族的都城，作为所有卡拉萨的顾问加入多希卡林。 
+
+#### Khal
+卡奥（Khal）是一个用来称呼游牧族群卡拉萨领袖的头衔。卡奥通常是一个卡拉萨中最强壮或者最凶悍的战士，他的妻子被称为卡丽熙。要想成为一名卡奥，多斯拉克战士必须以大量勇敢的战绩来证明自己。卡奥的继承人被称为卡拉喀。[1]据说卡奥无法骑马之时便是他失去领袖地位的时候。当卡奥死后，他的卡丽熙就要加入多希卡林，与他们共同管理广大的多斯拉克国度。即便势力最大的卡奥，也得服膺多希卡林的智慧和威权。[1]
+卡奥们会任命信任的同伴为血盟卫。依照马王的古老传统，卡奥若死，血盟卫亦需随行，以陪伴他走过夜晚的国度。若卡奥死于敌人之手，则他们需先为其复仇，然后欣喜地自杀殉葬。 
+
+
+### Chapter 12  Eddard
+
+#### Alyn
+埃林（Alyn）是临冬城的一名守卫。他可能来自于一个贵族家庭。[1]
+
+#### Varys
+瓦里斯（Varys），外号“蜘蛛”，在为七国铁王座服务的御前会议中担任一个颇具神秘感的职务——情报总管，实际上就是间谍头子。在电视剧中由Conleth Hill扮演。[1]
+![](https://vignette.wikia.nocookie.net/asoiaf/images/4/4b/Varys_HBO.jpg/revision/latest?cb=20120210231715&path-prefix=zh)
+
+### Chapter 13     Tyrion
+
+#### Yoren
+尤伦（Yoren）是一名守夜人誓言兄弟。人称“浪鸦”，负责在七大王国游走招募兄弟加入守夜人。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/a/af/Yoren.png/revision/latest?cb=20140802171537&path-prefix=zh)
+

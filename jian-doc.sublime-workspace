@@ -39,16 +39,7 @@
 			"file": "linuxjournal2017.txt",
 			"settings":
 			{
-				"buffer_size": 140830,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "work/0keeper.md",
-			"settings":
-			{
-				"buffer_size": 3594,
+				"buffer_size": 141134,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -66,16 +57,25 @@
 			"file": "english/songoficeandfire/A Game of Thrones.txt",
 			"settings":
 			{
-				"buffer_size": 1695836,
+				"buffer_size": 1693772,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "work/buildall.txt",
+			"settings":
+			{
+				"buffer_size": 6284,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "english/songoficeandfire/wiki_songoficeandfire.md",
 			"settings":
 			{
-				"buffer_size": 17273,
+				"buffer_size": 18460,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -84,16 +84,7 @@
 			"file": "english/words.txt",
 			"settings":
 			{
-				"buffer_size": 20627,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "life/pyc.md",
-			"settings":
-			{
-				"buffer_size": 431,
+				"buffer_size": 21260,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -221,6 +212,8 @@
 	"file_history":
 	[
 		"/home/jian/work/jian-doc/work/0keeper.md",
+		"/home/jian/work/jian-doc/life/pyc.md",
+		"/home/jian/work/jian-doc/life/AdVenture Capitalist earth reset two.txt",
 		"/home/jian/work/jian-doc/life/id.md",
 		"/home/jian/work/jian-doc/life/tairan.txt",
 		"/home/jian/.config/sublime-text-3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
@@ -268,7 +261,6 @@
 		"/home/jian/work/jian-doc/life/creditcard/ccb_hongkong",
 		"/home/jian/work/jian-doc/python/clean_fujian.py",
 		"/home/jian/work/jian-doc/work/2017年9月研发加班明细.txt",
-		"/home/jian/work/jian-doc/life/AdVenture Capitalist earth reset two.txt",
 		"/home/jian/work/jian-doc/life/12306.txt",
 		"/home/jian/work/jian-doc/others/mail.csai.outbox.txt",
 		"/home/jian/work/jian-doc/others/mail.csai.inbox.txt",
@@ -346,16 +338,15 @@
 		"/home/jian/work/jian-doc/work/svn仓.txt",
 		"/home/jian/work/jian-doc/notes2016.txt",
 		"/home/jian/work/jian-doc/work/工作汇报.txt",
-		"/home/jian/work/jian-doc/work/ip管理.txt",
-		"/home/jian/work/jian-doc/work/登录入口网络平台帐号及密码.txt"
+		"/home/jian/work/jian-doc/work/ip管理.txt"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 101.0,
 		"where_history":
 		[
 			"<current file>",
@@ -369,6 +360,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"damask",
+			"burly",
+			"lilac",
+			"medal",
+			"sheen",
+			"seethe",
+			"Vaes Dolthrak",
+			"Jorah",
+			"Mormont",
+			"yelp",
+			"absolution",
+			"frail",
+			"accentuate",
+			"grotesque",
+			"乔佛里",
+			"toolchain_gnueabi",
 			"Grey Wind",
 			"Barristan",
 			"死亡编辑",
@@ -480,23 +487,7 @@
 			"thread_ssh",
 			"MSG_P_THD_GET_CAMERA_CHN_ADDR_RSP",
 			"ssl_write",
-			"write",
-			"read",
-			"ERROR",
-			"SSL",
-			"!!\n",
-			"ssl",
-			"ping pong span",
-			"[SendAudioRtpData]Error",
-			"[HEDGW]info.message_type()=5",
-			"=5",
-			"=7",
-			"[HEDGW]info.message_type()=8",
-			"[HEDGW]info.message_type()=5",
-			"[HEDGW]info.message_type()=4",
-			"[HEDGW]info.message_type()=3",
-			"[HEDGW]info.message_type()=2",
-			"[HEDGW]info.message_type()=1"
+			"write"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -531,7 +522,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -540,21 +531,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 140830,
+						"buffer_size": 141134,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								634,
-								634
+								160,
+								160
 							]
 						],
 						"settings":
 						{
 							"parser": "markdown",
-							"syntax": "Packages/Markdown/MultiMarkdown.sublime-syntax",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
 							"target": "browser",
 							"translate_tabs_to_spaces": true
@@ -563,39 +554,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "work/0keeper.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3594,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1264,
-								1264
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "gm8136.txt",
 					"semi_transient": false,
 					"settings":
@@ -607,8 +570,8 @@
 						"selection":
 						[
 							[
-								1027,
-								1027
+								795,
+								795
 							]
 						],
 						"settings":
@@ -616,27 +579,27 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 51.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "english/songoficeandfire/A Game of Thrones.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1695836,
+						"buffer_size": 1693772,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1695836,
-								1695836
+								206491,
+								206491
 							]
 						],
 						"settings":
@@ -646,10 +609,41 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 50449.0,
+						"translation.y": 58750.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "work/buildall.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								826,
+								826
+							]
+						],
+						"settings":
+						{
+							"parser": "markdown",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"target": "browser",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -658,15 +652,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17273,
+						"buffer_size": 18460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17271,
-								17271
+								18334,
+								18334
 							]
 						],
 						"settings":
@@ -676,10 +670,10 @@
 							"target": "browser"
 						},
 						"translation.x": 0.0,
-						"translation.y": 6691.0,
+						"translation.y": 7362.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -688,15 +682,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20627,
+						"buffer_size": 21260,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								44,
-								44
+								2,
+								2
 							]
 						],
 						"settings":
@@ -707,36 +701,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "life/pyc.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 431,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								282,
-								282
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -789,7 +754,7 @@
 	"project": "jian-doc.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -803,16 +768,24 @@
 				"work/0keeper.md"
 			],
 			[
+				"build",
+				"work/buildall.txt"
+			],
+			[
+				"reset",
+				"life/AdVenture Capitalist earth reset two.txt"
+			],
+			[
+				"",
+				"work/0keeper.md"
+			],
+			[
 				"id",
 				"life/id.md"
 			],
 			[
 				"tair",
 				"life/tairan.txt"
-			],
-			[
-				"build",
-				"work/buildall.txt"
 			]
 		],
 		"width": 0.0

@@ -32,7 +32,11 @@ huyuanyuandeMBP<br>Apple, Inc.                          | 192.168.16.53  | c4:b3
 :Apple, Inc.                                            | 192.168.16.56  | 28:cf:da:f1:8a:1e
 HUAWEI_Mate_8                                           | 192.168.16.57  | d0:65:ca:b6:38:2d
 android-dc2d0b43308d7f5b<br>HUAWEI                      | 192.168.16.58  | f4:e3:fb:bb:a9:1d
+vivo_Y51A                                               | 192.168.16.59  | 9c:fb:d5:09:87:30	
 HUAWEI_Mate_9                                           | 192.168.16.63  | 9c:b2:b2:57:2a:e6
+ubuntu<br>VMware, Inc.                                  | 192.168.16.68  | 00:0c:29:c4:18:f1
+HUAWEI_Mate_9                                           | 192.168.16.69  | 14:9d:09:8b:c7:be
+HUAWEI_Mate_8                                           | 192.168.16.71  | 20:a6:80:fc:ee:e2
                                                         |                |
 HUAWEI_nova                                             | 192.168.19.12  | 8c:0d:76:af:5f:b8                               
 ubuntu1710                                              | 192.168.19.28  | 08:00:27:6d:93:d5         
