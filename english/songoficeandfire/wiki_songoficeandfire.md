@@ -41,7 +41,8 @@ the First of his Name, King of the Andals and the Rhoynar and the First Men, Lor
 劳勃·拜拉席恩（Robert Baratheon）是风息堡公爵，拜拉席恩家族的族长。在篡夺者战争后，劳勃加冕成为七国国王。 为了救回莱安娜·史塔克，他和她的哥哥也就是他的好朋友奈德发动了战争。由于莱安娜的逝世，劳勃迎娶了瑟曦·兰尼斯特以确保政治局势的稳定。在小说的开头，他是维斯特洛大陆的国王。298AC，他在一次打猎中被野猪刺伤，伤重不治而亡。 
 
 #### Hullen
-the master of horse in Winterfell
+胡伦（Hullen）是临冬城的马房总管，服务于史塔克家族。[1]他是哈尔温的父亲。 
+当艾德·史塔克公爵南下出任劳勃国王的首相之时，胡伦也随同前往，因此马房总管的职位在短暂空缺之后交给了乔赛斯。[2]当艾德公爵被捕的时候，胡伦在和兰尼斯特武士打斗中，身中数刀而死。[3]
 
 #### Harwin
 who was Hullen's son.
@@ -426,4 +427,30 @@ Raised at the age of fifteen to the Kingsguard of the Mad King, Aerys II Targary
 #### Yoren
 尤伦（Yoren）是一名守夜人誓言兄弟。人称“浪鸦”，负责在七大王国游走招募兄弟加入守夜人。 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/a/af/Yoren.png/revision/latest?cb=20140802171537&path-prefix=zh)
+
+Port of Ibben
+伊班港（Port of Ibben）是伊班岛上的主要城市。根据半官方来源，岛上的灯火由鲸油点燃而成。[1]伊班港以北冰冷荒原上栖息着长毛象。[2] 
+
+Mern IX Gardener
+孟恩·园丁九世（Mern IX Gardener），是征服战争时期的河湾王。他是最后一位河湾王，园丁家族就此消亡。[1]
+
+Aegon Targaryen
+伊耿·坦格利安一世（Aegon I Targaryen），别名征服者伊耿或龙王伊耿，是七大王国的征服者，他领导坦格利安家族开创了维斯特洛首个统一王朝。他骑乘维斯特洛史上最巨大的龙，“黑死神”贝勒里恩。
+
+Field of Fire
+怒火燎原（Field of Fire）是伊耿一世发动的征服战争中最重要的一役。根据半官方的资料，这场战役爆发于河湾地的北部。[1]
+
+Morrec
+莫里斯（Morrec）是提利昂·兰尼斯特旅途中的一个仆人。他射箭比使剑更在行。[1]
+
+
+Chapter 14      Catelyn
+
+Vayon Poole
+维扬·普尔（Vayon Poole）是临冬城的总管。他有一个女儿珍妮·普尔。[1]
+
+
+
+
+
 
