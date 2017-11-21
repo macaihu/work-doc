@@ -7,6 +7,19 @@ wick           n.灯芯；烛芯 v.吸走
 whit           n.丝毫；一点点；很少量
 frantic        adj.紧张忙乱的；手忙脚乱的；（由于恐惧或担心）无法控制感情的 2015.3.4
 cacophony      n.刺耳的嘈杂声 2015.3.3
+rasher         adj.“rash”的比较级 n.火腿薄片
+villain        n.恶棍；反面人物；罪魁祸首
+flinch         n.退缩 v.畏缩；（突然）退缩
+impetuous      adj.鲁莽的；冲动的；轻率的
+wheedle        v.（用言语）哄
+quell          v.平息；制止；消除；镇压 n.〈古〉屠杀
+prance         n.(马的)腾跃；欢跃；欢跃的舞蹈动作；昂首阔步 v.(马)腾跃；神气十足地走[骑马]；欢跃；快活地走[骑马]
+jackanapes     n.粗鲁无礼的人；蛮横的人
+loath          adj.不情愿；不乐意；勉强
+pincer         n.钳子；（蟹、虾等的）螯
+
+
+
 
 2017-11-20
 filly          n.小牝马

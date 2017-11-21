@@ -449,7 +449,26 @@ Chapter 14      Catelyn
 Vayon Poole
 维扬·普尔（Vayon Poole）是临冬城的总管。他有一个女儿珍妮·普尔。[1]
 
+Hallis Mollen
+哈里斯·莫兰（Hallis Mollen）是临冬城的侍卫队长。他总爱布告人尽皆知的事。[1]
 
+White Knife
+白刃河（White Knife）是北境的一条河流，发源于孤山，最终注入咬人湾。白港就在白刃河的河口处。[1][2] 
+
+
+Chapter 15   Sansa
+
+Mycah
+米凯（Mycah），是一个屠夫的学徒，和艾莉亚·史塔克成为朋友。他长得丑陋，面部粗糙，满脸雀斑，红头发。[1]被桑铎·克里冈杀死。 
+
+Ilyn Payne
+伊林·派恩爵士（Ilyn Payne）是西境的派恩家族成员，泰温·兰尼斯特公爵担任首相期间，他是首相的侍卫队长。由于舌头被疯王伊里斯二世拔掉，[1]因此永远无法开口说话。劳勃国王统治期间，他担任御前执法官一职。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/d/d0/Ilyn_Payne.png/revision/latest?cb=20120214085304&path-prefix=zh)
+
+Renly Baratheon
+蓝礼·拜拉席恩（Renly Baratheon），是劳勃·拜拉席恩和史坦尼斯·拜拉席恩的幼弟，已故的史蒂芬·拜拉席恩与卡珊娜·伊斯蒙的三子。他是风息堡公爵，劳勃国王御前会议的法务大臣。在劳勃去世后，他宣称为王。
+在电视剧中，蓝礼由Gethin Anthony扮演。[1] 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/a/a8/495px-Renly_Baratheon.png/revision/latest?cb=20120209133255&path-prefix=zh)
 
 
 

@@ -20,48 +20,46 @@ date       |    iso                             |  resp.  |  status.
 
 #atheros产品系列每日重编
 
-日期       | 类型                      修改内容                                 结果        编译机器
-2015-8-21 |  all                rm drivers/scsi/mpt2sas                       ok        77
-2015-8-20 |  ap-si              rm drivers/scsi/lpfc                          ok        77
-2015-8-19 |  ap-cp              rm drivers/scsi/aic7xxx                       ok        77
-2015-8-19 |  tozedap2           kernel: rm drivers/ieee1394                   ok        77
-2015-8-17 |  tozedap            kernel: rm drivers/edac                       ok        77
-2015-8-14 |  29 ZLT P10P50      kernel: rm drivers/pcmcia                     ok        77
-2015-8-13 |  28                 kernel:rm drivers / macintosh                 ok        77
-2015-8-12 |  27c                kernel: rm firemare                           ok        77
-2015-8-7  | 27b                 kernel: rm drivers/message                    ok        77
-2015-8-6  | 27ZLT P10P          kernel: rm drivers/md                         ok        77
-2015-8-6  | 26                  kernel: rm drivers/misc                       ok        77
-2015-8-5  | 25:  ZLT P16/P30    kernel: rm drivers/gpu/                       ok        77
-2015-8-5  | 24                  rm drivers/atm                                ok        77
-2015-8-5  | 23                  rm drivers/mmc                                ok        77
-2015-8-4  | 22                  kernel: rm drivers/input/                     ok        77
-2015-8-4  | 21e                 kernel: rm drivers/input/                     sim5360/DiagGrabSIM5360 失败        77
-2015-8-4  | 21d                 kernel: rm drivers/input/                     sim5360/DiagGrabSIM5360 失败        77
-2015-8-4  | 21c:                kernel: rm drivers/input/                     sim5360/DiagGrabSIM5360 失败        77
-2015-8-4  | 21b:                kernel: rm drivers/input/                     sim5360/DiagGrabSIM5360 失败        77
-2015-8-4  | 21: tozedap- 3g     kernel: rm drivers/acpi/                      ok        77
-2015-8-4  | 20: tozedap -3g     kernel: rm drivers/ata                        ok        77
-2015-8-3  | 17c: ZLT P11+       kernel:rm  drivers/s390/                      ok        77
-2015-8-3  | 17b: ZLT P11+,      kernel:rm drivers/ide                         ok        77
-2015-8-3  | 17 ZLT P11+         kernel: rm drivers/infiniband                 ok        77
-2015-8-3  | 16 ZLT P11 NO-LOGO  kernel: no hardware monitor in this system.   ok        77
+日期       | 类型                |      修改内容                                | 结果                            |   编译机器
+----------|--------------------|---------------------------------------------|------------------------------- |-------------
+2015-8-21 |  all               | rm drivers/scsi/mpt2sas                     |  ok                            |     77
+2015-8-20 |  ap-si             | rm drivers/scsi/lpfc                        |  ok                            |     77
+2015-8-19 |  ap-cp             | rm drivers/scsi/aic7xxx                     |  ok                            |     77
+2015-8-19 |  tozedap2          | kernel: rm drivers/ieee1394                 |  ok                            |     77
+2015-8-17 |  tozedap           | kernel: rm drivers/edac                     |  ok                            |     77
+2015-8-14 |  29 ZLT P10P50     | kernel: rm drivers/pcmcia                   |  ok                            |     77
+2015-8-13 |  28                | kernel:rm drivers / macintosh               |  ok                            |     77
+2015-8-12 |  27c               | kernel: rm firemare                         |  ok                            |     77
+2015-8-7  | 27b                | kernel: rm drivers/message                  |  ok                            |     77
+2015-8-6  | 27ZLT P10P         | kernel: rm drivers/md                       |  ok                            |     77
+2015-8-6  | 26                 | kernel: rm drivers/misc                     |  ok                            |     77
+2015-8-5  | 25:  ZLT P16/P30   | kernel: rm drivers/gpu/                     |  ok                            |     77
+2015-8-5  | 24                 | rm drivers/atm                              |  ok                            |     77
+2015-8-5  | 23                 | rm drivers/mmc                              |  ok                            |     77
+2015-8-4  | 22                 | kernel: rm drivers/input/                   |  ok                            |     77
+2015-8-4  | 21e                | kernel: rm drivers/input/                   |  sim5360/DiagGrabSIM5360 失败   |     77
+2015-8-4  | 21d                | kernel: rm drivers/input/                   |  sim5360/DiagGrabSIM5360 失败   |     77
+2015-8-4  | 21c:               | kernel: rm drivers/input/                   |  sim5360/DiagGrabSIM5360 失败   |     77
+2015-8-4  | 21b:               | kernel: rm drivers/input/                   |  sim5360/DiagGrabSIM5360 失败   |     77
+2015-8-4  | 21: tozedap- 3g    | kernel: rm drivers/acpi/                    |  ok                            |     77
+2015-8-4  | 20: tozedap -3g    | kernel: rm drivers/ata                      |  ok                            |     77
+2015-8-3  | 17c: ZLT P11+      | kernel:rm  drivers/s390/                    |  ok                            |     77
+2015-8-3  | 17b: ZLT P11+,     | kernel:rm drivers/ide                       |  ok                            |     77
+2015-8-3  | 17 ZLT P11+        | kernel: rm drivers/infiniband               |  ok                            |     77
+2015-8-3  | 16 ZLT P11 NO-LOGO | kernel: no hardware monitor in this system. |  ok                            |     77
 
-
-
-
-2015-7-31        15tozedap-3g-wcdma-router-p11        kernel:rm drivers/media        ok        77
-2015-7-31        14ZLT P10 NO-LOGO        kernel:rm drivers/isdn        ok        77
-2015-7-30        13 ZLT P10入库版本        kernel: rm drvers/staging        ok        77
-2015-7-30        12 tozedcpe-5g2g        kernel:rm  drivers/video/        ok        77
-2015-7-30        11 ZLT W11 Datang         kernel:rm arch/mips/alchemy        ok        77
-2015-7-29        10ZLTP11 atang         kernel: user mode linux, run linux in a linux.        ok,branch iptables fix.        77
-2015-7-29        9        kernel:rm x86 arch code.        ok,需要改iptables配置        77
-2015-7-29        8        kernel:rm xtensa arch code.        ok,需要改iptables配置        77
-2015-7-28        7:tozedap-3g-wcdma-router        kernel:rm xtensa arch code.        apps/sim5360/DiagGrabSIM5360编译错误        77
-2015-7-28        6b ZLT W11        kernel:rm s390 arch code        ok        77
-2015-7-27        6:   ZLT W11        kernel: rm mn10300 arch code        ok        77
-2015-7-27        7:  tozedap- 3g- wcdma-router        w11, typical-router, 3g-wcdma-router: fix break while build busybox        ok,需要改iptables配置        77
+2015-7-31 | 15        kernel:rm drivers/media        ok        77
+2015-7-31 | 14ZLT P10 NO-LOGO        kernel:rm drivers/isdn        ok        77
+2015-7-30 | 13 ZLT P10入库版本        kernel: rm drvers/staging        ok        77
+2015-7-30 | 12 tozedcpe-5g2g        kernel:rm  drivers/video/        ok        77
+2015-7-30 | 11 ZLT W11 Datang         kernel:rm arch/mips/alchemy        ok        77
+2015-7-29 | 10ZLTP11 atang         kernel: user mode linux, run linux in a linux.        ok,branch iptables fix.        77
+2015-7-29 | 9        kernel:rm x86 arch code.        ok,需要改iptables配置        77
+2015-7-29 | 8        kernel:rm xtensa arch code.        ok,需要改iptables配置        77
+2015-7-28 | 7:tozedap-3g-wcdma-router        kernel:rm xtensa arch code.        apps/sim5360/DiagGrabSIM5360编译错误        77
+2015-7-28 | 6b ZLT W11        kernel:rm s390 arch code        ok        77
+2015-7-27 | 6:   ZLT W11        kernel: rm mn10300 arch code        ok        77
+2015-7-27 | 7:  tozedap- 3g- wcdma-router        w11, typical-router, 3g-wcdma-router: fix break while build busybox        ok,需要改iptables配置        77
 2015-7-24        cpe-5g2g        kernel:rm arch alpha, avr32,m32r code        ok        77
 2015-7-23        7:  tozedap- 3g- wcdma-router        kernel:rm arch alpha, avr32,m32r code        busybox会暂停apps/sim5360/DiagGrabSIM5360编译错误        77
 2015-7-23        6b:  ZLT W11        kernel:rm frv arch code        ok busybox会暂停        77

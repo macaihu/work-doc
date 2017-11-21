@@ -12,6 +12,28 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+11.21
+使用这个指令来修改一下vim的配色方案，默认的配色注释是蓝色的，在黑底的情况下根本看不清
+ echo "colorscheme koehler" >> $HOME/.vimrc
+
+使用硬链接可以简单的把每个工作目录中的需要写的文档文件链接到我的这个目录文档中, 只有在sublime中修改后, 各个目录中也看起来修改了. 
+说明在这里:
+http://www.cnblogs.com/sonic4x/archive/2011/08/05/2128543.html
+
+为什么直接预览md, firefox直接挂掉了, 用file:///home/jian/work/gm8136s/document/read.md这样的方式好像还能用.
+
+找到空目录:
+find -type d -empty
+
+这个脚本给每个空目录加一个.gitignore
+#!/bin/sh
+empty_paths=$(find -type d -empty)
+for i in ${empty_paths}
+do
+  touch ${i}/.gitignore
+done
+
+
 11.20
 #!/bin/bash
 CURRENT_PATH=$(cd "$(dirname "$0")"; pwd)

@@ -37,6 +37,8 @@ HUAWEI_Mate_9                                           | 192.168.16.63  | 9c:b2
 ubuntu<br>VMware, Inc.                                  | 192.168.16.68  | 00:0c:29:c4:18:f1
 HUAWEI_Mate_9                                           | 192.168.16.69  | 14:9d:09:8b:c7:be
 HUAWEI_Mate_8                                           | 192.168.16.71  | 20:a6:80:fc:ee:e2
+HUAWEI_nova                                             | 192.168.16.72  | 84:9f:b5:9e:33:81
+MI6-xiaomishoujia                                       | 192.168.16.74  | 50:8f:4c:f4:fa:7e
                                                         |                |
 HUAWEI_nova                                             | 192.168.19.12  | 8c:0d:76:af:5f:b8                               
 ubuntu1710                                              | 192.168.19.28  | 08:00:27:6d:93:d5         
