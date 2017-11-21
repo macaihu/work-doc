@@ -470,6 +470,34 @@ Renly Baratheon
 在电视剧中，蓝礼由Gethin Anthony扮演。[1] 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/a/a8/495px-Renly_Baratheon.png/revision/latest?cb=20120209133255&path-prefix=zh)
 
+Lion's Tooth
+狮牙（Lion's Tooth）是乔佛里·拜拉席恩的一柄佩剑的名字。 
+
+
+Chapter 16      Eddard
+
+Raymun Darry
+雷蒙·戴瑞（Raymun Darry）爵士，是戴瑞家族家主及戴瑞城领主。[1]他三位兄长都在三叉戟河之役战死。[2]
+
+
+Chapter 17   Bran
+
+Bite
+咬人湾（Bite）位于北境及谷地之间，面积比其他的海湾要大很多。咬人湾与狭海相接。[1]
+三姐妹群岛位于咬人湾内。[2] 
+
+Summer
+夏天（Summer）是布兰·史塔克的冰原狼。他的兄弟姐妹是灰风、淑女、娜梅莉亚、毛毛狗和白灵。他有银色的皮毛和带着烟灰色的黄眼睛。[1]
+
+Chapter 18   Catelyn
+
+Moreo Turnitis
+莫里欧·图密提斯（Moreo Tumitis）是暴风舞者号的船长。他蓄着分叉的率胡子。虽然他从泰洛西而来但他可以熟练的说通用语。他已经在狭海上航行了大概三十年，从划桨手坐到了船长的位置。暴风舞者号时他的第四艘船，也是其中最快的船。[2]
+
+
+
+
+
 
 
 
