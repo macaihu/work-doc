@@ -13,6 +13,7 @@ the youngest son of an ancient house with too many heirs.
 He had been four years on the Wall
 #### Gared
 He was an old man, past fifty.  had spent forty years in the Night's Watch.
+盖瑞（Gared）是一名守夜人部队的游骑兵。他在孩提时就加入了守夜人。在《冰与火之歌》系列开始时，他已在守夜人部队里服役了40年。他所说的话——“既然野人已经死了，咱们回头吧。”[1]是全书第一句话。 
 
 ### Chapter 1   Bran 
 #### Bran Stark
@@ -558,6 +559,29 @@ Raised at the age of fifteen to the Kingsguard of the Mad King, Aerys II Targary
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/e/e6/Jeor_Mormont_by_reneaigner.jpg/revision/latest?cb=20120206083454&path-prefix=zh)
 
 ### Chapter 20  Eddard
+
+Helman Tallhart
+赫曼·陶哈（Helman Tallhart）爵士，是陶哈家族的一员。 
+
+Galbart Glover
+盖伯特·葛洛佛（Galbart Glover）是葛洛佛家族的一员。他是深林堡的城主和家族族长。他没有结婚。[1]
+
+Moat Cailin
+卡林湾（Moat Cailin）是巨大沼地颈泽北端的一座废弃城堡。[1]它是北境的一部分，属于史塔克家族的管辖，但是已经有几个世纪无人居住。卡林湾把守着能让军队安全通过颈泽的堤道，让它成为数千年来守卫北境，面对南方侵略的战略要地。
+对入侵者而言，赢得黎德家族的联盟可以说是安全通过卡林湾的唯一方法。只有这些泽地人才了解那些没有标注在地图上的路线，沼泽间的狭道，芦苇中的水路。但是鉴于黎德和史塔克家族自古以来的紧密关系，这多半不可能发生。 
+
+White Harbor
+白港（White Harbor）是一个大港口城市，坐落于临冬城南方，是曼德勒家族的封地。白港是颈泽以北最大的居住地，但是是维斯特罗五大城市中最小的。白港是北境主要的贸易港口，其位于白刃河河口，可以提供更多的贸易机会去更北的地区。[1]
+由于白港的地理位置，其与南方的接触更为广泛，因而比其他北方地区有更多的骑士和七神信仰的追随者。白港有很好的捕鱼场，也是许多银匠的家。 
+
+Chapter 21  Tyrion
+
+Jaremy Rykker
+杰瑞米·莱克（Jaremy Rykker）爵士是一名守夜人的游骑兵,曾经是莱克家族的一员。 
+
+Aemon Targaryen
+伊蒙·坦格利安（Aemon Targaryen），即伊蒙学士，是国王梅卡一世与王后Dyanna Dayne夫人的第三个儿子。他在黑城堡以学士的身份为守夜人服务了相当长的时间，以至于七国其余地方都已忘记他的坦格利安血脉。在电视剧中，由 Peter Vaughan 饰演
+
 
 
 
