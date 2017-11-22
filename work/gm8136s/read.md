@@ -54,12 +54,23 @@ crw-rw----    1 root     root       10,  57 Jan  2 22:16 /dev/security
 例子程序就以后再搞吧.
 
 
+# [GM8136_Audio_System_Programming_Guide.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_Audio_System_Programming_Guide.pdf)
 
+声音系统有4部分工作:
+1. i2s pmu 设置
+2. 音频解码器寄存器设置
+3. 旁路功能(bypass function ???)和/proc信息
+4. 音频驱动编程.
+
+在sdk源码中, 目录是module/front_end
+
+有两个ko, fe_common.ko 前端(front end)核心, 包括ssp pmu设置. decoder.ko, 解码器核心, 包括视频音频寄存器设置.
+
+module/front_end这个目录里面的文件看起来很多的样子.
 
 
 
 ```
-├── GM8136_Audio_System_Programming_Guide.pdf
 ├── GM8136_Capture_User_Guide_V1.0.pdf
 ├── GM8136_Flash_User_Guide_V1.0.pdf
 ├── GM8136_Frammap_User_Guide_V1.0.pdf

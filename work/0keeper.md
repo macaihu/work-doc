@@ -4,6 +4,7 @@
 
 主机名称                                                 | IP地址         | MAC地址          
 --------------------------------------------------------|----------------|-------------------
+ziven-iPhone                                            | 192.168.16.13  | 98:9e:63:dc:40:fc
 :Shenzhen Bilian electronic CO.,LTD                     | 192.168.16.15  | ac:a2:13:d6:f7:0a
 HUAWEI_Mate_9	                                        | 192.168.16.16  | 10:b1:f8:07:26:b6 
 HUAWEI_P10                                              | 192.168.16.18  | 0c:8f:ff:1e:4e:92
@@ -34,11 +35,14 @@ HUAWEI_Mate_8                                           | 192.168.16.57  | d0:65
 android-dc2d0b43308d7f5b<br>HUAWEI                      | 192.168.16.58  | f4:e3:fb:bb:a9:1d
 vivo_Y51A                                               | 192.168.16.59  | 9c:fb:d5:09:87:30	
 HUAWEI_Mate_9                                           | 192.168.16.63  | 9c:b2:b2:57:2a:e6
+yanbinde-iPhone                                         | 192.168.16.64  | f0:db:e2:aa:3e:d1
+Kelly<br>Apple, Inc.                                    | 192.168.16.66  | dc:0c:5c:89:b6:42
 ubuntu<br>VMware, Inc.                                  | 192.168.16.68  | 00:0c:29:c4:18:f1
 HUAWEI_Mate_9                                           | 192.168.16.69  | 14:9d:09:8b:c7:be
 HUAWEI_Mate_8                                           | 192.168.16.71  | 20:a6:80:fc:ee:e2
 HUAWEI_nova                                             | 192.168.16.72  | 84:9f:b5:9e:33:81
 MI6-xiaomishoujia                                       | 192.168.16.74  | 50:8f:4c:f4:fa:7e
+HUAWEI_P10_Plus                                         | 192.168.16.75  | 50:04:b8:9a:aa:1e
                                                         |                |
 HUAWEI_nova                                             | 192.168.19.12  | 8c:0d:76:af:5f:b8                               
 ubuntu1710                                              | 192.168.19.28  | 08:00:27:6d:93:d5         

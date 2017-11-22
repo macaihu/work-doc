@@ -5,6 +5,10 @@
 ### Prologue
 #### Waymar Royce: 
 the youngest son of an ancient house with too many heirs. 
+威玛·罗伊斯爵士（Waymar Royce）是一名守夜人游骑兵，约恩·罗伊斯的幼子。由于自己是家中第三个儿子，成为继承人的机会不大而加入守夜人军团。[1]在他去往长城的路上曾在临冬城做客，珊莎·史塔克对其产生爱慕之情。[2]
+在宣誓成为守夜人尚不满半年时，他奉命率领一支侦查小队去长城以北跟踪一队野人掠夺者。最终在执行任务时被异鬼所杀并被转化成尸鬼。死时大约18岁。在权力的游戏(电视剧)中由Rob Ostlere饰演。 
+
+
 #### Will 
 He had been four years on the Wall
 #### Gared
@@ -428,76 +432,132 @@ Raised at the age of fifteen to the Kingsguard of the Mad King, Aerys II Targary
 尤伦（Yoren）是一名守夜人誓言兄弟。人称“浪鸦”，负责在七大王国游走招募兄弟加入守夜人。 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/a/af/Yoren.png/revision/latest?cb=20140802171537&path-prefix=zh)
 
-Port of Ibben
+#### Port of Ibben
 伊班港（Port of Ibben）是伊班岛上的主要城市。根据半官方来源，岛上的灯火由鲸油点燃而成。[1]伊班港以北冰冷荒原上栖息着长毛象。[2] 
 
-Mern IX Gardener
+#### Mern IX Gardener
 孟恩·园丁九世（Mern IX Gardener），是征服战争时期的河湾王。他是最后一位河湾王，园丁家族就此消亡。[1]
 
-Aegon Targaryen
+#### Aegon Targaryen
 伊耿·坦格利安一世（Aegon I Targaryen），别名征服者伊耿或龙王伊耿，是七大王国的征服者，他领导坦格利安家族开创了维斯特洛首个统一王朝。他骑乘维斯特洛史上最巨大的龙，“黑死神”贝勒里恩。
 
-Field of Fire
+#### Field of Fire
 怒火燎原（Field of Fire）是伊耿一世发动的征服战争中最重要的一役。根据半官方的资料，这场战役爆发于河湾地的北部。[1]
 
-Morrec
+#### Morrec
 莫里斯（Morrec）是提利昂·兰尼斯特旅途中的一个仆人。他射箭比使剑更在行。[1]
 
 
-Chapter 14      Catelyn
+### Chapter 14      Catelyn
 
-Vayon Poole
+#### Vayon Poole
 维扬·普尔（Vayon Poole）是临冬城的总管。他有一个女儿珍妮·普尔。[1]
 
-Hallis Mollen
+#### Hallis Mollen
 哈里斯·莫兰（Hallis Mollen）是临冬城的侍卫队长。他总爱布告人尽皆知的事。[1]
 
-White Knife
+#### White Knife
 白刃河（White Knife）是北境的一条河流，发源于孤山，最终注入咬人湾。白港就在白刃河的河口处。[1][2] 
 
 
-Chapter 15   Sansa
+### Chapter 15   Sansa
 
-Mycah
+#### Mycah
 米凯（Mycah），是一个屠夫的学徒，和艾莉亚·史塔克成为朋友。他长得丑陋，面部粗糙，满脸雀斑，红头发。[1]被桑铎·克里冈杀死。 
 
-Ilyn Payne
+#### Ilyn Payne
 伊林·派恩爵士（Ilyn Payne）是西境的派恩家族成员，泰温·兰尼斯特公爵担任首相期间，他是首相的侍卫队长。由于舌头被疯王伊里斯二世拔掉，[1]因此永远无法开口说话。劳勃国王统治期间，他担任御前执法官一职。 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/d/d0/Ilyn_Payne.png/revision/latest?cb=20120214085304&path-prefix=zh)
 
-Renly Baratheon
+#### Renly Baratheon
 蓝礼·拜拉席恩（Renly Baratheon），是劳勃·拜拉席恩和史坦尼斯·拜拉席恩的幼弟，已故的史蒂芬·拜拉席恩与卡珊娜·伊斯蒙的三子。他是风息堡公爵，劳勃国王御前会议的法务大臣。在劳勃去世后，他宣称为王。
 在电视剧中，蓝礼由Gethin Anthony扮演。[1] 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/a/a8/495px-Renly_Baratheon.png/revision/latest?cb=20120209133255&path-prefix=zh)
 
-Lion's Tooth
+#### Lion's Tooth
 狮牙（Lion's Tooth）是乔佛里·拜拉席恩的一柄佩剑的名字。 
 
 
-Chapter 16      Eddard
+### Chapter 16      Eddard
 
-Raymun Darry
+#### Raymun Darry
 雷蒙·戴瑞（Raymun Darry）爵士，是戴瑞家族家主及戴瑞城领主。[1]他三位兄长都在三叉戟河之役战死。[2]
 
 
-Chapter 17   Bran
+### Chapter 17   Bran
 
-Bite
+#### Bite
 咬人湾（Bite）位于北境及谷地之间，面积比其他的海湾要大很多。咬人湾与狭海相接。[1]
 三姐妹群岛位于咬人湾内。[2] 
 
-Summer
+#### Summer
 夏天（Summer）是布兰·史塔克的冰原狼。他的兄弟姐妹是灰风、淑女、娜梅莉亚、毛毛狗和白灵。他有银色的皮毛和带着烟灰色的黄眼睛。[1]
 
-Chapter 18   Catelyn
+### Chapter 18   Catelyn
 
-Moreo Turnitis
+#### Moreo Turnitis
 莫里欧·图密提斯（Moreo Tumitis）是暴风舞者号的船长。他蓄着分叉的率胡子。虽然他从泰洛西而来但他可以熟练的说通用语。他已经在狭海上航行了大概三十年，从划桨手坐到了船长的位置。暴风舞者号时他的第四艘船，也是其中最快的船。[2]
 
+#### Aron Santagar 
+艾伦·桑塔加（Aron Santagar）爵士是红堡的教头。据罗德利克·凯索爵士说，艾伦虽然虚荣，但他是一个诚实正直的人。[1]
+
+#### Petyr Baelish
+培提尔·贝里席（Petyr Baelish）伯爵， 也被称为小指头，曾是御前会议的财政大臣。培提尔以仿声鸟作为自己的纹章，取代了他父亲的布拉佛斯泰坦巨人。在剧集中，贝里席大人由艾丹·吉伦扮演。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/5/50/Petyr_baelish_varys_HBO.jpg/revision/latest?cb=20120204121730&path-prefix=zh)
+
+#### Blackwater
+黑水河（Blackwater Rush）是君临城边的河流。它的水流深而湍急，最终流向黑水湾。[1]河里的暗流汹涌莫测。[2]在入海处，水流又强又急。[3] 
+
+#### Visenya's hill 
+维桑尼亚丘陵（Visenya's hill）是俯瞰君临的三座丘陵之一，其上建有贝勒大圣堂。[1]丘陵的底部是静默修女街道。[2] 
+
+#### Rhaenys's hill
+雷妮丝丘陵（Rhaenys's hill）是俯瞰君临的三座丘陵之一，坦格利安家族用于饲养龙的龙穴位于其山顶。[1]
+
+#### Dragonpit
+龙穴（Dragonpit）是位于君临的雷妮丝丘陵顶部的一个巨大的巢穴状建筑。 
 
 
+### Chapter 19   Jon
 
+#### Grenn
+葛兰（Grenn）是一名守夜人成员。他的外号“笨牛”系艾里沙·索恩爵士所赐，因为他在初到长城时总是略显迟缓笨拙。[1]在训练结束后，他成为了一名游骑兵，在剧集中，他由Mark Stanley饰演。
+![](https://vignette.wikia.nocookie.net/asoiaf/images/2/2b/Grenn.png/revision/latest?cb=20140802162206&path-prefix=zh)
 
+#### Alliser Thorne
+艾里沙·索恩（Alliser Thorne）爵士是黑城堡的守夜人教头。
+他说话的音调和充满蔑视的语气令守夜人的新兵感到讨厌。在电视剧集中，他由欧文·提尔·蒂尔扮演。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/6/68/Alliser_Thorne_HBO.jpg/revision/latest?cb=20120209173133&path-prefix=zh)
+
+#### Jeren
+杰伦（Jeren）是一名守夜人事务官，他是个修士的私生子。[1]
+
+#### Dareon
+戴利恩（Dareon）是一个守夜人事务官，主要以他美妙的歌喉而为人所知。他在布拉佛斯背弃了守夜人，最终被艾莉亚·史塔克所杀。 
+
+#### Pypar
+派普尔（Pypar），通常被称作 “派普”，是一位守夜人。他是与琼恩·雪诺同一批来到长城的新兵。在剧集中由Jozef Altin扮演。
+
+#### Halder
+霍德（Halder）是一名守夜人工匠，他到达长城时只有十六岁，在此之前他是一个石匠学徒。[1]琼恩认为他很强壮，只是动作容易被预判。[2]
+
+#### Todder
+陶德（Todder）,常被人称作“癞蛤蟆”,是一位守夜人。 他的父亲曾经拥有一个酒馆。他在那里学会了许多下流的劝酒歌。[1] 训练结束后，他被指派成为一名游骑兵。 
+
+#### Donal Noye
+唐纳·诺伊（Donal Noye），是守夜人的一员。他曾经是拜拉席恩家族的一名铁匠和士兵。 
+
+#### Cotter Pyke
+卡特·派克（Cotter Pyke）是一名出生于铁群岛的守夜人，担任东海望守备队长。是一名酒馆女侍的私生子。[1]说话粗鲁，不怕犯错，富有冒险精神。[2] 
+
+#### Bowen Marsh
+波文·马尔锡 （Bowen Marsh）是守夜人的首席事务官。他长得又红又胖，活像颗石榴。[1]
+
+#### Jeor Mormont
+杰奥·莫尔蒙（Jeor Mormont）总司令，也时常被称作熊老，是第997任守夜人军团总司令，黑城堡要塞的总司令和最高指挥官。[2][3][4]杰奥，以前曾是莫尔蒙家族的族长和熊岛的统治者，为了把自己的位子让给儿子乔拉·莫尔蒙伯爵，他选择了加入守夜人[5]。他有一只会说话的宠物渡鸦。在电视剧中, 杰奥由James Cosmo扮演。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/e/e6/Jeor_Mormont_by_reneaigner.jpg/revision/latest?cb=20120206083454&path-prefix=zh)
+
+### Chapter 20  Eddard
 
 
 

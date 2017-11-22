@@ -12,6 +12,22 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+11.22
+为什么我这个p59没有看到5.8g的ssid了? 不是没有5.8g, 而是2.4g的消失了, 难道是需要完全重新编译的原因.
+
+要把alias放在~/.bash_aliases中, 放在.profile中没有效果.
+
+每次重新启动机器tftp看起来都没有开:
+sudo service tftpd-hpa restart
+
+p59又跑了两天了, 没有重启, 那么再升级一个版本吧. 编译的时间长达643秒, 第二次编译也多达99秒.
+
+p59的编译中, Making uboot tools...里面还有clean的动作.
+
+mksquashfs使用系统自带的就可以用了, 不需要在仓内保留一个bin档.
+
+升级了firefox, 居然不能用了. 但是那个markdown viewer不能用了, 其他的要用mdown这样的后缀, 而且看起来是乱码.
+
 11.21
 使用这个指令来修改一下vim的配色方案，默认的配色注释是蓝色的，在黑底的情况下根本看不清
  echo "colorscheme koehler" >> $HOME/.vimrc
