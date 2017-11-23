@@ -43,6 +43,8 @@ HUAWEI_Mate_8                                           | 192.168.16.71  | 20:a6
 HUAWEI_nova                                             | 192.168.16.72  | 84:9f:b5:9e:33:81
 MI6-xiaomishoujia                                       | 192.168.16.74  | 50:8f:4c:f4:fa:7e
 HUAWEI_P10_Plus                                         | 192.168.16.75  | 50:04:b8:9a:aa:1e
+HUAWEI_Mate_8                                           | 192.168.16.77  | dc:ee:06:57:f0:47
+:Apple, Inc.                                            | 192.168.16.78  | 60:a3:7d:33:e9:42
                                                         |                |
 HUAWEI_nova                                             | 192.168.19.12  | 8c:0d:76:af:5f:b8                               
 ubuntu1710                                              | 192.168.19.28  | 08:00:27:6d:93:d5         

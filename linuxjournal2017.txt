@@ -12,6 +12,9 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+11.23
+sublime使用ctrl+end到文件尾部.
+
 11.22
 为什么我这个p59没有看到5.8g的ssid了? 不是没有5.8g, 而是2.4g的消失了, 难道是需要完全重新编译的原因.
 

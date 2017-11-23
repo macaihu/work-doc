@@ -582,6 +582,28 @@ Jaremy Rykker
 Aemon Targaryen
 伊蒙·坦格利安（Aemon Targaryen），即伊蒙学士，是国王梅卡一世与王后Dyanna Dayne夫人的第三个儿子。他在黑城堡以学士的身份为守夜人服务了相当长的时间，以至于七国其余地方都已忘记他的坦格利安血脉。在电视剧中，由 Peter Vaughan 饰演
 
+Chapter 22   Arya
+
+Porther
+波瑟（Porther）是一名效忠于史塔克家族的侍卫。[1]艾德·史塔克公爵认为他很强壮但容易头脑冲动。[2]
+
+Syrio Forel 
+西利欧·佛瑞尔（Syrio Forel）是一名布拉佛斯人，一名大师级的剑术家及前布拉佛斯首席剑士。[1]在电视剧中，西利欧的扮演者是Miltos Yeromelou。[2]
+
+
+Chapter 23  Daenerys
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
