@@ -593,9 +593,13 @@ Syrio Forel
 
 Chapter 23  Daenerys
 
+Jhogo
+乔戈（Jhogo）是丹妮莉丝·坦格利安的血盟卫。卓戈卡奥死后，他成为丹妮的寇。他16岁，体型精瘦。[1]
+
+Chapter 24  Bran
 
 
-
+Chapter 25   Eddard
 
 
 
