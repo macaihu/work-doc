@@ -4,6 +4,7 @@
 
 主机名称                                                 | IP地址         | MAC地址          
 --------------------------------------------------------|----------------|-------------------
+:Amazon Technologies Inc.                               | 192.168.18.12  | 34:d2:70:ad:64:a9	
 ziven-iPhone                                            | 192.168.16.13  | 98:9e:63:dc:40:fc
 :Shenzhen Bilian electronic CO.,LTD                     | 192.168.16.15  | ac:a2:13:d6:f7:0a
 HUAWEI_Mate_9	                                        | 192.168.16.16  | 10:b1:f8:07:26:b6 
@@ -45,10 +46,12 @@ MI6-xiaomishoujia                                       | 192.168.16.74  | 50:8f
 HUAWEI_P10_Plus                                         | 192.168.16.75  | 50:04:b8:9a:aa:1e
 HUAWEI_Mate_8                                           | 192.168.16.77  | dc:ee:06:57:f0:47
 :Apple, Inc.                                            | 192.168.16.78  | 60:a3:7d:33:e9:42
+USER-20151115BD<br>Liteon Technology Corporation        | 192.168.16.79  | 30:52:cb:a4:59:5a
                                                         |                |
 HUAWEI_nova                                             | 192.168.19.12  | 8c:0d:76:af:5f:b8                               
 ubuntu1710                                              | 192.168.19.28  | 08:00:27:6d:93:d5         
 Kelly                                                   | 192.168.19.43  | dc:0c:5c:89:b6:42
+android-6c9cbc8cfb3ccf7<br>HUAWEI                       | 192.168.19.193 | 04:02:1f:24:1d:9d	
 vivo_Y51A                                               | 192.168.19.214 | 9c:fb:d5:09:87:30
 HUAWEI_Mate_9                                           | 192.168.19.244 | 9c:b2:b2:57:2a:e6
 yanbinde-iPhone                                         | 192.168.19.248 | f0:db:e2:aa:3e:d1	                               

@@ -12,6 +12,69 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+
+11.24
+当前开发板上的ko
+-rw-rw-r--    1 1000     1000         42900 Nov 23  2017 adda308.ko
+-rw-rw-r--    1 1000     1000        118620 Nov 23  2017 audio_drv.ko
+-rw-rw-r--    1 1000     1000        190432 Nov 23  2017 codec.ko
+-rw-rw-r--    1 1000     1000        193796 Nov 23  2017 em.ko
+-rw-rw-r--    1 1000     1000        172640 Nov 23  2017 favc_enc.ko
+-rw-rw-r--    1 1000     1000         22012 Nov 23  2017 favc_rc.ko
+-rw-rw-r--    1 1000     1000         10812 Nov 23  2017 fe_common.ko
+-rw-rw-r--    1 1000     1000        199132 Nov 23  2017 fisp328.ko
+-rw-rw-r--    1 1000     1000        132040 Nov 23  2017 fisp_algorithm.ko
+-rw-rw-r--    1 1000     1000         16468 Nov 23  2017 fisp_ov2715.ko
+-rw-rw-r--    1 1000     1000         37004 Nov 23  2017 flcd200-common.ko
+-rw-rw-r--    1 1000     1000        126476 Nov 23  2017 flcd200-pip.ko
+-rw-rw-r--    1 1000     1000         95980 Nov 23  2017 fmcp_drv.ko
+-rw-rw-r--    1 1000     1000         52148 Nov 23  2017 fmjpeg_drv.ko
+-rw-rw-r--    1 1000     1000         30344 Nov 23  2017 frammap.ko
+-rw-rw-r--    1 1000     1000        270368 Nov 23  2017 fscaler300.ko
+-rw-rw-r--    1 1000     1000        117288 Nov 23  2017 ft3dnr200.ko
+-rw-rw-r--    1 1000     1000         13144 Nov 23  2017 ftpwmtmr010.ko
+-rw-rw-r--    1 1000     1000         26264 Nov 23  2017 gm2d.ko
+-rw-rw-r--    1 1000     1000        214968 Nov 23  2017 gs.ko
+-rw-rw-r--    1 1000     1000         70432 Nov 23  2017 log.ko
+-rw-rw-r--    1 1000     1000        169688 Nov 23  2017 ms.ko
+-rw-rw-r--    1 1000     1000         14980 Nov 23  2017 osd_dispatch.ko
+-rw-rw-r--    1 1000     1000          5384 Nov 23  2017 pmonitor.ko
+-rw-rw-r--    1 1000     1000         24796 Nov 23  2017 sar_adc.ko
+-rw-rw-r--    1 1000     1000         34868 Nov 23  2017 sw_osg.ko
+-rw-rw-r--    1 1000     1000          6508 Nov 23  2017 vcap0.ko
+-rw-rw-r--    1 1000     1000        362716 Nov 23  2017 vcap300_common.ko
+-rw-rw-r--    1 1000     1000         12444 Nov 23  2017 vcap300_isp.ko
+-rw-rw-r--    1 1000     1000        504668 Nov 23  2017 vpd.ko
+
+
+在77上记录的编译时长, 还是7月的数据, 当时p59还不存在, 晚上再试试.
+ap-cp                  clean: 8秒  build: 914秒
+cpe-ap                 clean: 5秒  build: 623秒
+ap-router_4g_industry  clean: 9秒  build: 1226秒
+ap-p11_4g_router       clean: 6秒  build: 1279秒
+ap-p51_4g_router       clean: 10秒 build: 1281秒
+cpe-5g2g               clean: 7秒  build: 559秒
+cpe-df                 clean: 5秒  build: 976秒
+
+在联想的虚拟机上的情况是:
+ap-cp                  clean: 26秒 build: 652秒
+cpe-ap                 clean: 11秒 build: 379秒
+ap-router_4g_industry  clean: 22秒 build: 933秒
+ap-p11_4g_router       clean: 22秒 build: 748秒
+ap-p51_4g_router       clean: 21秒 build: 692秒
+tozedap-p59            clean: 19秒 build: 897秒
+cpe-5g2g               clean: 17秒 build: 327秒
+cpe-df                 clean: 14秒 build: 588秒
+
+ap-cp clean: 27秒 build: 239秒
+cpe-ap clean: 17秒 build: 376秒
+ap-router_4g_industry clean: 19秒 build: 900秒
+ap-p11_4g_router clean: 20秒 build: 690秒
+ap-p51_4g_router clean: 23秒 build: 678秒
+tozedap-p59 clean: 21秒 build: 874秒
+cpe-5g2g clean: 17秒 build: 338秒
+cpe-df clean: 13秒 build: 522秒
+
 11.23
 sublime使用ctrl+end到文件尾部.
 

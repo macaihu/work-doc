@@ -185,17 +185,207 @@ partitions[0].offset = 0x140000;
 partitions[0].size = 0x200000;
 ```
 
+对于jff2的文件, 可以修改里面的内容:
+
+```
+# losetup /dev/loop0 xxx.jffs2.img
+# modprobe block2mtd block2mtd=/dev/loop0
+# modprobe mtdblock
+# mount -t jffs2 -o ro /dev/mtdblock0 mnt
+```
+
+不过我们从来不去编辑里面的内容, 从来都是编译的方式使用mkfs.jff2这个工具做出来.
 
 # [GM8136_Frammap_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_Frammap_User_Guide_V1.0.pdf)
+
+当内核模块需要申请内存时, 一般用alloc_pages或者kmalloc, 这样做有两个问题, 一个是著名的内存碎片问题, 一个是内核的内存申请上限问题. 另外, ddr的带宽也是一个重要的限制因素, 比如两个ip使用同样的ddr通道时(为啥会有这样的情况?)
+
+FRAMMAP 有如下功能.....
+
+在卡片机中, 只是简单的加载了模块:
+/sbin/insmod /lib/modules/frammap.ko
+
+```
+[root@GM]# cat /proc/frammap/ddr_info 
+----------------------------------------------------------------
+ddr name: frammap0 
+base: 0x3000000 
+end: 0x43b2000 
+size: 0x13b2000 bytes
+memory allocated: 0x13b2000 bytes 
+memory free: 0x0 bytes 
+max available slice: 0x0 bytes
+memory allocate count: 24 
+clear address: 0x43b2000 
+dirty pages: 5042 
+clear pages: 0 
+size alignment: 0x1000 
+```
+
+frammap源码module/frammp中, 编译出frammap.ko, 只有1个c文件.
+
+
 # [GM8136_GM2D_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_GM2D_User_Guide_V1.0.pdf)
+
+2D computer Graphics accelerator Engine 图像加速引擎.
+
+感觉可以不要, 摄像头设备一般情况是没有显示设备的. 不过卡片机中加载了这个模块.
+
+源码在module/ft2dge目录中, 编译出ft2dge.ko
+
 # [GM8136_GM8136S_EVB_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_GM8136S_EVB_User_Guide_V1.0.pdf)
+
+参考板指南
+
+跳针的含义:
+Pin                                             |  No. Signal Name
+------------------------------------------------|----------------------
+JP0 (Internal pull-low)/JP1 (Internal pull-low) | PLL1 setting
+JP6                                             | Firmware update mode
+JP7 (Internal pull-low)                         | SPI / parallel NAND flash selection 
+JP8 (Internal pull-up)                          |  Power on Heat(这个是啥?)
+P19 (Internal pull-low)                         | SPI flash 3/4-byte mode selection
+
+看起来还有一个串口, j10:UART1/RS485
+
+要使用参考板, 必须连接串口, 号称应该使用3.3v的, 但是没有任何数据, 找个1.8v的反而可以.
+
+    # ifconfig eth0 xxx.xxx.xxx.xxx (for example: 192.168.68.105)
+    # cd /mnt/mtd
+    # ./rtspd
+
+pc端运行vlc, 打开媒体|打开网络串流.... 输入:
+
+    rtsp://192.168.19.55/live/ch00_0
+
+就可以看见啦, 如果要使用tcp方式, 需要点击"显示更多选项中", 在"编辑选项"的输入框中,增加" :rtsp-tcp", 注意注意注意, 要加空格.
+
+写了可以通过usb口进行升级, 不过还没有试过.
+
 # [GM8136_GMAC_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_GMAC_User_Guide_V1.0.pdf)
+
+驱动文件位置:
+drivers/net/Ethernet/faraday/ftgmac100.c Main program of the GMAC driver
+drivers/net/Ethernet/faraday/ftgmac100.h Header file of the GMAC driver
+
+驱动的选项
+
+     │ │[*]   Faraday devices                                                      │ │  
+     │ │     <*>     Faraday FTGMAC100 support                                     │ │  
+     │ │     [*]       Enable GMAC 0                                               │ │  
+     │ │     [*]         Less queue number                                         │ │  
+
+可以使用hw指令指定mac
+
+    # ifconfig eth0 hw ether 00:11:22:33:44:55
+    # ifconfig eth0 192.168.121.139
+
+
 # [GM8136_GPIO_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_GPIO_User_Guide_V1.0.pdf)
+
+增加这个选项:
+
+    | Symbol: GPIO_FTGPIO010 [=y]                                                             │  
+    │ Type  : tristate                                                                        │  
+    │ Prompt: FTGPIO010 GPIO support                                                          │  
+    │   Defined at drivers/gpio/Kconfig:88                                                    │  
+    │   Depends on: GPIOLIB [=y] && (ARCH_GM [=y] || ARCH_GM_DUO [=n] || ARCH_GM_SMP [=n])    │  
+    │   Location:                                                                             │  
+    │     -> Device Drivers                                                                   │  
+    │       -> GPIO Support (GPIOLIB [=y])                                                    │   
+
+这样表示已经有了驱动:
+
+    [root@GM]# ls /sys/devices/platform/ftgpio010.0
+    driver     gpio       modalias   subsystem  uevent
+
+打开用户空间gpio控制:
+
+    │ CONFIG_GPIO_SYSFS:                                                                      │  
+    │                                                                                         │  
+    │ Say Y here to add a sysfs interface for GPIOs.                                          │  
+    │                                                                                         │  
+    │ This is mostly useful to work around omissions in a system's                            │  
+    │ kernel support.  Those are common in custom and semicustom                              │  
+    │ hardware assembled using standard kernels with a minimum of                             │  
+    │ custom patches.  In those cases, userspace code may import                              │  
+    │ a given GPIO from the kernel, if no kernel driver requested it.                         │  
+    │                                                                                         │  
+    │ Kernel drivers may also request that a particular GPIO be                               │  
+    │ exported to userspace; this can be useful when debugging.                               │  
+    │                                                                                         │  
+    │ Symbol: GPIO_SYSFS [=y]                                                                 │  
+    │ Type  : boolean                                                                         │  
+    │ Prompt: /sys/class/gpio/... (sysfs interface)                                           │  
+    │   Defined at drivers/gpio/Kconfig:51                                                    │  
+    │   Depends on: GPIOLIB [=y] && SYSFS [=y] && EXPERIMENTAL [=y]                           │  
+    │   Location:                                                                             │  
+    │     -> Device Drivers                                                                   │  
+    │       -> GPIO Support (GPIOLIB [=y])                                                    │  
+    │   Selected by: MACH_MIOA701 [=n] && ARCH_PXA [=n] && !ARCH_PXA_V7 [=n]                  │  
+
+可以使用通用的方式来控制:
+
+    [root@GM]#  ls /sys/class/gpio/
+    export      gpiochip0   gpiochip32  unexport
+
+
 # [GM8136_H264_Encoder_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_H264_Encoder_User_Guide_V1.0.pdf)
+
+高性能的h264编码器......favc_enc.ko, 源码的位置有点像ftmcp300, 或者是ftmcp280?
+
+vg_boot.sh中, 按照不同的frontend来设置h264e_max_width.
+
+卡片机和开发板的版本看起来还有一点点区别:
+
+
+    [root@GM]# cat /proc/videograph/h264e/info
+    FAVC Encoder v2.0.3.1, built @ Sep 27 2016 13:59:14 (GM8136)
+    module parameter
+    ====================   ======
+    h264e_max_width        1280
+    h264e_max_height       720
+
+    /mnt/mtd # cat /proc/videograph/h264e/info
+    FAVC Encoder v2.0.2, built @ Aug 26 2016 14:20:38 (GM8136)
+    module parameter
+    ====================   ======
+    h264e_max_width        1920
+    h264e_max_height       1088
+
+在开发板上, 一开始没有数据, 不知道是不是运行了rtspd后出现了:
+
+    /mnt/mtd # cat /proc/videograph/h264e/chn_info
+     chn    resolution   buf.type  gop   mode         fps         bitrate    max.br    init.q  min.q  max.q  qp
+    =====  ============  ========  ===  ======  ===============  =========  =========  ======  =====  =====  ==
+       0    1920x1088      1080P    60    CBR       900/30          8192       8192      25      20     51   27
+       1     640x 480      VGA      60    CBR       900/30           512        512      25      20     51   34
+
+在卡片机上的信息
+
+    [root@GM]# cat /proc/videograph/h264e/chn_info
+     chn    resolution   buf.type  gop   mode         fps         bitrate    max.br    init.q  min.q  max.q  qp
+    =====  ============  ========  ===  ======  ===============  =========  =========  ======  =====  =====  ==
+       0    1280x 720      720P     60    CBR       625/25          8192       8192      25      20     51   20
+       1     640x 480      VGA      60    CBR       625/25           512        512      25      20     51   23
+
+还有不少节点, 还完全不了解其中的含义.
+
 # [GM8136_Hardware_Design_User_Guide_v0.1.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_Hardware_Design_User_Guide_v0.1.pdf)
+
+硬件设计文档. 先略过.
+
 # [GM8136_IRDA_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_IRDA_User_Guide_V1.0.pdf)
+
+irda.ko这个文件在卡片机和开发板上都没有出现.
+
 # [GM8136 ISP Tuning Tool User Guide_v1.2.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136 ISP Tuning Tool User Guide_v1.2.pdf)
+
+这个看起来好复杂的样子, 调色?
+
 # [GM8136_IVS_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_IVS_User_Guide_V1.0.pdf)
+
+
 # [GM8136_LCD_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_LCD_User_Guide_V1.0.pdf)
 # [GM8136 Linux User Guide_V1.1.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136 Linux User Guide_V1.1.pdf)
 # [GM8136_Motion_Detection_Programming_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_Motion_Detection_Programming_Guide_V1.0.pdf)

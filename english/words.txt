@@ -8,6 +8,21 @@ persimmon      n.柿子；柿树；美洲柿
 jostle         n.推撞 v.（在人群中）挤
 meander        n.弯曲；漫谈；曲曲折折的路；闲聊 v.蜿蜒而行；迂回曲折；漫步；闲逛
 rheumy         adj.充水的；充满黏液的
+retinue        n.随行人员；扈从 2015-3-20
+flail          v.乱动；胡乱摆动；猛打 n.梿枷（旧时长柄脱粒农具）
+exasperate     v.激怒；使烦恼；使恼怒    adj.被激怒的；【生】具硬突起的
+nimble         adj.敏捷的；灵活的；灵巧的；机灵的
+pivot          n.支点；枢轴；中心；中心点 v.（使）在枢轴上旋转（或转动）
+hauberk        n.(中古时代的)锁子甲
+pudgy          adj.微胖的
+taunt          v.奚落；辱骂；嘲笑；讽刺 adj.【航】很高的(桅等) adv.扯满风帆 2015.3.2
+mummer         n.哑剧演员
+gorget         n.护喉甲胄；领子；(女子穿戴的)护颈胸布；(鸟,兽的)颈部杂色
+falsetto       adj.用假声的 adv.用假声地 n.（尤指男高音的）假声
+caricature     n.漫画；漫画手法；丑化(可笑)的相似物 v.把…画成漫画；使滑稽化
+antics         n.滑稽搞笑的动作；愚蠢的
+
+
 
 2017-11-23
 contemplate    v.考虑；沉思；思量；思忖
@@ -1164,3 +1179,86 @@ gouty			痛风(病) 地
 irascible		易怒的;性情暴躁的
 reproachful		（表情或话语）责备的，责怪的，谴责的
 querulous		牢骚满腹的;爱抱怨的
+
+
+
+
+
+
+2010-4-21		
+1	dork	n. [俚]笨蛋；呆子
+1	Bullying 	n. 恃强欺弱的行为
+1	runt	(发育不全的)矮小动物(或植物、人等)；[贬义]矮子
+1	Gorilla	n. [动]大猩猩
+1	For the record	[口语]供记录在案的；正式的
+1	Maron	傻瓜
+1	Stiff	彻底地；僵硬地
+1	diaper	尿布
+1	Suntan lotion	防晒油
+
+2010-3-15		
+2	cub	(熊、狮、虎、狼等的)幼兽;幼鲸;幼鲨
+1	pur	姑噜姑噜叫，发出喉音
+1	stripe	条纹,斑纹;线条
+1	blur	模糊;模糊不清的事物
+2	topple	使倒塌;推翻;颠覆
+1	wreck	(船等的)失事,遇难
+1	shovel	铲子,铁锹
+1	bucket	水桶,提桶,吊桶
+1	moat	护城河,壕沟
+1	slosh	把...泼溅出
+1	rake	耙
+1	swirl	打旋,旋转
+1	wavy	波浪的;多浪的;波涛滚滚的
+1	squishy	湿软的,粘糊糊的
+1	rinse	冲洗;轻洗;润丝
+1	flurry	慌张;混乱
+1	panckae	薄煎饼,薄烤饼
+
+2010-3-10		
+1	scary	1. 引起惊慌的2. 胆小的;提心吊胆的
+1	crawl	爬,爬行,蠕动
+1	squeal	发出长而尖的叫声
+1	grunt	(猪等)作呼噜声
+1	belly	腹,腹部,腹腔;肚子[C]
+2	tip 	使倾斜 n. 顶，尖端
+1	jaw	颌;颚[C] 下颌,下巴[C]
+1	bandage	用绷带包扎[(+up)]
+1	scrape	n. 刮掉，擦掉，刮擦声
+1	hood	头巾;兜帽;风帽
+1	hive	蜂房;蜂巢
+1	cereal	谷类加工食品;玉蜀黍薄片;麦片[C][U]
+1	cracker	(淡或咸的)薄脆饼干;【美】饼干
+2	cherry	樱桃[C]
+1	flavor	味,味道[C][U]
+1	grip	紧握;紧咬;夹住[C][S1]
+1	alligator	【动】(产于美国及中国的)短吻鳄[C]
+1	clown	小丑
+1 	tortilla 	(墨西哥)玉米粉薄烙饼 
+1 	predicate 	名词 n. [C]1.【语】谓语,述部  形容词 a. [B]1.【语】谓语的,述部 
+1 	imagine 	想象.设想. 作...的象.反映.象征. 图像.象征.
+
+
+2010-3-7		
+1 	grape 	葡萄 
+1 	verse 	诗;韵文[U] 
+1 	petal 	花瓣 
+1 	tuck 	把...塞进,把...藏入 
+1 	creep 	爬行,匍匐而行 
+1 	sparrow 	麻雀 
+1 	Toad 	蟾蜍,癞蛤蟆 
+1 	Goose bumps	鸡皮疙瘩 
+1 	Grasshopper 	蚱蜢;蝗虫 
+1 	ladybug 	【昆】瓢虫 
+1 	housefly 	家蝇 
+1 	thorax 	【昆】胸部;胸甲 
+1 	shiny 	发光的;晴朗的;闪耀的 
+1 	curl 	卷曲 
+1 	teddy bear 	泰迪(熊) 
+1 	shunk 	臭鼬[C] 
+1 	puddle 	水坑;泥潭;洼[C] 
+1 	comparator 	比较仪 
+
+
+
+

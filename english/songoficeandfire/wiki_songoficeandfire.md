@@ -563,48 +563,68 @@ Raised at the age of fifteen to the Kingsguard of the Mad King, Aerys II Targary
 Helman Tallhart
 赫曼·陶哈（Helman Tallhart）爵士，是陶哈家族的一员。 
 
-Galbart Glover
+#### Galbart Glover
 盖伯特·葛洛佛（Galbart Glover）是葛洛佛家族的一员。他是深林堡的城主和家族族长。他没有结婚。[1]
 
-Moat Cailin
+#### Moat Cailin
 卡林湾（Moat Cailin）是巨大沼地颈泽北端的一座废弃城堡。[1]它是北境的一部分，属于史塔克家族的管辖，但是已经有几个世纪无人居住。卡林湾把守着能让军队安全通过颈泽的堤道，让它成为数千年来守卫北境，面对南方侵略的战略要地。
 对入侵者而言，赢得黎德家族的联盟可以说是安全通过卡林湾的唯一方法。只有这些泽地人才了解那些没有标注在地图上的路线，沼泽间的狭道，芦苇中的水路。但是鉴于黎德和史塔克家族自古以来的紧密关系，这多半不可能发生。 
 
-White Harbor
+#### White Harbor
 白港（White Harbor）是一个大港口城市，坐落于临冬城南方，是曼德勒家族的封地。白港是颈泽以北最大的居住地，但是是维斯特罗五大城市中最小的。白港是北境主要的贸易港口，其位于白刃河河口，可以提供更多的贸易机会去更北的地区。[1]
 由于白港的地理位置，其与南方的接触更为广泛，因而比其他北方地区有更多的骑士和七神信仰的追随者。白港有很好的捕鱼场，也是许多银匠的家。 
 
-Chapter 21  Tyrion
+### Chapter 21  Tyrion
 
-Jaremy Rykker
+#### Jaremy Rykker
 杰瑞米·莱克（Jaremy Rykker）爵士是一名守夜人的游骑兵,曾经是莱克家族的一员。 
 
-Aemon Targaryen
+#### Aemon Targaryen
 伊蒙·坦格利安（Aemon Targaryen），即伊蒙学士，是国王梅卡一世与王后Dyanna Dayne夫人的第三个儿子。他在黑城堡以学士的身份为守夜人服务了相当长的时间，以至于七国其余地方都已忘记他的坦格利安血脉。在电视剧中，由 Peter Vaughan 饰演
 
-Chapter 22   Arya
+### Chapter 22   Arya
 
-Porther
+#### Porther
 波瑟（Porther）是一名效忠于史塔克家族的侍卫。[1]艾德·史塔克公爵认为他很强壮但容易头脑冲动。[2]
 
-Syrio Forel 
+#### Syrio Forel 
 西利欧·佛瑞尔（Syrio Forel）是一名布拉佛斯人，一名大师级的剑术家及前布拉佛斯首席剑士。[1]在电视剧中，西利欧的扮演者是Miltos Yeromelou。[2]
 
 
-Chapter 23  Daenerys
+### Chapter 23  Daenerys
 
-Jhogo
+#### Jhogo
 乔戈（Jhogo）是丹妮莉丝·坦格利安的血盟卫。卓戈卡奥死后，他成为丹妮的寇。他16岁，体型精瘦。[1]
 
-Chapter 24  Bran
+### Chapter 24  Bran
 
 
-Chapter 25   Eddard
+### Chapter 25   Eddard
 
-Colemon
+#### Colemon
 柯蒙（Colemon）学士为艾林家族服务。琼恩·艾林赴君临任国王之手期间，柯蒙学士担任他的私人学士。艾林公爵病重时，派席尔国师以年轻经验不足为由把他从艾林公爵身边遣开了。派席尔国师说他把柯蒙师傅当自己儿子一般看待。[1] 
 
+#### Aethelmure
+伊萨穆尔（Aethelmure），是历史上的一位大学士。临冬城藏书室有一本《伊萨穆尔国师传记》叙述了他的生平。[1] 
 
+#### Malleon
+梅利恩（Malleon）大学士写了一本关于七国贵族家族系谱的著作，叫做《七国主要贵族之世家谱系与历史（内附许多关于爵爷夫人和他们子女的描述）》。[1] 琼恩·艾林和艾德·史塔克先后用这本书发现了劳勃·拜拉席恩的孩子们的真正父亲。[2][3] 
+
+
+### Chapter 26 Jon
+
+Rast
+雷斯特（Rast）是一名守夜人，他与琼恩·雪诺同期受训。他因强奸罪被送往长城。[1]在电视剧中，他由Luke McEwan饰演。[2]
+
+Albett
+阿贝特（Albett）是守夜人中很年轻的一员。他是一个工匠。[1]
+
+Samwell Tarly
+山姆威尔·塔利（Samwell Tarly）是蓝道·塔利伯爵的长子。尽管他肥胖又胆小，极度缺乏自信，却也非常聪明，爱读书，善于思考。他是守夜人中的事务官。在《冰雨的风暴》中成为POV角色。在剧集中，他由约翰·布莱德利扮演。 
+![](https://vignette.wikia.nocookie.net/asoiaf/images/c/ca/Samwell_Tarly.jpg/revision/latest?cb=20140927075321&path-prefix=zh)
+
+Randyll Tarly
+蓝道·塔利（Randyll Tarly）伯爵是角陵伯爵，塔利家族领主。他娶了梅丽莎·佛罗伦。他以指挥战事屡建奇功而闻名，被视为维斯特洛最好的将星之一。在战场上，他持有塔利家祖传的瓦雷利亚钢巨剑碎心。他留着一把短硬灰胡，说话出了名的耿直。[1]他很刻板但有钢铁的意志又精明。 
 
 
 
