@@ -261,10 +261,33 @@ crust			n. 外壳, 坚硬外皮, 面包皮
 2017-5-26
 gutter  	   (technical)a groove or channel for flowing liquid. (技)沟，槽 
 
-2015-7-9
+2015-7-10
 niggle 			过分为琐事操心，挑剔
 teak				柚木
 sleight			(变戏法等）巧妙的手法
+
+
+2015-7-8
+rash            n.皮疹；大量；许多；（涌现的）众多令人不快的事物 adj.轻率的；鲁莽的
+growl           v.咆哮；低声吼叫；发出低沉的怒吼 n.咆哮；怒吼声
+consecrate      v.奉献；祝圣；圣化；祝圣饼酒
+burst           v.破裂；爆炸；突破；冲进 n.爆发；点射；释放；(情感的)迸发
+hearten         v.激励；鼓励 
+calumny         n.诬蔑；诽谤（的行为）
+recalcitrant    adj.不守规章的；不服从指挥的；桀骜不驯的；难以控制的
+bodice          n.连衣裙上身
+lecherous       adj.好色的；淫荡的
+louvre          n.百叶窗；【地,旅】卢浮宫
+umber           adj.赭色的n.（油漆中用的）棕土v.把…涂[染]成赭色
+franzy          ???
+charm           n.魅力；咒语；吸引力；魔力 v.迷住；吸引；保护
+vintage         n.特定年份（或地方）酿制的酒；酿造年份 adj.佳酿的
+smudge          v.把…擦模糊（或弄得看不清楚）；变模糊；弄脏；留下污迹 n.（模糊的）污迹
+spew            n.吐[呕]出物；渗出物v.（使）喷出；呕吐
+gutter          n.阴沟；檐沟；天沟；路旁排水沟 v.忽明忽暗；摇曳不定
+slab            v.使成厚板；铺石板；在…涂上一厚层 n.（石、木等坚硬物质的）厚板；厚片；厚块
+consternation   n.惊愕；惊恐
+bowel           n.肠；内部最深处
 
 
 2015-7-7
@@ -274,20 +297,20 @@ lax            adj.不严格的；不严厉的；马虎的；松弛的 n.【动�
 barbed         adj.有刺的；尖锐的；讽刺的
 weakling       adj.虚弱的(人)；柔弱的(人)；低能的(人) n.瘦弱的人；弱不禁风的人
 divulge        v.泄露
-fraught
-devotion
-sligth
-swaddle
-pluck
-travesty
-heave
-plutter
-weave
-stew
-dirge
-brooch
-prignant
-
+fraught        adj.充满（不愉快事物）的；焦虑的；忧虑的；担心的 n.货物
+devotion       n.奉献；忠诚；挚爱；专心
+slight         adj.轻微的；略微的；细小的；纤细的n.侮慢；冷落；轻视v.侮慢；冷落；轻视
+swaddle        n.襁褓 v.（用衣服或布）紧裹
+pluck          v.摘；拔；采摘；拔掉 n.胆识；胆量；意志
+travesty       n.歪曲；嘲弄 v.滑稽化；拙劣地表演
+heave          n.举；起伏；拖；拉 v.拖；（强烈而有节奏地）起伏；（常指吃力地）缓慢发出（声音）；恶心
+plutter        ???? 大浅盘 
+weave          v.织；（用…）编成；编造（故事等）；穿行（以避开障碍）n.编法；织法；编织式样
+stew           v.炖；自作自受；烦恼 n.炖；炖肉
+dirge          n.挽歌；哀歌；惨兮兮的歌曲（或乐曲）
+brooch         n.饰针；胸针；领针
+poignant       adj.痛苦的；深刻的；(肉体上 )痛苦的；辛辣的
+blanch         v.（受惊吓）脸发白；焯（把蔬菜等放在沸水中略微一煮）n.【女名】女子名
 
 2015-5-25
 pearl				珍珠
