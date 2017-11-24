@@ -21,8 +21,13 @@ gorget         n.护喉甲胄；领子；(女子穿戴的)护颈胸布；(鸟,�
 falsetto       adj.用假声的 adv.用假声地 n.（尤指男高音的）假声
 caricature     n.漫画；漫画手法；丑化(可笑)的相似物 v.把…画成漫画；使滑稽化
 antics         n.滑稽搞笑的动作；愚蠢的
-
-
+pate           n.头顶；光顶
+jingling       n.(小铃,钱币等的)叮当声；发叮当声的东西；诗的简单韵律 v.(使)叮当响
+trickster      n.骗子
+brusque        adj.寡言而无礼的
+cordwainer     n.鞋匠；〈古〉科尔多瓦皮制造工人
+cordial        adj.热情友好的；和蔼可亲的n.（不含酒精、加水饮用的）甜果汁饮料；一杯甜果汁饮料 2015.3.10
+tidbit         n.少量的食物；〈比喻〉趣闻
 
 2017-11-23
 contemplate    v.考虑；沉思；思量；思忖
@@ -932,7 +937,7 @@ And, despite my disgust with the Capitol and their hideous fashions, I can’t h
 11	hindquarter	（四肢动物）臀部和后脚
 12	buck	（马）猛地弓背跃起
 13	squeal	发出长而尖的叫声
-14	cordial	友好的;可亲的 Cordial 
+14	cordial	友好的;可亲的  
 15	pennant	三角旗
 16	spur	马刺;靴刺
 17	paltry	(数量)微小的，微不足道的
