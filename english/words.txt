@@ -5,7 +5,9 @@ bale           n.捆；大包；不幸；痛苦 v.包装 2015-3-10
 marrow         n.西葫芦
 bane           n.祸根 2015-3-1
 persimmon      n.柿子；柿树；美洲柿
-
+jostle         n.推撞 v.（在人群中）挤
+meander        n.弯曲；漫谈；曲曲折折的路；闲聊 v.蜿蜒而行；迂回曲折；漫步；闲逛
+rheumy         adj.充水的；充满黏液的
 
 2017-11-23
 contemplate    v.考虑；沉思；思量；思忖
@@ -26,9 +28,6 @@ vest           v.赋与；给穿上(法衣,祭服等) n.汗衫；坎肩；（外
 basilisks      n.【神】蛇怪；【动】(热带)蜥蜴
 scary          adj.恐怖的；吓人的
 gaunt          adj.（常因疾病、饥饿或忧虑而）瘦削憔悴的；寒碜的；破败的 2015.3.16
-
-
-
 
 
 2017-11-22
@@ -87,8 +86,6 @@ lunge          n.猛冲；猛扑；弓箭步刺；戳 v.猛冲；猛扑
 mangle         v.压碎；撕烂；严重损坏；糟蹋（如蹩脚的诗朗诵或拙劣的演奏） n.轧液机
 lilt           n.腔调；轻快的歌曲；(诗等的)韵律；节 v.欢唱；轻快地跳动
 indigo         n.靛蓝；靛蓝类染料；一种深蓝色；【植】能产生靛蓝的植物 adj.靛蓝；靛青
-
-
 
 
 
@@ -262,12 +259,34 @@ icicle         n. 垂冰, 冰柱, 冷冰冰的人
 crust			n. 外壳, 坚硬外皮, 面包皮
 
 2017-5-26
-gutter  	(technical)a groove or channel for flowing liquid. (技)沟，槽 
+gutter  	   (technical)a groove or channel for flowing liquid. (技)沟，槽 
 
 2015-7-9
 niggle 			过分为琐事操心，挑剔
 teak				柚木
 sleight			(变戏法等）巧妙的手法
+
+
+2015-7-7
+squalid        adj.肮脏的；邋遢的；道德败坏的；丑恶的
+gourd          n.葫芦（晾干后常作容器）
+lax            adj.不严格的；不严厉的；马虎的；松弛的 n.【动】(挪威、瑞典的)鲑；泻肚
+barbed         adj.有刺的；尖锐的；讽刺的
+weakling       adj.虚弱的(人)；柔弱的(人)；低能的(人) n.瘦弱的人；弱不禁风的人
+divulge        v.泄露
+fraught
+devotion
+sligth
+swaddle
+pluck
+travesty
+heave
+plutter
+weave
+stew
+dirge
+brooch
+prignant
 
 
 2015-5-25
