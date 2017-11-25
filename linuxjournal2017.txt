@@ -13,6 +13,17 @@ git config --global user.name jianliang
 git config --global push.default simple
 
 
+11.25
+把p11-gcc和mips-gcc改成系统的ccache, 第二次全编译, 就快了.
+ap-cp clean: 31秒 build: 257秒
+cpe-ap clean: 16秒 build: 243秒
+ap-router_4g_industry clean: 24秒 build: 522秒
+ap-p11_4g_router clean: 51秒 build: 383秒
+ap-p51_4g_router clean: 24秒 build: 371秒
+tozedap-p59 clean: 22秒 build: 492秒
+cpe-5g2g clean: 19秒 build: 227秒
+cpe-df clean: 18秒 build: 268秒
+
 11.24
 当前开发板上的ko
 -rw-rw-r--    1 1000     1000         42900 Nov 23  2017 adda308.ko

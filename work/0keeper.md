@@ -4,7 +4,7 @@
 
 主机名称                                                 | IP地址         | MAC地址          
 --------------------------------------------------------|----------------|-------------------
-:Amazon Technologies Inc.                               | 192.168.18.12  | 34:d2:70:ad:64:a9	
+Dogekuaeshuaibi                                         | 192.168.16.11  | f0:f6:1c:b6:43:71
 ziven-iPhone                                            | 192.168.16.13  | 98:9e:63:dc:40:fc
 :Shenzhen Bilian electronic CO.,LTD                     | 192.168.16.15  | ac:a2:13:d6:f7:0a
 HUAWEI_Mate_9	                                        | 192.168.16.16  | 10:b1:f8:07:26:b6 
@@ -48,6 +48,7 @@ HUAWEI_Mate_8                                           | 192.168.16.77  | dc:ee
 :Apple, Inc.                                            | 192.168.16.78  | 60:a3:7d:33:e9:42
 USER-20151115BD<br>Liteon Technology Corporation        | 192.168.16.79  | 30:52:cb:a4:59:5a
                                                         |                |
+:Amazon Technologies Inc.                               | 192.168.18.12  | 34:d2:70:ad:64:a9
 HUAWEI_nova                                             | 192.168.19.12  | 8c:0d:76:af:5f:b8                               
 ubuntu1710                                              | 192.168.19.28  | 08:00:27:6d:93:d5         
 Kelly                                                   | 192.168.19.43  | dc:0c:5c:89:b6:42
