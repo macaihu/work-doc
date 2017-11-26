@@ -12,6 +12,8 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+11.26
+export LANG="en_US.UTF-8"
 
 11.25
 把p11-gcc和mips-gcc改成系统的ccache, 第二次全编译, 就快了.

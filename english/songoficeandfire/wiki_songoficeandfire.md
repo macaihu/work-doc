@@ -697,3 +697,7 @@ Loras Tyrell
 
 Moon Boy
 月童（Moon Boy）是君临宫廷里国王的御用小丑。 
+
+
+Chapter 30 Eddard
+
