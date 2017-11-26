@@ -2,6 +2,21 @@
 
 2017-11-26
 snuff          n.鼻烟 v.掐灭；出声地嗅
+filigreed      n.金银细丝工艺；华而不实的东西 v.用金银细丝饰品装饰；用华而不实的饰品装饰
+collarbone     n.锁骨
+rudiment       ['ru:dimәnt] n.  基础, 雏形, 入门
+reveal         [ri'vi:l]v.  露出, 透露, 显示
+musing         ['mju:ziŋ]a.  沉思的, 冥想的
+cowl           [kau] n.  蒙头斗篷, 通风帽
+puissant       ['pju:isnt] a.  强有力的, 强盛的, 有权力的
+feral          ['fiәrәl] a.  野生的, 凶猛的, 野兽的 
+queasy         ['kwi:zi]a.  呕吐的, 使人呕吐的
+quaver         ['kweivә] vi.  发颤音, 颤抖vt.  颤抖地说, 用颤声唱出n.  颤抖, 颤声, 八分音符
+succor         ['sʌkә]n.  救援, 援助者vt.  救援, 援助
+attest         [ә'test]vi.  证明, 表明, 作证vt.  为...作证
+abduction      [æb'dʌkʃәn] n.  诱拐, 绑架, 外展
+gall            [gɒ:l]n.  胆汁,  苦味, 肿痛, 恼怒, 磨损处 vt.  烦恼, 屈辱, 磨伤vi.  被磨伤
+
 
 2017-11-25
 crop           n.庄稼；作物；产量；一批人 v.剪短；裁切（照片或图画）；啃吃（青草或其他植物上面的部分）；有收成
@@ -84,7 +99,7 @@ pendant        n.（项链上的）垂饰
 hamstrung      n.腘绳肌腱；大肌腱    v.割断…的腿筋；使残废；减弱…的活动能力
 derision       n.嘲笑；取笑；奚落
 ineptitude     n.无能；缺乏技巧；笨拙
-scant          adj.一丁点的；微小的；不足的； v.缩减；克扣；吝惜；不客气地对待 adv.几乎不[没有] 2015.3.16
+scant          [skænt]adj.一丁点的；微小的；不足的； v.缩减；克扣；吝惜；不客气地对待 adv.几乎不[没有] 2015.3.16
 genial         adj.友好的；亲切的；欢快的
 solitude       n.独处；独居
 rival          v.与…相匹敌；比得上 adj.竞争的 n.竞争对手
@@ -1052,7 +1067,7 @@ And, despite my disgust with the Capitol and their hideous fashions, I can’t h
 13	obscenity	淫秽；色情；猥亵
 14	strain	努力做;竭力做;费力做事
 15	shin	胫;胫部;小腿
-16	gall	粗鲁；无礼；厚颜无耻
+16	gall	??粗鲁；无礼；厚颜无耻
 17	granite	花岗石；花岗岩
 18	gutter	（火焰）忽明忽暗，摇曳不定   排水沟
 19	totter	摇摇欲坠;变得不稳;动摇
