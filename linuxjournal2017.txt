@@ -12,6 +12,41 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+11.27
+
+还有若干个ko根本不知道从那里编译出来的:
+codec.ko                  --- 
+favc_rc.ko                ratecontrol/favc_rc.ko
+fisp_algorithm.ko         ---
+flcd200-pip.ko            LCD200_v3
+frammap.ko                frammap
+ftpwmtmr010.ko            ---
+log.ko                    ---
+pmonitor.ko               pmonitor
+vcap0.ko                  vcap300
+vpd.ko                    ---
+adda308.ko                adda308
+em.ko                     ---
+fe_common.ko              front_end
+fisp_ov2715.ko            ---
+fmcp_drv.ko               ftmcp100
+fscaler300.ko             scaler300和 pseudo_scaler300都有...
+gm2d.ko                   gm2d和pseudo_gm2d都有...
+ms.ko                     ---
+sar_adc.ko                SAR_ADC
+vcap300_common.ko         vcap300
+audio_drv.ko              audio_drv
+favc_enc.ko               ----
+fisp328.ko                ----
+flcd200-common.ko         LCD200_v3
+fmjpeg_drv.ko             ftmcp100/fmjpeg_driver
+ft3dnr200.ko              ft3dnr200
+gs.ko                     ----
+osd_dispatch.ko           osd_dispatch
+sw_osg.ko                 swosg
+vcap300_isp.ko            vcap300/input_module
+
+
 11.26
 export LANG="en_US.UTF-8"
 
