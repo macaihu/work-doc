@@ -47,6 +47,7 @@ HUAWEI_P10_Plus                                         | 192.168.16.75  | 50:04
 HUAWEI_Mate_8                                           | 192.168.16.77  | dc:ee:06:57:f0:47
 :Apple, Inc.                                            | 192.168.16.78  | 60:a3:7d:33:e9:42
 USER-20151115BD<br>Liteon Technology Corporation        | 192.168.16.79  | 30:52:cb:a4:59:5a
+Honor_5C                                                | 192.168.16.90  | 5c:a8:6a:7e:5f:0d
                                                         |                |
 :Amazon Technologies Inc.                               | 192.168.18.12  | 34:d2:70:ad:64:a9
 HUAWEI_nova                                             | 192.168.19.12  | 8c:0d:76:af:5f:b8                               

@@ -5,6 +5,7 @@
 
 date       |    iso                             |  resp.  |  status.
 -----------|------------------------------------|---------|----------
+2017-11-28 | linuxmint-18.1-cinnamon-64bit.iso  | ath9.5  | buildall ok.
 2017-11-27 | Fedora-Server-dvd-x86_64-26-1.5    | ath9.5  | buildall ok.
 2017-11-19 | ubuntu-16.04.3-desktop-amd64.iso   | ath9.5  | buildall ok.
 2017-11-15 | CentOS-7-x86_64-Minimal-1708.iso   | ath9.5  | buildall fail

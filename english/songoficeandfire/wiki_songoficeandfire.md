@@ -60,6 +60,7 @@ baby sister of Bran Stark
 #### Desmond
 swordor of winterfall.
 戴斯蒙（Desmond）是跟随艾德·史塔克大人南下的守卫队其中一人。 
+他跟随史塔克一行人并在雪中发现了冰原狼幼崽。[1] 他是跟随艾德·史塔克大人南下的守卫其中一人。[2] 在艾德·史塔克大人被逮捕之际被杀。[3]
 
 ### Chapter 2  Catelyn 
 
@@ -336,6 +337,7 @@ Raised at the age of fifteen to the Kingsguard of the Mad King, Aerys II Targary
 
 #### Boros Blount
 柏洛斯·布劳恩（Boros Blount）是御林铁卫的一名骑士。 
+柏洛斯爵士是个胸膛宽厚，有一双向外弯曲的短腿的丑陋男子。他生了个扁鼻，两颊松弛，一头发白糟糕的灰发。[1]柏洛斯爵士脾气暴躁，[2]詹姆·兰尼斯特爵士认为他色厉内荏，[3]书中的许多人物也认为他是个懦夫因而鄙视他。 
 
 #### Meryn Trant
 马林·特兰（Meryn Trant）爵士是劳勃一世及其子嗣在位期间的御林铁卫一员。在电视剧中由Ian Beattie饰演。 
@@ -736,6 +738,17 @@ Lharys
 当凯特琳夫人抓捕提利昂·兰尼斯特时，拉利斯是在十字路口客栈的三名布雷肯家族士兵之一。他是凯特琳途径明月山脉时的护卫之一。[1]在于高山氏族部落的第二次交战中，拉利斯被杀。[3]
 
 Chapter 32    Arya
+
+Chapter 33 Eddard
+
+Chapter 34  Catelyn
+
+Donnel Waynwood
+唐纳尔·韦伍德爵士（Donnel Waynwood），是铁橡城伯爵夫人安雅·韦伍德的次子。他是个二十岁的年轻人，体格健壮，长相虽丑但待人诚恳，生了一个宽鼻和一头散乱的棕色粗发。[1]
+权力的游戏
+凯特琳·徒利一行人穿越明月山脉前往鹰巢城时，他率队出血门前往迎接和护送。[1]
+群鸦的盛宴
+布林登·徒利辞去血门骑士后，唐纳尔爵士成为继任者。[2][3] 
 
 
 

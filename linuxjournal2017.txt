@@ -12,6 +12,11 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+11.28
+
+
+firefox居然占用了所有的cpu, 导致p59的编译时间高达1172秒.
+
 11.27
 
 还有若干个ko根本不知道从那里编译出来的:
