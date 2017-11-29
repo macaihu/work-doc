@@ -1,11 +1,24 @@
 
+2017-11-30
+rime           [raɪm]n.  霜; 雾淞#韵; 韵脚; 韵词v.  蒙霜
+greave         [gri:v] n.  护胫, 胫甲 2015-3-2
+deity          ['di:iti]n.  神, 神性
+lithe          [laið] a.  柔软的  2015-4-12
+plinth         [plɪnθ]n.  底座, 基脚, 柱基, 勒脚 2015-3-6
+sachet         [sæ'ʃei]n.  小袋, 香料袋 [医] 香囊, 小药囊
+ferret         ['ferit]n.  白鼬, 雪貂, 侦探 vt.  用雪貂打猎, 搜出, 驱出 2015-4-7
+rabble         ['ræbl]n.  乌合之众, 暴民, 下层社会, 长柄耙
+languorous     ['læŋgәrәs] a.  怠惰的, 疲倦的, 无力的
+cavernous      ['kævәnәs]a.  似巨穴的
+bulge          [bʌldʒ]n.  胀, 膨胀vi.  凸出vt.  使膨胀
+
 2017-11-29
 obsidian       [ɒb'sidiәn] n.  黑曜石
 gruffly        ['grʌfli] ad.  粗暴地, 粗声地
 haggard        ['hægәd] n.  野鹰 a.  憔悴的, 形容枯槁的, 野性的
 moat           [mәut]n.  壕沟, 护城河vt.  将...围以壕沟 2010-3-15
 shroud         [ʃraud] n.  尸衣, 寿衣, 覆盖物, (船的)横桅索 vt.  包以尸衣, 遮蔽, 隐藏, 覆盖 2015.3.11
-
+gulf           [gʌlf] n.  海湾, 深渊, 漩涡, 隔阂 vt.  吞没
 
 2017-11-28
 tomcat         ['tɒmkæt]n.  雄猫
