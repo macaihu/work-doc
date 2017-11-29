@@ -385,9 +385,21 @@ irda.ko这个文件在卡片机和开发板上都没有出现.
 
 # [GM8136_IVS_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_IVS_User_Guide_V1.0.pdf)
 
+这个是啥, 完全看不懂.
 
 # [GM8136_LCD_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_LCD_User_Guide_V1.0.pdf)
+
+lcd ? 好像没有的样子.
+insmod flcd200-common.ko
+insmod flcd200-pip.ko output_type=51
+insmod flcd200-pip2.ko
+这几个ko考虑从系统删掉.
+
 # [GM8136 Linux User Guide_V1.1.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136 Linux User Guide_V1.1.pdf)
+
+
+
+
 # [GM8136_Motion_Detection_Programming_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_Motion_Detection_Programming_Guide_V1.0.pdf)
 # [GM8136_OSG_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_OSG_User_Guide_V1.0.pdf)
 # [GM8136_Quick_Start_V1.1.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_Quick_Start_V1.1.pdf)
@@ -396,13 +408,11 @@ irda.ko这个文件在卡片机和开发板上都没有出现.
 # [GM8136_scaler_User_Guide_v1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_scaler_User_Guide_v1.0.pdf)
 # [GM8136_SD_Card_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_SD_Card_User_Guide_V1.0.pdf)
 # [GM8136S_GM8135_Product_Brief_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136S_GM8135_Product_Brief_V1.0.pdf)
-# [GM8136S_GM8135S_Data_Sheet_V0.3.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136S_GM8135S_Data_Sheet_V0.3.pdf)
-# [GM8136S_GM8135S_Data_Sheet_V0.8.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136S_GM8135S_Data_Sheet_V0.8.pdf)
-# [](ftp://192.168.1.123/gm8136s/docs/)
-# [](ftp://192.168.1.123/gm8136s/docs/)
-# [](ftp://192.168.1.123/gm8136s/docs/)
-# [](ftp://192.168.1.123/gm8136s/docs/)
-# [](ftp://192.168.1.123/gm8136s/docs/)
+# [GM8136S_GM8135S_Data_Sheet_V0.9.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136S_GM8135S_Data_Sheet_V0.9.pdf)
+# [GM8136_SPI_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_SPI_User_Guide_V1.0.pdf)
+# [GM8136 U-BOOT User Guide_v1.3.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136 U-BOOT User Guide_v1.3.pdf)
+# [GM8136_USB_OTG_User_Guide_V1.1.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_USB_OTG_User_Guide_V1.1.pdf)
+# [GM8136_Watchdog_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_Watchdog_User_Guide_V1.0.pdf)
 # [](ftp://192.168.1.123/gm8136s/docs/)
 # [](ftp://192.168.1.123/gm8136s/docs/)
 # [](ftp://192.168.1.123/gm8136s/docs/)
@@ -413,16 +423,6 @@ irda.ko这个文件在卡片机和开发板上都没有出现.
 
 
 ```
-├── 
-├── 
-├── 
-├── 
-├── 
-├── GM8136S_GM8135S_Data_Sheet_V0.9.pdf
-├── GM8136_SPI_User_Guide_V1.0.pdf
-├── GM8136 U-BOOT User Guide_v1.3.pdf
-├── GM8136_USB_OTG_User_Guide_V1.1.pdf
-├── GM8136_Watchdog_User_Guide_V1.0.pdf
 ├── GMLIBv2_IPcam_Sample_Code_V0.3.chm
 ├── GMLIBv2_Programming_Guide _V1.2.pdf
 ├── H264_Rate_Control_User_Guide_V1.0.pdf

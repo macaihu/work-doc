@@ -12,9 +12,25 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+11.29
+chrome 设置为默认的浏览器后, sublime查看md, 仍然会出非法错误.
+
+firefox又有三个进程占用100%的cpu啊, 太强悍啦.
+
+.git占用的空间有时候会超级大:
+jian@jian-OptiPlex-9020:~/work/jian-doc$ du .git -sh
+35M .git
+jian@jian-OptiPlex-9020:~/work/jian-doc$ git gc
+Counting objects: 1512, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (861/861), done.
+Writing objects: 100% (1512/1512), done.
+Total 1512 (delta 946), reused 1048 (delta 624)
+jian@jian-OptiPlex-9020:~/work/jian-doc$ du .git -sh
+5.7M  .git
+
+
 11.28
-
-
 firefox居然占用了所有的cpu, 导致p59的编译时间高达1172秒.
 
 11.27
