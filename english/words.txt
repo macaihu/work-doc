@@ -1,4 +1,9 @@
 
+2017-12-1
+vaguely        ['veigli] ad.  含糊地, 暧昧地
+balustrade     [,bælә'streid] n.  栏杆
+navel          ['neivl]n.  脐, 肚脐, 中央, 中心
+
 2017-11-30
 rime           [raɪm]n.  霜; 雾淞#韵; 韵脚; 韵词v.  蒙霜
 greave         [gri:v] n.  护胫, 胫甲 2015-3-2
@@ -12,7 +17,14 @@ languorous     ['læŋgәrәs] a.  怠惰的, 疲倦的, 无力的
 cavernous      ['kævәnәs]a.  似巨穴的
 bulge          [bʌldʒ]n.  胀, 膨胀vi.  凸出vt.  使膨胀
 pomegranate    ['pɒmgrænit] n.  石榴 
-
+serpent        ['sә:pәnt] n.  巨蛇座, 蛇, 蛇形管, 狡猾的人
+carnage        ['kɑ:nidʒ] n.  大屠杀, 残杀
+thrum          [θrʌm]n.  线头, 纱头, 乱弹vt.  指弹, 敲打, 把绳毛夹杂于vi.  乱弹, 轻敲
+talon          ['tælәn] n.  爪, 如爪的手, 魔爪, 爪饰
+phlegm         [flem] n.  痰, 粘液质, 粘液
+sconce         [skɒns] n.  壁式烛台, 头, 头盔 vt.  遮蔽
+peeve          [pɪːv]v.  使气恼
+wraith         [reiθ] n.  生魂, 幻影, 幽灵
 
 2017-11-29
 obsidian       [ɒb'sidiәn] n.  黑曜石
@@ -140,7 +152,7 @@ enchanter      n.（故事中）施魔法的人
 admonition     n.警告；告诫
 pendant        n.（项链上的）垂饰
 hamstrung      n.腘绳肌腱；大肌腱    v.割断…的腿筋；使残废；减弱…的活动能力
-derision       n.嘲笑；取笑；奚落
+derision       n.嘲笑；取笑；奚落 2015-3-11
 ineptitude     n.无能；缺乏技巧；笨拙
 scant          [skænt]adj.一丁点的；微小的；不足的； v.缩减；克扣；吝惜；不客气地对待 adv.几乎不[没有] 2015.3.16
 genial         adj.友好的；亲切的；欢快的
