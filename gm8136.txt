@@ -5,7 +5,10 @@ ip addr add dev eth0 192.168.19.55/22
 ip route add default via 192.168.19.1
 echo nameserver 192.168.19.1 > /etc/resolv.conf
 mount -t nfs 192.168.19.199:/opt/work/ /mnt/nfs --nolock
+telnetd
 
+cd /mnt/nfs/gm8136s/apps/tzvideo-OneNet/
+./tzvideo -c config.json
 
 1、先配置本机器IP，和server IP。
 setenv ipaddr 192.168.19.33 ;setenv serverip 192.168.19.199

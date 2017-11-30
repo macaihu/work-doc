@@ -50,7 +50,8 @@ USER-20151115BD<br>Liteon Technology Corporation        | 192.168.16.79  | 30:52
 Honor_5C                                                | 192.168.16.90  | 5c:a8:6a:7e:5f:0d
 HUAWEI_Mate_8                                           | 192.168.16.93  | 74:a5:28:3d:80:4d
 ATH-TL00-d2a7af9723c414d1<br>HUAWEI                     | 192.168.16.94  | a0:8d:16:ff:b4:d3
-MacBook-Pro                                             | 192.168.16.96  | 78:31:c1:c0:c5:8e	
+MacBook-Pro                                             | 192.168.16.96  | 78:31:c1:c0:c5:8e
+Honor_8                                                 | 192.168.16.98  | 5c:a8:6a:a6:57:d1
                                                         |                |
 :Amazon Technologies Inc.                               | 192.168.18.12  | 34:d2:70:ad:64:a9
 HUAWEI_nova                                             | 192.168.19.12  | 8c:0d:76:af:5f:b8                               
