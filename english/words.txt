@@ -3,6 +3,8 @@
 vaguely        ['veigli] ad.  含糊地, 暧昧地
 balustrade     [,bælә'streid] n.  栏杆
 navel          ['neivl]n.  脐, 肚脐, 中央, 中心
+hart           [hɑrt /hɑːt] n.  雄赤鹿; 雄鹿
+lice           n.  虱, 寄生虫, 小虫, (非正式)低贱的人, 不受欢迎的人, 卑鄙的人
 
 2017-11-30
 rime           [raɪm]n.  霜; 雾淞#韵; 韵脚; 韵词v.  蒙霜
@@ -454,6 +456,9 @@ afflict 折磨;使痛苦
 gloat 洋洋得意；幸灾乐祸
 subdued 闷闷不乐的;抑郁的;默不作声的
 
+
+
+
 日期	2015.4.16	复习1		2		3		4		5	
 1	quagmire	(难以避免或摆脱的)复杂局势，困境
 2	nary	没有一个的；没有的 
@@ -735,6 +740,60 @@ And, despite my disgust with the Capitol and their hideous fashions, I can’t h
 19	ludicrous	愚蠢的；荒唐的；可笑的
 20	languid	无精打采的；懒洋洋的；倦怠的
 
+2015-3-29
+baleful  [bale·ful || 'beɪlfʊl]
+adj.  有害的, 恶意的
+slight  [slaɪt]
+n.  轻蔑, 怠慢
+v.  轻视, 怠慢, 忽略
+adj.  轻微的, 脆弱的, 纤细的
+barb  [bɑːb]
+n.  倒钩#非洲马; 巴巴里家鸽
+v.  装倒钩
+swaddle  [swad·dle || 'swɑdl /'swɒdl]
+v.  把用布包住; 限制...的行动; 用纱带包扎
+pluck  [plʌk]
+n.  勇气, 动物内脏, 猛拉
+v.  摘, 拔, 猛拉; 拉, 拽
+tenuous  [te·nu·ous || 'tenjʊəs]
+adj.  纤细的; 贫乏的; 稀薄的; 平淡的
+dread  [dred]
+n.  恐惧, 可怕的事, 可怕的人
+v.  惧怕; 担心
+frigid  [frig·id || 'frɪdʒɪd]
+adj.  寒冷的, 冷淡的, 严寒的
+titter [tit·ter || 'tɪtə(r)]
+n.  窃笑; 傻笑; 偷笑; 吃吃笑
+v.  吃吃地笑, 偷笑
+scuttle  [scut·tle || 'skʌtl]
+n.  天窗; 小舱口; 气窗; 舷窗#箩, 筐; 煤斗, 煤桶#小步快跑; 逃避; 仓促逃跑
+v.  凿沉; 毁坏; 急跑; 逃避; 急赶; 逃脱
+ruse  [ruːs /-z]
+n.  策略, 诡计, 谋略
+whisk  [hwɪsk /w-]
+n.  扫帚, 搅拌器, 毛掸子
+v.  扫, 挥动, 拂; 飞奔
+diligent  ['dil·i·gent || 'dɪlɪdʒənt]
+adj.  勤勉的, 勤奋的; 费尽心血的
+colonnade  [col·on·nade || ‚kɒlə'neɪd]
+n.  柱廊
+billowy  ['bil·low·y || bɪləʊɪ]
+adj.  大浪的
+lecherous  [lech·er·ous || 'letʃərəs]
+adj.  淫荡的; 挑动春情的; 色情的
+
+entice  [en·tice || ɪn'taɪs]
+v.  诱骗, 怂恿, 引诱
+stale  [steɪl]
+v.  撒尿
+adj.  不新鲜的; 疲倦的; 陈腐的
+blister  [blis·ter || 'blɪstə]
+n.  水泡; 气泡; 砂眼; 泡形罩
+v.  使起水泡; 痛打; 猛烈抨击; 起水泡
+babble  [bab·ble || 'bæbl]
+n.  儿语; 潺潺声; 胡言乱语
+v.  牙牙学语; 说蠢话; 模糊不清地说话; 唠叨; 模糊不清地说; 随口泄漏; 愚蠢地说出
+
 
 
 日期	2015.3.27	复习1		2		3		4		5	
@@ -745,6 +804,86 @@ And, despite my disgust with the Capitol and their hideous fashions, I can’t h
 5	sash	(尤指正式服装或官员服装上的)腰带，彩带,肩带
 6	seafarer	水手;海员;经常乘船旅行的人
 7	sage	(尤指因经验丰富而)贤明的，睿智的,博学多识的
+forlorn  [for·lorn || fə(r)'lɔrn /-lɔːn]
+adj.  孤独的, 凄凉的, 悲惨的
+bland  [blænd]
+a.  温和的, 乏味的, 冷漠的
+din  [dɪn]
+n.  喧嚣
+v.  以喧闹声扰; 一再叮嘱, 反复告诉; 发出嘈杂声
+dray  [dreɪ]
+n.  运货马车, 撬的一种
+overcast  [,o·ver'cast || ‚əʊvə(r)kɑːst]
+adj.  阴天的, 愁闷的, 阴暗的
+vulture  [vul·ture || 'vʌltʃə(r)]
+n.  秃鹰, 贪婪的人
+sanctity  [sanc·ti·ty || 'sæŋktətɪ]
+n.  圣洁; 崇高; 虔诚; 神圣
+fondle  [fon·dle || 'fɑndl /'fɒndl]
+v.  爱抚; 抚弄; 表示爱抚; 调戏
+flaxen  [flax·en || 'flæksən]
+adj.  亚麻的, 淡黄色的, 亚麻色的
+appalling  [ap'pal·ling || -lɪŋ]
+adj.  骇人的, 可怕的; 十分低劣的
+nominal  [nom·i·nal || 'nɑmɪnl /'nɒ-]
+adj.  名义上的, 名字的, 有名无实的
+tousle  [tou·sle || 'taʊzl]
+v.  搅乱, 弄乱
+preach  [prɪːtʃ]
+v.  布道; 鼓吹; 讲; 反复灌输; 讲道; 鼓吹, 宣扬; 说教; 唠叨地劝诫
+
+2015-3-26
+siege  [sɪːdʒ]
+n.  围攻; 围城, 长期折磨
+v.  包围, 围攻
+verge  [vә:dʒ]
+n.  边缘, 边界, 起始点
+vi.  处在边缘, 接近, 下沉, 趋向
+florid  [flor·id || 'flɑrɪd ,'flɔ- /'flɒr-]
+adj.  华丽的, 红润的
+grapple  [grap·ple || 'græpl]
+n.  抓住, 掌握
+v.  抓住, 抓牢; 与...扭打, 与...格斗; 抓住; 努力解决; 扭打, 格斗
+mildew  [mil·dew || 'mɪldʊː /'mɪldjuː]
+n.  霉, 露菌病菌, 面粉病菌
+v.  使发霉; 发霉; 生霉
+chuckle  [chuck·le || 'tʃʌkl]
+n.  吃吃的笑声, 轻笑
+v.  吃吃的笑; 咯咯叫
+dike  [daɪk]
+n.  堤; 坝#沟; 壕沟
+v.  筑堤提防
+bay  [beɪ]
+n.  海湾, 海岸线向内弯的状况; 月桂树 (灌木的一种); 小屋, 小房间; 包含一个硬盘的小空间 (计算机用语); 猎狗的嚎叫; 深枣红色; 枣红色的马
+v.  连续吠叫; 咆哮; 对...吠叫
+adj.  枣红色的
+lintel  [lin·tel || 'lɪntl]
+n.  楣; 过梁; 楣石
+squalid  [squal·id || 'skwɑlɪd /'skwɒl-]
+adj.  脏的; 恶劣的; 卑鄙的
+detail  ['di:teil]
+n.  细节, 详情
+vt.  详述, 选派
+vi.  画详图
+grovel  [grov·el || 'grɑvl ,'grʌvl /'grɒvl]
+v.  趴; 卑躬屈膝; 匍匐
+shoo  [ʃuː]
+v.  吓走
+slacken  [slack·en || 'slækən]
+v.  放松, 使松弛; 减弱; 减缓; 变松弛; 变迟缓; 变缓慢; 减弱
+mushy  [mush·y || 'mʌʃɪ]
+adj.  浓粥状的, 感伤的, 糊状的
+gourd  [gʊrd ,gɔrd /gʊəd]
+n.  葫芦; 瓢
+alcove  [al·cove || 'ælkəʊv]
+n.  凹室, 小亭, 壁橱
+sheen  [ʃɪːn]
+n.  光辉, 光泽, 光彩
+morass  [mo·rass || mə'ræs]
+n.  沼泽, 令人困恼的东西, 困境
+spate  [speɪt]
+n.  泛滥, 大雨, 洪水
+
 
 
 日期	2015.3.25	复习1		2		3		4		5	
@@ -1270,6 +1409,1489 @@ irascible		易怒的;性情暴躁的
 reproachful		（表情或话语）责备的，责怪的，谴责的
 querulous		牢骚满腹的;爱抱怨的
 
+2015-2-27
+feign  [feɪn]
+v.  装作, 假装; 捏造; 做假, 假装
+ plush  [plʌʃ]
+n.  长毛绒, 长毛绒裤, 丝绒
+adj.  长毛绒制的, 豪华的
+slash  [slæʃ]
+n.  猛砍, 乱砍; 砍伤, 砍痕; 挥击; 叉口, 长缝
+v.  砍; 砍伤, 割伤; 砍击; 挥; 猛砍, 乱砍; 猛烈冲打; 挥击; 严厉批评, 抨击
+ermine  [er·mine || 'ɜːmɪn]
+n.  貂; 貂的白毛皮
+shuffle  ['ʃʌfl]
+n.  拖着脚走, 曳步, 混乱, 蒙混, 洗纸牌
+vt.  拖曳, 马虎地做, 笨手笨脚地穿(脱)衣, 推诿, 洗牌
+vi.  拖曳, 马虎地做, 笨手笨脚地穿(脱)衣, 推诿, 洗牌
+peevish  ['pee·vish || 'pɪːvɪʃ]
+adj.  易怒的, 撒娇的, 暴躁的
+tremulous  [trem·u·lous || 'tremjələs /-jʊl-]
+adj.  发抖的, 胆小的, 战悚的
+folly  [fol·ly || 'fɑlɪ /'fɒl-]
+n.  愚蠢; 轻松歌舞剧; 荒唐事
+repent  [re·pent || rɪ'pent]
+v.  悔悟, 悔改; 忏悔; 后悔, 懊悔; 悔悟, 悔改; 忏悔; 对...感到后悔
+stink  [stɪŋk]
+n.  臭味, 张扬, 臭气
+v.  发臭味, 名声臭; 用臭气赶出; 闻出...的臭气; 使充满臭气
+nettle  [net·tle || 'netl]
+n.  荨麻
+v.  惹怒, 使恼火; 用荨麻刺
+parch  [pɑrtʃ /pɑː-]
+v.  烘, 烤; 使燥热; 使干透; 使干渴; 烤干, 焦干
+moisture  ['mois·ture || 'mɔɪstʃə(r)]
+n.  湿气, 降雨, 水分
+pollen  [pol·len || 'pɑlən /'pɒ-]
+n.  花粉
+deign  [deɪn]
+v.  屈尊; 赐予
+creak  [kriːk]
+n.  辗轧声, 咯咯吱吱声
+v.  发出咯吱咯吱声; 勉强运转, 缓慢行进
+squint  [skwɪnt]
+n.  眯眼看; 一瞥; 斜眼看; 看
+v.  眯着眼看; 患斜视; 斜着眼看; 倾向; 眯起; 使斜视
+adj.  斜视的; 斜眼的
+grizzled  ['griz·zled || 'grɪzld]
+adj.  灰色的; 头发斑白的
+sour  ['saʊə(r)]
+n.  酸味; 不愉快的事; 酸的东西; 苦事
+v.  使变酸; 使变得不愉快; 使发酵; 使失望; 变酸; 变得不愉快; 发酵; 厌烦
+adj.  酸的, 酸腐的, 发酵的
+reek  [rɪːk]
+n.  浓烈气味; 蒸汽; 臭气; 水蒸汽
+v.  散发出浓烈气味; 带有明显的性质; 发臭; 充满; 用烟熏, 散发
+
+
+2015-2-25
+peat  [pɪːt]
+n.  泥煤, 泥炭; 泥炭块
+slab  [slæb]
+n.  平板, 厚的切片
+v.  切成厚板, 以平板盖上
+consternation  [con·ster·na·tion || ‚kɒnstə'neɪʃn]
+n.  惊愕, 惊骇
+ale  [eɪl]
+n.  麦芽酒; 麦芽酒节
+carrion  [car·ri·on || 'kærɪən]
+n.  死肉; 腐肉
+challenge  ['tʃælindʒ]
+n.  挑战, 盘问
+vt.  向...挑战, 要求, 怀疑
+vi.  挑战, 对(证据等)表示异议
+amethyst  [am·e·thyst || 'æmɪθɪst]
+n.  紫水晶, 水碧; 紫色
+gibbet  [gib·bet || 'dʒɪbɪt]
+n.  枭首台, 绞刑, 绞首台
+v.  枭首示众, 处绞刑, 当众侮辱或嘲弄
+oat  [əʊt]
+n.  燕麦, 麦片粥
+wiry  [wir·y || 'waɪərɪ]
+adj.  金属线制的, 瘦长结实的, 铁丝似的
+bowel  
+n.  肠, 同情心
+yeasty  [yeast·y || 'jɪːstɪ]
+adj.  酵母的, 起泡沫的, 会发酵的
+temper  [tem·per || 'tempə(r)]
+n.  脾气, 趋向, 调剂
+v.  锻炼, 使缓和, 调剂; 经回火后具有的韧度
+persuasive  [per'sua·sive || pər'sweɪsɪv /pə-]
+adj.  善说服的
+nuisance  [nui·sance || 'nuːsns /'nju-]
+n.  讨厌的人或东西, 损害, 麻烦事
+scamper  [scam·per || 'skæmpə(r)]
+n.  蹦跳, 浏览, 奔跑
+v.  蹦蹦跳跳; 惊惶奔跑
+spank  [spæŋk]
+n.  一掴, 一巴掌
+v.  打...的屁股; 击败; 拍击...使之前进; 掴; 轻捷前进; 啪地落下
+askew  [a·skew || ə'skjuː]
+adj.  歪斜的
+adv.  歪斜地
+stench  [stentʃ]
+n.  恶臭, 臭气
+
+2015-2-20
+wicker  [wick·er || 'wɪkə(r)]
+n.  柳条
+frenzy  [fren·zy || 'frenzɪ]
+n.  狂暴; 狂怒
+v.  使发狂; 使狂怒
+flask  [flæsk /flɑːsk]
+n.  细颈瓶, 小水瓶, 烧瓶
+charm  [tʃɑːm]
+n.  吸引力; 魅力; 魔力
+v.  迷住, 行魔法, 使陶醉; 用符咒; 有魔力
+rummager  
+n.  搜索人; 检查人; 探究人; 翻查人
+vintage  ['vintidʒ]
+n.  酒, 葡萄收获(期、量), 酿酒
+vt.  采葡萄
+vi.  采葡萄
+a.  佳酿的, 古典的, 老式的
+diminutive  [di·min·u·tive || dɪ'mɪnjʊtɪv]
+adj.  小的, 指小的, 小型的
+soothe  [suːð]
+v.  使平静, 使缓和或减轻, 安慰; 起安慰作用, 起抚慰作用
+mote  [məʊt]
+n.  尘埃; 微粒
+jade  [dʒeɪd]
+n.  翡翠; 玉; 硬玉; 玉制品#瘦马; 荡妇; 驽马; 轻佻的姑娘
+v.  使疲倦不堪; 使厌倦; 变得疲倦不堪; 厌倦
+smudge  [smʌdʒ]
+n.  污迹, 熏烟
+v.  弄脏, 用浓烟熏, 使模糊; 被弄脏; 形成污迹
+ostentatious  [,os·ten'ta·tious || ‚ɑstən'teɪʃəs /‚ɒs-]
+adj.  装饰表面的, 华美的, 夸示的
+walrus  ['wɒ:lrәs]
+n.  海象
+sailcloth  
+n.  帆布
+basalt  [ba·salt || 'bæsɔːlt]
+n.  玄武岩
+cottage  [cot·tage || 'kɒtɪdʒ]
+n.  农舍, 小屋; 别墅; 单幢住所
+tumble  [tum·ble || 'tʌmbl]
+n.  跌跤; 倒塌; 坠落; 暴跌
+v.  翻倒, 倒塌, 摔倒; 使摔倒, 弄乱, 使滚翻
+spew  [spjuː]
+n.  呕吐物, 喷涌物
+v.  呕吐; 放出; 喷出; 呕吐, 喷涌
+gutter  [gut·ter || 'gʌtə(r)]
+n.  排水沟, 贫民区, 槽
+v.  开沟于; 形成沟; 淌蜡; 流, 淌; 摇曳不定
+festoon  [fes·toon || fe'stuːn]
+n.  花彩
+v.  以花彩装饰
+
+2015-2-19
+bellow  [bel·low || 'beləʊ]
+v.  吼叫; 轰鸣; 怒吼; 大声发出; 大声喝道
+blanch  [blɑːntʃ]
+v.  漂白, 使变白, 变白; 变白; 变苍白
+rash  [ræʃ]
+n.  疹, 疹子; 一下子爆发的一连串
+adj.  草率从事的, 轻率的; 急躁的, 鲁莽的
+wager  [wa·ger || 'weɪdʒə(r)]
+n.  赌, 赌物, 赌博
+v.  下赌注, 保证; 打赌
+squeak  [skwɪːk]
+n.  吱吱声; 侥幸通过; 嘎吱嘎吱声; 助手
+v.  吱吱叫, 侥幸成功, 告密; 以短促尖声发出
+profuse  [pro·fuse || prə'fjuːs]
+adj.  很多的, 浪费的, 丰富的
+growl  [graʊl]
+n.  嗥叫; 轰鸣; 咆哮
+v.  嗥叫; 轰鸣; 咆哮; 咆哮着说
+crusty  ['crust·y || 'krʌstɪ]
+adj.  有硬壳的; 脾气暴躁的; 顽固的
+sidle  [si·dle || 'saɪdl]
+v.  侧身而行; 悄悄地走; 羞怯地走; 使侧身而行
+maggot  [mag·got || 'mægət]
+n.  蛆; 狂想; 怪念头
+lunge  [lʌndʒ]
+n.  刺; 跃进; 刺进
+v.  刺; 冲, 扑; 用刺, 戳
+rear  [rɪr /rɪə]
+n.  后部, 后面; 后方; 背后, 背面; 后尾
+v.  抚养, 培养; 栽种, 培植; 饲养; 竖起, 举起; 高耸; 用后腿站起; 暴跳
+adj.  后面的, 背后的, 后部的; 殿后的; 后方的
+damp  [dæmp]
+n.  湿气
+v.  使潮湿; 抑制; 使沮丧; 降低
+adj.  潮湿的
+engulf  [in'gʌlf]
+vt.  卷入, 吸进, 吞没, 使全神贯注
+calf  [kɑːf]
+n.  小牛; 小牛皮; 仔#笨笨的年轻人
+revulsion  [re·vul·sion || rɪ'vʌlʃn]
+n.  剧变, 剧烈的反应, 非常的厌恶
+thrash  [θræʃ]
+v.  打, 胜过, 使逆行; 痛打; 连续拍击; 打谷, 脱粒; 翻跳, 扭动
+turret  [tur·ret || 'tɜrɪt /'tʌrɪt]
+n.  小塔, 炮塔, 塔楼
+consecrate  [con·se·crate || 'kɒnsɪkreɪt]
+v.  供神用, 使神圣, 奉献
+burst  [bɜːst]
+n.  破裂, 爆发, 突发
+v.  爆炸; 冲, 闯; 破裂; 突然出现; 使爆炸; 突然打开; 使破裂; 冲出
+
+
+2015-2-14
+scabbard  [scab·bard || 'skæbərd / -bəd]
+n.  鞘
+temple  [tem·ple || 'templ]
+n.  神殿, 圣堂; 教堂; 寺院, 寺庙; 礼拜堂#太阳穴, 鬓角; 眼镜脚, 眼镜腿
+gauntlet  [gaunt·let || 'gɔːntlɪt]
+n.  金属护手, 臂铠; 保护手套; 长手套#夹道鞭笞的刑罚; 交叉射击, 交叉火网
+weave  [wɪːv]
+n.  编法, 编织, 织法
+v.  编织, 编排, 组合; 纺织, 摇晃, 迂回行进
+cleaver  ['cleav·er || 'klɪːvə(r)]
+n.  切肉刀, 突出的崖, 切割者
+wail  [weɪl]
+n.  悲叹, 痛快, 哀号
+v.  悲叹, 嚎啕, 哀号; 悲痛
+saucer  [sau·cer || 'sɔːsə(r)]
+n.  茶碟, 垫盘, 茶托
+stubby  [stub·by || 'stʌbɪ]
+adj.  断株一般的, 短而粗硬的, 粗而短的
+flour  ['flaʊə(r)]
+n.  面粉, 碎粉, 粉沫
+v.  撒粉于; 把...磨成粉
+prowl  [praʊl]
+n.  潜行, 悄悄踱步, 徘徊
+v.  潜行于; 在...搜寻; 巡行于; 四处觅食; 徘徊; 暗中来回寻觅; 潜行
+stew  [stjuː]
+n.  炖肉; 拥挤; 闷热#热水浴; 贫民区; 妓院
+v.  炖, 使焦虑, 焖; 炖汤, 忧虑, 焖
+dirge  [dɜːdʒ]
+n.  挽歌; 哀悼歌
+brooch  [brəʊtʃ]
+n.  胸针; 领针
+sphinx  [sfɪŋks]
+n.  斯芬克司, 天蛾, 狮身人面像
+poignant  ['poign·ant || 'pɔɪnjənt]
+adj.  浓烈的; 强烈的; 辛辣的, 酸辣的; 深刻的
+ numb  [nʌm]
+v.  使失去感觉, 使麻木; 使惊呆, 使发愣
+adj.  失去感觉的, 麻木的; 惊呆的, 发愣的
+vinegar  [vin·e·gar || 'vɪnɪgə(r)]
+n.  醋, 尖酸味
+swivel  [swiv·el || 'swɪvl]
+n.  转环, 旋转椅的台座, 旋转轴承
+v.  使旋转; 给...装上转体; 使转动; 旋转; 转动
+brittle  [brit·tle || 'brɪtl]
+adj.  脆的, 易碎的; 易生气的, 难相处的, 敏感的; 易损坏的; 不友好的, 冷淡的
+heel  [hɪːl]
+n.  脚后跟, 踵; 踵状物; 后跟; 底部#侧倾; 倾侧度
+v.  给装后跟; 紧追; 紧跟; 用脚跟往回传; 在后紧随; 用脚后跟跳舞; 紧追; 倾斜; 使倾斜
+
+2015-2-12
+flinch  [flɪntʃ]
+n.  畏惧; 退缩
+v.  畏缩; 畏首畏尾; 退缩
+维科英汉词典      
+
+ retch  [retʃ]
+v.  作呕, 反胃; 吐出
+heave  [hɪːv]
+n.  举, 起伏, 抛
+v.  用力举起, 使鼓起, 使胀起; 抛出, 喘息, 起伏
+braid  [breɪd]
+n.  辫子, 穗带
+v.  编成辫, 镶边
+crone  [krəʊn]
+n.  干瘪老太婆; 老母羊
+cadence  [ca·dence || 'keɪdəns]
+n.  抑扬顿挫; 韵律; 节奏
+gingerly  [gin·ger·ly || 'dʒɪndʒə(r)lɪ]
+adj.  慎重的; 谨慎的
+adv.  小心翼翼地, 慎重地
+pomegranate  [pome·gran·ate || 'pʌmɪ‚grænɪt /'pɒm-]
+n.  石榴
+conspicuous  [con·spic·u·ous || kən'spɪkjʊəs]
+adj.  显著的, 出众的, 显眼的
+prowess  [prow·ess || 'praʊɪs]
+n.  英勇, 超凡技术, 勇敢
+platter  [plat·ter || 'plætə(r)]
+n.  大浅盘
+fig  [fɪg]
+n.  无花果; 少许, 一点儿; 无花果树; 微不足道的事#服装; 健康状况; 盛装
+caravan  [car·a·van || 'kærəvæn]
+n.  旅行队, 有篷顶的大车
+congenial  [con·gen·ial || kən'dʒiːnjəl]
+adj.  同性质的, 趣味相同的, 适意的
+opal  [o·pal || 'əʊpl]
+n.  蛋白石, 猫眼石
+clot  [klɒt]
+n.  凝块
+v.  凝结成块; 使凝结成块
+stammer  [stam·mer || 'stæmə(r)]
+n.  口吃, 结巴
+v.  口吃, 结结巴巴地说话; 结结巴巴地说
+prick  [prɪk]
+n.  扎, 刺痛, 一刺
+v.  刺, 刺痛, 戳; 刺, 竖起
+navel  [na·vel || 'neɪvl]
+n.  脐, 中央, 肚脐
+
+2015-2-11
+desolate  [des·o·late || 'desələt]
+v.  使荒芜; 使孤寂
+adj.  荒凉的
+stanch  [stænʃ]
+vt.  使止血, 止住, 止血
+a.  坚固的, 防水的, 忠实的
+breeches  [breech·es || 'brɪtʃɪz]
+n.  马裤; 裤子
+crane  [kreɪn]
+n.  鹤, 起重机
+v.  伸颈, 以起重机搬移; 伸着脖子看; 踌躇
+talon  [tal·on || 'tælən]
+n.  爪, 魔爪
+swagger  [swag·ger || 'swægə(r)]
+n.  大摇大摆, 吹牛
+v.  昂首阔步, 大摇大摆, 虚张声势吓人; 威吓, 吓唬
+brewer  [brew·er || 'bruːə]
+n.  啤酒制造者, 阴谋家
+hare  [her /heə]
+n.  兔, 野兔
+v.  飞跑
+quill  [kwɪl]
+n.  羽茎, 鹅毛笔, 大翎毛
+vengeance  [venge·ance || 'vendʒəns]
+n.  复仇, 报仇
+haughty  [haugh·ty || 'hɔːtɪ]
+adj.  傲慢的, 不逊的, 骄傲的
+construe  [con·strue || kən'struː]
+v.  解释, 逐字翻译, 分析; 作句法分析
+squirm  [skwɜrm /skwɜːm]
+n.  蠕动; 扭曲
+v.  蠕动, 扭动; 局促不安
+remorse  [re·morse || rɪ'mɔrs /-'mɔːs]
+n.  懊悔, 自责, 良心不安
+pigsty  ['pig·sty || 'pɪgstaɪ]
+n.  猪舍, 脏房子
+onerous  [on·er·ous || 'ɑnərəs /'ɒn-]
+adj.  繁重的; 负有义务的; 麻烦的; 有偿的
+wanly  
+adv.  苍白地; 病态地; 无血色地; 有倦容地
+calf  [kɑːf]
+n.  小牛; 小牛皮; 仔#笨笨的年轻人
+
+2015-2-10
+plaintive  ['plain·tive || 'pleɪntɪv]
+adj.  悲哀的, 哀伤的
+tracery  ['trac·er·y || 'treɪs(ə)rɪ]
+n.  花饰窗格, 窗饰
+pommel  [pom·mel || 'pʌml]
+n.  剑柄的圆球; 鞍马的鞍环; 马鞍的鞍桥
+v.  打, 用拳头连续打
+creek  [kriːk]
+n.  小河, 溪; 小湾, 小港
+trickle  ['trikl]
+n.  滴, 细流
+vi.  滴, 细细地流
+vt.  使滴, 使小量流动
+muzzle  [muz·zle || 'mʌzl]
+n.  动物之鼻口; 钳制言论的手段; 口套
+v.  戴口络于; 上口罩
+mole  [məʊl]
+n.  鼹鼠, 钱鼠; 隧道全断面掘进机; 长期潜伏的间谍#痣#胎块#防波堤#摩尔, 克分子
+pimple  [pim·ple || 'pɪmpl]
+n.  丘疹, 疙瘩, 面泡
+lead  [lɪːd]
+n.  指导, 榜样; 领先的程度; 领先地位; 绳索, 皮带#铅; 铅制品; 黑铅, 铅笔心
+n.  指导, 榜样; 领先的程度; 领先地位; 绳索, 皮带#铅; 铅制品; 黑铅, 铅笔心
+v.  引导; 走在...的最前头; 领; 诱使; 领导; 导致; 通向; 用铅包; 用铅框固定; 在...中衬铅
+v.  引导; 走在...的最前头; 领; 诱使; 领导; 导致; 通向; 用铅包; 用铅框固定; 在...中衬铅
+churn  [tʃɜːn]
+n.  搅乳器
+v.  用搅乳器搅; 剧烈搅动; 用搅乳器搅制; 剧烈摇动; 用搅乳器搅乳; 翻腾; 剧烈搅动
+copse  [kɒps]
+n.  小灌木材, 杂树林
+aspen  [as·pen || 'æspən]
+n.  白杨
+mourner  ['mourn·er || 'mɔrnə(r) /'mɔːn-]
+n.  悲伤者, 送葬者, 哀悼者
+toady  [toad·y || 'təʊdɪ]
+n.  谄媚者, 拍马屁的人
+v.  谄媚, 奉承, 拍马屁
+hone  [həʊn]
+n.  磨刀石
+v.  用磨刀石磨; 想念, 抱怨
+flatly  [flat·ly || 'flætlɪ]
+adv.  断然地; 冷漠地; 单调地; 平坦地
+scrape  [skreɪp]
+v.  刮, 擦; 刮落, 削掉, 擦去; 括干净; 擦伤; 刮掉, 刮出刺耳声, 擦掉
+n.  刮, 擦痕, 擦
+kid  [kɪd]
+n.  小山羊, 小孩, 小山羊肉
+v.  产; 取笑; 戏弄; 欺骗; 产羔; 欺骗; 开玩笑
+merciless  ['mer·ci·less || 'mɜrsɪlɪs /'mɜːs-]
+adj.  无慈悲心的; 残忍的
+
+2015-2-9
+chagrin  [cha·grin || 'ʃægrɪn]
+n.  懊恼
+v.  使懊恼; 使苦恼
+arrogant  ['ar·ro·gant || 'ærəgənt]
+adj.  傲慢的; 自负的; 自大的
+bleat  [bli:t]
+n.  咩咩叫声; 羊叫似的声音
+v.  鸣叫; 轻声说
+moat  [məʊt]
+n.  壕沟, 护城河
+gruff  [grʌf]
+adj.  粗暴的; 脾气坏的; 生硬的
+capon  [ca·pon || 'keɪpən]
+n.  阉鸡
+crisp  [krɪsp]
+n.  油炸马铃薯片; 钞票; 松脆之物
+v.  使卷曲; 使发脆, 把...烘脆; 使起皱, 使起波纹; 卷曲, 起波纹; 冻硬; 发脆
+adj.  脆的, 松脆的, 酥的; 清新的, 凉爽的; 鲜嫩的; 干脆的, 干净利落的
+banter  [ban·ter || 'bæntə]
+n.  戏谑, 嘲弄
+v.  取笑, 逗弄; 开玩笑; 谈笑
+mead  [miːd]
+n.  草地#蜂蜜酒
+spruce  [spruːs]
+n.  云杉; 花旗松; 云杉木
+v.  把...打扮得整洁漂亮; 把自己打扮得整洁漂亮
+adj.  整洁漂亮的
+pitch  [pɪtʃ]
+n.  音高, 声音相对的高低; 焦油, 沥青; 投执; 程度, 倾向; 贸易场所; 一英寸内的字符数 (计算机用语)
+v.  用沥青涂; 搭; 把...定得, 把...定在; 扎; 为...定音高; 搭帐篷; 投掷; 安营; 向前跌
+famished  
+adj.  非常饥饿的
+petulant  ['pet·u·lant || 'petʃlənt /-tʃʊl]
+adj.  暴躁的, 难以取悦的, 易生气的
+grimace  [gri·mace || 'grɪməs /grɪ'meɪs]
+n.  面部的歪扭, 痛苦的表情, 鬼脸
+v.  扮鬼脸; 作苦相
+season  [sea·son || 'sɪːzn]
+n.  季, 季节; 旺季; 节期, 时令; 活跃季节
+v.  给...调味; 使得到锻炼; 加味于; 使适应; 变习惯; 变合用
+brusque  [brʊsk]
+adj.  唐突的, 直率的
+garb  [gɑrb /gɑːb]
+n.  打扮, 装束
+v.  穿, 装扮
+gout  [gaut]
+n.  味, 趣味, 嗜好, 痛风, 麦秆病, 一滴, 一团
+[医] 痛风
+impoverish  [im·pov·er·ish || ɪm'pɑvərɪʃ /-'pɒv-]
+v.  使贫穷, 使枯竭
+panther  [pan·ther || 'pænθə(r)]
+n.  豹, 黑豹
+drawl  [drɔːl]
+n.  慢吞吞的说话方式
+v.  拖长声调说话, 慢声慢气地讲话; 拖长声调说, 慢声慢气地讲
+
+
+
+2015-2-8
+writhe  [raɪð]
+n.  翻腾, 苦恼
+v.  蠕动, 翻滚, 扭动; 扭曲, 翻腾, 缠绕
+writhe  [raɪð]
+n.  翻腾, 苦恼
+v.  蠕动, 翻滚, 扭动; 扭曲, 翻腾, 缠绕
+usher  [ush·er || 'ʌʃə(r)]
+n.  引座员, 传达员, 招待员
+v.  引导, 展示; 作招待员
+wring  [rɪŋ]
+n.  扭绞, 挤, 拧
+v.  拧, 扭, 绞; 蠕动, 绞, 扭动
+unctuous  ['unc·tu·ous || 'ʌŋktʃʊəs]
+adj.  油似的, 油腻的, 油质的
+qualm  [kwɑːm ,kwɔːm]
+n.  晕眩, 疑虑, 不安
+croak  [krəʊk]
+n.  嗄嗄声, 哇哇声
+v.  用嘶哑的声音说; 嗄嗄叫, 发牢骚
+bailey  
+n.  城郭, 外栅
+eel  [iːl]
+n.  鳗鱼, 圆滑的人, 鳝鱼
+ingratitude  [in·grat·i·tude || ɪn'grætɪtuːd /-tju-]
+n.  忘恩, 不知恩
+blithely  
+adv.  愉快地; 快乐地
+botch  [bɒtʃ]
+n.  拙笨的修补, 难看的补缀
+v.  笨拙地修补; 拙劣地拼凑; 糟蹋
+mordant  ['mor·dant || 'mɔrdənt /'mɔːd-]
+n.  金属腐蚀剂, 金箔粘着剂
+adj.  尖酸的, 有腐蚀性的, 辛辣的
+stocky  [stock·y || 'stɑkɪ /'stɒk-]
+adj.  矮胖的, 健壮结实的
+parapet  ['pærәpit]
+n.  栏杆, 扶手, 女儿墙, 胸墙
+caterpillar  [cat·er·pil·lar || 'kætəpɪlə]
+n.  毛虫; 履带式车辆
+tranquil  [tran·quil || 'træŋkwɪl]
+adj.  平静的; 安宁的; 安静的; 平稳的
+haggard  [hag·gard || 'hægə(r)d]
+n.  野鹰
+adj.  憔悴的, 野性的, 形容枯槁的
+emblem  [em·blem || 'embləm]
+n.  象征, 徽章
+crevasse  [cre·vasse || krɪ'væs]
+n.  裂缝, 崩溃处, 破口
+
+
+2015-2-7
+gall  [gɔːl]
+n.  胆汁; 苦的东西; 苦味; 怨恨#肿痛, 擦伤; 磨损处; 鞍伤; 瑕疵
+v.  擦伤, 擦痛; 激怒; 磨损; 羞辱; 擦伤, 擦痛; 磨损
+harsh  [hɑrʃ /hɑːʃ]
+adj.  粗糙的, 严厉的, 刺耳的
+ brigand  [brig·and || 'brɪgənd]
+n.  土匪; 歹徒; 强盗
+fastness  [fast·ness || 'fæstnɪs /'fɑːs-]
+n.  牢固; 据点; 不褪色; 堡垒
+tenor  ['tenә]
+n.  稳定的进程, 思路, 要旨, 大意, 誊本, 票据的限期, 男高音
+a.  男高音的
+manful  [man·ful || 'mænfl]
+adj.  有男子气概的; 果敢的; 勇敢的
+staunch  [stɑntʃ ,-tɔn- /[stɔːn-]
+adj.  坚固的, 不漏水的, 防水的; 坚定的, 可靠的
+herald  [her·ald || 'herəld]
+n.  使者; 通报者; 传令官
+v.  预报; 传达; 宣布
+twang  [twæŋ]
+n.  弦声, 鼻音, 砰然一声
+v.  砰然一声响, 带鼻音, 拨弦声; 用鼻音讲, 使发拨弦声
+club  [klʌb]
+n.  俱乐部, 球棒, 木棍
+v.  棍打; 联合; 协作; 捐献; 联合起来; 集资; 组成俱乐部
+brandish  [bran·dish || 'brændɪʃ]
+v.  挥舞; 炫耀
+wrench  [rentʃ]
+n.  扳钳, 猛扭, 扳手
+v.  猛扭, 曲解, 使扭伤; 猛扭, 绞痛
+vanquish  [van·quish || 'væŋkwɪʃ]
+v.  打败, 克服, 征服
+ supple  [sup·ple || 'sʌpl]
+adj.  易弯曲的, 柔软的; 巴结的, 奴才相的; 柔顺的, 顺从的; 身体柔软的
+loot  [luːt]
+n.  战利品; 赃物; 掠夺物; 钱
+v.  抢劫, 洗劫; 强夺; 掠夺; 抢劫
+gelding  ['geld·ing || 'geldɪŋ]
+n.  去势; 去势的人或牲畜
+raven  [ra·ven || 'reɪvn]
+n.  大乌鸦
+v.  狼吞虎咽地吃; 攫取, 掠夺; 吞食, 狼吞虎咽; 寻机攫取; 空腹觅食
+adj.  乌黑的
+flutter  [flut·ter || 'flʌtə(r)]
+n.  摆动; 烦扰; 鼓翼
+v.  摆动, 烦扰, 鼓翼; 拍; 使焦急
+quail  [kweɪl]
+n.  鹌鹑; 高级妓女; 少女, 姑娘
+v.  胆怯, 畏缩
+serpentine  ['ser·pen·tine || 'sɜrpəntɪːn /'sɜːpəntaɪn]]
+n.  蛇纹石#古时大炮的一种
+adj.  蛇的, 阴险的, 层层卷绕的
+jerkin  [jer·kin || 'dʒɜrkɪn /'dʒɜː-]
+n.  男用无袖短上衣, 短上衣
+
+2015-2-6
+sully  [sul·ly || 'sʌlɪ]
+v.  弄脏; 使丢脸; 玷污
+gash  [gæʃ]
+v.  砍伤; 割破; 划开
+n.  砍得很深的伤口; 很深的裂缝
+wreathe  [rɪːð]
+v.  环绕, 覆盖, 盘绕; 扭动, 缭绕, 成圈
+fumble  [fum·ble || 'fʌmbl]
+n.  摸索, 漏接
+v.  摸索, 漏球, 笨手笨脚; 摸索, 笨拙的处理, 摸弄
+oaf  [əʊf]
+n.  呆子, 畸形儿
+stretcher  ['stretch·er || 'stretʃə(r)]
+n.  担架, 延伸器
+curdle  [cur·dle || 'kɜːdl]
+v.  凝结, 变质, 凝固; 使凝结, 使变质, 使凝固
+whirl  [hwɜrl /wɜːl /wɜːl]
+n.  回旋, 急走, 旋转
+v.  回旋, 急走, 旋转; 使旋转, 使回旋
+upend  
+v.  颠倒; 倒放
+spur  [spɜr /spɜː]
+n.  马刺, 鼓舞, 刺激物
+v.  用靴刺踢; 给...装踢马刺; 鞭策, 鼓励; 策马飞奔; 给予刺激; 急速前进
+ferocity  [fe·roc·i·ty || fə'rɑsətɪ /-'rɒs-]
+n.  凶猛; 残暴的行为; 残暴
+ominous  [om·i·nous || 'ɑmɪnəs /'ɒm-]
+adj.  恶兆的, 预兆的, 不吉利的
+sheen  [ʃɪːn]
+n.  光辉, 光泽, 光彩
+raucous  [rau·cous || 'rɔːkəs]
+adj.  声音沙哑的; 喧闹的; 刺耳的
+thrice  [θraɪs]
+adv.  三次
+melee  [me·lee || 'meleɪ]
+n.  混战; 格斗; 搏斗
+revel  [rev·el || 'revl]
+n.  狂欢; 闹饮; 欢宴; 喜庆狂欢活动
+v.  狂欢作乐, 着迷, 得意
+cowl  [kaʊl]
+n.  蒙头斗篷; 通风帽
+voluminous  [vo·lu·mi·nous || və'ljuːmɪnəs]
+adj.  卷数多的, 著书多的, 大部分的
+cloy  [klɒi]
+vt.  使吃饱, 使过饱, 使厌腻
+vi.  倒胃口
+snick  [snɪk]
+n.  切割; 削打; 细刻痕
+v.  刻; 削打; 使劲打击; 使卡嗒作声
+
+2015-2-5
+sprinkle  [sprin·kle || 'sprɪŋkl]
+n.  洒, 小雨, 散置
+v.  洒, 撒, 散置; 洒, 下小雨
+morsel  [mor·sel || 'mɔrsl /'mɔːsl]
+n.  一口, 一片, 少量
+crack  [kræk]
+n.  裂缝, 爆裂声
+v.  爆裂, 发出爆裂声, 裂开; 使爆裂, 使破裂; 强行进入; 砸开, 砰地一声打开; 使霹啪作响
+adj.  最好的; 高明的
+flaky  ['flak·y || 'fleɪkɪ]
+adj.  薄片的; 薄而易剥落的; 成片的
+cinnamon  [cin·na·mon || 'sɪnəmən]
+n.  肉桂, 肉桂色, 肉桂树
+adj.  用桂皮调味的; 浅红褐色的; 肉桂色的; 浅黄褐色的
+cutlery  ['cut·ler·y || 'kʌtlərɪ]
+n.  刀; 餐具; 利器; 刀剑制造业
+snarl  [snɑrl /snɑːl]
+n.  吠, 嗥; 吼叫; 咆哮#缠结, 乱结; 混乱, 一团糟
+v.  吠, 嗥; 被吼叫着表达出来; 咆哮; 咆哮着说; 咆哮得使; 吼叫着表达; 缠结; 使缠结; 使堵塞; 使混乱, 使一团糟
+brow  [braʊ]
+n.  额头; 面容, 表情; 眉毛; 悬崖边缘, 峭壁顶端
+pocked  [pɑkt /pɒkt]
+adj.  麻子的; 满是凹痕的
+crater  [cra·ter || 'kreɪtə]
+n.  火山口, 弹坑, 喷火口
+fissure  [fis·sure || 'fɪʃə(r)]
+n.  裂缝, 裂隙
+sear  [sɪr /sɪə]
+n.  烧焦痕迹; 烙印#击发阻铁
+v.  烤焦; 使枯萎; 凋萎; 干枯; 烧焦
+adj.  烤焦的; 枯萎的
+snuff  [snʌf]
+n.  烛花, 灯花#以鼻吸气; 闻; 嗅; 鼻烟
+v.  剪花; 扼杀, 消灭; 熄灭, 掐灭; 谋杀; 熄灭, 被掐灭; 断气, 死去; 用鼻子使劲吸; 闻; 嗅
+brazier (Amer.)  [bra·zier || 'breɪzjə]
+n.  火盆#黄铜匠
+shroud  [ʃraʊd]
+n.  裹尸布, 覆盖物, 寿衣
+v.  给穿上寿衣; 掩蔽; 覆盖
+ragged  [rag·ged || 'rægɪd]
+adj.  破烂的; 不整洁的, 蓬乱的; 衣衫褴褛的; 粗糙的, 不平的
+twitch  [twɪtʃ]
+n.  急扯, 抽搐, 颤动
+v.  使抽动; 猛拉, 急扯; 使痉挛; 猛夺; 急拉, 阵痛, 抽搐
+crescent  [cres·cent || 'kresnt]
+n.  新月, 新月形之物
+sizzle  [siz·zle || 'sɪzl]
+n.  嘶嘶声
+v.  发嘶嘶声
+honk  [hɑnk /hɒnk]
+n.  雁鸣, 汽车的喇叭声
+v.  雁鸣叫, 按汽车喇叭; 揿喇叭表示; 鸣
+boar  [bɔː]
+n.  公猪; 野猪; 野猪肉
+
+2015-2-4
+skewer  [skju:ә]
+n.  串肉棒, 烤肉叉子, 针状物
+vt.  刺穿, 串住, 讽刺
+ scurry  ['skʌri]
+vi.  急赶, 急跑, 急转
+n.  急赶, 急跑, 急转, 阵雪, 阵雨
+wink  [wiŋk]
+n.  眨眼, 使眼色, 瞬间
+vi.  眨眼, 使眼色, 闪烁
+vt.  眨
+trio  ['tri:әu]
+n.  三重唱
+pavilion  [pә'viljәn]
+n.  楼阁, 亭子, 大帐篷, 观众席
+vt.  置...于亭中, 搭帐篷, 笼罩
+avalanche  ['ævәlɑ:ntʃ]
+n.  雪崩, 山崩, 大量
+vi.  崩塌
+vt.  大量涌至
+rune  [ruːn]
+n.  如尼文; 神秘的记号
+fare  [fєә]
+n.  费用, 旅客, 食物
+vi.  进展, 进步, 经营, 过活
+in unison  
+和谐, 一致, 一齐
+splinter  ['splintә]
+n.  碎片, 尖片, 分裂出来的小派别, 微小的东西
+vt.  使分裂, (使)破裂
+vi.  使分裂, (使)破裂
+composure  [kәm'pәuʒә]
+n.  镇静, 沉着
+spade  [speid]
+n.  铲子, 锄, 铲刀, 黑桃
+vt.  以锄掘, 把...弄实抹平
+vi.  铲
+tine  [tain]
+n.  齿, 尖头
+doublet  [dou·blet || 'dʌblɪt]
+n.  紧身上衣; 成对的东西
+coronet  [cor·o·net || 'kɒrənɪt]
+n.  冠, 冠状头饰, 冠冕
+juggle  [jug·gle || 'dʒʌgl]
+n.  玩戏法; 欺骗; 魔术
+v.  耍弄; 篡改; 歪曲; 玩戏法; 篡改; 诓骗
+simpleton  [sim·ple·ton || 'sɪmpltən]
+n.  笨蛋, 傻子
+barley  [bar·ley || 'bɑːlɪ]
+n.  大麦
+venison  [ven·i·son || 'venzn ,-zn]
+n.  鹿肉; 野味
+spinach  [spin·ach || 'spɪnɪtʃ /-dʒ]
+n.  菠菜
+plum  [plʌm]
+n.  洋李; 李属植物; 梅子; 葡萄干
+
+2015-2-3
+patronage  ['pætrәnidʒ]
+n.  赞助, 恩赐态度, 光顾, 任免权, 保护人的身分
+evenly  ['i:vәnli]
+ad.  平衡地, 平坦地, 平等地
+barn  [bɑ:n]
+n.  谷仓
+shaggy  ['ʃægi]
+a.  毛发蓬乱的, 粗浓的, 草木丛生的
+unkempt  ['ʌnkempt]
+a.  蓬乱的, 未被照管好的
+clink  [kliŋk]
+n.  叮当声
+vt.  (使)发叮当声
+vi.  (使)发叮当声
+sodden  ['sɒdn]
+a.  浑身湿透的, 饱含的, (因沉湎于酒而)迷糊的
+vt.  拿水浸, 使变呆
+vi.  被浸湿
+limp  [limp]
+n.  跛行
+a.  柔软的, 无力的, 软弱的
+vi.  跛行
+cask  [kæsk, kɑ:sk]
+n.  桶, 木桶
+vt.  装入桶内
+chisel  ['tʃizәl]
+n.  凿子
+vt.  凿, 刻, 雕凿, 欺骗
+vi.  凿, 刻, 雕凿, 欺骗
+curt  [kә:t]
+a.  简略的, 简短的, 生硬的
+confluence  ['kɒnfluәns]
+n.  合流, 合流点, 集合, 人群
+cursory  ['kә:sәri]
+a.  匆匆忙忙的, 草率的, 粗略的
+garret  ['gærәt]
+n.  层顶层, 阁楼, 顶楼, 头
+pane  [pein]
+n.  窗玻璃, 方框, 方格, 窗格
+vt.  嵌窗玻璃于
+tax  [tæks]
+n.  税, 税款, 重负, 会费
+vt.  课以税, 使负重荷, 斥责
+impregnable  [im'pregnәbl]
+a.  无法攻取的, 坚强不屈的, 驳不倒的
+fervent  ['fә:vәnt]
+a.  热的, 炎热的, 热心的
+exasperation  [ig,zæspә'reiʃәn]
+n.  恼怒, 恼怒的原因
+keg  [keg]
+n.  小桶
+
+2015-2-2
+taunt  [tɒ:nt]
+n.  辱骂, 嘲弄
+vt.  嘲弄, 奚落
+screech  [skri:tʃ]
+n.  尖声喊叫, 尖叫声, 煞车声
+vt.  尖声讲
+vi.  发出尖声
+grit  [grit]
+n.  砂砾, 粗砂石
+vt.  覆以砂砾, 咬牙切齿地说
+vi.  摩擦作声
+scowl  [skaul]
+n.  愁容, 阴沉脸色
+vi.  皱眉, 绷着脸
+vt.  怒视
+craven  ['kreivәn]
+n.  懦夫, 怯懦者, 胆小鬼
+a.  怯懦的, 畏缩的, 胆小的
+cherish  ['tʃeriʃ]
+vt.  珍爱, 怀有, 爱护
+ winch  [wintʃ]
+n.  曲柄, 绞车
+vt.  用绞盘拉
+bracing  
+a.  新鲜的, 凉爽的, 爽快的, 振奋精神的
+n.  联条, 支撑物, 支柱, 背带
+mull  [mʌl]
+n.  软薄布, 混乱
+vt.  研磨, 细想
+vi.  深思熟虑
+clasp  [klɑ:sp]
+n.  扣子, 钩, 紧握
+vt.  扣紧, 紧握
+vi.  扣紧, 紧握
+duel  ['dju:әl]
+n.  决斗, 斗争
+vi.  决斗
+portcullis  [,pɒ:t'kʌlis]
+n.  吊闸
+vt.  给...装吊闸, 用吊闸关闭
+satin  ['sætin]
+n.  缎子
+a.  绸缎做的, 缎子一般的, 光滑的
+ebony  ['ebәni]
+n.  乌木
+a.  乌木制的
+unicorn  
+n.  似马的独角兽
+griffin  [grif·fin || 'grɪfɪn]
+n.  狮身鹫首的怪兽
+sapphire  ['sæfaiә]
+a.  天蓝色的
+n.  蓝宝石, 刚玉宝石, 天蓝色
+goblet ['gɒblit]
+n.  高脚杯, 酒杯
+journeyman  
+n.  雇工, 熟练工人, 短工
+
+
+2015-2-1
+quip  [kwip]
+n.  妙语, 遁辞, 讽刺
+vt.  说讽刺话, 嘲弄
+vi.  说讽刺话, 嘲弄
+solicitude  
+n.  焦虑, 关心, 担心, 挂念, 渴望, 担心的事情
+wondrous  ['wʌndrәs]
+a.  令人惊奇的
+enchanter  [in'tʃæntә]
+n.  巫师, 魔法师
+admonition  [,ædmәu'niʃәn]
+n.  警告, 劝告, 训诫
+heft  [heft]
+n.  重量, 影响, 重要性
+vt.  举起试重量, 举起
+vi.  称重量
+grip  [grip]
+n.  紧握, 柄, 握力, 握手方式, 手提包, 掌握, 支配, 控制
+vt.  抓紧, 抱住, 吸住, 掌握
+vi.  握牢, 有吸引力
+sluice  [slu:s]
+n.  水门, 水闸, 蓄水
+vt.  泄洪, 冲洗
+vi.  奔流
+tiresome  ['taiәsәm]
+a.  累人的, 烦人的
+rampart  ['ræmpɑ:t]
+n.  垒, 壁垒, 防御土墙
+vt.  用壁垒围绕, 防卫, 守卫
+paragon  ['pærәgәn]
+n.  杰出典范, 完人, 完美之物
+pivot  ['pivәt]
+n.  枢轴, 支点, 旋转运动, 中枢, 关键人物
+a.  枢轴的, (如)在枢轴上转动的
+vi.  在枢轴上转动, 随着转移
+vt.  装枢轴于, 以...为中心旋转
+slit  [slit]
+n.  裂缝, 投币口, 狭长裂口
+vt.  切开, 扯裂, 使有狭缝
+vi.  纵切, 纵裂
+troupe  [tru:p]
+n.  团, 班, 一伙
+vi.  巡回演出
+girth  [gә:θ]
+n.  (树的)干围, 周长, 肚带
+vt.  围绕, 包围
+vi.  围长为
+apprentice  [ә'prentis]
+n.  学徒, 生手
+vt.  使做学徒
+pudgy  ['pʌdʒi]
+a.  矮胖的
+tentative  ['tentәtiv]
+n.  试验
+a.  试验性的, 暂时的
+smack  [smæk]
+n.  风味, 滋味, 少量, 拍击声, 咂嘴声, 小渔船, 海洛因
+vi.  有味道, 咂嘴, 发出拍击声
+vt.  拍, 打, 掴, 咂, 出声地吻
+ad.  啪地一声, 猛然
+
+
+
+2015-1-30
+falter  ['fɒ:ltә]
+vt.  支吾地说
+vi.  支吾, 蹒跚地走
+n.  颤抖, 支吾, 踌躇
+caw  [kɒ:]
+n.  乌鸦的叫声
+vi.  发出鸦叫声
+oar  [ɒ:]
+n.  桨, 桨手, 搅棒
+vi.  划桨
+vt.  划动
+ply  [plai]
+n.  厚度, 板层
+vt.  使用, 使劲挥舞, 从事, 折, 弯
+vi.  辛勤工作, 定期航行
+avarice  ['ævәris]
+n.  贪婪
+sloop  [slu:p]
+n.  单桅帆船
+galley  ['gæli]
+n.  战舰, 军舰
+throb  [θrɒb]
+n.  跳动, 搏动
+vi.  博动, 抽动, 颤动
+redoubt  [ri'daut]
+n.  多面堡, 防御阵地
+manse  [mæns]
+n.  牧师住宅
+arbor  ['ɑ:bә]
+n.  藤架, 树, 心轴, 凉亭
+brothel  ['brɒθәl]
+n.  妓院
+abreast  [ә'brest]
+ad.  并肩地, 并列地
+quay  [ki:]
+n.  码头, 驳岸
+barbican  
+n.  外堡, 碉楼
+pier  [piә]
+n.  码头, 桥墩, 支框, 防波堤
+contrite  ['kɒntrait]
+a.  悔悟了的, 后悔的, 痛悔的
+lilac  ['lailәk]
+n.  丁香, 丁香花, 淡紫色
+a.  淡紫色的
+bob  [bɒb]
+vt.  剪短, 敲击
+vi.  振动, 上下跳动
+n.  短发, 悬挂的饰品, 浮子, 摆动, 轻敲, 5便士
+
+
+
+2015-1-29
+clammy  ['klæmi]
+a.  湿粘的, 病态的
+horsey  
+adj.  马的; 似马的
+welt  [welt]
+n.  贴边, 鞭痕, 殴打
+vt.  加贴边, 鞭打
+splotch  [splɒtʃ]
+n.  斑点, 污点
+vt.  使有斑点
+wriggle  ['rigl]
+n.  蠕动, 蜿蜒
+vi.  蠕动, 蜿蜒前进, 摆脱
+vt.  使扭动, 扭动着爬
+groom  [gru:m]
+n.  马夫, 新郎, 男仆
+vt.  喂马, 使...整洁, 推荐
+vi.  打扮, 穿戴
+stalk  [stɒ:k]
+n.  茎, 追踪, 高视阔步
+vi.  悄悄靠近, 蹑手蹑脚地走近, 蔓延, 高视阔步
+vt.  追踪, 搜索
+intricate  ['intrikit]
+a.  复杂的, 错综的, 缠结的, 难懂的
+glitter  ['glitә]
+n.  灿烂, 闪烁, 辉耀
+vi.  灿烂, 闪烁, 辉耀
+cradle  ['kreidl]
+n.  摇篮, 发祥地, 孩提时代
+vt.  放在摇篮内, 抚育
+vi.  刈割
+grim  [grim]
+a.  冷酷的, 坚强的, 残忍的, 可怕的, 讨厌的
+concede  [kәn'si:d]
+vt.  承认, 退让
+vi.  让步
+quell  [kwel]
+vt.  压制, 平息, 减轻
+slander  ['slændә]
+n.  中伤, 诽谤
+vt.  中伤, 诽谤
+shrunken  ['ʃrʌnkәn]
+a.
+1. 缩小的
+2. shrink的过去分词
+scrawny  ['skrɒ:ni]
+a.  瘦的, 骨瘦如柴的
+stifle  ['staifl]
+vt.  使窒息, 抑止, 扼杀
+vi.  窒息, 被扼杀
+auburn  ['ɒ:bәn]
+n.  赤褐色
+a.  赤褐色的
+pummel  ['pʌml]
+vt.  击, 打, 揍
+
+
+2015-1-28
+impervious  [im'pә:viәs]
+a.  透不过的, 不易损坏的, 无动于衷的, 不受影响的
+dank  [dæŋk]
+a.  阴湿的, 潮湿的
+onyx  ['ɒniks]
+n.  缟玛瑙
+mastiff  ['mæstif]
+n.  大驯犬
+gullet  ['gʌlit]
+n.  食道, 咽喉, 排水沟, 海峡
+grasp  [græsp]
+n.  把握, 抓紧, 理解, 抓, 柄, 控制
+vt.  抓住, 紧握, 领会
+vi.  抓
+chronicler  
+n.  年代史编者, 记录者
+conscript  ['kɒnskript]
+a.  被征入伍的, 被征召的
+n.  征兵
+vt.  征召
+fealty  ['fi:әlti]
+n.  忠诚, 忠贞, 忠实
+whetstone  ['hwetstәun]
+n.  磨石
+guffaw  [gʌ'fɒ:]
+vt.  哄笑, 狂笑
+vi.  哄笑, 狂笑
+n.  哄笑, 狂笑
+midden  ['midn]
+n.  垃圾堆, 堆肥
+sullen  ['sʌlәn]
+a.  愠怒的, 沉闷的, 阴沉的
+poacher  ['pәutʃә]
+n.  偷猎者, 侵入者, 炖蛋锅
+grunt  [grʌnt]
+vi.  作呼噜声
+vt.  咕哝
+n.  呼噜声, 咕哝
+haunch  [hɒ:ntʃ]
+n.  腰腿, 臀部, 腰腿肉
+ladle  ['leidl]
+n.  勺子, 长柄勺
+vt.  以勺舀取, 以勺掬, 不分对象予以赠送
+baffle  ['bæfl]
+vt.  困惑, 为难, 使挫折
+vi.  徒作挣扎
+n.  迷惑, 挡板
+mellow  ['melәu]
+a.  成熟的, 醇的, 熟练的
+niche  [nitʃ]
+n.  壁龛
+vt.  放入壁龛, 安顿
+
+
+
+
+2015-1-27
+filly  ['fili]
+n.  小雌马, 小姑娘
+stirrup  ['stә:rәp]
+n.  马镫, 镫具, U形物
+trot  [trɒt]
+n.  快步
+vi.  快步走, 小跑
+vt.  使小跑, 策马小跑
+gallop  ['gælәp]
+n.  疾驰, 飞奔
+vi.  飞驰, 急速进行, 急急忙忙地说
+vt.  使飞跑, 迅速运输
+hoot  [hu:t]
+n.  叫嚣, 嘲骂声, 鸣响
+vi.  大声叫嚣, 鸣响, 猫头鹰叫
+vt.  呵斥, 轰赶
+callus  ['kælәs]
+n.  皮肤的硬皮, 胼胝, (植物伤口的)愈合组织, 老茧
+knuckle  [knuck·le || 'nʌkl]
+n.  指关节; 肘; 膝关节; 蹄
+v.  用指关节敲打
+stumble  ['stʌmbl]
+n.  绊倒, 蹒跚而行, 失足
+vt.  使绊倒, 使困惑
+vi.  绊倒, 失足, 失策, 犯错, 蹒跚, 踌躇
+predawn  [pri:'dɒ:n]
+a.  黎明前的
+groggy  ['grɒgi]
+a.  酒醉的, 东歪西倒的, 摇摇晃晃的
+creak  [kri:k]
+n.  辗轧声, 嘎吱嘎吱声
+vi.  作辗轧声, 发出辗轧声
+vagabond  ['vægәbɒnd]
+n.  流浪者, 浪子, 流氓
+vi.  到处流浪
+a.  流浪的, 漂泊的, 浪荡的, 流浪者的
+tavern  ['tævәn]
+n.  酒馆, 客栈
+wench  [wentʃ]
+n.  少妇, 乡下姑娘, 女仆
+vi.  私通, 嫖妓
+sigil  ['sidʒil]
+n.  图章, 印章, 印记, 魔符
+hummock  ['hʌmәk]
+n.  圆丘, 小丘, 山岗
+barrow  ['bærәu]
+n.  搬运架, 手推车, 古墓
+bicker  ['bikә]
+vi.  斗嘴, 潺潺而流, 闪动
+trepidation  [,trepi'deiʃәn]
+n.  恐惧, 惊惶, 忧虑
+coffer  ['kɒfә]
+n.  保险箱, 金库
+vt.  把...锁进箱子
+
+
+
+
+
+2015-1-26
+unbidden  [,ʌn'bidn]
+a.  未奉命的, 未受指使的, 自发的, 未受邀请的
+sausage  ['sɒsidʒ]
+n.  香肠, 腊肠
+pastry  ['peistri]
+n.  油酥点心, 面粉糕饼
+pastry  ['peistri]
+n.  油酥点心, 面粉糕饼
+avert  [ә'vә:t]
+vt.  转开, 避免, 防止
+scythe  [saið]
+n.  长柄大镰刀, 大钐镰
+vt.  用大镰刀割
+slash  [slæʃ]
+vt.  猛砍, 乱砍
+vi.  猛砍, 乱砍
+n.  猛砍, 乱砍, 删减
+shriek  [ʃri:k]
+n.  尖锐的响声
+vi.  尖叫, 发尖声
+vt.  尖声发出
+entrails  ['entreilz]
+pl.  内脏, 肠, (物体)内部
+monstrous  ['mɒnstrәs]
+a.  巨大的, 畸形的, 怪异的
+hulking  ['hʌlkiŋ]
+a.  笨重的, 粗陋的
+burly  ['bә:li]
+a.  结实的, 粗壮的, 率直的
+cedar  ['si:dә]
+n.  雪松, 香椿
+damask  ['dæmәsk]
+n.  花缎, 淡红色
+a.  花缎的, 淡红色的
+vt.  使织出花纹
+vi.  织花纹
+gasp  [gæsp]
+n.  喘气
+vi.  喘气, 喘息, 渴望
+vt.  气喘吁吁地说
+enamel  [i'næml]
+n.  珐琅, 瓷釉
+vt.  涂以瓷釉, 彩饰
+porcelain  ['pɒ:slin]
+n.  瓷器, 瓷
+a.  瓷制的
+shimmer  ['ʃimә]
+n.  微光, 闪光
+vi.  闪烁
+vt.  使闪烁
+fleck  [flek]
+n.  斑点, 雀斑, 斑纹
+vt.  使起斑点, 使有斑纹, 使有斑驳
+cream  [kri:m]
+n.  乳酪, 奶油, 面霜
+
+
+2015-1-25
+eyrie  [ey·rie || 'aɪərɪ]
+n.  猛禽的巢; 高山上的房舍
+indigestion  [,indi'dʒestʃәn]
+n.  消化不良
+astride  [ә'straid]
+ad.  跨着
+vertigo  ['vә:tigәu]
+n.  眩晕, 迷惘
+shrilly  ['ʃrili]
+ad.  尖声地, 刺耳地
+loath  [lәuθ]
+a.  不情愿的, 厌恶的
+loath  [lәuθ]
+a.  不情愿的, 厌恶的
+discourse  ['diskɒ:s]
+n.  谈话, 演讲
+vi.  谈话, 讲述
+gape  [geip]
+n.  裂口, 张嘴, 打哈欠
+vi.  裂开, 张嘴, 打哈欠
+snug  [snʌg]
+a.  舒适的, 温暖的, 整洁的, 紧身的, 隐藏的
+vt.  使整洁干净, 使紧身, 隐藏
+parchment  ['pɑ:tʃmәnt]
+n.  羊皮纸, 毕业文凭, 学位证书
+corkscrew  ['kɒ:kskru:]
+n.  拔塞钻
+a.  螺旋形的
+vt.  硬拉出, 探听
+vi.  曲折行进
+rasp  [ræsp]
+n.  粗锉刀, 刺耳声
+vt.  用粗锉刀锉, 粗声粗气地说
+vi.  粗锉, 锉磨, 发刺耳声
+visor  ['vaizә]
+n.  面甲, 帽舌, 面罩
+clangor  
+vi.  发铿锵声, 发丁当声
+n.  铿锵声, 丁当声
+mummer  [mum·mer || 'mʌmə(r)]
+n.  哑剧演员; 伶人
+insolence  ['insәlәns]
+n.  傲慢, 无耻, 傲慢态度
+soot  [sut]
+n.  煤烟, 炭黑色
+vt.  熏以煤烟
+rumble  ['rʌmbl]
+n.  隆隆声, 辘辘声
+vi.  发隆隆声, 辘辘响
+vt.  使隆隆响, 低沉地说
+perfunctory  [pә'fʌŋktәri]
+a.  敷衍的, 随随便便的, 得过且过的
+hush  [hʌʃ]
+n.  肃静, 安静, 沉默
+vt.  (使)肃静, (使)安静, (使)缄默
+
+
+
+
+
+2015-1-24
+wry  [rai]
+a.  扭歪的, 歪曲的, 歪斜的
+vt.  扭曲, 扭歪
+vi.  扭曲, 扭歪
+abash  [ә'bæʃ]
+vt.  使不安, 使羞愧, 使困窘
+whack  [hwæk]
+vt.  猛击, 重打, 削减
+vi.  重击
+n.  重击, 重打
+surcoat  
+n.  外衣
+bout  [baut]
+n.  一回, 回合, 较量
+swat  [swɒt]
+vt.  用力打下去, 重拍
+n.  用劲打击, 长打, 全垒打
+bristle  ['brisl]
+n.  刚毛, 猪鬃
+vi.  直立, 发怒, 充满
+vt.  使直立
+frolic  ['frɒlik]
+n.  嬉戏
+vi.  嬉戏
+a.  嬉戏的, 欢乐的
+thaw  [θɒ:]
+n.  融解, 融化, 解冻时期
+vt.  使融解, 使缓和
+vi.  融化, 解冻
+kennel  ['kenl]
+n.  狗舍, 狗屋, 阴沟
+vt.  置于狗舍, 宿于狗舍
+vi.  进狗窝
+sprint  [sprɪnt]
+n.  短距离赛跑
+v.  奋力而跑, 冲刺
+howl  [haul]
+n.  嗥叫, 吠声, 号叫
+vi.  狂吠, 咆哮, 呼啸
+vt.  对...吼叫, 狂喊着说
+slant  [slænt]
+n.  倾斜, 斜面, 观点, 偏见, 歪曲
+a.  倾斜的
+vt.  (使)倾斜
+vi.  (使)倾斜
+gnarl  [nɑ:l]
+n.  木节, 木瘤
+vi.  形成木节, 咆哮
+vt.  扭曲
+crevice  ['krevis]
+n.  裂缝
+loft  [lɒft]
+n.  阁楼, 鸽房, 楼上
+vt.  储存于阁楼上
+vi.  将球高击
+jumble  [dʒʌmbl]
+vi.  搀杂, 混杂
+vt.  搞乱, 使混乱
+n.  混乱, 薄饼
+char  [tʃɑ:]
+n.  家庭杂务, 炭
+vi.  打杂, 烧焦
+mortar  ['mɒ:tә]
+n.  臼, 研钵, 灰泥
+vt.  用灰泥涂抹, 用灰泥结合
+shinny  
+vi.  攀, 爬
+
+
+
+
+
+
+
+
+
+
+
+
+2015-1-22
+crag  [kræg]
+n.  峭壁, 危岩
+gaunt  [gɒ:nt]
+a.  瘦削的, 憔悴的, 荒凉的
+lance  [lɑ:ns]
+n.  长矛, 柳叶刀, 执矛战士
+vt.  以长矛攻击, 冲进
+vi.  急进
+venom  ['venәm]
+n.  毒液, 恶意
+vt.  放毒, 使有毒
+sentry  ['sentri]
+n.  哨兵, 看守
+vt.  设岗哨
+vi.  站岗, 放哨
+朗道英汉词典      
+
+ huddle  ['hʌdl]
+n.  杂乱一团, 混乱, 拥挤
+vt.  把...挤在一起, 乱堆, 草率了事, 蜷曲
+vi.  挤作一团, 蜷缩
+drear  [drɪə]
+adj.  悲伤的; 无聊的; 阴郁的
+nuzzle  ['nʌzl]
+vt.  将鼻插入, 用鼻掘, 蜷卧
+vi.  将鼻插入, 用鼻掘, 蜷卧
+tactful  ['tæktful]
+a.  机智的, 老练的
+rueful  ['ru:ful]
+a.  悲伤的, 后悔的, 可怜的
+saunter  ['sɒ:ntә]
+n.  闲逛, 漫步
+vi.  闲逛, 漫步
+scald  [skɒ:ld]
+n.  烫伤, 烫洗
+vt.  烫伤, 烫洗
+vi.  烫伤, 烫洗
+tapestry  ['tæpistri]
+n.  挂毯, 绒绣
+vt.  用挂毯装饰
+sept  [sept]
+n.  氏族
+bluster  ['blʌstә]
+vt.  风狂吹, 咆哮, 汹涌
+vi.  咆哮着说出, 恐吓
+n.  狂风声, 巨浪声, 夸口, 大话
+steward  ['stju:wәd]
+n.  管理人, 招待员, 管家, 乘务员
+armory  [ar·mor·y || 'ɑːmərɪ]
+n.  军械库; 宝库; 兵工厂; 国民兵训练中心
+sill  
+n.  基石, 槛, 窗台, 岩床, 海底山脊, 梁
+emblazon  [im'bleizn]
+vt.  用纹章装饰, 盛饰, 颂扬
+kraken  ['krɑ:kәn]
+n.  (相传北海中出现的)怪物
+
+
+
+
+
+2015-1-21
+flagon  ['flægәn]
+n.  酒壶
+squire  ['skwaɪə(r)]
+n.  乡绅; 地方法官; 大地主; 律师
+v.  护卫, 侍从
+crimson  ['krimzәn]
+n.  深红色
+a.  深红色的
+vt.  (使)变为深红色, 脸红
+vi.  (使)变为深红色, 脸红
+ballad  ['bælәd]
+n.  歌谣
+pewter  [pew·ter || 'pjuːtə(r)]
+n.  白蜡, 奖赏
+dais  ['deiis]
+n.  台, 讲台
+wisp  [wɪsp]
+n.  小把, 小捆, 小束
+insipid  [in'sipid]
+a.  乏味的, 清淡的, 难吃的
+tunic  ['tju:nik]
+n.  束腰外衣
+waddle  
+vi.  摇摇摆摆地走, 蹒跚而行
+n.  蹒跚
+stunt  [stʌnt]
+n.  特技, 绝技, 花招, 噱头, 手腕, 发育不良
+vt.  阻碍成长
+vi.  表演特技
+squash  [skwɒʃ]
+n.  挤压, 压碎的东西, 南瓜属植物, 拥挤的人群
+vt.  压扁, 镇压, 压制
+vi.  被压扁, 发溅泼声, 挤入
+shelf  [ʃelf]
+n.  架子, 搁板
+lank  [læŋk]
+a.  瘦的, 细长的, 长而柔软的
+cur  [kә:]
+n.  恶狗, 杂狗
+mongrel  ['mʌŋgrәl]
+n.  杂种, 杂种狗, 混血儿
+a.  杂种的, 混血儿的
+fang  ['fæŋ]
+n.  尖牙, 犬牙
+ruffle  ['rʌfl]
+n.  皱褶, 波纹, 生气, 混乱
+vt.  弄皱, 触怒, 洗(牌), 连续轻擂(鼓)
+vi.  起皱, 发脾气, 连续轻擂
+straddle  ['strædl]
+n.  跨坐, 观望
+vt.  跨坐, 两腿叉开坐, 观望
+vi.  跨坐, 两腿叉开坐, 观望
+crunch  [krʌntʃ]
+vt.  嘎吱嘎吱的咬嚼, 压碎, 嘎吱嘎吱地踏过
+vi.  嘎吱嘎吱的咬嚼, 压碎, 嘎吱嘎吱地踏过
+n.  咬碎, 咬碎声
+
+
+
+2015-1-20
+crypt              [krɪpt]n.  土窖, 地下室, 地穴
+jest               [dʒest] n.  笑柄, 笑话 v.  讲笑话, 开玩笑, 嘲笑; 嘲笑
+semicricle         ['semi,sә:kl]n.  半圆形
+lurch              [lә:tʃ]n.  惨败, 倾斜, 挫折, 举步蹒跚, 徘徊 vi.  惨败, 倾斜, 徘徊 vt.  击败
+flicker            ['flikә]vi.  闪动, 闪烁, 摇动, 扑动翅膀
+sepulcher          ['seplkә]n.  坟墓vt.  埋葬         
+subterranean       [,sʌbtә'reinjәn]a.  地下的, 秘密的n.  地下室, 地下工作者
+vengeful           ['vendʒful]a.  复仇心重的, 报复的
+stonemason         ['stәunmeisn]n.  石工, 石匠
+hoarse             [hɒ:s]a.  沙哑的, 嘶哑的
+antler             ['æntlә]n.  鹿角
+breastplate        ['brestpleit] n.  护胸甲, 腹甲, 胸革带
+wrought            [rɒ:t]a.  制成的, 精细的
+destrier           ['destriә] n.  军马
+scrabble           ['skræbl] vi.  扒寻, 摸索, 挣扎 vt.  扒成, 急急搜索 n.  扒, 抓, 摸索, 挣扎
+tourney            n.  参加比赛
+brusquely          adv.  唐突地; 粗率地
+liege              [li:dʒ]n.  君主, 王侯, 臣下 a.  君主的, 臣下的, 君臣关系的
+betrothal          [be'troth·al || -ðl] n.  婚约; 订婚礼
+forebode           [fɒ:'bәud] vt.  预示, 预兆, 预感 vi.  预示, 预兆, 预感
+
+
 2011-9-19
 日期		复习		+1		+3		+7		+14	
 1	complusory	义务的，必须做的，强制性的，（课程）必修的
@@ -1529,9 +3151,9 @@ If they are to distinguish their wares form selfpublished dross, they must….
 1	flavor	味,味道[C][U]
 1	grip	紧握;紧咬;夹住[C][S1]
 1	alligator	【动】(产于美国及中国的)短吻鳄[C]
-1	clown	小丑
-1 	tortilla 	(墨西哥)玉米粉薄烙饼 
-1 	predicate 	名词 n. [C]1.【语】谓语,述部  形容词 a. [B]1.【语】谓语的,述部 
+1    clown     小丑
+1    tortilla  (墨西哥)玉米粉薄烙饼 
+1    predicate      名词 n. [C]1.【语】谓语,述部  形容词 a. [B]1.【语】谓语的,述部 
 1 	imagine 	想象.设想. 作...的象.反映.象征. 图像.象征.
 
 
