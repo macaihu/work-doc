@@ -1,4 +1,9 @@
 
+2017-12-2
+plop           [plɒp]n.  扑通声, 掉下ad.  扑通一声地vt.  把...沉重地放下 vi.  扑通落下
+pageantry      ['pædʒәntri]n.  壮观, 华丽, 虚饰, 露天历史剧
+jangle         ['dʒæŋgl] vt.  吵架, (使)发出刺耳声 vi.  吵架, (使)发出刺耳声  n.  吵嚷, 刺耳声, 空谈
+
 2017-12-1
 vaguely        ['veigli] ad.  含糊地, 暧昧地
 balustrade     [,bælә'streid] n.  栏杆
@@ -1756,8 +1761,7 @@ pigsty  ['pig·sty || 'pɪgstaɪ]
 n.  猪舍, 脏房子
 onerous  [on·er·ous || 'ɑnərəs /'ɒn-]
 adj.  繁重的; 负有义务的; 麻烦的; 有偿的
-wanly  
-adv.  苍白地; 病态地; 无血色地; 有倦容地
+wanly            adv.  苍白地; 病态地; 无血色地; 有倦容地   2017.12.2
 calf  [kɑːf]
 n.  小牛; 小牛皮; 仔#笨笨的年轻人
 
