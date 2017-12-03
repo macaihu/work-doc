@@ -1,4 +1,11 @@
 
+2017-12-3
+gag            [gæg] n.  箝口物, 箝制言论, 讨论终结 vt.  阻塞, 压制言论自由, 使窒息, 使呕吐, 插科打浑, 欺骗
+                     vi.  窒息, 作呕, 欺骗, 插科打浑
+foal           [fәul]n.  驹 vt.  生仔 vi.  生仔
+garland        [gar·land || 'gɑrlənd /'gɑːl-]n.  花环v.  戴花环
+groin          [grɔɪn]n.  腹股沟; 交叉拱
+
 2017-12-2
 plop           [plɒp]n.  扑通声, 掉下ad.  扑通一声地vt.  把...沉重地放下 vi.  扑通落下
 pageantry      ['pædʒәntri]n.  壮观, 华丽, 虚饰, 露天历史剧
@@ -169,7 +176,7 @@ instep         n.足背；足弓；鞋面
 parapet        n.(阳台,桥等的)栏杆；女儿墙
 gruff          adj.低沉沙哑的；生硬的；冷淡的；态度生硬的
 cavort         v.欢跃；欢蹦乱跳；嬉戏；放荡地玩乐
-rankle         v.红肿；压在胸口[心头]；激怒；使怨恨
+rankle         v.红肿；压在胸口[心头]；激怒；使怨恨   2017.12.3
 lecherous      adj.好色的；淫荡的
 molder         v.腐烂；腐朽
 masquerade     n.伪装；化装舞会；假面舞会 v.冒充
@@ -631,7 +638,7 @@ But obviously this person’s a hazard. Stupid people are dangerous.
 17	wring	拧，绞，拧出，绞出(衣服等中的水)
 18	vie	激烈竞争；争夺 
 19	corsair	海盗（尤指非洲的）
-20	protestation	申明；断言
+20	protestation	申明；断言  
 In no time, I’ve cleaned and gutted the animal, leaving the head, feet, tail, skin, and innards,   under a pile of leaves. 
 Tyrion reached a thumb and forefinger into the salt dish, and sprinkled a healthy pinch over his meat. 
 Centuries of windblown dirt had pocked and scoured it, covering it like a film, and it often seemed a pale grey, the color of an overcast sky . . .
@@ -832,10 +839,8 @@ appalling  [ap'pal·ling || -lɪŋ]
 adj.  骇人的, 可怕的; 十分低劣的
 nominal  [nom·i·nal || 'nɑmɪnl /'nɒ-]
 adj.  名义上的, 名字的, 有名无实的
-tousle  [tou·sle || 'taʊzl]
-v.  搅乱, 弄乱
-preach  [prɪːtʃ]
-v.  布道; 鼓吹; 讲; 反复灌输; 讲道; 鼓吹, 宣扬; 说教; 唠叨地劝诫
+tousle  [tou·sle || 'taʊzl]v.  搅乱, 弄乱    2017.12.3
+preach  [prɪːtʃ]v.  布道; 鼓吹; 讲; 反复灌输; 讲道; 鼓吹, 宣扬; 说教; 唠叨地劝诫
 
 2015-3-26
 siege  [sɪːdʒ]
@@ -1674,53 +1679,25 @@ n.  脚后跟, 踵; 踵状物; 后跟; 底部#侧倾; 倾侧度
 v.  给装后跟; 紧追; 紧跟; 用脚跟往回传; 在后紧随; 用脚后跟跳舞; 紧追; 倾斜; 使倾斜
 
 2015-2-12
-flinch  [flɪntʃ]
-n.  畏惧; 退缩
-v.  畏缩; 畏首畏尾; 退缩
-维科英汉词典      
-
- retch  [retʃ]
-v.  作呕, 反胃; 吐出
-heave  [hɪːv]
-n.  举, 起伏, 抛
-v.  用力举起, 使鼓起, 使胀起; 抛出, 喘息, 起伏
-braid  [breɪd]
-n.  辫子, 穗带
-v.  编成辫, 镶边
-crone  [krəʊn]
-n.  干瘪老太婆; 老母羊
-cadence  [ca·dence || 'keɪdəns]
-n.  抑扬顿挫; 韵律; 节奏
-gingerly  [gin·ger·ly || 'dʒɪndʒə(r)lɪ]
-adj.  慎重的; 谨慎的
-adv.  小心翼翼地, 慎重地
-pomegranate  [pome·gran·ate || 'pʌmɪ‚grænɪt /'pɒm-]
-n.  石榴
-conspicuous  [con·spic·u·ous || kən'spɪkjʊəs]
-adj.  显著的, 出众的, 显眼的
-prowess  [prow·ess || 'praʊɪs]
-n.  英勇, 超凡技术, 勇敢
-platter  [plat·ter || 'plætə(r)]
-n.  大浅盘
-fig  [fɪg]
-n.  无花果; 少许, 一点儿; 无花果树; 微不足道的事#服装; 健康状况; 盛装
-caravan  [car·a·van || 'kærəvæn]
-n.  旅行队, 有篷顶的大车
-congenial  [con·gen·ial || kən'dʒiːnjəl]
-adj.  同性质的, 趣味相同的, 适意的
-opal  [o·pal || 'əʊpl]
-n.  蛋白石, 猫眼石
-clot  [klɒt]
-n.  凝块
-v.  凝结成块; 使凝结成块
-stammer  [stam·mer || 'stæmə(r)]
-n.  口吃, 结巴
-v.  口吃, 结结巴巴地说话; 结结巴巴地说
-prick  [prɪk]
-n.  扎, 刺痛, 一刺
-v.  刺, 刺痛, 戳; 刺, 竖起
-navel  [na·vel || 'neɪvl]
-n.  脐, 中央, 肚脐
+flinch           [flɪntʃ] n.  畏惧; 退缩v.  畏缩; 畏首畏尾; 退缩
+retch            [retʃ]v.  作呕, 反胃; 吐出
+heave  [hɪːv]n.  举, 起伏, 抛v.  用力举起, 使鼓起, 使胀起; 抛出, 喘息, 起伏
+braid  [breɪd]n.  辫子, 穗带v.  编成辫, 镶边
+crone  [krəʊn]n.  干瘪老太婆; 老母羊
+cadence      [ca·dence || 'keɪdəns]n.  抑扬顿挫; 韵律; 节奏   2017.12.3
+gingerly  [gin·ger·ly || 'dʒɪndʒə(r)lɪ]adj.  慎重的; 谨慎的adv.  小心翼翼地, 慎重地
+pomegranate  [pome·gran·ate || 'pʌmɪ‚grænɪt /'pɒm-]n.  石榴
+conspicuous  [con·spic·u·ous || kən'spɪkjʊəs]adj.  显著的, 出众的, 显眼的
+prowess  [prow·ess || 'praʊɪs]n.  英勇, 超凡技术, 勇敢
+platter  [plat·ter || 'plætə(r)]n.  大浅盘
+fig  [fɪg]n.  无花果; 少许, 一点儿; 无花果树; 微不足道的事#服装; 健康状况; 盛装
+caravan  [car·a·van || 'kærəvæn]n.  旅行队, 有篷顶的大车
+congenial  [con·gen·ial || kən'dʒiːnjəl]adj.  同性质的, 趣味相同的, 适意的
+opal  [o·pal || 'əʊpl]n.  蛋白石, 猫眼石
+clot  [klɒt]n.  凝块v.  凝结成块; 使凝结成块
+stammer  [stam·mer || 'stæmə(r)]n.  口吃, 结巴v.  口吃, 结结巴巴地说话; 结结巴巴地说
+prick  [prɪk]n.  扎, 刺痛, 一刺v.  刺, 刺痛, 戳; 刺, 竖起
+navel  [na·vel || 'neɪvl]n.  脐, 中央, 肚脐
 
 2015-2-11
 desolate  [des·o·late || 'desələt]
@@ -2493,63 +2470,26 @@ vt.  放入壁龛, 安顿
 
 
 2015-1-27
-filly  ['fili]
-n.  小雌马, 小姑娘
-stirrup  ['stә:rәp]
-n.  马镫, 镫具, U形物
-trot  [trɒt]
-n.  快步
-vi.  快步走, 小跑
-vt.  使小跑, 策马小跑
-gallop  ['gælәp]
-n.  疾驰, 飞奔
-vi.  飞驰, 急速进行, 急急忙忙地说
-vt.  使飞跑, 迅速运输
-hoot  [hu:t]
-n.  叫嚣, 嘲骂声, 鸣响
-vi.  大声叫嚣, 鸣响, 猫头鹰叫
-vt.  呵斥, 轰赶
-callus  ['kælәs]
-n.  皮肤的硬皮, 胼胝, (植物伤口的)愈合组织, 老茧
-knuckle  [knuck·le || 'nʌkl]
-n.  指关节; 肘; 膝关节; 蹄
-v.  用指关节敲打
-stumble  ['stʌmbl]
-n.  绊倒, 蹒跚而行, 失足
-vt.  使绊倒, 使困惑
-vi.  绊倒, 失足, 失策, 犯错, 蹒跚, 踌躇
-predawn  [pri:'dɒ:n]
-a.  黎明前的
-groggy  ['grɒgi]
-a.  酒醉的, 东歪西倒的, 摇摇晃晃的
-creak  [kri:k]
-n.  辗轧声, 嘎吱嘎吱声
-vi.  作辗轧声, 发出辗轧声
-vagabond  ['vægәbɒnd]
-n.  流浪者, 浪子, 流氓
-vi.  到处流浪
-a.  流浪的, 漂泊的, 浪荡的, 流浪者的
-tavern  ['tævәn]
-n.  酒馆, 客栈
-wench  [wentʃ]
-n.  少妇, 乡下姑娘, 女仆
-vi.  私通, 嫖妓
-sigil  ['sidʒil]
-n.  图章, 印章, 印记, 魔符
-hummock  ['hʌmәk]
-n.  圆丘, 小丘, 山岗
-barrow  ['bærәu]
-n.  搬运架, 手推车, 古墓
-bicker  ['bikә]
-vi.  斗嘴, 潺潺而流, 闪动
-trepidation  [,trepi'deiʃәn]
-n.  恐惧, 惊惶, 忧虑
-coffer  ['kɒfә]
-n.  保险箱, 金库
-vt.  把...锁进箱子
-
-
-
+filly  ['fili]n.  小雌马, 小姑娘
+stirrup  ['stә:rәp]n.  马镫, 镫具, U形物
+trot  [trɒt]n.  快步vi.  快步走, 小跑vt.  使小跑, 策马小跑
+gallop  ['gælәp]n.  疾驰, 飞奔vi.  飞驰, 急速进行, 急急忙忙地说vt.  使飞跑, 迅速运输
+hoot  [hu:t]n.  叫嚣, 嘲骂声, 鸣响vi.  大声叫嚣, 鸣响, 猫头鹰叫vt.  呵斥, 轰赶
+callus  ['kælәs]n.  皮肤的硬皮, 胼胝, (植物伤口的)愈合组织, 老茧
+knuckle  [knuck·le || 'nʌkl]n.  指关节; 肘; 膝关节; 蹄v.  用指关节敲打
+stumble  ['stʌmbl]n.  绊倒, 蹒跚而行, 失足vt.  使绊倒, 使困惑vi.  绊倒, 失足, 失策, 犯错, 蹒跚, 踌躇
+predawn  [pri:'dɒ:n]a.  黎明前的
+groggy  ['grɒgi]a.  酒醉的, 东歪西倒的, 摇摇晃晃的
+creak  [kri:k]n.  辗轧声, 嘎吱嘎吱声vi.  作辗轧声, 发出辗轧声
+vagabond  ['vægәbɒnd]n.  流浪者, 浪子, 流氓vi.  到处流浪a.  流浪的, 漂泊的, 浪荡的, 流浪者的
+tavern  ['tævәn]n.  酒馆, 客栈
+wench  [wentʃ]n.  少妇, 乡下姑娘, 女仆vi.  私通, 嫖妓
+sigil  ['sidʒil]n.  图章, 印章, 印记, 魔符
+hummock  ['hʌmәk]n.  圆丘, 小丘, 山岗
+barrow  ['bærәu]n.  搬运架, 手推车, 古墓
+bicker  ['bikә]vi.  斗嘴, 潺潺而流, 闪动
+trepidation  [,trepi'deiʃәn]n.  恐惧, 惊惶, 忧虑
+coffer  ['kɒfә]n.  保险箱, 金库vt.  把...锁进箱子
 
 
 2015-1-26
