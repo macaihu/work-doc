@@ -1,3 +1,8 @@
+2017-12-5
+ajar           [ә'dʒɑ:]a.  微开的, 半开的, 不和谐的 ad.  微开, 半开, 不协调地
+tendon         ['tendәn] n.  腱
+pansy          ['pænzɪ]n.  三色紫罗兰
+
 2017-12-4
 savage         ['sævidʒ]a.  未开化的, 野蛮的, 无礼的, 残酷的 vt.  用暴力对付, 凶猛攻击 n.  原始人, 粗鲁人
 imperative     [im'perәtiv] n.  命令, 必要的事, 规则, 祈使语气 a.  命令式的, 急需的, 势在必行的, 强制的
@@ -1025,7 +1030,7 @@ n.  泛滥, 大雨, 洪水
 8	oldster	 老人；老者
 9	forage	饲料;草料 
 10	subsist	勉强糊口;勉强度日
-11	taut	绷紧的;拉紧的
+11	taut	绷紧的;拉紧的  2017.12.5
 12	palpable	可感知的；易察觉的；明显的
 13	scant	一丁点的;微小的;不足的;欠缺的
 14	trudge	（尤指因疲惫或沮丧）拖着沉重的脚步走，步履艰难地走
@@ -1576,8 +1581,7 @@ v.  下赌注, 保证; 打赌
 squeak  [skwɪːk]
 n.  吱吱声; 侥幸通过; 嘎吱嘎吱声; 助手
 v.  吱吱叫, 侥幸成功, 告密; 以短促尖声发出
-profuse  [pro·fuse || prə'fjuːs]
-adj.  很多的, 浪费的, 丰富的
+profuse  [pro·fuse || prə'fjuːs] adj.  很多的, 浪费的, 丰富的 2017.12.5
 growl  [graʊl]
 n.  嗥叫; 轰鸣; 咆哮
 v.  嗥叫; 轰鸣; 咆哮; 咆哮着说
@@ -1648,9 +1652,8 @@ brooch  [brəʊtʃ]
 n.  胸针; 领针
 sphinx  [sfɪŋks]
 n.  斯芬克司, 天蛾, 狮身人面像
-poignant  ['poign·ant || 'pɔɪnjənt]
-adj.  浓烈的; 强烈的; 辛辣的, 酸辣的; 深刻的
- numb  [nʌm]
+poignant  ['poign·ant || 'pɔɪnjənt]adj.  浓烈的; 强烈的; 辛辣的, 酸辣的; 深刻的
+numb  [nʌm]
 v.  使失去感觉, 使麻木; 使惊呆, 使发愣
 adj.  失去感觉的, 麻木的; 惊呆的, 发愣的
 vinegar  [vin·e·gar || 'vɪnɪgə(r)]
@@ -2607,10 +2610,7 @@ n.  嗥叫, 吠声, 号叫
 vi.  狂吠, 咆哮, 呼啸
 vt.  对...吼叫, 狂喊着说
 slant  [slænt]n.  倾斜, 斜面, 观点, 偏见, 歪曲a.  倾斜的vt.  (使)倾斜vi.  (使)倾斜
-gnarl  [nɑ:l]
-n.  木节, 木瘤
-vi.  形成木节, 咆哮
-vt.  扭曲
+gnarl  [nɑ:l]n.  木节, 木瘤vi.  形成木节, 咆哮vt.  扭曲 2017.12.5
 crevice  ['krevis]
 n.  裂缝
 loft  [lɒft]
