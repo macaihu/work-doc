@@ -345,6 +345,7 @@ Raised at the age of fifteen to the Kingsguard of the Mad King, Aerys II Targary
 #### Meryn Trant
 马林·特兰（Meryn Trant）爵士是劳勃一世及其子嗣在位期间的御林铁卫一员。在电视剧中由Ian Beattie饰演。 
 ![](https://vignette.wikia.nocookie.net/asoiaf/images/b/b2/Meryn_Trant.png/revision/latest?cb=20120214085739&path-prefix=zh)
+马林·特兰爵士跟随劳勃一世前往临冬城以任命艾德·史塔克为新任国王之手。[1]他参加了首相的比武大会并击败了临冬城的哈尔温。[5]而洛拉斯·提利尔爵士击败了他。[4]艾德·史塔克被捕后马林爵士被派去拘押艾莉亚·史塔克，但被西利欧·佛瑞尔阻止。[6]乔佛里·拜拉席恩 常常让他去掌掴 珊莎·史塔克使她服从自己。[2]当巴利斯坦·赛尔弥被解除职务时，马林也在王座厅出席，和其他御林铁卫一起嘲笑自己曾经的誓言兄弟[7]。
 
 #### Barristan Selmy
 巴利斯坦·赛尔弥（Barristan Selmy）爵士，人称“无畏的巴利斯坦”，是一名非常有名气的传奇人物，并且是御林铁卫光辉历史上的重要一员，服役于御林铁卫誉满七国之时期。在电视剧权力的游戏中，他由 Ian McElhinney[1]扮演。 
@@ -878,7 +879,7 @@ Preston Greenfield
 ### Chapter 49  Eddard
 
 ### Chapter 50   Arya
-####
+### Chapter 51  Sansa
 ####
 ####
 ####
