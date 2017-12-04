@@ -757,47 +757,23 @@ And, despite my disgust with the Capitol and their hideous fashions, I can’t h
 20	languid	无精打采的；懒洋洋的；倦怠的
 
 2015-3-29
-baleful  [bale·ful || 'beɪlfʊl]
-adj.  有害的, 恶意的
-slight  [slaɪt]
-n.  轻蔑, 怠慢
-v.  轻视, 怠慢, 忽略
-adj.  轻微的, 脆弱的, 纤细的
-barb  [bɑːb]
-n.  倒钩#非洲马; 巴巴里家鸽
-v.  装倒钩
-swaddle  [swad·dle || 'swɑdl /'swɒdl]
-v.  把用布包住; 限制...的行动; 用纱带包扎
-pluck  [plʌk]
-n.  勇气, 动物内脏, 猛拉
-v.  摘, 拔, 猛拉; 拉, 拽
-tenuous  [te·nu·ous || 'tenjʊəs]
-adj.  纤细的; 贫乏的; 稀薄的; 平淡的
-dread  [dred]
-n.  恐惧, 可怕的事, 可怕的人
-v.  惧怕; 担心
-frigid  [frig·id || 'frɪdʒɪd]
-adj.  寒冷的, 冷淡的, 严寒的
-titter [tit·ter || 'tɪtə(r)]
-n.  窃笑; 傻笑; 偷笑; 吃吃笑
-v.  吃吃地笑, 偷笑
-scuttle  [scut·tle || 'skʌtl]
-n.  天窗; 小舱口; 气窗; 舷窗#箩, 筐; 煤斗, 煤桶#小步快跑; 逃避; 仓促逃跑
+baleful  [bale·ful || 'beɪlfʊl]adj.  有害的, 恶意的
+slight  [slaɪt]n.  轻蔑, 怠慢v.  轻视, 怠慢, 忽略adj.  轻微的, 脆弱的, 纤细的
+barb  [bɑːb]n.  倒钩#非洲马; 巴巴里家鸽v.  装倒钩
+swaddle  [swad·dle || 'swɑdl /'swɒdl]v.  把用布包住; 限制...的行动; 用纱带包扎
+pluck  [plʌk]n.  勇气, 动物内脏, 猛拉v.  摘, 拔, 猛拉; 拉, 拽
+tenuous  [te·nu·ous || 'tenjʊəs]adj.  纤细的; 贫乏的; 稀薄的; 平淡的
+dread  [dred]n.  恐惧, 可怕的事, 可怕的人v.  惧怕; 担心
+frigid  [frig·id || 'frɪdʒɪd]adj.  寒冷的, 冷淡的, 严寒的
+titter [tit·ter || 'tɪtə(r)]n.  窃笑; 傻笑; 偷笑; 吃吃笑v.  吃吃地笑, 偷笑
+scuttle  [scut·tle || 'skʌtl]n.  天窗; 小舱口; 气窗; 舷窗#箩, 筐; 煤斗, 煤桶#小步快跑; 逃避; 仓促逃跑
 v.  凿沉; 毁坏; 急跑; 逃避; 急赶; 逃脱
-ruse  [ruːs /-z]
-n.  策略, 诡计, 谋略
-whisk  [hwɪsk /w-]
-n.  扫帚, 搅拌器, 毛掸子
-v.  扫, 挥动, 拂; 飞奔
-diligent  ['dil·i·gent || 'dɪlɪdʒənt]
-adj.  勤勉的, 勤奋的; 费尽心血的
-colonnade  [col·on·nade || ‚kɒlə'neɪd]
-n.  柱廊
-billowy  ['bil·low·y || bɪləʊɪ]
-adj.  大浪的
-lecherous  [lech·er·ous || 'letʃərəs]
-adj.  淫荡的; 挑动春情的; 色情的
-
+ruse  [ruːs /-z]n.  策略, 诡计, 谋略
+whisk  [hwɪsk /w-]n.  扫帚, 搅拌器, 毛掸子v.  扫, 挥动, 拂; 飞奔
+diligent  ['dil·i·gent || 'dɪlɪdʒənt]adj.  勤勉的, 勤奋的; 费尽心血的
+colonnade  [col·on·nade || ‚kɒlə'neɪd]n.  柱廊
+billowy  ['bil·low·y || bɪləʊɪ]adj.  大浪的
+lecherous  [lech·er·ous || 'letʃərəs]adj.  淫荡的; 挑动春情的; 色情的
 entice  [en·tice || ɪn'taɪs]
 v.  诱骗, 怂恿, 引诱
 stale  [steɪl]
