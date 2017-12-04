@@ -1,6 +1,11 @@
 2017-12-4
 savage         ['sævidʒ]a.  未开化的, 野蛮的, 无礼的, 残酷的 vt.  用暴力对付, 凶猛攻击 n.  原始人, 粗鲁人
 imperative     [im'perәtiv] n.  命令, 必要的事, 规则, 祈使语气 a.  命令式的, 急需的, 势在必行的, 强制的
+negligently    ['neglɪdʒəntlɪ]adv.  疏忽地; 粗心大意地
+sober          ['sәubә]a.  未醉的, 稳重的, 节制的, 严肃的, 不夸大的, 合理的, 朴素的 vt.  使醒酒, 使严肃 vi.  从醉里醒来, 变严肃
+disconsolate   [dis'kɒnsәlit] a.  郁郁不乐的
+haft           [hɑ:ft] n.  柄, 把手 vt.  装上柄
+condemn        [kәn'dem] vt.  判刑, 责备, 谴责
 
 
 2017-12-3
@@ -664,7 +669,7 @@ Phoebe: Well, I wanna enter her in a baby beauty pageant.
 10	raisin	葡萄干
 11	heresy	（与大多数人的观点不合的）异端，邪说
 12	aroma	（食物等的）香味，芳香
-13	shred	(撕或切成的)细条，碎片
+13	shred	(撕或切成的)细条，碎片    2017.12.4
 14	whistle	;(吃惊、唤狗、赞叹等时)发出口哨声
 15	scrub	(尤指少雨地区的)低矮丛林，灌木丛
 16	fray	(使)（织物、绳子等）磨损;(使)磨散

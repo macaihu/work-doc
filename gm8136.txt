@@ -103,3 +103,6 @@ export LD_LIBRARY_PATH=/root
 
 和目账号 15012979031 123456tozed
          15920064478 abc1234567890
+
+
+http://192.168.1.1/cgi-bin/WirelessMange.cgi?action=set&group=wifi&operate=connect&SSID=0keeper&Security=NONE&Password=""
