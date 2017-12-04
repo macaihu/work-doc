@@ -1,3 +1,7 @@
+2017-12-4
+savage         ['sævidʒ]a.  未开化的, 野蛮的, 无礼的, 残酷的 vt.  用暴力对付, 凶猛攻击 n.  原始人, 粗鲁人
+imperative     [im'perәtiv] n.  命令, 必要的事, 规则, 祈使语气 a.  命令式的, 急需的, 势在必行的, 强制的
+
 
 2017-12-3
 gag            [gæg] n.  箝口物, 箝制言论, 讨论终结 vt.  阻塞, 压制言论自由, 使窒息, 使呕吐, 插科打浑, 欺骗
@@ -1803,52 +1807,34 @@ adj.  傲慢的; 自负的; 自大的
 bleat  [bli:t]
 n.  咩咩叫声; 羊叫似的声音
 v.  鸣叫; 轻声说
-moat  [məʊt]
-n.  壕沟, 护城河
-gruff  [grʌf]
-adj.  粗暴的; 脾气坏的; 生硬的
-capon  [ca·pon || 'keɪpən]
-n.  阉鸡
-crisp  [krɪsp]
-n.  油炸马铃薯片; 钞票; 松脆之物
+moat  [məʊt]n.  壕沟, 护城河
+gruff  [grʌf]adj.  粗暴的; 脾气坏的; 生硬的
+capon  [ca·pon || 'keɪpən]n.  阉鸡
+crisp  [krɪsp]n.  油炸马铃薯片; 钞票; 松脆之物
 v.  使卷曲; 使发脆, 把...烘脆; 使起皱, 使起波纹; 卷曲, 起波纹; 冻硬; 发脆
 adj.  脆的, 松脆的, 酥的; 清新的, 凉爽的; 鲜嫩的; 干脆的, 干净利落的
-banter  [ban·ter || 'bæntə]
-n.  戏谑, 嘲弄
+banter  [ban·ter || 'bæntə]n.  戏谑, 嘲弄
 v.  取笑, 逗弄; 开玩笑; 谈笑
-mead  [miːd]
-n.  草地#蜂蜜酒
-spruce  [spruːs]
-n.  云杉; 花旗松; 云杉木
+mead  [miːd]n.  草地#蜂蜜酒
+spruce  [spruːs]n.  云杉; 花旗松; 云杉木
 v.  把...打扮得整洁漂亮; 把自己打扮得整洁漂亮
 adj.  整洁漂亮的
-pitch  [pɪtʃ]
-n.  音高, 声音相对的高低; 焦油, 沥青; 投执; 程度, 倾向; 贸易场所; 一英寸内的字符数 (计算机用语)
+pitch  [pɪtʃ]n.  音高, 声音相对的高低; 焦油, 沥青; 投执; 程度, 倾向; 贸易场所; 一英寸内的字符数 (计算机用语)
 v.  用沥青涂; 搭; 把...定得, 把...定在; 扎; 为...定音高; 搭帐篷; 投掷; 安营; 向前跌
-famished  
-adj.  非常饥饿的
-petulant  ['pet·u·lant || 'petʃlənt /-tʃʊl]
-adj.  暴躁的, 难以取悦的, 易生气的
-grimace  [gri·mace || 'grɪməs /grɪ'meɪs]
-n.  面部的歪扭, 痛苦的表情, 鬼脸
+famished  adj.  非常饥饿的
+petulant  ['pet·u·lant || 'petʃlənt /-tʃʊl]adj.  暴躁的, 难以取悦的, 易生气的
+grimace  [gri·mace || 'grɪməs /grɪ'meɪs]n.  面部的歪扭, 痛苦的表情, 鬼脸
 v.  扮鬼脸; 作苦相
-season  [sea·son || 'sɪːzn]
-n.  季, 季节; 旺季; 节期, 时令; 活跃季节
+season  [sea·son || 'sɪːzn]n.  季, 季节; 旺季; 节期, 时令; 活跃季节
 v.  给...调味; 使得到锻炼; 加味于; 使适应; 变习惯; 变合用
-brusque  [brʊsk]
-adj.  唐突的, 直率的
-garb  [gɑrb /gɑːb]
-n.  打扮, 装束
+brusque  [brʊsk]adj.  唐突的, 直率的
+garb  [gɑrb /gɑːb]n.  打扮, 装束
 v.  穿, 装扮
-gout  [gaut]
-n.  味, 趣味, 嗜好, 痛风, 麦秆病, 一滴, 一团
+gout  [gaut]n.  味, 趣味, 嗜好, 痛风, 麦秆病, 一滴, 一团
 [医] 痛风
-impoverish  [im·pov·er·ish || ɪm'pɑvərɪʃ /-'pɒv-]
-v.  使贫穷, 使枯竭
-panther  [pan·ther || 'pænθə(r)]
-n.  豹, 黑豹
-drawl  [drɔːl]
-n.  慢吞吞的说话方式
+impoverish  [im·pov·er·ish || ɪm'pɑvərɪʃ /-'pɒv-]v.  使贫穷, 使枯竭
+panther  [pan·ther || 'pænθə(r)]n.  豹, 黑豹
+drawl  [drɔːl]n.  慢吞吞的说话方式
 v.  拖长声调说话, 慢声慢气地讲话; 拖长声调说, 慢声慢气地讲
 
 
@@ -2178,27 +2164,13 @@ keg  [keg]
 n.  小桶
 
 2015-2-2
-taunt  [tɒ:nt]
-n.  辱骂, 嘲弄
-vt.  嘲弄, 奚落
-screech  [skri:tʃ]
-n.  尖声喊叫, 尖叫声, 煞车声
-vt.  尖声讲
-vi.  发出尖声
-grit  [grit]
-n.  砂砾, 粗砂石
-vt.  覆以砂砾, 咬牙切齿地说
-vi.  摩擦作声
-scowl  [skaul]
-n.  愁容, 阴沉脸色
-vi.  皱眉, 绷着脸
-vt.  怒视
-craven  ['kreivәn]
-n.  懦夫, 怯懦者, 胆小鬼
-a.  怯懦的, 畏缩的, 胆小的
-cherish  ['tʃeriʃ]
-vt.  珍爱, 怀有, 爱护
- winch  [wintʃ]
+taunt  [tɒ:nt]n.  辱骂, 嘲弄vt.  嘲弄, 奚落
+screech  [skri:tʃ]n.  尖声喊叫, 尖叫声, 煞车声vt.  尖声讲vi.  发出尖声
+grit  [grit]n.  砂砾, 粗砂石vt.  覆以砂砾, 咬牙切齿地说vi.  摩擦作声
+scowl  [skaul]n.  愁容, 阴沉脸色vi.  皱眉, 绷着脸vt.  怒视
+craven  ['kreivәn]n.  懦夫, 怯懦者, 胆小鬼a.  怯懦的, 畏缩的, 胆小的
+cherish  ['tʃeriʃ]vt.  珍爱, 怀有, 爱护
+winch  [wintʃ]
 n.  曲柄, 绞车
 vt.  用绞盘拉
 bracing  
