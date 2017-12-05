@@ -53,6 +53,8 @@ ATH-TL00-d2a7af9723c414d1<br>HUAWEI                     | 192.168.16.94  | a0:8d
 MacBook-Pro                                             | 192.168.16.96  | 78:31:c1:c0:c5:8e
 Honor_8                                                 | 192.168.16.98  | 5c:a8:6a:a6:57:d1
 HUAWEI_Mate_9                                           | 192.168.16.100 | 9c:b2:b2:d0:42:c1
+Honor_V9                                                | 192.168.16.102 | 1c:15:1f:20:89:c1
+iPhone                                                  | 192.168.16.104 | 20:ab:37:8d:e9:08
                                                         |                |
 :Amazon Technologies Inc.                               | 192.168.18.12  | 34:d2:70:ad:64:a9
 HUAWEI_nova                                             | 192.168.19.12  | 8c:0d:76:af:5f:b8                               
