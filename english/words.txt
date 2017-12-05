@@ -1,3 +1,7 @@
+2017-12-6
+lore           [lɒ:] n.  知识, 眼光
+locust         ['lәukәst] n.  蝗虫, 蚱蜢, 蝉
+
 2017-12-5
 ajar           [ә'dʒɑ:]a.  微开的, 半开的, 不和谐的 ad.  微开, 半开, 不协调地
 tendon         ['tendәn] n.  腱
@@ -924,7 +928,7 @@ n.  泛滥, 大雨, 洪水
 2	chant	反复呼喊;不停地重复
 3	stripling	年轻男子;小伙子
 4	spatter	溅;洒
-5	awning	（篷车或建筑物上的）遮阳篷，雨篷
+5	awning	（篷车或建筑物上的）遮阳篷，雨篷 2017.12.6
 6	hempen	大麻做的
 7	fuzzy	覆有细绒毛的;绒毛状的;毛茸茸的
 8	bloated	（身体或身体某部位）肿胀的，膨胀的，发胀的
@@ -1224,10 +1228,10 @@ n.  泛滥, 大雨, 洪水
 
 
 
-日期	2015.3.7	复习1		2		3		4		5	
+日期	2015.3.7	
 1	scorpion	蝎子
 2	chase	雕刻                          追赶
-3	dour	脸色阴沉的
+3	dour	脸色阴沉的    2017.12.06
 4	almond	杏仁
 5	doe	雌鹿，雌兔
 6	serene	平静的，宁静的
@@ -1283,7 +1287,7 @@ Their voices rang off the rafters.
 3	pus	脓
 4	writhe	（人或身体）扭动
 5	seep	（液体）漏出 渗漏
-6	ululate	嚎叫 哀嚎
+6	ululate	嚎叫 哀嚎     2017.12.6
 7	aglow	发红光 发热
 8	sinew	腱 肌腱
 9	dispperse	（使某人 物）散开 消散
