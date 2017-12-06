@@ -1,6 +1,12 @@
 2017-12-6
 lore           [lɒ:] n.  知识, 眼光
 locust         ['lәukәst] n.  蝗虫, 蚱蜢, 蝉
+moose          [muːs] n.  麋; 北美麋
+crofter        ['krɒftә]  n.  小农场中的佃农
+crenellation   n.  开枪眼的工事, 开枪眼的工程, 雉堞
+causeway       ['kɔːzweɪ] n.  堤道, 铺道
+teem           [ti:m] vi.  充满, 充足, 倾注 vt.  倒出
+muck           [mʌk] n.  粪肥; 肥料; 垃圾 v.  施肥, 弄糟, 弄脏
 
 2017-12-5
 ajar           [ә'dʒɑ:]a.  微开的, 半开的, 不和谐的 ad.  微开, 半开, 不协调地
@@ -1475,17 +1481,11 @@ v.  散发出浓烈气味; 带有明显的性质; 发臭; 充满; 用烟熏, 散
 
 
 2015-2-25
-peat  [pɪːt]
-n.  泥煤, 泥炭; 泥炭块
-slab  [slæb]
-n.  平板, 厚的切片
-v.  切成厚板, 以平板盖上
-consternation  [con·ster·na·tion || ‚kɒnstə'neɪʃn]
-n.  惊愕, 惊骇
-ale  [eɪl]
-n.  麦芽酒; 麦芽酒节
-carrion  [car·ri·on || 'kærɪən]
-n.  死肉; 腐肉
+peat           [pɪːt]  n.  泥煤, 泥炭; 泥炭块 2017.12.06
+slab           [slæb] n.  平板, 厚的切片 v.  切成厚板, 以平板盖上
+consternation  [kɒnstə'neɪʃn] n.  惊愕, 惊骇
+ale            [eɪl]n.  麦芽酒; 麦芽酒节
+carrion        ['kærɪən] n.  死肉; 腐肉
 challenge  ['tʃælindʒ]
 n.  挑战, 盘问
 vt.  向...挑战, 要求, 怀疑
@@ -1554,12 +1554,10 @@ n.  污迹, 熏烟
 v.  弄脏, 用浓烟熏, 使模糊; 被弄脏; 形成污迹
 ostentatious  [,os·ten'ta·tious || ‚ɑstən'teɪʃəs /‚ɒs-]
 adj.  装饰表面的, 华美的, 夸示的
-walrus  ['wɒ:lrәs]
-n.  海象
+walrus  ['wɒ:lrәs] n.  海象   2017.12.6
 sailcloth  
 n.  帆布
-basalt  [ba·salt || 'bæsɔːlt]
-n.  玄武岩
+basalt  [ba·salt || 'bæsɔːlt] n.  玄武岩 2017.12.6
 cottage  [cot·tage || 'kɒtɪdʒ]
 n.  农舍, 小屋; 别墅; 单幢住所
 tumble  [tum·ble || 'tʌmbl]
