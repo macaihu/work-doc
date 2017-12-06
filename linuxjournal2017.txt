@@ -12,6 +12,21 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.6
+chrome中设置插件貌似没有看到从界面直接进去的地方, 需要输入:
+chrome://extensions
+然后在这个界面把插件拖进去就可以了.
+
+这里有一个marddown preview plus的:
+http://www.ooso.net/archives/611
+下载代码:
+git clone git://github.com/volca/markdown-preview.git
+下载后make一下,产生一个zip报, 拖到chrome的插件窗口中就安装上了, 这个支持md后缀名, 总算可以使用chrome直接看md文件了. sublime中的插件总是报错, 考虑删掉.
+
+在内核方面, 貌似8135和8136没有区别.
+使用gm8136tool这个工具, 那么对于8135, 需要将bootcode file这个文件改为:nsboot_8135S_950_712.bin, 内核和文件系统看起来不需要修改. 
+好像内存自动处理了.
+
 11.29
 chrome 设置为默认的浏览器后, sublime查看md, 仍然会出非法错误.
 

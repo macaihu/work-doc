@@ -1,5 +1,9 @@
 gm8136
 
+ulimit  -c unlimited
+
+/mnt/tcpdump -i br0 host 192.168.16.45
+
 ip link set eth0 up
 ip addr add dev eth0 192.168.19.55/22
 ip route add default via 192.168.19.1
