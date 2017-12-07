@@ -1,5 +1,6 @@
 2017-12-7
 dreg           [dreg] n.  渣滓, 糟粕, 少量
+rebuke         [ri'bju:k] n.  指责, 谴责, 非难 vt.  斥责, 指责, 制止
 
 2017-12-6
 lore           [lɒ:] n.  知识, 眼光
@@ -264,7 +265,7 @@ guffaw         v.哄笑；大笑着说 n.哄笑
 2017-11-19
 grotesque      adj.怪诞的；荒唐的；荒谬的；丑陋奇异的n.（尤指书画中的）奇形怪状的人；奇异艺术风格
 accentuate     v.强调；着重；使突出
-frail          adj.瘦弱的；易损的；易碎的 n.少妇；灯心草篓；灯心草篓的容量
+frail          adj.瘦弱的；易损的；易碎的 n.少妇；灯心草篓；灯心草篓的容量  
 absolution     n.赦免；赦罪；解罪
 yelp           n.狗吠声；叫喊声 v.（因疼痛等）突然尖叫
 manse          n.（尤指苏格兰的）牧师住宅
@@ -1421,7 +1422,7 @@ sulky			面有愠色的;生闷气的;闷闷不乐的
 drawbridge		吊桥;开合桥
 weasel			鼬;黄鼠狼
 catapult		弹弓
-glib			油腔滑调的；不诚恳的；
+glib			油腔滑调的；不诚恳的；  
 wizened			（人）干瘪的，皮肤起皱的
 gouty			痛风(病) 地
 irascible		易怒的;性情暴躁的
