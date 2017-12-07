@@ -11,10 +11,20 @@ echo nameserver 192.168.19.1 > /etc/resolv.conf
 mount -t nfs 192.168.19.199:/opt/work/ /mnt/nfs --nolock
 telnetd
 
+sudo ifconfig usb0 192.168.37.9 
+
+ifconfig usb0 192.168.37.1 
+mount -t nfs 192.168.37.9:/opt/work/ /mnt/nfs --nolock
+cd /mnt/nfs/gm8136s/images/tz8135/
+flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
+
 cd /mnt/nfs/gm8136s/apps/tzvideo-OneNet-2.0/
 cp config.ont.json /tmp/
 killall ChinaMobile
 ./tzvideo -c config.base.json
+
+
+
 
 1、先配置本机器IP，和server IP。
 setenv ipaddr 192.168.19.33 ;setenv serverip 192.168.19.199

@@ -56,6 +56,7 @@ HUAWEI_Mate_9                                           | 192.168.16.100 | 9c:b2
 Honor_V9                                                | 192.168.16.102 | 1c:15:1f:20:89:c1
 iPhone                                                  | 192.168.16.104 | 20:ab:37:8d:e9:08
 likaduodeiPhone                                         | 192.168.16.107 | b8:44:d9:c6:97:a0
+HUAWEI_G9_Plus                                          | 192.168.16.108 | 8c:eb:c6:c6:d8:69
                                                         |                |
 :Amazon Technologies Inc.                               | 192.168.18.12  | 34:d2:70:ad:64:a9
 HUAWEI_nova                                             | 192.168.19.12  | 8c:0d:76:af:5f:b8                               

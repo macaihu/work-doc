@@ -12,6 +12,9 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.7
+usb的颜色是红, 白, 蓝 黑
+
 12.6
 chrome中设置插件貌似没有看到从界面直接进去的地方, 需要输入:
 chrome://extensions
