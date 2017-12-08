@@ -12,6 +12,14 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.8
+gm8136默认刷机配置
+                        nsboot_8136S_1146_860.bin
+00010000 00050000 UBOOT u-boot_spi.bin
+00060000 002A0000 LINUX uImage
+00300000 00C00000 FS    rootfs-cpio_master.squashfs.img
+00E00000 00100000 USER0  
+
 12.7
 usb的颜色是红, 白, 蓝 黑
 

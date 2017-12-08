@@ -18,6 +18,10 @@ mount -t nfs 192.168.37.9:/opt/work/ /mnt/nfs --nolock
 cd /mnt/nfs/gm8136s/images/tz8135/
 flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
 
+cd /mnt/nfs/gm8136s/images/elevator/
+flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
+
+
 cd /mnt/nfs/gm8136s/apps/tzvideo-OneNet-2.0/
 cp config.ont.json /tmp/
 killall ChinaMobile
