@@ -12,6 +12,20 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.9
+使用ccache编译gm8136s也能快很多,应该从250秒左右到了55秒, 简直惊人.
+
+在mini 18.3上要运行:
+sudo apt install libssl-dev
+libevent才能编译出带有ssl的库, 貌似它的检查机制问题比较多.
+
+gm8136s有时候会莫名其妙的完全重新编译, 好奇怪的事情.
+
+有时候串口线会停止工作. 重新拔插就好了.
+
+git log 支持--since参数:
+git log --pretty='%aN' --since="2017-06-22" | wc -l
+
 12.8
 gm8136默认刷机配置
                         nsboot_8136S_1146_860.bin

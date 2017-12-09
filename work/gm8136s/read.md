@@ -173,6 +173,8 @@ Dev      VI#        CH#        P0     P1     P2     P3
 
 # [GM8136_Flash_User_Guide_V1.0.pdf](ftp://192.168.1.123/gm8136s/docs/GM8136_Flash_User_Guide_V1.0.pdf)
 
+如何编译nsboot, uboot, kernel在这个文档里, 嘿嘿嘿.
+
 gm8136有4个跳针, spi boot还是nand boot, spi 或spi-nand , spi 3/4字节模式, 固件升级模式, 当跳到固件升级模式的时候, 可以从pc上使用usb口进行升级.
 
 如果要修改flash的分区信息, 应该要改这个文件:linux-3.3-fa/drivers/mtd/devices/spi_flash.c
