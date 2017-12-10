@@ -12,6 +12,22 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.10
+从flash中读出sysheader:
+dd if=/dev/mtd4 of=sysheader.bin bs=256 count=1
+
+只要简单的向头256字节写一串数据, 那么系统就不启动了.
+cd /tmp && flashcp -v template_8136 /dev/mtd4
+
+为什么有时候有mtd4, 有时候又没有?
+把user区扩大一点, 到2m吧:
+gm8136默认刷机配置, 这个配置不会报错了.
+                        nsboot_8136S_1146_860.bin
+00010000 00050000 UBOOT u-boot_spi.bin
+00060000 00200000 LINUX uImage
+00260000 00AA0000 FS    rootfs-cpio_master.squashfs.img
+00D00000 00200000 USER0 GM8135_2MP.SPI.jffs2.img
+
 12.9
 使用ccache编译gm8136s也能快很多,应该从250秒左右到了55秒, 简直惊人.
 

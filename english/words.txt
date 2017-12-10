@@ -1,3 +1,6 @@
+2017-12-10
+sere           [sɪə] adj.  干枯的; 枯萎的
+
 2017-12-9
 barren         ['bærən] adj.  不生育的, 不妊的; 贫瘠的, 不毛的, 荒芜的; 不结果实的; 无益的, 无效果的
 drab           [dræb] n.  褐色布; 黄褐色厚呢; 灰色布; 黄褐色#少量, 少数#邋遢女人; 娼妓
@@ -1341,7 +1344,7 @@ Their voices rang off the rafters.
 15	droop	低垂;下垂;垂落
 16	crease	(衣服或纸的)褶痕，皱痕
 17	leaden	（谈话或文章）乏味的，沉闷的
-18	delirium	谵妄;神志不清;说胡话
+18	delirium	谵妄;神志不清;说胡话   2017.12.10
 19	tepid	(水等液体)微温的，微热的
 20	bitter	（味道）苦的 
 
@@ -2416,7 +2419,7 @@ stirrup  ['stә:rәp]n.  马镫, 镫具, U形物
 trot  [trɒt]n.  快步vi.  快步走, 小跑vt.  使小跑, 策马小跑
 gallop  ['gælәp]n.  疾驰, 飞奔vi.  飞驰, 急速进行, 急急忙忙地说vt.  使飞跑, 迅速运输
 hoot  [hu:t]n.  叫嚣, 嘲骂声, 鸣响vi.  大声叫嚣, 鸣响, 猫头鹰叫vt.  呵斥, 轰赶
-callus  ['kælәs]n.  皮肤的硬皮, 胼胝, (植物伤口的)愈合组织, 老茧
+callus  ['kælәs]n.  皮肤的硬皮, 胼胝, (植物伤口的)愈合组织, 老茧   2017.12.10
 knuckle  [knuck·le || 'nʌkl]n.  指关节; 肘; 膝关节; 蹄v.  用指关节敲打
 stumble  ['stʌmbl]n.  绊倒, 蹒跚而行, 失足vt.  使绊倒, 使困惑vi.  绊倒, 失足, 失策, 犯错, 蹒跚, 踌躇
 predawn  [pri:'dɒ:n]a.  黎明前的
