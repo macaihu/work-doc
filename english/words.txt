@@ -1,5 +1,6 @@
 2017-12-10
 sere           [sɪə] adj.  干枯的; 枯萎的
+askance        [ə'skæns] adv.  怀疑地; 斜眼地; 不赞许地
 
 2017-12-9
 barren         ['bærən] adj.  不生育的, 不妊的; 贫瘠的, 不毛的, 荒芜的; 不结果实的; 无益的, 无效果的
@@ -602,7 +603,7 @@ subdued 闷闷不乐的;抑郁的;默不作声的
 14	distraught	心烦意乱的;心急如焚的;发狂的
 15	broth	（通常加入蔬菜或米的）肉汤，汤
 16	nasal	带鼻音的;有鼻音的
-17	simmer	用文火炖;煨
+17	simmer	用文火炖;煨          2017.12.10
 18	spit	烤肉叉;扦子                  吐唾沫
 19	mitt=mitten	连指手套
 20	disarming	使人消气的;消除敌意的;使人消除戒心的
@@ -1311,7 +1312,7 @@ Their voices rang off the rafters.
 7	aglow	发红光 发热
 8	sinew	腱 肌腱
 9	dispperse	（使某人 物）散开 消散
-10	convulse	（使某人）剧烈震动
+10	convulse	（使某人）剧烈震动    2017.12.10
 11	crust	面包屑
 12	flurry	一阵风 雨 雪等
 13	peck	啄
@@ -3055,7 +3056,7 @@ If they are to distinguish their wares form selfpublished dross, they must….
 1 	curl 	卷曲 
 1 	teddy bear 	泰迪(熊) 
 1 	shunk 	臭鼬[C] 
-1 	puddle 	水坑;泥潭;洼[C] 
+1 	puddle 	水坑;泥潭;洼[C]   2017.12.10
 1 	comparator 	比较仪 
 
 
