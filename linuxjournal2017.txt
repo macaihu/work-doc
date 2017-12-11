@@ -12,6 +12,11 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.11
+在当前的运行环境下，　从pc到8136进行打流非常慢，　只有１.3左右，　而8136向pc打包，　有40多ｍ
+
+p25的超级用户：sztozed 85383000
+
 12.10
 从flash中读出sysheader:
 dd if=/dev/mtd4 of=sysheader.bin bs=256 count=1

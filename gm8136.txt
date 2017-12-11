@@ -18,9 +18,13 @@ mount -t nfs 192.168.37.9:/opt/work/ /mnt/nfs --nolock
 cd /mnt/nfs/gm8136s/images/tz8135/
 flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
 
-cd /mnt/nfs/gm8136s/images/elevator/
+
+mount -t nfs 192.168.0.50:/opt/work/ /mnt/nfs --nolock
+cd /tmp
+cp /mnt/nfs/gm8136s/images/elevator/rootfs-cpio_master.squashfs.img .
 flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
 
+flashcp -v flash.bin /dev/mtd4
 
 cd /mnt/nfs/gm8136s/apps/tzvideo-OneNet-2.0/
 cp config.ont.json /tmp/
@@ -50,9 +54,8 @@ mw.b 0x2000000 0xFF 0x800000;tftpboot 0x02000000 GM8135_2MP_uclibc.NOR.jffs2.img
 5、更新16M的all.bin
 16M full flash
 mw.b 0x2000000 0xFF 0x1000000;
-tftpboot 0x02000000 flash;
-sf probe 0; sf erase 0x0 0x1000000;
-sf write 0x2000000 0x0 0x1000000;
+tftpboot 0x02000000 flash.bin;
+sf probe 0; sf erase 0x0 0x1000000;sf write 0x2000000 0x0 0x1000000;
 6、更新8M的all.bin
 8M full flash
 mw.b 0x2000000 0xFF 0x800000;
