@@ -12,6 +12,35 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.12
+mw.b 0x2000000 0xFF 0x800000　;fatload mmc 0 0x02000000 rootfs-cpio_master.squashfs.img　
+sf probe 0; sf erase 0x260000 ${filesize}; sf write 0x2000000 0x260000 ${filesize};
+这次成功了.
+
+又出现了flashcp的时候挂了, 难道是在运行tzvideo? 
+
+dropbear居然不执行了?
+dropbear -E -F
+[335] Jan 01 00:18:17 Failed loading /etc/dropbear/dropbear_rsa_host_key
+[335] Jan 01 00:18:17 Failed loading /etc/dropbear/dropbear_dss_host_key
+[335] Jan 01 00:18:17 Early exit: No hostkeys available. 'dropbear -R' may be useful or run dropbearkey.
+
+这次居然擦除的过程中出现了panic，悲催了．来测试如何在串口时使用sd卡升级吧．
+fatls mmc 0　这个命令可以列出mmc上的文件．
+mw.b 0x2000000 0xFF 0x800000　这个不知道是什么，每次都会调用
+fatload mmc 0 0x02000000 rootfs-cpio_master.squashfs.img　　这个读到文件了：
+reading rootfs-cpio_master.squashfs.img
+2113536 bytes read in 994 ms (2 MiB/s)
+
+这样写看看：
+sf probe 0; sf erase 0x260000 0x300000; sf write 0x2000000 0x260000 0x300000;
+好像不动了，郁闷了．
+分解执行，那么其实是写成功的，但在最后一步感觉死机，断电后，启动系统成功了．
+sf probe 0; sf erase 0x260000 ${filesize}; sf write 0x2000000 0x260000 ${filesize};
+
+
+这次flashcp为什么没有擦除动作？ 只有在把所有的命令输入的情况下，　才出现了这个不擦除的现象．
+
 12.11
 在当前的运行环境下，　从pc到8136进行打流非常慢，　只有１.3左右，　而8136向pc打包，　有40多ｍ
 
