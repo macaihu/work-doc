@@ -21,6 +21,9 @@ flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
 
 mount -t nfs 192.168.0.50:/opt/work/ /mnt/nfs --nolock
 cd /tmp
+cp /mnt/nfs/gm8136s/images/elevator/elevator_v1.00.bin .
+
+
 cp /mnt/nfs/gm8136s/images/elevator/rootfs-cpio_master.squashfs.img .
 killall tzvideo
 flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2

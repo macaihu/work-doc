@@ -1,3 +1,7 @@
+2017-12-13 
+tabard         n.  粗呢大衣; 信号旗; 短袖外衣
+cinch          [sintʃ] n.  肚带, 紧握, 必然(发生)的事情 vt.  给...系肚带, 紧握住, 抓牢
+
 2017-12-10
 sere           [sɪə] adj.  干枯的; 枯萎的
 askance        [ə'skæns] adv.  怀疑地; 斜眼地; 不赞许地
@@ -2754,7 +2758,7 @@ n.  咬碎, 咬碎声
 crypt              [krɪpt]n.  土窖, 地下室, 地穴
 jest               [dʒest] n.  笑柄, 笑话 v.  讲笑话, 开玩笑, 嘲笑; 嘲笑
 semicricle         ['semi,sә:kl]n.  半圆形
-lurch              [lә:tʃ]n.  惨败, 倾斜, 挫折, 举步蹒跚, 徘徊 vi.  惨败, 倾斜, 徘徊 vt.  击败
+lurch              [lә:tʃ]n.  惨败, 倾斜, 挫折, 举步蹒跚, 徘徊 vi.  惨败, 倾斜, 徘徊 vt.  击败  2017.12.13
 flicker            ['flikә]vi.  闪动, 闪烁, 摇动, 扑动翅膀
 sepulcher          ['seplkә]n.  坟墓vt.  埋葬         
 subterranean       [,sʌbtә'reinjәn]a.  地下的, 秘密的n.  地下室, 地下工作者

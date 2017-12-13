@@ -12,6 +12,15 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.13
+mw.b 0x2000000 0xFF 0x800000　;fatload mmc 0 0x02000000 flash.bin　
+sf probe 0; sf erase 0x0 ${filesize}; sf write 0x2000000 0x0 ${filesize};
+
+
+在虚拟机上编译gm8136s, 第一次需要500多秒. clean后要163秒.
+
+
+
 12.12
 mw.b 0x2000000 0xFF 0x800000　;fatload mmc 0 0x02000000 rootfs-cpio_master.squashfs.img　
 sf probe 0; sf erase 0x260000 ${filesize}; sf write 0x2000000 0x260000 ${filesize};
