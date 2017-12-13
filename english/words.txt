@@ -1895,8 +1895,7 @@ v.  砰然一声响, 带鼻音, 拨弦声; 用鼻音讲, 使发拨弦声
 club  [klʌb]
 n.  俱乐部, 球棒, 木棍
 v.  棍打; 联合; 协作; 捐献; 联合起来; 集资; 组成俱乐部
-brandish  [bran·dish || 'brændɪʃ]
-v.  挥舞; 炫耀
+brandish         [bran·dish || 'brændɪʃ]v.  挥舞; 炫耀
 wrench  [rentʃ]
 n.  扳钳, 猛扭, 扳手
 v.  猛扭, 曲解, 使扭伤; 猛扭, 绞痛
