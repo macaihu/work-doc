@@ -7,7 +7,7 @@ A Clash of Kings
 
 date   | reach line | total line
 -------|------------|------------
-12.14  |   159      |  29672
+12.14  |   159      |  39672
 
 
 
