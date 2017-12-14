@@ -10,7 +10,6 @@ ziven-iPhone                                            | 192.168.16.13  | 98:9e
 HUAWEI_Mate_9	                                        | 192.168.16.16  | 10:b1:f8:07:26:b6 
 HUAWEI_P10                                              | 192.168.16.18  | 0c:8f:ff:1e:4e:92
 :HUAWEI TECHNOLOGIES CO.,LTD                            | 192.168.16.19  | 98:e7:f5:78:50:dd
-:Amazon Technologies Inc.                               | 192.168.16.20  | 34:d2:70:e0:ea:33
 Honor_V9                                                | 192.168.16.21  | 50:04:b8:78:e4:04
 new-host-426<br>Intel Corporate                         | 192.168.16.22  | 2c:6e:85:2d:18:74
 AdminisdeiPhone                                         | 192.168.16.24  | 90:3c:92:7a:53:9c
@@ -54,6 +53,7 @@ ATH-TL00-d2a7af9723c414d1<br>HUAWEI                     | 192.168.16.94  | a0:8d
 MacBook-Pro                                             | 192.168.16.96  | 78:31:c1:c0:c5:8e
 Honor_8                                                 | 192.168.16.98  | 5c:a8:6a:a6:57:d1
 HUAWEI_Mate_9                                           | 192.168.16.100 | 9c:b2:b2:d0:42:c1
+:Amazon Technologies Inc.                               | 192.168.16.101 | 34:d2:70:e0:ea:33	
 Honor_V9                                                | 192.168.16.102 | 1c:15:1f:20:89:c1
 iPhone                                                  | 192.168.16.104 | 20:ab:37:8d:e9:08
 likaduodeiPhone                                         | 192.168.16.107 | b8:44:d9:c6:97:a0
