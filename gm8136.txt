@@ -24,6 +24,7 @@ cd /tmp
 cp /mnt/nfs/gm8136s/images/elevator/elevator_v1.00.bin .
 /etc/init.d/rc.update
 
+cd /tmp
 cp /mnt/nfs/gm8136s/images/elevator/rootfs-cpio_master.squashfs.img .
 killall tzvideo
 flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
@@ -35,7 +36,7 @@ cp config.ont.json /tmp/
 killall ChinaMobile
 ./tzvideo -c config.base.json
 
-
+export PATH=/gm/bin:$PATH
 
 
 1、先配置本机器IP，和server IP。

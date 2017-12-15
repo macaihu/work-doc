@@ -21,7 +21,7 @@ IPADDR=192.168.19.99
 NETMASK=255.255.252.0
 GATEWAY=192.168.19.1
 ONBOOT=yes
-再修改一次resolv.conf就可以上网了.
+再修改一次resolv.conf就可以上网了
 
 gm的pc工具每次会重新读文件, 貌似大部分工具都是这样做的.
 

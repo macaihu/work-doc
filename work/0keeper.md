@@ -61,6 +61,7 @@ HUAWEI_G9_Plus                                          | 192.168.16.108 | 8c:eb
 Honor_8                                                 | 192.168.16.115 | dc:d9:16:26:e7:c0
 jiangbodeiPhone                                         | 192.168.16.116 | 48:a1:95:99:cf:72
 TOSHABA-PC                                              | 192.168.16.120 | 3c:46:d8:c4:ef:bc
+HUAWEI_RIO-AL00-141514c61                               | 192.168.16.126 | d4:61:2e:5e:7a:e6
                                                         |                |
 HUAWEI_nova                                             | 192.168.19.12  | 8c:0d:76:af:5f:b8                               
 ubuntu1710                                              | 192.168.19.28  | 08:00:27:6d:93:d5         
