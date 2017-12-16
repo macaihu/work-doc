@@ -1,3 +1,7 @@
+
+2017-12-15
+piously        ['paɪəslɪ] adv.  虔诚地, 笃信神地; 假借宗教名义地; 假虔诚地, 做给人看地
+
 2017-12-14
 laggard        ['lægәd] n.  迟钝者, 落后者 a.  迟钝的, 落后的
 jut            [dʒʌt] n.  突出部分, 尖端 v.  突出; 伸出; 使突出; 使伸出
@@ -4191,9 +4195,7 @@ merciless  ['mer·ci·less || 'mɜrsɪlɪs /'mɜːs-]
 adj.  无慈悲心的; 残忍的
 
 2015-2-9
-chagrin  [cha·grin || 'ʃægrɪn]
-n.  懊恼
-v.  使懊恼; 使苦恼
+chagrin  [cha·grin || 'ʃægrɪn] n.  懊恼 v.  使懊恼; 使苦恼
 arrogant  ['ar·ro·gant || 'ærəgənt]
 adj.  傲慢的; 自负的; 自大的
 bleat  [bli:t]
@@ -4676,8 +4678,7 @@ ply  [plai]
 n.  厚度, 板层
 vt.  使用, 使劲挥舞, 从事, 折, 弯
 vi.  辛勤工作, 定期航行
-avarice  ['ævәris]
-n.  贪婪
+avarice              ['ævәris] n.  贪婪
 sloop  [slu:p]
 n.  单桅帆船
 galley  ['gæli]
