@@ -1,3 +1,7 @@
+2017-12-17
+vial           ['vaiәl] n.  小瓶 vt.  装入小瓶
+maw            [mɒ:] n.  (反刍动物的)第四胃, 嗉囊, (人的)胃
+mar            [mɑ:] vt.  损毁, 损伤, 糟蹋 n.  三月
 
 2017-12-15
 piously        ['paɪəslɪ] adv.  虔诚地, 笃信神地; 假借宗教名义地; 假虔诚地, 做给人看地
@@ -3122,7 +3126,7 @@ Phoebe: Well, I wanna enter her in a baby beauty pageant.
 3	hurl	猛投;用力掷
 4	jest	笑话；打趣；玩笑
 5	lather	（无必要地）焦躁不安，发火
-6	myriad	无数;大量;各种各样
+6	myriad	无数;大量;各种各样      2017.12.17
 7	weather	(使)风化;(使)褪色;(使)受到侵蚀
 8	tether	(拴动物的)拴绳，拴链
 9	wane	衰落;减少
@@ -3644,7 +3648,7 @@ n.  泛滥, 大雨, 洪水
 13	inflict	予以(打击);使遭受(损伤、苦痛等)
 14	faintest	一点也不的，极小的
 15	blazon	装饰，纹章
-16	unfurl	张开（旗帜，伞等）
+16	unfurl	张开（旗帜，伞等）        2017.12.17
 17	fratricide	杀兄弟的人，杀兄弟的行为
 18	malevolent	恶意的，恶毒的
 19	unblemish	无缺点的，清白的
