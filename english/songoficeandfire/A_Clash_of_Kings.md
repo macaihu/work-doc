@@ -749,348 +749,229 @@ CHAPTER 1  ARYA
 
  They took five wagons out of King's Landing, laden with supplies for the Wall: hides and bolts of cloth, bars of pig iron, a 
  cage of ravens, books and paper and ink, a bale of sourleaf, jars of oil, and chests of medicine and spices. Teams of plow 
-
-horses pulled the wagons, and Yoren had bought two coursers and a half-dozen donkeys for the boys. Arya would have 
-
-preferred a real horse, but the donkey was better than riding on a wagon. 
+ horses pulled the wagons, and Yoren had bought two coursers and a half-dozen donkeys for the boys. Arya would have 
+ preferred a real horse, but the donkey was better than riding on a wagon. 
 
  The men paid her no mind, but she was not so lucky with the boys. She was two years younger than the youngest orphan, 
-
-not to mention smaller and skinnier, and Lommy and Hot Pie took her silence to mean she was scared, or stupid, or deaf. 
-
-"Look at that sword Lumpyhead's got there," Lommy said one morning as they made their plodding way past orchards and 
-
-wheat fields. He'd been a dyer's apprentice before he was caught stealing, and his arms were mottled green to the elbow. 
-
-When he laughed he brayed like the donkeys they were riding. "Where's a gutter rat like Lumpyhead get him a sword?" 
+ not to mention smaller and skinnier, and Lommy and Hot Pie took her silence to mean she was scared, or stupid, or deaf. 
+ "Look at that sword Lumpyhead's got there," Lommy said one morning as they made their plodding way past orchards and 
+ wheat fields. He'd been a dyer's apprentice before he was caught stealing, and his arms were mottled green to the elbow. 
+ When he laughed he brayed like the donkeys they were riding. "Where's a gutter rat like Lumpyhead get him a sword?" 
 
  Arya chewed her lip sullenly. She could see the back of Yoren's faded black cloak up ahead of the wagons, but she was 
-
-determined not to go crying to him for help. 
+ determined not to go crying to him for help. 
 
  "Maybe he's a little squire," Hot Pie put in. His mother had been a baker before she died, and he'd pushed her cart through 
-
-the streets all day, shouting "Hot pies! Hot pies!" "Some lordy lord's little squire boy, that's it." 
+ the streets all day, shouting "Hot pies! Hot pies!" "Some lordy lord's little squire boy, that's it." 
 
  "He ain't no squire, look at him. I bet that's not even a real sword. I bet it's just some play sword made of tin." 
 
  Arya hated them making fun of Needle. "It's castle-forged steel, you stupid," she snapped, turning in the saddle to glare at 
-
-them, "and you better shut your mouth." 
+ them, "and you better shut your mouth." 
 
  The orphan boys hooted. "Where'd you get a blade like that, Lumpyface?" Hot Pie wanted to know. 
 
  "Lumpyhead," corrected Lommy. "He prob'ly stole it." 
 
  "I did not!" she shouted. Jon Snow had given her Needle. Maybe she had to let them call her Lumpyhead, but she wasn't 
-
-going to let them call Jon a thief. 
+ going to let them call Jon a thief. 
 
  "If he stole it, we could take it off him," said Hot Pie. "It's not his anyhow. I could use me a sword like that." 
 
  Lommy egged him on. "Go on, take it off him, I dare you." 
 
------------------------ Page 11-----------------------
-
-                                     10 
-
  Hot Pie kicked his donkey, riding closer. "Hey, Lumpyface, you gimme that sword." His hair was the color of straw, his 
-
-fat face all sunburnt and peeling. "You don't know how to use it." 
+ fat face all sunburnt and peeling. "You don't know how to use it." 
 
  Yes I do, Arya could have said. I killed a boy, a fat boy like you, I stabbed him in the belly and he died, and I'll kill you too 
-
-if you don't let me alone. Only she did not dare. Yoren didn't know about the stableboy, but she was afraid of what he might 
-
-do if he found out. Arya was pretty sure that some of the other men were killers too, the three in the manacles for sure, but the 
-
-queen wasn't looking for them, so it wasn't the same. 
+ if you don't let me alone. Only she did not dare. Yoren didn't know about the stableboy, but she was afraid of what he might 
+ do if he found out. Arya was pretty sure that some of the other men were killers too, the three in the manacles for sure, but the 
+ queen wasn't looking for them, so it wasn't the same. 
 
  "Look at him," brayed Lommy Greenhands. "I bet he's going to cry now. You want to cry, Lumpyhead?" 
 
  She had cried in her sleep the night before, dreaming of her father. Come morning, she'd woken red-eyed and dry, and could 
-
-not have shed another tear if her life had hung on it. 
+ not have shed another tear if her life had hung on it. 
 
  "He's going to wet his pants," Hot Pie suggested. 
 
  "Leave him be," said the boy with the shaggy black hair who rode behind them. Lommy had named him the Bull, on 
-
-account of this horned helm he had that he polished all the time but never wore. Lommy didn't dare mock the Bull. He was 
-
-older, and big for his age, with a broad chest and strong-looking arms. 
+ account of this horned helm he had that he polished all the time but never wore. Lommy didn't dare mock the Bull. He was 
+ older, and big for his age, with a broad chest and strong-looking arms. 
 
  "You better give Hot Pie the sword, Arry," Lommy said. "Hot Pie wants it bad. He kicked a boy to death. He'll do the same 
-
-to you, I bet." 
+ to you, I bet." 
 
  "I knocked him down and I kicked him in the balls, and I kept kicking him there until he was dead," Hot Pie boasted. "I 
-
-kicked him all to pieces. His balls were broke open and bloody and his cock turned black. You better gimme the sword." 
+ kicked him all to pieces. His balls were broke open and bloody and his cock turned black. You better gimme the sword." 
 
  Arya slid her practice sword from her belt. "You can have this one," she told Hot Pie, not wanting to fight. 
 
  "That's just some stick." He rode nearer and tried to reach over for Needle's hilt. 
 
  Arya made the stick whistle as she laid the wood across his donkey's hindquarters. The animal hawed and bucked, dumping 
-
-Hot Pie on the ground. She vaulted off her own donkey and poked him in the gut as he tried to get up and he sat back down 
-
-with a grunt. Then she whacked him across the face and his nose made a crack like a branch breaking. Blood dribbled from his 
-
-nostrils. When Hot Pie began to wail, Arya whirled toward Lommy Greenhands, who was sitting on his donkey openmouthed. 
-
-"You want some sword too?" she yelled, but he didn't. He raised dyed green hands in front of his face and squealed at her to 
-
-get away. 
+ Hot Pie on the ground. She vaulted off her own donkey and poked him in the gut as he tried to get up and he sat back down 
+ with a grunt. Then she whacked him across the face and his nose made a crack like a branch breaking. Blood dribbled from his 
+ nostrils. When Hot Pie began to wail, Arya whirled toward Lommy Greenhands, who was sitting on his donkey openmouthed. 
+ "You want some sword too?" she yelled, but he didn't. He raised dyed green hands in front of his face and squealed at her to 
+ get away. 
 
  The Bull shouted, "Behind you," and Arya spun. Hot Pie was on his knees, his fist closing around a big jagged rock. She let 
-
-him throw it, ducking her head as it sailed past. Then she flew at him. He raised a hand and she hit it, and then his cheek, and 
-
-then his knee. He grabbed for her, and she danced aside and bounced the wood off the back of his head. He fell down and got 
-
-up and stumbled after her, his red face all smeared with dirt and blood. Arya slid into a water dancer's stance and waited. 
-
-When he came close enough, she lunged, right between his legs, so hard that if her wooden sword had had a point it would 
-
-have come out between his butt cheeks. 
+ him throw it, ducking her head as it sailed past. Then she flew at him. He raised a hand and she hit it, and then his cheek, and 
+ then his knee. He grabbed for her, and she danced aside and bounced the wood off the back of his head. He fell down and got 
+ up and stumbled after her, his red face all smeared with dirt and blood. Arya slid into a water dancer's stance and waited. 
+ When he came close enough, she lunged, right between his legs, so hard that if her wooden sword had had a point it would 
+ have come out between his butt cheeks. 
 
  By the time Yoren pulled her off him, Hot Pie was sprawled out on the ground with his breeches brown and smelly, crying 
-
-as Arya whapped him over and over and over. "Enough," the black brother roared, prying the stick sword from her fingers, 
-
-"you want to kill the fool?" When Lommy and some others started to squeal, the old man turned on them too. "Shut your 
-
-mouths, or I'll be shutting them for you. Any more o' this, I'll tie you lot behind the wagons and drag you to the Wall." He 
-
-spat. "And that goes twice for you, Arry. You come with me, boy. Now" 
+ as Arya whapped him over and over and over. "Enough," the black brother roared, prying the stick sword from her fingers, 
+ "you want to kill the fool?" When Lommy and some others started to squeal, the old man turned on them too. "Shut your 
+ mouths, or I'll be shutting them for you. Any more o' this, I'll tie you lot behind the wagons and drag you to the Wall." He 
+ spat. "And that goes twice for you, Arry. You come with me, boy. Now" 
 
  They were all looking at her, even the three chained and manacled in the back of the wagon. The fat one snapped his pointy 
-
-teeth together and hissed, but Arya ignored him. 
+ teeth together and hissed, but Arya ignored him. 
 
  The old man dragged her well off the road into a tangle of trees, cursing and muttering all the while. "If I had a thimble o' 
-
-sense, I would've left you in King's Landing. You hear me, boy?" He always snarled that word, putting a bite in it so she 
-
-would be certain to hear. "Unlace your breeches and pull ‘em down. Go on, there's no one here to see. Do it." 
+ sense, I would've left you in King's Landing. You hear me, boy?" He always snarled that word, putting a bite in it so she 
+ would be certain to hear. "Unlace your breeches and pull ‘em down. Go on, there's no one here to see. Do it." 
 
  Sullenly, Arya did as he said. "Over there, against the oak. Yes, like that." She wrapped her arms around the trunk and 
-
-pressed her face to the rough wood. "You scream now. You scream loud." 
+ pressed her face to the rough wood. "You scream now. You scream loud." 
 
  I won't, Arya thought stubbornly, but when Yoren laid the wood against the back of her bare thighs, the shriek burst out of 
-
-her anyway. "Think that hurt?" he said. "Try this one." The stick came whistling. Arya shrieked again, clutching the tree to 
-
-keep from falling. "One more." She held on tight, chewing her lip, flinching when she heard it coming. The stroke made her 
-
-jump and howl. I won't cry, she thought, I won't do that. I'm a Stark of Winterfell, our sigil is the direwolf, direwolves don' t 
-
-cry. She could feel a thin trickle of blood running down her left leg. Her thighs and cheeks were ablaze with pain. "Might be I 
-
-got your attention now," Yoren said. "Next time you take that stick to one of your brothers, you'll get twice what you give, 
-
-you hear me? Now cover yourself." 
+ her anyway. "Think that hurt?" he said. "Try this one." The stick came whistling. Arya shrieked again, clutching the tree to 
+ keep from falling. "One more." She held on tight, chewing her lip, flinching when she heard it coming. The stroke made her 
+ jump and howl. I won't cry, she thought, I won't do that. I'm a Stark of Winterfell, our sigil is the direwolf, direwolves don' t 
+ cry. She could feel a thin trickle of blood running down her left leg. Her thighs and cheeks were ablaze with pain. "Might be I 
+ got your attention now," Yoren said. "Next time you take that stick to one of your brothers, you'll get twice what you give, 
+ you hear me? Now cover yourself." 
 
  They're not my brothers, Arya thought as she bent to yank up her breeches, but she knew better than to say so. Her hands 
-
-fumbled with her belt and laces. 
+ fumbled with her belt and laces. 
 
  Yoren was looking at her. "You hurt?" 
 
  Calm as still water, she told herself, the way Syrio Forel had taught her. "Some." 
 
  He spat. "That pie boy's hurting worse. It wasn't him as killed your father, girl, nor that thieving Lommy neither. Hitting 
-
-them won't bring him back." 
+ them won't bring him back." 
 
  "I know," Arya muttered sullenly. 
 
  "Here's something you don't know. It wasn't supposed to happen like it did. I was set to leave, wagons bought and loaded, 
-
-and a man comes with a boy for me, and a purse of coin, and a message, never mind who it's from. Lord Eddard's to take the 
-
-black, he says to me, wait, he'll be going with you. Why d'you think I was there? Only something went queer." 
+ and a man comes with a boy for me, and a purse of coin, and a message, never mind who it's from. Lord Eddard's to take the 
+ black, he says to me, wait, he'll be going with you. Why d'you think I was there? Only something went queer." 
 
  "Joffrey," Arya breathed. "Someone should kill him!" 
 
  "Someone will, but it won't be me, nor you neither." Yoren tossed back her stick sword. "Got sourleaf back at the wagons," 
-
-he said as they made their way back to the road. "You'll chew some, it'll help with the sting." 
+ he said as they made their way back to the road. "You'll chew some, it'll help with the sting." 
 
  It did help, some, though the taste of it was foul and it made her spit look like blood. Even so, she walked for the rest of that 
-
------------------------ Page 12-----------------------
-
-                                      11 
-
-day, and the day after, and the day after that, too raw to sit a donkey. Hot Pie was worse off; Yoren had to shift some 
-
-barrels around so he could lie in the back of a wagon on some sacks of barley, and he whimpered every time the wheels hit a 
-
-rock. Lommy Greenhands wasn't even hurt, yet he stayed as far away from Arya as he could get. "Every time you look at him, 
-
-he twitches," the Bull told her as she walked beside his donkey. She did not answer. It seemed safer not to talk to anyone. 
+ day, and the day after, and the day after that, too raw to sit a donkey. Hot Pie was worse off; Yoren had to shift some 
+ barrels around so he could lie in the back of a wagon on some sacks of barley, and he whimpered every time the wheels hit a 
+ rock. Lommy Greenhands wasn't even hurt, yet he stayed as far away from Arya as he could get. "Every time you look at him, 
+ he twitches," the Bull told her as she walked beside his donkey. She did not answer. It seemed safer not to talk to anyone. 
 
  That night she lay upon her thin blanket on the hard ground, staring up at the great red comet. The comet was splendid and 
-
-scary all at once. "The Red Sword," the Bull named it; he claimed it looked like a sword, the blade still red-hot from the forge. 
-
-When Arya squinted the right way she could see the sword too, only it wasn't a new sword, it was Ice, her father's greatsword, 
-
-all ripply Valyrian steel, and the red was Lord Eddard's blood on the blade after Ser Ilyn the King's justice had cut off his 
-
-head. Yoren had made her look away when it happened, yet it seemed to her that the comet looked like Ice must have, after. 
+ scary all at once. "The Red Sword," the Bull named it; he claimed it looked like a sword, the blade still red-hot from the forge. 
+ When Arya squinted the right way she could see the sword too, only it wasn't a new sword, it was Ice, her father's greatsword, 
+ all ripply Valyrian steel, and the red was Lord Eddard's blood on the blade after Ser Ilyn the King's justice had cut off his 
+ head. Yoren had made her look away when it happened, yet it seemed to her that the comet looked like Ice must have, after. 
 
  When at last she slept, she dreamed of home. The kingsroad wound its way past Winterfell on its way to the Wall, and 
-
-Yoren had promised he'd leave her there with no one any wiser about who she'd been. She yearned to see her mother again, 
-
-and Robb and Bran and Rickon . . . but it was Jon Snow she thought of most. She wished somehow they could come to the 
-
-Wall before Winterfell, so Jon might muss up her hair and call her "little sister." She'd tell him, "I missed you," and he'd say it 
-
-too at the very same moment, the way they always used to say things together. She would have liked that. She would have 
-
-liked that better than anything. 
+ Yoren had promised he'd leave her there with no one any wiser about who she'd been. She yearned to see her mother again, 
+ and Robb and Bran and Rickon . . . but it was Jon Snow she thought of most. She wished somehow they could come to the 
+ Wall before Winterfell, so Jon might muss up her hair and call her "little sister." She'd tell him, "I missed you," and he'd say it 
+ too at the very same moment, the way they always used to say things together. She would have liked that. She would have 
+ liked that better than anything. 
 
   
 
- CHAPTER 2 
-
- SANSA 
+CHAPTER 2  SANSA 
 
   
 
  The morning of King Joffrey's name day dawned bright and windy, with the long tail of the great comet visible through the 
-
-high scuttling clouds. Sansa was watching it from her tower window when Ser Arys Oakheart arrived to escort her down to the 
-
-tourney grounds. "What do you think it means?" she asked him. 
+ high scuttling clouds. Sansa was watching it from her tower window when Ser Arys Oakheart arrived to escort her down to the 
+ tourney grounds. "What do you think it means?" she asked him. 
 
  "Glory to your betrothed," Ser Arys answered at once. "See how it flames across the sky today on His Grace's name day, as 
-
-if the gods themselves had raised a banner in his honor. The smallfolk have named it King Joffrey's Comet." 
+ if the gods themselves had raised a banner in his honor. The smallfolk have named it King Joffrey's Comet." 
 
  Doubtless that was what they told Joffrey; Sansa was not so sure. "I've heard servants calling it the Dragon's Tail." 
 
  "King Joffrey sits where Aegon the Dragon once sat, in the castle built by his son," Ser Arys said. "He is the dragon's 
-
-heir—and crimson is the color of House Lannister, another sign. This comet is sent to herald Joffrey's ascent to the throne, I 
-
-have no doubt. It means that he will triumph over his enemies." 
+ heir—and crimson is the color of House Lannister, another sign. This comet is sent to herald Joffrey's ascent to the throne, I 
+ have no doubt. It means that he will triumph over his enemies." 
 
  Is it true? she wondered. Would the gods be so cruel? Her mother was one of Joffrey's enemies now, her brother Robb 
-
-another. Her father had died by the king's command. Must Robb and her lady mother die next? The comet was red, but Joffrey 
-
-was Baratheon as much as Lannister, and their sigil was a black stag on a golden field. Shouldn't the gods have sent Joff a 
-
-golden comet? 
+ another. Her father had died by the king's command. Must Robb and her lady mother die next? The comet was red, but Joffrey 
+ was Baratheon as much as Lannister, and their sigil was a black stag on a golden field. Shouldn't the gods have sent Joff a 
+ golden comet? 
 
  Sansa closed the shutters and turned sharply away from the window. "You look very lovely today, my lady," Ser Arys said. 
 
  "Thank you, ser." Knowing that Joffrey would require her to attend the tourney in his honor, Sansa had taken special care 
-
-with her face and clothes. She wore a gown of pale purple silk and a moonstone hair net that had been a gift from Joffrey. The 
-
-gown had long sleeves to hide the bruises on her arms. Those were Joffrey's gifts as well. When they told him that Robb had 
-
-been proclaimed King in the North, his rage had been a fearsome thing, and he had sent Ser Boros to beat her. 
+ with her face and clothes. She wore a gown of pale purple silk and a moonstone hair net that had been a gift from Joffrey. The 
+ gown had long sleeves to hide the bruises on her arms. Those were Joffrey's gifts as well. When they told him that Robb had 
+ been proclaimed King in the North, his rage had been a fearsome thing, and he had sent Ser Boros to beat her. 
 
  "Shall we go?" Ser Arys offered his arm and she let him lead her from her chamber. If she must have one of the Kingsguard 
-
-dogging her steps, Sansa preferred that it be him. Ser Boros was short-tempered, Ser Meryn cold, and Ser Mandon's strange 
-
-dead eyes made her uneasy, while Ser Preston treated her like a lackwit child. Arys Oakheart was courteous, and would talk to 
-
-her cordially. Once he even objected when Joffrey commanded him to hit her. He did hit her in the end, but not hard as Ser 
-
-Meryn or Ser Boros might have, and at least he had argued. The others obeyed without question . . . except for the Hound, but 
-
-Joff never asked the Hound to punish her. He used the other five for that. 
+ dogging her steps, Sansa preferred that it be him. Ser Boros was short-tempered, Ser Meryn cold, and Ser Mandon's strange 
+ dead eyes made her uneasy, while Ser Preston treated her like a lackwit child. Arys Oakheart was courteous, and would talk to 
+ her cordially. Once he even objected when Joffrey commanded him to hit her. He did hit her in the end, but not hard as Ser 
+ Meryn or Ser Boros might have, and at least he had argued. The others obeyed without question . . . except for the Hound, but 
+ Joff never asked the Hound to punish her. He used the other five for that. 
 
  Ser Arys had light brown hair and a face that was not unpleasant to look upon. Today he made quite the dashing figure, with 
-
-his white silk cloak fastened at the shoulder by a golden leaf, and a spreading oak tree worked upon the breast of his tunic in 
-
-shining gold thread. "Who do you think will win the day's honors?" Sansa asked as they descended the steps arm in arm. 
+ his white silk cloak fastened at the shoulder by a golden leaf, and a spreading oak tree worked upon the breast of his tunic in 
+ shining gold thread. "Who do you think will win the day's honors?" Sansa asked as they descended the steps arm in arm. 
 
  "I will," Ser Arys answered, smiling. "Yet I fear the triumph will have no savor. This will be a small field, and poor. No 
-
-more than two score will enter the lists, including squires and freeriders. There is small honor in unhorsing green boys." 
+ more than two score will enter the lists, including squires and freeriders. There is small honor in unhorsing green boys." 
 
  The last tourney had been different, Sansa reflected. King Robert had staged it in her father's honor. High lords and fabled 
-
-champions had come from all over the realm to compete, and the whole city had turned out to watch. She remembered the 
-
-splendor of it: the field of pavilions along the river with a knight's shield hung before each door, the long rows of silken 
-
-pennants waving in the wind, the gleam of sunlight on bright steel and gilded spurs. The days had rung to the sounds of 
-
-trumpets and pounding hooves, and the nights had been full of feasts and song. Those had been the most magical days of her 
-
-life, but they seemed a memory from another age now. Robert Baratheon was dead, and her father as well, beheaded for a 
-
-traitor on the steps of the Great Sept of Baelor. Now there were three kings in the land, and war raged beyond the Trident 
-
-while the city filled with desperate men. Small wonder that they had to hold Joff's tournament behind the thick stone walls of 
-
-the Red Keep. 
+ champions had come from all over the realm to compete, and the whole city had turned out to watch. She remembered the 
+ splendor of it: the field of pavilions along the river with a knight's shield hung before each door, the long rows of silken 
+ pennants waving in the wind, the gleam of sunlight on bright steel and gilded spurs. The days had rung to the sounds of 
+ trumpets and pounding hooves, and the nights had been full of feasts and song. Those had been the most magical days of her 
+ life, but they seemed a memory from another age now. Robert Baratheon was dead, and her father as well, beheaded for a 
+ traitor on the steps of the Great Sept of Baelor. Now there were three kings in the land, and war raged beyond the Trident 
+ while the city filled with desperate men. Small wonder that they had to hold Joff's tournament behind the thick stone walls of 
+ the Red Keep. 
 
  "Will the queen attend, do you think?" Sansa always felt safer when Cersei was there to restrain her son. 
 
  "I fear not, my lady. The council is meeting, some urgent business." Ser Arys dropped his voice. "Lord Tywin has gone to 
-
-ground at Harrenhal instead of bringing his army to the city as the queen commanded. Her Grace is furious." He fell silent as a 
-
-column of Lannister guardsmen marched past, in crimson cloaks and lion-crested helms. Ser Arys was fond of gossip, but only 
-
-when he was certain that no one was listening. 
+ ground at Harrenhal instead of bringing his army to the city as the queen commanded. Her Grace is furious." He fell silent as a 
+ column of Lannister guardsmen marched past, in crimson cloaks and lion-crested helms. Ser Arys was fond of gossip, but only 
+ when he was certain that no one was listening. 
 
  The carpenters had erected a gallery and lists in the outer bailey. It was a poor thing indeed, and the meager throng that had 
-
-gathered to watch filled but half the seats. Most of the spectators were guardsmen in the gold cloaks of the City Watch or the 
-
------------------------ Page 13-----------------------
-
-                                     12 
-
-crimson of House Lannister; of lords and ladies there were but a paltry few, the handful that remained at court. Grey-faced 
-
-Lord Gyles Rosby was coughing into a square of pink silk. Lady Tanda was bracketed by her daughters, placid dull Lollys and 
-
-acid-tongued Falyse. Ebon-skinned Jalabhar Xho was an exile who had no other refuge, Lady Ermesande a babe seated on her 
-
-wet nurse's lap. The talk was she would soon be wed to one of the queen's cousins, so the Lannisters might claim her lands. 
+ gathered to watch filled but half the seats. Most of the spectators were guardsmen in the gold cloaks of the City Watch or the 
+ crimson of House Lannister; of lords and ladies there were but a paltry few, the handful that remained at court. Grey-faced 
+ Lord Gyles Rosby was coughing into a square of pink silk. Lady Tanda was bracketed by her daughters, placid dull Lollys and 
+ acid-tongued Falyse. Ebon-skinned Jalabhar Xho was an exile who had no other refuge, Lady Ermesande a babe seated on her 
+ wet nurse's lap. The talk was she would soon be wed to one of the queen's cousins, so the Lannisters might claim her lands. 
 
  The king was shaded beneath a crimson canopy, one leg thrown negligently over the carved wooden arm of his chair. 
-
-Princess Myrcella and Prince Tommen sat behind him. In the back of the royal box, Sandor Clegane stood at guard, his hands 
-
-resting on his swordbelt. The white cloak of the Kingsguard was draped over his broad shoulders and fastened with a jeweled 
-
-brooch, the snowy cloth looking somehow unnatural against his brown roughspun tunic and studded leather jerkin. "Lady 
-
-Sansa," the Hound announced curtly when he saw her. His voice was as rough as the sound of a saw on wood. The burn scars 
-
-on his face and throat made one side of his mouth twitch when he spoke. 
+ Princess Myrcella and Prince Tommen sat behind him. In the back of the royal box, Sandor Clegane stood at guard, his hands 
+ resting on his swordbelt. The white cloak of the Kingsguard was draped over his broad shoulders and fastened with a jeweled 
+ brooch, the snowy cloth looking somehow unnatural against his brown roughspun tunic and studded leather jerkin. "Lady 
+ Sansa," the Hound announced curtly when he saw her. His voice was as rough as the sound of a saw on wood. The burn scars 
+ on his face and throat made one side of his mouth twitch when he spoke. 
 
  Princess Myrcella nodded a shy greeting at the sound of Sansa's name, but plump little Prince Tommen jumped up eagerly. 
-
-"Sansa, did you hear? I'm to ride in the tourney today. Mother said I could." Tommen was all of eight. He reminded her of her 
-
-own little brother, Bran. They were of an age. Bran was back at Winterfell, a cripple, yet safe. 
+ "Sansa, did you hear? I'm to ride in the tourney today. Mother said I could." Tommen was all of eight. He reminded her of her 
+ own little brother, Bran. They were of an age. Bran was back at Winterfell, a cripple, yet safe. 
 
  Sansa would have given anything to be with him. "I fear for the life of your foeman," she told Tommen solemnly. 
 
  "His foeman will be stuffed with straw," Joff said as he rose. The king was clad in a gilded breastplate with a roaring lion 
-
-engraved upon its chest, as if he expected the war to engulf them at any moment. He was thirteen today, and tall for his age, 
-
-with the green eyes and golden hair of the Lannisters. 
+ engraved upon its chest, as if he expected the war to engulf them at any moment. He was thirteen today, and tall for his age, 
+ with the green eyes and golden hair of the Lannisters. 
 
  "Your Grace," she said, dipping in a curtsy. 
 
@@ -1099,28 +980,22 @@ with the green eyes and golden hair of the Lannisters.
  Joffrey waved a curt dismissal while he studied Sansa from head to heels. "I'm pleased you wore my stones." 
 
  So the king had decided to play the gallant today. Sansa was relieved. "I thank you for them . . . and for your tender words. I 
-
-pray you a lucky name day, Your Grace." 
+ pray you a lucky name day, Your Grace." 
 
  "Sit," Joff commanded, gesturing her to the empty seat beside his own. "Have you heard? The Beggar King is dead." 
 
  "Who?" For a moment Sansa was afraid he meant Robb. 
 
  "Viserys. The last son of Mad King Aerys. He's been going about the Free Cities since before I was born, calling himself a 
-
-king. Well, Mother says the Dothraki finally crowned him. With molten gold." He laughed. "That's funny, don't you think? 
-
-The dragon was their sigil. It's almost as good as if some wolf killed your traitor brother. Maybe I'll feed him to wolves after 
-
-I've caught him. Did I tell you, I intend to challenge him to single combat?" 
+ king. Well, Mother says the Dothraki finally crowned him. With molten gold." He laughed. "That's funny, don't you think? 
+ The dragon was their sigil. It's almost as good as if some wolf killed your traitor brother. Maybe I'll feed him to wolves after 
+ I've caught him. Did I tell you, I intend to challenge him to single combat?" 
 
  "I should like to see that, Your Grace." More than you know Sansa kept her tone cool and polite, yet even so Joffrey's eyes 
-
-narrowed as he tried to decide whether she was mocking him. "Will you enter the lists today?" she asked quickly. 
+ narrowed as he tried to decide whether she was mocking him. "Will you enter the lists today?" she asked quickly. 
 
  The king frowned. "My lady mother said it was not fitting, since the tourney is in my honor. Otherwise I would have been 
-
-champion. Isn't that so, dog?" 
+ champion. Isn't that so, dog?" 
 
  The Hound's mouth twitched. "Against this lot? Why not?" 
 
@@ -1129,76 +1004,51 @@ champion. Isn't that so, dog?"
  Clegane's voice was thick with contempt. "Wouldn't be worth the bother of arming myself. This is a tournament of gnats." 
 
  The king laughed. "My dog has a fierce bark. Perhaps I should command him to fight the day's champion. To the death." 
-
-Joffrey was fond of making men fight to the death. 
+ Joffrey was fond of making men fight to the death. 
 
  "You'd be one knight the poorer." The Hound had never taken a knight's vows. His brother was a knight, and he hated his 
-
-brother. 
+ brother. 
 
  A blare of trumpets sounded. The king settled back in his seat and took Sansa's hand. Once that would have set her heart to 
-
-pounding, but that was before he had answered her plea for mercy by presenting her with her father's head. His touch filled 
-
-her with revulsion now, but she knew better than to show it. She made herself sit very still. 
+ pounding, but that was before he had answered her plea for mercy by presenting her with her father's head. His touch filled 
+ her with revulsion now, but she knew better than to show it. She made herself sit very still. 
 
  "Ser Meryn Trant of the Kingsguard," a herald called. 
 
  Ser Meryn entered from the west side of the yard, clad in gleaming white plate chased with gold and mounted on a milk- 
-
-white charger with a flowing grey mane. His cloak streamed behind him like a field of snow. He carried a twelve-foot lance. 
+ white charger with a flowing grey mane. His cloak streamed behind him like a field of snow. He carried a twelve-foot lance. 
 
  "Ser Hobber of House Redwyne, of the Arbor," the herald sang. Ser Hobber trotted in from the east, riding a black stallion 
-
-caparisoned in burgundy and blue. His lance was striped in the same colors, and his shield bore the grape cluster sigil of his 
-
-House. The Redwyne twins were the queen 's unwilling guests, even as Sansa was. She wondered whose notion it had been for 
-
-them to ride in Joffrey's tourney. Not their own, she thought. 
+ caparisoned in burgundy and blue. His lance was striped in the same colors, and his shield bore the grape cluster sigil of his 
+ House. The Redwyne twins were the queen 's unwilling guests, even as Sansa was. She wondered whose notion it had been for 
+ them to ride in Joffrey's tourney. Not their own, she thought. 
 
  At a signal from the master of revels, the combatants couched their lances and put their spurs to their mounts. There were 
-
-shouts from the watching guardsmen and the lords and ladies in the gallery. The knights came together in the center of the 
-
-yard with a great shock of wood and steel. The white lance and the striped one exploded in splinters within a second of each 
-
-other. Hobber Redwyne reeled at the impact, yet somehow managed to keep his seat. Wheeling their horses about at the far 
-
-end of the lists, the knights tossed down their broken lances and accepted replacements from the squires. Ser Horas Redwyne, 
-
-Ser Hobber's twin, shouted encouragement to his brother. 
+ shouts from the watching guardsmen and the lords and ladies in the gallery. The knights came together in the center of the 
+ yard with a great shock of wood and steel. The white lance and the striped one exploded in splinters within a second of each 
+ other. Hobber Redwyne reeled at the impact, yet somehow managed to keep his seat. Wheeling their horses about at the far 
+ end of the lists, the knights tossed down their broken lances and accepted replacements from the squires. Ser Horas Redwyne, 
+ Ser Hobber's twin, shouted encouragement to his brother. 
 
  But on their second pass Ser Meryn swung the point of his lance to strike Ser Hobber in the chest, driving him from the 
-
-saddle to crash resoundingly to the earth. Ser Horas cursed and ran out to help his battered brother from the field. 
+ saddle to crash resoundingly to the earth. Ser Horas cursed and ran out to help his battered brother from the field. 
 
  "Poorly ridden," declared King Joffrey. 
 
  "Ser Balon Swann, of Stonehelm in the Red Watch," came the herald's cry. Wide white wings ornamented Ser Balon's 
-
-greathelm, and black and white swans fought on his shield. "Morros of House Slynt, heir to Lord Janos of Harrenhal." 
+ greathelm, and black and white swans fought on his shield. "Morros of House Slynt, heir to Lord Janos of Harrenhal." 
 
  "Look at that upiumped oaf," Joff hooted, loud enough for half the yard to hear. Morros, a mere squire and a new-made 
-
-squire at that, was having difficulty managing lance and shield. The lance was a knight's weapon, Sansa knew, the Slynts 
-
-lowborn. Lord Janos had been no more than commander of the City Watch before Joffrey had raised him to Han renhal and 
-
-the council. 
-
------------------------ Page 14-----------------------
-
-                                     13 
+ squire at that, was having difficulty managing lance and shield. The lance was a knight's weapon, Sansa knew, the Slynts 
+ lowborn. Lord Janos had been no more than commander of the City Watch before Joffrey had raised him to Han renhal and 
+ the council. 
 
  I hope he falls and shames himself, she thought bitterly. I hope Ser Balon kills him. When Joffrey proclaimed her father's 
-
-death, it had been Janos Slynt who seized Lord Eddard's severed head by the hair and raised it on high for king and crowd to 
-
-behold, while Sansa wept and screamed. 
+ death, it had been Janos Slynt who seized Lord Eddard's severed head by the hair and raised it on high for king and crowd to 
+ behold, while Sansa wept and screamed. 
 
  Morros wore a checkered black-and-gold cloak over black armor inlaid with golden scrollwork. On his shield was the 
-
-bloody spear his father had chosen as the sigil of their new-made house. But he did not seem to know what to do with the 
+ bloody spear his father had chosen as the sigil of their new-made house. But he did not seem to know what to do with the 
 
 shield as he urged his horse forward, and Ser Balon's point struck the blazon square. Morros dropped his lance, fought for 
 

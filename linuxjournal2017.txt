@@ -12,6 +12,22 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.18
+
+
+mw.b 0x2000000 0xFF 0x800000　;fatload mmc 0 0x02000000 rootfs-cpio_master.squashfs.img　
+sf probe 0; sf erase 0x260000 ${filesize}; sf write 0x2000000 0x260000 ${filesize};
+
+
+centos中把ls目录的颜色改为黄色:
+http://www.linuxprobe.com/centos-directory-color.html
+直接改/etc/DIR_COLORS就可以了:
+找到下面这一行：
+      DIR 01;34（01：粗体，34：蓝色）
+改为：
+      DIR 01;33（01：粗体，33：黄色）
+在黑色背景下蓝色几乎无法看清.
+
 12.14
 centos 最小化版设置静态ip:
 vim "/etc/sysconfig/network-scripts/ifcfg-enp0s3"

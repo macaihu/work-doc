@@ -26,6 +26,7 @@ cp /mnt/nfs/gm8136s/images/elevator/elevator_v1.00.bin .
 
 cd /tmp
 cp /mnt/nfs/gm8136s/images/elevator/rootfs-cpio_master.squashfs.img .
+killall ash
 killall tzvideo
 flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
 

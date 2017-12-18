@@ -1,3 +1,6 @@
+2017-12-18 
+haw            [hɒ:] n.  山楂, 吆喝牲畜左转, 呃, 瞬膜 vt.  使向左转 vi.  向左转
+
 2017-12-17
 vial           ['vaiәl] n.  小瓶 vt.  装入小瓶
 maw            [mɒ:] n.  (反刍动物的)第四胃, 嗉囊, (人的)胃
@@ -4024,8 +4027,7 @@ engulf  [in'gʌlf]
 vt.  卷入, 吸进, 吞没, 使全神贯注
 calf  [kɑːf]
 n.  小牛; 小牛皮; 仔#笨笨的年轻人
-revulsion  [re·vul·sion || rɪ'vʌlʃn]
-n.  剧变, 剧烈的反应, 非常的厌恶
+revulsion        [re·vul·sion || rɪ'vʌlʃn] n.  剧变, 剧烈的反应, 非常的厌恶 2017.12.18
 thrash  [θræʃ]
 v.  打, 胜过, 使逆行; 痛打; 连续拍击; 打谷, 脱粒; 翻跳, 扭动
 turret  [tur·ret || 'tɜrɪt /'tʌrɪt] n.  小塔, 炮塔, 塔楼
