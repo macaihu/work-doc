@@ -1,5 +1,8 @@
 2017-12-18 
 haw            [hɒ:] n.  山楂, 吆喝牲畜左转, 呃, 瞬膜 vt.  使向左转 vi.  向左转
+quintain       ['kwintin] n.  矛靶, 刺矛靶
+dint           [dɪnt] n.  凹痕; 打
+jowly          adj.  下颚宽厚的; 有双下巴的
 
 2017-12-17
 vial           ['vaiәl] n.  小瓶 vt.  装入小瓶
@@ -2190,14 +2193,10 @@ haggle  [hægl]
 vi.  争论, 杀价
 vt.  乱砍, 乱劈
 n.  杀价, 讨论, 争论
-freakish  ['fri:kiʃ]
-a.  朝三暮四的, 见异思迁的, 畸形的
-unduly  [,ʌn'dju:li]
-ad.  不适当地, 过度地
-sentiment  ['sentimәnt]
-n.  感情, 感伤, 情操, 情绪, 感想, 意见
-unruly  [,ʌn'ru:li]
-a.  难控制的, 无法无天的, 任性的
+freakish  ['fri:kiʃ] a.  朝三暮四的, 见异思迁的, 畸形的
+unduly  [,ʌn'dju:li] ad.  不适当地, 过度地
+sentiment  ['sentimәnt] n.  感情, 感伤, 情操, 情绪, 感想, 意见 2017.12.18
+unruly  [,ʌn'ru:li] a.  难控制的, 无法无天的, 任性的
 
 2015.5.5 49.49%
 fabled  ['feibld]
@@ -3588,11 +3587,11 @@ n.  泛滥, 大雨, 洪水
 1	chubby	(人)肥胖的，圆滚滚的 
 2	derision	嘲弄;嘲笑;侮蔑
 3	haggard	尤指因病或睡眠不足）憔悴的，形容枯槁的，困倦的
-4	hulge	鼓起
-5	glee	欢喜；兴奋；（常指）幸灾乐祸
+4	bulge	鼓起
+5	glee	欢喜；兴奋；（常指）幸灾乐祸   2017-12-18
 6	cur	恶狗;(尤指)杂种狗
 7	shroud	裹尸布;寿衣
-8	dullard	无趣的人;愚钝的人;无想象力的人
+8	dullard	无趣的人;愚钝的人;无想象力的人  
 9	brat	淘气鬼；小捣蛋
 10	profane	亵渎的；渎神的
 11	tractable	驯服的;温顺的;易驾驭的;易处理的
