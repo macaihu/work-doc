@@ -12,9 +12,48 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.19
+这样来取 imei号.
+curl -F test=test "http://192.168.0.1/goform/goform_set_cmd_process?isTest=false&goformId=LOGIN&username=YWRtaW4=&password=YWRtaW4="
+好像不用登录过程呢:
+curl -F test=test "http://192.168.0.1/goform/goform_get_cmd_process?isTest=false&cmd=imei"
+
+p25中
+AT^MODIMEI=123456789012347
+读取imei           AT^READIMEI
+
+tz_test
+mount -t nfs 192.168.0.50:/opt/work/ /mnt/nfs --nolock
+cd /tmp
+cp /mnt/nfs/gm8136s/images/tz_test/rootfs-cpio_master.squashfs.img .
+flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
+
+
+
+mw.b 0x2000000 0xFF 0x800000　;fatload mmc 0 0x02000000 elevator.bin
+sf probe 0; sf erase 0x0 ${filesize}; sf write 0x2000000 0x0 ${filesize};
+
+
+
+这样可以执行简单的程序:
+sshpass -p keep0It3 ssh root@192.168.0.2 -p 8357 "ls /"
+
+这样来kill脚本:
+ps | grep rc.onenet | grep -v grep | awk '{print $1}' | xargs kill -9
+
+这样就可以简单的向系统推一个文件了:
+sshpass -p keep0It3 scp -P 8357 elevator_v1.00_flash.zip root@192.168.0.2:/tmp/
+
+                        nsboot.bin
+00010000 00050000 UBOOT u-boot.bin
+00060000 00200000 LINUX uImage
+00260000 00AA0000 FS    rootfs-cpio_master.squashfs.img
+00D00000 00200000 USER0 GM8135_2MP.SPI.jffs2.img
+
+这个启动非法错还是有时候会发生.
+传一个16m的文件太大了,还是要使用升级的方式传zip包上去, 现在只有3m多, 后面估计会到10m左右.
+
 12.18
-
-
 mw.b 0x2000000 0xFF 0x800000　;fatload mmc 0 0x02000000 rootfs-cpio_master.squashfs.img　
 sf probe 0; sf erase 0x260000 ${filesize}; sf write 0x2000000 0x260000 ${filesize};
 
