@@ -12,6 +12,15 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.20
+得到imei:
+curl -s "http://192.168.0.1/goform/goform_get_cmd_process?isTest=false&cmd=imei" | awk -F '"' '{print $4}'
+
+这样可以快速关掉摄像头的电源
+sshpass -p keep0It3 ssh admin@192.168.0.1 -p 8357 "echo 0 >  /sys/class/leds/camera/brightness"
+
+curl "http://192.168.0.1/goform/goform_get_cmd_process?isTest=false&cmd=imei"
+
 12.19
 这样来取 imei号.
 curl -F test=test "http://192.168.0.1/goform/goform_set_cmd_process?isTest=false&goformId=LOGIN&username=YWRtaW4=&password=YWRtaW4="
