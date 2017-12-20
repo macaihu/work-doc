@@ -2,6 +2,7 @@
 2017-12-20
 tentatively    ['tentətɪvlɪ] adv.  试验性地; 暂时地
 haughtily      adv.  傲慢地; 骄傲地
+chalky         ['tʃɒ:ki] a.  白垩的
 
 2017-12-19
 rumple         ['rʌmpl] n.  皱纹, 皱褶 v.  弄皱; 使凌乱; 变皱; 变凌乱
@@ -2758,8 +2759,7 @@ tuft  [tʌft]
 n.  一簇, 矮树丛
 vi.  丛生
 vt.  用丛毛装饰
-exult  [ig'zʌlt]
-vi.  非常高兴, 欢欣
+exult  [ig'zʌlt]  vi.  非常高兴, 欢欣  2017.12.21
 
 
 2015.4.22   2.99 %
@@ -3193,7 +3193,7 @@ Caravan guards wandered among the aisles in copper helmets and knee-length tunic
 7	patron	（酒吧、旅馆等的）主顾，顾客
 8	pug	哈巴狗
 9	gauzy	薄纱似的；轻薄透明的
-10	sleek	(毛发、皮毛等)柔顺亮泽的
+10	sleek	        (毛发、皮毛等)柔顺亮泽的   2017.12.21
 11	harelip	兔唇，唇裂(旧式用语，含冒犯意，现称 cleft lip) 
 12	impotent	无能为力的;不起作用的
 13	hideous	极难看的;极丑的
@@ -4176,8 +4176,7 @@ n.  动物之鼻口; 钳制言论的手段; 口套
 v.  戴口络于; 上口罩
 mole  [məʊl]
 n.  鼹鼠, 钱鼠; 隧道全断面掘进机; 长期潜伏的间谍#痣#胎块#防波堤#摩尔, 克分子
-pimple  [pim·ple || 'pɪmpl]
-n.  丘疹, 疙瘩, 面泡
+pimple              ['pɪmpl] n.  丘疹, 疙瘩, 面泡  2017.12.21
 lead  [lɪːd]
 n.  指导, 榜样; 领先的程度; 领先地位; 绳索, 皮带#铅; 铅制品; 黑铅, 铅笔心
 n.  指导, 榜样; 领先的程度; 领先地位; 绳索, 皮带#铅; 铅制品; 黑铅, 铅笔心
