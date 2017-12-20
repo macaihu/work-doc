@@ -1,4 +1,7 @@
 
+2017-12-20
+tentatively    ['tentətɪvlɪ] adv.  试验性地; 暂时地
+
 2017-12-19
 rumple         ['rʌmpl] n.  皱纹, 皱褶 v.  弄皱; 使凌乱; 变皱; 变凌乱
 
@@ -1308,8 +1311,7 @@ scout  [skaut]
 n.  守候, 侦察, 搜索, 侦察员, 侦察机
 vi.  守候, 侦察, 巡视, 嘲笑
 vt.  侦察, 跟踪, 发现, 监视, 嘲弄
-wen  [wen]
-n.  粉瘤, 拥挤不堪的城市
+wen   [wen] n.  粉瘤, 拥挤不堪的城市  2017.12.20
 bawl  [bɒ:l]
 n.  大叫声
 vt.  大叫
@@ -2838,8 +2840,7 @@ suet  ['su:it]
 n.  牛脂, 羊脂, 板油
 thievery  ['θi:vәri]
 n.  偷窃, 赃物
-wen  [wen]
-n.  粉瘤, 拥挤不堪的城市
+wen  [wen] n.  粉瘤, 拥挤不堪的城市
 bawl  [bɒ:l]
 n.  大叫声
 vt.  大叫
@@ -4664,9 +4665,7 @@ n.  学徒, 生手
 vt.  使做学徒
 pudgy  ['pʌdʒi]
 a.  矮胖的
-tentative  ['tentәtiv]
-n.  试验
-a.  试验性的, 暂时的
+tentative  ['tentәtiv] n.  试验 a.  试验性的, 暂时的
 smack  [smæk]
 n.  风味, 滋味, 少量, 拍击声, 咂嘴声, 小渔船, 海洛因
 vi.  有味道, 咂嘴, 发出拍击声

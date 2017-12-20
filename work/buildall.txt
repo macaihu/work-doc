@@ -5,6 +5,7 @@
 
 date       |    iso                             |  resp.  |  status.
 -----------|------------------------------------|---------|----------
+2017-12-20 | centOS-7-x86_64-Minimal-1708.iso   | gm8136s | ok
 2017-12-18 | centOS-7-x86_64-Minimal-1708.iso   | ath9.5  | buildall ok
 2017-12-15 | centOS-7-x86_64-Minimal-1708.iso   | gm8136s | fail.
 2017-12-9  | linuxmint-18.3-cinnamon-64bit.iso  | ath9.5  | buildall ok

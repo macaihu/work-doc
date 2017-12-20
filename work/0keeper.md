@@ -63,7 +63,9 @@ jiangbodeiPhone                                         | 192.168.16.116 | 48:a1
 TOSHABA-PC                                              | 192.168.16.120 | 3c:46:d8:c4:ef:bc
 HUAWEI_RIO-AL00-141514c61                               | 192.168.16.126 | d4:61:2e:5e:7a:e6
 Honor_5C                                                | 192.168.16.141 | d4:a1:48:d9:ff:aa
-                                                        |                |
+:Apple, Inc.                                            | 192.168.16.146 | 6c:ab:31:d9:c5:89
+HUAWEI_Mate_9                                           | 192.168.16.150 | 50:04:b8:26:6a:ca
+.                                                       |                |
 HUAWEI_nova                                             | 192.168.19.12  | 8c:0d:76:af:5f:b8                               
 ubuntu1710                                              | 192.168.19.28  | 08:00:27:6d:93:d5         
 android-6c9cbc8cfb3ccf7<br>HUAWEI                       | 192.168.19.193 | 04:02:1f:24:1d:9d	
