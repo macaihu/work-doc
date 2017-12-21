@@ -6,6 +6,8 @@ pickle         ['pikl] n.  盐卤, 腌汁, 泡菜, 困境, 讨厌鬼 vt.  腌制
 ledger         ['ledʒә]n.  分类帐, 分户总帐, 盖墓石板, 横木
 wont           [wɒnt] n.  习惯 a.  惯常的, 易于...的 vi.  习惯 vt.  使习惯于
 wanderer       ['wɒndәrә] n.  漫游者, 流浪者, 徘徊者
+foppish        ['fɒpiʃ] a.  浮华的, 矫饰的, 纨绔的, 傻的
+loon           [lu:n] n.  懒人, 潜鸟, 笨蛋
 
 2017-12-20
 tentatively    ['tentətɪvlɪ] adv.  试验性地; 暂时地
@@ -2330,8 +2332,7 @@ n.  法警, 郡副司法长官, 乡长
 cobweb  ['kɒbweb]
 n.  蜘蛛网, 蛛丝, 混乱
 vt.  使布满蛛网
-effrontery  [i'frʌntәri]
-n.  厚颜无耻
+effrontery      [i'frʌntәri] n.  厚颜无耻  2017.12.22
 glutton  ['glʌtn]
 n.  暴食者, 酷爱...的人
 Harpy  [har·py || 'hɑrpɪ /'hɑːp-]
@@ -3583,7 +3584,7 @@ n.  泛滥, 大雨, 洪水
 10	apron	围裙；工作裙
 11	bristly	（下巴）多胡茬儿的，多硬毛的
 12	thump	(常指用拳头)猛击，重击，捶打
-13	salve	(治愈伤痛的)软膏，油膏，药膏
+13	salve	    (治愈伤痛的)软膏，油膏，药膏  2017.12.22
 14	sire	父亲
 15	alacrity	欣然；痛快
 16	privy	知情的；了解内情的（尤指户外的）厕所，茅房
@@ -3660,7 +3661,7 @@ n.  泛滥, 大雨, 洪水
 9	craft	船;航天器;飞行器;飞机        手艺;工艺   
 10	check	(使)突然停下;(使)停住
 11	notorious	声名狼藉的;臭名昭著的;
-12	sinewy	肌肉发达的;精壮的;强健的
+12	sinewy	        肌肉发达的;精壮的;强健的   2017.12.21
 13	inflict	予以(打击);使遭受(损伤、苦痛等)
 14	faintest	一点也不的，极小的
 15	blazon	装饰，纹章
