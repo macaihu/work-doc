@@ -12,6 +12,21 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.21
+mw.b 0x2000000 0xFF 0x800000　;fatload mmc 0 0x02000000 tz8135.bin
+sf probe 0; sf erase 0x0 ${filesize}; sf write 0x2000000 0x0 ${filesize};
+写全文件总是不知道什么时候写完呢.
+
+vi中这个指令可以轻松替换掉粘贴进去的tab变成了空格
+20,33s#        #\t#
+
+wget这样下载更好:
+wget ftp://192.168.1.123/qsdk/docs -nv -m --cut-dirs=2 -nH --restrict-file-name=nocontrol
+
+curl居然不能下载整个ftp目录.
+
+密码改为solong123
+
 12.20
 得到imei:
 curl -s "http://192.168.0.1/goform/goform_get_cmd_process?isTest=false&cmd=imei" | awk -F '"' '{print $4}'

@@ -1,4 +1,12 @@
 
+2017-12-21
+delicately     adv.  优美地; 微妙地; 精致地
+bin            [bin] n.  (贮存谷物等的)容器, 箱子
+pickle         ['pikl] n.  盐卤, 腌汁, 泡菜, 困境, 讨厌鬼 vt.  腌制, 酸洗, 葬送(机会等), 泡
+ledger         ['ledʒә]n.  分类帐, 分户总帐, 盖墓石板, 横木
+wont           [wɒnt] n.  习惯 a.  惯常的, 易于...的 vi.  习惯 vt.  使习惯于
+wanderer       ['wɒndәrә] n.  漫游者, 流浪者, 徘徊者
+
 2017-12-20
 tentatively    ['tentətɪvlɪ] adv.  试验性地; 暂时地
 haughtily      adv.  傲慢地; 骄傲地
@@ -1489,9 +1497,7 @@ hempen  ['hempәn]
 a.  大麻制的, 大麻的
 fuzzy  ['fʌzi]
 a.  有微毛的, 模糊的
-harbinger  ['hɑ:bindʒә]
-n.  通告者, 预告者, 先驱, 预兆
-vt.  预告, 充做...的前驱
+harbinger              ['hɑ:bindʒә] n.  通告者, 预告者, 先驱, 预兆 vt.  预告, 充做...的前驱  20171221
 perverse  [pә'vә:s]
 a.  乖张的, 故意作对的, 有悖常情的, 执迷不悟的, 歪曲的, 错误的, 不正当的
 jet  [dʒet]
@@ -3618,7 +3624,7 @@ n.  泛滥, 大雨, 洪水
 
 日期	2015.3.10	复习1		2		3		4		5	
 1	caper	欢跃;雀跃
-2	cod	鳕鱼
+2	cod	     鳕鱼  2017.12.21
 3	lump	（一）块
 4	lumpy	多结块的；起疙瘩的
 5	saw	锯;用锯割开
