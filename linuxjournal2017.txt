@@ -12,6 +12,13 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.22
+这个侠诺的路由器连dhcp都不能用了, 搞了半天.
+
+一开始iperf3不能运行, 重新编译一次就好了, 难道前面编译的有问题?
+
+这个8188的模块上行下行iperf3打流的速度都在17Mb左右.
+
 12.21
 mw.b 0x2000000 0xFF 0x800000　;fatload mmc 0 0x02000000 tz8135.bin
 sf probe 0; sf erase 0x0 ${filesize}; sf write 0x2000000 0x0 ${filesize};
