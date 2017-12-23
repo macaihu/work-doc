@@ -12,6 +12,74 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.23
+7520使用usb打流:
+7520侧
+/iperf # ./iperf -c 192.168.0.157 -i 1
+------------------------------------------------------------
+Client connecting to 192.168.0.157, TCP port 5001
+TCP window size: 21.3 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.0.1 port 58460 connected with 192.168.0.157 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec   128 KBytes  1.05 Mbits/sec
+[  4]  1.0- 2.0 sec   128 KBytes  1.05 Mbits/sec
+[  4]  2.0- 3.0 sec   128 KBytes  1.05 Mbits/sec
+[  4]  3.0- 4.0 sec   128 KBytes  1.05 Mbits/sec
+[  4]  4.0- 5.0 sec   128 KBytes  1.05 Mbits/sec
+[  4]  5.0- 6.0 sec   128 KBytes  1.05 Mbits/sec
+[  4]  6.0- 7.0 sec   128 KBytes  1.05 Mbits/sec
+[  4]  7.0- 8.0 sec   128 KBytes  1.05 Mbits/sec
+[  4]  8.0- 9.0 sec   128 KBytes  1.05 Mbits/sec
+[  4]  9.0-10.0 sec   128 KBytes  1.05 Mbits/sec
+[  4]  0.0-10.1 sec  1.38 MBytes  1.15 Mbits/sec
+/iperf # iperf -s
+-sh: iperf: not found
+/iperf # ./iperf -s
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.0.1 port 5001 connected with 192.168.0.157 port 35288
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0-10.1 sec  52.8 MBytes  43.9 Mbits/sec
+
+
+pc侧:
+jian@jian-OptiPlex-9020:/opt/work/ath9.5/build$ iperf -s
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.0.157 port 5001 connected with 192.168.0.1 port 58460
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-10.4 sec  1.38 MBytes  1.11 Mbits/sec
+^Cjian@jian-OptiPlex-9020:/opt/work/ath9.5/build$ iperf -c 192.168.0.1 -i 1
+------------------------------------------------------------
+Client connecting to 192.168.0.1, TCP port 5001
+TCP window size: 85.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.0.157 port 35288 connected with 192.168.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 1.0 sec  5.25 MBytes  44.0 Mbits/sec
+[  3]  1.0- 2.0 sec  5.25 MBytes  44.0 Mbits/sec
+[  3]  2.0- 3.0 sec  5.25 MBytes  44.0 Mbits/sec
+[  3]  3.0- 4.0 sec  5.25 MBytes  44.0 Mbits/sec
+[  3]  4.0- 5.0 sec  5.12 MBytes  43.0 Mbits/sec
+[  3]  5.0- 6.0 sec  5.38 MBytes  45.1 Mbits/sec
+[  3]  6.0- 7.0 sec  5.38 MBytes  45.1 Mbits/sec
+[  3]  7.0- 8.0 sec  5.25 MBytes  44.0 Mbits/sec
+[  3]  8.0- 9.0 sec  5.25 MBytes  44.0 Mbits/sec
+[  3]  9.0-10.0 sec  5.25 MBytes  44.0 Mbits/sec
+[  3]  0.0-10.0 sec  52.8 MBytes  44.1 Mbits/sec
+
+
+
+
+iptables -vnL -t nat
+可以看到每个链通过的流量.
+
+
 12.22
 这个侠诺的路由器连dhcp都不能用了, 搞了半天.
 
