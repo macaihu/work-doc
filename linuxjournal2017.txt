@@ -12,6 +12,9 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+12.24
+还是关闭shift按键进行输入法切换, 太扰民了. 直接使用ctrl+space吧. 不过这在中英文切换时貌似又不少非常方便了.
+
 12.23
 7520使用usb打流:
 7520侧

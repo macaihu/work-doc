@@ -6,3 +6,5 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 
 sshpass -p keep0It3 ssh admin@192.168.0.1 -p 8357 "echo 0 >  /sys/class/leds/camera/brightness"
 sshpass -p keep0It3 ssh admin@192.168.0.1 -p 8357 "echo 1 >  /sys/class/leds/camera/brightness"
+
+
