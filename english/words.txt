@@ -2404,8 +2404,7 @@ broach  [brəʊtʃ]
 v.  钻孔开启, 开饮用口; 引入; 开始提及; 提出; 突然横转
 nubile  ['nju:bail]
 a.  适婚的
-truculent  ['trʌkjulәnt]
-a.  野蛮的, 粗暴的, 致命的, 好斗的
+truculent       ['trʌkjulәnt]a.  野蛮的, 粗暴的, 致命的, 好斗的
 ilk  [ilk]
 a.  相同的
 n.  等级, 家族, 亲属, 种类
@@ -3372,7 +3371,7 @@ n.  泛滥, 大雨, 洪水
 日期	2015.3.25	复习1		2		3		4		5	
 1	herring	鲱（鱼）
 2	salmon	鲑鱼;大麻哈鱼
-3	lamprey	七鳃鳗，八目鳗
+3	lamprey	     七鳃鳗，八目鳗   2017.12.25
 4	beet	甜菜
 5	squash	西葫芦
 6	poach	在煮沸的水、牛奶或其他液体中）用文火煮，煨（鱼等食品）
@@ -3431,7 +3430,7 @@ n.  泛滥, 大雨, 洪水
 6	etch	     蚀刻;凿刻
 7	cringe	为…觉得难为情;对…感到厌恶；退缩
 8	grumble	抱怨；发牢骚
-9	truculent	好斗的；寻衅的 
+9	truculent	    好斗的；寻衅的 
 10	portent	预兆；征兆
 11	itch	渴望;迫切想要
 12	chivalry	（中世纪的）骑士精神，骑士风范
@@ -3762,7 +3761,7 @@ Their voices rang off the rafters.
 5	seep	（液体）漏出 渗漏
 6	ululate	嚎叫 哀嚎     2017.12.6
 7	aglow	发红光 发热
-8	sinew	腱 肌腱
+8	sinew	     腱 肌腱   2017.12.25
 9	dispperse	（使某人 物）散开 消散
 10	convulse	（使某人）剧烈震动    2017.12.10
 11	crust	面包屑
@@ -3865,10 +3864,11 @@ slick	(用水或油)使(头发)顺溜光滑
 15	haunch	（动物的）腰腿;（人的）臀胯部
 16	hunch	（常指因寒冷、生病或愁苦而）耸肩弓身，蜷起身子
 17	abhor	（尤指出于道德原因）憎恨，憎恶 2017.12.8
-18	slimy	泥泞的;黏糊糊的;黏滑的
+18	slimy	 泥泞的;黏糊糊的;黏滑的  2017.12.25
 19	bane	苦恼之根；烦扰之源
 20	wither	衰弱;凋敝
 Brienne hunched her shoulders. “That’s what I’d do. Were I him.”
+but when the crow wrenched out its beak all slimy with bits of bone and brain, Bran could see again.
 
 2015-2-28
 frugal			节俭的;俭省的
@@ -4823,10 +4823,7 @@ n.  腰腿, 臀部, 腰腿肉
 ladle  ['leidl]
 n.  勺子, 长柄勺
 vt.  以勺舀取, 以勺掬, 不分对象予以赠送
-baffle  ['bæfl]
-vt.  困惑, 为难, 使挫折
-vi.  徒作挣扎
-n.  迷惑, 挡板
+baffle      ['bæfl]vt.  困惑, 为难, 使挫折vi.  徒作挣扎 n.  迷惑, 挡板  2017.12.25
 mellow  ['melәu]
 a.  成熟的, 醇的, 熟练的
 niche  [nitʃ]
@@ -5054,8 +5051,7 @@ vi.  攀, 爬
 2015-1-22
 crag  [kræg]
 n.  峭壁, 危岩
-gaunt  [gɒ:nt]
-a.  瘦削的, 憔悴的, 荒凉的
+gaunt                 [gɒ:nt] a.  瘦削的, 憔悴的, 荒凉的  2017.12.25
 lance  [lɑ:ns]
 n.  长矛, 柳叶刀, 执矛战士
 vt.  以长矛攻击, 冲进
@@ -5067,8 +5063,6 @@ sentry  ['sentri]
 n.  哨兵, 看守
 vt.  设岗哨
 vi.  站岗, 放哨
-朗道英汉词典      
-
  huddle  ['hʌdl]
 n.  杂乱一团, 混乱, 拥挤
 vt.  把...挤在一起, 乱堆, 草率了事, 蜷曲
