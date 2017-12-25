@@ -1,4 +1,9 @@
 
+2017-12-26
+insolent       ['insәlәnt] n.  侮慢无礼的人 a.  粗野的, 无礼的, 侮慢的
+pallor         ['pælә] n.  苍白, 青白
+sinecure       ['saini,kjuә] n.  闲职
+
 2017-12-25
 ire            [aiә] n.  忿怒
 piebald        ['paibɒ:ld] a.  花斑的, 杂色的, 杂种的 n.  花斑马
@@ -467,7 +472,7 @@ pillar         n.柱；纪念柱；(柱)墩；【矿】(矿井中硬炭层或岩
                adj.有立柱的；柱式的
                v.用柱子装饰[支持]；成为…的栋梁
 affront        n.冒犯；侮辱  v.冒犯；侮辱
-trifle         n.小事；琐事；稍微；一点儿 v.轻视；闹着玩儿地讲[行动]；闲混；玩忽
+trifle         n.小事；琐事；稍微；一点儿 v.轻视；闹着玩儿地讲[行动]；闲混；玩忽   2017.12.26
 menagerie      n.（一群关起来的）野生动物
 
 2017-11-5 
@@ -680,9 +685,7 @@ n.  妨害, 障碍, 阻碍物
 ruffian  ['rʌfiәn]
 n.  恶棍, 无赖
 a.  凶恶的, 残忍的, 残暴的
-rabid  ['ræbid]
-a.  猛烈的, 热烈的, 急进的, 狂怒的, 偏激的, 疯狂的
-[医] 狂犬病的, 咬病的
+rabid        ['ræbid] a.  猛烈的, 热烈的, 急进的, 狂怒的, 偏激的, 疯狂的 [医] 狂犬病的, 咬病的  2017.12.26
 burble  [bә:bl]
 vi.  发汩汩声, 嘟囔
 n.  空谈, 汩汩声
@@ -2182,8 +2185,7 @@ a.  发霉的, 霉臭的, 落伍的
 snivel  ['snivl]
 vi.  流鼻涕, 哭泣
 n.  流鼻涕, 哭泣, 假哭
-inexorable  [in'eksәrәbl]
-a.  无情的, 冷酷的
+inexorable  [in'eksәrәbl]  a.  无情的, 冷酷的
 
 2015.5.6  52.46%
 scaly  
@@ -2486,8 +2488,7 @@ ticklish  ['tikliʃ]
 a.  易倒的, 不稳定的, 难对付的, 怕痒的
 tract  [trækt]
 n.  大片土地, 地带, 小册子
-prodigious  [prәu'didʒәs]
-a.  庞大的, 惊人的, 异常的
+prodigious       [prәu'didʒәs] a.  庞大的, 惊人的, 异常的  2017.12.26
 benevolent  [bi'nevәlәnt]
 a.  善意的, 慈善的
 malice  ['mælis]
@@ -3428,19 +3429,19 @@ n.  泛滥, 大雨, 洪水
 4	sheaf	一叠，一沓，一扎(纸)
 5	mint	     铸造(硬币、奖章)     2017.12.25
 6	etch	     蚀刻;凿刻
-7	cringe	为…觉得难为情;对…感到厌恶；退缩
-8	grumble	抱怨；发牢骚
+7	cringe	     为…觉得难为情;对…感到厌恶；退缩
+8	grumble	        抱怨；发牢骚
 9	truculent	    好斗的；寻衅的 
-10	portent	预兆；征兆
-11	itch	渴望;迫切想要
+10	portent	      预兆；征兆
+11	itch	     渴望;迫切想要
 12	chivalry	（中世纪的）骑士精神，骑士风范
-13	scowl	作怒容;沉下脸;绷着脸
-14	vassal	（封建社会的）封臣
+13	scowl	     作怒容;沉下脸;绷着脸
+14	vassal	    （封建社会的）封臣
 15	blustery	（天气）风雨大作的，恶劣的
-16	retinue	随行人员;随从;随员
-17	flaunt	炫耀;夸耀;卖弄
-18	inexorable	不可阻挡的;不容变更的
-19	hutch	（关兔子等宠物的）笼，棚，舍
+16	retinue	    随行人员;随从;随员
+17	flaunt	    炫耀;夸耀;卖弄
+18	inexorable	     不可阻挡的;不容变更的   
+19	hutch	    （关兔子等宠物的）笼，棚，舍
 20		
 
 
@@ -3586,7 +3587,7 @@ n.  泛滥, 大雨, 洪水
 6	slosh	(使)(液体)来回晃荡
 7	slither	(摇摇晃晃地)滑行，滑动
 8	scuff	拖着脚走
-9	streak	条纹;条痕
+9	streak	条纹;条痕          2017.12.26         
 10	apron	围裙；工作裙
 11	bristly	（下巴）多胡茬儿的，多硬毛的
 12	thump	(常指用拳头)猛击，重击，捶打
@@ -3661,7 +3662,7 @@ n.  泛滥, 大雨, 洪水
 3	feeble	虚弱的;微弱的;无力的
 4	tremble	颤动;摇动;摇晃
 5	motley	混杂的
-6	wretch	非常不幸或痛苦的人
+6	wretch	       非常不幸或痛苦的人
 7	vex	使(某人)生气或恼怒(尤指因琐事)
 8	anchorage	锚地；泊地   2017.12.24
 9	craft	船;航天器;飞行器;飞机        手艺;工艺   
@@ -4153,9 +4154,7 @@ haughty  [haugh·ty || 'hɔːtɪ]
 adj.  傲慢的, 不逊的, 骄傲的
 construe  [con·strue || kən'struː]
 v.  解释, 逐字翻译, 分析; 作句法分析
-squirm  [skwɜrm /skwɜːm]
-n.  蠕动; 扭曲
-v.  蠕动, 扭动; 局促不安
+squirm            [skwɜːm] n.  蠕动; 扭曲 v.  蠕动, 扭动; 局促不安 2017.12.26
 remorse  [re·morse || rɪ'mɔrs /-'mɔːs]
 n.  懊悔, 自责, 良心不安
 pigsty  ['pig·sty || 'pɪgstaɪ]
