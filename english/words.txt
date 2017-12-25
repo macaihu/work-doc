@@ -1,7 +1,15 @@
 
+2017-12-25
+ire            [aiә] n.  忿怒
+piebald        ['paibɒ:ld] a.  花斑的, 杂色的, 杂种的 n.  花斑马
+pretext        ['pri:tekst] n.  借口, 托词 vt.  以...为借口 vi.  以...为借口
+sliver         ['slivә] n.  裂片, 薄片, 梳毛 vt.  切成长片 vi.  剖开, 分裂
+bustle         ['bʌsl] n.  喧闹, 裙撑 vi.  奔忙, 喧闹 vt.  使忙碌, 催促
+mire           [maiә] n.  泥沼, 泥泞 vt.  使陷于泥泞, 使陷入困境 vi.  掉进泥坑
+
 2017-12-24
 froth          [frɔθ /frɒθ] n.  泡, 琐物, 泡沫 v.  使生泡沫; 发泡, 吹泡
-swelter        [swel·ter || 'sweltə(r)] v.  闷热, 汗流夹背, 被暑气所苦; 使闷热, 使中暑
+swelter        ['sweltə(r)] v.  闷热, 汗流夹背, 被暑气所苦; 使闷热, 使中暑
 acquit         [ә'kwit] vt.  无罪释放, 表现, 使履行 [法] 开释, 释放, 免
 cog            [kɒg] n.  嵌齿, 小船 vt.  给...装配齿轮, 欺骗
 erode          [i'rәud] vt.  腐蚀, 侵蚀 vi.  受腐蚀
@@ -1466,8 +1474,7 @@ lagoon
 n.  环礁湖, 近海岸的浅水区, 泻湖, 咸水湖
 edifice  ['edifis]
 n.  大厦, 大建筑物
-alcove  ['ælkәuv]
-n.  凹室, 壁龛, 小亭
+alcove             ['ælkәuv] n.  凹室, 壁龛, 小亭   2017.12.25
 waif  [weif]
 n.  无家可归者, 无主物, 飘流物, 流浪者, 信号旗
 biddable  ['bidәbl]
@@ -1771,9 +1778,7 @@ forlorn  [fә'lɒ:n]
 a.  孤独的, 悲惨的, 凄凉的
  granary  ['grænәri]
 n.  谷仓, 谷物仓, 主要来源, 主要贮藏所
-ebony  ['ebәni]
-n.  乌木
-a.  乌木制的
+ebony              ['ebәni] n.  乌木 a.  乌木制的
 
 2015.5.15 79.90%
 waylay  [wei'lei]
@@ -1921,9 +1926,7 @@ vt.  平息, 缓和, 减轻, 使变软
 2015.5.12  69,65 %
 gruesome  ['gru:sәm]
 a.  可怕的, 令人毛骨悚然的, 阴森的
-wicker  ['wikә]
-n.  柳条
-a.  柳条编的
+wicker            ['wikә] n.  柳条 a.  柳条编的
 reign  [rein]
 n.  执政, 君主统治, 统治, 支配
 vi.  当政, 统治, 支配, 盛行
@@ -2325,8 +2328,7 @@ bereft  [bi'reft]
 a.
 1. 缺少的, 丧失的, 失去亲人的
 2. bereave的过去式和过去分词
-grisly  ['grizli]
-a.  可怕的, 厉害的, 令人畏惧的
+grisly                ['grizli]  a.  可怕的, 厉害的, 令人畏惧的   2017.12.25
 shoe  [ʃu:]
 n.  鞋, 靴, 外胎
 vt.  给...穿鞋, 为马钉蹄铁
@@ -3357,8 +3359,7 @@ mushy  [mush·y || 'mʌʃɪ]
 adj.  浓粥状的, 感伤的, 糊状的
 gourd  [gʊrd ,gɔrd /gʊəd]
 n.  葫芦; 瓢
-alcove  [al·cove || 'ælkəʊv]
-n.  凹室, 小亭, 壁橱
+alcove              ['ælkəʊv] n.  凹室, 小亭, 壁橱
 sheen  [ʃɪːn]
 n.  光辉, 光泽, 光彩
 morass  [mo·rass || mə'ræs]
@@ -3426,8 +3427,8 @@ n.  泛滥, 大雨, 洪水
 2	brooch	胸针；领针；饰针
 3	dupple	使（）有斑点
 4	sheaf	一叠，一沓，一扎(纸)
-5	mint	铸造(硬币、奖章)
-6	etch	蚀刻;凿刻
+5	mint	     铸造(硬币、奖章)     2017.12.25
+6	etch	     蚀刻;凿刻
 7	cringe	为…觉得难为情;对…感到厌恶；退缩
 8	grumble	抱怨；发牢骚
 9	truculent	好斗的；寻衅的 
@@ -3957,8 +3958,7 @@ askew          [ə'skjuː] adj.  歪斜的 adv.  歪斜地
 stench         [stentʃ]n.  恶臭, 臭气
 
 2015-2-20
-wicker  [wick·er || 'wɪkə(r)]
-n.  柳条
+wicker         ['wɪkə(r)] n.  柳条  2017.12.25
 frenzy  [fren·zy || 'frenzɪ]
 n.  狂暴; 狂怒
 v.  使发狂; 使狂怒
@@ -4224,7 +4224,7 @@ n.  咩咩叫声; 羊叫似的声音
 v.  鸣叫; 轻声说
 moat  [məʊt]n.  壕沟, 护城河
 gruff  [grʌf]adj.  粗暴的; 脾气坏的; 生硬的
-capon  [ca·pon || 'keɪpən]n.  阉鸡
+capon     ['keɪpən]n.  阉鸡   2017.12.25
 crisp  [krɪsp]n.  油炸马铃薯片; 钞票; 松脆之物
 v.  使卷曲; 使发脆, 把...烘脆; 使起皱, 使起波纹; 卷曲, 起波纹; 冻硬; 发脆
 adj.  脆的, 松脆的, 酥的; 清新的, 凉爽的; 鲜嫩的; 干脆的, 干净利落的
@@ -4599,9 +4599,7 @@ vt.  给...装吊闸, 用吊闸关闭
 satin  ['sætin]
 n.  缎子
 a.  绸缎做的, 缎子一般的, 光滑的
-ebony  ['ebәni]
-n.  乌木
-a.  乌木制的
+ebony                ['ebәni] n.  乌木 a.  乌木制的
 unicorn  
 n.  似马的独角兽
 griffin  [grif·fin || 'grɪfɪn]

@@ -17,7 +17,10 @@ ifconfig usb0 192.168.37.1
 mount -t nfs 192.168.37.9:/opt/work/ /mnt/nfs --nolock
 cd /mnt/nfs/gm8136s/images/tz8135/
 flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
+flashcp -v uImage /dev/mtd1
 
+cd /mnt/nfs/gm8136s/apps/iperf/iperf3/src/.libs
+export LD_LIBRARY_PATH=$(pwd)
 
 mount -t nfs 192.168.0.50:/opt/work/ /mnt/nfs --nolock
 cd /tmp
@@ -36,7 +39,8 @@ flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
 flashcp -v flash.bin /dev/mtd4
 
 cd /mnt/nfs/gm8136s/apps/tzvideo-OneNet-2.0/
-cp config.ont.json /tmp/
+/gm/bin/cfg -t config.ont.json > /tmp/config.ont.json
+/gm/bin/cfg -t config.video.json > /tmp/config.video.json
 killall ChinaMobile
 ./tzvideo -c config.base.json
 
