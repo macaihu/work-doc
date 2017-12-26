@@ -1,4 +1,7 @@
 
+2017-12-27
+lark           [lɑ:k] n.  云雀, 百灵鸟, 欢乐, 嬉耍 vi.  嬉耍, 骑马玩乐
+
 2017-12-26
 insolent       ['insәlәnt] n.  侮慢无礼的人 a.  粗野的, 无礼的, 侮慢的
 pallor         ['pælә] n.  苍白, 青白
@@ -3184,7 +3187,7 @@ but Hot Pie retched up the *beetle* he tried to swallow, and Lommy and Gendry wo
 8	sect	派别;宗派;教派;党派
 9	hector	威吓;欺凌
 10	droll	滑稽古怪的;离奇可笑的
-11	disdainful	轻蔑的;鄙视的
+11	disdainful	  轻蔑的;鄙视的
 12	temper	使缓和;使温和
 13	prevail	劝服；说服
 14	parley	（对立双方的）和谈，会谈，谈判
@@ -3408,12 +3411,12 @@ n.  泛滥, 大雨, 洪水
 6	hempen	大麻做的
 7	fuzzy	覆有细绒毛的;绒毛状的;毛茸茸的
 8	bloated	（身体或身体某部位）肿胀的，膨胀的，发胀的
-9	harbinger	（尤指不祥的）先兆，预兆
-10	solace	安慰;慰藉
-11	rock	(使)来回摆动;(使)左右摇晃
-12	chick	雏鸟;小鸟
-13	perverse	任性的；故意作对的；无理取闹的
-14	fawn	幼鹿
+9	harbinger	（尤指不祥的）先兆，预兆   2017.12.27
+10	solace	     安慰;慰藉   
+11	rock	     (使)来回摆动;(使)左右摇晃
+12	chick	     雏鸟;小鸟
+13	perverse	 任性的；故意作对的；无理取闹的
+14	fawn	     幼鹿
 15	drape	将(织物)悬挂;披
 16	jet	煤玉；黑玉；黑色大理石
 17	leek	韭葱；扁葱
@@ -4168,8 +4171,7 @@ calf            [kɑːf] n.  小牛; 小牛皮; 仔#笨笨的年轻人  腓肠
 
 
 2015-2-10
-plaintive  ['plain·tive || 'pleɪntɪv]
-adj.  悲哀的, 哀伤的
+plaintive            ['pleɪntɪv]   adj.  悲哀的, 哀伤的  2017.12.27
 tracery  ['trac·er·y || 'treɪs(ə)rɪ]
 n.  花饰窗格, 窗饰
 pommel  [pom·mel || 'pʌml]
@@ -4449,9 +4451,7 @@ n.  裹尸布, 覆盖物, 寿衣
 v.  给穿上寿衣; 掩蔽; 覆盖
 ragged  [rag·ged || 'rægɪd]
 adj.  破烂的; 不整洁的, 蓬乱的; 衣衫褴褛的; 粗糙的, 不平的
-twitch  [twɪtʃ]
-n.  急扯, 抽搐, 颤动
-v.  使抽动; 猛拉, 急扯; 使痉挛; 猛夺; 急拉, 阵痛, 抽搐
+twitch              [twɪtʃ] n.  急扯, 抽搐, 颤动v.  使抽动; 猛拉, 急扯; 使痉挛; 猛夺; 急拉, 阵痛, 抽搐 20171227
 crescent            ['kresnt] n.  新月, 新月形之物   2017.12.24
 sizzle  [siz·zle || 'sɪzl]
 n.  嘶嘶声
