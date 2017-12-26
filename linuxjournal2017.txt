@@ -12,6 +12,19 @@ git config --global user.email jianliang@szotzed.net
 git config --global user.name jianliang
 git config --global push.default simple
 
+
+
+
+
+
+
+
+12.26
+这篇文章写了如何解决sh脚本异常：/bin/sh^M:bad interpreter: No such file or directory
+http://www.cnblogs.com/pipelone/archive/2009/04/17/1437879.html
+就是使用vi 进行::set ff=unix 
+
+
 12.24
 还是关闭shift按键进行输入法切换, 太扰民了. 直接使用ctrl+space吧. 不过这在中英文切换时貌似又不少非常方便了.
 

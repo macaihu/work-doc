@@ -1,14 +1,24 @@
-
-
-
 # tz8135命令升级:
 
 mount -t nfs 192.168.0.50:/opt/work/ /mnt/nfs --nolock
 
 mount -t nfs 192.168.19.199:/opt/work/ /mnt/nfs --nolock
+
+奥远电梯:
+cd /mnt/nfs/gm8136s/images/elevator/
+killall ash
+killall tzvideo
+flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
+flashcp -v uImage /dev/mtd1
+
+
+
+tz8135
 cd /mnt/nfs/gm8136s/images/tz8135/
 flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
 flashcp -v uImage /dev/mtd1
+
+
 
 
 
@@ -18,6 +28,9 @@ kernel:
 mw.b 0x2000000 0xFF 0x800000　;fatload mmc 0 0x02000000 uImage
 sf probe 0; sf erase 0x60000 ${filesize}; sf write 0x2000000 0x60000 ${filesize};
 
+文件系统:
+mw.b 0x2000000 0xFF 0x800000　;fatload mmc 0 0x02000000 rootfs-cpio_master.squashfs.img
+sf probe 0; sf erase 0x260000 ${filesize}; sf write 0x2000000 0x260000 ${filesize};
 
 
 全部flash
