@@ -1508,9 +1508,7 @@ a.  倦怠的, 无精打采的
 
 
 2015.5.28  12.22%
-mortar  ['mɒ:tә]
-n.  臼, 研钵, 灰泥
-vt.  用灰泥涂抹, 用灰泥结合
+mortar      ['mɒ:tә] n.  臼, 研钵, 灰泥 vt.  用灰泥涂抹, 用灰泥结合
 gut  [gʌt]
 n.  剧情, 内容, 内脏, 肚子, 海峡, 勇气
 vt.  取出内脏, 毁坏...的内部
@@ -2053,9 +2051,7 @@ vt.  使腾跃
 mash  [mæʃ]
 n.  碎麦芽, 饲料, 糊状物
 vt.  调情, 捣碎
-stint  [stint]
-vt.  节省, 限制, 停止
-vi.  节约
+stint              vt.  节省, 限制, 停止vi.  节约
 n.  吝惜, 节约, 限额
 willowy  
 a.  柳树多的, 易弯的, 苗条的, 优雅的
@@ -3593,7 +3589,7 @@ n.  泛滥, 大雨, 洪水
 17	homage	尊敬;崇敬;敬意
 18	opine	认为；发表意见
 19	jowl	     下颌垂肉；（尤指）双下巴  2017.12.26
-20	mound	(一)堆;(一)垛
+20	mound	      (一)堆;(一)垛  
 
 
 
@@ -4325,8 +4321,7 @@ brandish         [bran·dish || 'brændɪʃ]v.  挥舞; 炫耀
 wrench  [rentʃ]
 n.  扳钳, 猛扭, 扳手
 v.  猛扭, 曲解, 使扭伤; 猛扭, 绞痛
-vanquish  [van·quish || 'væŋkwɪʃ]
-v.  打败, 克服, 征服
+vanquish      ['væŋkwɪʃ]v.  打败, 克服, 征服  2017.12.27
  supple  [sup·ple || 'sʌpl]
 adj.  易弯曲的, 柔软的; 巴结的, 奴才相的; 柔顺的, 顺从的; 身体柔软的
 loot  [luːt]
@@ -4850,10 +4845,7 @@ unbidden  [,ʌn'bidn]
 a.  未奉命的, 未受指使的, 自发的, 未受邀请的
 sausage  ['sɒsidʒ]
 n.  香肠, 腊肠
-pastry  ['peistri]
-n.  油酥点心, 面粉糕饼
-pastry  ['peistri]
-n.  油酥点心, 面粉糕饼
+pastry    ['peistri]n.  油酥点心, 面粉糕饼   2017.12.27
 avert  [ә'vә:t]
 vt.  转开, 避免, 防止
 scythe  [saið]
@@ -5020,9 +5012,7 @@ n.  混乱, 薄饼
 char  [tʃɑ:]
 n.  家庭杂务, 炭
 vi.  打杂, 烧焦
-mortar  ['mɒ:tә]
-n.  臼, 研钵, 灰泥
-vt.  用灰泥涂抹, 用灰泥结合
+mortar       ['mɒ:tә]n.  臼, 研钵, 灰泥vt.  用灰泥涂抹, 用灰泥结合 2017.12.27
 shinny  
 vi.  攀, 爬
 
@@ -5271,8 +5261,7 @@ religion  [riˈlidʒən]n.宗教，宗教信仰
 日期		复习		+1		+3		+7		+15	
 1	tram	[træm] n.【C】有轨电车, 缆车
 2	maturity	mə'tjuəriti  n.成熟, (支票等的)到期
-3	stint  	stint v.节省, 限制, <古>停止
-n.节约, 限制, 定额的工作, 滨鹬
+3	stint  	        v.节省, 限制, <古>停止n.节约, 限制, 定额的工作, 滨鹬  2017.11.27
 4	embankment	im'bæŋkmənt  n.堤防, 筑堤
 5	squash  	skwɔʃ  n.壁球, 摺皱不堪, 拥挤嘈杂的人群, 浓缩果汁, 美国南瓜 
 vt.压制, 压扁 vi.变扁, 挤进
