@@ -1,6 +1,11 @@
 
 2017-12-27
 lark           [lɑ:k] n.  云雀, 百灵鸟, 欢乐, 嬉耍 vi.  嬉耍, 骑马玩乐
+vair           [vєә] n.  松鼠皮
+pease          [pɪːz] n.  豌豆
+crannog        n.  湖上住宅
+astringent     [ә'strindʒәnt] n.  收敛剂 a.  收敛性的, 严厉的, 涩的
+penchant       n.  爱好, 嗜好
 
 2017-12-26
 insolent       ['insәlәnt] n.  侮慢无礼的人 a.  粗野的, 无礼的, 侮慢的
@@ -1195,10 +1200,7 @@ n.  圣人, 哲人, 鼠尾草属植物
 a.  贤明的, 明智的
 bland  [blænd]
 a.  温和的, 乏味的, 冷漠的
-din  [din]
-n.  喧嚣
-vt.  絮絮不休地说, 喧闹
-vi.  絮絮不休地说, 喧闹
+din      [din]n.  喧嚣vt.  絮絮不休地说, 喧闹vi.  絮絮不休地说, 喧闹
 flaxen  ['flæksn]
 a.  亚麻的, 亚麻色的, 淡黄色的
 tousle  ['tauzl]
@@ -1228,9 +1230,7 @@ frigid  ['frigid]
 a.  寒冷的, 严寒的, 冷淡的
 
 2015.6.2  23.98%
-verge  [vә:dʒ]
-n.  边缘, 边界, 起始点
-vi.  处在边缘, 接近, 下沉, 趋向
+verge        [vә:dʒ] n.  边缘, 边界, 起始点 vi.  处在边缘, 接近, 下沉, 趋向
 florid  ['flɒrid]
 a.  华丽的, 红润的
 grapple  [græpl]
@@ -1495,16 +1495,14 @@ vigil  ['vidʒil]
 n.  警戒, 监视, 守夜
 uncouth  [,ʌn'ku:θ]
 a.  笨拙的, 粗野的, 荒凉的
-herring  ['heriŋ]
-n.  青鱼, 鲱
+herring            ['heriŋ]n.  青鱼, 鲱
 beet  [bi:t]
 n.  甜菜(根)
 fiddle  ['fidl]
 n.  小提琴, 提琴类乐器
 vt.  虚度时光, 拉小提琴
 vi.  拉小提琴, (无目的地)拨弄, 瞎搞
-crestfallen  ['krest,fɒ:lәn]
-a.  垂头丧气的, 意气沮丧的, 气馁的
+crestfallen           ['krest,fɒ:lәn] a.  垂头丧气的, 意气沮丧的, 气馁的  2017.12.27
 listless  ['listlis]
 a.  倦怠的, 无精打采的
 
@@ -1925,9 +1923,7 @@ partridge			山鹑；竹鸡
 plumage			鸟的）全身羽毛
 pelt				向…投掷				毛皮
 broth			（通常加入蔬菜或米的）肉汤，汤
-cinnamon  ['sinәmәn]
-n.  肉桂, 肉桂树皮, 肉桂色
-a.  肉桂色的, 浅黄褐色的
+cinnamon            ['sinәmәn] n.  肉桂, 肉桂树皮, 肉桂色 a.  肉桂色的, 浅黄褐色的
 clarity  ['klærәti]
 n.  清楚, 明晰
 mollify  ['mɒlifai]
@@ -2419,10 +2415,7 @@ a.  相同的
 n.  等级, 家族, 亲属, 种类
 disconsolate  [dis'kɒnsәlit]
 a.  郁郁不乐的
-rapt  [ræpt]
-a.
-1. 全神贯注的, 入迷的, 出神的
-2. rap的过去式和过去分词
+rapt        [ræpt]a.1. 全神贯注的, 入迷的, 出神的2. rap的过去式和过去分词  2017.12.27
 feral  ['fiәrәl]
 a.  野生的, 凶猛的, 野兽的
 havoc  ['hævәk]
@@ -3300,9 +3293,7 @@ forlorn  [for·lorn || fə(r)'lɔrn /-lɔːn]
 adj.  孤独的, 凄凉的, 悲惨的
 bland  [blænd]
 a.  温和的, 乏味的, 冷漠的
-din  [dɪn]
-n.  喧嚣
-v.  以喧闹声扰; 一再叮嘱, 反复告诉; 发出嘈杂声
+din        [dɪn]n.  喧嚣 v.  以喧闹声扰; 一再叮嘱, 反复告诉; 发出嘈杂声  2017.12.27
 dray  [dreɪ]
 n.  运货马车, 撬的一种
 overcast  [,o·ver'cast || ‚əʊvə(r)kɑːst]
@@ -3326,9 +3317,7 @@ preach  [prɪːtʃ]v.  布道; 鼓吹; 讲; 反复灌输; 讲道; 鼓吹, 宣扬
 siege  [sɪːdʒ]
 n.  围攻; 围城, 长期折磨
 v.  包围, 围攻
-verge  [vә:dʒ]
-n.  边缘, 边界, 起始点
-vi.  处在边缘, 接近, 下沉, 趋向
+verge       [vә:dʒ] n.  边缘, 边界, 起始点 vi.  处在边缘, 接近, 下沉, 趋向
 florid  [flor·id || 'flɑrɪd ,'flɔ- /'flɒr-]
 adj.  华丽的, 红润的
 grapple  [grap·ple || 'græpl]
@@ -3376,7 +3365,7 @@ n.  泛滥, 大雨, 洪水
 
 
 日期	2015.3.25	复习1		2		3		4		5	
-1	herring	鲱（鱼）
+1	herring	     鲱（鱼）
 2	salmon	鲑鱼;大麻哈鱼
 3	lamprey	     七鳃鳗，八目鳗   2017.12.25
 4	beet	甜菜
@@ -3995,7 +3984,7 @@ n.  污迹, 熏烟
 v.  弄脏, 用浓烟熏, 使模糊; 被弄脏; 形成污迹
 ostentatious  [,os·ten'ta·tious || ‚ɑstən'teɪʃəs /‚ɒs-]
 adj.  装饰表面的, 华美的, 夸示的
-walrus  ['wɒ:lrәs] n.  海象   2017.12.6
+walrus  ['wɒ:lrәs] n.  海象   2017.12.27
 sailcloth  
 n.  帆布
 basalt  [ba·salt || 'bæsɔːlt] n.  玄武岩 2017.12.6
@@ -5120,8 +5109,7 @@ vt.  (使)变为深红色, 脸红
 vi.  (使)变为深红色, 脸红
 ballad  ['bælәd]
 n.  歌谣
-pewter  [pew·ter || 'pjuːtə(r)]
-n.  白蜡, 奖赏
+pewter        ['pjuːtə(r)] n.  白蜡, 奖赏  2017.12.27
 dais  ['deiis]
 n.  台, 讲台
 wisp  [wɪsp]
