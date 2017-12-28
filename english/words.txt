@@ -1,4 +1,9 @@
 
+
+2017.12.28
+diminish       [di'miniʃ] vt.  (使)减少, (使)变小 vi.  (使)减少, (使)变小
+
+
 2017-12-27
 lark           [lɑ:k] n.  云雀, 百灵鸟, 欢乐, 嬉耍 vi.  嬉耍, 骑马玩乐
 vair           [vєә] n.  松鼠皮
@@ -3020,7 +3025,7 @@ a.  苍白的, 暗淡的, 无生气的
 9	phanton	鬼魂；幽灵
 10	stagger	蹒跚;摇晃地走
 11	husk	（谷类、种子的）外皮，壳，荚
-12	baggage	The movable equipment and supplies of an army
+12	baggage	The movable equipment and supplies of an army  行李  2017.12.28
 13	courtly	(常指旧式地)极其恭敬有礼的，温文尔雅的
 14	lithe	身体柔软的；动作轻巧自如的
 15	natter	瞎扯;闲聊
@@ -3290,8 +3295,7 @@ adj.  孤独的, 凄凉的, 悲惨的
 bland  [blænd]
 a.  温和的, 乏味的, 冷漠的
 din        [dɪn]n.  喧嚣 v.  以喧闹声扰; 一再叮嘱, 反复告诉; 发出嘈杂声  2017.12.27
-dray  [dreɪ]
-n.  运货马车, 撬的一种
+dray       [dreɪ]n.  运货马车, 撬的一种   2017.12.28
 overcast  [,o·ver'cast || ‚əʊvə(r)kɑːst]
 adj.  阴天的, 愁闷的, 阴暗的
 vulture  [vul·ture || 'vʌltʃə(r)]
