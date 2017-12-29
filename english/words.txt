@@ -1242,10 +1242,7 @@ grapple  [græpl]
 vt.  抓住, 掌握
 vi.  抓住, 掌握
 n.  抓住, 系紧, 掌握, 与...扭打
-mildew  ['mildju:]
-n.  霉
-vi.  发霉, 生霉
-vt.  使发霉
+mildew        ['mildju:] n.  霉 vi.  发霉, 生霉 vt.  使发霉 2017.12.28
 dike  [daik]
 n.  堤防
 vt.  筑堤防护
