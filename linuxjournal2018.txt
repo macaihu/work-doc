@@ -1,0 +1,9 @@
+
+
+1.2
+计算机的速度又开始变慢, 那个xorg又开始狂占cpu.
+乱改了参数后, 只有桌面图, 什么都没有啦, 最后解决的方法居然是插入一个u盘, 然后右键, open一个terminal, 运行
+dconf reset -f /org/compiz/
+setsid unity
+
+
