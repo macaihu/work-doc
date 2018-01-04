@@ -1,3 +1,10 @@
+
+# 电梯程序在pc上进行升级
+sshpass -p keep0It3 scp  -P 8357 images/elevator/elevator_v1.00.zip root@192.168.0.2:/tmp/
+sshpass -p keep0It3 ssh root@192.168.0.2 -p 8357 "/etc/init.d/rc.update /tmp/elevator_v1.00.zip"
+sshpass -p keep0It3 ssh root@192.168.0.2 -p 8357 "reboot"
+
+
 # tz8135命令升级:
 
 mount -t nfs 192.168.0.50:/opt/work/ /mnt/nfs --nolock
@@ -6,7 +13,7 @@ mount -t nfs 192.168.19.199:/opt/work/ /mnt/nfs --nolock
 
 奥远电梯:
 cd /mnt/nfs/gm8136s/images/elevator/
-killall ash
+ps | grep rc.onenet | grep -v grep | awk '{print $1}' | xargs kill -9
 killall tzvideo
 flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
 flashcp -v uImage /dev/mtd1
