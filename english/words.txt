@@ -2,6 +2,7 @@
 2018.1.5
 indignantly    [in'dignәntli] ad.  愤怒地
 chatter        ['tʃætә] n.  饶舌, 啁啾, 喋喋不休 vi.  喋喋不休地谈, (鸟)啭鸣
+strut          [strʌt] n.  高视阔步, 支柱, 压杆 vi.  趾高气扬地走, 肿胀 vt.  用支柱支撑, 炫耀
 
 2017.12.28
 diminish       [di'miniʃ] vt.  (使)减少, (使)变小 vi.  (使)减少, (使)变小
@@ -1153,8 +1154,7 @@ flux  [flʌks]
 n.  流出, 涨潮, 变迁
 vi.  熔化, 流出
 vt.  使熔融
-latrine  [lә'tri:n]
-n.  厕所
+latrine           [lә'tri:n]n.  厕所   2018.1.5
 tang  [tæŋ]
 n.  强烈味道, 特殊的气味, 特性, 柄脚, 当的一声, 墨角藻
 vt.  使发气味, 装刀柄于, 使发出当的一声
@@ -3235,9 +3235,9 @@ And, despite my disgust with the Capitol and their hideous fashions, I can’t h
 5	latrine	（营地等处的）茅厕，便坑
 6	whelp	幼兽(尤指幼犬或狼崽) 
 7	tang	浓烈刺鼻的气味(或味道)
-8	carbuncle	红榴石；红宝石；红玉 
-9	boil	疖子；疔
-10	gimlet	螺丝锥；手锥；手钻；木钻
+8	carbuncle	红榴石；红宝石；红玉   2018.1.5
+9	boil	    疖子；疔
+10	gimlet	    螺丝锥；手锥；手钻；木钻
 11	gong	锣
 12	tusk	(象、野猪、海象等的) 长牙
 13	elaborate	精心制作
