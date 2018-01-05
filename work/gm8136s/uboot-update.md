@@ -44,7 +44,8 @@ sf probe 0; sf erase 0x260000 ${filesize}; sf write 0x2000000 0x260000 ${filesiz
 mw.b 0x2000000 0xFF 0x800000　;fatload mmc 0 0x02000000 tz8135.bin
 sf probe 0; sf erase 0x0 ${filesize}; sf write 0x2000000 0x0 ${filesize};
 
-
+mw.b 0x2000000 0xFF 0x800000　;fatload mmc 0 0x02000000 elevator.bin
+sf probe 0; sf erase 0x0 ${filesize}; sf write 0x2000000 0x0 ${filesize};
 
 
 
