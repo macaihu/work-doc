@@ -10,12 +10,13 @@ besmirch       [bi'smә:tʃ] vt.  弄污
 gleefully      adv.  极快乐地, 欢欣地
 albeit         conj.  尽管, 虽然
 vigor          ['vigә] n.  精力, 活力
+commiserate    [kә'mizәreit] vt.  怜悯, 同情 vi.  怜悯, 同情
+limn           [lim] vt.  描写, 描绘
 
 2018.1.5
 indignantly    [in'dignәntli] ad.  愤怒地
 chatter        ['tʃætә] n.  饶舌, 啁啾, 喋喋不休 vi.  喋喋不休地谈, (鸟)啭鸣
 strut          [strʌt] n.  高视阔步, 支柱, 压杆 vi.  趾高气扬地走, 肿胀 vt.  用支柱支撑, 炫耀
-
 
 
 2017.12.28
@@ -371,7 +372,7 @@ sardonic       adj.轻慢的；轻蔑的；嘲弄的
 
 
 2017-11-21
-niche          n.壁龛；舒适或称心的工作（或生活等）；（产品的）商机；市场定位
+niche          n.壁龛；舒适或称心的工作（或生活等）；（产品的）商机；市场定位 
 fiddle         v.伪造(账目等)；用提琴演奏；虚度(时光)；〈口〉拉提琴 n.〈口〉提琴；【航】防食器滚落的餐具框；欺骗行为 2015.3.25
 wick           n.灯芯；烛芯 v.吸走
 whit           n.丝毫；一点点；很少量
@@ -1125,8 +1126,7 @@ vt.  严厉拒绝
 pug  [pʌg]
 n.  哈巴狗, 泥料, 拳击运动员, (兽)脚印
 vt.  捣, 跟踪追寻
-gauzy  ['gɒ:zi]
-a.  纱似的, 薄的
+gauzy         ['gɒ:zi]a.  纱似的, 薄的
 harelip  [,hєә'lip]
 n.  兔唇
 hideous  ['hidiәs]
@@ -1948,8 +1948,7 @@ vt.  扫除
 broom  [bru:m]
 n.  扫帚, 金雀花
 vt.  扫除
-patron  ['peitrәn]
-n.  赞助人, 顾客, 保护人
+patron             ['peitrәn] n.  赞助人, 顾客, 保护人   2018.1.6
 coverlet  
 n.  床罩
 in tow  
@@ -3201,7 +3200,7 @@ Caravan guards wandered among the aisles in copper helmets and knee-length tunic
 6	slink	偷偷摸摸地走;悄悄走;溜走
 7	patron	（酒吧、旅馆等的）主顾，顾客
 8	pug	哈巴狗
-9	gauzy	薄纱似的；轻薄透明的
+9	gauzy	        薄纱似的；轻薄透明的   2018.1.6
 10	sleek	        (毛发、皮毛等)柔顺亮泽的   2017.12.21
 11	harelip	兔唇，唇裂(旧式用语，含冒犯意，现称 cleft lip) 
 12	impotent	无能为力的;不起作用的
@@ -4801,9 +4800,7 @@ vt.  以勺舀取, 以勺掬, 不分对象予以赠送
 baffle      ['bæfl]vt.  困惑, 为难, 使挫折vi.  徒作挣扎 n.  迷惑, 挡板  2017.12.25
 mellow  ['melәu]
 a.  成熟的, 醇的, 熟练的
-niche  [nitʃ]
-n.  壁龛
-vt.  放入壁龛, 安顿
+niche       [nitʃ]n.  壁龛vt.  放入壁龛, 安顿  2018.1.6
 
 
 
