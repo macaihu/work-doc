@@ -1,8 +1,17 @@
 
+2018.1.6
+snout          [snaut] n.  鼻口部, 鼻子, 口吻状物, 烟草
+scabrous       ['skeibrәs] a.  粗糙的, 多痂的, 难解决的, 猥亵的
+harry          ['hæri] vt.  掠夺, 使苦恼, 强使前行, 折磨, 骚扰
+meager         ['mi:gә] a.  质量差的, 贫乏的, 不毛的, 瘦的
+loin           [lɒin] n.  腰部, 腰肉
+
 2018.1.5
 indignantly    [in'dignәntli] ad.  愤怒地
 chatter        ['tʃætә] n.  饶舌, 啁啾, 喋喋不休 vi.  喋喋不休地谈, (鸟)啭鸣
 strut          [strʌt] n.  高视阔步, 支柱, 压杆 vi.  趾高气扬地走, 肿胀 vt.  用支柱支撑, 炫耀
+
+
 
 2017.12.28
 diminish       [di'miniʃ] vt.  (使)减少, (使)变小 vi.  (使)减少, (使)变小
@@ -301,7 +310,7 @@ cordial        adj.热情友好的；和蔼可亲的n.（不含酒精、加水�
 tidbit         n.少量的食物；〈比喻〉趣闻
 
 2017-11-23
-contemplate    v.考虑；沉思；思量；思忖
+contemplate    v.考虑；沉思；思量；思忖  2018.1.5
 hide           v.藏；掩盖；躲避；遮住 n.兽皮；(对野兽摄影或打猎用的)隐藏处；〈口〉(人的)皮肤 2015-3.17
 shack          n.棚屋；简陋的小屋 v.〈美口〉追到；拣起并把(球)丢回去；取回来；居住
 abyss          n.深渊
@@ -1252,8 +1261,7 @@ bay  [bei]
 n.  海湾, 狗吠声, 月桂
 vt.  吠, 使走投无路
 vi.  吠
-squalid  ['skwɒlid]
-a.  污秽的, 肮脏的, 悲惨的, 可怜的, 卑劣的
+squalid       ['skwɒlid]a.  污秽的, 肮脏的, 悲惨的, 可怜的, 卑劣的
 grovel  ['grɒvl]
 vi.  趴, 匍匐, 卑躬屈膝
 shoo  [ʃu:]
@@ -1472,9 +1480,7 @@ reef  [ri:f]
 n.  暗礁, 礁, 缩帆
 vt.  缩(帆)
 vi.  缩(帆)
-marble  ['mɑ:bl]
-n.  大理石, 石弹, 雕刻品
-a.  大理石的, 冷酷无情的, 有大理石花纹的
+marble    ['mɑ:bl]n.  大理石, 石弹, 雕刻品 a.  大理石的, 冷酷无情的, 有大理石花纹的  2018.1.5
 lichen  ['laikәn]
 n.  青苔, 地衣, 苔藓病
 splice  [splais]
@@ -1581,11 +1587,7 @@ dune  [dju:n]
 n.  沙丘
 adultery  [ә'dʌltәri]
 n.  通奸
-slant  [slænt]
-n.  倾斜, 斜面, 观点, 偏见, 歪曲
-a.  倾斜的
-vt.  (使)倾斜
-vi.  (使)倾斜
+slant      [slænt] n.  倾斜, 斜面, 观点, 偏见, 歪曲 a.  倾斜的 vt.  (使)倾斜 vi.  (使)倾斜
 vulture  ['vʌltʃә]
 n.  秃鹫, 贪婪的人
 gum  [gʌm]
@@ -3230,16 +3232,16 @@ And, despite my disgust with the Capitol and their hideous fashions, I can’t h
 日期	2015.3.30	复习1		2		3		4		5	
 1	gem	宝石
 2	flux	不断的变动；不停的变化
-3	meander	 通量；流动
-4	scorch	(轻微地)烫坏，烧糊，烧焦
-5	latrine	（营地等处的）茅厕，便坑
-6	whelp	幼兽(尤指幼犬或狼崽) 
-7	tang	浓烈刺鼻的气味(或味道)
+3	meander	    通量；流动
+4	scorch	    (轻微地)烫坏，烧糊，烧焦
+5	latrine	   （营地等处的）茅厕，便坑
+6	whelp	    幼兽(尤指幼犬或狼崽) 
+7	tang	    浓烈刺鼻的气味(或味道)
 8	carbuncle	红榴石；红宝石；红玉   2018.1.5
 9	boil	    疖子；疔
 10	gimlet	    螺丝锥；手锥；手钻；木钻
-11	gong	锣
-12	tusk	(象、野猪、海象等的) 长牙
+11	gong	    锣
+12	tusk	    (象、野猪、海象等的) 长牙
 13	elaborate	精心制作
 14	violet	紫罗兰
 15	umber	红棕色；赭色
@@ -3283,7 +3285,7 @@ v.  牙牙学语; 说蠢话; 模糊不清地说话; 唠叨; 模糊不清地说; 
 
 日期	2015.3.27	复习1		2		3		4		5	
 1	resin	树脂
-2	staggler	
+2	straggler     ['stræglә] n.  游荡者, 朱经请假擅离船舰的人员, 掉队者	2018.1.5
 3	fluster	使紧张;使慌张
 4	strand	(头发、电线或纱线等的)股，缕
 5	sash	(尤指正式服装或官员服装上的)腰带，彩带,肩带
@@ -3297,8 +3299,7 @@ din        [dɪn]n.  喧嚣 v.  以喧闹声扰; 一再叮嘱, 反复告诉; 发
 dray       [dreɪ]n.  运货马车, 撬的一种   2017.12.28
 overcast  [,o·ver'cast || ‚əʊvə(r)kɑːst]
 adj.  阴天的, 愁闷的, 阴暗的
-vulture  [vul·ture || 'vʌltʃə(r)]
-n.  秃鹰, 贪婪的人
+vulture    ['vʌltʃə(r)] n.  秃鹰, 贪婪的人  2018.1.5
 sanctity  [sanc·ti·ty || 'sæŋktətɪ]
 n.  圣洁; 崇高; 虔诚; 神圣
 fondle  [fon·dle || 'fɑndl /'fɒndl]
@@ -3307,10 +3308,9 @@ flaxen  [flax·en || 'flæksən]
 adj.  亚麻的, 淡黄色的, 亚麻色的
 appalling  [ap'pal·ling || -lɪŋ]
 adj.  骇人的, 可怕的; 十分低劣的
-nominal  [nom·i·nal || 'nɑmɪnl /'nɒ-]
-adj.  名义上的, 名字的, 有名无实的
-tousle  [tou·sle || 'taʊzl]v.  搅乱, 弄乱    2017.12.3
-preach  [prɪːtʃ]v.  布道; 鼓吹; 讲; 反复灌输; 讲道; 鼓吹, 宣扬; 说教; 唠叨地劝诫
+nominal      ['nɑmɪnl /'nɒ-]adj.  名义上的, 名字的, 有名无实的
+tousle       [tou·sle || 'taʊzl]v.  搅乱, 弄乱    2017.12.3
+preach       [prɪːtʃ]v.  布道; 鼓吹; 讲; 反复灌输; 讲道; 鼓吹, 宣扬; 说教; 唠叨地劝诫
 
 2015-3-26
 siege  [sɪːdʒ]
@@ -3337,8 +3337,7 @@ v.  连续吠叫; 咆哮; 对...吠叫
 adj.  枣红色的
 lintel  [lin·tel || 'lɪntl]
 n.  楣; 过梁; 楣石
-squalid  [squal·id || 'skwɑlɪd /'skwɒl-]
-adj.  脏的; 恶劣的; 卑鄙的
+squalid     ['skwɒl-]adj.  脏的; 恶劣的; 卑鄙的
 detail  ['di:teil]
 n.  细节, 详情
 vt.  详述, 选派
@@ -4176,7 +4175,7 @@ n.  动物之鼻口; 钳制言论的手段; 口套
 v.  戴口络于; 上口罩
 mole  [məʊl]
 n.  鼹鼠, 钱鼠; 隧道全断面掘进机; 长期潜伏的间谍#痣#胎块#防波堤#摩尔, 克分子
-pimple              ['pɪmpl] n.  丘疹, 疙瘩, 面泡  2017.12.21
+pimple              ['pɪmpl] n.  丘疹, 疙瘩, 面泡  2018.1.5(2)
 lead  [lɪːd]
 n.  指导, 榜样; 领先的程度; 领先地位; 绳索, 皮带#铅; 铅制品; 黑铅, 铅笔心
 n.  指导, 榜样; 领先的程度; 领先地位; 绳索, 皮带#铅; 铅制品; 黑铅, 铅笔心
@@ -4382,9 +4381,7 @@ thrice  [θraɪs]
 adv.  三次
 melee  [me·lee || 'meleɪ]
 n.  混战; 格斗; 搏斗
-revel  [rev·el || 'revl]
-n.  狂欢; 闹饮; 欢宴; 喜庆狂欢活动
-v.  狂欢作乐, 着迷, 得意
+revel      ['revl] n.  狂欢; 闹饮; 欢宴; 喜庆狂欢活动 v.  狂欢作乐, 着迷, 得意  2018.1.6
 cowl  [kaʊl]
 n.  蒙头斗篷; 通风帽
 voluminous  [vo·lu·mi·nous || və'ljuːmɪnəs]
