@@ -5,6 +5,11 @@ scabrous       ['skeibrәs] a.  粗糙的, 多痂的, 难解决的, 猥亵的
 harry          ['hæri] vt.  掠夺, 使苦恼, 强使前行, 折磨, 骚扰
 meager         ['mi:gә] a.  质量差的, 贫乏的, 不毛的, 瘦的
 loin           [lɒin] n.  腰部, 腰肉
+scry           [skrai] vi.  以水晶球算卦
+besmirch       [bi'smә:tʃ] vt.  弄污
+gleefully      adv.  极快乐地, 欢欣地
+albeit         conj.  尽管, 虽然
+vigor          ['vigә] n.  精力, 活力
 
 2018.1.5
 indignantly    [in'dignәntli] ad.  愤怒地
@@ -453,7 +458,7 @@ grove          n.小树林；树丛；果树林；果园
 
 2017-11-14
 mongrel        adj.混血的 n.杂种狗
-slink		   vi. 鬼鬼祟祟地走, (动物)早产 vt. 早产 n. 鬼鬼祟祟的人, 早产的动物 a. 早产的 2016.6.14 2015.3.31
+slink		vi. 鬼鬼祟祟地走, (动物)早产 vt. 早产 n. 鬼鬼祟祟的人, 早产的动物 a. 早产的  2018.1.6
 bawdy          adj.喧闹并猥亵作乐的；说黄色笑话的 n.淫猥的言辞
 snag           n.障碍；突出物；尖齿；尖角 v.抓住；被钩住；抢先获得
 drear          adj.令人沮丧的；沉闷的；枯燥无味的n.可怕的人物
@@ -761,9 +766,7 @@ bullock  ['bulәk]
 n.  阉牛
 beryl  ['beril]
 n.  绿玉, 绿宝石
-lattice  ['lætis]
-n.  格子, 组合格子, 格子状东西
-vt.  制做格子, 使成格子状
+lattice     ['lætis] n.  格子, 组合格子, 格子状东西 vt.  制做格子, 使成格子状 2018.1.6
 pamper  ['pæmpә]
 vt.  放纵, 使吃饱, 使过量
 feint  [feint]
@@ -1217,11 +1220,8 @@ a.  贤明的, 明智的
 bland  [blænd]
 a.  温和的, 乏味的, 冷漠的
 din      [din]n.  喧嚣vt.  絮絮不休地说, 喧闹vi.  絮絮不休地说, 喧闹
-flaxen  ['flæksn]
-a.  亚麻的, 亚麻色的, 淡黄色的
-tousle  ['tauzl]
-vt.  使蓬乱, 弄乱
-n.  乱发, 杂乱, 凌乱
+flaxen       ['flæksn]a.  亚麻的, 亚麻色的, 淡黄色的
+tousle  ['tauzl] vt.  使蓬乱, 弄乱 n.  乱发, 杂乱, 凌乱
 preach  [pri:tʃ]
 vt.  传道, 讲道, 说教, 宣讲, 鼓吹
 vi.  传道, 讲道, 说教, 宣讲, 鼓吹
@@ -1731,11 +1731,7 @@ anathema  [ә'næθәmә]
 n.  令人厌恶的人, 强烈的遣责, 诅咒, 咒逐, 革出教门
 
 2015.5.17  83.84 %
-slink  [sliŋk]
-vi.  鬼鬼祟祟地走, (动物)早产
-vt.  早产
-n.  鬼鬼祟祟的人, 早产的动物
-a.  早产的
+slink       [sliŋk]vi.  鬼鬼祟祟地走, (动物)早产 vt.  早产 n.  鬼鬼祟祟的人, 早产的动物 a.  早产的
 duet  [dju:'et]
 n.  二重奏
 verse  [vә:s]
@@ -2331,11 +2327,8 @@ prune  [pru:n]
 n.  洋李, 李子干, 深紫红色, 傻瓜
 vt.  修剪, 砍掉, 删除
 vi.  删除, 删节
-bereft  [bi'reft]
-a.
-1. 缺少的, 丧失的, 失去亲人的
-2. bereave的过去式和过去分词
-grisly                ['grizli]  a.  可怕的, 厉害的, 令人畏惧的   2017.12.25
+bereft              [bi'reft] a. 1. 缺少的, 丧失的, 失去亲人的 2. bereave的过去式和过去分词  2018.1.6
+grisly              ['grizli]  a.  可怕的, 厉害的, 令人畏惧的   2017.12.25
 shoe  [ʃu:]
 n.  鞋, 靴, 外胎
 vt.  给...穿鞋, 为马钉蹄铁
@@ -3236,8 +3229,8 @@ And, despite my disgust with the Capitol and their hideous fashions, I can’t h
 4	scorch	    (轻微地)烫坏，烧糊，烧焦
 5	latrine	   （营地等处的）茅厕，便坑
 6	whelp	    幼兽(尤指幼犬或狼崽) 
-7	tang	    浓烈刺鼻的气味(或味道)
-8	carbuncle	红榴石；红宝石；红玉   2018.1.5
+7	tang	         浓烈刺鼻的气味(或味道)
+8	carbuncle	    红榴石；红宝石；红玉   2018.1.5
 9	boil	    疖子；疔
 10	gimlet	    螺丝锥；手锥；手钻；木钻
 11	gong	    锣
@@ -3245,11 +3238,11 @@ And, despite my disgust with the Capitol and their hideous fashions, I can’t h
 13	elaborate	精心制作
 14	violet	紫罗兰
 15	umber	红棕色；赭色
-16	shabby	破旧的;破败的;破烂的
-17	sack	抢劫，洗劫，破坏(城镇或城市)
-18	revere	尊敬;崇敬;敬重
-19	ludicrous	愚蠢的；荒唐的；可笑的
-20	languid	无精打采的；懒洋洋的；倦怠的
+16	shabby	    破旧的;破败的;破烂的  2018.1.6
+17	sack	抢劫，    洗劫，破坏(城镇或城市)
+18	revere	    尊敬;崇敬;敬重
+19	ludicrous	    愚蠢的；荒唐的；可笑的
+20	languid	    无精打采的；懒洋洋的；倦怠的
 
 2015-3-29
 baleful  [bale·ful || 'beɪlfʊl]adj.  有害的, 恶意的
@@ -3335,8 +3328,7 @@ bay  [beɪ]
 n.  海湾, 海岸线向内弯的状况; 月桂树 (灌木的一种); 小屋, 小房间; 包含一个硬盘的小空间 (计算机用语); 猎狗的嚎叫; 深枣红色; 枣红色的马
 v.  连续吠叫; 咆哮; 对...吠叫
 adj.  枣红色的
-lintel  [lin·tel || 'lɪntl]
-n.  楣; 过梁; 楣石
+lintel      ['lɪntl]n.  楣; 过梁; 楣石   2018.1.6
 squalid     ['skwɒl-]adj.  脏的; 恶劣的; 卑鄙的
 detail  ['di:teil]
 n.  细节, 详情
@@ -3498,7 +3490,7 @@ n.  泛滥, 大雨, 洪水
 2	rush	      灯芯草                   猛冲;快速行进
 3	stud	     (固定在物体表面用于装饰的)嵌钉，饰钉
 4	cauldron	(小说及童话故事中巫师用以施符咒的)大锅  2017.12.24
-5	bauble	廉价小饰物（或珠宝）
+5	bauble	廉价小饰物（或珠宝）   2018.1.6
 6	pelt	      倾泻；倾盆而下
 7	scrawny	骨瘦如柴的;皮包骨头
 8	oldster	 老人；老者
@@ -3602,7 +3594,7 @@ n.  泛滥, 大雨, 洪水
 2	derision	嘲弄;嘲笑;侮蔑
 3	haggard	尤指因病或睡眠不足）憔悴的，形容枯槁的，困倦的
 4	bulge	鼓起
-5	glee	欢喜；兴奋；（常指）幸灾乐祸   2017-12-18
+5	glee	     欢喜；兴奋；（常指）幸灾乐祸   2017-12-18
 6	cur	恶狗;(尤指)杂种狗
 7	shroud	裹尸布;寿衣
 8	dullard	无趣的人;愚钝的人;无想象力的人  
@@ -4556,7 +4548,7 @@ n.  小桶
 
 2015-2-2
 taunt  [tɒ:nt]n.  辱骂, 嘲弄vt.  嘲弄, 奚落
-screech  [skri:tʃ]n.  尖声喊叫, 尖叫声, 煞车声vt.  尖声讲vi.  发出尖声
+screech      [skri:tʃ]n.  尖声喊叫, 尖叫声, 煞车声vt.  尖声讲vi.  发出尖声  2018.1.6
 grit  [grit]n.  砂砾, 粗砂石vt.  覆以砂砾, 咬牙切齿地说vi.  摩擦作声
 scowl  [skaul]n.  愁容, 阴沉脸色vi.  皱眉, 绷着脸vt.  怒视
 craven  ['kreivәn]n.  懦夫, 怯懦者, 胆小鬼a.  怯懦的, 畏缩的, 胆小的
@@ -4883,10 +4875,7 @@ vt.  涂以瓷釉, 彩饰
 porcelain  ['pɒ:slin]
 n.  瓷器, 瓷
 a.  瓷制的
-shimmer  ['ʃimә]
-n.  微光, 闪光
-vi.  闪烁
-vt.  使闪烁
+shimmer         ['ʃimә]n.  微光, 闪光 vi.  闪烁 vt.  使闪烁
 fleck  [flek]
 n.  斑点, 雀斑, 斑纹
 vt.  使起斑点, 使有斑纹, 使有斑驳
