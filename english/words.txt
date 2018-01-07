@@ -7,6 +7,11 @@ purblind       ['pә:blaind] a.  半盲的, 愚钝的 vt.  使成半瞎
 trebuchet      ['trebjuʃet] n.  (中世的)抛石机, 小型秤, 小天平
 cistern        ['sistәn] n.  贮水器, 水塘, 水箱
 slugabed       ['slʌgәbed] n.  睡懒觉的人
+vehemence      ['vi:imәns] n.  热烈, 激烈
+strait         [streit] n.  海峡, 困境 a.  困难的, 窘迫的, 狭窄的
+archon         ['ɑ:kәn] n.  执政官, 统治者
+afoul          [ә'faul] ad.  冲撞着
+
 
 2018.1.6
 snout          [snaut] n.  鼻口部, 鼻子, 口吻状物, 烟草
@@ -227,7 +232,7 @@ languorous     ['læŋgәrәs] a.  怠惰的, 疲倦的, 无力的
 cavernous      ['kævәnәs]a.  似巨穴的
 bulge          [bʌldʒ]n.  胀, 膨胀vi.  凸出vt.  使膨胀
 pomegranate    ['pɒmgrænit] n.  石榴 
-serpent        ['sә:pәnt] n.  巨蛇座, 蛇, 蛇形管, 狡猾的人
+serpent        ['sә:pәnt] n.  巨蛇座, 蛇, 蛇形管, 狡猾的人  2018.1.7
 carnage        ['kɑ:nidʒ] n.  大屠杀, 残杀
 thrum          [θrʌm]n.  线头, 纱头, 乱弹vt.  指弹, 敲打, 把绳毛夹杂于vi.  乱弹, 轻敲
 talon          ['tælәn] n.  爪, 如爪的手, 魔爪, 爪饰
@@ -299,7 +304,7 @@ venison        n.鹿肉
 bale           n.捆；大包；不幸；痛苦 v.包装 2015-3-10
 marrow         n.西葫芦
 bane           n.祸根 2015-3-1
-persimmon      n.柿子；柿树；美洲柿
+persimmon      n.柿子；柿树；美洲柿  2018.1.7
 jostle         n.推撞 v.（在人群中）挤
 meander        n.弯曲；漫谈；曲曲折折的路；闲聊 v.蜿蜒而行；迂回曲折；漫步；闲逛
 rheumy         adj.充水的；充满黏液的
@@ -764,15 +769,11 @@ n.  淘气鬼, 顽童
 vie  [vai]
 vi.  争, 竞争, 争胜
 vt.  提出...来竞争, 以...作较量
-pall  [pɒ:l]
-n.  棺罩, 柩衣, 遮盖物
-vi.  失去吸引力, 乏味
-vt.  覆盖, 使笼罩阴影, 使乏味
+pall       [pɒ:l]n.  棺罩, 柩衣, 遮盖物vi.  失去吸引力, 乏味vt.  覆盖, 使笼罩阴影, 使乏味 2018.1.7
 braggart  ['brægәt]
 n.  吹牛者, 自夸者
 a.  吹牛的, 自夸的
-bullock  ['bulәk]
-n.  阉牛
+bullock     ['bulәk]n.  阉牛
 beryl  ['beril]
 n.  绿玉, 绿宝石
 lattice     ['lætis] n.  格子, 组合格子, 格子状东西 vt.  制做格子, 使成格子状 2018.1.6
@@ -1454,9 +1455,7 @@ n.
 adulterate  [ә'dʌltәreit]
 vt.  掺杂
 a.  掺假的, 假的, 通奸的
-squander  ['skwɒndә]
-vt.  浪费, 使分散
-vi.  浪费, 漂泊, 四散
+squander     ['skwɒndә] vt.  浪费, 使分散 vi.  浪费, 漂泊, 四散  2018.1.7
 sputter  ['spʌtә]
 n.  喷溅声, 劈啪声, 语无伦次
 vi.  唾沫飞溅, 结结巴巴地讲, 发劈啪声
@@ -3078,7 +3077,7 @@ But obviously this person’s a hazard. Stupid people are dangerous.
 1	pall	（一段时间后）失去吸引力，变得乏味
 2	braggart	吹牛大王；自吹自擂者
 3	idol	圣像;神像
-4	bullock	阉牛；小公牛
+4	bullock	    阉牛；小公牛
 5	beryl	绿柱石
 6	lattice	格子木架；斜条格构
 7	pamper	宠爱；溺爱；娇惯
@@ -3111,15 +3110,15 @@ But obviously this person’s a hazard. Stupid people are dangerous.
 8	pageant	盛装游行（或庆典）；露天历史剧
 9	bantam	矮脚鸡
 10	ferret	雪貂(用以捕兔、捕鼠)
-11	beetle	甲虫   2017.12.26
-12	trial	令人伤脑筋的事；惹麻烦的人；考验
-13	homely	相貌平平的
-14	toddler	学步的孩童
-15	urchin	肮脏而衣着破烂的儿童；小乞丐
-16	persimmon	柿子
-17	wring	拧，绞，拧出，绞出(衣服等中的水)
-18	vie	激烈竞争；争夺 
-19	corsair	海盗（尤指非洲的）
+11	beetle	        甲虫   2017.12.26
+12	trial	        令人伤脑筋的事；惹麻烦的人；考验
+13	homely	        相貌平平的
+14	toddler	        学步的孩童
+15	urchin	        肮脏而衣着破烂的儿童；小乞丐
+16	persimmon	    柿子
+17	wring	        拧，绞，拧出，绞出(衣服等中的水)
+18	vie	激          烈竞争；争夺 
+19	corsair	        海盗（尤指非洲的）
 20	protestation	申明；断言  
 
 In no time, I’ve cleaned and gutted the animal, leaving the head, feet, tail, skin, and innards,   under a pile of leaves. 
