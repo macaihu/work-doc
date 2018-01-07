@@ -1,4 +1,8 @@
 
+2018.1.8
+deplete        [di'pli:t] vt.  耗尽, 使衰竭
+pompous        ['pɒmpәs] a.  爱炫耀的, 虚夸的, 盛大的
+
 2018.1.7
 stave          [steiv] n.  狭板, 梯级, 棍棒, 诗句 vt.  击穿, 弄破, 敲打, 赶走 vi.  穿孔, 破碎
 lug            [lʌg] vt.  拖, 拉 vi.  拖, 拉 n.  一拖, 一拉, 耳朵, 耳状物, 装腔作势, 勒索
@@ -779,10 +783,7 @@ n.  绿玉, 绿宝石
 lattice     ['lætis] n.  格子, 组合格子, 格子状东西 vt.  制做格子, 使成格子状 2018.1.6
 pamper  ['pæmpә]
 vt.  放纵, 使吃饱, 使过量
-feint  [feint]
-n.  伪装, 假装, 假托, 佯攻
-vi.  装作, 假装, 佯攻
-a.  假的, 虚饰的
+feint       [feint] n.  伪装, 假装, 假托, 佯攻 vi.  装作, 假装, 佯攻 a.  假的, 虚饰的
 gloom  [glu:m]
 n.  忧郁, 暗处, 幽暗
 vi.  变忧沉, 变黑暗
@@ -3082,8 +3083,8 @@ But obviously this person’s a hazard. Stupid people are dangerous.
 6	lattice	格子木架；斜条格构
 7	pamper	宠爱；溺爱；娇惯
 8	scramble	(迅速地)爬,攀登
-9	rung	梯级;横档
-10	feint	虚击;佯攻;做假动作
+9	rung	梯级;横档 
+10	feint	    虚击;佯攻;做假动作   2018.1.8
 11	lavish	
 12	score	二十;二十左右
 13	boom	（人)吼叫；（大炮或大鼓）发隆隆声
