@@ -1,5 +1,40 @@
 
 
+1.12
+{
+	"type":"update", "url":"http://192.168.0.50/elevator_v1.00.zip"
+}
+
+function readdata(filename)
+	file = io.open(filename, "r")
+	jsondata = file:read("*a")
+	file:close()
+end
+
+function update(url)
+	os.execute("curl"..url)
+	os.execute("/etc/init.d/rc.update")
+end
+
+
+local cjson = require "cjson"
+readdata("/tmp/onenet_cmd.json")
+local onenet_cmd=cjson.decode(jsondata)
+print(onenet_cmd["type"])
+if (onenet_cmd["type"] == "update") then
+	print("a update cmd")
+end
+
+
+
+1.11
+local cjson = require "cjson" 
+local file = io.open("/tmp/onenet.json", "r");
+assert(file);  
+local onenet=file:read("*a");
+file:close();
+screen:print(10,10,onenet,white);
+
 1.8
 在没有咪头的情况下, 采集的声音居然是噪声.
 在audacity中引入, 那么使用8k和44.8k, 听起来没有什么不同. 

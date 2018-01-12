@@ -1,6 +1,8 @@
 
 2018.1.12
 ravage         ['rævidʒ] n.  破坏, 蹂躏  vt.  毁坏, 破坏, 掠夺 vi.  毁坏, 破坏, 掠夺
+scathe         [skeið] n.  危害, 损伤, 损害 vt.  损伤, 伤害, 痛斥
+irk            [ә:k] vt.  使厌倦, 使苦恼
 
 2018.1.8
 deplete        [di'pli:t] vt.  耗尽, 使衰竭
@@ -866,9 +868,7 @@ vi.  收缩, 节省, 挤压, 引起苦恼
 rascally  ['ræskli]
 a.  无赖的, 恶棍的, 不诚实的
 ad.  无赖地
-thwart  [θwɒ:t]
-a.  横放的
-vt.  反对, 阻挠, 横过
+thwart  [θwɒ:t] a.  横放的 vt.  反对, 阻挠, 横过
 rank  [ræŋk]
 n.  等级, 排, 横列, 队伍, 阶级
 a.  茂密丛生的, 恶臭的, 十足的, 粗俗的
@@ -1328,9 +1328,7 @@ vt.  妨碍, 阻碍, 阻止
 dissent  [di'sent]
 n.  异议
 vi.  持异议, 不同意
-beseech  [bi'si:tʃ]
-vt.  恳求, 哀求
-vi.  恳求, 哀求
+beseech      [bi'si:tʃ] vt.  恳求, 哀求 vi.  恳求, 哀求
 taper  ['teipә]
 n.  带子操作工, 小蜡烛, 尖细, 渐弱, 锥形, 尖塔
 a.  尖细的, 分等级的
@@ -2507,9 +2505,7 @@ vi.  畏缩, 退缩, 退避
 rankle  ['ræŋkl]
 vi.  化脓, 怨恨
 vt.  使怨恨
-athwart  [ә'θwɒ:t]
-ad.  横跨着, 相反
-prep.  横跨, 逆, 与...相反
+athwart  [ә'θwɒ:t] ad.  横跨着, 相反 prep.  横跨, 逆, 与...相反
 snuffle  ['snʌfl]
 n.  鼻音, 鼻息, 鼻塞
 vi.  抽鼻子, 嗅, 闻, 带鼻音说话
@@ -2921,9 +2917,7 @@ vt.  妨碍, 阻碍, 阻止
 dissent  [di'sent]
 n.  异议
 vi.  持异议, 不同意
-beseech  [bi'si:tʃ]
-vt.  恳求, 哀求
-vi.  恳求, 哀求
+beseech     [bi'si:tʃ] vt.  恳求, 哀求 vi.  恳求, 哀求   2018.1.12
 taper  ['teipә]
 n.  带子操作工, 小蜡烛, 尖细, 渐弱, 锥形, 尖塔
 a.  尖细的, 分等级的
