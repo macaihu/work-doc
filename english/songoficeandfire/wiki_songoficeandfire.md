@@ -1886,7 +1886,7 @@ Mustamirri Second Name
 当琼恩·雪诺在科林的暗示性命令下杀死后者并投靠野人时，耶哥蕊特也在场。[3]
 
 ### CHAPTER 52  SANSA 
-####
+### CHAPTER 54  TYRION 
 ####
 ####
 ####

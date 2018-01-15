@@ -2,6 +2,7 @@
 2018.1.15
 turgid         ['tә:dʒid] a.  肿的, 浮夸的
 inimical       [i'nimikәl]a.  有敌意的, 有害的, 抵触的
+constrict      [kәn'strikt] vt.  压缩, 束紧, 使收缩 vi.  收缩
 
 2018.1.14
 muster         ['mʌstә] n.  召集, 集合, 检阅, 清单, 花名册, 样品 vt.  召集, 集合, 应召 vi.  集合, 集中
@@ -3133,7 +3134,7 @@ but Hot Pie retched up the *beetle* he tried to swallow, and Lommy and Gendry wo
 3	hurl	     猛投;用力掷   2018.1.7
 4	jest	      笑话；打趣；玩笑
 5	lather	（无必要地）焦躁不安，发火
-6	myriad	无数;大量;各种各样      2017.12.17
+6	myriad	     无数;大量;各种各样      2018.1.15(2)
 7	weather	(使)风化;(使)褪色;(使)受到侵蚀
 8	tether	(拴动物的)拴绳，拴链
 9	wane	     衰落;减少
