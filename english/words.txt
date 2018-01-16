@@ -1,4 +1,9 @@
 
+2018.1.16
+falconer       ['fɒ:lkәnә] n.  以鹰狩猎者, 放鹰者, 养鹰者
+dearth         [dә:θ] n.  缺乏, 粮食不足, 饥馑
+ballast        ['bælәst] n.  压载物, 压舱物
+
 2018.1.15
 turgid         ['tә:dʒid] a.  肿的, 浮夸的
 inimical       [i'nimikәl]a.  有敌意的, 有害的, 抵触的
@@ -265,7 +270,7 @@ carnage        ['kɑ:nidʒ] n.  大屠杀, 残杀
 thrum          [θrʌm]n.  线头, 纱头, 乱弹vt.  指弹, 敲打, 把绳毛夹杂于vi.  乱弹, 轻敲
 talon          ['tælәn] n.  爪, 如爪的手, 魔爪, 爪饰
 phlegm         [flem] n.  痰, 粘液质, 粘液
-sconce         [skɒns] n.  壁式烛台, 头, 头盔 vt.  遮蔽
+sconce         [skɒns] n.  壁式烛台, 头, 头盔 vt.  遮蔽  2018.1.16
 peeve          [pɪːv]v.  使气恼
 wraith         [reiθ] n.  生魂, 幻影, 幽灵
 
@@ -2899,9 +2904,7 @@ vt.  强迫做苦工
 
 2015.4.17
 boom      [buːm]n.  隆隆声; 嗡嗡声; 澎湃声; 景气, 繁荣#吊杆; 栅栏, 横江铁索, 栏木或横江铁索; 帆的下桁, 帆杠; 臂
-brazen  ['breizn]
-a.  黄铜制的, 厚颜无耻的
-vt.  厚脸皮地对待
+brazen    ['breizn] a.  黄铜制的, 厚颜无耻的 vt.  厚脸皮地对待
 stern  [stɜrn /stɜːn]
 n.  尾部, 船尾
 adj.  严厉的, 坚定的, 严格的
@@ -3531,7 +3534,7 @@ n.  泛滥, 大雨, 洪水
 4	crab	蟹;螃蟹
 5	confide	吐露（或倾诉）秘密    2017.12.24
 6	suet	(动物身上的)硬脂肪油，板油
-7	skiff	(常指单人的)小艇，小船
+7	skiff	     (常指单人的)小艇，小船  2018.1.16
 8	flout	无视，藐视，轻视(法律等)   2017.12.24
 9	obliterate	 [ә'blitәreit] 消灭;毁掉;清除
 10	flamboyant	引人注目的;炫耀的;时髦的
@@ -3674,7 +3677,7 @@ n.  泛滥, 大雨, 洪水
 
 
 日期	2015.3.7	
-1	scorpion	蝎子   2017.12.12
+1	scorpion	   ['skɒ:piәn] 蝎子      2017.12.12
 2	chase	雕刻                          追赶
 3	dour	     脸色阴沉的    2017.12.06
 4	almond	杏仁
@@ -3788,7 +3791,7 @@ tendril	   (攀缘植物的)卷须, 蔓   2018.1.14
 gild	给…镀金；涂金于…
 gesticulate	做手势；用手势表达；用动作示意
 tread	(以某种方式)步行，行走
-brazen	无所顾忌的；肆无忌惮的
+brazen	    无所顾忌的；肆无忌惮的
 cacophony	刺耳嘈杂的声音;喧嚣的声音;嘈杂声
 hurtle	猛冲;飞驰
 lodge	收容；安置；安顿
