@@ -1,4 +1,7 @@
 
+2018.1.17
+seneschal      ['seniʃәl] n.  管家
+
 2018.1.16
 falconer       ['fɒ:lkәnә] n.  以鹰狩猎者, 放鹰者, 养鹰者
 dearth         [dә:θ] n.  缺乏, 粮食不足, 饥馑
@@ -998,8 +1001,7 @@ n.  流浪汉, 漂泊者, 无赖
 a.  漂泊的, 流浪的, 游荡的
 
 2015.6.11
-fastidious  [fæs'tidiәs]
-a.  难取悦的, 挑剔的, 苛求的
+fastidious  [fæs'tidiәs] a.  难取悦的, 挑剔的, 苛求的  2018.1.17
 haggle  [hægl]
 vi.  争论, 杀价
 vt.  乱砍, 乱劈
@@ -2233,8 +2235,7 @@ vt.  滑稽地模仿, 歪曲
 blazon  ['bleizәn]
 vt.  装饰, 宣布
 n.  纹章
-fastidious  [fas·tid·i·ous || fæs'tɪdɪəs]
-adj.  难取悦的; 苛求的; 挑剔的
+fastidious     [fas·tid·i·ous || fæs'tɪdɪəs] adj.  难取悦的; 苛求的; 挑剔的
 haggle  [hægl]
 vi.  争论, 杀价
 vt.  乱砍, 乱劈
