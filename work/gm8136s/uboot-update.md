@@ -67,3 +67,7 @@ mw.b 0x2000000 0xFF 0x800000; tftpboot 0x02000000 rootfs-cpio_master.squashfs.im
 4. 更新user分区
 
 mw.b 0x2000000 0xFF 0x800000;tftpboot 0x02000000 GM8135_2MP.SPI.jffs2.img; sf probe 0; sf erase 0xe00000 0x100000; sf write 0x2000000 0xe00000 0x100000;
+
+或者 
+1. 更新全部
+mw.b 0x2000000 0xFF 0x800000;tftpboot 0x02000000 tz8135.bin; sf probe 0; sf erase 0x0 ${filesize}; sf write 0x2000000 0x0 ${filesize};

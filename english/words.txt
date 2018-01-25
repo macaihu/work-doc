@@ -1649,8 +1649,7 @@ vt.  使鸣响, 大声发出
 vi.  大声鸣响, 震响
 nightingale  ['naitingeil]
 n.  夜莺
-quavery  ['kweivәri]
-a.  震音的, 颤声的
+quavery      ['kweivәri] a.  震音的, 颤声的 2018.1..23
 cork         [kɒ:k] n.  软木塞, 软木树, 软木  2017.12.24
 defile  [di'fail]
 vt.  弄脏, 污损, 败坏
@@ -2716,10 +2715,7 @@ pelt  [pelt]
 n.  投掷, 打击, 快速, 毛皮
 vt.  剥...的皮, 连续投掷, 攻击, 抨击, 拍打
 vi.  投击
-squall  [skwɒ:l]
-n.  飑, 喊叫
-vi.  起飑, 嚎啕, 叫嚷
-vt.  尖叫
+squall       [skwɒ:l] n.  飑, 喊叫 vi.  起飑, 嚎啕, 叫嚷 vt.  尖叫 2018.1.23
 furrow       ['fʌrәu] n.  犁沟, 车辙, 皱纹 vt.  犁, 耕, 弄绉 vi.  起波纹  2017.12.24
 
 2015.4.23   5.10%
@@ -2736,10 +2732,6 @@ sputum  ['spju:tәm]
 n.  唾液, 痰
 fitful  ['fitful]
 a.  断断续续的, 一阵阵的, 间歇的
-squall  [skwɒ:l]
-n.  飑, 喊叫
-vi.  起飑, 嚎啕, 叫嚷
-vt.  尖叫
 knot  [nɒt]
 n.  结, 群, 难题
 vt.  打结, (使)纠缠

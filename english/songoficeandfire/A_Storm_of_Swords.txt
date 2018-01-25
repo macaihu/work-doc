@@ -68,7 +68,7 @@ Three hundred sworn brothers of the Night's Watch had ridden north, two hundred 
 from the Shadow Tower. It was the biggest ranging in living memory, near a third of the Watch's strength. They meant to find 
 Ben Stark, Ser Waymar Royce, and the other rangers who'd gone missing, and discover why the wildlings were leaving their 
 villages. Well, they were no closer to Stark and Royce than when they'd left the Wall, but they'd learned where all the 
-wildlings had gone！up into the icy heights of the godsforsaken Frostfangs. They could squat up there till the end of time and 
+wildlings had gone--up into the icy heights of the godsforsaken Frostfangs. They could squat up there till the end of time and 
 it wouldn't prick Chett's boils none. 
 
 But no. They were coming down. Down the Milkwater. 
@@ -473,7 +473,7 @@ over his head and wriggled into it, he spied Chett standing there. "Was it two?"
 "No dream," said Chett. "Two blasts to call the Watch to arms. Two blasts for foes approaching. There's an axe out there 
 with Piggy writ on it, fat boy. Two blasts means wildlings. "The fear on that big moon face made him want to laugh. "Bugger 
 them all to seven hells. Bloody Harma. Bloody Mance Rayder. Bloody Smallwood, he said they wouldn't be on us for 
-another！" 
+another--" 
 
 Uuuuuuuuuuuuuuuhooooooooooooooooooooooooo. 
 
@@ -481,9 +481,9 @@ The sound went on and on and on, until it seemed it would never die. The ravens 
 their cages and banging off the bars, and all about the camp the brothers of the Night's Watch were rising, donning their 
 armor, buckling on swordbelts, reaching for battleaxes and bows. Samwell Tarly stood shaking, his face the same color as the 
 snow that swirled down all around them. "Three," he squeaked to Chett, "that was three, I heard three. They never blow three. 
-Not for hundreds and thousands of years. Three means！" 
+Not for hundreds and thousands of years. Three means--" 
 
-"！Others." Chett made a sound that was half a laugh and half a sob, and suddenly his smallclothes were wet, and he could 
+"--Others." Chett made a sound that was half a laugh and half a sob, and suddenly his smallclothes were wet, and he could 
 feel the piss running down his leg, see steam rising off the front of his breeches. 
 
 CHAPTER 1 
@@ -626,7 +626,7 @@ we should have been able to frighten him into silence."
 
 "I didn't think you'd want - 
 
-"You never think. If the boy should wake and tell his father what he saw！" 
+"You never think. If the boy should wake and tell his father what he saw--" 
 
 "If if if." He had pulled her into his lap. "if he wakes we'll say he was dreaming, we'll call him a liar, and should worse 
 come to worst I'll kill Ned Stark." 
@@ -685,7 +685,7 @@ past; after the dark cell, every rock and tree was a wonder.
 
 A few one-room shacks came and went, perched on tall poles that made them look like cranes. Of the folk who lived there 
 they saw no sign. Birds flew overhead, or cried out from the trees along the shore, and Jaime glimpsed silvery fish knifing 
-through the water. Tully trout, there's a bad omen, he thought, until he saw a worse！one of the floating logs they passed 
+through the water. Tully trout, there's a bad omen, he thought, until he saw a worse--one of the floating logs they passed 
 turned out to be a dead man, bloodless and swollen. His cloak was tangled in the roots of a fallen tree, its color unmistakably 
 Lannister crimson. He wondered if the corpse had been someone he knew. 
 
@@ -779,7 +779,7 @@ The woman turned red. "We have graves to dig." She went to climb the tree.
 The lower limbs of the oak were big enough for her to stand upon once she'd gotten up the trunk. She walked amongst the 
 leaves, dagger in hand, cutting down the corpses. Flies swarmed around the bodies as they fell, and the stench grew worse 
 with each one she dropped. "This is a deal of trouble to take for whores," Ser Cleos complained. "What are we supposed to dig 
-with? We have no spades, and I will not use my sword, I！" 
+with? We have no spades, and I will not use my sword, I--" 
 
 Brienne gave a shout. She jumped down rather than climbing. "To the boat. Be quick. There's a sail." 
 
@@ -899,7 +899,7 @@ those bowmen bring her down. Jaime decided to see if the old man's pride would m
 
 Ser Robin raised a hand, and his archers lowered their bows. "Say what you will, Kingslayer, but say it quickly." 
 
-The skiff swung through a litter of broken stones as Jaime called out, "I know a better way to settle this！single combat. 
+The skiff swung through a litter of broken stones as Jaime called out, "I know a better way to settle this--single combat. 
 You and I." 
 
 "I was not born this morning, Lannister." 
@@ -908,7 +908,7 @@ You and I."
 chains. What could you fear?" 
 
 "Not you, ser. If the choice were mine, I'd like nothing better, but I am commanded to bring you back alive if possible. 
-Bowmen." He signaled them on. "Notch. Draw Loo！" 
+Bowmen." He signaled them on. "Notch. Draw Loo--" 
 
 The range was less than twenty yards. The archers could scarcely have missed, but as they pulled on their longbows a rain of 
 pebbles cascaded down around them. Small stones rattled on their deck, bounced off their helms, and made splashes on both 
@@ -938,9 +938,7 @@ suppose you expect me to thank you?"
 
 "And you actually mean to keep it?" Jaime gave her his brightest smile. "Now there's a wonder." 
 
-CHAPTER 2 
-
-CATELYN 
+CHAPTER 2 CATELYN 
 
 Ser Desmond Grell had served House Tully all his life. He had been a squire when Catelyn was born, a knight when she 
 learned to walk and ride and swim, master-at-arms by the day that she was wed. He had seen Lord Hoster's little Cat become a 
@@ -1234,9 +1232,7 @@ right to command him, here in the castle that would soon be his, yet her tone wo
 and my grief, I have no more to say to you. Go. Go." All she wanted was to lie down, to close her eyes and sleep, and pray no 
 dreams would come. 
 
-CHAPTER 3 
-
-ARYA 
+CHAPTER 3 ARYA 
 
 The sky was as black as the walls of Harrenhal behind them, and the rain fell soft and steady, muffling the sound of their 
 horses' hooves and running down their faces. 
@@ -1430,7 +1426,7 @@ Hot Pie's eyes grew wide. "No! They'll kill us for sure."
 
 "Are you sure we're going north?" asked Gendry. "All these hills . . . if we got turned around . . ." 
 
-"The moss on the trees！" 
+"The moss on the trees--" 
 
 He pointed to a nearby tree. "That tree's got moss on three sides, and that next one has no moss at all. We could be lost, just 
 riding around in a circle." 
@@ -1450,7 +1446,7 @@ The next river was shallower and easier to ford. That one wasn't the Trident eit
 told them they would cross it. 
 
 Dusk was settling as they stopped to rest the horses once more and share another meal of bread and cheese. "I'm cold and 
-wet," Hot Pie complained. "We're a long way from Harrenhal now, for sure. We could have us a fire！" 
+wet," Hot Pie complained. "We're a long way from Harrenhal now, for sure. We could have us a fire--" 
 
 "NO!" Arya and Gendry both said, at the exact same instant. Hot Pie quailed a little. Arya gave Gendry a sideways look. He 
 said it with me, like Jon used to do, back in Winterfell. She missed Jon Snow the most of all her brothers. 
@@ -1521,9 +1517,7 @@ fell, her teeth sinking through the leather and wool and soft flesh. When they l
 ripped the limb loose from his shoulder. Exulting, she shook it back and forth in her mouth, scattering the warm red droplets 
 amidst the cold black rain. 
 
-CHAPTER 4 
-
-TYRION 
+CHAPTER 4 TYRION 
 
 He woke to the creak of old iron hinges. 
 
@@ -1605,7 +1599,7 @@ River Gate one morning, but your father's red cloaks chased them off while the K
 
 Ingrates. The Black Ears died for them. Whilst Tyrion lay drugged and dreaming, his own blood had pulled his claws out, 
 one by one. "I want you to go to my sister. Her precious son made it through the battle unscathed, so Cersei has no more need 
-of a hostage. She swore to free Alayaya once！" 
+of a hostage. She swore to free Alayaya once--" 
 
 "She did. Eight, nine days ago, after the whipping." 
 
@@ -1742,9 +1736,9 @@ and lion-crested helms of his father's household guard. Tyrion knew them both, a
 neither could bear to look long at his face, he noted. 
 
 Within they came upon Ser Addam Marbrand, descending the turnpike stair in the ornate black breastplate and clothof -gold 
-cloak of an officer in the City Watch. "My lord," he said, "how good to see you on your feet. I'd heard！" 
+cloak of an officer in the City Watch. "My lord," he said, "how good to see you on your feet. I'd heard--" 
 
-"！rumors of a small grave being dug? Me too. Under the circumstances it seemed best to get up. I hear you're commander 
+"--rumors of a small grave being dug? Me too. Under the circumstances it seemed best to get up. I hear you're commander 
 of the City Watch. Shall I offer congratulations or condolences?" 
 
 "Both, I fear." Ser Addam smiled. "Death and desertion have left me with some forty-four hundred. Only the gods and 
@@ -1942,12 +1936,10 @@ He's a good lad, and mine own blood."
 
 "As was your mother." Lord Tywin rose abruptly, to tower over his dwarf son. "Go back to your bed, Tyrion, and speak to 
 me no more of your rights to Casterly Rock. You shall have your reward, but it shall be one I deem appropriate to your service 
-and station. And make no mistake！this was the last time I will suffer you to bring shame onto House Lannister. You are done 
+and station. And make no mistake--this was the last time I will suffer you to bring shame onto House Lannister. You are done 
 with whores. The next one I find in your bed, I'll hang." 
 
-CHAPTER 5 
-
-DAVOS 
+CHAPTER 5 DAVOS 
 
 He watched the sail grow for a long time, trying to decide whether he would sooner live or die. 
 
@@ -2136,9 +2128,7 @@ loving. How could he have forgotten? The Mother was merciful indeed.
 
 "Aye," said the man in the boat, "and so do we." 
 
-CHAPTER 6 
-
-SANSA 
+CHAPTER 6 SANSA 
 
 The invitation seemed innocent enough, but every time Sansa read it her tummy tightened into a knot. She's to be queen 
 now, she's beautiful and rich and everyone loves her, why would she want to sup with a traitor's daughter? It could be 
@@ -2609,9 +2599,7 @@ laughed and clapped.
 
 "I thought that dreadful song would never end," said the Queen of Thorns. "But look, here comes my cheese." 
 
-CHAPTER 7 
-
-JON 
+CHAPTER 7 JON 
 
 The world was grey darkness, smelling of pine and moss and cold. Pale mists rose from the black earth as the riders 
 threaded their way through the scatter of stones and scraggly trees, down toward the welcoming fires strewn like jewels across 
@@ -2702,7 +2690,7 @@ them, growling and barking. Lenyl screamed at them to be quiet, but they paid hi
 beast o' yours," Longspear Ryk said to Jon. 
 
 "They're dogs and he's a wolf," said Jon. "They know he's not their kind." No more than I am yours. But he had his duty to 
-be mindful of, the task Qhorin Halfhand had laid upon him as they shared that final fire！to play the part of tumcloak, and find 
+be mindful of, the task Qhorin Halfhand had laid upon him as they shared that final fire--to play the part of tumcloak, and find 
 whatever it was that the wildlings had been seeking in the bleak cold wilderness of the Frostfangs. 
 
 "Some power," Qhorin had named it to the Old Bear, but he had died before learning what it was, or whether Mance 
@@ -2838,7 +2826,7 @@ note was his ragged black wool cloak, its long tears patched with faded red silk
 
 "Agreed." Mance Rayder beckoned Jon closer. "If you would join us, you'd best know us. The man you took for me is Styr, 
 Magnar of Therm. Magnar means ｀lord' in the Old Tongue." The earless man stared at Jon coldly as Mance turned to the 
-white-bearded one. "Our ferocious chicken-eater here is my loyal Tormund. The woman！" 
+white-bearded one. "Our ferocious chicken-eater here is my loyal Tormund. The woman--" 
 
 Tormund rose to his feet. "Hold. You gave Styr his style, give me mine." 
 
@@ -2915,7 +2903,7 @@ ate with his fingers, sucking every morsel of meat off the bones.
 "Tormund spoke truly," said Mance Rayder as he ripped apart a loaf of bread. "The black crow is a tricksy bird, that's so . . . 
 but I was a crow when you were no bigger than the babe in Dalla's belly, Jon Snow. So take care not to play tricksy with me." 
 
-"As you say, Your！Mance." 
+"As you say, Your--Mance." 
 
 The king laughed. "Your Mance! Why not? I promised you a tale before, of how I knew you. Have you puzzled it out yet?" 
 
@@ -3032,9 +3020,7 @@ below the dais where the king and queen were seated."
 Mance Rayder looked at Jon's face for a long moment. "I think we had best find you a new cloak," the king said, holding 
 out his hand. 
 
-CHAPTER 8 
-
-DAENERYS 
+CHAPTER 8 DAENERYS 
 
 A cross the still blue water came the slow steady beat of drums and the soft swish of oars from the galleys. The great cog 
 groaned in their wake, the heavy lines stretched taut between. Balerion's sails hung limp, drooping forlorn from the masts. Yet 
@@ -3077,7 +3063,6 @@ buckets of seawater still hung from the gunwales, in case of fires. At first Gro
 consented to put his fears at ease, but their misery was so palpable that she soon changed her mind and insisted they be freed. 
 
 Even Captain Groleo was glad of that, now. There had been one small fire, easily extinguished; against that, Balerion 
-
 suddenly seemed to have far fewer rats than she'd had before, when she sailed under the name Saduleon. And her crew, 
 once as fearful as they were curious, had begun to take a queer fierce pride in "their" dragons. Every man of them, from 
 captain to cook's boy, loved to watch the three fly . . . though none so much as Dany. 
@@ -3289,7 +3274,7 @@ when she first caught sight of the land she was born to rule. It will be as fair
 it be otherwise? 
 
 But later that night, as Balerion plunged onward through the dark and Dany sat crosslegged on her bunk in the captain's 
-cabin, feeding her dragons！"Even upon the sea," Groleo had said, so graciously, "queens take precedence over captains"！a 
+cabin, feeding her dragons--"Even upon the sea," Groleo had said, so graciously, "queens take precedence over captains"--a 
 sharp knock came upon the door. 
 
 Irri had been sleeping at the foot of her bunk (it was too narrow for three, and tonight was Jhiqui's turn to share the soft 
@@ -3376,7 +3361,7 @@ treason would be for gold. What does Illyrio Mopatis love more than gold?"
 her for it." 
 
 "Mirri Maz Duur was in your power. In Pentos, you shall be in Illyrio's power. It is not the same. I know the magister as 
-well as you. He is a devious man, and clever！" 
+well as you. He is a devious man, and clever--" 
 
 "I need clever men about me if I am to win the Iron Throne." 
 
@@ -3494,7 +3479,7 @@ Ser Jorah stood. "Perhaps it's time you found that out."
 "Yes," she decided. "I'll do it!" Dany threw back the coverlets and hopped from the bunk. "I'll see the captain at once, 
 command him to set course for Astapor." She bent over her chest, threw open the lid, and seized the first garment to hand, a 
 pair of loose sandsilk trousers. "Hand me my medallion belt," she commanded Jorah as she pulled the sandsilk up over her 
-hips. "And my vest！" she started to say, turning. 
+hips. "And my vest--" she started to say, turning. 
 
 Ser Jorah slid his arms around her. 
 
@@ -3519,16 +3504,14 @@ Dany covered them with her hands, before her nipples could betray her. "I . . . 
 
 "Your Grace," he conceded, "the dragon has three heads, remember? You have wondered at that, ever since you heard it 
 from the warlocks in the House of Dust. Well, here's your meaning: Balerion, Meraxes, and Vhagar, ridden by Aegon, 
-Rhaenys, and Visenya. The three-headed dragon of House Targaryen！three dragons, and three riders." 
+Rhaenys, and Visenya. The three-headed dragon of House Targaryen--three dragons, and three riders." 
 
 "Yes," said Dany, "but my brothers are dead." 
 
 "Rhaenys and Visenya were Aegon's wives as well as his sisters. You have no brothers, but you can take husbands. And I 
 tell you truly, Daenerys, there is no man in all the world who will ever be half so true to you as me." 
 
-CHAPTER 9 
-
-BRAN 
+CHAPTER 9 BRAN 
 
 The ridge slanted sharply from the earth, a long fold of stone and soil shaped like a claw. Trees clung to its lower slopes, 
 pines and hawthorn and ash, but higher up the ground was bare, the ridgeline stark against the cloudy sky. 
@@ -3867,9 +3850,7 @@ Bran realized he was crying. Stupid baby, he thought at himself. No matter where
 Greywater Watch, he'd be a cripple when he got there. He balled his hands into fists. "I want to fly," he told them. "Please. 
 Take me to the crow." 
 
-CHAPTER 10 
-
-DAVOS 
+CHAPTER 10 DAVOS 
 
 When he came up on deck, the long point of Driftmark was dwindling behind them while Dragonstone rose from the sea 
 ahead. A pale grey wisp of smoke blew from the top of the mountain to mark where the island lay. Dragonmont is restless this 
@@ -3907,7 +3888,6 @@ Throne.
 
 But that was another lifetime, he thought. That was before the onion ship, before Storm's End, before Stannis shortened my 
 fingers. That was before the war or the red comet, before I was a Seaworth or a knight. I was a different man in those days, 
-
 before Lord Stannis raised me high. 
 
 Captain Khorane had told him of the end of Stannis's hopes, on the night the river burned. The Lannisters had taken him 
@@ -4009,7 +3989,7 @@ hands. Ragged Jenna and Laughing Lord are still playing pirate on the river, I h
 "Lady Marya?" Davos asked. "Wraith?" 
 
 Salladhor Saan put a hand on Davos's forearm and gave a squeeze. "No. Of them, no. I am sorry, my friend. They were 
-good men, your Dale and Allard. But this comfort I can give you！your young Devan was among those we took off at the end. 
+good men, your Dale and Allard. But this comfort I can give you--your young Devan was among those we took off at the end. 
 The brave boy never once left the king's side, or so they say." 
 
 For a moment he felt almost dizzy, his relief was so palpable. He had been afraid to ask about Devan. "The Mother is 
@@ -4124,7 +4104,7 @@ Saan. But so be it, brave ser knight, go rushing to your grave. I will gather yo
 leave behind, to wear in little bags around their necks." He waved an angry hand, with rings on every finger. "Go, go, go, go, 
 go." 
 
-Davos did not want to leave like this. "Salla！" 
+Davos did not want to leave like this. "Salla--" 
 
 "GO. Or stay, better, but if you are going, go." 
 
@@ -4273,9 +4253,7 @@ can that be?"
 "I have come to take you to the dungeon." Ser Axell waved his men forward. "Seize him, and take his dirk. He means to use 
 it on our lady." 
 
-CHAPTER 11 
-
-JAIME 
+CHAPTER 11 JAIME 
 
 Jaime was the first to spy the inn. The main building hugged the south shore where the river bent, its long low wings 
 outstretched along the water as if to embrace travelers sailing downstream. The lower story was grey stone, the upper 
@@ -4289,9 +4267,9 @@ some to be had in the cellars."
 
 "Frightened of a few corpses, wench?" Jaime said. 
 
-She glared at him. "My name is！" 
+She glared at him. "My name is--" 
 
-"！Brienne, yes. Wouldn't you like to sleep in a bed for a night, Brienne? We'd be safer than on the open river, and it might 
+"--Brienne, yes. Wouldn't you like to sleep in a bed for a night, Brienne? We'd be safer than on the open river, and it might 
 be prudent to find what's happened here." 
 
 She gave no answer, but after a moment she pushed at the tiller to angle the skiff in toward the weathered wooden dock. Ser 
@@ -4594,9 +4572,9 @@ was that thought of his brother that made him say, "I did not intend to'give off
 
 " . . . the king?" It always came back to Aerys. "Don't presume to judge what you do not understand, wench." 
 
-"My name is！" 
+"My name is--" 
 
-"！Brienne, yes. Has anyone ever told you that you're as tedious as you are ugly?" 
+"--Brienne, yes. Has anyone ever told you that you're as tedious as you are ugly?" 
 
 "You will not provoke me to anger, Kingslayer." 
 
@@ -4641,7 +4619,7 @@ A moon's turn later, a royal raven arrived at Casterly Rock to inform him that h
 was commanded to present himself to the king during the great tourney at Harrenhal to say his vows and don his cloak. 
 
 Jaime's investiture freed him from Lysa Tully. Elsewise, nothing went as planned. His father had never been more furious. 
-He could not object openly！Cersei had judged that correctly！but he resigned the Handship on some thin pretext and 
+He could not object openly--Cersei had judged that correctly--but he resigned the Handship on some thin pretext and 
 returned to Casterly Rock, taking his daughter with him. Instead of being together, Cersei and Jaime just changed places, and 
 he found himself alone at court, guarding a mad king while four lesser men took their turns dancing on knives in his father's 
 ill-fitting shoes. So swiftly did the Hands rise and fall that Jaime remembered their heraldry better than their faces. The hornof-
@@ -4666,7 +4644,7 @@ you had swom to protect him."
 "Best start with Cleos, then. And you'll have a deal of killing to do after that, the way he tells the tale." 
 
 "Lies. Lady Catelyn was there when His Grace was murdered, she saw. There was a shadow. The candles guttered and the 
-air grew cold, and there was blood！" 
+air grew cold, and there was blood--" 
 
 "Oh, very good." Jaime laughed. "Your wits are quicker than mine, I confess it. When they found me standing over my dead 
 king, I never thought to say, ｀No, no, it wasn't me, it was a shadow, a terrible cold shadow."｀ He laughed again. "Tell me true, 
@@ -4732,9 +4710,7 @@ for every one he struck down two more arose to take his place.
 Brienne woke him with a boot in the ribs. The world was still black, and it had begun to rain. They broke their fast on 
 oatcakes, salt fish, and some blackberries that Ser Cleos had found, and were back in the saddle before the sun came up. 
 
-CHAPTER 12 
-
-TYRION 
+CHAPTER 12 TYRION 
 
 The eunuch was humming tunelessly to himself as he came through the door, dressed in flowing robes of peachcolored silk 
 and smelling of lemons. When he saw Tyrion seated by the hearth, he stopped and grew very still. "My lord Tyrion," came out 
@@ -4817,7 +4793,7 @@ Lord Arryn brought him to King's Landing and Robert gave him his white cloak, bu
 he the sort the smallfolk cheer in tourneys, despite his undoubted prowess. Why, even his brothers of the Kingsguard never 
 warmed to him. Ser Barristan was once heard to say that the man had no friend but his sword and no life but duty . . . but you 
 know, I do not think Selmy meant it altogether as praise. Which is queer when you consider it, is it not? Those are the very 
-qualities we seek in our Kingsguard, it could be said！men who live not for themselves, but for their king. By those lights, our 
+qualities we seek in our Kingsguard, it could be said--men who live not for themselves, but for their king. By those lights, our 
 brave Ser Mandon was the perfect white knight. And he died as a knight of the Kingsguard ought, with sword in hand, 
 defending one of the king's own blood." The eunuch gave him a slimy smile and watched him sharply. 
 
@@ -4880,7 +4856,7 @@ It's even worse than I feared. "And my father? Who does he have spying on me?"
 
 This time the eunuch laughed aloud. "Why, me, my lord." 
 
-Tyrion laughed as well. He was not so great a fool as to trust Varys any further than he had to！but the eunuch already 
+Tyrion laughed as well. He was not so great a fool as to trust Varys any further than he had to--but the eunuch already 
 knew enough about Shae to get her well and thoroughly hanged. "You will bring Shae to me through the walls, hidden from 
 all these eyes. As you have done before." 
 
@@ -4930,7 +4906,7 @@ him.
 "Seventeen, my lord." 
 
 Seventeen, and beautiful, and already a legend. Half the girls in the Seven Kingdoms want to bed him, and all the boys want 
-to be him. "If you will pardon my asking, ser！why would anyone choose to join the Kingsguard at seventeen?" 
+to be him. "If you will pardon my asking, ser--why would anyone choose to join the Kingsguard at seventeen?" 
 
 "Prince Aemon the Dragonknight took his vows at seventeen," Ser Loras said, "and your brother Jaime was younger still." 
 
@@ -5082,7 +5058,7 @@ spot on the front of his breeches but in the darkness it ought to go unnoticed. 
 
 "I am," he said. "And you're - 
 
-"！your whore." She laid a finger to his lips. "I know. I'd be your lady, but I never can. Else you'd take me to the feast. It 
+"--your whore." She laid a finger to his lips. "I know. I'd be your lady, but I never can. Else you'd take me to the feast. It 
 doesn't matter. I like being a whore for you, Tyrion. just keep me, my lion, and keep me safe." 
 
 "I shall," he promised. Fool, fool, the voice inside him screamed. Why did you say that? You came here to send her away! 
@@ -5120,9 +5096,7 @@ This is fruitless. "There is a singer who calls himself Symon Silver Tongue," Ty
 Kill him, he might have said, but the man had done nothing but sing a few songs. And fill Shae's sweet head with visions of 
 doves and dancing bears. "Find him," he said instead. "Find him before someone else does." 
 
-CHAPTER 13 
-
-ARYA 
+CHAPTER 13 ARYA 
 
 She was grubbing for vegetables in a dead man's garden when she heard the singing. 
 
@@ -5608,7 +5582,7 @@ helm, an older man with a limp, a Braavosi sellsword, a . . .
 
 "Harwin?" Arya whispered. It was! Under the beard and the tangled hair was the face of Hullen's son, who used to lead her 
 pony around the yard, ride at quintain with Jon and Robb, and drink too much on feast days. He was thinner, harder somehow, 
-and at Winterfell he had never worn a beard, but it was him！her father's man. "Harwin!" Squirming, she threw herself 
+and at Winterfell he had never worn a beard, but it was him--her father's man. "Harwin!" Squirming, she threw herself 
 forward, trying to wrench free of Lem's iron grip. "It's me," she shouted, "Harwin, it's me, don't you know me, don't you?" 
 The tears came, and she found herself weeping like a baby, just like some stupid little girl. "Harwin, it's me!" 
 
@@ -5625,9 +5599,7 @@ His eyes went wide. "Gods be good," he said in a choked voice. "Arya Underfoot? 
 
 "The Hand's daughter." Harwin went to one knee before her. "Arya Stark, of Winterfell." 
 
-CHAPTER 14 
-
-CATELYN 
+CHAPTER 14 CATELYN 
 
 Robb, she knew, the moment she heard the kennels erupt. 
 
@@ -5885,7 +5857,7 @@ me, but Ser Ryman took him with the rest. All their strength. The Greatjon urged
 "Fighting your own in the midst of your enemies?" she said. "It would have been the end of you." 
 
 "Yes. I thought perhaps we could arrange other matches for Lord Walder's daughters. Ser Wendel Manderly has offered to 
-take one, and the Greatjon tells me his uncles wish to wed again. If Lord Walder will be reasonable！" 
+take one, and the Greatjon tells me his uncles wish to wed again. If Lord Walder will be reasonable--" 
 
 "He is not reasonable," said Catelyn. "He is proud, and prickly to a fault. You know that. He wanted to be grandfather to a 
 king. You will not appease him with the offer of two hoary old brigands and the second son of the fattest man in the Seven 
@@ -5917,7 +5889,7 @@ battle with me. He's killed too many men to fear them now. Jeyne's anxious aroun
 And there's the heart of it, Catelyn thought. "He is part of you, Robb. To fear him is to fear you." 
 
 "I am not a wolf, no matter what they call me." Robb sounded cross. "Grey Wind killed a man at the Crag, another at 
-Ashemark, and six or seven at Oxcross. If you had seen！" 
+Ashemark, and six or seven at Oxcross. If you had seen--" 
 
 "I saw Bran's wolf tear out a man's throat at Winterfell," she said sharply, "and loved him for it." 
 
@@ -6040,9 +6012,7 @@ something that would soothe his pride . . ."
 
 "Not something," said Catelyn. "Someone." 
 
-CHAPTER 15 
-
-JON 
+CHAPTER 15 JON 
 
 "Big enough for you?" Snowflakes speckled Tormund's broad face, melting in his hair and beard. 
 
@@ -6212,7 +6182,7 @@ Words failed him for a moment. "The boy . . . the child would be a bastard."
 
 "Are bastards weaker than other children? More sickly, more like to fail?" 
 
-"No, but！" 
+"No, but--" 
 
 "You're bastard-born yourself. And if Ygritte does not want a child, she will go to some woods witch and drink a cup o' 
 moon tea. You do not come into it, once the seed is planted." 
@@ -6362,7 +6332,7 @@ There were tears on Ygritte's cheeks when the song ended.
 
 "Why are you weeping?" Jon asked. "It was only a song. There are hundreds of giants, I've just seen them." 
 
-"Oh, hundreds," she said furiously. "You know nothing, Jon Snow. You！JON!" 
+"Oh, hundreds," she said furiously. "You know nothing, Jon Snow. You--JON!" 
 
 Jon turned at the sudden sound of wings. Blue-grey feathers filled his eyes, as sharp talons buried themselves in his face. 
 Red pain lanced through him sudden and fierce as pinions beat round his head. He saw the beak, but there was no time to get a 
@@ -6588,14 +6558,12 @@ Milkwater that Jon felt safe enough to say, "I never asked you to lie for me."
 
 "I never did," she said. "I left out part, is all." 
 
-"You said！" 
+"You said--" 
 
-"！that we fuck beneath your cloak many a night. I never said when we started, though." The smile she gave him was 
+"--that we fuck beneath your cloak many a night. I never said when we started, though." The smile she gave him was 
 almost shy. "Find another place for Ghost to sleep tonight, Jon Snow. It's like Mance said. Deeds is truer than words." 
 
-CHAPTER 16 
-
-SANSA 
+CHAPTER 16 SANSA 
 
 "A new gown?" she said, as wary as she was astonished. 
 
@@ -7292,8 +7260,8 @@ freeze, or the Others will get you. Sam, get up!"
 
 The night before they left the Wall, Pyp had teased Grenn the way he did, Sam remembered, smiling and saying how Grenn 
 was a good choice for the ranging, since he was too stupid to be terrified. Grenn hotly denied it until he realized what he was 
-saying. He was stocky and thick-necked and strong！Ser Alliser Thorne had called him "Aurochs," the same way he called 
-Sam "Ser Piggy" and Jon "Lord Snow"！but he had always treated Sam nice enough. That was only because of Jon, though. If 
+saying. He was stocky and thick-necked and strong--Ser Alliser Thorne had called him "Aurochs," the same way he called 
+Sam "Ser Piggy" and Jon "Lord Snow"--but he had always treated Sam nice enough. That was only because of Jon, though. If 
 it weren't for Jon, none of them would have liked me. And now Jon was gone, lost in the Skirling Pass with Qhorin Halfhand, 
 most likely dead. Sam would have cried for him, but those tears would only freeze as well, and he could scarcely keep his eyes 
 open now. 
@@ -7735,7 +7703,7 @@ reminded Mace Tyrell.
 
 "This is my daughter's wedding 
 
-"！and my grandson's," said Lord Tywin firmly. "No place for old quarrels, surely?" 
+"--and my grandson's," said Lord Tywin firmly. "No place for old quarrels, surely?" 
 
 "I have no quarrel with Doran Martell," insisted Lord Tyrell, though his tone was more than a little grudging. "If he wishes 
 to cross the Reach in peace, he need only ask my leave." 
@@ -7784,7 +7752,7 @@ goldsmiths, we must see to a replacement." He did not wait for her reply, but tu
 The eunuch drew a parchment from his sleeve. "A kraken has been seen off the Fingers." He giggled. "Not a Greyjoy, mind 
 you, a true kraken. It attacked an Ibbenese whaler and pulled it under. There is fighting on the Stepstones, and a new war 
 between Tyrosh and Lys seems likely. Both hope to win Myr as ally. Sailors back from the jade Sea report that a three-headed 
-dragon has hatched in Qarth, and is the wonder of that city！" 
+dragon has hatched in Qarth, and is the wonder of that city--" 
 
 "Dragons and krakens do not interest me, regardless of the number of their heads," said Lord Tywin. "Have your whisperers 
 perchance found some trace of my brother's son?" 
@@ -7839,9 +7807,9 @@ His uncle Kevan looked at him oddly. "Not to us, surely. The gold of Casterly Ro
 
 "A more useful skill than any of yours, sweet brother," purred Cersei, in a voice sweet with malice. 
 
-"Littlefinger is a liar！" 
+"Littlefinger is a liar--" 
 
-"！and black as well, said the raven of the crow." 
+"--and black as well, said the raven of the crow." 
 
 Lord Tywin slammed his hand down on the table. "Enough! I will have no more of this unseemly squabbling. You are both 
 Lannisters, and will comport yourselves as such." 
@@ -7849,7 +7817,7 @@ Lannisters, and will comport yourselves as such."
 Ser Kevan cleared his throat. "I would sooner have Petyr Baelish ruling the Eyrie than any of Lady Lysa's other suitors. 
 Yohn Royce, Lyn Corbray, Horton Redfort . . . these are dangerous men, each in his own way. And proud. Littlefinger may be 
 clever, but he has neither high birth nor skill at arms. The lords of the Vale will never accept such as their liege." He looked to 
-his brother. When Lord Tywin nodded, he continued. "And there is this！Lord Petyr continues to demonstrate his loyalty. 
+his brother. When Lord Tywin nodded, he continued. "And there is this--Lord Petyr continues to demonstrate his loyalty. 
 Only yesterday he brought us word of a Tyrell plot to spirit Sansa Stark off to Highgarden for a ｀visit/ and there marry her to 
 Lord Mace's eldest son, Willas." 
 
@@ -7885,7 +7853,7 @@ must have a new husband in your bed, to father children on you."
 
 "You are my daughter, and will do as I command." 
 
-She stood. "I will not sit here and listen to this！" 
+She stood. "I will not sit here and listen to this--" 
 
 "You will if you wish to have any voice in the choice of your next husband," Lord Tywin said calmly. 
 
@@ -7904,7 +7872,7 @@ about to give up praying, some sweet god gives me this.
 Lord Tywin went on. "Oberyn Martell might suit, but the Tyrells would take that very ill. So we must look to the sons. I 
 assume you do not object to wedding a man younger than yourself?" 
 
-"I object to wedding any！" 
+"I object to wedding any--" 
 
 "I have considered the Redwyne twins, Theon Greyjoy, Quentyn Martell, and a number of others. But our alliance with 
 Highgarden was the sword that broke Stannis. it should be tempered and made stronger. Ser Loras has taken the white and Ser 
@@ -8044,7 +8012,7 @@ news I have not yet seen fit to share with the council, though no doubt the good
 Wolf has taken Gawen Westerling's eldest daughter to wife." 
 
 For a moment Tyrion could not believe he'd heard his father right. "He broke his sworn word?" he said, incredulous. "He 
-threw away the Freys for . . . ！Words failed him. 
+threw away the Freys for . . . --Words failed him. 
 
 "A maid of sixteen years, named Jeyne," said Ser Kevan. "Lord Gawen once suggested her to me for Willem or Martyn, but 
 I had to refuse him. 
@@ -8323,7 +8291,7 @@ their sakes." He looked at them all. "Will the Lannisters thank me for Lord Rick
 Robb reached down with both hands, lifted the heavy bronze-and-iron crown, and set it back atop his head, and suddenly he 
 was a king again. "Lord Rickard dies." 
 
-"But why?" said Edmure. "You said yourself！" 
+"But why?" said Edmure. "You said yourself--" 
 
 "I know what I said, Uncle. It does not change what I must do." The swords in his crown stood stark and black against his 
 brow. "In battle I might have slain Tion and Willem myself, but this was no battle. They were asleep in their beds, naked and 
@@ -8560,7 +8528,7 @@ that thick neck of yours, wench."
 
 "I will not arm you. And my name is - 
 
-"！Brienne, I know. I'll swear an oath not to harm you, if that will ease your girlish fears." 
+"--Brienne, I know. I'll swear an oath not to harm you, if that will ease your girlish fears." 
 
 "Your oaths are worthless. You swore an oath to Aerys." 
 
@@ -8660,7 +8628,7 @@ These were not the outlaws who had killed Ser Cleos, Jaime realized suddenly. Th
 swarthy Dornishmen and blond Lyseni, Dothraki with bells in their braids, hairy Ibbenese, coal-black Summer Islanders in 
 feathered cloaks. He knew them. The Brave Companions. 
 
-Brienne found her voice. "I have a hundred stags！" 
+Brienne found her voice. "I have a hundred stags--" 
 
 A cadaverous man in a tattered leather cloak said, "We'll take that for a start, m'lady." 
 
@@ -8805,7 +8773,7 @@ brother at King's Landing."
 The goat gave her a disinterested glance. "Thilence her." 
 
 "Hear me," Brienne entreated as Rorge cut the ropes that bound her to Jaime, "in the name of the King in the North, the king 
-you serve, please, listen！" 
+you serve, please, listen--" 
 
 Rorge dragged her off the horse and began to kick her. "See that you don't break any bones," Urswyck called out to him. 
 "The horse-faced bitch is worth her weight in sapphires." 
@@ -9689,12 +9657,12 @@ all we had." He walked her aft. "How many men do they have for sale?"
 dead eyes that never move, who kill suckling babes for the sake of a spiked hat and strangle their own dogs? They don't even 
 have names. So don't call them men, ser." 
 
-"Khaleesi," he said, taken aback by her fury, "the Unsullied are chosen as boys, and trained！" 
+"Khaleesi," he said, taken aback by her fury, "the Unsullied are chosen as boys, and trained--" 
 
 "I have heard all I care to of their training." Dany could feel tears welling in her eyes, sudden and unwanted. Her hand 
 flashed up and cracked Ser Jorah hard across the face. It was either that, or cry. 
 
-Mormont touched the cheek she'd slapped. "If I have displeased my queen！" 
+Mormont touched the cheek she'd slapped. "If I have displeased my queen--" 
 
 "You have. You've displeased me greatly, ser. If you were my true knight, you would never have brought me to this vile 
 sty." If you were my true knight, you would never have kissed me, or looked at my breasts the way you did, or . . . 
@@ -9769,7 +9737,7 @@ command of those who lead them. Brick they may be, as you say, but if you buy th
 those you want dead. And you do have some dogs you want dead, as I recall." 
 
 The Usurper's dogs. "Yes." Dany gazed off at the soft colored lights and let the cool salt breeze caress her. "You speak of 
-sacking cities. Answer me this, ser！why have the Dothraki never sacked this city?" She pointed. "Look at the walls. You can 
+sacking cities. Answer me this, ser--why have the Dothraki never sacked this city?" She pointed. "Look at the walls. You can 
 see where they've begun to crumble. There, and there. Do you see any guards on those towers? I don't. Are they hiding, ser? I 
 saw these sons of the harpy today, all their proud highborn warriors. They dressed in linen skirts, and the fiercest thing about 
 them was their hair. Even a modest khalasar could crack this Astapor like a nut and spill out the rotted meat inside. So tell me, 
@@ -9814,8 +9782,8 @@ himself, and made many other knights as well."
 
 "There was no higher honor than to receive your knighthood from the Prince of Dragonstone." 
 
-"Tell me, then！when he touched a man on the shoulder with his sword, what did he say? ｀Go forth and kill the weak'? Or 
-｀Go forth and defend them'? At the Trident, those brave men Viserys spoke of who died beneath our dragon banners！did 
+"Tell me, then--when he touched a man on the shoulder with his sword, what did he say? ｀Go forth and kill the weak'? Or 
+｀Go forth and defend them'? At the Trident, those brave men Viserys spoke of who died beneath our dragon banners--did 
 they give their lives because they believed in Rhaegar's cause, or because they had been bought and paid for?" Dany turned to 
 Mormont, crossed her arms, and waited for an answer. 
 
@@ -10290,7 +10258,7 @@ The red woman's lips curved upward in a smile. "So you have come to love the fir
 
 "I need the torch." His hands opened and closed. I will not beg her. I will not. 
 
-"I am like this torch, Ser Davos. We are both instruments of R'hllor. We were made for a single purpose！to keep the 
+"I am like this torch, Ser Davos. We are both instruments of R'hllor. We were made for a single purpose--to keep the 
 darkness at bay. Do you believe that?" 
 
 "No." Perhaps he should have lied, and told her what she wanted to hear, but Davos was too accustomed to speaking truth. 
@@ -10330,7 +10298,7 @@ Fire, the God of Flame and Shadow. Against him stands the Great Other whose name
 Darkness, the Soul of Ice, the God of Night and Terror. Ours is not a choice between Baratheon and Lannister, between 
 Greyjoy and Stark. It is death we choose, or life. Darkness, or light." She clasped the bars of his cell with her slender white 
 hands. The great ruby at her throat seemed to pulse with its own radiance. "So tell me, Ser Davos Seaworth, and tell me 
-truly！does your heart burn with the shining light of R'hllor? Or is it black and cold and full of worms?" She reached through 
+truly--does your heart burn with the shining light of R'hllor? Or is it black and cold and full of worms?" She reached through 
 the bars and laid three fingers upon his breast, as if to feel the truth of him through flesh and wool and leather. 
 
 "My heart," Davos said slowly, "is full of doubts." 
@@ -10379,7 +10347,7 @@ only fire, and after a time his eyes began to water.
 
 God-blind and tired, Davos curled up on the straw and gave himself to sleep. 
 
-Three days later！well, Porridge had come thrice, and Lamprey twice！Davos heard voices outside his cell. He sat up at 
+Three days later--well, Porridge had come thrice, and Lamprey twice--Davos heard voices outside his cell. He sat up at 
 once, his back to the stone wall, listening to the sounds of struggle. This was new, a change in his unchanging world. The 
 noise was coming from the left, where the steps led up to daylight. He could hear a man's voice, pleading and shouting. 
 
@@ -10751,7 +10719,7 @@ Ygritte punched his shoulder. "An old woman, am I?"
 "Showing you how old I am." She unlaced her doeskin shirt, tossed it aside, pulled her three woolen undershirts up over her 
 head all at once. "I want you should see me." 
 
-"We shouldn't！" 
+"We shouldn't--" 
 
 "We should." Her breasts bounced as she stood on one leg to pull one boot, then hopped onto her other foot to attend to the 
 other. Her nipples were wide pink circles. "You as well," Ygritte said as she yanked down her sheepskin breeches. "If you 
@@ -10765,7 +10733,7 @@ smell of you," he said. "I love your red hair. I love your mouth, and the way yo
 He kissed them, one and then the other. "I love your skinny legs, and what's between them." He knelt to kiss her there, lightly 
 on her mound at first, but Ygritte moved her legs apart a little, and he saw the pink inside and kissed that as well, and tasted 
 her. She gave a little gasp. "If you love me all so much, why are you still dressed?" she whispered. "You know nothing, Jon 
-Snow. Noth！oh. Oh. OHHH." 
+Snow. Noth--oh. Oh. OHHH." 
 
 Afterward, she was almost shy, or as shy as Ygritte ever got. "That thing you did," she said, when they lay together on their 
 piled clothes. "With your . . . mouth." She hesitated. "Is that . . . is it what lords do to their ladies, down in the south?" 
@@ -10937,7 +10905,7 @@ There was the sound of indrawn breath from Jhiqui beside her. Kraznys smiled at 
 she would give us." 
 
 Whitebeard stared in shocked disbelief. His hand trembled where it grasped the staff. "No." He went to one knee before her. 
-"Your Grace, I beg you, win your throne with dragons, not slaves. You must not do this thing！" 
+"Your Grace, I beg you, win your throne with dragons, not slaves. You must not do this thing--" 
 
 "You must not presume to instruct me. Ser Jorah, remove Whitebeard from my presence." 
 
@@ -11146,8 +11114,8 @@ asleep.
 
 The rest of her people followed: Groleo and the other captains and their crews, and the eighty-three Dothraki who remained 
 to her of the hundred thousand who had once ridden in Drogo's khalasar. She put the oldest and weakest on the inside of the 
-column, with the nursing women and those with child, and the little girls, and the boys too young to braid their hair. The rest！ 
-her warriors, such as they were！rode outside and moved their dismal herd along, the hundred-odd gaunt horses that had 
+column, with the nursing women and those with child, and the little girls, and the boys too young to braid their hair. The rest-- 
+her warriors, such as they were--rode outside and moved their dismal herd along, the hundred-odd gaunt horses that had 
 survived both red waste and black salt sea. 
 
 I ought to have a banner sewn, she thought as she led her tattered band up along Astapor's meandering river. She closed her 
@@ -11329,7 +11297,7 @@ doubt of it, but marry him you shall."
 "Of course we can. You may come along quietly and say your vows as befits a lady, or you may struggle and scream and 
 make a spectacle for the stableboys to titter over, but you will end up wedded and bedded all the same." The queen opened the 
 door. Ser Meryn Trant and Ser Osmund Kettleblack were waiting without, in the white scale armor of the Kingsguard. "Escort 
-Lady Sansa to the sept," she told them. "Carry her if you must, but try not to tear the gown, it was very costly！" 
+Lady Sansa to the sept," she told them. "Carry her if you must, but try not to tear the gown, it was very costly--" 
 
 Sansa tried to run, but Cersei's handmaid caught her before she'd gone a yard. Ser Meryn Trant gave her a look that made 
 her cringe, but Kettleblack touched her almost gently and said, "Do as you're told, sweetling, it won't be so bad. Wolves are 
@@ -11621,7 +11589,7 @@ She covered her breasts with her hands. "I've flowered."
 
 "Me as well. I know I am ugly - 
 
-"No, my！if . . ." 
+"No, my--if . . ." 
 
 He pushed himself to his feet. "Don't lie, Sansa. I am malformed, scarred, and small, but . . . " she could see him groping " . 
 . . abed, when the candles are blown out, I am made no worse than other men. In the dark, I am the Knight of Flowers." He 
@@ -12100,7 +12068,7 @@ By the sixth hour, Jarl had moved ahead of Grigg the Goat again, and his men wer
 must want a sword," the Magnar said, shading his eyes. The sun was high in the sky, and the upper third of the Wall was a 
 crystalline blue from below, reflecting so brilliantly that it hurt the eyes to look on it. Jarl's four and Grigg's were all but lost 
 in the glare, though Errok's team was still in shadow. Instead of moving upward they were edging their way sideways at about 
-five hundred feet, making for a chimney. Jon was watching them inch along when he heard the sound！a sudden crack that 
+five hundred feet, making for a chimney. Jon was watching them inch along when he heard the sound--a sudden crack that 
 
 seemed to roll along the ice, followed by a shout of alarm. And then the air was full of shards and shrieks and falling men, 
 as a sheet of ice a foot thick and fifty feet square broke off from the Wall and came tumbling, crumbling, rumbling, sweeping 
@@ -12369,7 +12337,7 @@ Now this is interesting. Jaime twisted to see how Brienne might take the accusat
 
 mule with a bit between his teeth. "I know of no betrayal." She chafed at the ropes around her wrists. "Lady Catelyn 
 
-commanded me to deliver Larmister to his brother at King's Landing！" 
+commanded me to deliver Larmister to his brother at King's Landing--" 
 
 "She was trying to drown him when we found them," said Urswyck the Faithful. 
 
@@ -12457,7 +12425,7 @@ Qybum frowned. "I can leave you the upper arm, make the cut at your elbow, but .
 
 Qybum looked in his eyes. Whatever he saw there gave him pause. "Very well. I will cut away the rotten flesh, no more. Try 
 to burn out the corruption with boiling wine and a poultice of nettle, mustard seed, and bread mold. Mayhaps that will suffice. 
-It is on your head. You will want milk of the poppy！" 
+It is on your head. You will want milk of the poppy--" 
 
 "No." Jaime dare not let himself be put to sleep; he might be short an arm when he woke, no matter what the man said. 
 
@@ -12640,7 +12608,7 @@ empty but for a dead-eyed woman who sat on a stool behind a rough plank bar. She
 "In the back." 
 
 The back room was even darker. A flickering candle burned on a low table, beside a flagon of wine. The man behind it 
-scarce looked a danger; a short man！though all men were tall to Tyrion！with thinning brown hair, pink cheeks, and a little 
+scarce looked a danger; a short man--though all men were tall to Tyrion--with thinning brown hair, pink cheeks, and a little 
 pot pushing at the bone buttons of his doeskin jerkin. In his soft hands he held a twelve-stringed woodharp more deadly than a 
 longsword. 
 
@@ -12802,7 +12770,7 @@ duplicate them. Your lord father had asked for the crimson of your House, and it
 metal. But Valyrian steel is stubborn. These old swords remember, it is said, and they do not change easily. I worked half a 
 hundred spells and brightened the red time and time again, but always the color would darken, as if the blade was drinking the 
 sun from it. And some folds would not take the red at all, as you can see. if my lords of Lannister are displeased, I will of 
-course try again, as many times as you should require, but！" 
+course try again, as many times as you should require, but--" 
 
 "No need," Lord Tywin said. "This will serve." 
 
@@ -12856,7 +12824,7 @@ privy and get busy, he wanted to say, but he knew better.
 "You will find whatever gold is required." 
 
 "Will I? Where? The treasury is empty, I've told you that. We're not done paying the alchemists for all that wildfire, or the 
-smiths for my chain, and Cersei's pledged the crown to pay half the costs of Joffs wedding！seventy-seven bloody courses, a 
+smiths for my chain, and Cersei's pledged the crown to pay half the costs of Joffs wedding--seventy-seven bloody courses, a 
 thousand guests, a pie full of doves, singers, jugglers . . ." 
 
 "Extravagance has its uses. We must demonstrate the power and wealth of Casterly Rock for all the realm to see." 
@@ -12906,7 +12874,7 @@ Boy is more like to annul my marriage than he is."
 "Perhaps I should have married Sansa Stark to Moon Boy. He might have known what to do with her." 
 
 Tyrion's hands clenched on the arms of his chair. "I have heard all I mean to hear on the subject of my wife's maidenhead. 
-But so long as we are discussing marriage, why is it that I hear nothing of my sister's impending nuptials? As I recall！" 
+But so long as we are discussing marriage, why is it that I hear nothing of my sister's impending nuptials? As I recall--" 
 
 Lord Tywin cut him off. "Mace Tyrell has refused my offer to marry Cersei to his heir Willas." 
 
@@ -12923,7 +12891,7 @@ See that you remember that, Tyrion. The offer was never made."
 
 "What offer?" Tyrion rather suspected that Lord Tyrell might come to regret this rebuff. 
 
-"Your sister will be wed. The question is, to whom? I have several thoughts！" Before he could get to them, there was a rap 
+"Your sister will be wed. The question is, to whom? I have several thoughts--" Before he could get to them, there was a rap 
 at the door and a guardsman stuck in his head to announce Grand Maester Pycelle. "He may enter," said Lord Tywin. 
 
 Pycelle tottered in on a cane, and stopped long enough to give Tyrion a look that would curdle milk. His once-magnificent 
@@ -12973,7 +12941,7 @@ of the Shadow Tower. Or Eastwatch-by-the-Sea."
 "The commander of the Shadow Tower is a Mallister of Seagard. Eastwatch is held by an ironman." Neither would serve his 
 purposes, Lord Tywin's tone said clear enough. 
 
-"Janos Slynt is a butcher's son," Tyrion reminded his father forcefully. "You yourself told me！" 
+"Janos Slynt is a butcher's son," Tyrion reminded his father forcefully. "You yourself told me--" 
 
 "I recall what I told you. Castle Black is not Harrenhal, however. The Night's Watch is not the king's council. There is a 
 tool for every task, and a task for every tool." 
@@ -13006,7 +12974,7 @@ as fast as Sam could spoon it in.
 "That one's dead." Craster eyed the man with indifference as he worried at a sausage. "Be kinder to stick a knife in his chest 
 than that spoon down his throat, you ask me." 
 
-"I don't recall as we did." Giant was no more than five feet tall！his true name was Bedwyck！but a fierce little man for all 
+"I don't recall as we did." Giant was no more than five feet tall--his true name was Bedwyck--but a fierce little man for all 
 that. "Slayer, did you ask Craster for his counsel?" 
 
 Sam cringed at the name, but shook his head. He filled another spoon, brought it to Barmen's mouth, and tried to ease it 
@@ -13293,7 +13261,7 @@ Sam had almost forgotten about the wildlings, so much had happened since. "The c
 blades," he said. "They'd know where to find obsidian." 
 
 "The children of the forest are all dead," said Mormont. "The First Men killed half of them with bronze blades, and the 
-Andals finished the job with iron. Why a glass dagger should！" 
+Andals finished the job with iron. Why a glass dagger should--" 
 
 The Old Bear broke off as Craster emerged from between the deerhide flaps of his door. The wildling smiled, revealing a 
 mouth of brown rotten teeth. "I have a son." 
@@ -13309,7 +13277,7 @@ The Lord Commander's face was stiff. "I'm glad for you."
 "They're strong as they're like to get, old crow, and both of us know it. Them that's dying, you know them too, cut their 
 bloody throats and be done with it. Or leave them, if you don't have the stomach, and I'll sort them out myself." 
 
-Lord Commander Mormont bristled. "Thoren Smallwood claimed you were a friend to the Watch！" 
+Lord Commander Mormont bristled. "Thoren Smallwood claimed you were a friend to the Watch--" 
 
 "Aye," said Craster. "I gave you all I could spare, but winter's coming on, and now the girl's stuck me with another 
 squalling mouth to feed." 
@@ -13504,12 +13472,12 @@ wildling fell forward, crashing face first across Ser Byam. Byam screamed in ago
 axe slipping from his fingers. Two of Craster's wives were wailing, a third cursed, a fourth flew at Sweet Donnel and tried to 
 scratch his eyes out. He knocked her to the floor. The Lord Commander stood over Craster's corpse, dark with anger. "The 
 gods will curse us," he cried. "There is no crime so foul as for a guest to bring murder into a man's hall. By all the laws of the 
-hearth, we！" 
+hearth, we--" 
 
 "There are no laws beyond the Wall, old man. Remember?" Dirk grabbed one of Craster's wives by the arm, and shoved the 
 point of his bloody dirk up under her chin. "Show us where he keeps the food, or you'll get the same as he did, woman." 
 
-"Unhand her." Mormont took a step. "I'll have your head for this, you！" Garth of Greenaway blocked his path, and Ollo 
+"Unhand her." Mormont took a step. "I'll have your head for this, you--" Garth of Greenaway blocked his path, and Ollo 
 Lophand yanked him back. They both had blades in hand. "Hold your tongue," Ollo warned. Instead the Lord Commander 
 grabbed for his dagger. Ollo had only one hand, but that was quick. He twisted free of the old man's grasp, shoved the knife 
 into Mormont's belly, and yanked it out again, all red. And then the world went mad. 
@@ -13630,7 +13598,7 @@ Anguy in the brothel window, standing with an arrow notched. The Mad Huntsman ha
 finally he had agreed to take his prize to Lord Beric for judgment. 
 
 They had bound his wrists with hempen rope, strung a noose around his neck, and pulled a sack down over his head, but 
-even so there was danger in the man. Arya could feel it across the cave. Thoros！if that was Thoros！met captor and captive 
+even so there was danger in the man. Arya could feel it across the cave. Thoros--if that was Thoros--met captor and captive 
 halfway to the fire. "How did you take him?" the priest asked. 
 
 "The dogs caught the scent. He was sleeping off a drunk under a willow tree, if you believe it." 
@@ -13763,7 +13731,7 @@ The Hound's mouth twitched. "Do you take me for my brother? Is being born Clegan
 Tom Sevenstrings took up the count. "Alyn of Winterfell, Joth Quickbow, Little Matt and his sister Randa, Anvil Ryn. Ser 
 Ormond. Ser Dudley. Pate of Mory, Pate of Lancewood, Old Pate, and Pate of Shermer's Grove. Blind Wyl the Whittler. 
 Goodwife Maerie. Maerie the Whore. Becca the Baker. Ser Raymun Darry, Lord Darry, young Lord Darry. The Bastard of 
-Bracken. Fletcher Will. Harsley. Goodwife Nolla！" 
+Bracken. Fletcher Will. Harsley. Goodwife Nolla--" 
 
 "Enough." The Hound's face was tight with anger. "You're making noise. These names mean nothing. Who were they?" 
 
@@ -13982,7 +13950,7 @@ Harwin sighed. "R'hllor has judged him innocent."
 
 "Who's Rulore?" She couldn't even say it. 
 
-"The Lord of Light. Thoros has taught us！" 
+"The Lord of Light. Thoros has taught us--" 
 
 She didn't care what Thoros had taught them. She yanked Greenbeard's dagger from its sheath and spun away before he 
 could catch her. Gendry made a grab for her as well, but she had always been too fast for Gendry. 
@@ -14053,7 +14021,7 @@ rush of the Tumblestone and pushed out into the tumult where the waters met. As 
 sheltering walls of the castle, its square sail filled with wind, and Catelyn saw sunlight flashing on her father's helm. Lord 
 Hoster Tully's rudder held true, and he sailed serenely down the center of the channel, into the rising sun. 
 
-"Now," her uncle urged. Beside him, her brother Edmure！Lord Edmure now in truth, and how long would that take to 
+"Now," her uncle urged. Beside him, her brother Edmure--Lord Edmure now in truth, and how long would that take to 
 grow used to? nocked an arrow to his bowstring. His squire held a brand to its point. Edmure waited until the flame caught, 
 
 then lifted the great bow, drew the string to his ear, and let fly. With a deep thrum, the arrow sped upward. Catelyn 
@@ -14445,7 +14413,7 @@ behind him. They waited beneath the torch while Lamprey searched for the correct
 "No one has sent for you, traitor," Ser Axell said. 
 
 Lord Alester recoiled as if he'd been slapped. "No, I swear to you, I committed no treason. Why won't you listen? If His 
-Grace would only let me explain！" 
+Grace would only let me explain--" 
 
 Lamprey thrust a great iron key into the lock, turned it, and pulled open the cell. The rusted hinges screamed in protest. 
 "You," he said to Davos. "Come." 
@@ -14536,12 +14504,12 @@ Yet when he saw Davos, a faint smile brushed his lips. "So the sea has returned 
 "It did, Your Grace." Does he know that he had me in his dungeon? Davos went to one knee. 
 
 "Rise, Ser Davos," Stannis commanded. "I have missed you, ser. I have need of good counsel, and you never gave me less. 
-So tell me true！what is the penalty for treason?" 
+So tell me true--what is the penalty for treason?" 
 
 The word hung in the air. A frightful word, thought Davos. Was he being asked to condemn his cellmate? Or himself, 
 perchance? Kings know the penalty for treason better than any man. "Treason?" he finally managed, weakly. 
 
-"What else would you call it, to deny your king and seek to steal his rightful throne. I ask you again！what is the penalty for 
+"What else would you call it, to deny your king and seek to steal his rightful throne. I ask you again--what is the penalty for 
 treason under the law?" 
 
 Davos had no choice but to answer. "Death," he said. "The penalty is death, Your Grace." 
@@ -14587,8 +14555,8 @@ sea-girt seat of House Celtigar. Lord Ardrian Celtigar had fought beneath the fl
 had wasted no time in going over to Joffrey. He remained in King's Landing even now. "Too frightened of His Grace's wrath 
 to come near Dragonstone, no doubt," Ser Axell declared. "And wisely so. The man has betrayed his rightful king." 
 
-Ser Axell proposed to use Salladhor Saan's fleet and the men who had escaped the Blackwater！Stannis still had some 
-fifteen hundred on Dragonstone, more than half of them Florents！to exact retribution for Lord Celtigar's defection. Claw Isle 
+Ser Axell proposed to use Salladhor Saan's fleet and the men who had escaped the Blackwater--Stannis still had some 
+fifteen hundred on Dragonstone, more than half of them Florents--to exact retribution for Lord Celtigar's defection. Claw Isle 
 was but lightly garrisoned, its castle reputedly stuffed with Myrish carpets, Volantene glass, gold and silver plate, jeweled 
 cups, magnificent hawks, an axe of Valyrian steel, a horn that could summon monsters from the deep, chests of rubies, and 
 more wines than a man could drink in a hundred years. Though Celtigar had shown the world a niggardly face, he had never 
@@ -14928,7 +14896,7 @@ She wrapped her nakedness in a towel. "Do you mock me?"
 That pricked him back to anger. "Are you as thick as a castle wall? That was an apology. I am tired of fighting with you. 
 What say we make a truce? 
 
-"Truces are built on trust. Would you have me trust！" 
+"Truces are built on trust. Would you have me trust--" 
 
 "The Kingslayer, yes. The oathbreaker who murdered poor sad Aerys Targaryen. " Jaime snorted. "It's not Aerys I rue, it's 
 Robert. ｀I hear they've named you Kingslayer' he said to me at his coronation feast. ｀Just don't think to make it a habit.' And 
@@ -15120,7 +15088,7 @@ her name is Jeyne. No doubt you know her, ser. Her father is your father's banne
 "My father has a good many bannermen, and most of them have daughters." Jaime groped one-handed for his goblet, trying 
 to recall this Jeyne. The Westerlings were an old house, with more pride than power. 
 
-"This cannot be true," Brienne said stubbornly. "King Robb was sworn to wed a Frey. He would never break faith, he！" 
+"This cannot be true," Brienne said stubbornly. "King Robb was sworn to wed a Frey. He would never break faith, he--" 
 
 "His Grace is a boy of sixteen," said Roose Bolton mildly. "And I would thank you not to question my word, my lady." 
 
@@ -15600,7 +15568,7 @@ Oberyn abruptly changed the subject. "It's said there are to be seventyseven dis
 
 Gods, I hope not. "Wars and weddings have kept us well occupied, Prince Oberyn. I fear no one has yet had the time to look 
 into murders sixteen years stale, dreadful as they were. We shall, of course, just as soon as we may. Any help that Dome might 
-be able to provide to restore the king's peace would only hasten the beginning of my lord father's inquiry！" 
+be able to provide to restore the king's peace would only hasten the beginning of my lord father's inquiry--" 
 
 "Dwarf," said the Red Viper, in a tone grown markedly less cordial, "spare me your Lannister lies. Is it sheep you take us 
 for, or fools? My brother is not a bloodthirsty man, but neither has he been asleep for sixteen years. Jon Arryn came to 
@@ -16666,7 +16634,7 @@ swim, if this is the place I think. We could walk."
 
 She pulled back and gave him a look. "Walk on water? What southron sorcery is that?" 
 
-"No sorc！" he began, as a huge bolt of lightning stabbed down from the sky and touched the surface of the lake. For half a 
+"No sorc--" he began, as a huge bolt of lightning stabbed down from the sky and touched the surface of the lake. For half a 
 heartbeat the world was noonday bright. The clap of thunder was so loud that Ygritte gasped and covered her ears. 
 
 "Did you look?" Jon asked, as the sound rolled away and the night turned black again. "Did you see?" 
@@ -16697,7 +16665,7 @@ her visit they called it Snowgate."
 "If she was so good, she should have torn that Wall down." 
 
 No, he thought. The Wall protects the realm. From the Others . . . and from you and your kind as well, sweetling. "I had 
-another friend who dreamed of dragons. A dwarf. He told me！" 
+another friend who dreamed of dragons. A dwarf. He told me--" 
 
 "JON SNOW!" One of the Thenns loomed above them, frowning. "Magnar wants." Jon thought it might have been the same 
 man who'd found him outside the cave, the night before they climbed the Wall, but he could not be sure. He got to his feet. 
@@ -16972,7 +16940,7 @@ Seven Kingdoms of Westeros."
 
 Strong Belwas drew his arakh. "Strong Belwas will give his ugly tongue to the little queen, if she likes." 
 
-"No, Belwas. I have given these men my safe conduct." She smiled. "Tell me this！are the Stormcrows slave or free?" 
+"No, Belwas. I have given these men my safe conduct." She smiled. "Tell me this--are the Stormcrows slave or free?" 
 
 "We are a brotherhood of free men," Sallor declared. 
 
@@ -17140,7 +17108,7 @@ time enough."
 
 Ser Jorah Mormont scowled. "You told the sellswords - 
 
-"！that I wanted their answers on the morrow. I made no promises about tonight. The Stormcrows will be arguing about my 
+"--that I wanted their answers on the morrow. I made no promises about tonight. The Stormcrows will be arguing about my 
 offer. The Second Sons will be drunk on the wine I gave Mero. And the Yunkai'i believe they have three days. We will take 
 them under cover of this darkness." 
 
@@ -17259,11 +17227,11 @@ He stiffened. "I did not say that."
 "You say it every day. Pyat Pree's a liar, Xaro's a schemer, Belwas a braggart, Arstan an assassin . . . do you think I'm still 
 some virgin girl, that I cannot hear the words behind the words?" 
 
-"Your Grace！" 
+"Your Grace--" 
 
 She bulled over him. "You have been a better friend to me than any I have known, a better brother than Viserys ever was. 
 You are the first of my Queensguard, the commander of my army, my most valued counselor, my good right hand. I honor and 
-respect and cherish you！but I do not desire you, Jorah Mormont, and I am weary of your trying to push every other man in 
+respect and cherish you--but I do not desire you, Jorah Mormont, and I am weary of your trying to push every other man in 
 the world away from me, so I must needs rely on you and you alone. It will not serve, and it will not make me love you any 
 better." 
 
@@ -17368,7 +17336,7 @@ loved."
 "What of the Usurper? Did he play sad songs as well?" 
 
 Arstan chuckled. "Robert? Robert liked songs that made him laugh, the bawdier the better. He only sang when he was 
-drunk, and then it was like to be ｀A Cask of Ale' or ｀Fifty-Four Tuns' or ｀The Bear and the Maiden Fair.' Robert was much！ 
+drunk, and then it was like to be ｀A Cask of Ale' or ｀Fifty-Four Tuns' or ｀The Bear and the Maiden Fair.' Robert was much-- 
 " 
 
 As one, her dragons lifted their heads and roared. 
@@ -17679,11 +17647,11 @@ He hesitated. "Perhaps it's not my place. .
 
 "Tell me." 
 
-He looked at her uncomfortably. "My aunt Allyria says Lady Ashara and your father fell in love at Harrenhal！" 
+He looked at her uncomfortably. "My aunt Allyria says Lady Ashara and your father fell in love at Harrenhal--" 
 
 "That's not so. He loved my lady mother." 
 
-"I'm sure he did, my lady, but！" 
+"I'm sure he did, my lady, but--" 
 
 "She was the only one he loved." 
 
@@ -17752,7 +17720,7 @@ Lysa sent me up the high road, when the moon men took my gold and my horse and a
 the Vale still telling how I came walking up to the Bloody Gate with only my harp to keep me modest. They made me sing 
 ｀The Name Day Boy'andThe King Without Courage'before they opened that gate. My only solace was that three of them died 
 laughing. I haven't been back to the Eyrie since, and I won't sing'The King Without Courage' either, not for all the gold in 
-Casterly！" 
+Casterly--" 
 
 "Lannisters," Thoros said. "Roaring red and gold." He lurched to his feet and went to Lord Beric. Lem and Tom wasted no 
 time joining them. Arya could not make out what they were saying, but the singer kept glancing at her, and one time Lem got 
@@ -18491,7 +18459,7 @@ they could pull him in. "The river hasn't run this high since spring" Edmure sai
 higher yet." 
 
 "There's a bridge further upstream, near Oldstones," remembered Catelyn, who had often crossed these lands with her 
-father. "It's older and smaller, but if it still stands！" 
+father. "It's older and smaller, but if it still stands--" 
 
 "It's gone, my lady," Galbart Glover said. "Washed away even before the one at Fairmarket." 
 
@@ -18765,7 +18733,7 @@ show your face. I'll make a gift of it to you when you come dawdling up."
 
 Edmure was frowning. "You talk of attacking the ironmen in the rear, sire, but how do you mean to get north of them?" 
 
-"There are ways through the Neck that are not on any map, Uncle. Ways known only to the crannogmen！narrow trails 
+"There are ways through the Neck that are not on any map, Uncle. Ways known only to the crannogmen--narrow trails 
 between the bogs, and wet roads through the reeds that only boats can follow." He turned to his two messengers. "Tell 
 Howland Reed that he is to send guides to me, two days after I have started up the causeway. To the center battle, where my 
 own standard flies. Three hosts will leave the Twins, but only two will reach Moat Cailin. Mine own battle will melt away into 
@@ -19015,7 +18983,7 @@ Paul's hands were coal, his face was milk, his eyes shone a bitter blue. Hoarfro
 hunched a raven, pecking at his cheek, eating the dead white flesh. Sam's bladder let go, and he felt the warmth running down 
 his legs. "Gilly, calm the horse and lead her out. You do that." 
 
-"You！" she started. 
+"You--" she started. 
 
 "I have the knife. The dragonglass dagger." He fumbled it out as he got to his feet. He'd given the first knife to Grenn, but 
 thankfully he'd remembered to take Lord Mormont's dagger before fleeing Craster's Keep. He clutched it tight, moving away 
@@ -19070,7 +19038,7 @@ blackened. Sam heard the raven shriek, but Paul himself made no sound. When his 
 his eyes . . . It's gone, the blue glow is gone. 
 
 He crept to the door. The air was so cold that it hurt to breathe, but such a fine sweet hurt. He ducked from the longhall. 
-"Gilly?" he called. "Gilly, I killed it. Gil！" She stood with her back against the weirwood, the boy in her arms. The wights 
+"Gilly?" he called. "Gilly, I killed it. Gil--" She stood with her back against the weirwood, the boy in her arms. The wights 
 were all around her. There were a dozen of them, a score, more . . . some had been wildlings once, and still wore skins and 
 hides . . . but more had been his brothers. Sam saw Lark the Sisterman, Softfoot, Ryles. The wen on Chett's neck was black, 
 his boils covered with a thin flIm. of ice. And that one looked like Hake, though it was hard to know for certain with half his 
@@ -19533,7 +19501,7 @@ crusty with old blood and sodden with new. "From the south. We climbed the Wall 
 Maester Aemon gave Jon's crude bandage a sniff when Clydas cut it away. "We?" 
 
 "I was with them. Qhorin Halfhand commanded me to join them." Jon winced as the maester's finger explored his wound, 
-poking and prodding. "The Magnar of Therm！aaaaah, that hurts." He clenched his teeth. "Where is the Old Bear?" 
+poking and prodding. "The Magnar of Therm--aaaaah, that hurts." He clenched his teeth. "Where is the Old Bear?" 
 
 "Jon . . . it grieves me to say, but Lord Commander Mormont was murdered at Craster's Keep, at the hands of his Sworn 
 Brothers." 
@@ -19562,7 +19530,7 @@ opposite ends of the Wall. The Mallisters had a bone-deep mistrust of the ironbo
 
 A stab of pain reminded him of his own woes. The maester squeezed his hand. "Clydas is bringing milk of the poppy." 
 
-Jon tried to rise. "I don't need！" 
+Jon tried to rise. "I don't need--" 
 
 "You do," Aemon said firmly. "This will hurt." 
 
@@ -20736,7 +20704,7 @@ When he charged Arya threw the rock, the way she'd once thrown a crabapple at Ge
 between the eyes, but this time her aim was off, and the stone caromed sideways off his temple. It was enough to break his 
 charge, but no more. She retreated, darting across the muddy ground on the balls of her feet, putting the wayn between them 
 once more. The knight followed at a trot, only darkness behind his eyeslit. She hadn't even dented his helm. They went round 
-once, twice, a third time. The knight cursed her. "You can't run for！" 
+once, twice, a third time. The knight cursed her. "You can't run for--" 
 
 The axehead caught him square in the back of the head, crashing through his helm and the skull beneath and sending him 
 flying face first from his saddle. Behind him was the Hound, still mounted on Stranger. How did you get an axe? she almost 
@@ -20773,7 +20741,7 @@ come out. Maybe Frey will let you kiss your mother's corpse."
 "Maybe we can save her . . ." 
 
 "Maybe you can. I'm not done living yet." He rode toward her, crowding her back toward the wayn. "Stay or go, she-wolf. 
-Live or die. Your！" 
+Live or die. Your--" 
 
 Arya spun away from him and darted for the gate. The portcullis was coming down, but slowly. I have to run faster. 
 The mud slowed her, though, and then the water. Run fast as a wolf. The drawbridge had begun to lift, the water running off it 
@@ -20982,7 +20950,7 @@ you. How long have you and Walder Frey been plotting this?"
 "Was Cersei told?" Tyrion demanded to know. 
 
 "No one was told, save those who had a part to play. And they were only told as much as they needed to know. You ought 
-to know that there is no other way to keep a secret！here, especially. My object was to rid us of a dangerous enemy as cheaply 
+to know that there is no other way to keep a secret--here, especially. My object was to rid us of a dangerous enemy as cheaply 
 as I could, not to indulge your curiosity or make your sister feel important." He closed the shutters, frowning. "You have a 
 certain cunning, Tyrion, but the plain truth is you talk too much. That loose tongue of yours will be your undoing." 
 
@@ -21152,7 +21120,7 @@ R'hllor's holy flames do not lie."
 
 "An ant who hears the words of a king may not comprehend what he is saying," Melisandre said, "and all men are ants 
 before the fiery face of god. If sometimes I have mistaken a warning for a prophecy or a prophecy for a warning, the fault lies 
-in the reader, not the book. But this I know for a certainty！envoys and pardons will not serve you now, no more than leeches. 
+in the reader, not the book. But this I know for a certainty--envoys and pardons will not serve you now, no more than leeches. 
 
 You must show the realm a sign. A sign that proves your power!" 
 
@@ -21233,7 +21201,7 @@ lady." He was determined to say the boy's name as often as he could.
 
 "Where is the greatness in a baseborn child?" 
 
-"He has kings' blood in his veins. You have seen what even a little of that blood could do！" 
+"He has kings' blood in his veins. You have seen what even a little of that blood could do--" 
 
 "I saw you burn some leeches." 
 
@@ -21263,7 +21231,7 @@ power, surrounded by his armies and his Kingsguard, would not that show the powe
 
 Stannis looked at them with annoyance. "Are you trained crows, to croak at me in turns? Enough." 
 
-"Husband, hear me！" the queen entreated. 
+"Husband, hear me--" the queen entreated. 
 
 "Why? Two is not three. Kings can count as well as smugglers. You may go." Stannis turned his back on them. 
 
@@ -21298,9 +21266,9 @@ a thought? My brother liked the making of children well enough, but after birth 
 "I know his name. Was there ever a name so apt? It proclaims his bastardy, his high birth, and the turmoil he brings with 
 him. Edric Storm. There, I have said it. Are you satisfied, my lord Hand?" 
 
-"Edric！" he started. 
+"Edric--" he started. 
 
-"！is one boy! He may be the best boy who ever drew breath and it would not matter. My duty is to the realm." His hand 
+"--is one boy! He may be the best boy who ever drew breath and it would not matter. My duty is to the realm." His hand 
 swept across the Painted Table. "How many boys dwell in Westeros? How many girls? How many men, how many women? 
 The darkness will devour them all, she says. The night that never ends. She talks of prophecies . . . a hero reborn in the sea, 
 living dragons hatched from dead stone . . . she speaks of signs and swears they point to me. I never asked for this, no more 
@@ -21445,7 +21413,7 @@ might have been different if aged Maester Cressen had been the one teaching him,
 He found the maester seated at his long wooden table covered with books and scrolls, across from the three children. 
 Princess Shireen sat between the two boys. Even now Davos could take great pleasure in the sight of his own blood keeping 
 company with a princess and a king's bastard. Devan will be a lord now, not merely a knight. The Lord of the Rainwood. 
-Davos took more pride in that than in wearing the title himself. He reads too. He reads and he！writes, as if he had been born 
+Davos took more pride in that than in wearing the title himself. He reads too. He reads and he--writes, as if he had been born 
 to it. Pylos had naught but praise for his diligence, and the master-at-arms said Devan was showing promise with sword and 
 lance as well. And he is a godly lad, too. "My brothers have ascended to the Hall of Light, to sit beside the Lord," Devan had 
 said when his father told him how his four elder brothers had died. "I will pray for them at the nightfires, and for you as well, 
@@ -21654,9 +21622,9 @@ raised. He was pretty as a girl with his dark eyes, soft skin, and raven's ringl
 his hands, however, and Noye said he was passable with a crossbow. Whether he had the courage to face what was coming, 
 though . . . 
 
-Jon used the crutch to limp across the tower top. The King's Tower was not the castle's tallest！the high, slim, crumbling 
+Jon used the crutch to limp across the tower top. The King's Tower was not the castle's tallest--the high, slim, crumbling 
 Lance held that honor, though Othell Yarwyck had been heard to say it might topple any day. Nor was the King's Tower 
-strongest！the Tower of Guards beside the kingsroad would be a tougher nut to crack. But it was tall enough, strong enough, 
+strongest--the Tower of Guards beside the kingsroad would be a tougher nut to crack. But it was tall enough, strong enough, 
 and well placed beside the Wall, overlooking the gate and the foot of the wooden stair. 
 
 The first time he had seen Castle Black with his own eyes, Jon had wondered why anyone would be so foolish as to build a 
@@ -21802,7 +21770,7 @@ throughout the castle. "Light the fire," Jon told Satin, "and fill the kettle wi
 He went downstairs himself to bar the door, to try and work some of the stiffness from his leg. That was a mistake, and Jon 
 soon knew it, but he clutched the crutch and saw it through all the same. The door to the King's Tower was oak studded with 
 iron. It might delay the Thenns, but it would not stop them if they wanted to come in. Jon slammed the bar down in its notches, 
-paid a visit to the privy！it might well be his last chance！and hobbled back up to the roof, grimacing at the pain. 
+paid a visit to the privy--it might well be his last chance--and hobbled back up to the roof, grimacing at the pain. 
 
 The west had gone the color of a blood bruise, but the sky above was cobalt blue, deepening to purple, and the stars were 
 coming out. Jon sat between two merlons with only a scarecrow for company and watched the Stallion gallop up the sky. Or 
@@ -22367,7 +22335,7 @@ thing alone, he thought. Summer was far away, but . . .
 It was not like sliding into Summer. That was so easy now that Bran hardly thought about it. This was harder, like 
 trying to pull a left boot on your right foot. It fit all wrong, and the boot was scared too, the boot didn't know what was 
 happening, the boot was pushing the foot away. He tasted vomit in the back of Hodor's throat, and that was almost enough to 
-make him flee. Instead he squirmed and shoved, sat up, gathered his legs under him！his huge strong legs！and rose. I'm 
+make him flee. Instead he squirmed and shoved, sat up, gathered his legs under him--his huge strong legs--and rose. I'm 
 standing. He took a step. I'm walking. It was such a strange feeling that he almost fell. He could see himself on the cold stone 
 floor, a little broken thing, but he wasn't broken now. He grabbed Hodor's longsword. The breathing was as loud as a 
 blacksmith's bellows. 
@@ -22476,7 +22444,7 @@ The fat man was confused. "The elk?"
 "He wasn't a green man. He wore blacks, like a brother of the Watch, but he was pale as a wight, with hands so cold that at 
 first I was afraid. The wights have blue eyes, though, and they don't have tongues, or they've forgotten how to use them." The 
 fat man turned to Jojen. "He'll be waiting. We should go. Do you have anything warmer to wear? The Black Gate is cold, and 
-the other side of the Wall is even colder. You！" 
+the other side of the Wall is even colder. You--" 
 
 "Why didn't he come with you?" Meera gestured toward Gilly and her babe. "They came with you, why not him? Why 
 didn't you bring him through this Black Gate too?" 
@@ -22995,7 +22963,7 @@ was on his knees, blood running down his face. Mero wiped his sword on his breec
 "I am." Arstan Whitebeard leapt from his horse and stood over her, the salt wind riffling through his snowy hair, both hands 
 on his tall hardwood staff. 
 
-"Grandfather," Mero said, "run off before I break your stick in two and bugger you with！" 
+"Grandfather," Mero said, "run off before I break your stick in two and bugger you with--" 
 
 The old man feinted with one end of the staff, pulled it back, and whipped the other end about faster than Dany would have 
 believed. The Titan's Bastard staggered back into the surf, spitting blood and broken teeth from the ruin of his mouth. 
@@ -23019,11 +22987,11 @@ Please."
 
 By the time Mormont arrived, she was huddled in her lion pelt, drinking a cup of spice wine. "I had a look at the river wall," 
 Ser Jorah started. "It's a few feet higher than the others, and just as strong. And the Meereenese have a dozen fire hulks tied up 
-beneath the ramparts！" 
+beneath the ramparts--" 
 
 She cut him off. "You might have warned me that the Titan's Bastard had escaped." 
 
-He frowned. "I saw no need to frighten you, Your Grace. I have offered a reward for his head！" 
+He frowned. "I saw no need to frighten you, Your Grace. I have offered a reward for his head--" 
 
 "Pay it to Whitebeard. Mero has been with us all the way from Yunkai. He shaved his beard off and lost himself amongst 
 the freedmen, waiting for a chance for vengeance. Arstan killed him." 
@@ -23073,7 +23041,7 @@ only have stood aside . . . "I want the whole truth now, on your honor as a knig
 and council. Served with the Kingslayer and others near as bad, who soiled the white cloak I wore. Nothing will excuse that. I 
 might be serving in King's Landing still if the vile boy upon the Iron Throne had not cast me aside, it shames me to admit. But 
 when he took the cloak that the White Bull had draped about my shoulders, and sent men to kill me that selfsame day, it was 
-as though he'd ripped a caul off my eyes. That was when I knew I must find my true king, and die in his service！" 
+as though he'd ripped a caul off my eyes. That was when I knew I must find my true king, and die in his service--" 
 
 "I can grant that wish," Ser Jorah said darkly. 
 
@@ -23120,7 +23088,7 @@ CHAPTER 58
 TYRION 
 
 Tyrion dressed himself in darkness, listening to his wife's soft breathing from the bed they shared. She dreams, he thought, 
-when Sansa murmured something softly！a name, perhaps, though it was too faint to say！and turned onto her side. As man 
+when Sansa murmured something softly--a name, perhaps, though it was too faint to say--and turned onto her side. As man 
 and wife they shared a marriage bed, but that was all. Even her tears she hoards to herself. 
 
 He had expected anguish and anger when he told her of her brother's death, but Sansa's face had remained so still that for a 
@@ -23306,8 +23274,8 @@ Brella gave a sniff. "Lady Sansa, you'll be wanting to get into the tub before t
 Sansa let Shae pull her shift up over her head and climbed into the big wooden tub. She was tempted to ask for a cup of 
 wine, to calm her nerves. The wedding was to be at midday in the Great Sept of Baelor across the city. And come evenfall the 
 feast would be held in the throne room; a thousand guests and seventy-seven courses, with singers and jugglers and mummers. 
-But first came breakfast in the Queen's Ballroom, for the Lannisters and the Tyrell men！the Tyrell women would be breaking 
-their fast with Margaery！and a hundred odd knights and lordlings. They have made me a Lannister, Sansa thought bitterly. 
+But first came breakfast in the Queen's Ballroom, for the Lannisters and the Tyrell men--the Tyrell women would be breaking 
+their fast with Margaery--and a hundred odd knights and lordlings. They have made me a Lannister, Sansa thought bitterly. 
 
 Brella sent Shae to fetch more hot water while she washed Sansa's back. "You are trembling, m'lady." 
 
@@ -24115,7 +24083,7 @@ of coughing.
 
 Margaery looked at him with concern. "Your Grace?" 
 
-"It's, kof, the pie, noth！kof, pie." Joff took another drink, or tried to, but all the wine came spewing back out when another 
+"It's, kof, the pie, noth--kof, pie." Joff took another drink, or tried to, but all the wine came spewing back out when another 
 spate of coughing doubled him over. His face was turning red. "I, kof, I can't, kof kof kof kof . . . " The chalice slipped from 
 his hand and dark red wine went running across the dais. 
 
@@ -24649,7 +24617,7 @@ Why would you kill him?"
 
 "Emmon Cuy swore it was, with his dying breath." 
 
-"He was outside the tent, he never saw！" 
+"He was outside the tent, he never saw--" 
 
 "There was no one in the tent but you and Lady Stark. Do you claim that old woman could cut through hardened steel?" 
 
@@ -24842,7 +24810,7 @@ free, the fewer would be hunting you."
 
 "Did Varys mention this?" He moved closer to the fire, to let his father see. 
 
-Lord Tywin pushed himself out of his chair, breath hissing between his teeth. "Who did this? If Lady Catelyn thinks！" 
+Lord Tywin pushed himself out of his chair, breath hissing between his teeth. "Who did this? If Lady Catelyn thinks--" 
 
 "Lady Catelyn held a sword to my throat and made me swear to return her daughters. This was your goat's work. Vargo 
 Hoat, the Lord of Harrenhal!" 
@@ -24892,26 +24860,26 @@ Stannis needed him to."
 "Lord Renly was murdered by one of his own guards, some woman from Tarth." 
 
 "That woman from Tarth is the reason I'm here. I tossed her into a cell to appease Ser Loras, but I'll believe in Renly's 
-ghost before I believe she did him any harm. But Stannis！" 
+ghost before I believe she did him any harm. But Stannis--" 
 
 "It was poison that killed Joffrey, not sorcery." Lord Tywin glanced at Jaime's stump again. "You cannot serve in the 
-Kingsguard without a sword hand！" 
+Kingsguard without a sword hand--" 
 
 "I can," he interrupted. "And I will. There's precedent. I'll look in the White Book and find it, if you like. Crippled or 
 whole, a knight of the Kingsguard serves for life." 
 
 "Cersei ended that when she replaced Ser Barristan on grounds of age. A suitable gift to the Faith will persuade the High 
 Septon to release you from your vows. Your sister was foolish to dismiss Selmy, admittedly, but now that she has opened the 
-gates！" 
+gates--" 
 
-"！someone needs to close them again." Jaime stood. "I am tired of having highborn women kicking pails of shit at me, 
-Father. No one ever asked me if I wanted to be Lord Commander of the Kingsguard, but it seems I am. I have a duty！" 
+"--someone needs to close them again." Jaime stood. "I am tired of having highborn women kicking pails of shit at me, 
+Father. No one ever asked me if I wanted to be Lord Commander of the Kingsguard, but it seems I am. I have a duty--" 
 
 "You do." Lord Tywin rose as well. "A duty to House Lannister. You are the heir to Casterly Rock. That is where you 
 should be. Tornmen should accompany you, as your ward and squire. The Rock is where he'll learn to be a Lannister, and I 
 want him away from his mother. I mean to find a new husband for Cersei. Oberyn Martell perhaps, once I convince Lord 
 Tyrell that the match does not threaten Highgarden. And it is past time you were wed. The Tyrells are now insisting that 
-Margaery be wed to Tommen, but if I were to offer you instead！" 
+Margaery be wed to Tommen, but if I were to offer you instead--" 
 
 "NO!" Jaime had heard all that he could stand. No, more than he could stand. He was sick of it, sick of lords and lies, sick of 
 his father, his sister, sick of the whole bloody business. "No. No. No. No. No. How many times must I say no before you'll 
@@ -24922,7 +24890,7 @@ beds with boys as well. And if you think for one misbegotten moment that I would
 
 "She can die a maiden as far as I'm concerned. I don't want her, and I don't want your Rock!" 
 
-"You are my son！" 
+"You are my son--" 
 
 "I am a knight of the Kingsguard. The Lord Commander of the Kingsguard! And that's all I mean to be!" 
 
@@ -25203,7 +25171,7 @@ him, her red lips parted, her ruby throbbing. "Give me this boy," she whispered,
 dismay there, the sudden uncertainty. She did not see it! 
 
 The king's eyes were dark blue bruises in the hollows of his face. "The bastard was taken from Dragonstone without my 
-leave? A galley, you say? If that Lysene pirate thinks to use the boy to squeeze gold from me！" 
+leave? A galley, you say? If that Lysene pirate thinks to use the boy to squeeze gold from me--" 
 
 "This is your Hand's work, sire." Melisandre gave Davos a knowing look. "You will bring him back, my lord. You 
 will." 
@@ -25293,7 +25261,7 @@ his buck teeth. Everyone called him Horse, He had been a stablehand in Mole's To
 
 Castle Black. The rest had run back to their fields and hovels, or their beds in the underground brothel. Horse wanted to 
 take the black, though, the great buck-toothed fool. Zei remained as well, the whore who'd proved so handy with a crossbow, 
-and Noye had kept three orphan boys whose father had died on the steps. They were young！nine and eight and five！but no 
+and Noye had kept three orphan boys whose father had died on the steps. They were young--nine and eight and five--but no 
 one else seemed to want them. 
 
 As they waited for the cage to come back, Clydas brought them cups of hot mulled wine, while Three-Finger Hobb passed 
@@ -25608,7 +25576,7 @@ looked up at where they'd come from. When you stand here it seems immense, as if
 Jon went back inside to where the others waited. "We need to repair the outer gate as best we can and then block up this 
 section of the tunnel. Rubble, chunks of ice, anything. All the way to the second gate, if we can. Ser Wynton will need to take 
 command, he's the last knight left, but he needs to move now, the giants will be back before we know it. We have to tell 
-him！" 
+him--" 
 
 "Tell him what you will," said Maester Aemon, gently. "He will smile, nod, and forget. Thirty years ago Ser Wynton Stout 
 came within a dozen votes of being Lord Commander. He would have made a fine one. Ten years ago he would still have been 
@@ -25619,7 +25587,7 @@ follow you. We have to close the gate."
 
 "I am a maester chained and sworn. My order serves, Jon. We give counsel, not commands." 
 
-"Someone must！" 
+"Someone must--" 
 
 "You. You must lead." 
 
@@ -25830,7 +25798,7 @@ His dream of selling Arya to Lady Arryn died there in the hills, though. "There'
 passes," the village elder said. "If you don't freeze or starve, the shadowcats will get you, or the cave bears. There's the clans 
 as well. The Burned Men are fearless since Timett One-Eye came back from the war. And half a year ago, Gunthor son of 
 Gurn led the Stone Crows down on a village not eight miles from here. They took every woman and every scrap of grain, and 
-killed half the men. They have steel now, good swords and mail hauberks, and they watch the high road！the Stone Crows, 
+killed half the men. They have steel now, good swords and mail hauberks, and they watch the high road--the Stone Crows, 
 the Milk Snakes, the Sons of the Mist, all of them. Might be you'd take a few with you, but in the end they'd kill you and 
 make off with your daughter." 
 
@@ -25867,7 +25835,7 @@ Sandor's mouth tightened. "So you do know who I am."
 "When these Stone Crows come calling, you might be glad to have a dog." 
 
 "Might be." The man hesitated, then gathered up his courage. "But they say you lost your belly for fighting at the 
-Blackwater. They say！" 
+Blackwater. They say--" 
 
 "I know what they say." Sandor's voice sounded like two woodsaws grinding together. "Pay me, and we'll be gone." 
 
@@ -26292,9 +26260,9 @@ His uncle shook his head. "It would seem the trial is going very badly for you."
 
 Lovely. "I see." He shifted in his seat. "I am curious. You were always a fair man, Uncle. What convinced you?" 
 
-"Why steal Pycelle's poisons, if not to use them?" Ser Kevan said bluntly. "And Lady Merryweather saw！" 
+"Why steal Pycelle's poisons, if not to use them?" Ser Kevan said bluntly. "And Lady Merryweather saw--" 
 
-"！nothing! There was nothing to see. But how do I prove that? How do I prove anything, penned up here?" 
+"--nothing! There was nothing to see. But how do I prove that? How do I prove anything, penned up here?" 
 
 "Perhaps the time has come for you to confess." 
 
@@ -27042,7 +27010,7 @@ and a longsword at his side. "How long will you be in residence?"
 "If we knew you was coming we would have laid down fresh rushes, m'lord," said the crone. "There's a dung fire burning." 
 
 "Nothing says home like the smell of burning dung." Petyr turned to Sansa. "Grisel was my wet nurse, but she keeps my 
-castle now. Umfred's my steward, and Bryen！didn't I name you captain of the guard the last time I was here?" 
+castle now. Umfred's my steward, and Bryen--didn't I name you captain of the guard the last time I was here?" 
 
 "You did, my lord. You said you'd be getting some more men too, but you never did. Me and the dogs stand all the 
 watches." 
@@ -27186,7 +27154,7 @@ It was the "three sons," and that smile too. "Kettleblack!" Sansa's eyes went wi
 "Aye, m'lady, as it please you." 
 
 "She's beside herself with joy." Lord Petyr dismissed him with a wave, and returned to the pomegranate again as Oswell 
-shuffled down the steps. "Tell me, Alayne！which is more dangerous, the dagger brandished by an enemy, or the hidden one 
+shuffled down the steps. "Tell me, Alayne--which is more dangerous, the dagger brandished by an enemy, or the hidden one 
 pressed to your back by someone you never even see?" 
 
 "The hidden dagger." 
@@ -27309,7 +27277,7 @@ of you so long."
 "Poo to my court. I have waited so long, I could not bear to wait another moment." She put her arms around him. "I want to 
 share your bed tonight, my sweet. I want us to make another child, a brother for Robert or a sweet little daughter." 
 
-"I dream of that as well, sweetling. Yet there is much to be gained from a great public wedding, with all the Vale！" 
+"I dream of that as well, sweetling. Yet there is much to be gained from a great public wedding, with all the Vale--" 
 
 "No." She stamped a foot. "I want you now, this very night. And I must warn you, after all these years of silence and 
 whisperings, I mean to scream when you love me. I am going to scream so loud they'll hear me in the Eyrie!" 
@@ -27383,16 +27351,16 @@ as one bastard born. Are you wet for me?"
 "Truly? Oh, Alayne, Alayne, my fair maid, give me the gift of your innocence. You will thank the gods you did. I'll have 
 you singing louder than the Lady Lysa." 
 
-Sansa jerked away from him, frightened. "If you don't leave me, my au！my father will hang you. Lord Petyr." 
+Sansa jerked away from him, frightened. "If you don't leave me, my au--my father will hang you. Lord Petyr." 
 
 "Littlefinger?" He chuckled. "Lady Lysa loves me well, and I am Lord Robert's favorite. If your father offends me, I will 
 destroy him with a verse." He put a hand on her breast, and squeezed. "Let's get you out of these wet clothes. You wouldn't 
-want them ripped, I know. Come, sweet lady, heed your heart！" 
+want them ripped, I know. Come, sweet lady, heed your heart--" 
 
 Sansa heard the soft sound of steel on leather. "Singer," a rough voice said, "best go, if you want to sing again." The light 
 was dim, but she saw a faint glimmer of a blade. 
 
-The singer saw it too. "Find your own wench！" The knife flashed, and he cried out. "You cut me!" 
+The singer saw it too. "Find your own wench--" The knife flashed, and he cried out. "You cut me!" 
 
 "I'll do worse, if you don't go." 
 
@@ -27592,7 +27560,7 @@ chopping."
 
 "Then go sleep now." 
 
-"I don't need！" 
+"I don't need--" 
 
 "You do. I want you rested. Go on, I'm not going to let you sleep through the fight." He made himself smile. "You're the 
 only one who can move those bloody barrels." 
@@ -28057,7 +28025,7 @@ Prince Oberyn laughed. "The gods defend the innocent. You are innocent, I trust?
 
 "Only of killing Joffrey," Tyrion admitted. "I do hope you know what you are about to face. Gregor Clegane is - 
 
-"！large? So I have heard." 
+"--large? So I have heard." 
 
 "He is almost eight feet tall and must weigh thirty stone, all of it muscle. He fights with a two-handed greatsword, but needs 
 only one hand to wield it. He has been known to cut men in half with a single blow. His armor is so heavy that no lesser man 
@@ -28129,9 +28097,9 @@ Still, a difference of five or six years is little enough. And there was an empt
 might be kept for a person of high birth. As if it were intended that we take someone back to Sunspear. A young page, 
 perhaps. Or a companion for Elia. Your lady mother meant to betroth Jaime to my sister, or Cersei to me. Perhaps both." 
 
-"Perhaps," said Tyrion, "but my father！" 
+"Perhaps," said Tyrion, "but my father--" 
 
-"！ruled the Seven Kingdoms, but was ruled at home by his lady wife, or so my mother always said." Prince Oberyn raised 
+"--ruled the Seven Kingdoms, but was ruled at home by his lady wife, or so my mother always said." Prince Oberyn raised 
 his arms, so Lord Dagos Manwoody and the Bastard of Godsgrace could slip a chainmail bymie down over his head. "At 
 Oldtown we learned of your mother's death, and the monstrous child she had borne. We might have turned back there, but my 
 mother chose to sail on. I told you of the welcome we found at Casterly Rock. 
@@ -28385,7 +28353,7 @@ them harm. Many conquerors had sailed on Naath to blood their swords, only to si
 them when the slave ships come raiding, though. "I am going to take you home one day, Missandei," Dany promised. If I had 
 made the same promise to Jorah, would he still have sold me? "I swear it." 
 
-"This one is content to stay with you, Your Grace. Naath will be there, always. You are good to this！to me." 
+"This one is content to stay with you, Your Grace. Naath will be there, always. You are good to this--to me." 
 
 "And you to me." Dany took the girl by the hand. "Come help me dress." 
 
@@ -28400,7 +28368,7 @@ three dragons, but she had taken Meereen with sewer rats and a wooden cock, in l
 for his ship, she knew. If a war galley could ram another ship, why not a gate? That had been her thought when she 
 commanded the captains to drive their ships ashore. Their masts had become her battering rams, and swarms of freedmen had 
 torn their hulls apart to build mantlets, turtles, catapults, and ladders. The sellwords had given each ram a bawdy name, and it 
-had been the mainmast of Meraxes！formerly Joso's Prank that had broken the eastern gate. Joso's Cock, they called it. The 
+had been the mainmast of Meraxes--formerly Joso's Prank that had broken the eastern gate. Joso's Cock, they called it. The 
 fighting had raged bitter and bloody for most of a day and well into the night before the wood began to splinter and Meraxes' 
 iron figurehead, a laughing jester's face, came crashing through. 
 
@@ -28688,12 +28656,12 @@ true."
 
 The big man's neck was red; whether from anger or shame she did not know. "I have tried to tell you true, half a hundred 
 times. I told you Arstan was more than he seemed. I warned you that Xaro and Pyat Pree were not to be trusted. I warned 
-you！" 
+you--" 
 
 "You warned me against everyone except yourself." His insolence angered her. He should be humbler. He should beg for 
 my forgiveness. "Trust no one but Jorah Mormont, you said . . . and all the time you were the Spider's creature!" 
 
-"I am no man's creature. I took the eunuch's gold, yes. I learned some ciphers and wrote some letters, but that was all！" 
+"I am no man's creature. I took the eunuch's gold, yes. I learned some ciphers and wrote some letters, but that was all--" 
 
 "All? You spied on me and sold me to my enemies!" 
 
@@ -28946,14 +28914,14 @@ This for Lord Goodbrook. This for Lord Mooton of Maidenpool."
 
 Jaime pushed himself to his feet. "You seem to have these matters well in hand, Uncle. I shall leave His Grace to you." 
 
-"As you wish." Ser Kevan rose as well. "Jaime, you should go to your father. This breach between you！" 
+"As you wish." Ser Kevan rose as well. "Jaime, you should go to your father. This breach between you--" 
 
-"！is his doing. Nor will he mend it by sending me mocking gifts. Tell him that, if you can pry him away from the Tyrells 
+"--is his doing. Nor will he mend it by sending me mocking gifts. Tell him that, if you can pry him away from the Tyrells 
 long enough." 
 
-His uncle looked distressed. "The gift was heartfelt. We thought that it might encourage you！" 
+His uncle looked distressed. "The gift was heartfelt. We thought that it might encourage you--" 
 
-"！to grow a new hand?" Jaime turned to Tommen. Though he had Joffrey's golden curls and green eyes, the new king 
+"--to grow a new hand?" Jaime turned to Tommen. Though he had Joffrey's golden curls and green eyes, the new king 
 shared little else with his late brother. He inclined to plumpness, his face was pink and round, and he even liked to read. He is 
 still shy of nine, this son of mine. The boy is not the man. It would be seven years before Tommen was ruling in his own right. 
 Until then the realm would remain firmly in the hands of his lord grandfather. "Sire," he asked, "do I have your leave to go?" 
@@ -29170,7 +29138,7 @@ that have made you wroth?"
 
 "Tyrion is not going to harm Tornmen or Myrcella. I am still not certain he killed Joffrey." 
 
-Her mouth twisted in anger. "How can you say that? After all his threats！" 
+Her mouth twisted in anger. "How can you say that? After all his threats--" 
 
 "Threats mean nothing. He swears he did not do it." 
 
@@ -29313,7 +29281,7 @@ Her face darkened. "I told you, I will never serve . . ."
 " . . . such foul creatures as us. Yes, I recall. Hear me out, Brienne. Both of us swore oaths concerning Sansa Stark. Cersei 
 means to see that the girl is found and killed, wherever she has gone to ground . . ." 
 
-Brienne's homely face twisted in fury. "If you believe that I would harm my lady's daughter for a sword, you！" 
+Brienne's homely face twisted in fury. "If you believe that I would harm my lady's daughter for a sword, you--" 
 
 "Just listen," he snapped, angered by her assumption. "I want you to find Sansa first, and get her somewhere safe. How else 
 are the two of us going to make good our stupid vows to your precious dead Lady Catelyn? 
@@ -29426,7 +29394,7 @@ wants to prove himself a loyal man of the Night's Watch."
 Thome was much the more clever of the two, Jon realized; this had his stink all over it. He was trapped. "I'll go," he said in 
 a clipped, curt voice. 
 
-"M'lord, " Janos Slynt reminded him. "You'll address me！" 
+"M'lord, " Janos Slynt reminded him. "You'll address me--" 
 
 "I'll go, mylord. But you are making a mistake, mylord. You are sending the wrong man, my lord. just the sight of me is 
 going to anger Mance. My lord would have a better chance of reaching terms if he sent - 
@@ -29739,7 +29707,7 @@ Harma thundered past before Mance could reply, riding at the head of thirty raid
 dog impaled on a spear, raining blood at every stride. Mance watched as she smashed into the rangers. "Might be you're 
 telling it true," he said. "Those look like Eastwatch men. Sailors on horses. Cotter Pyke always had more guts than sense. He 
 took the Lord of Bones at Long Barrow, he might have thought to do the same with me. If so, he's a fool. He doesn't have the 
-men, he！" 
+men, he--" 
 
 "Mance!" the shout came. It was a scout, bursting from the trees on a lathered horse. "Mance, there's more, they're all 
 around us, iron men, iron, a host of iron men." 
@@ -30312,8 +30280,8 @@ the same thing on their blouses."
 
 "A fiery heart. I don't know whose sigil that is." 
 
-He found out soon enough. "Queen's men," Pyp told him！after he let out a whoop, and shouted, "Run and bar the doors, 
-lads, it's Sam the Slayer come back from the grave," while Grenn was hugging Sam so hard he thought his ribs might break！ 
+He found out soon enough. "Queen's men," Pyp told him--after he let out a whoop, and shouted, "Run and bar the doors, 
+lads, it's Sam the Slayer come back from the grave," while Grenn was hugging Sam so hard he thought his ribs might break-- 
 "but best you don't go asking where the queen is. Stannis left her at Eastwatch, with their daughter and his fleet. He brought 
 no woman but the red one." 
 
@@ -30545,7 +30513,7 @@ should convince King Stannis to marry Queen Cersei too."
 
 "Cotter Pyke and Ser Denys don't like each other much," Grenn argued stubbornly. "They fight about everything." 
 
-"Yes, but only because they have different ideas about what's best for the Watch," said Sam. "If we explained！" 
+"Yes, but only because they have different ideas about what's best for the Watch," said Sam. "If we explained--" 
 
 "We?" said Pyp. "How did someone change to we? I'm the mummer's monkey, remember? And Grenn is, well, Grenn. " 
 He smiled at Sam, and wiggled his ears. "You, now . . . you're a lord's son, and the maester's steward. .." 
@@ -30926,7 +30894,7 @@ Aye, and more than watch. I took her too . . . my wife . . .
 
 "Oh, must I," Tyrion snarled. "Why should I believe you about anything, ever? She was my wife!" 
 
-"Tyrion！it . . ." 
+"Tyrion--it . . ." 
 
 He hit him. It was a slap, backhanded, but he put all his strength into it, all his fear, all his rage, all his pain. Jaime was 
 squatting, unbalanced. The blow sent him tumbling backward to the floor. "I . . . I suppose I earned that." 
@@ -31054,7 +31022,7 @@ He looked up the shaft. "How far must I climb?"
 
 "Two hundred and thirty rungs, and then?" 
 
-"The tunnel to the left, but hear me！" 
+"The tunnel to the left, but hear me--" 
 
 "How far along to the bedchamber?" Tyrion lifted a foot to the lowest rung of the ladder. 
 
@@ -31223,7 +31191,7 @@ The sound of Lord Janos Slynt clearing his throat broke the strained silence. "Y
 be summoned here. When I saw your banners from the Wall, I knew the realm was saved. ｀There comes a man who neer 
 
 forgets his duty/ I said to good Ser Alliser. ｀A strong man, and a true king.' May I congratulate you on your victory over 
-the savages? The singers will make much of it, I know！" 
+the savages? The singers will make much of it, I know--" 
 
 "The singers may do as they like," Stannis snapped. "Spare me your fawning, Janos, it will not serve you." He rose to his 
 feet and frowned at them all. "Lady Melisandre tells me that you have not yet chosen a Lord Commander. I am displeased. 
@@ -31279,7 +31247,7 @@ him down. It is naught to me which man of you is chosen, so long as you make a c
 
 "And you must know that whilst we are thankful for the aid you rendered us against Mance Rayder, we can offer you no 
 help in your contest for the throne. The Night's Watch takes no part in the wars of the Seven Kingdoms. For eight thousand 
-years！" 
+years--" 
 
 "I know your history, Ser Denys," the king said brusquely. "I give you my word, I shall not ask you to lift your swords 
 against any of the rebels and usurpers who plague me. I do expect that you will continue to defend the Wall as you always 
@@ -32442,8 +32410,8 @@ but he did believe in taking care of his own. All of his own, even the ones who 
 ones whose names he can't remember, Once he was gone, though . . . 
 
 When Ser Stevron had been heir, that was one thing. The old man had been grooming Stevron for sixty years, and had 
-pounded it into his head that blood was blood. But Stevron had died whilst campaigning with the Young Wolf in the west！ 
-"of waiting, no doubt," Lame Lothar had quipped when the raven brought them the news！and his sons and grandsons were a 
+pounded it into his head that blood was blood. But Stevron had died whilst campaigning with the Young Wolf in the west-- 
+"of waiting, no doubt," Lame Lothar had quipped when the raven brought them the news--and his sons and grandsons were a 
 different sort of Frey. Stevron's son Ser Ryman stood to inherit now; a thick-witted, stubborn, greedy man. And after Ryman 
 came his own sons, Edwyn and Black Walder, who were even worse. "Fortunately," Lame Lothar once said, "they hate each 
 other even more than they hate us." 
@@ -32569,7 +32537,7 @@ a dozen at the least, maybe a score.
 though not so heavy in the belly. A halffielm covered his head, a patched yellow cloak his broad shoulders. "Where's our 
 gold?" 
 
-"in my saddlebag. A hundred golden dragons." Merrett cleared his throat. "You'll get it when I see that Petyr！" 
+"in my saddlebag. A hundred golden dragons." Merrett cleared his throat. "You'll get it when I see that Petyr--" 
 
 A squat one-eyed outlaw strode forward before he could finish, reached into the saddlebag bold as you please, and found the 
 sack. Merrett started to grab him, then thought better of it. The outlaw opened the drawstring, removed a coin, and bit it. 
@@ -32593,7 +32561,7 @@ that.
 "He's in the godswood," said the man in the yellow cloak. "We'll take you to him. Notch, you hold his horse." 
 
 Merrett handed over the bridle reluctantly. He did not see what other choice he had. "My water skin," he heard himself say. 
-"A swallow of wine, to settle my！" 
+"A swallow of wine, to settle my--" 
 
 "We don't drink with your sort," yellow cloak said curtly. "It's this way. Follow me." 
 

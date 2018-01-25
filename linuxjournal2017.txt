@@ -2300,7 +2300,7 @@ p25更加10就挂了，不断重启中。
 
 工业路由器今天去掉lteup的重复调用，也拔掉了模块，仍然会出现write 101系统停住的问题。换一个板子来测试吧，现在没有卡，测试了78次了。
 
-fedora 直接安装vim居然失败：
+fedora 直接安装居然失败：
 先更新了下vi，再装vim就好了 就是yum update vi 然后yum install vim
 http://www.cnblogs.com/flyfish919/p/7152005.html
 
