@@ -1,3 +1,7 @@
+2018.1.28
+tansy          ['tænzi] n.  艾菊
+sot            [sɒt] n.  醉鬼, 酗酒者 vt.  因酗酒浪费掉 vi.  酗酒
+
 
 2018.1.17
 seneschal      ['seniʃәl] n.  管家
@@ -299,7 +303,7 @@ spoor          [spuә] n.  痕迹, 足迹 vt.  循着足迹追踪 vi.  循着足
 
 2017-11-27
 tuft           [tʌft] n.  一簇, 矮树丛vi.  丛生vt.  用丛毛装饰
-conical        ['con·i·cal] a.  圆锥形的, 圆锥的
+conical        ['con·i·cal] a.  圆锥形的, 圆锥的  2018.1.28
 maul           [mɒ:l]n.  大槌vt.  打伤, 
 scrabble       ['skræbl]vi.  扒寻, 摸索, 挣扎vt.  扒成, 急急搜索n.  扒, 抓, 摸索, 挣扎
 snugly         ['snʌgli]ad.  舒适地, 整洁干净地, 紧密地
@@ -509,7 +513,7 @@ grove          n.小树林；树丛；果树林；果园
 
 2017-11-14
 mongrel        adj.混血的 n.杂种狗
-slink		vi. 鬼鬼祟祟地走, (动物)早产 vt. 早产 n. 鬼鬼祟祟的人, 早产的动物 a. 早产的  2018.1.6
+slink		   vi. 鬼鬼祟祟地走, (动物)早产 vt. 早产 n. 鬼鬼祟祟的人, 早产的动物 a. 早产的  2018.1.6
 bawdy          adj.喧闹并猥亵作乐的；说黄色笑话的 n.淫猥的言辞
 snag           n.障碍；突出物；尖齿；尖角 v.抓住；被钩住；抢先获得
 drear          adj.令人沮丧的；沉闷的；枯燥无味的n.可怕的人物
@@ -1245,7 +1249,7 @@ a.  贤明的, 明智的
 bland  [blænd]
 a.  温和的, 乏味的, 冷漠的
 din      [din]n.  喧嚣vt.  絮絮不休地说, 喧闹vi.  絮絮不休地说, 喧闹
-flaxen       ['flæksn]a.  亚麻的, 亚麻色的, 淡黄色的
+flaxen       ['flæksn]a.  亚麻的, 亚麻色的, 淡黄色的   2018.1.28
 tousle  ['tauzl] vt.  使蓬乱, 弄乱 n.  乱发, 杂乱, 凌乱
 preach  [pri:tʃ]
 vt.  传道, 讲道, 说教, 宣讲, 鼓吹
@@ -2365,8 +2369,7 @@ n.  鸟身女妖; 悍妇; 贪婪无厌的人
 mongrel  ['mʌŋgrәl]
 n.  杂种, 杂种狗, 混血儿
 a.  杂种的, 混血儿的
-argot  ['ɑ:gәu]
-n.  行话, 俚语, 黑话
+argot      ['ɑ:gәu] n.  行话, 俚语, 黑话  2018.1.28
 dusky  
 a.  微暗的, 暗淡的, 暗黑色的, 多黑影的, 黑黝黝的, 微黑色的, 忧郁的
 lash  [læʃ]
@@ -3280,8 +3283,6 @@ vulture    ['vʌltʃə(r)] n.  秃鹰, 贪婪的人  2018.1.5
 sanctity  [sanc·ti·ty || 'sæŋktətɪ]
 n.  圣洁; 崇高; 虔诚; 神圣
 fondle    ['fɑndl /'fɒndl] v.  爱抚; 抚弄; 表示爱抚; 调戏 2018.1.14
-flaxen  [flax·en || 'flæksən]
-adj.  亚麻的, 淡黄色的, 亚麻色的
 appalling  [ap'pal·ling || -lɪŋ]
 adj.  骇人的, 可怕的; 十分低劣的
 nominal      ['nɑmɪnl /'nɒ-]adj.  名义上的, 名字的, 有名无实的
@@ -3369,7 +3370,7 @@ n.  泛滥, 大雨, 洪水
 2	chant	反复呼喊;不停地重复
 3	stripling	年轻男子;小伙子
 4	spatter	溅;洒
-5	awning	（篷车或建筑物上的）遮阳篷，雨篷 2017.12.6
+5	awning	（篷车或建筑物上的）遮阳篷，雨篷 2018.1.28(2)
 6	hempen	大麻做的
 7	fuzzy	覆有细绒毛的;绒毛状的;毛茸茸的
 8	bloated	（身体或身体某部位）肿胀的，膨胀的，发胀的
