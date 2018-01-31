@@ -3,6 +3,8 @@
 
 import sys
 import os
+import datetime
+import md5
 from Crypto.Cipher import AES
 
 import smtplib
@@ -10,15 +12,38 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.header import Header
 
+def sumfile(fobj):   
+    m = md5.new()
+    while True:
+        d = fobj.read(8096)
+        if not d:
+            break
+        m.update(d)
+    return m.hexdigest()
+
+
+def md5sum(fname):   
+    if fname == '-':
+        ret = sumfile(sys.stdin)
+    else:
+        try:
+            f = file(fname, 'rb')
+        except:
+            return 'Failed to open file'
+        ret = sumfile(f)
+        f.close()
+    return ret
+	
+
 def sendmail(afileName):
 	sender = 'jianliang@sztozed.net'
 	receivers = 'jianliang@139.com'
 	message = MIMEMultipart()
 	message['From'] = Header("jianliang@sztozed.net", 'utf-8')
 	message['To'] =  Header("jianliang@139.com", 'utf-8')
-	subject = 'pass form jianliang'
+	subject = afileName + datetime.datetime.now().strftime(' %Y-%m-%d %H:%M:%S');
 	message['Subject'] = Header(subject, 'utf-8')
-	message.attach(MIMEText("hello world", 'plain', 'utf-8'))
+	message.attach(MIMEText("hello world"+md5sum(afileName), 'plain', 'utf-8'))
 	att1 = MIMEText(open(afileName, 'rb').read(), 'base64', 'utf-8')
 	att1["Content-Type"] = 'application/octet-stream'
 	# 这里的filename可以任意写，写什么名字，邮件中显示什么名字
