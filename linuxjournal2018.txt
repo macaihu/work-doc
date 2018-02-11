@@ -1,10 +1,39 @@
 
+
+2.7
+RTP与RTCP协议介绍
+http://www.cnblogs.com/jiayayao/p/6218503.html
+
+2.2
+
+这样写100个参数居然要14秒
+#set -x
+export ECHO_STYLE_00="\033[0m"        # default style(black background, white foreground)
+export ECHO_STYLE_01="\033[41;33;1m"  # red background, yellow foregound bold
+export ECHO_STYLE_02="\033[42;33;1m"  # red background, yellow foregound bold
+date_start=$(date +%s)
+count=0
+while [ true ] ; do
+        cfg -a test_$count=$count
+        count=$(($count+1))
+        if [ $count -eq 100 ] ; then
+                break
+        fi
+done
+date_end=$(date +%s)
+echo  -e "${ECHO_STYLE_00}本次操作运行了：$((date_end-date_start))秒${ECHO_STYLE_00}"
+
+
+
+curl "http://api.cellocation.com:81/cell/?mcc=460&mnc=2&lac=10173&ci=180452649&output=json"
+{"errcode":0, "lat":"22.53485107", "lon":"114.0249939", "radius":"580", "address":"广东省深圳市福田区沙头街道泰然五路;香蜜湖路与泰然六路路口东77米"}
+
+1.30
+这个可以运行并转换成功, 看看能不能减少一些体积.
+TransformMP4 -v video_20180126231056.h264 video_20180126231056.aac 1.mp4
+
 1.25
-
-
 ddr 590   290ma  15fps.
-
-
 
 1.23
 来清除原来的svn吧, 把这些svn改为git, 保存到本地硬盘, 百度云盘上就好了. 其他就不管了.

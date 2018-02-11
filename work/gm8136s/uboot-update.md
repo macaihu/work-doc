@@ -24,7 +24,7 @@ tz8135
 cd /mnt/nfs/gm8136s/images/tz8135/
 flashcp -v rootfs-cpio_master.squashfs.img /dev/mtd2
 flashcp -v uImage /dev/mtd1
-
+flashcp -v u-boot.bin /dev/mtd0
 
 
 
