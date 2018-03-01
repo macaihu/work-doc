@@ -1,0 +1,39 @@
+
+#!/bin/sh
+
+TOPDIR=$(pwd)
+
+declare -a svns=(1710FWT-3005VERB auto_dll L1712FP_R3.30.00 mtk6260a zlt2831 1712FWT_2.10_R03 auto_term_proc LT60  zlt2832 arm_terminal bigap_mgr LT60_V2 uartToMdio zlt_t20 bigap_web mtk6252_2819 wlan mtk6260 ZLT2830A)
+
+rm lastcommit.txt
+for i in ${svns[@]}
+do
+	echo $i
+	cd  $TOPDIR
+	if [ -e $i ] ; then
+		cd $i && git svn fetch
+	else
+		git svn clone http://192.168.1.123/svn/$i
+		cd $i
+	fi
+	rm * -rf
+	lastcommit=$(git log -1 --date=short --pretty=format:"%ad" )
+	lastname=$( git log -1 --pretty=format:"%an" )
+	lastdetail=$(git log -1 --pretty=format:"%s")
+	firstdate=$(git log --date=short --pretty=format:"%ad" | tail -1)
+	totalcount=$(git log | grep -e 'commit [a-zA-Z0-9]*' | wc -l  )
+	echo -e $lastcommit from $firstdate $totalcount  $i  $lastname >> ../lastcommit.txt
+	echo -e $lastcommit from $firstdate $lastname $lastdetail
+	echo ""
+	cd ..
+	#rm -f $.tar
+	#tar cf $i.tar $i
+done
+sort lastcommit.txt
+exit
+cd $1
+#git gc
+gitk &
+rm * -rf
+cd ..
+tar cf $1.tar $1
