@@ -4,6 +4,10 @@
 对dd的pid发送USR1指令，然后在dd窗口就可以看到当前I/O信息。命令如下，
 kill -USR1 `pgrep '^dd'`
 
+sort -r 是反排序.
+
+在linux下dd写iso到u盘中, 在windows下显示的是没有格式化.
+
 2018.2.7
 RTP与RTCP协议介绍
 http://www.cnblogs.com/jiayayao/p/6218503.html

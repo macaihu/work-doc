@@ -82,3 +82,5 @@ if __name__ == '__main__':
 		decode(sys.argv[2])
 	elif sys.argv[1] == "mail":
 		sendmail(sys.argv[2])
+	else:
+		print "what???"
