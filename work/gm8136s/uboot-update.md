@@ -52,6 +52,7 @@ sf probe 0; sf erase 0x0 ${filesize}; sf write 0x2000000 0x0 ${filesize};
 
 # 从串口使用uboot升级
 
+
 1. 先配置本机器IP，和server IP。
 
 setenv ipaddr 192.168.19.33 ;setenv serverip 192.168.19.199
@@ -68,6 +69,23 @@ mw.b 0x2000000 0xFF 0x800000; tftpboot 0x02000000 rootfs-cpio_master.squashfs.im
 
 mw.b 0x2000000 0xFF 0x800000;tftpboot 0x02000000 GM8135_2MP.SPI.jffs2.img; sf probe 0; sf erase 0xe00000 0x100000; sf write 0x2000000 0xe00000 0x100000;
 
-或者 
-1. 更新全部
-mw.b 0x2000000 0xFF 0x800000;tftpboot 0x02000000 tz8135.bin; sf probe 0; sf erase 0x0 ${filesize}; sf write 0x2000000 0x0 ${filesize};
+
+# tz8135 串口uboot升级
+
+1. 先配置本机器IP，和server IP。
+
+setenv ipaddr 192.168.0.88 ;setenv serverip 192.168.0.110
+
+2. 更新内核
+
+mw.b 0x2000000 0xFF 0x800000; tftpboot 0x02000000 uImage_8136; sf probe 0; sf erase 0x60000 ${filesize}; sf write 0x2000000 0x60000 ${filesize};
+
+3. 更新文件系统
+
+mw.b 0x2000000 0xFF 0x800000; tftpboot 0x02000000 rootfs-cpio_master.squashfs.img; sf probe 0; sf erase 0x260000 ${filesize}; sf write 0x2000000 0x260000 ${filesize};
+
+4. 升级整个镜像
+
+mw.b 0x2000000 0xFF 0x800000;　tftpboot 0x02000000 tz8135.bin; sf probe 0; sf erase 0x0 0x1000000; sf write 0x2000000 0x0 0x1000000;
+
+

@@ -1,4 +1,58 @@
 
+2018.3.12
+sudo yum install glibc-devel.x86_64
+
+为什么fedora每次安装, 都使用15g空间? 
+
+devmem 0x90c00000
+0x08136110
+
+ID Number (IDNMBR, Offset = 0x00)
+Table 4-2. ID Number (IDNMBR, Offset = 0x00)
+Bit     Name          Type          Description    Reset Value Reset Type
+[31:28] -              -            Reserved - -
+[27:12] product ID     RO           Product ID     0x8136 -
+[11:8]  version ID     RO           Version ID     0x1 -
+[7:0]   ID[7:0]        RO           ID[6:2]:       Package ID I/O trimming -
+
+8136有4个软件寄存器:
+devmem 0x90c000dc 32 0x02
+重启后不保存, 没有多少作用了.
+
+bc的使用
+http://blog.chinaunix.net/uid-23929712-id-2650421.html
+主要是如果要小数点, 那么需要这样设置:
+scale=5
+
+这里有讲解如何计算实际利率的.
+https://www.rong360.com/gl/2017/09/18/142854.html
+公式是这样的:
+实际年利率=a*n*24/(n+1)(*这个符号代表乘号)。
+a代表月费率，n代表借了几个月。
+
+2018.3.9
+mount -t nfs 192.168.19.199:/opt/work/ /mnt/nfs --nolock
+cd /mnt/nfs/gm8136s/apps/tzvideo-OneNet-2.0/
+ps | grep rc.onenet | grep -v grep | awk '{print $1}' | xargs kill -9
+killall tzvideo
+./tzvideo -c /etc/config/config.base.json
+
+2018.3.6
+ubuntu增加exfat支持:
+sudo apt-get install exfat-utils
+没有必要重启, 直接可以使用了.
+不过, gm系列的uboot似乎不支持exfat啊.
+
+deepin这个系统安装到虚拟机之后, 编译ath9.5的buildall居然会挂掉, 如果一直待机, 倒没有发现这样的现象.
+应该是休眠了? 刚才把窗口最小号之后, 过了一段时间后还响了一下, 先关闭半小时待机吧. 就是休眠的问题了.
+
+2018.3.3
+
+在联想的笔记本上安装一个操作系统好像好困难的样子. 还是郑达终于把它装起来了.
+安装后virtualbox还有问题, 启动虚拟机就报出什么不能创建进程之类的, 后来使用"分离式启动"才跑起来.
+
+使用一个新deepin来编译系统吧:
+ssh jianliang@192.168.19.41 -F ~/work/jian-doc/work/env/ssh_config
 
 2018.3.1
 对dd的pid发送USR1指令，然后在dd窗口就可以看到当前I/O信息。命令如下，
