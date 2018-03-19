@@ -1,4 +1,13 @@
 
+
+2018.3.13
+桌面上的p59的2.4gwifi不能连接了. 运行了48天.
+使用ifconfig ath0 down && ifconfig ath0 up 看起来没有作用.
+
+rdesktop可以把本地磁盘带到远程计算机.
+rdesktop 192.168.19.212 -g 1540x830 -u jian -p solong123 -r disk:f=/media/jian/518C138300565C98,g=/
+http://www.coolcode.org/?action=show&id=88
+
 2018.3.12
 sudo yum install glibc-devel.x86_64
 
