@@ -1,1 +1,2 @@
-rdesktop 192.168.19.212 -g 1540x830 -u jian -p solong123 -r disk:f=/media/jian/518C138300565C98,g=/
+# ardesktop 192.168.19.211 -g 1540x830 -u jian -p solong123 -r disk:f=/media/jian/518C138300565C98,g=/
+rdesktop 192.168.19.211 -g 1920x1080 -u jian -p solong123 -r disk:f=/media/jian/518C138300565C98,g=/ -a 16
