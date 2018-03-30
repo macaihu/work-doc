@@ -925,8 +925,7 @@ lithe      [laið]a.  柔软的
 garland  ['gɑ:lәnd]
 n.  花环, 荣誉
 vt.  戴花环
-broth  [brɒθ]
-n.  原汁清汤, 肉汤
+broth    [brɒθ]n.  原汁清汤, 肉汤
 nick  [nik]
 n.  刻痕, 缺口, 划痕
 vt.  刻痕于, 弄缺, 擦伤
@@ -1667,15 +1666,9 @@ vt.  看出, 望见, 发现
 raving  ['reiviŋ]
 a.  胡说的, 疯狂的, 狂暴的
 n.  胡说
-hoe  [hәu]
-n.  锄头
-vt.  用锄耕地, 锄
-vi.  用锄耕地, 锄
-brine  [brain]
-n.  盐水, 海水, 海
-vt.  用浓盐水处理
-arsenal  ['ɑ:snәl]
-n.  兵工厂, 军械库
+hoe      [hәu] n.  锄头 vt.  用锄耕地, 锄 vi.  用锄耕地, 锄 2018.3.20
+brine    [brain]  n.  盐水, 海水, 海 vt.  用浓盐水处理 
+arsenal  ['ɑ:snәl] n.  兵工厂, 军械库 
 scuff  [skʌf]
 vi.  拖着脚走, 磨损
 vt.  拳打, 攻击, 用足尖触, 使磨损
@@ -1933,7 +1926,7 @@ vermilion			鲜红(色);朱红(色)
 partridge			山鹑；竹鸡
 plumage			鸟的）全身羽毛
 pelt				向…投掷				毛皮
-broth			（通常加入蔬菜或米的）肉汤，汤
+broth			（通常加入蔬菜或米的）肉汤，汤  
 cinnamon            ['sinәmәn] n.  肉桂, 肉桂树皮, 肉桂色 a.  肉桂色的, 浅黄褐色的
 clarity  ['klærәti]
 n.  清楚, 明晰
@@ -2300,9 +2293,7 @@ n.  蝗虫, 蚱蜢, 蝉
 2015.5.4  45%
 ass  [æs]
 n.  驴, 傻瓜, 笨蛋, 屁股
-caress  [kә'res]
-n.  爱抚, 拥抱
-vt.  爱抚, 抱, 宠爱
+caress  [kә'res] n.  爱抚, 拥抱 vt.  爱抚, 抱, 宠爱 2018.3.20
 niggardly  
 a.  小气的, 吝啬的, 很少量的, 有限的
 ad.  吝啬地
