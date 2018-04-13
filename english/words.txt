@@ -1,3 +1,10 @@
+
+2018.4.12
+gangly         adj.  身材瘦长的
+
+2018.4.10
+ointment       ['ɔɪntmənt]n.  软膏; 药膏; 油膏
+
 2018.1.28
 tansy          ['tænzi] n.  艾菊
 sot            [sɒt] n.  醉鬼, 酗酒者 vt.  因酗酒浪费掉 vi.  酗酒
@@ -703,8 +710,7 @@ absolve  [әb'zɒlv]
 vt.  宣告...无罪, 赦免, 免除
 gloaming  ['glәumiŋ]
 n.  夕幕, 黄昏, 薄明
-eave  [i:v]
-n.  屋檐
+eave  [i:v] n.  屋檐  2018.4.10
 moor  [muә]
 n.  沼泽, 停泊
 vt.  使停泊, 系住, 使固定
@@ -728,9 +734,7 @@ spurn  [spә:n]
 n.  踢开, 拒斥
 vt.  踢开, 冷落, 践踏, 唾弃
 vi.  藐视, 摒弃
-chide  [tʃaid]
-vt.  斥责, 责骂
-vi.  斥责, 责骂
+chide  [tʃaid] vt.  斥责, 责骂 vi.  斥责, 责骂
 choppy  ['tʃɒpi]
 a.  猛地一动一停的, 突变的
 dandle  ['dændl]
@@ -1509,8 +1513,7 @@ knoll  [nәul]
 n.  小山, 圆丘
 vt.  敲钟
 vi.  敲响
-lagoon  
-n.  环礁湖, 近海岸的浅水区, 泻湖, 咸水湖
+lagoon    n.  环礁湖, 近海岸的浅水区, 泻湖, 咸水湖
 edifice  ['edifis]
 n.  大厦, 大建筑物
 alcove             ['ælkәuv] n.  凹室, 壁龛, 小亭   2017.12.25
