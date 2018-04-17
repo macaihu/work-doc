@@ -1,5 +1,10 @@
 
 
+2018.4.14
+cd /sys/module/usbserial/drivers/usb-serial:generic 
+echo 19d2 0536 > new_id
+就可以在pc上出现v10的串口了.
+
 2018.4.3
 通过usb转的网卡连接v10话机.
 sudo route add -host 192.168.0.1 dev eth2
