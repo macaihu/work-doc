@@ -1,4 +1,14 @@
 
+2018.4.18
+hapless        ['hæplɪs]adj.  倒霉的, 不幸的
+roust          [raJst; raust]<<及物动词>>(俗)1 激起…; 惊起…<up>2 驱逐…,逐出…<out>
+crinkle        [`krIŋkl; ˋkriŋkl] <<及物动词>> 使…起皱纹,皱起…; 使…卷缩<up> ~ (up) one's nose 皱起鼻子
+                 (表示困惑、不赞成时的表情) <<不及物动词>> 1 起皱纹; 卷缩<up> 2 <纸等> 沙沙作响; 发出瑟瑟声
+                 <<可数名词>> 1 皱纹; 波纹 2 沙沙声
+demur          [dɪ'mɜː] n.  异议; 反对 v.  提出异议; 抗辩; 反对
+awry           [ə'raɪ] adv.  歪斜地
+imbecile       ['ɪmbɪsəl /-sɪːl] n.  低能者, 愚蠢者, 痴呆 adj.  低能的, 虚弱的, 愚钝的
+
 2018.4.12
 gangly         adj.  身材瘦长的
 
@@ -354,7 +364,7 @@ bane           n.祸根 2015-3-1
 persimmon      n.柿子；柿树；美洲柿  2018.1.7
 jostle         n.推撞 v.（在人群中）挤
 meander        n.弯曲；漫谈；曲曲折折的路；闲聊 v.蜿蜒而行；迂回曲折；漫步；闲逛
-rheumy         adj.充水的；充满黏液的
+rheumy         adj.充水的；充满黏液的  2018.4.18
 retinue        n.随行人员；扈从 2015-3-20
 flail          v.乱动；胡乱摆动；猛打 n.梿枷（旧时长柄脱粒农具）
 exasperate     v.激怒；使烦恼；使恼怒    adj.被激怒的；【生】具硬突起的
@@ -1484,8 +1494,7 @@ sputter  ['spʌtә]
 n.  喷溅声, 劈啪声, 语无伦次
 vi.  唾沫飞溅, 结结巴巴地讲, 发劈啪声
 vt.  喷出, 飞溅出, 气急败坏地说
-cretin  ['kretin]
-n.  呆小病患者
+cretin      ['kretin] n.  呆小病患者
 ingratiate  [in'greiʃieit]
 vt.  使迎合, 使讨好
 rudder  ['rʌdә]
@@ -1681,8 +1690,7 @@ n.  催促者, 讨债者, 催债
 vt.  催讨
 vi.  催讨
 a.  暗褐色的, 微暗的
-callow  ['kælәu]
-a.  年轻而无经验的, (鸟)羽毛未丰的
+callow     ['kælәu] a.  年轻而无经验的, (鸟)羽毛未丰的 2018.4.18
 ashen  ['æʃәn]
 a.  由灰烬构成的, 灰色的, 苍白的
 paste  [peist]
@@ -2771,8 +2779,7 @@ bellyful  ['beliful]
 n.  满腹, 满肚子
 chinless  
 adj.  没下颚的; 优柔寡断的
-cretin  ['kretin]
-n.  呆小病患者
+cretin      ['kretin]n.  呆小病患者
 ingratiate  [in'greiʃieit]
 vt.  使迎合, 使讨好
 strive  [straiv]
