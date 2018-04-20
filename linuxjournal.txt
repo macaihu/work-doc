@@ -1,5 +1,9 @@
 
 
+2018.4.20
+当存在多个adb设备时: 用adb device, adb -s xxxx shell
+https://blog.csdn.net/gaojinshan/article/details/9455193
+
 2018.4.14
 cd /sys/module/usbserial/drivers/usb-serial:generic 
 echo 19d2 0536 > new_id
