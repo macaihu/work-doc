@@ -1,3 +1,8 @@
+2018.4.21
+VIM 蓝色注释看不清楚:https://blog.csdn.net/beiquandeng/article/details/43341651
+vi ~/.vimrc 加入如下内容
+hi Comment ctermfg =blue
+
 
 
 2018.4.20
