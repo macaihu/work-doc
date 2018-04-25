@@ -2011,10 +2011,7 @@ a.  似野兽的, 残忍的, 卑劣的
 palsy  ['pɒ:lzi]
 n.  中风, 麻痹, (不由自主的)颤动, 麻痹状态
 vt.  麻痹, 使瘫痪
-repent  [ri'pent]
-vi.  后悔, 懊悔, 忏悔
-vt.  后悔
-a.  匍匐生根的
+repent    [ri'pent] vi.  后悔, 懊悔, 忏悔 vt.  后悔 a.  匍匐生根的
 apt  [æpt]
 a.  有...倾向的, 易于的, 恰当的, 聪明的
 derisive  [di'raisiv]

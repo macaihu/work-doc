@@ -1,6 +1,32 @@
 
 
 
+技术特点:
+
+voip: 实现低成本的语音通信, 为运营商大幅度节约成本.
+volte: 实现高质量语音通话, 适配不同国家运营商环境
+csfallback: 在无wolte网络时,自动回落到2g 3g网络.
+sip alg: 挂接iad设备, voip无障碍使用.
+fxo: slic实现普通电话机接入无线运营商网络.
+multi apn, multi ssid: 实现用户分级接入
+vpn: 实现pptp, l2tp, gre, ipsec安全接入
+tr069: 实现运营商统一设备管理
+snmp: 实现运营商统一设备管理
+
+当前我方zte7520 产品1+1升级方案：
+
+1 模块合作方修改了flash分区，告诉我方空间做了优化，去掉了recovery, recovery_kernel等分区。我方把了nv 中update_type=mifi_fota改为mifi_local。
+
+2 需要进行升级时，合作方提供整体bin文件， 有30多m，我方使用downloader工具先做拆分，去掉其中ap侧的几个文件，ap_userdata.bin, ap_cpuap.bin, ap_securefs.bin，再使用downloader的多bin合一功能生成cp.bin。这个文件大约10m。
+
+3 使用linux_plat/base/linux/user/zte_apps/goahead/cgi-src/upload.cgi.c这个程序编译出来的程序进行升级，我们的程序员大致看了这个程序，貌似是把文件写到某个地方。
+
+4 进行ap侧升级，就是写ap文件系统， 写ap内核。重启。
+
+5系统重启过程较普通启动较长，完全启动后即完全了全升级。
+
+
+
 2018.3.14
 汪光华:
 问有关防火墙的问题.
