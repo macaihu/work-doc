@@ -12251,5 +12251,5 @@ Tyrion, Jon, Dany, Stannis and Melisandre, Davos Seaworth, and all the rest of t
 
 --George R. R. Martin June 2005 
 
-£¨end£©
+end
 
