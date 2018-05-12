@@ -56,48 +56,93 @@
 	"buffers":
 	[
 		{
-			"file": "gm8136.txt",
+			"file": "english/words.txt",
 			"settings":
 			{
-				"buffer_size": 3718,
+				"buffer_size": 119797,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "work/svn_resp.txt",
+			"file": "projects.txt",
 			"settings":
 			{
-				"buffer_size": 4449,
+				"buffer_size": 3864,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "work/gm8136s/uboot-update.md",
+			"file": "linuxjournal.txt",
 			"settings":
 			{
-				"buffer_size": 2147,
+				"buffer_size": 391582,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "linuxjournal2018.txt",
+			"file": "life/creditcard/beijing_bank.txt",
 			"settings":
 			{
-				"buffer_size": 2212,
+				"buffer_size": 144,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "int append_file(const char *filename, const char *content)\n{\n        FILE *f;\n        f = fopen(filename, \"a+\");\n        if(f == NULL)\n        {\n                printf(\"%s open error\\r\\n\", filename);\n                return -1;\n        }\n        fputs(content, f);\n        fclose(f);\n        return 0;\n}\n\nint debug_logline(char *function, int line)\n{\n\tchar mybuff[100];\n\tsprintf(mybuff, \"%s %d\\n\", function, line);\n\tappend_file(\"/tmp/debug.log\", mybuff);\n}\n\nint debug_log(const char *szFormat, ...)\n{\n\tchar line[200];\n\tint c=0;\n\tva_list pArgs;\n\t\n\tva_start(pArgs, szFormat);\n\tvsprintf(line+c, szFormat, pArgs);\n\tva_end(pArgs);\n\tappend_file(\"/tmp/debug.log\", line);\n\n}",
+			"file": "english/songoficeandfire/A_Dance_with_Dragons.txt",
 			"settings":
 			{
-				"buffer_size": 665,
-				"line_ending": "Unix",
-				"name": "int append_file(const char *filename, const char *"
+				"buffer_size": 2349906,
+				"encoding": "Western (Windows 1252)",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "atherosUbootCmd.txt",
+			"settings":
+			{
+				"buffer_size": 6942,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "notes2017.txt",
+			"settings":
+			{
+				"buffer_size": 4359,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "work/soft_public.txt",
+			"settings":
+			{
+				"buffer_size": 528,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "life/magicdefand.txt",
+			"settings":
+			{
+				"buffer_size": 1515,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "life/tairan.txt",
+			"settings":
+			{
+				"buffer_size": 3097,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -108,10 +153,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 283.0,
-		"last_filter": "markdown",
+		"height": 128.0,
+		"last_filter": "Package Control: install",
 		"selected_items":
 		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
 			[
 				"markdown",
 				"Markdown Preview: Preview in Browser"
@@ -131,10 +180,6 @@
 			[
 				"mark",
 				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"Package Control: install",
-				"Package Control: Install Package"
 			],
 			[
 				"Package Control: re",
@@ -173,7 +218,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 461.0
+		"width": 497.0
 	},
 	"console":
 	{
@@ -217,31 +262,63 @@
 	},
 	"expanded_folders":
 	[
-		"/home/jian/work/jian-doc"
+		"/home/jian/work/jian-doc",
+		"/home/jian/work/jian-doc/life"
 	],
 	"file_history":
 	[
+		"/home/jian/work/jian-doc/life/北京银行还款计划表.txt",
+		"/home/jian/work/jian-doc/life/Fitness.txt",
+		"/home/jian/work/jian-doc/life/magicdefand.txt",
+		"/home/jian/work/jian-doc/work/soft_public.txt",
+		"/home/jian/work/jian-doc/work/resignation/company.txt",
+		"/home/jian/work/jian-doc/work/resignation/名单.txt",
+		"/home/jian/work/jian-doc/jian-doc.sublime-project",
+		"/home/jian/work/jian-doc/work/svn/svn_resp.txt",
+		"/home/jian/work/jian-doc/work/软件发行记录.txt",
+		"/home/jian/work/jian-doc/work/svn/svn2git",
+		"/home/jian/work/jian-doc/english/songoficeandfire/A_Feast_Of_Crows.txt",
+		"/home/jian/work/jian-doc/work/gm8136s/uboot-update.md",
+		"/home/jian/work/jian-doc/work/211工程大学名单.txt",
+		"/home/jian/work/jian-doc/work/resignation/郑荣俊日志",
 		"/home/jian/work/jian-doc/life/iphonesoftupdate.txt",
 		"/home/jian/work/jian-doc/life/tairan.txt",
 		"/home/jian/work/jian-doc/english/songoficeandfire/wiki_songoficeandfire.md",
-		"/home/jian/work/jian-doc/projects.txt",
+		"/home/jian/work/jian-doc/life/creditcard/ccb_hongkong",
+		"/home/jian/work/jian-doc/life/creditcard/beijing_bank.txt",
+		"/home/jian/work/jian-doc/gm8136.txt",
 		"/home/jian/work/jian-doc/english/words.txt",
+		"/home/jian/work/jian-doc/work/people/roster.txt",
+		"/home/jian/work/jian-doc/work/resignation/姚国梁日志.txt",
+		"/home/jian/work/jian-doc/work/people/蔡松延resume.md",
+		"/home/jian/work/jian-doc/work/people/201803研发加班明细.md",
+		"/home/jian/work/jian-doc/work/people/向杰resume.md",
+		"/home/jian/work/jian-doc/english/songoficeandfire/readprocess.md",
+		"/home/jian/work/jian-doc/projects.txt",
+		"/home/jian/work/jian-doc/work/resignation/赵刚日志.txt",
+		"/home/jian/work/lc1860/tozed/extra-options-definition-file.mdown",
+		"/home/jian/work/lc1860/tozed/sw-version-rule-by-area.mdown",
+		"/home/jian/work/jian-doc/work/zte7520/ML100中兴模块项目组三月工作安排.txt",
 		"/home/jian/work/jian-doc/english/songoficeandfire/A_Storm_of_Swords.txt",
-		"/home/jian/work/jian-doc/python/aes.py",
-		"/home/jian/work/jian-doc/life/finace.txt",
-		"/home/jian/work/jian-doc/life/Fitness.txt",
-		"/home/jian/work/jian-doc/others/pass.txt",
+		"/home/jian/work/jian-doc/work/people/201802研发加班明细.md",
+		"/home/jian/work/jian-doc/work/buildall.txt",
+		"/home/jian/work/jian-doc/work/resignation/何文秋日志.txt",
+		"/home/jian/work/jian-doc/linuxjournal.txt",
+		"/home/jian/work/jian-doc/work/ip.txt",
+		"/home/jian/work/jian-doc/work/plan/ML100中兴模块项目组三月工作安排.txt",
+		"/home/jian/work/jian-doc/linuxjournal2018.txt",
 		"/home/jian/work/jian-doc/linuxjournal2017.txt",
 		"/home/jian/work/jian-doc/work/svn_resp.txt",
+		"/home/jian/work/jian-doc/python/aes.py",
+		"/home/jian/work/jian-doc/life/finace.txt",
+		"/home/jian/work/jian-doc/others/pass.txt",
 		"/home/jian/work/jian-doc/linuxjournal2012-14.txt",
 		"/home/jian/work/jian-doc/english/songoficeandfire/A_Clash_of_Kings.txt",
 		"/home/jian/work/hi3518e_linux/docs/board/Hi3518EV20X／Hi3516CV200 SDK 安装以及升级使用说明.txt",
-		"/home/jian/work/jian-doc/work/gm8136s/uboot-update.md",
 		"/home/jian/work/jian-doc/work/people/201712研发加班明细.md",
 		"/home/jian/work/jian-doc/life/AdVenture Capitalist earth reset one.txt",
 		"/home/jian/work/jian-doc/life/AdVenture Capitalist earth reset two.txt",
 		"/home/jian/work/jian-doc/linuxjournal2016.txt",
-		"/home/jian/work/jian-doc/english/songoficeandfire/readprocess.md",
 		"/home/jian/work/jian-doc/work/RTP时间戳.txt",
 		"/home/jian/work/jian-doc/work/0keeper.md",
 		"/home/jian/work/jian-doc/english/word_dialy.md",
@@ -254,10 +331,7 @@
 		"/home/jian/work/jian-doc/myscripts/router",
 		"/home/jian/work/jian-doc/work/people/陶豪resume.md",
 		"/home/jian/work/jian-doc/life/creditcard/zhongxing.txt",
-		"/home/jian/work/jian-doc/work/ip.txt",
-		"/home/jian/work/jian-doc/work/people/向杰resume.md",
 		"/home/jian/work/jian-doc/work/people/周湘理resume.md",
-		"/home/jian/work/jian-doc/work/buildall.txt",
 		"/home/jian/work/jian-doc/python/reboot.py",
 		"/home/jian/work/jian-doc/english/songoficeandfire/A_Clash_of_Kings.md",
 		"/home/jian/work/jian-doc/english/songoficeandfire/冰与火之歌（卷二）-1038.txt",
@@ -280,7 +354,6 @@
 		"/home/jian/work/jian-doc/work/people/2017年9月研发加班明细.txt",
 		"/home/jian/work/jian-doc/work/TZ998 引脚使用情况.md",
 		"/home/jian/.config/sublime-text-3/Packages/HexViewer/hex_viewer.sublime-settings",
-		"/home/jian/work/jian-doc/gm8136.txt",
 		"/home/jian/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/jian/.config/sublime-text-3/Packages/HexViewer/Default (Linux).sublime-keymap",
 		"/home/jian/work/jian-doc/python/memery_leak_check.py",
@@ -288,9 +361,7 @@
 		"/home/jian/work/jian-doc/work/201710研发加班明显.md",
 		"/home/jian/work/jian-doc/english/people in song of ice and fire.txt",
 		"/home/jian/work/jian-doc/201711.txt",
-		"/home/jian/work/jian-doc/jian-doc.sublime-project",
 		"/home/jian/work/jian-doc/others/phy/心理咨询师案例问答题背诵内容汇总.txt",
-		"/home/jian/work/jian-doc/work/resignation/名单.txt",
 		"/home/jian/work/jian-doc/python/ssh_test.py",
 		"/home/jian/work/jian-doc/others/phy/二三级必背内容1017.txt",
 		"/home/jian/work/jian-doc/english/冰与火之歌（各族家训、家徽）.md",
@@ -304,12 +375,10 @@
 		"/home/jian/work/jian-doc/ncgj/2001年8月行政管理系统验收对比情况及目前存在的问题",
 		"/home/jian/work/jian-doc/ncgj/2001年8月生产管理系统验收对比情况及目前存在的问题",
 		"/home/jian/work/jian-doc/work/upnp介绍,.txt",
-		"/home/jian/work/jian-doc/life/creditcard/ccb_hongkong",
 		"/home/jian/work/jian-doc/work/2017年9月研发加班明细.txt",
 		"/home/jian/work/jian-doc/life/12306.txt",
 		"/home/jian/work/jian-doc/others/mail.csai.outbox.txt",
 		"/home/jian/work/jian-doc/others/mail.csai.inbox.txt",
-		"/home/jian/work/jian-doc/work/resignation/company.txt",
 		"/run/user/1000/gvfs/smb-share:server=192.168.19.101,share=d$/BaiduYunDownload/log",
 		"/home/jian/Documents/rtp.txt",
 		"/home/jian/work/jian-doc/work/chinamobile/华视车载WIFI项目需求V2.txt",
@@ -325,30 +394,7 @@
 		"/home/jian/work/jian-doc/work/plan/plan201603.txt",
 		"/home/jian/work/jian-doc/work/plan/plan201608.txt",
 		"/home/jian/work/jian-doc/bigap/9341平台未完成功能和bug功能列表.txt",
-		"/home/jian/work/jian-doc/work/plan/plan201706.txt",
-		"/home/jian/work/jian-doc/work/plan/plan201707.txt",
-		"/home/jian/work/jian-doc/work/8月份加班、迟到统计.txt",
-		"/home/jian/work/jian-doc/work/resignation/魏启婷日志.txt",
-		"/home/jian/work/jian-doc/python/monkey_sentence.py",
-		"/home/jian/work/jian-doc/work/ignition.txt",
-		"/home/jian/work/jian-doc/python/checkvpn.py",
-		"/home/jian/work/jian-doc/life/zhongxing.txt",
-		"/home/jian/work/jian-doc/life/creditcard/cmb.txt",
-		"/home/jian/work/jian-doc/life/creditcard/ccb.txt",
-		"/home/jian/work/jian-doc/life/credidcard.txt",
-		"/home/jian/work/jian-doc/使用xl2tpd连接安徽华为设备.txt",
-		"/home/jian/work/jian-doc/work/errno列表.txt",
-		"/home/jian/work/jian-doc/work/\"211\"工程大学名单.txt",
-		"/home/jian/work/jian-doc/life/2017年6月月考.txt",
-		"/home/jian/work/jian-doc/notes2017.txt",
-		"/home/jian/work/jian-doc/work/roster.txt",
-		"/home/jian/work/jian-doc/work/绩效面谈记录表.txt",
-		"/home/jian/work/jian-doc/bigap/工作交接：主要项目工业路由器.txt",
-		"/home/jian/work/jian-doc/work/resignation/张勇日志.txt",
-		"/home/jian/work/jian-doc/3grouter/Linux 3g模块拨号上网小结.txt",
-		"/home/jian/work/jian-doc/work/report.txt",
-		"/home/jian/work/jian-doc/work/zte7520/out.jian.txt",
-		"/home/jian/work/jian-doc/work/zte7520/out.wang.txt"
+		"/home/jian/work/jian-doc/work/plan/plan201706.txt"
 	],
 	"find":
 	{
@@ -371,134 +417,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"onenet",
-			"lj",
-			"ZLTT20A",
-			"fmmem:",
-			"fmmem",
-			"CHAPTER 2",
-			"廖媛",
-			"flaxen",
-			"sot ",
-			"sot",
-			"tansy",
-			"¡®",
-			"shear",
-			"zollo",
-			"Urswyck",
-			"CHAPTER 1",
-			"Jarl",
-			"Styr",
-			"CHAPTER 1",
-			"CHAPTER ",
-			"Harwin",
-			"Anguy",
-			"热派",
-			"CHAPTER 12",
-			"¡ª",
-			"CHAPTER",
-			"肯德基",
-			"kfc",
-			"onenet",
-			"vim",
-			"svn",
-			"viciou",
-			"squall",
-			"CHAPTER ",
-			"Mullin",
-			"CHAPTER ",
-			"CHAPTER \\",
-			"CHAPTER ",
-			"tftp",
-			"tfpt",
-			"000000",
-			"密码",
-			"Qyburn",
-			"Elmar Frey",
-			"fastidious",
-			"<<<<",
-			"teeter",
-			"Glover",
-			"vacat",
-			"menace",
-			"wan ",
-			"sly ",
-			"harrow",
-			"knead",
-			"Tysha",
-			"usher",
-			"muster",
-			"Hake",
-			"奴隶",
-			"奴",
-			"thrall",
-			"thwart",
-			"irk",
-			"cumber",
-			"scath",
-			"Brightwater Keep",
-			"beseech",
-			"eth0",
-			"forward",
-			"Oo0",
-			"Aeron",
-			"Stafford Lannister",
-			"Harys",
-			"gitk",
-			"git",
-			"gitk",
-			"ps ",
-			"ps",
-			"空",
-			"空文件",
-			"net",
-			"nc ",
-			"nc",
-			"家",
-			"chrome",
-			"diminish",
-			"Dolorous Edd",
-			"8136",
-			"din ",
-			"din",
-			"trebuchet",
-			"mangonel",
-			"verge",
-			"relish",
-			"Cley",
-			"Mors",
-			"crannog",
-			"herring",
-			"auroch",
-			"ccache",
-			"update",
-			"rc.update",
-			"jpeg",
-			"vair",
-			"sable",
-			"nitre",
-			"jerk",
-			"Mountain",
-			"192.168.19.11",
+			"sr",
+			"sri",
+			"lanka",
+			"lan",
+			"lanka",
+			"shanghai",
+			"chin",
+			"china",
+			"19d2",
+			"adb shell",
+			"p25",
+			"zte7520",
+			"adb",
+			"校艳芳",
 			"gdb",
-			"core",
-			"coredump",
-			"coredmp",
-			"core",
-			"ulimit",
-			"bramble",
-			"rank",
-			"ranker",
-			"bunch",
-			"jounce",
-			"calf",
-			"Kurz",
-			"Cutjack",
-			"sag",
-			"jowl",
-			"Rue",
-			"onyx",
-			"mire"
+			"pattern",
+			"core_pattern",
+			"体脂率",
+			"青岛",
+			"青岛大学",
+			"青岛",
+			"repentant",
+			"warty",
+			"CAP_SYS_MODULE",
+			"林琼",
+			"郭天煜",
+			"显示",
+			"vi",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(1)",
+			"华",
+			"波华",
+			"刘波华",
+			"向中拉",
+			"LD_",
+			"imbecile",
+			"cretin",
+			"demur",
+			"morrow",
+			"crinkle",
+			"rheumy",
+			"presumption",
+			"swoop",
+			"hapless",
+			"Modem Version",
+			"Modem Information",
+			"史",
+			"史辉",
+			"穆慧娟",
+			"gang",
+			"thrall",
+			"|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复",
+			"回复",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(2)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n(2)\n|\n回复(3)",
+			"关键回复",
+			"|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(1)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n(1)\n|\n回复(1)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(1)",
+			"工作心得体会\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(1)",
+			"ointment",
+			"chide",
+			"wit ",
+			"wit",
+			"lagoon",
+			"eave",
+			"夸克",
+			"纷",
+			"招商",
+			"于泽",
+			"\\t*",
+			"/t",
+			"\\t",
+			"王凯",
+			"胜",
+			"1311",
+			"孙",
+			"姚",
+			"adb",
+			"7520",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(8)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n(1)\n|\n回复(4)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(4)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n(1)\n|\n回复(2)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(2)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(3)",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(1)",
+			"工作心得体会\n关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(3)",
+			"工作心得体会\n关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(2)",
+			"工作心得体会\n关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n(1)\n|\n回复(1)",
+			"工作心得体会\n关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(5)",
+			"工作心得体会\n关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(1)",
+			"Obara Sand",
+			"PROLOGUE",
+			"Marwyn",
+			"^M",
+			"broth",
+			"¡ª",
+			"desirou",
+			"hoe",
+			"pick",
+			"“毛人”哈尔。 ",
+			"哈尔（Hal）是一名守夜人游骑兵，常被称作“毛人”哈尔。 ",
+			"哈尔 ",
+			"哈尔",
+			"Lem ",
+			"Lem",
+			"CHAPTER ",
+			"Satin",
+			"Val",
+			"rndis",
+			"打印机",
+			"Ramsay",
+			"马林·特兰",
+			"¡'",
+			"¡®",
+			"¡±",
+			"¯",
+			"¡°",
+			"¡¡¡¡",
+			"关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(1)",
+			"工作心得体会\n关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n(1)\n|\n回复(2)",
+			"工作心得体会\n关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(3)",
+			"工作心得体会\n关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(2)",
+			"工作心得体会\n关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n(1)\n|\n回复(1)",
+			"工作心得体会\n关键回复(1)\n|\n转发\n|\n提醒\n|\n任务\n|\n赏\n|\n|\n回复(1)",
+			"刘廷亚",
+			"CHAPTER 65",
+			"Mero"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -506,6 +552,16 @@
 		"regex": false,
 		"replace_history":
 		[
+			"        ",
+			"       ",
+			"",
+			"--",
+			"'",
+			"\"",
+			"'",
+			"\"",
+			"\n",
+			"",
 			"'",
 			"--",
 			" ",
@@ -533,148 +589,177 @@
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 9,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "gm8136.txt",
+					"file": "english/words.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3718,
+						"buffer_size": 119797,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3403,
-								3403
-							]
-						],
-						"settings":
-						{
-							"parser": "markdown",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"target": "browser"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1836.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "work/svn_resp.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4449,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3358,
-								3358
+								513,
+								513
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 663.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "work/gm8136s/uboot-update.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2147,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								605,
-								605
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "projects.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "linuxjournal.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 391582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "linuxjournal2018.txt",
+					"file": "life/creditcard/beijing_bank.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2212,
+						"buffer_size": 144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1759,
-								1759
+								144,
+								144
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 757.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"file": "english/songoficeandfire/A_Dance_with_Dragons.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 665,
+						"buffer_size": 2349906,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								526,
-								526
+								4812,
+								4812
 							]
 						],
 						"settings":
 						{
-							"auto_name": "int append_file(const char *filename, const char *",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6048.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "atherosUbootCmd.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								689,
+								689
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -683,17 +768,129 @@
 					},
 					"stack_index": 4,
 					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "notes2017.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								592,
+								592
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "work/soft_public.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								464,
+								464
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "life/magicdefand.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1016,
+								1016
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "life/tairan.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3097,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 26.0
 	},
 	"input":
 	{
-		"height": 37.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -748,11 +945,75 @@
 		"selected_items":
 		[
 			[
-				"svn",
-				"work/svn_resp.txt"
+				"ti",
+				"life/tairan.txt"
 			],
 			[
-				"iphon",
+				"ban",
+				"life/creditcard/beijing_bank.txt"
+			],
+			[
+				"soft",
+				"work/soft_public.txt"
+			],
+			[
+				"f",
+				"life/Fitness.txt"
+			],
+			[
+				"fite",
+				"life/Fitness.txt"
+			],
+			[
+				"def",
+				"life/magicdefand.txt"
+			],
+			[
+				"note",
+				"notes2017.txt"
+			],
+			[
+				"adb",
+				"jian-doc.sublime-project"
+			],
+			[
+				"fit",
+				"life/Fitness.txt"
+			],
+			[
+				"dr",
+				"english/songoficeandfire/A_Dance_with_Dragons.txt"
+			],
+			[
+				"svn",
+				"work/svn/svn_resp.txt"
+			],
+			[
+				"软件",
+				"work/软件发行记录.txt"
+			],
+			[
+				"",
+				"work/svn/svn_resp.txt"
+			],
+			[
+				"snv",
+				"work/svn/svn_resp.txt"
+			],
+			[
+				"大学",
+				"work/211工程大学名单.txt"
+			],
+			[
+				"pr",
+				"projects.txt"
+			],
+			[
+				"ma",
+				"life/magicdefand.txt"
+			],
+			[
+				"iphone",
 				"life/iphonesoftupdate.txt"
 			],
 			[
@@ -760,8 +1021,100 @@
 				"life/tairan.txt"
 			],
 			[
-				"",
-				"gm8136.txt"
+				"wike",
+				"english/songoficeandfire/wiki_songoficeandfire.md"
+			],
+			[
+				"wor",
+				"english/words.txt"
+			],
+			[
+				"m",
+				"life/magicdefand.txt"
+			],
+			[
+				"magi",
+				"life/magicdefand.txt"
+			],
+			[
+				"crow",
+				"english/songoficeandfire/A_Feast_Of_Crows.txt"
+			],
+			[
+				"ro",
+				"work/people/roster.txt"
+			],
+			[
+				"a_",
+				"english/songoficeandfire/A_Feast_Of_Crows.txt"
+			],
+			[
+				"readproc",
+				"english/songoficeandfire/readprocess.md"
+			],
+			[
+				"uboot",
+				"atherosUbootCmd.txt"
+			],
+			[
+				"feast",
+				"english/songoficeandfire/A_Feast_Of_Crows.txt"
+			],
+			[
+				"build",
+				"work/buildall.txt"
+			],
+			[
+				"jou",
+				"linuxjournal.txt"
+			],
+			[
+				"iphne",
+				"life/iphonesoftupdate.txt"
+			],
+			[
+				"ip",
+				"work/ip.txt"
+			],
+			[
+				"update",
+				"work/gm8136s/uboot-update.md"
+			],
+			[
+				"cards",
+				"english/songoficeandfire/A_Storm_of_Swords.txt"
+			],
+			[
+				"wi",
+				"english/songoficeandfire/wiki_songoficeandfire.md"
+			],
+			[
+				"linux",
+				"linuxjournal.txt"
+			],
+			[
+				"2018",
+				"linuxjournal2018.txt"
+			],
+			[
+				"stor",
+				"english/songoficeandfire/A_Storm_of_Swords.txt"
+			],
+			[
+				"wiki",
+				"english/songoficeandfire/wiki_songoficeandfire.md"
+			],
+			[
+				"linux2017",
+				"linuxjournal2017.txt"
+			],
+			[
+				"proj",
+				"projects.txt"
+			],
+			[
+				"iphon",
+				"life/iphonesoftupdate.txt"
 			],
 			[
 				"aes",
@@ -772,20 +1125,8 @@
 				"life/finace.txt"
 			],
 			[
-				"fit",
-				"life/Fitness.txt"
-			],
-			[
 				"project",
 				"projects.txt"
-			],
-			[
-				"wiki",
-				"english/songoficeandfire/wiki_songoficeandfire.md"
-			],
-			[
-				"ip",
-				"life/iphonesoftupdate.txt"
 			],
 			[
 				"2017",
@@ -810,18 +1151,6 @@
 			[
 				"gm",
 				"gm8136.txt"
-			],
-			[
-				"iphone",
-				"life/iphonesoftupdate.txt"
-			],
-			[
-				"uboot",
-				"work/gm8136s/uboot-update.md"
-			],
-			[
-				"wi",
-				"english/songoficeandfire/wiki_songoficeandfire.md"
 			],
 			[
 				"word",
@@ -896,10 +1225,6 @@
 				"english/songoficeandfire/readprocess.md"
 			],
 			[
-				"fite",
-				"life/Fitness.txt"
-			],
-			[
 				"0ee",
 				"work/0keeper.md"
 			],
@@ -910,10 +1235,6 @@
 			[
 				"0ke",
 				"work/0keeper.md"
-			],
-			[
-				"build",
-				"work/buildall.txt"
 			],
 			[
 				"acl",
@@ -932,20 +1253,12 @@
 				"english/songoficeandfire/A_Clash_of_Kings.md"
 			],
 			[
-				"wor",
-				"english/words.txt"
-			],
-			[
 				"clas",
 				"english/songoficeandfire/A_Clash_of_Kings.md"
 			],
 			[
 				"linuxj",
 				"linuxjournal2012-14.txt"
-			],
-			[
-				"f",
-				"life/Fitness.txt"
 			],
 			[
 				"buildall",
@@ -1004,7 +1317,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 50.0,
+	"side_bar_width": 261.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

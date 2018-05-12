@@ -3,29 +3,31 @@
 #buildall
 
 
-date       |    iso                             |  resp.  |  status.
------------|------------------------------------|---------|-----------------------------
-2018-3-12  | Fedora-Server-dvd-x86_64-27-1.6    | gm8136s | autoconf. ok.
-2018-3-9   | deepin-15.5-amd64.iso              | ath9.5  | buildall ok.
-2018-3-9   | deepin-15.5-amd64.iso              | ath9.5  | ./cool 4 iproute2_build fail 
-2018-3-3   | deepin-15.5-amd64.iso              | ath9.5  | p53, p59 ok
-2018-3-3   | deepin-15.5-amd64.iso              | gm8136s | ccache, ok
-2017-12-20 | centOS-7-x86_64-Minimal-1708.iso   | gm8136s | ok
-2017-12-18 | centOS-7-x86_64-Minimal-1708.iso   | ath9.5  | buildall ok
-2017-12-15 | centOS-7-x86_64-Minimal-1708.iso   | gm8136s | fail.
-2017-12-9  | linuxmint-18.3-cinnamon-64bit.iso  | ath9.5  | buildall ok
-2017-12-1  | linuxmint-18.3-cinnamon-64bit.iso  | ath9.5  | buildall fail libevent_build
-2017-11-28 | linuxmint-18.1-cinnamon-64bit.iso  | ath9.5  | buildall ok.
-2017-11-27 | Fedora-Server-dvd-x86_64-26-1.5    | ath9.5  | buildall ok.
-2017-11-19 | ubuntu-16.04.3-desktop-amd64.iso   | ath9.5  | buildall ok.
-2017-11-15 | CentOS-7-x86_64-Minimal-1708.iso   | ath9.5  | buildall fail
-           | CentOS-7-x86_64-DVD-1708.iso       | ath9.5  | buildall ok
-2017-11-1  | ubuntu-17.10-server-amd64.iso      | ath9.5  | buildall ok
-2017-9-18  | ubuntu-17.04-server-amd64.iso      | ath9.5  | buildall ok
-2017-9-1   | linuxmint-18.1-xfce-64bit.iso      | ath9.5  | buildall ok.
-2017-8-23  | deepin-15.4.1-amd64.iso            | ath9.5  | buildall ok
-2017-7-26  | Fedora-Server-dvd-x86_64-25-1.3    | ath9.5  | buildall ok
-2017-7-25  | CentOS-7-x86_64-Minimal-1611       | ath9.5  | buildall ok
+date       |    iso                             |  resp.        |  status.
+-----------|------------------------------------|---------------|-----------------------------
+2018-5-8   | ubuntu-18.04-live-server-amd64     | ath9.5        | pkg-config gperf build ok.
+2018-5-8   | ubuntu-18.04-live-server-amd64     | yaoyuan_phone | ok
+2018-3-12  | Fedora-Server-dvd-x86_64-27-1.6    | gm8136s       | autoconf. ok.
+2018-3-9   | deepin-15.5-amd64.iso              | ath9.5        | buildall ok.
+2018-3-9   | deepin-15.5-amd64.iso              | ath9.5        | ./cool 4 iproute2_build fail 
+2018-3-3   | deepin-15.5-amd64.iso              | ath9.5        | p53, p59 ok
+2018-3-3   | deepin-15.5-amd64.iso              | gm8136s       | ccache, ok
+2017-12-20 | centOS-7-x86_64-Minimal-1708.iso   | gm8136s       | ok
+2017-12-18 | centOS-7-x86_64-Minimal-1708.iso   | ath9.5        | buildall ok
+2017-12-15 | centOS-7-x86_64-Minimal-1708.iso   | gm8136s       | fail.
+2017-12-9  | linuxmint-18.3-cinnamon-64bit.iso  | ath9.5        | buildall ok
+2017-12-1  | linuxmint-18.3-cinnamon-64bit.iso  | ath9.5        | buildall fail libevent_build
+2017-11-28 | linuxmint-18.1-cinnamon-64bit.iso  | ath9.5        | buildall ok.
+2017-11-27 | Fedora-Server-dvd-x86_64-26-1.5    | ath9.5        | buildall ok.
+2017-11-19 | ubuntu-16.04.3-desktop-amd64.iso   | ath9.5        | buildall ok.
+2017-11-15 | CentOS-7-x86_64-Minimal-1708.iso   | ath9.5        | buildall fail
+           | CentOS-7-x86_64-DVD-1708.iso       | ath9.5        | buildall ok
+2017-11-1  | ubuntu-17.10-server-amd64.iso      | ath9.5        | buildall ok
+2017-9-18  | ubuntu-17.04-server-amd64.iso      | ath9.5        | buildall ok
+2017-9-1   | linuxmint-18.1-xfce-64bit.iso      | ath9.5        | buildall ok.
+2017-8-23  | deepin-15.4.1-amd64.iso            | ath9.5        | buildall ok
+2017-7-26  | Fedora-Server-dvd-x86_64-25-1.3    | ath9.5        | buildall ok
+2017-7-25  | CentOS-7-x86_64-Minimal-1611       | ath9.5        | buildall ok
 
 
 
