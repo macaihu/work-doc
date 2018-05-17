@@ -8,6 +8,7 @@ import sys
 import os
 import datetime
 import md5
+import commands
 from Crypto.Cipher import AES
 
 import smtplib
@@ -42,8 +43,11 @@ def sendmail(afileName):
 	sender = 'jianliang@sztozed.net'
 	receivers = 'jianliang@139.com'
 	message = MIMEMultipart()
-	message['From'] = Header("jianliang@sztozed.net", 'utf-8')
-	message['To'] =  Header("jianliang@139.com", 'utf-8')
+	#message['Date'] = datetime.datetime.now().strftime('%c')
+	(status, output) = commands.getstatusoutput('date -R')
+	message['Date'] = output
+	message['From'] = Header("jianliang@sztozed.net", 'ascii')
+	message['To'] =  Header("jianliang@139.com", 'ascii')
 	subject = afileName + datetime.datetime.now().strftime(' %Y-%m-%d %H:%M:%S');
 	message['Subject'] = Header(subject, 'utf-8')
 	message.attach(MIMEText("hello world! "+md5sum(afileName), 'plain', 'utf-8'))
