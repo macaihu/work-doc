@@ -1,6 +1,30 @@
 
-2018.5.14
-ubuntu 18
+2018.5.16
+Linux控制台终端下设置关闭声音的方法
+https://www.linuxidc.com/Linux/2008-10/16969.htm
+
+2018.5.15
+cinnamon-settings: it seemed no works full functional.
+
+linux find prune exec 排除某目录或文件 执行
+https://blog.csdn.net/ysdaniel/article/details/7995681
+
+在Ubuntu 18.04/16.04下隐藏FireFox标题栏
+https://ywnz.com/linuxjc/1700.html
+
+ubuntu 17.10 配置静态IP地址
+http://www.mamicode.com/info-detail-2096944.html
+my files:
+network:
+    ethernets:
+        eno1:
+            addresses: [192.168.19.199/22, 192.168.0.50/24]
+            dhcp4: no
+            gateway4: 192.168.19.1
+            nameservers:
+                addresses: [192.168.19.1]
+    version: 2
+
 
 2018.5.10
 解决wine安装程序的乱码问题

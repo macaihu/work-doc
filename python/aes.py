@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
+#if something wrong ,try this.
+#sudo apt install python-pip
+
 import sys
 import os
 import datetime
