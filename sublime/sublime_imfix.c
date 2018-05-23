@@ -3,6 +3,7 @@
  * Use LD_PRELOAD to interpose some function to fix sublime input method support for linux.
  * By Cjacker Huang <jianzhong.huang at i-soft.com.cn> *
  *
+ * sudo apt-get install libgtk2.0-dev
  * gcc -shared -o libsublime-imfix.so sublime_imfix.c  `pkg-config --libs --cflags gtk+-2.0` -fPIC
  * LD_PRELOAD=./libsublime-imfix.so sublime_text
  */
