@@ -5,6 +5,7 @@
 
 date       |    iso                             |  resp.        |  status.
 -----------|------------------------------------|---------------|-----------------------------
+2018-5-25  | ubuntu-18.04-live-server-amd64     | gm8136s       | autoconf  zlib1g-dev zip ok.
 2018-5-8   | ubuntu-18.04-live-server-amd64     | ath9.5        | pkg-config gperf build ok.
 2018-5-8   | ubuntu-18.04-live-server-amd64     | yaoyuan_phone | ok
 2018-3-12  | Fedora-Server-dvd-x86_64-27-1.6    | gm8136s       | autoconf. ok.
@@ -35,7 +36,7 @@ date       |    iso                             |  resp.        |  status.
 #atheros产品系列每日重编
 
 日期       | 类型                |      修改内容                                | 结果                            |   编译机器
-----------|--------------------|---------------------------------------------|------------------------------- |-------------
+----------|--------------------|---------------------------------------------|--------------------------------|-----------
 2015-8-21 |  all               | rm drivers/scsi/mpt2sas                     |  ok                            |     77
 2015-8-20 |  ap-si             | rm drivers/scsi/lpfc                        |  ok                            |     77
 2015-8-19 |  ap-cp             | rm drivers/scsi/aic7xxx                     |  ok                            |     77

@@ -1,7 +1,7 @@
 
 if [ "$1" == "" ] ; then
-rdesktop 192.168.19.212 -g 1440x870 -u jian -p solong123 -r disk:f=/media/jian/518C138300565C98,g=/ -r sound:remote -a 16 
+rdesktop 192.168.19.212 -g 1440x870 -u jian -p solong123 -r disk:f=/media/jian/518C138300565C98,g=/ -r sound:remote -a 16 -k en-us
 else
-rdesktop 192.168.16.129 -g 1440x870 -u jian -p solong123 -r disk:f=/media/jian/518C138300565C98,g=/ -r sound:remote -a 16
+rdesktop 192.168.16.129 -g 1440x870 -u jian -p solong123 -r disk:f=/media/jian/518C138300565C98,g=/ -r sound:remote -a 16 -k en-us
 fi
 #rdesktop 192.168.19.211 -g 1920x1080 -u jian -p solong123 -r disk:f=/media/jian/518C138300565C98,g=/ -a 16

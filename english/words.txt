@@ -1,4 +1,9 @@
 
+2018.5.24
+anon           [a·non || ə'nɒn] adv.  之后; 不久; 立刻
+cloven         [clo·ven || 'kləʊvn] adj.  分裂的; 裂开的
+scion          [sci·on || 'saɪən] n.  幼芽, 子孙
+
 2018.5.12
 Revenant       [`rZvәnәnt; ˋrєvәnәnt]<<名词>>1 归来的人(放逐或流浪等后)2 亡魂; 鬼<<形容词>>1 归来的2 亡魂的; 鬼的
 sloth          [sloθ, slɒθ; slouθ] 《源自古英语 slow 的名词》<<名词>> 1 (U)怠惰,懒散 2 (C)‘动物’树懒
@@ -25,7 +30,7 @@ sot            [sɒt] n.  醉鬼, 酗酒者 vt.  因酗酒浪费掉 vi.  酗酒
 
 
 2018.1.17
-seneschal      ['seniʃәl] n.  管家
+seneschal      ['seniʃәl] n.  管家  2018.5.24
 
 2018.1.16
 falconer       ['fɒ:lkәnә] n.  以鹰狩猎者, 放鹰者, 养鹰者
@@ -81,7 +86,7 @@ harry          ['hæri] vt.  掠夺, 使苦恼, 强使前行, 折磨, 骚扰
 meager         ['mi:gә] a.  质量差的, 贫乏的, 不毛的, 瘦的
 loin           [lɒin] n.  腰部, 腰肉
 scry           [skrai] vi.  以水晶球算卦
-besmirch       [bi'smә:tʃ] vt.  弄污
+besmirch       [bi'smә:tʃ] vt.  弄污   2018.5.24
 gleefully      adv.  极快乐地, 欢欣地
 albeit         conj.  尽管, 虽然
 vigor          ['vigә] n.  精力, 活力
@@ -780,8 +785,7 @@ nutmeg  ['nʌtmeg]
 n.  肉豆蔻
 frailty  ['freilti]
 n.  弱点, 脆弱, 意志薄弱
-reprisal  [ri'praizl]
-n.  报复, 报仇, 报复性劫掠
+reprisal  [ri'praizl]  n.  报复, 报仇, 报复性劫掠  2018.5.24
 chastise  [tʃæ'staiz]
 vt.  责骂, 惩罚
 importune  [,impɒ:'tju:n]
