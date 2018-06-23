@@ -1,0 +1,51 @@
+APDU   Application Protocol Data Unit
+API    Application Programming Interface
+APN    Access Point Name
+BIP    Bearer Independent Protocol
+CAT    Card Application Toolkit
+CED    Consumer Electronic Device
+CI     Certificate Issue
+CLA    CLAss byte of command message
+CRL    Certificate Revocation List
+DP     SM-DP+
+DS     SM-DS
+ECASD  Embedded UICC Controlling Authority Security Domain
+ECDSA  Elliptic Curve Digital Signature Algorithm
+ECC    Elliptic Curve Cryptography
+ECKA   Elliptic Curve Key Agreement Algorithm
+EF     Ele mentary File
+EID    eUICC Identifier
+eUICC  Embedded UICC
+EUM    eUICC Manufacturer
+FQDN   Fully Qualified Domain Name
+INS    INStruction byte of command message
+ISD-P  Issuer Security Domain –Profile
+ISD-R  Issuer Security Domain –Root
+ISO    International Organization for Standardization
+LDSd   Local Discovery Service-device
+LPDd   Local Profile Download-device
+LPAd   Local Profile Assistant-device
+LTE    Long Term Evolution
+LUId   Local User Interface-device
+ME     Mobile Equipment
+MEP    Message Exchange Pattern
+MNO    Mobile Network Operator
+MS     Mobile Station
+NAA    Network Access Application
+OSM    On-Demand Subscription Manager
+PCF    Policy Control Function
+PEF    Policy Enforcement Function
+PPAR   Profile Policy Authorization Rules
+PPR    Profile Policy Rules
+RAT    Rules Authorization Table
+RPM    Remote Profile Management
+SAC    Secure Authenticated Channel
+SAT    SIM Application Toolkit
+SD     Security Domain
+SIM    Subscriber Identity Module
+SM-DP+ Subscription Manager –Data Preparation Plus
+SM-DS  Subscription Manager –Discovery Service
+SMDPiD ID of the relevant SM-DP+
+SVN    Specification Version Number of GSMA SGP.22 (eSVN in SGP.21)
+UICC   Universal Integrated Circuit Card
+USIM   Universal Subscriber Identity Module
