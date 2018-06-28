@@ -5,6 +5,8 @@
 
 date       |    iso                             |  resp.        |  status.
 -----------|------------------------------------|---------------|-----------------------------
+2018-6-25  | ubuntu-18.04-desktop-amd64         | ath9.5        | buildall corrected.
+2018-6-23  | ubuntu-18.04-live-server-amd64     | ath9.5        | buildall corrected.
 2018-5-25  | ubuntu-18.04-live-server-amd64     | gm8136s       | autoconf  zlib1g-dev zip ok.
 2018-5-8   | ubuntu-18.04-live-server-amd64     | ath9.5        | pkg-config gperf build ok.
 2018-5-8   | ubuntu-18.04-live-server-amd64     | yaoyuan_phone | ok
