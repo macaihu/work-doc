@@ -4,6 +4,18 @@
 使用visual studio code这个软件，看起来还不错。长得和sublime差不多，打开大文件也没有什么压力。
 升级到1.25后，也能输入中文了。用一段时间看看吧。
 
+增加了一个calc插件，只要输入=以后，就自动计算了，不用再输入热键了。
+
+吴曦那里的限速非常奇怪，昨天使用如下指令进行
+-A FORWARD -s 192.168.19.199/32 -m limit --limit 714/sec --limit-burst 699 -j ACCEPT
+-A FORWARD -d 192.168.19.199/32 -m limit --limit 714/sec --limit-burst 699 -j ACCEPT
+-A FORWARD -d 192.168.19.199/32 -j DROP
+-A FORWARD -s 192.168.19.199/32 -j DROP
+根本不限速，如果去掉limit，直接drop，是有效果的。
+今天早上吴曦再测试，又可以了，真的无法解释。
+
+张跃玲调试电话，这个codec在电话上应该没有调试过。加上了codec的驱动后，电话就无法接通了。再加上cp的一个可以录音的参数区后，可以拨打电话了，但是，没有声音，而且20秒必断。
+
 2018.7.4
 iw - 3.17-1,  - 1-6, 8021xd - 1, ated - 1, libiwinfo-lua  liblua libpcap - 1.5.3-1
 lua - 5.1.5-1  luci  reg rpcd switch uhttpd wireless-tools
