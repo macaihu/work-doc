@@ -1,5 +1,9 @@
 
 
+2018-7-12
+使用visual studio code这个软件，看起来还不错。长得和sublime差不多，打开大文件也没有什么压力。
+升级到1.25后，也能输入中文了。用一段时间看看吧。
+
 2018.7.4
 iw - 3.17-1,  - 1-6, 8021xd - 1, ated - 1, libiwinfo-lua  liblua libpcap - 1.5.3-1
 lua - 5.1.5-1  luci  reg rpcd switch uhttpd wireless-tools
