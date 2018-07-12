@@ -22,7 +22,7 @@ flashcp -v uImage /dev/mtd1
 cd /mnt/nfs/gm8136s/apps/iperf/iperf3/src/.libs
 export LD_LIBRARY_PATH=$(pwd)
 
-mount -t nfs 192.168.0.50:/opt/work/ /mnt/nfs --nolock
+mount -t nfs 192.168.19.199:/home/jian/work/ /mnt/nfs --nolock
 cd /tmp
 cp /mnt/nfs/gm8136s/images/elevator/elevator.bin .
 killall ash
