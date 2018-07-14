@@ -1,4 +1,11 @@
 
+2018-7-13
+fdupes这个工具可以查找同样的文件，不用自己去写脚本了。
+https://linux.cn/article-6127-1.html
+
+这个calc插件在某些情况下才计算，在很多地方不计算。
+
+这个visual studio code 貌似升级很频繁。这两天下载的，就有新版本了。
 
 2018-7-12
 使用visual studio code这个软件，看起来还不错。长得和sublime差不多，打开大文件也没有什么压力。

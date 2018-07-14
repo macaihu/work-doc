@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "python/**/*.bin": true,
+        "python/**/*.txt": true,
+        "sublime/**/libsublime-imfix.so": true,
+        "**/*~": true,
+        "**/*.7z": true
+    }
+}
