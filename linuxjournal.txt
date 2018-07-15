@@ -1,4 +1,12 @@
 
+2018-7-14
+那个l2tpv3的，如果使用2.6.31的内核，存在2路的情况下，会出
+Dropping packet:__nf_conntrack_confirm:467 0 2 0 :: 115 0 2 0 115
+似乎加上：
+iptables -A FORWARD -i br0 -o eth0 -s 192.168.19.199 -j ACCEPT
+就好了，但是，删掉他，还是可以的。
+但是，但是，如果重启了，再也不行了，真的很苦闷啊。
+
 2018-7-13
 fdupes这个工具可以查找同样的文件，不用自己去写脚本了。
 https://linux.cn/article-6127-1.html
