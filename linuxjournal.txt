@@ -1,4 +1,32 @@
 
+2018-7-16
+几个项目的进度：
+m60:2015.10.20拿到sdk, 1月给过中兴样机，但是问题很多，不稳定。4月提供的样机可用。仍有重启，掉网情况。直到7月联芯出了最后一个大版本。
+    其中voip 2016.1月开始，7月底稳定。
+
+p28:2016.12.20开始， 2017年4月送样机。时间主要在slic上。
+    其中fax, 2017年2月底给第一个测试版，18年2月，放弃测试。
+
+p59:2017年2月回板，4月开始， 11月调完wifidog，送样。
+
+p56:2016年8月开始，12月送样机。
+
+2018-7-15
+在cpe-df上配置网络:
+brctl delif br0 eth0
+ifconfig eth0 down
+ifconfig eth0 hw ether 18:a9:05:91:e3:c2
+ifconfig eth0 192.168.1.93 
+ifconfig br0 192.168.19.1 up  netmask 255.255.252.0 up
+route add default gw 192.168.1.2
+echo nameserver 192.168.1.2 > /etc/resolv.conf
+echo nameserver 8.8.8.8 >> /etc/resolv.conf
+iptables  -t nat -D POSTROUTING -o eth0 -j MASQUERADE
+iptables  -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+echo "1" > /proc/sys/net/ipv4/ip_forward
+iptables -t nat -D PREROUTING -d 192.168.1.93/32 -i eth0 -j DNAT --to-destination 192.168.19.199
+iptables -t nat -A PREROUTING -d 192.168.1.93/32 -i eth0 -j DNAT --to-destination 192.168.19.199
+
 2018-7-14
 那个l2tpv3的，如果使用2.6.31的内核，存在2路的情况下，会出
 Dropping packet:__nf_conntrack_confirm:467 0 2 0 :: 115 0 2 0 115
