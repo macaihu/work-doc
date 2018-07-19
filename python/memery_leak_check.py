@@ -1,11 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import pxssh
+from pexpect  import pxssh
 
-host='192.168.19.32'
+host='192.168.19.3'
 user='root'
-password='Tztopap1234'
+password='sztz369147258'
 
 
 def connect(hostname, usrname, password):
@@ -13,7 +13,6 @@ def connect(hostname, usrname, password):
     s=pxssh.pxssh()
     s.login(hostname, usrname, password)
     return s
-    print s
   except Exception, e:
   	print "[-] Erro connecting:" + str(e)
 

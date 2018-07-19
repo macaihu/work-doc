@@ -3,7 +3,7 @@
 import telnetlib
 import time
 
-host='192.168.1.1'
+host='192.168.19.3'
 username='root'
 password='Tztopap1234'
 finish='#'
@@ -19,8 +19,12 @@ def reboot():
 	#print tn.read_until('Password:')
 	#tn.write(password + '\n')
 	print tn.read_until(finish)
-	tn.write('ps\n')
-	print tn.read_until(finish)
+	tn.write('iptables -S -t nat\n')
+	readline = tn.read_until(finish)
+	print readline
+	findit = readline.find('DNAT')
+	if ( findit == -1 ) :
+		exit
 	tn.write('reboot\n')
 	print tn.read_until(finish)
 
@@ -31,4 +35,6 @@ while 1 :
 	count = count+1
 	print "reboot %d times" %count
 	reboot()
-	time.sleep(80)
+	for loop in range(80):
+		time.sleep(1)
+		print '*',
