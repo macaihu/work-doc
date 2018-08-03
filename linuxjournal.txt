@@ -1,4 +1,21 @@
 
+2018-8-2
+对于旧的ubuntu，也可以使用apt
+关于非LTS版Ubuntu系统无法update的解决方法
+https://jingyan.baidu.com/article/7c6fb42809854380652c9067.html
+
+原来使用的mnc=2不返回数据了。
+curl "http://api.cellocation.com:81/cell/?mcc=460&mnc=1&lac=10173&ci=180452649&output=json"
+{"errcode":0, "lat":"22.53485107", "lon":"114.0249939", "radius":"580", "address":"广东省深圳市福田区沙头街道泰然五路;香蜜湖路与泰然六路路口东77米"}
+
+
+ubuntu中文文件名乱码
+https://blog.csdn.net/xiao888lin/article/details/7865359
+
+2018-7-20
+全国企业信用信息公示系统，网址：http://gsxt.saic.gov.cn/
+做人脸识别的爱华盈通，居然是个新疆的公司。
+
 2018-7-17
 ARM DS-5.26.0安装及创建C程序
 https://blog.csdn.net/qq_27295631/article/details/68582582
