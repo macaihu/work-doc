@@ -1,4 +1,11 @@
 
+2018-8-6
+把旧的git移动的过程，能不能写个脚本来完成？
+
+这个软件下载百度盘上的东西飞快。
+http://pandownload.com/
+
+
 2018-8-2
 对于旧的ubuntu，也可以使用apt
 关于非LTS版Ubuntu系统无法update的解决方法
