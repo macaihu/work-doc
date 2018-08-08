@@ -1,5 +1,15 @@
 80*124
 
+2018-8-8
+vsftpd.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+这个问题可能是不能去监听ipv6，导致的：
+配置文件： /etc/vsftpd.conf 
+解决办法：listen_ipv6=NO
+https://blog.csdn.net/zhezhebie/article/details/78775008
+
+解决github上传ssh-key后仍须输入密码的问题
+上传pubkey后，remote改为git@github.com:netjianl/work-doc.git。
+https://blog.csdn.net/baidu_35085676/article/details/53456884
 
 2018-8-7
 这里有mcc,mnc列表，但是我自己的电信卡居然是46011，找不到，找不到。
@@ -8,6 +18,9 @@ https://cellidfinder.com/mcc-mnc
 linux统计文件夹某一些文件的大小总和
 使用如下命令，-m 代表MB
 du -m 20140507155000* | awk '{sum += $1}; END{print sum}'
+
+刘云
+如果sim卡在运行过程中松掉，那么cgreg就会报error。其他都不会报错。也上不了网。
 
 2018-8-6
 把旧的git移动的过程，能不能写个脚本来完成？
