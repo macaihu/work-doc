@@ -1,5 +1,32 @@
 80*124
 
+2018-8-14
+pdfgrep可以搜索多个pdf中的文本。
+
+这样可以把文件转为想要的c语言格式。
+hexdump -v -e '16/1 "0x%02x,"' -e '"\n"' ascii.txt
+
+2018-8-13
+采购部的打印机是192.168.1.15
+
+这个脚本，esim的模拟服务器返回500错误了。
+curl -v -H "X-Admin-Protocol: gsma/rsp/v2.1.0" -H "Content-Type: application/json" -H "Accept: application/json" --data '{"euiccChallenge":"AAECAwQFBgcICRAREhMUFQ==","eUICCInfo1":"vyBLggMCAQCpLAQU84P+PGWXPa/QDqbdiktT1iRT1qwEFGV84BIobqFx3TPQ1Mqp02hB9N66qhYEFPOD/jxllz2v0A6m3YpLU9YkU9as","smdpAddress":"samba5-json.demo.gemalto.com" }' http://192.168.17.171:8080/gsma/rsp2/es9plus/initiateAuthentication
+
+POST /gsma/rsp2/es9plus/initiateAuthentication HTTP/1.1
+Host: 192.168.17.171:8080
+User-Agent: curl/7.58.0
+X-Admin-Protocol: gsma/rsp/v2.1.0
+Content-Type: application/json
+Accept: application/json
+Content-Length: 211
+
+{"euiccChallenge":"AAECAwQFBgcICRAREhMUFQ==","eUICCInfo1":"vyBLggMCAQCpLAQU84P+PGWXPa/QDqbdiktT1iRT1qwEFGV84BIobqFx3TPQ1Mqp02hB9N66qhYEFPOD/jxllz2v0A6m3YpLU9YkU9as","smdpAddress":"samba5-json.demo.gemalto.com" }
+HTTP/1.1 500 
+X-Admin-Protocol: gsma/rsp/v2.0.0
+Content-Length: 0
+Date: Mon, 13 Aug 2018 12:30:35 GMT
+Connection: close
+
 2018-8-8
 vsftpd.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
 这个问题可能是不能去监听ipv6，导致的：
