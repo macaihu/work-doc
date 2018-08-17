@@ -1,5 +1,10 @@
 80*124
 
+2018-8-16
+strongswan中出现/bin/bash: line 1: -N: command not found 这样的错误，因为gperf没有安装，那么在一天新的ubuntu 18.04的server上这个东西居然装不了，说没有。看/etc/apt/sources.list文件里面只要三行。难道是第一次启动的时候没有联网？
+
+当前电脑出现第二次界面完全没有响应了。是不是要重新安装个系统？
+
 2018-8-15
 Eye of GNOME
 Eye of GNOME 是 Ubuntu 系统默认的图片查看器，它集成在 GNOME 桌面环境中，尽管它界面简单，但是支持多种图片格式，并且可以用幻灯片模式查看图片。
