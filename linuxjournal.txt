@@ -1,5 +1,22 @@
 80*124
 
+2018-8-21
+对于python中的循环变量告警，把变量变为_， 就可以了:
+ for循环，pydev提示未使用的变量，解决办法 http://www.cnblogs.com/testlife007/p/4514491.html
+
+这个python代码可以从p59上取下dhcp客户端列表了：
+    loginpayload={'cmd':100,'method':"POST", 'language':'EN', 'username':'admin', 'passwd':'f6339c4179e7b9b4b7c9da08502184ec', 'sessionId':'a6083050f134e86e79a7af2a5217ab4ea0ff26b8b1a25ea4b45fb969aa49d457' }
+    test = 'test=test'
+    headers = {'Content-Type' : 'multipart/form-data'}
+    login = requests.post('http://192.168.19.1/cgi-bin/http.cgi', params=loginpayload, headers=headers)
+    print(login.json())
+    json1={"cmd":122,"method":"GET","language":"CN","sessionId":"a6083050f134e86e79a7af2a5217ab4ea0ff26b8b1a25ea4b45fb969aa49d457"}
+    r = requests.post('http://192.168.19.1/cgi-bin/http.cgi', json=json1)
+    print(r.status_code)
+    macs=r.json()['data']
+    print(macs)
+
+
 2018-8-16
 strongswan中出现/bin/bash: line 1: -N: command not found 这样的错误，因为gperf没有安装，那么在一天新的ubuntu 18.04的server上这个东西居然装不了，说没有。看/etc/apt/sources.list文件里面只要三行。难道是第一次启动的时候没有联网？
 
