@@ -37,13 +37,15 @@ def addhttp1():
 
 def addhttp():
     loginpayload={'cmd':100,'method':"POST", 'language':'EN', 'username':'admin', 'passwd':'f6339c4179e7b9b4b7c9da08502184ec', 'sessionId':'a6083050f134e86e79a7af2a5217ab4ea0ff26b8b1a25ea4b45fb969aa49d457' }
-    #test = 'test=test'
+    test = 'test=test'
     headers = {'Content-Type' : 'multipart/form-data'}
-    requests.post('http://192.168.19.1/cgi-bin/http.cgi', params=loginpayload, headers=headers)
-    #print(login.json())
+    login = requests.post('http://192.168.19.1/cgi-bin/http.cgi', params=loginpayload, headers=headers, data=test)
+    #print(login.status_code)
+    #print(login.text)
     json1={"cmd":122,"method":"GET","language":"CN","sessionId":"a6083050f134e86e79a7af2a5217ab4ea0ff26b8b1a25ea4b45fb969aa49d457"}
     r = requests.post('http://192.168.19.1/cgi-bin/http.cgi', json=json1)
     #print(r.status_code)
+    #print(r.json())
     macs=r.json()['data']
     count=0
     for pc in macs:
