@@ -4,27 +4,35 @@ import sys
 import http.client
 import requests
 import json
+import datetime
 
 recorder_file='0keeper.md'
 
-def mac_isexist(mac):
+def mac_isexist(cname, mac, ip):
     f1=file(recorder_file)
     #print("we are find " + mac)
-    for line in f1.readlines():
+    lines = f1.readlines()
+    foundit = False
+    f1=file(recorder_file, 'w')
+    for line in lines:
         #print line
         if(line.find(mac)>0):
-            print(mac+" is add before")
-            return True
-    return False
+            #print(mac+" is add before")
+            foundit = True
+            line = cname + ' | ' +mac + ' | '+ ip + '  | ' + datetime.datetime.now().strftime(' %Y-%m-%d')+ '\n'
+        f1.write(line)
+    return foundit
 
 def addit(cname, mac, ip):
-    if(mac_isexist(mac)):
+    for _ in range(40-len(cname)):
+        cname += " "    
+    for _ in range(14-len(ip)):
+        ip += " "    
+    if(mac_isexist(cname, mac, ip)):
         return False
     f1=file(recorder_file, 'a')
-    for _ in range(55-len(cname)):
-        cname += " "
     print(mac+"will add")
-    f1.write(cname + ' | ' +mac + ' | '+ ip + '\n')
+    f1.write(cname + ' | ' +mac + ' | '+ ip + '  | ' + datetime.datetime.now().strftime(' %Y-%m-%d') + '\n')
     f1.close
     return True
 

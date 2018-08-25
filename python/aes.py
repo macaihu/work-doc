@@ -48,7 +48,7 @@ def sendmail(afileName):
 	message['Date'] = output
 	message['From'] = Header("jianliang@sztozed.net", 'ascii')
 	message['To'] =  Header("jianliang@139.com", 'ascii')
-	subject = afileName + datetime.datetime.now().strftime(' %Y-%m-%d %H:%M:%S');
+	subject = afileName + datetime.datetime.now().strftime(' %Y-%m-%d %H:%M:%S')
 	message['Subject'] = Header(subject, 'utf-8')
 	message.attach(MIMEText("hello world! "+md5sum(afileName), 'plain', 'utf-8'))
 	att1 = MIMEText(open(afileName, 'rb').read(), 'base64', 'utf-8')
