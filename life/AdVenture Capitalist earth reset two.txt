@@ -3,8 +3,8 @@ multriplier 45	flux 3
 
 date    | time  | num
 --------| ------| ----
-12-10	| 12:24 | 	730.238	trillion
-		| 12:25	|148.182	quintillion
+12-10	| 12:24 |   730.238	trillion
+		| 12:25	|   148.182	quintillion
 		| 12:31 |	20.84	nonillion
 		| 12:27 |	18.527	septillion
 		| 12:35 |	6.706	quattuordecillion
@@ -66,26 +66,26 @@ date    | time  | num
 		| 20:00 |	287.451	..
 		| 20:43 |	3.037	unnonagintillion
 		| 21:26 |	7?	..
-		| ??	|16??	..
-12-11|	9:00|	193??	..
-		|10:36|	1.586	duononagintillion
-		|12:44|	77??	..
-		|14:43|	317.718	..
-		|16:24|	5.87	trenonagintillion
-		|18:51|	19.26	..
-		|21:09|	20??	quattuornonagitillion
-		|21:22|	41.314	..
-		|21:33|	96.63	..
-		|21:42|	583.926	..
-		|21:44|	24.561	quinnonagitillion(reached all)
-		|21:57|	250.194	..
-		|21:48|	80??	..
-12-12|	8:26|	613.314	..
-		|18:24|	8.474	sexnonagintillion
-12-13|	8:45|	36.146	..
-12-14|	11:41|	89.126	..
-12-16|	20:21|	204.951	..
-12-22|	14:21|	472.023	..
+		| ??	|  16??	..
+12-11   | 9:00  |  193??	..
+		|10:36  |  1.586	duononagintillion
+		|12:44  |  77??	..
+		|14:43  |  317.718	..
+		|16:24  |  5.87	trenonagintillion
+		|18:51  |  19.26	..
+		|21:09  |  20??	quattuornonagitillion
+		|21:22  |  41.314	..
+		|21:33  |  96.63	..
+		|21:42  |  583.926	..
+		|21:44  |  24.561	quinnonagitillion(reached all)
+		|21:57  |  250.194	..
+		|21:48  |  80??	..
+12-12   |8:26   |  613.314	..
+		|18:24  |  8.474	sexnonagintillion
+12-13   |8:45   | 36.146	..
+12-14   |11:41  | 89.126	..
+12-16   |20:21  | 204.951	..
+12-22   |14:21  | 472.023	..
 ||
 2017||
 1.5		|21:53|	1.076	septnonagintillion
@@ -94,3 +94,5 @@ multriplier 126||
 3.18	|5:00	|17.992	septnonagintillion
 5.20  |  7:17|    37.101  septnonagintillion
 10.15 |  16:52|   83.022  septnonagintillion
+2018||
+8.25  |  21:06  | 283.873 octononagintillion

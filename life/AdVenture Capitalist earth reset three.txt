@@ -1,0 +1,57 @@
+multriplier 126	flux 3
+
+
+2018
+date    | time  | num
+--------| ------| ----
+8-25    | 21:17 | 49.143  quintillion
+        | 21:19 | 46.768  octillion
+        | 21:21 | 2.48    duodecillion
+        | 21:23 | 388.97  septendecillion
+        | 21:24 | 1.454   unvigintillion
+        | 21:25 | 15.371  duovigintillion
+        | 21:26 | 15.371  trevigintillion
+        | 21:27 | 3.224   quinvigintillion
+        | 21:29 | 389.939 sexvigintillion
+        | 21:31 | 32.262  octovigintillion
+        | 21:32 | 1.003   tretrigintillion
+        | 21:34 | 2.302   septentrigintillion
+        | 21:35 | 3.601   duoquadragintillion
+        | 21:37 | 62.147  quinquadragintillion
+        | 21:39 | 286.676 octoquadragintillion
+        | 21:41 | 44.897  quattuorquinquagintillion
+        | 21:43 | 8.158   novemquinquagintillion
+        | 21:44 | 577.291 duosexagintillion
+        | 21:45 | 441.288 quinsexagintillion
+        | 21:47 | 10.751  octosexagintillion
+        | 21:49 | 275.563 sepuagintillion
+        | 21:50 | 1.01    treseptuagintillion
+        | 21:52 | 12.177  quattuorseptuagintillion
+        | 21:54 | 460.692 sexseptuagintillion
+        | 21:58 | 2.715   octoseptuagintillion
+        | 21:59 | 10.24   novemseptuagintillion
+        | 22:02 | 5.04    unoctogintillion
+        | 22:04 | 152.036 treoctogintillion
+        | 22:05 | 813.838 quattuoroctogintillion
+        | 22:07 | 7.689   septoctogintillion
+        | 22:09 | 2.212   novemoctogintillion
+        | 22:10 | 212.996 nonagintillion
+        | 22:13 | 450.405 unnoagintillion
+        | 22:15 | 185.491 duononagintillion
+        | 22:16 | 247.376 quattuornonagintillion
+        | 22:19 | 13.469  sexnonagintillion           beat it
+        | 22:21 | 7.974   septnonagintillion
+        | 22:21 | 152.834 ..
+        | 22:24 | 611.833 ..
+        | 22:28 | 1.525   octonoagintillion
+        | 22:34 | 4.081   ..
+        | 22:44 | 8??     ..
+add speed 400%
+        | 22:53 | 155.554 ..
+        | 23.03 | 594.481 ..
+        | 23.21 | 1.597   novemnonagintillion
+
+
+
+
+
