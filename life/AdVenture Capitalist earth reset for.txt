@@ -1,0 +1,47 @@
+multriplier 126	flux 3
+
+
+2018
+date    | time  | num
+--------| ------| ----
+ 8-26   | 20:31 | 0
+        | 20:33 | 54.976  qunitillion
+        | 20:34 | 30.636  nonillion
+        | 20:35 | 22.532  sexdecillion
+        | 20:37 | 99.689  duovigintillion
+        | 20:38 | 111.218 septenvigintillion
+        | 20:39 | 758.848 tretrigintillion
+        | 20:39 | 758.848 tretrigintillion
+        | 20:41 | 171.5   novemtrigintillion
+        | 20:43 | 1.018   quinquadragintillion
+        | 20:44 | 146.277 octoquadragintillion
+        | 20:45 | 247.891 trequinquagintillion
+        | 20:47 | 5.552   octoquinquagintillion
+        | 20:48 | 195.544 unsexagintillion
+        | 20:49 | 16.198  quinsexagintillion
+        | 20:50 | 25.621  octosexagintillion
+        | 20:52 | 89.994  unseptuagintillion
+        | 20:53 | 198.17  quattuorseptuagintillion
+        | 20:55 | 8.918   septseptuagintillion
+        | 20:56 | 4.544   novemseptuagintillion
+        | 20:58 | 9.644   unoctogintillion
+        | 20:59 | 9.811   quattuoroctogintillion
+        | 21:01 | 285.227 sexoctogintillion
+        | 21:02 | 3.32    novemoctogintillion
+        | 21:03 | 19.63   nonagintillion
+        | 21:05 | 322.3   unnonagintillion
+        | 21:07 | 15.801  quattuornonagintillion
+        | 21:08 | 313.805 quinnonagintillion      beat it
+        | 21:10 | 6.758   septnonagintillion 
+        | 21:11 | 1.138   octononagintillion
+        | 21:13 | 18.783  ..
+        | 21:16 | 53.773  ..
+        | 21:19 | 126.884 ..
+        | 21:23 | 417.338 ..
+        | 21:30 | 916.039 ..
+        | 21:3x | 1.867   novemnonagintillion
+      
+
+        
+
+

@@ -43,13 +43,14 @@ date    | time  | num
         | 22:21 | 7.974   septnonagintillion
         | 22:21 | 152.834 ..
         | 22:24 | 611.833 ..
-        | 22:28 | 1.525   octonoagintillion
+        | 22:28 | 1.525   octononagintillion
         | 22:34 | 4.081   ..
         | 22:44 | 8??     ..
 add speed 400%
         | 22:53 | 155.554 ..
         | 23.03 | 594.481 ..
         | 23.21 | 1.597   novemnonagintillion
+8-26    | 10:24 | 3.798   ..                     stop
 
 
 
