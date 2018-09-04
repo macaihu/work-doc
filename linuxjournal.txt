@@ -1,5 +1,6 @@
-80*124
 
+
+80*124
 2018-8-25
 steam 在18.04上不能运行，要这样：~/.local/share/Steam/ubuntu12_32/steam
 https://askubuntu.com/questions/966373/steam-doesnt-open-on-ubuntu-17-10
@@ -21,7 +22,7 @@ wq
     headers = {'Content-Type' : 'multipart/form-data'}
     login = requests.post('http://192.168.19.1/cgi-bin/http.cgi', params=loginpayload, headers=headers)
     print(login.json())
-    json1={"cmd":122,"method":"GET","language":"CN","sessionId":"a6083050f134e86e79a7af2a5217ab4ea0ff26b8b1a25ea4b45fb969aa49d457"}
+    json1={"cmd":122,"method":"GET","language18:a9:05:91:e3:c2":"CN","sessionId":"a6083050f134e86e79a7af2a5217ab4ea0ff26b8b1a25ea4b45fb969aa49d457"}
     r = requests.post('http://192.168.19.1/cgi-bin/http.cgi', json=json1)
     print(r.status_code)
     macs=r.json()['data']

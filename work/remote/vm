@@ -1,2 +1,2 @@
 
-rdesktop 192.168.20.81 -g 1440x870 -u jianliang -p 123456 -r disk:f=/media/jian/518C138300565C98,g=/ -r sound:remote -a 16 -k en-us
+rdesktop 192.168.42.59 -g 1440x870 -u jianliang -p 123456 -r disk:f=/media/jian/518C138300565C98,g=/ -r sound:remote -a 16 -k en-us
