@@ -1,6 +1,12 @@
 
 
 80*124
+
+2018-9-4
+../apps/gdb/install/bin/mips-linux-gdb ../staging/rootfs-tozedap-p59_ap143.build/usr/sbin/cwmpd core.cwmpd.1815
+set solib-search-path /home/jian/work/ath9.5/staging/rootfs-tozedap-p59_ap143.build/lib
+这样bt就可以有东西了。
+
 2018-8-25
 steam 在18.04上不能运行，要这样：~/.local/share/Steam/ubuntu12_32/steam
 https://askubuntu.com/questions/966373/steam-doesnt-open-on-ubuntu-17-10
