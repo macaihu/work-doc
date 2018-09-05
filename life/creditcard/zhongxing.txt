@@ -720,100 +720,37 @@ Amt主卡：简亮(RMB交易)
   nullB nullotku 20141020 20141020 6558 跨行自动还款中国建设银行   RMB -147.86 RMB -147.86 
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+最后还款日：2014年10月20日
+卡号	上期应还款额	-	上期已还款额	+	本期新增金额	=	本期应还款额	最低还款额
+	Card Number	Previous Balance	Payments	New Activity	Current Balance	Min.Payment
+					RMB	nullVQ	5201-0880-****-**58	RMB	536.50	536.50	147.86	147.86	7.39
+卡号:5201-0880-****-**58
+		 交易日	银行记账日	 卡号后四位	 交易描述	   交易货币/金额	  记账货币/金额
+	Trans Date	Post Date	Card Number	Description	Trx.Amt	Setl.Amt
+			主卡：简亮(RMB交易)
+		20140903	20140903	6558	支付宝快捷支付  	RMB	14.19	RMB	14.19
+		20140903	20140912	6558	支付宝快捷支付  	RMB	-14.19	RMB	-14.19
+		20140920	20140920	6558	跨行自动还款中国建设银行  	RMB	-536.50	RMB	-536.50
+		20140921	20140921	6558	SA SA COSMETIC CO LTD  HONGKONG     CN  	RMB	147.86	RMB	147.86
 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
+最后还款日：2014年09月20日
+卡号 上期应还款额	-	上期已还款额	+	本期新增金额	=	本期应还款额	最低还款额
+	Card Number	Previous Balance	Payments	New Activity	Current Balance	Min.Payment
+	5201-0880-****-**58	RMB	324.00	324.00	536.50	536.50	26.83
+卡号:5201-0880-****-**58
+		 交易日	银行记账日	 卡号后四位	 交易描述	   交易货币/金额	  记账货币/金额
+	Trans Date	Post Date	Card Number	Description	Trx.Amt	Setl.Amt
+			主卡：简亮(RMB交易)
+		20140917	nullFheJ	20140803	20140803	6558	支付宝快捷支付  	RMB	196.00	RMB	196.00
+		HKD	nullj	20140803	20140803	6558	支付宝快捷支付  	RMB	337.00	RMB	337.00
+		nullcEAE	nullJqhv	20140805	20140805	6558	支付宝快捷支付  	RMB	269.00	RMB	269.00
+		EUR	nulluIUO	20140805	20140824	6558	支付宝快捷支付  	RMB	-265.50	RMB	-265.50
+		RMB	HKD	20140820	20140820	6558	跨行自动还款中国建设银行  	RMB	-324.00	RMB	-324.00
 
 
 
- 
- 
- 
-   
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
- 
-    
- 
- 
- 
- 
- 
- 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-   
- 
- 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
 
