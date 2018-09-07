@@ -2,6 +2,11 @@
 
 80*124
 
+2018-9-5
+vscode缩进快捷键：
+   选中文本；
+     Ctrl  +  [      和   Ctrl  +  ]     实现文本的向左移动或者向右移动；
+
 2018-9-4
 ../apps/gdb/install/bin/mips-linux-gdb ../staging/rootfs-tozedap-p59_ap143.build/usr/sbin/cwmpd core.cwmpd.1815
 set solib-search-path /home/jian/work/ath9.5/staging/rootfs-tozedap-p59_ap143.build/lib
