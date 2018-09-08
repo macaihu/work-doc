@@ -1,7 +1,7 @@
 
 
 2018.6.10
-celestial      [ce·les·ti·al || sɪ'lestjəl] adj.  天的, 天空的, 天国的 
+celestial      [celestial || sɪlestjəl] adj.  天的, 天空的, 天国的 
 hemorrhage     n.  出血
 
 2018.5.24
@@ -27,7 +27,7 @@ imbecile       ['ɪmbɪsəl /-sɪːl] n.  低能者, 愚蠢者, 痴呆 adj.  低
 gangly         adj.  身材瘦长的
 
 2018.4.10
-ointment       ['ɔɪntmənt]n.  软膏; 药膏; 油膏
+ointment       ['ɔɪntmənt]n.  软膏; 药膏; 油膏  2018.9.7
 
 2018.1.28
 tansy          ['tænzi] n.  艾菊
