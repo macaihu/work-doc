@@ -2,6 +2,8 @@
 
 80*124
 
+sudo apt install synaptic
+
 
 2018-9-10
 启用Win10家庭版中被阉割的远程桌面服务端
@@ -434,15 +436,15 @@ assert(file);
 local onenet=file:read("*a");
 file:close();
 screen:print(10,10,onenet,white);
-
-2018.1.8
-在没有咪头的情况下, 采集的声音居然是噪声.
-在audacity中引入, 那么使用8k和44.8k, 听起来没有什么不同.
-
-2018.1.5
-sensor的源码在isp328/input_module中.
-那个博客园的密码改为Oo0keeper
-
+sudo apt install synaptic
+sudo apt install synaptic
+sudo apt install synaptic情况下, 采集的声音居然是噪声.
+sudo apt install synaptic引入, 那么使用8k和44.8k, 听起来没有什么不同.
+sudo apt install synaptic
+sudo apt install synaptic
+sudo apt install synaptic在isp328/input_module中.
+sudo apt install synaptic密码改为Oo0keeper
+sudo apt install synaptic
 2018.1.2
 计算机的速度又开始变慢, 那个xorg又开始狂占cpu.
 乱改了参数后, 只有桌面图, 什么都没有啦, 最后解决的方法居然是插入一个u盘, 然后右键, open一个terminal, 运行
