@@ -30,9 +30,15 @@ def addit(cname, mac, ip):
         ip += " "    
     if(mac_isexist(cname, mac, ip)):
         return False
-    f1=file(recorder_file, 'a')
-    print(mac+"will add")
-    f1.write(cname + ' | ' +mac + ' | '+ ip + '  | ' + datetime.datetime.now().strftime(' %Y-%m-%d') + '\n')
+    f1=file(recorder_file, 'r')
+    content=f1.readline()
+    content+=f1.readline()
+    print(mac+" will add")
+    content+=cname + ' | ' +mac + ' | '+ ip + '  | ' + datetime.datetime.now().strftime(' %Y-%m-%d') + '\n'
+    content+=f1.read()
+    f1.close
+    f1=file(recorder_file,'w')
+    f1.write(content)
     f1.close
     return True
 

@@ -22,13 +22,13 @@ def read_info(s,hostname):
 	stdin, stdout, stderr = s.exec_command ('uptime')  
 	print stdout.read()
 	stdin, stdout, stderr = s.exec_command ('ls /tmp/coredump')  
-	#stdin.write("Y")  # Generally speaking, the first connection, need a simple interaction.  
 	coredumpfiles = stdout.read() 
 	if(coredumpfiles==""):
 		print "ok no crash files"
 	else:
 		os.system("sshpass -p sztz369147258 scp -P 8357 root@" + hostname + ":/tmp/coredump/* .")
 		print coredumpfiles
+		stdin, stdout, stderr = s.exec_command ('rm /tmp/coredump/*')  
 	stdin, stdout, stderr = s.exec_command ('cat /proc/meminfo | grep MemFree')  
 	print stdout.read()	
 	stdin, stdout, stderr = s.exec_command ('dmesg -c')  
@@ -49,8 +49,6 @@ def main(host):
 	username = 'root'  
 	password = 'sztz369147258'  
 	check_error(host , port, username, password)  
-	#check_error("192.168.19.3" , port, username, password)  
-
 
 if __name__ == '__main__':
 	main(sys.argv[1])
