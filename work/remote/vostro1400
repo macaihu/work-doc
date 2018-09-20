@@ -1,1 +1,1 @@
-rdesktop 192.168.19.188 -g 1440x870 -u administrator -p 123456 -r disk:f=/media/jian/518C138300565C98,g=/ -r sound:remote -a 16 -k en-us
+rdesktop 192.168.19.188 -g 1440x870 -u hahaha -p 123456 -r disk:f=/media/jian/518C138300565C98,g=/ -r sound:remote -a 16 -k en-us
