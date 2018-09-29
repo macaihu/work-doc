@@ -26,7 +26,9 @@ def read_info(s,hostname):
 	if(coredumpfiles==""):
 		print "ok no crash files"
 	else:
-		os.system("sshpass -p sztz369147258 scp -P 8357 root@" + hostname + ":/tmp/coredump/* .")
+		coredir = "`date +%y%m%d_%H%M%S`"
+		os.system("mkdir " + coredir)
+		os.system("sshpass -p sztz369147258 scp -P 8357 root@" + hostname + ":/tmp/coredump/* " + coredir)
 		print coredumpfiles
 		stdin, stdout, stderr = s.exec_command ('rm /tmp/coredump/*')  
 	stdin, stdout, stderr = s.exec_command ('cat /proc/meminfo | grep MemFree')  

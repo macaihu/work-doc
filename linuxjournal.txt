@@ -2,6 +2,17 @@
 
 80*124
 
+2018-9-27
+PV 由Andrew Wood 开发，是 Pipe Viewer 的简称，意思是通过管道显示数据处理进度的信息。
+https://linux.cn/article-6734-1.html
+
+把这个加入注册表，那个恼人的expleror.exe没有关联的弹出框就没有出现了。
+Windows Registry Editor Version 5.00
+[[HKEY_CLASSES_ROOT\Folder\shell\explore\command]
+"DelegateExecute"="{11dbb47c-a525-400b-9e80-a54615a090c0}"
+[HKEY_CLASSES_ROOT\Folder\shell\opennewwindow\command]
+"DelegateExecute"="{11dbb47c-a525-400b-9e80-a54615a090c0}"
+
 2018-9-26
 ==8071== Process terminating with default action of signal 11 (SIGSEGV): dumping core
 ==8071==  Access not within mapped region at address 0x652F6163
@@ -5913,9 +5924,6 @@ busybox tail -f /tmp/11.log
 工业路由器西森美康说路由器有不断的拨号，断开动作，到了现场发现ip并没有改变。关闭了那个第二个连接后，仍然存在，又去看什么保持连接的方式，应该是重启后就没有这样的事情了。
 
 2016-9-29
-4g固定台：
-修正了br0随机地址，余小虎又谈到了eth0的地址是随机的问题，原来是他使用新的usb网卡驱动的时候没有把重试的次数增加到10。
-
 陈良：安徽的割接已经算是顺利的通过了吧，现在河北的cpe网管问题是主要问题了。河北当前有三个问题
 
 2016-9-28
