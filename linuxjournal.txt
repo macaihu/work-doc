@@ -1,6 +1,12 @@
 
 
 80*124
+#0  0x77ac8cc0 in popen () from /home/jian/work/ath9.5/staging/rootfs-tozedap-p59_ap143.build/lib/libuClibc-0.9.30.1.so
+#1  0x004104f0 in util_get_cmd_result (shellcmd=0x49cc30 "route -n | grep UG | awk '{print$8}'", buffer=0x7efffc04 "", size=100) at cmdlib.c:4528
+#2  0x00426d90 in util_get_wan_interface_name () at cmdlib.c:10882
+#3  0x0044bd00 in refresh_device_info_porcess () at modules/InternetGatewayDevice/LANDevice/LANDevice.c:2703
+Backtrace stopped: Cannot access memory at address 0x77b4f4de
+
 
 2018-9-27
 PV 由Andrew Wood 开发，是 Pipe Viewer 的简称，意思是通过管道显示数据处理进度的信息。

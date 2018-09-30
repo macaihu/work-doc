@@ -31,6 +31,7 @@ def read_info(s,hostname):
 		os.system("sshpass -p sztz369147258 scp -P 8357 root@" + hostname + ":/tmp/coredump/* " + coredir)
 		print coredumpfiles
 		stdin, stdout, stderr = s.exec_command ('rm /tmp/coredump/*')  
+		stdin, stdout, stderr = s.exec_command ('killall cwmpd')
 	stdin, stdout, stderr = s.exec_command ('cat /proc/meminfo | grep MemFree')  
 	print stdout.read()	
 	stdin, stdout, stderr = s.exec_command ('dmesg -c')  
