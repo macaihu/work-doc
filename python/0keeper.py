@@ -17,7 +17,7 @@ def mac_isexist(cname, mac, ip):
     for line in lines:
         #print line
         if(line.find(mac)>0):
-            #print(mac+" is add before")
+            print(mac+"  "+cname + " come again.")
             foundit = True
             line = cname + ' | ' +mac + ' | '+ ip + '  | ' + datetime.datetime.now().strftime(' %Y-%m-%d')+ '\n'
         f1.write(line)
@@ -33,7 +33,7 @@ def addit(cname, mac, ip):
     f1=file(recorder_file, 'r')
     content=f1.readline()
     content+=f1.readline()
-    print(mac+" will add")
+    print(mac+"  "+cname + " is new user.")
     content+=cname + ' | ' +mac + ' | '+ ip + '  | ' + datetime.datetime.now().strftime(' %Y-%m-%d') + '\n'
     content+=f1.read()
     f1.close
