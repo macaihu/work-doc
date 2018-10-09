@@ -1,7 +1,61 @@
 
 
-80*124
+2019-10-8
+139这个邮箱不知道是和the bat的配合还是怎么样，出现了2次无法收邮件的情况。
+报错情况：
+ 2018/10/8, 15:03:43: FETCH - 1822 封邮件在邮箱内，23 封新的
+!2018/10/8, 15:04:15: FETCH - 连接到主机中断（最后发送的命令为："UIDL", "RETR 1800"）
+这个时候，可以使用telnet mail.139.com 110来进行删除操作。
+telnet mail.139.com 110
+Trying 221.176.9.121...
+Connected to mail.139.com.
+Escape character is '^]'.
++OK richmail system v10(32d35bbb01d5c43-1c528)
+user jianliang
++OK
+pass xxxxxxxxxxxx
++OK login success
+dele 1800
++OK deleted successful
+quit
++OK dewey POP3 server signing off
+Connection closed by foreign host.
+然后就可以继续收邮件了。
 
+又一个错误：
+#0  0x77a48cc0 in popen () from /home/jian/work/ath9.5/staging/rootfs-tozedap-p59_ap143.build/lib/libuClibc-0.9.30.1.so
+#1  0x00477808 in read_memory (shellcmd=0x7f1fef2c "hostapd_cli -i ath0 all_sta | grep  wpsDeviceName | wc -l", out=0x7f1feeac "", size=128) at cwmp.c:3698
+#2  0x0044ae7c in read_wps_registrar_info (read_wps_device_info=0x7f1fefe0) at modules/InternetGatewayDevice/LANDevice/LANDevice.c:2567
+#3  0x0044b938 in make_wps_associated_table_lists () at modules/InternetGatewayDevice/LANDevice/LANDevice.c:2661
+#4  0x0044bc94 in refresh_device_info_porcess () at modules/InternetGatewayDevice/LANDevice/LANDevice.c:2694
+warning: GDB can't find the start of the function at 0x77ad13c7.
+
+    GDB is unable to find the start of the function at 0x77ad13c7
+and thus can't determine the size of that function's stack frame.
+This means that GDB may be unable to access that stack frame, or
+the frames below it.
+    This problem is most likely caused by an invalid program counter or
+stack pointer.
+    However, if you think GDB should simply search farther back
+from 0x77ad13c7 for code which looks like the beginning of a
+function, you can increase the range of the search using the `set
+heuristic-fence-post' command.
+#5  0x77ad13c8 in ?? () from /home/jian/work/ath9.5/staging/rootfs-tozedap-p59_ap143.build/lib/libpthread-0.9.30.1.so
+
+tr069还是出现了错误:
+#0  0x77740cc0 in popen () from /home/jian/work/ath9.5/staging/rootfs-tozedap-p59_ap143.build/lib/libuClibc-0.9.30.1.so
+#1  0x00477808 in read_memory (shellcmd=0x4cc8f4 <shellcmd> "cfg -g TZ_DEVICE_TYPE", out=0x4cca38 <param> "", size=256) at cwmp.c:3698
+#2  0x00477c8c in get_single_config_attr (name=0x4aa614 "TZ_DEVICE_TYPE", value=0x4cca38 <param> "", value_size=256) at cwmp.c:3800
+#3  0x0047f510 in get_sys_parameter (name=X_SYS_ProductClass, value=0x7fcdcbc4) at cwmp.c:6034
+#4  0x0046f8d0 in cwmp_create_device_id_node (env=0x7e39fc, parent=0x75cf9c, deviceid=0x7de470) at cwmp.c:2185
+#5  0x0047072c in cwmp_create_inform_message (env=0x7e39fc, header=0x7de464, deviceid=0x7de470, events=0x75c97c, currentt=0x75c964, max_envelope=1, retry_count=0, 
+    pl=0x7de488) at cwmp.c:2323
+#6  0x00490630 in cwmp_session_create_inform_message (session=0x7ebf60, pool=0x7de440) at session.c:953
+#7  0x0042f310 in cwmp_agent_start_session (cwmp=0x73e174) at agent.c:342
+#8  0x00430808 in cwmp_agent_session (cwmp=0x73e174) at agent.c:755
+#9  0x0042e234 in cwmp_worker_thread_start (cwmp=0x73e174) at thread.c:122
+#10 0x0042df94 in cwmp_process_start_master (cwmp=0x73e174) at process.c:37
+#11 0x0042cf9c in main (argc=1, argv=0x7fcdd6b4) at cwmpd.c:339
 
 
 2018-9-27

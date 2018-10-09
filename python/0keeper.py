@@ -5,10 +5,11 @@ import http.client
 import requests
 import json
 import datetime
+import time
 
 recorder_file='0keeper.md'
 
-def mac_isexist(cname, mac, ip):
+def mac_isexist(cname, mac, ip, lease_time):
     f1=file(recorder_file)
     #print("we are find " + mac)
     lines = f1.readlines()
@@ -17,24 +18,24 @@ def mac_isexist(cname, mac, ip):
     for line in lines:
         #print line
         if(line.find(mac)>0):
-            print(mac+"  "+cname + " come again.")
+            print(mac+"  "+cname + lease_time + " come again.")
             foundit = True
-            line = cname + ' | ' +mac + ' | '+ ip + '  | ' + datetime.datetime.now().strftime(' %Y-%m-%d')+ '\n'
+            line = cname + ' | ' +mac + ' | '+ ip + '  | ' + lease_time + '\n'
         f1.write(line)
     return foundit
 
-def addit(cname, mac, ip):
+def addit(cname, mac, ip, lease_time):
     for _ in range(40-len(cname)):
         cname += " "    
     for _ in range(14-len(ip)):
         ip += " "    
-    if(mac_isexist(cname, mac, ip)):
+    if(mac_isexist(cname, mac, ip, lease_time)):
         return False
     f1=file(recorder_file, 'r')
     content=f1.readline()
     content+=f1.readline()
-    print(mac+"  "+cname + " is new user.")
-    content+=cname + ' | ' +mac + ' | '+ ip + '  | ' + datetime.datetime.now().strftime(' %Y-%m-%d') + '\n'
+    print(mac+"  "+cname + lease_time + " is new user.")
+    content+=cname + ' | ' +mac + ' | '+ ip + '  | ' + lease_time + '\n'
     content+=f1.read()
     f1.close
     f1=file(recorder_file,'w')
@@ -63,12 +64,17 @@ def addhttp():
     macs=r.json()['data']
     count=0
     for pc in macs:
+        time1=pc[0]
         mac=pc[1].upper()
         ip=pc[2]
         pcname=pc[3]
-        if(addit(pcname, mac, ip)):
+        datetime_struct = datetime.datetime.fromtimestamp(float(time1)-60*60*24)
+        localtime=datetime_struct.strftime(" %Y-%m-%d %H:%M:%S")
+        if(addit(pcname, mac, ip, localtime)):
             count += 1
-        #print(mac, ip, pcname)
+        #print(mac, ip, pcname,time1)
+        #print time.localtime(float(time1))
+        #print localtime
     print "add ", count 
 
 if __name__ == '__main__':
