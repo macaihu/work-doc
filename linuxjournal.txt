@@ -1,5 +1,20 @@
 
 
+2018-10-9
+18.04安装smba似乎不难：
+并非按照这个连接做的。
+https://blog.csdn.net/yuanjinshenglife/article/details/81122132
+
+防火墙要增加如下端口：
+四个  137 udp  138 udp    139 tcp  445 tcp。
+
+curl -s   --interface usb0 http://ip.cn
+这样就能到当前公网的ip
+
+User ID:  LeadcoreTech
+Password:  472ktm6
+Admin Key:  11642
+
 2019-10-8
 139这个邮箱不知道是和the bat的配合还是怎么样，出现了2次无法收邮件的情况。
 报错情况：

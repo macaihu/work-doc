@@ -25,7 +25,7 @@ def mac_isexist(cname, mac, ip, lease_time):
     return foundit
 
 def addit(cname, mac, ip, lease_time):
-    for _ in range(40-len(cname)):
+    for _ in range(32-len(cname)):
         cname += " "    
     for _ in range(14-len(ip)):
         ip += " "    
@@ -81,4 +81,4 @@ if __name__ == '__main__':
     if(len(sys.argv) == 1):
         addhttp()
     else:
-	    addit(sys.argv[1], sys.argv[2], sys.argv[3])
+	    addit(sys.argv[1], sys.argv[2], sys.argv[3],sys.argv[4])
