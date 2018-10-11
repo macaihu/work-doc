@@ -32,6 +32,7 @@ def read_info(s,hostname):
 		print coredumpfiles
 		stdin, stdout, stderr = s.exec_command ('rm /tmp/coredump/*')  
 		stdin, stdout, stderr = s.exec_command ('killall cwmpd')
+		os.system("zenity --info --text \"" +sys.argv[1] + " have coredump file! \" &")
 	stdin, stdout, stderr = s.exec_command ('cat /proc/meminfo | grep MemFree')  
 	print stdout.read()	
 	stdin, stdout, stderr = s.exec_command ('dmesg -c')  

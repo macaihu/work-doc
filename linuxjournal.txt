@@ -1,4 +1,7 @@
 
+2018-10-10
+linux下使用命令行发送消息和弹窗消息
+https://www.52os.net/articles/linux-shell-send-message-and-gnome-popup-box-message.html
 
 2018-10-9
 18.04安装smba似乎不难：
@@ -239,9 +242,6 @@ https://cellidfinder.com/mcc-mnc
 linux统计文件夹某一些文件的大小总和
 使用如下命令，-m 代表MB
 du -m 20140507155000* | awk '{sum += $1}; END{print sum}'
-
-刘云
-如果sim卡在运行过程中松掉，那么cgreg就会报error。其他都不会报错。也上不了网。
 
 2018-8-6
 把旧的git移动的过程，能不能写个脚本来完成？
