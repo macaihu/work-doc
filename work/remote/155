@@ -1,0 +1,1 @@
+rdesktop 192.168.1.155 -g 1440x870 -u administrator -p tozed@83583000  -r disk:f=/media/jian/518C138300565C98,g=/ -r sound:remote -a 16 -k en-us
