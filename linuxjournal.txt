@@ -1,6 +1,9 @@
 
 
 2018.10.16
+8905中:
+8905有若干部分，其中ap是a7双核，8909是4核。qdsp是
+
 cisco 要在加电的时候按住reset键，才可以reset系统。默认密码是cisco,cisco
 https://dcloud-cms.cisco.com/help/reset-router
 
