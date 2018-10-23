@@ -6,6 +6,7 @@ import requests
 import json
 import datetime
 import time
+import os
 
 recorder_file='0keeper.md'
 
@@ -76,6 +77,7 @@ def addhttp():
         #print time.localtime(float(time1))
         #print localtime
     print "add ", count 
+    os.system("cat 0keeper.md | grep ':' | sort -r -k 6 -o 0keeper.md")
 
 if __name__ == '__main__':
     if(len(sys.argv) == 1):
