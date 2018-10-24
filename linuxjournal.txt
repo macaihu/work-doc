@@ -1,4 +1,9 @@
 
+2018.10.23
+使用airdoid可以把android屏幕在windows下显示。
+配置cisco的telnet
+https://zhidao.baidu.com/question/244679495.html
+
 2018.10.21
 这里能下载一些m4r的音乐，直接拖到itunes中连接的iphone，就可以在铃声列表中出现。
 http://www.lnpan.com/htmls/format/id/1_10.html
