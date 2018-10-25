@@ -1,0 +1,174 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 22:21 CST
+Nmap scan report for 192.168.1.2
+Host is up (0.036s latency).
+Not shown: 939 filtered ports, 58 closed ports
+PORT    STATE SERVICE   VERSION
+23/tcp  open  telnet    NASLite-SMB/Sveasoft Alchemy firmware telnetd
+80/tcp  open  http      H3C-Miniware-Webs
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 302 
+|     Server: H3C-Miniware-Webs
+|     Date: Wed Oct 24 22:21:32 2018
+|     Pragma: no-cache
+|     Cache-Control: no-cache
+|     Content-Type: text/html
+|     Location: http:///userLogin.asp
+|     <html><head></head><body>
+|     This document has moved to a new <a href="http:///userLogin.asp">location</a>.
+|     Please update your documents to reflect the new location.
+|     </body></html>
+|   GetRequest: 
+|     HTTP/1.0 302 
+|     Server: H3C-Miniware-Webs
+|     Date: Wed Oct 24 22:21:22 2018
+|     Pragma: no-cache
+|     Cache-Control: no-cache
+|     Content-Type: text/html
+|     Location: http:///userLogin.asp
+|     <html><head></head><body>
+|     This document has moved to a new <a href="http:///userLogin.asp">location</a>.
+|     Please update your documents to reflect the new location.
+|     </body></html>
+|   HTTPOptions: 
+|     HTTP/1.1 400 
+|     Server: H3C-Miniware-Webs
+|     Date: Wed Oct 24 22:21:22 2018
+|     Pragma: no-cache
+|     Cache-Control: no-cache
+|     Content-Type: text/html
+|     <html><head><title>
+|     </title></head>
+|     <body><h2>
+|     </h2>
+|     <b></b><br><p></p></body></html>
+|   Help: 
+|     HTTP/1.1 400 
+|     Server: H3C-Miniware-Webs
+|     Date: Wed Oct 24 22:21:52 2018
+|     Pragma: no-cache
+|     Cache-Control: no-cache
+|     Content-Type: text/html
+|     <html><head><title>
+|     </title></head>
+|     <body><h2>
+|     </h2>
+|_    <b></b><br><p></p></body></html>
+|_http-server-header: H3C-Miniware-Webs
+| http-title: ER5200G2\xCF\xB5\xCD\xB3\xB9\xDC\xC0\xED
+|_Requested resource was http://192.168.1.2/userLogin.asp
+443/tcp open  ssl/https H3C-Miniware-Webs
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.0 302 
+|     Server: H3C-Miniware-Webs
+|     Date: Wed Oct 24 22:21:27 2018
+|     Pragma: no-cache
+|     Cache-Control: no-cache
+|     Content-Type: text/html
+|     Location: https:///userLogin.asp
+|     <html><head></head><body>
+|     This document has moved to a new <a href="https:///userLogin.asp">location</a>.
+|     Please update your documents to reflect the new location.
+|     </body></html>
+|   HTTPOptions: 
+|     HTTP/1.1 400 
+|     Server: H3C-Miniware-Webs
+|     Date: Wed Oct 24 22:21:27 2018
+|     Pragma: no-cache
+|     Cache-Control: no-cache
+|     Content-Type: text/html
+|     <html><head><title>
+|     </title></head>
+|     <body><h2>
+|     </h2>
+|     <b></b><br><p></p></body></html>
+|   RTSPRequest: 
+|     HTTP/1.1 400 
+|     Server: H3C-Miniware-Webs
+|     Date: Wed Oct 24 22:21:37 2018
+|     Pragma: no-cache
+|     Cache-Control: no-cache
+|     Content-Type: text/html
+|     <html><head><title>
+|     </title></head>
+|     <body><h2>
+|     </h2>
+|_    <b></b><br><p></p></body></html>
+|_http-server-header: H3C-Miniware-Webs
+| ssl-cert: Subject: commonName=www.h3c.com/organizationName=H3C/stateOrProvinceName=ZheJiang/countryName=CN
+| Not valid before: 2009-03-26T08:23:16
+|_Not valid after:  2019-03-24T08:23:16
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.60%I=7%D=10/24%Time=5BD07FE3%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,175,"HTTP/1\.0\x20302\x20\xd6\xd8\xb6\xa8\xcf\xf2\r\nServer:\x2
+SF:0H3C-Miniware-Webs\r\nDate:\x20Wed\x20Oct\x2024\x2022:21:22\x202018\r\n
+SF:Pragma:\x20no-cache\r\nCache-Control:\x20no-cache\r\nContent-Type:\x20t
+SF:ext/html\r\nLocation:\x20http:///userLogin\.asp\r\n\r\n<html><head></he
+SF:ad><body>\r\n\t\tThis\x20document\x20has\x20moved\x20to\x20a\x20new\x20
+SF:<a\x20href=\"http:///userLogin\.asp\">location</a>\.\r\n\t\tPlease\x20u
+SF:pdate\x20your\x20documents\x20to\x20reflect\x20the\x20new\x20location\.
+SF:\r\n\t\t</body></html>\r\n\r\n")%r(HTTPOptions,12C,"HTTP/1\.1\x20400\x2
+SF:0\xcd\xf8\xd2\xb3\xce\xb4\xd5\xd2\xb5\xbd\r\nServer:\x20H3C-Miniware-We
+SF:bs\r\nDate:\x20Wed\x20Oct\x2024\x2022:21:22\x202018\r\nPragma:\x20no-ca
+SF:che\r\nCache-Control:\x20no-cache\r\nContent-Type:\x20text/html\r\n\r\n
+SF:<html><head><title>\xce\xc4\xb5\xb5\xb4\xed\xce\xf3:\x20\xcd\xf8\xd2\xb
+SF:3\xce\xb4\xd5\xd2\xb5\xbd</title></head>\r\n\t\t<body><h2>\xb7\xc3\xce\
+SF:xca\xb4\xed\xce\xf3:\x20\xcd\xf8\xd2\xb3\xce\xb4\xd5\xd2\xb5\xbd</h2>\r
+SF:\n\t\t\xca\xd4\xcd\xbc\xb7\xc3\xce\xca\xd2\xb3\xc3\xe6\x20<b></b><br><p
+SF:></p></body></html>\r\n\r\n")%r(FourOhFourRequest,175,"HTTP/1\.0\x20302
+SF:\x20\xd6\xd8\xb6\xa8\xcf\xf2\r\nServer:\x20H3C-Miniware-Webs\r\nDate:\x
+SF:20Wed\x20Oct\x2024\x2022:21:32\x202018\r\nPragma:\x20no-cache\r\nCache-
+SF:Control:\x20no-cache\r\nContent-Type:\x20text/html\r\nLocation:\x20http
+SF::///userLogin\.asp\r\n\r\n<html><head></head><body>\r\n\t\tThis\x20docu
+SF:ment\x20has\x20moved\x20to\x20a\x20new\x20<a\x20href=\"http:///userLogi
+SF:n\.asp\">location</a>\.\r\n\t\tPlease\x20update\x20your\x20documents\x2
+SF:0to\x20reflect\x20the\x20new\x20location\.\r\n\t\t</body></html>\r\n\r\
+SF:n")%r(Help,12C,"HTTP/1\.1\x20400\x20\xcd\xf8\xd2\xb3\xce\xb4\xd5\xd2\xb
+SF:5\xbd\r\nServer:\x20H3C-Miniware-Webs\r\nDate:\x20Wed\x20Oct\x2024\x202
+SF:2:21:52\x202018\r\nPragma:\x20no-cache\r\nCache-Control:\x20no-cache\r\
+SF:nContent-Type:\x20text/html\r\n\r\n<html><head><title>\xce\xc4\xb5\xb5\
+SF:xb4\xed\xce\xf3:\x20\xcd\xf8\xd2\xb3\xce\xb4\xd5\xd2\xb5\xbd</title></h
+SF:ead>\r\n\t\t<body><h2>\xb7\xc3\xce\xca\xb4\xed\xce\xf3:\x20\xcd\xf8\xd2
+SF:\xb3\xce\xb4\xd5\xd2\xb5\xbd</h2>\r\n\t\t\xca\xd4\xcd\xbc\xb7\xc3\xce\x
+SF:ca\xd2\xb3\xc3\xe6\x20<b></b><br><p></p></body></html>\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.60%T=SSL%I=7%D=10/24%Time=5BD07FE8%P=x86_64-pc-linux-gn
+SF:u%r(GetRequest,177,"HTTP/1\.0\x20302\x20\xd6\xd8\xb6\xa8\xcf\xf2\r\nSer
+SF:ver:\x20H3C-Miniware-Webs\r\nDate:\x20Wed\x20Oct\x2024\x2022:21:27\x202
+SF:018\r\nPragma:\x20no-cache\r\nCache-Control:\x20no-cache\r\nContent-Typ
+SF:e:\x20text/html\r\nLocation:\x20https:///userLogin\.asp\r\n\r\n<html><h
+SF:ead></head><body>\r\n\t\tThis\x20document\x20has\x20moved\x20to\x20a\x2
+SF:0new\x20<a\x20href=\"https:///userLogin\.asp\">location</a>\.\r\n\t\tPl
+SF:ease\x20update\x20your\x20documents\x20to\x20reflect\x20the\x20new\x20l
+SF:ocation\.\r\n\t\t</body></html>\r\n\r\n")%r(HTTPOptions,12C,"HTTP/1\.1\
+SF:x20400\x20\xcd\xf8\xd2\xb3\xce\xb4\xd5\xd2\xb5\xbd\r\nServer:\x20H3C-Mi
+SF:niware-Webs\r\nDate:\x20Wed\x20Oct\x2024\x2022:21:27\x202018\r\nPragma:
+SF:\x20no-cache\r\nCache-Control:\x20no-cache\r\nContent-Type:\x20text/htm
+SF:l\r\n\r\n<html><head><title>\xce\xc4\xb5\xb5\xb4\xed\xce\xf3:\x20\xcd\x
+SF:f8\xd2\xb3\xce\xb4\xd5\xd2\xb5\xbd</title></head>\r\n\t\t<body><h2>\xb7
+SF:\xc3\xce\xca\xb4\xed\xce\xf3:\x20\xcd\xf8\xd2\xb3\xce\xb4\xd5\xd2\xb5\x
+SF:bd</h2>\r\n\t\t\xca\xd4\xcd\xbc\xb7\xc3\xce\xca\xd2\xb3\xc3\xe6\x20<b><
+SF:/b><br><p></p></body></html>\r\n\r\n")%r(FourOhFourRequest,177,"HTTP/1\
+SF:.0\x20302\x20\xd6\xd8\xb6\xa8\xcf\xf2\r\nServer:\x20H3C-Miniware-Webs\r
+SF:\nDate:\x20Wed\x20Oct\x2024\x2022:21:27\x202018\r\nPragma:\x20no-cache\
+SF:r\nCache-Control:\x20no-cache\r\nContent-Type:\x20text/html\r\nLocation
+SF::\x20https:///userLogin\.asp\r\n\r\n<html><head></head><body>\r\n\t\tTh
+SF:is\x20document\x20has\x20moved\x20to\x20a\x20new\x20<a\x20href=\"https:
+SF:///userLogin\.asp\">location</a>\.\r\n\t\tPlease\x20update\x20your\x20d
+SF:ocuments\x20to\x20reflect\x20the\x20new\x20location\.\r\n\t\t</body></h
+SF:tml>\r\n\r\n")%r(RTSPRequest,12C,"HTTP/1\.1\x20400\x20\xcd\xf8\xd2\xb3\
+SF:xce\xb4\xd5\xd2\xb5\xbd\r\nServer:\x20H3C-Miniware-Webs\r\nDate:\x20Wed
+SF:\x20Oct\x2024\x2022:21:37\x202018\r\nPragma:\x20no-cache\r\nCache-Contr
+SF:ol:\x20no-cache\r\nContent-Type:\x20text/html\r\n\r\n<html><head><title
+SF:>\xce\xc4\xb5\xb5\xb4\xed\xce\xf3:\x20\xcd\xf8\xd2\xb3\xce\xb4\xd5\xd2\
+SF:xb5\xbd</title></head>\r\n\t\t<body><h2>\xb7\xc3\xce\xca\xb4\xed\xce\xf
+SF:3:\x20\xcd\xf8\xd2\xb3\xce\xb4\xd5\xd2\xb5\xbd</h2>\r\n\t\t\xca\xd4\xcd
+SF:\xbc\xb7\xc3\xce\xca\xd2\xb3\xc3\xe6\x20<b></b><br><p></p></body></html
+SF:>\r\n\r\n");
+Service Info: Host: H3C
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 138.71 seconds

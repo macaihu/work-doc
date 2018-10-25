@@ -1,0 +1,64 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 22:06 CST
+Nmap scan report for 192.168.1.203
+Host is up (0.0018s latency).
+Not shown: 983 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Microsoft IIS httpd 7.5
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/7.5
+|_http-title: IIS7
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+1433/tcp open  ms-sql-s      Microsoft SQL Server 2008 R2 10.50.1600.00; RTM
+| ms-sql-ntlm-info: 
+|   Target_Name: WIN-0QGK40GKQ53
+|   NetBIOS_Domain_Name: WIN-0QGK40GKQ53
+|   NetBIOS_Computer_Name: WIN-0QGK40GKQ53
+|   DNS_Domain_Name: WIN-0QGK40GKQ53
+|   DNS_Computer_Name: WIN-0QGK40GKQ53
+|_  Product_Version: 6.1.7601
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Not valid before: 2018-10-19T05:39:16
+|_Not valid after:  2048-10-19T05:39:16
+|_ssl-date: 2018-10-24T14:07:20+00:00; 0s from scanner time.
+1801/tcp open  msmq?
+2103/tcp open  msrpc         Microsoft Windows RPC
+2105/tcp open  msrpc         Microsoft Windows RPC
+2107/tcp open  msrpc         Microsoft Windows RPC
+3389/tcp open  ms-wbt-server Microsoft Terminal Service
+| ssl-cert: Subject: commonName=WIN-0QGK40GKQ53
+| Not valid before: 2018-06-05T14:39:01
+|_Not valid after:  2018-12-05T14:39:01
+|_ssl-date: 2018-10-24T14:07:19+00:00; -1s from scanner time.
+4000/tcp open  msrpc         Microsoft Windows RPC
+4001/tcp open  msrpc         Microsoft Windows RPC
+4002/tcp open  msrpc         Microsoft Windows RPC
+4003/tcp open  msrpc         Microsoft Windows RPC
+4004/tcp open  msrpc         Microsoft Windows RPC
+4005/tcp open  msrpc         Microsoft Windows RPC
+4006/tcp open  msrpc         Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| ms-sql-info: 
+|   192.168.1.203:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2008 R2 RTM
+|       number: 10.50.1600.00
+|       Product: Microsoft SQL Server 2008 R2
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+|_nbstat: NetBIOS name: WIN-0QGK40GKQ53, NetBIOS user: <unknown>, NetBIOS MAC: 14:18:77:54:e2:5b (Dell)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-24 22:07:19
+|_  start_date: 2018-10-19 13:39:39
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 102.98 seconds

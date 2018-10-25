@@ -1,0 +1,45 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 21:08 CST
+Nmap scan report for 192.168.1.22
+Host is up (0.039s latency).
+Not shown: 991 closed ports
+PORT      STATE SERVICE         VERSION
+22/tcp    open  ssh             OpenSSH 5.2 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 d1:07:54:0d:2d:7c:c5:bd:64:12:0c:71:5e:d5:56:36 (DSA)
+|_  1024 e6:45:38:6b:e0:1f:35:4d:2f:7e:c5:71:5a:d7:73:67 (RSA)
+80/tcp    open  http            Apache Tomcat/Coyote JSP engine 1.1
+|_http-server-header: Apache-Coyote/1.1
+443/tcp   open  ssl/https?
+|_ssl-date: 2018-10-24T13:09:50+00:00; +5s from scanner time.
+5432/tcp  open  postgresql      PostgreSQL DB
+8009/tcp  open  ajp13?
+|_ajp-methods: Failed to get a valid response for the OPTION request
+8888/tcp  open  http            Apache Tomcat/Coyote JSP engine 1.1
+|_hadoop-tasktracker-info: 
+| http-cookie-flags: 
+|   /: 
+|     JSESSIONID: 
+|_      httponly flag not set
+| http-title: \xC6\xF3\xD2\xB5\xB2\xD9\xD7\xF7\xD4\xB1\xB5\xC7\xC2\xBC\xD2\xB3\xC3\xE6
+|_Requested resource was http://192.168.1.22:8888/customer.jsp
+10000/tcp open  http            Apache Tomcat/Coyote JSP engine 1.1
+| http-cookie-flags: 
+|   /: 
+|     JSESSIONID: 
+|_      httponly flag not set
+|_http-server-header: Apache-Coyote/1.1
+| http-title: \xC6\xF3\xD2\xB5\xB2\xD9\xD7\xF7\xD4\xB1\xB5\xC7\xC2\xBC\xD2\xB3\xC3\xE6
+|_Requested resource was http://192.168.1.22:10000/customer.jsp
+10001/tcp open  ssl/scp-config?
+|_ssl-date: 2018-10-24T13:09:56+00:00; +4s from scanner time.
+10002/tcp open  ssh             OpenSSH 5.2 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 d1:07:54:0d:2d:7c:c5:bd:64:12:0c:71:5e:d5:56:36 (DSA)
+|_  1024 e6:45:38:6b:e0:1f:35:4d:2f:7e:c5:71:5a:d7:73:67 (RSA)
+
+Host script results:
+|_clock-skew: mean: 4s, deviation: 0s, median: 3s
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 241.63 seconds

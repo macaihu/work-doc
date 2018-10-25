@@ -1,0 +1,98 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 21:58 CST
+Nmap scan report for 192.168.1.201
+Host is up (0.0034s latency).
+Not shown: 980 closed ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Apache httpd 2.2.16 ((Win32) PHP/5.2.14)
+|_http-title: PHPnow Works!
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+443/tcp  open  ssl/https?
+|_ssl-date: 2018-10-24T14:16:32+00:00; +15m09s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|_    SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+445/tcp  open  microsoft-ds  Windows Server 2003 3790 Service Pack 2 microsoft-ds
+1028/tcp open  msrpc         Microsoft Windows RPC
+1433/tcp open  ms-sql-s      Microsoft SQL Server 2005 9.00.1399.00; RTM
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Not valid before: 2018-10-23T10:43:47
+|_Not valid after:  2048-10-23T10:43:47
+|_ssl-date: 2018-10-24T14:16:32+00:00; +15m08s from scanner time.
+2383/tcp open  ms-olap4?
+3306/tcp open  mysql         MySQL (unauthorized)
+3389/tcp open  ms-wbt-server Microsoft Terminal Service
+8008/tcp open  http          Microsoft IIS httpd 6.0
+8009/tcp open  ajp13         Apache Jserv (Protocol v1.3)
+8080/tcp open  http          Apache Tomcat/Coyote JSP engine 1.1
+|_http-favicon: Apache Tomcat
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-title: Apache Tomcat
+8081/tcp open  http          Microsoft IIS httpd 6.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/6.0
+| http-title: \xE6\xB7\xB1\xE5\x9C\xB3\xE9\x80\x9A\xE5\x88\x99\xE7\xBB\x88\xE7\xAB\xAF\xE7\xAE\xA1\xE7\x90\x86\xE7\xB3\xBB\xE7\xBB\x9F :: \xE7\x94\xA8\xE6\x88\xB7\xE7\x99\xBB\xE5\xBD\x95
+|_Requested resource was /LoginPage.aspx?AspxAutoDetectCookieSupport=1
+8082/tcp open  http          Microsoft IIS httpd 6.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+| http-title: \xE8\xAE\xBE\xE5\xA4\x87\xE7\xAE\xA1\xE7\x90\x86\xE5\xB9\xB3\xE5\x8F\xB0
+|_Requested resource was /LoginPage.aspx?AspxAutoDetectCookieSupport=1
+8085/tcp open  http          Microsoft IIS httpd 6.0
+|_http-server-header: Microsoft-IIS/6.0
+|_http-title: \xE8\xBF\x90\xE8\xA1\x8C\xE6\x97\xB6\xE9\x94\x99\xE8\xAF\xAF
+8088/tcp open  http          Microsoft IIS httpd 6.0
+| http-title: Site doesn't have a title (text/html).
+|_Requested resource was /Html/Index.asp
+8089/tcp open  http          Microsoft IIS httpd 6.0
+|_http-server-header: Microsoft-IIS/6.0
+8443/tcp open  https-alt?
+9998/tcp open  http          Microsoft IIS httpd 6.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+| http-ntlm-info: 
+|   Target_Name: SZTOZED-SOFT
+|   NetBIOS_Domain_Name: SZTOZED-SOFT
+|   NetBIOS_Computer_Name: SZTOZED-SOFT
+|   DNS_Domain_Name: SZTOZED-SOFT
+|   DNS_Computer_Name: SZTOZED-SOFT
+|_  Product_Version: 5.2.3790
+|_http-server-header: Microsoft-IIS/6.0
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2003
+
+Host script results:
+|_clock-skew: mean: 15m08s, deviation: 0s, median: 15m07s
+| ms-sql-info: 
+|   192.168.1.201:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2005 RTM
+|       number: 9.00.1399.00
+|       Product: Microsoft SQL Server 2005
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+|_nbstat: NetBIOS name: SZTOZED-SOFT, NetBIOS user: <unknown>, NetBIOS MAC: 00:11:43:27:88:4e (Dell)
+| smb-os-discovery: 
+|   OS: Windows Server 2003 3790 Service Pack 2 (Windows Server 2003 5.2)
+|   OS CPE: cpe:/o:microsoft:windows_server_2003::sp2
+|   Computer name: SZTOZED-SOFT
+|   NetBIOS computer name: SZTOZED-SOFT\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-24T22:16:33+08:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 409.01 seconds

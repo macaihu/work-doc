@@ -1,0 +1,53 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 21:30 CST
+Nmap scan report for 192.168.1.93
+Host is up (0.0056s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         vsftpd 3.0.3
+22/tcp   open  ssh         OpenSSH 7.6p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 55:15:49:c3:fe:53:18:4b:ae:b7:ca:7c:58:c6:6d:3f (RSA)
+|   256 e4:82:25:65:ac:17:5b:16:ea:e5:ec:3f:24:98:03:22 (ECDSA)
+|_  256 17:f4:b7:78:82:d6:7c:2d:10:15:a9:f8:f2:fe:aa:93 (EdDSA)
+111/tcp  open  rpcbind     2-4 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2,3,4        111/tcp  rpcbind
+|   100000  2,3,4        111/udp  rpcbind
+|   100003  3           2049/udp  nfs
+|   100003  3,4         2049/tcp  nfs
+|   100005  1,2,3      50103/tcp  mountd
+|   100005  1,2,3      58995/udp  mountd
+|   100021  1,3,4      44309/tcp  nlockmgr
+|   100021  1,3,4      47312/udp  nlockmgr
+|   100227  3           2049/tcp  nfs_acl
+|_  100227  3           2049/udp  nfs_acl
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 4.7.6-Ubuntu (workgroup: WORKGROUP)
+2049/tcp open  nfs_acl     3 (RPC #100227)
+Service Info: Host: JIAN; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_nbstat: NetBIOS name: JIAN, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.7.6-Ubuntu)
+|   Computer name: jian
+|   NetBIOS computer name: JIAN\x00
+|   Domain name: \x00
+|   FQDN: jian
+|_  System time: 2018-10-24T21:30:14+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-24 21:30:14
+|_  start_date: 1601-01-01 08:05:43
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 14.71 seconds

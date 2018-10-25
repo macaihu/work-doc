@@ -1,0 +1,55 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 21:45 CST
+Nmap scan report for 192.168.1.155
+Host is up (0.0017s latency).
+Not shown: 992 filtered ports
+PORT      STATE SERVICE       VERSION
+80/tcp    open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+82/tcp    open  http          Microsoft IIS httpd 7.5
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/7.5
+| http-title: \xE6\xB7\xB1\xE5\x9C\xB3\xE9\x80\x9A\xE5\x88\x99\xE4\xBD\x8D\xE7\xBD\xAE\xE4\xBF\xA1\xE6\x81\xAF\xE7\xB3\xBB\xE7\xBB\x9F -- \xE6\x97\xA0\xE8\xAE\xBATa\xE5\x9C\xA8\xE5\x93\xAA\xE9\x87\x8C\xEF\xBC\x8C\xE6\x82\xA8\xE7\x9A\x84\xE5\x85...
+|_Requested resource was /login.aspx
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds  Windows Server 2008 R2 Enterprise 7601 Service Pack 1 microsoft-ds
+3389/tcp  open  ms-wbt-server Microsoft Terminal Service
+| ssl-cert: Subject: commonName=WIN-09TUL2906Q2
+| Not valid before: 2018-09-21T02:04:34
+|_Not valid after:  2019-03-23T02:04:34
+|_ssl-date: 2018-10-24T13:45:48+00:00; -12s from scanner time.
+8089/tcp  open  http          Microsoft IIS httpd 7.5
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/7.5
+|_http-title: \xE9\x80\x9A\xE5\x88\x99\xE6\x96\x87\xE6\xA1\xA3\xE7\xAE\xA1\xE7\x90\x86\xE7\xB3\xBB\xE7\xBB\x9F_\xE7\x99\xBB\xE5\xBD\x95
+49154/tcp open  msrpc         Microsoft Windows RPC
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -12s, deviation: 0s, median: -12s
+|_nbstat: NetBIOS name: WIN-09TUL2906Q2, NetBIOS user: <unknown>, NetBIOS MAC: 84:8f:69:dc:28:f8 (Dell)
+| smb-os-discovery: 
+|   OS: Windows Server 2008 R2 Enterprise 7601 Service Pack 1 (Windows Server 2008 R2 Enterprise 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_server_2008::sp1
+|   Computer name: WIN-09TUL2906Q2
+|   NetBIOS computer name: WIN-09TUL2906Q2\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-24T21:45:47+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-24 21:45:48
+|_  start_date: 2018-10-19 13:38:13
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 98.12 seconds

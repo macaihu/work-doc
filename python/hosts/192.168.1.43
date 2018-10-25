@@ -1,0 +1,15 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 21:13 CST
+Nmap scan report for 192.168.1.43
+Host is up (0.0049s latency).
+Not shown: 916 closed ports, 81 filtered ports
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc?
+139/tcp open  netbios-ssn?
+445/tcp open  microsoft-ds?
+
+Host script results:
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 313.67 seconds

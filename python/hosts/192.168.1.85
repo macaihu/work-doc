@@ -1,0 +1,57 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 21:22 CST
+Nmap scan report for 192.168.1.85
+Host is up (0.0014s latency).
+Not shown: 991 filtered ports
+PORT     STATE SERVICE         VERSION
+135/tcp  open  msrpc           Microsoft Windows RPC
+139/tcp  open  netbios-ssn     Microsoft Windows netbios-ssn
+443/tcp  open  ssl/http        VMware VirtualCenter Web service
+|_http-title: Site doesn't have a title (text; charset=plain).
+| ssl-cert: Subject: commonName=VMware/countryName=US
+| Not valid before: 2017-09-27T07:02:17
+|_Not valid after:  2018-09-27T07:02:17
+|_ssl-date: TLS randomness does not represent time
+| vmware-version: 
+|   Server version: VMware Workstation 12.5.7
+|   Build: 5813279
+|   Locale version: INTL  
+|   OS type: win32-x86
+|_  Product Line ID: ws
+445/tcp  open  microsoft-ds    Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+902/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+3580/tcp open  http            National Instruments LabVIEW service locator httpd 1.0.0
+|_http-server-header: NI Service Locator/1.0.0 (SLServer)
+|_http-title: Did not follow redirect to http://192.168.1.85:3582
+7070/tcp open  ssl/realserver?
+|_ssl-date: TLS randomness does not represent time
+8080/tcp open  http            Embedthis HTTP lib httpd
+|_http-server-header: Embedthis-http
+|_http-title: Not Found
+Service Info: Host: LJY-PC; OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:vmware:Workstation:12.5.7
+
+Host script results:
+|_clock-skew: mean: -1s, deviation: 0s, median: -1s
+|_nbstat: NetBIOS name: LJY-PC, NetBIOS user: <unknown>, NetBIOS MAC: 64:00:6a:8d:64:6b (Dell)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: ljy-PC
+|   NetBIOS computer name: LJY-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-24T21:23:24+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-24 21:23:23
+|_  start_date: 2018-10-24 08:36:16
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 144.36 seconds

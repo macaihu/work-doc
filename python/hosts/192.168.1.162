@@ -1,0 +1,60 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 21:46 CST
+Nmap scan report for 192.168.1.162
+Host is up (0.0063s latency).
+Not shown: 991 closed ports
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           vsftpd 3.0.2
+|_ftp-anon: got code 500 "OOPS: vsftpd: refusing to run with writable root inside chroot()".
+22/tcp   open  ssh           OpenSSH 6.7p1 Ubuntu 5ubuntu1.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 a2:bf:8a:20:c9:9a:04:35:25:ad:48:75:38:76:e6:14 (DSA)
+|   2048 8b:0c:52:68:1b:0c:d5:7c:f3:1f:cc:c0:96:79:e3:51 (RSA)
+|   256 97:ee:31:77:1d:24:e0:8d:19:9f:84:bd:5d:b2:a3:f8 (ECDSA)
+|_  256 8e:5a:42:b3:2d:06:c1:45:e3:0b:2d:03:ba:4b:b3:cd (EdDSA)
+80/tcp   open  http          Apache httpd 2.4.10 ((Ubuntu))
+|_http-server-header: Apache/2.4.10 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+139/tcp  open  netbios-ssn   Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn   Samba smbd 4.1.13-Ubuntu (workgroup: WORKGROUP)
+3306/tcp open  mysql         MySQL 5.6.28-0ubuntu0.15.04.1
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.6.28-0ubuntu0.15.04.1
+|   Thread ID: 189424
+|   Capabilities flags: 63487
+|   Some Capabilities: IgnoreSigpipes, Support41Auth, SupportsTransactions, Speaks41ProtocolOld, IgnoreSpaceBeforeParenthesis, ODBCClient, LongPassword, ConnectWithDatabase, InteractiveClient, Speaks41ProtocolNew, SupportsLoadDataLocal, FoundRows, LongColumnFlag, DontAllowDatabaseTableColumn, SupportsCompression, SupportsMultipleResults, SupportsMultipleStatments, SupportsAuthPlugins
+|   Status: Autocommit
+|   Salt: cN?.iGfK'~ggQ>"-Z`S`
+|_  Auth Plugin Name: 96
+3389/tcp open  ms-wbt-server xrdp
+8009/tcp open  ajp13         Apache Jserv (Protocol v1.3)
+|_ajp-methods: Failed to get a valid response for the OPTION request
+9091/tcp open  http          Apache Tomcat/Coyote JSP engine 1.1
+|_http-server-header: Apache-Coyote/1.1
+|_http-title: Site doesn't have a title.
+Service Info: Host: UBUNTU; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_nbstat: NetBIOS name: UBUNTU, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-os-discovery: 
+|   OS: Unix (Samba 4.1.13-Ubuntu)
+|   Computer name: ubuntu
+|   NetBIOS computer name: UBUNTU\x00
+|   Domain name: 
+|   FQDN: ubuntu
+|_  System time: 2018-10-24T21:46:52+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-24 21:46:52
+|_  start_date: 1601-01-01 08:05:43
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 72.47 seconds

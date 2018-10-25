@@ -1,0 +1,13 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 22:05 CST
+Nmap scan report for 192.168.1.202
+Host is up (0.00091s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE    VERSION
+53/tcp   open  tcpwrapped
+8899/tcp open  http       mini_httpd 1.19 19dec2003
+|_http-server-header: mini_httpd/1.19 19dec2003
+|_http-title: Router
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 37.13 seconds

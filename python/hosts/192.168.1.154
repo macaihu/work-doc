@@ -1,0 +1,92 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 21:43 CST
+Nmap scan report for 192.168.1.154
+Host is up (0.0013s latency).
+Not shown: 986 filtered ports
+PORT      STATE SERVICE       VERSION
+25/tcp    open  smtp          Alt-N MDaemon mail server 11.0.3
+| smtp-commands: mail.sztozed.net Hello nmap.scanme.org, pleased to meet you, ETRN, AUTH=LOGIN, AUTH LOGIN CRAM-MD5, 8BITMIME, SIZE 50000000, 
+|_ Help system currently inactive 
+80/tcp    open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+110/tcp   open  pop3          MDaemon pop3d 11.0.3
+|_pop3-capabilities: UIDL TOP USER APOP
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds  Windows Server (R) 2008 Enterprise 6002 Service Pack 2 microsoft-ds (workgroup: WORKGROUP)
+1000/tcp  open  http          World Client WDaemon httpd 4.0 (Alt-N MDaemon webmail)
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-title: WebAdmin
+1433/tcp  open  ms-sql-s      Microsoft SQL Server 2008 10.00.1600.00; RTM
+| ms-sql-ntlm-info: 
+|   Target_Name: WIN-DJUXWBRHY66
+|   NetBIOS_Domain_Name: WIN-DJUXWBRHY66
+|   NetBIOS_Computer_Name: WIN-DJUXWBRHY66
+|   DNS_Domain_Name: WIN-DJUXWBRHY66
+|   DNS_Computer_Name: WIN-DJUXWBRHY66
+|_  Product_Version: 6.0.6002
+| ssl-cert: Subject: commonName=WMSvc-WIN-DJUXWBRHY66
+| Not valid before: 2015-09-09T04:02:25
+|_Not valid after:  2025-09-06T04:02:25
+|_ssl-date: 2018-10-24T13:43:37+00:00; -44s from scanner time.
+3000/tcp  open  http          World Client WDaemon httpd 4.0 (Alt-N MDaemon webmail)
+| http-robots.txt: 19 disallowed entries (15 shown)
+| /.WML/ /.XHTML/ /All/ /apple-touch-icon.png /Cloud/ 
+| /ComAgentInstall.exe /Debug/ /favicon.ico /fckeditor/ /Help/ /image/ 
+|_/LookOut/ /MDBis.dll /MDSyncML.dll /Mobile/
+|_http-title: \xE9\x80\x9A\xE5\x88\x99\xE6\x8A\x80\xE6\x9C\xAF
+3001/tcp  open  http          Microsoft IIS httpd 7.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/7.0
+|_http-title: Service1 Web \xE6\x9C\x8D\xE5\x8A\xA1
+3389/tcp  open  ms-wbt-server Microsoft Terminal Service
+| ssl-cert: Subject: commonName=WIN-DJUXWBRHY66
+| Not valid before: 2018-08-17T08:04:01
+|_Not valid after:  2019-02-16T08:04:01
+|_ssl-date: 2018-10-24T13:43:36+00:00; -45s from scanner time.
+8081/tcp  open  http          Microsoft IIS httpd 7.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/7.0
+| http-title: \xE6\xB7\xB1\xE5\x9C\xB3\xE9\x80\x9A\xE5\x88\x99\xE7\xBB\x88\xE7\xAB\xAF\xE7\xAE\xA1\xE7\x90\x86\xE7\xB3\xBB\xE7\xBB\x9F :: \xE7\x94\xA8\xE6\x88\xB7\xE7\x99\xBB\xE5\xBD\x95
+|_Requested resource was /LoginPage.aspx
+49154/tcp open  msrpc         Microsoft Windows RPC
+49156/tcp open  msrpc         Microsoft Windows RPC
+Service Info: Hosts: mail.sztozed.net, WIN-DJUXWBRHY66; OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2008:r2
+
+Host script results:
+|_clock-skew: mean: -44s, deviation: 0s, median: -45s
+| ms-sql-info: 
+|   192.168.1.154:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2008 RTM
+|       number: 10.00.1600.00
+|       Product: Microsoft SQL Server 2008
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+|_nbstat: NetBIOS name: WIN-DJUXWBRHY66, NetBIOS user: <unknown>, NetBIOS MAC: 78:2b:cb:07:3a:82 (Dell)
+| smb-os-discovery: 
+|   OS: Windows Server (R) 2008 Enterprise 6002 Service Pack 2 (Windows Server (R) 2008 Enterprise 6.0)
+|   OS CPE: cpe:/o:microsoft:windows_server_2008::sp2
+|   Computer name: WIN-DJUXWBRHY66
+|   NetBIOS computer name: WIN-DJUXWBRHY66\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-24T21:43:38+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-24 21:43:36
+|_  start_date: 2018-10-19 13:40:08
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 98.15 seconds

@@ -1,0 +1,41 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 21:12 CST
+Nmap scan report for 192.168.1.30
+Host is up (0.0048s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 7.2p2 Ubuntu 4ubuntu2.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 73:8c:8e:85:80:8b:09:d6:f0:38:58:08:f2:5e:9f:51 (RSA)
+|   256 01:19:27:37:31:9d:de:da:7d:3a:73:71:29:b9:1e:7e (ECDSA)
+|_  256 8c:8d:86:e1:2e:e1:cc:41:d9:b6:bf:80:a3:73:60:9b (EdDSA)
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 4.3.9-Ubuntu (workgroup: WORKGROUP)
+3128/tcp open  http-proxy  Squid http proxy 3.3.8
+|_http-server-header: squid/3.3.8
+|_http-title: ERROR: The requested URL could not be retrieved
+Service Info: Host: WHITE; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_nbstat: NetBIOS name: WHITE, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.3.9-Ubuntu)
+|   Computer name: white
+|   NetBIOS computer name: WHITE\x00
+|   Domain name: \x00
+|   FQDN: white
+|_  System time: 2018-10-24T21:12:35+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-24 21:12:35
+|_  start_date: 1601-01-01 08:05:43
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 11.68 seconds

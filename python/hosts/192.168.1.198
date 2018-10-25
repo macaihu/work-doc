@@ -1,0 +1,51 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 21:57 CST
+Nmap scan report for 192.168.1.198
+Host is up (0.0017s latency).
+Not shown: 989 filtered ports
+PORT      STATE SERVICE       VERSION
+80/tcp    open  http          Microsoft IIS httpd 7.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/7.0
+|_http-title: IIS7
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds  Windows Server (R) 2008 Standard 6002 Service Pack 2 microsoft-ds (workgroup: WORKGROUP)
+1801/tcp  open  msmq?
+2103/tcp  open  msrpc         Microsoft Windows RPC
+2105/tcp  open  msrpc         Microsoft Windows RPC
+2107/tcp  open  msrpc         Microsoft Windows RPC
+3389/tcp  open  ms-wbt-server Microsoft Terminal Service
+| ssl-cert: Subject: commonName=WIN-YPNF75W6J21
+| Not valid before: 2018-06-11T09:52:03
+|_Not valid after:  2018-12-11T09:52:03
+|_ssl-date: 2018-10-24T13:58:02+00:00; -8s from scanner time.
+49155/tcp open  msrpc         Microsoft Windows RPC
+49163/tcp open  msrpc         Microsoft Windows RPC
+Service Info: Host: WIN-YPNF75W6J21; OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2008:r2
+
+Host script results:
+|_clock-skew: mean: -8s, deviation: 0s, median: -9s
+|_nbstat: NetBIOS name: WIN-YPNF75W6J21, NetBIOS user: <unknown>, NetBIOS MAC: 84:2b:2b:67:c9:83 (Dell)
+| smb-os-discovery: 
+|   OS: Windows Server (R) 2008 Standard 6002 Service Pack 2 (Windows Server (R) 2008 Standard 6.0)
+|   OS CPE: cpe:/o:microsoft:windows_server_2008::sp2
+|   Computer name: WIN-YPNF75W6J21
+|   NetBIOS computer name: WIN-YPNF75W6J21\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-24T21:58:02+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-24 21:58:02
+|_  start_date: 2018-10-19 13:41:44
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 97.98 seconds

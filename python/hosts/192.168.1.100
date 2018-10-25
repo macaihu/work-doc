@@ -1,0 +1,45 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 21:30 CST
+Nmap scan report for 192.168.1.100
+Host is up (0.00072s latency).
+Not shown: 988 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+3000/tcp  open  flexlm       FlexLM license manager
+3580/tcp  open  http         Mbedthis-Appweb 2.5.0
+|_http-server-header: Mbedthis-Appweb/2.5.0
+|_http-title: Document Error: Not Found
+5280/tcp  open  flexlm       FlexLM license manager
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49158/tcp open  msrpc        Microsoft Windows RPC
+49163/tcp open  msrpc        Microsoft Windows RPC
+Service Info: Host: SONG-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: SONG-PC, NetBIOS user: <unknown>, NetBIOS MAC: b8:ac:6f:b4:8e:c7 (Dell)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: song-PC
+|   NetBIOS computer name: SONG-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-24T21:31:21+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-24 21:31:21
+|_  start_date: 2018-10-24 08:34:25
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 68.90 seconds

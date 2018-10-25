@@ -1,0 +1,72 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 21:21 CST
+Nmap scan report for 192.168.1.77
+Host is up (0.0059s latency).
+Not shown: 988 closed ports
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         vsftpd 3.0.2
+22/tcp   open  ssh         OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 bc:f5:d7:a7:a0:13:50:0e:0f:7e:68:fb:e8:53:68:4a (DSA)
+|   2048 38:79:0f:ec:ec:17:39:51:21:6c:f2:51:77:98:00:2d (RSA)
+|   256 12:ee:24:76:5d:f6:a1:d9:ab:88:83:b8:aa:9c:41:59 (ECDSA)
+|_  256 7e:b5:bd:74:49:74:45:64:34:68:91:4e:64:14:92:b2 (EdDSA)
+23/tcp   open  telnet      Linux telnetd
+80/tcp   open  http        nginx
+|_http-server-header: nginx
+|_http-title: \xE6\xB2\xA1\xE6\x9C\x89\xE6\x89\xBE\xE5\x88\xB0\xE7\xAB\x99\xE7\x82\xB9
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 4.3.11-Ubuntu (workgroup: WORKGROUP)
+888/tcp  open  http        nginx
+|_http-server-header: nginx
+|_http-title: 404 Not Found
+1723/tcp open  pptp        linux (Firmware: 1)
+3306/tcp open  mysql       MySQL 5.7.22-log
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.7.22-log
+|   Thread ID: 3725
+|   Capabilities flags: 63487
+|   Some Capabilities: Speaks41ProtocolNew, Support41Auth, LongPassword, ConnectWithDatabase, FoundRows, ODBCClient, Speaks41ProtocolOld, IgnoreSigpipes, SupportsTransactions, DontAllowDatabaseTableColumn, LongColumnFlag, SupportsCompression, InteractiveClient, SupportsLoadDataLocal, IgnoreSpaceBeforeParenthesis, SupportsMultipleResults, SupportsAuthPlugins, SupportsMultipleStatments
+|   Status: Autocommit
+|   Salt: \x16\x7F\x1CLP\x177?RK\x13_Ch\x0Ddw7<n
+|_  Auth Plugin Name: 83
+8888/tcp open  http        CherryPy wsgiserver
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: localhost
+| http-title: 404 Not Found
+|_Requested resource was http://192.168.1.77:8888/login, http://192.168.1.77:8888/login
+9000/tcp open  http        nginx
+|_http-server-header: nginx
+|_http-title: 403 Forbidden
+9001/tcp open  http        nginx
+|_http-server-header: nginx
+| http-title: \xE7\x94\xA8\xE6\x88\xB7\xE7\x99\xBB\xE5\xBD\x95
+|_Requested resource was login.html
+Service Info: Hosts: UBUNTU-77, local; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: -5s, deviation: 0s, median: -5s
+|_nbstat: NetBIOS name: UBUNTU-77, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.3.11-Ubuntu)
+|   Computer name: ubuntu-77
+|   NetBIOS computer name: UBUNTU-77\x00
+|   Domain name: www.sztozed.net
+|   FQDN: ubuntu-77.www.sztozed.net
+|_  System time: 2018-10-24T21:21:17+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-24 21:21:17
+|_  start_date: 1601-01-01 08:05:43
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 102.33 seconds

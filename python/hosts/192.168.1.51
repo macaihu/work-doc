@@ -1,0 +1,140 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 21:18 CST
+Nmap scan report for 192.168.1.51
+Host is up (0.052s latency).
+Not shown: 993 closed ports
+PORT     STATE    SERVICE         VERSION
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+25/tcp   open     tcpwrapped
+|_smtp-commands: Couldn't establish connection on port 25
+80/tcp   open     http            HTTP Server 1.0
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Date: SUN, 24 Oct 2018 23:14:04
+|     Connection: Keep-Alive
+|     Server: HTTP Server 1.0
+|     Content-Length: 7633
+|     Content-Type: text/html; charset=gb2312
+|     Set-Cookie: SESSIONID=3QAAAGuZqeJN8aTJGgttqw==&3QAAAGuZqeJN8aTJGgttqw==&HUAWEI EGW2160&langfrombrows=&copyright=2008-2013
+|     <html>
+|     <head>
+|     <!-- HTTP 1.1 -->
+|     <meta http-equiv="Cache-Control" content="no-store"/>
+|     <!-- HTTP 1.0 -->
+|     <meta http-equiv="Pragma" content="no-cache"/>
+|     <!-- Prevents caching at the Proxy Server -->
+|     <meta http-equiv="Expires" content="0"/>
+|     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+|     <title></title>
+|     <link rel="stylesheet" type="text/css"
+|     href="ext-lib/ext/resources/css/ext-all.css" />
+|     <!-- added by jiangzehao for 
+|     begain-->
+|     <link rel="stylesheet" type="text/css"
+|     href="sweb-lib/resource/sty
+|   HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     Date: SUN, 24 Oct 2018 23:14:04
+|     Connection: Keep-Alive
+|     Server: HTTP Server 1.0
+|     Content-Length: 7633
+|     Content-Type: text/html; charset=gb2312
+|     Set-Cookie: SESSIONID=3gAAADzqVxCaZxEdg/werQ==&3gAAADzqVxCaZxEdg/werQ==&HUAWEI EGW2160&langfrombrows=&copyright=2008-2013
+|     <html>
+|     <head>
+|     <!-- HTTP 1.1 -->
+|     <meta http-equiv="Cache-Control" content="no-store"/>
+|     <!-- HTTP 1.0 -->
+|     <meta http-equiv="Pragma" content="no-cache"/>
+|     <!-- Prevents caching at the Proxy Server -->
+|     <meta http-equiv="Expires" content="0"/>
+|     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+|     <title></title>
+|     <link rel="stylesheet" type="text/css"
+|     href="ext-lib/ext/resources/css/ext-all.css" />
+|     <!-- added by jiangzehao for 
+|     begain-->
+|     <link rel="stylesheet" type="text/css"
+|_    href="sweb-lib/resource/sty
+| http-cookie-flags: 
+|   /: 
+|     SESSIONID: 
+|_      httponly flag not set
+|_http-server-header: HTTP Server 1.0
+|_http-title: Site doesn't have a title (text/html; charset=gb2312).
+110/tcp  open     tcpwrapped
+8080/tcp open     tcpwrapped
+8888/tcp open     sun-answerbook?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Cache-Control: no-cache
+|     Connection: close
+|     Server: Huawei Auth-Http Server 1.0
+|     Content-Type: text/html
+|_    <HTML><HEAD><title>User Login</title><meta http-equiv="content-type" content="text/html; charset=gb2312"><SCRIPT language=JScript event="OnCompleted(hResult,pErrorObject, pAsyncContext)" for=foo> document.getElementById("userIpMacVal").value = networkCardInfo;</SCRIPT><SCRIPT language=JScript event=OnObjectReady(objObject,objAsyncContext) for=foo>if(objObject.IPEnabled != null && objObject.IPEnabled != "undefined" && objObject.IPEnabled == true){if (objObject.MACAddress != null && objObject.MACAddress != "undefined"){var i = 0;var flag = true;while (flag){if (objObject.IPEnabled && objObject.IPAddress(i) != null && objObject.IPAddress(i).length >= 7 && objObject.IPAddress(i).length <= 15){networkCardInfo += objObject.MACAddress + '-' + objObject.IPAddress(i) + ';';
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.60%I=7%D=10/24%Time=5BD0712C%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,1EF0,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20SUN,\x2024\x20Oct\x202
+SF:018\x2023:14:04\r\nConnection:\x20Keep-Alive\r\nServer:\x20HTTP\x20Serv
+SF:er\x201\.0\r\nContent-Length:\x207633\r\nContent-Type:\x20text/html;\x2
+SF:0charset=gb2312\r\nSet-Cookie:\x20SESSIONID=3QAAAGuZqeJN8aTJGgttqw==&3Q
+SF:AAAGuZqeJN8aTJGgttqw==&HUAWEI\x20EGW2160&langfrombrows=&copyright=2008-
+SF:2013\r\n\r\n<html>\r\n\t<head>\r\n\t\t<!--\x20HTTP\x201\.1\x20-->\r\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20<meta\x20http-equiv=\"Cache-Control\"\x20
+SF:content=\"no-store\"/>\r\n\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20HTTP\
+SF:x201\.0\x20-->\r\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20http-equiv=\
+SF:"Pragma\"\x20content=\"no-cache\"/>\r\n\x20\x20\x20\x20\x20\x20\x20\x20
+SF:<!--\x20Prevents\x20caching\x20at\x20the\x20Proxy\x20Server\x20-->\r\n\
+SF:x20\x20\x20\x20\x20\x20\x20\x20<meta\x20http-equiv=\"Expires\"\x20conte
+SF:nt=\"0\"/>\r\n\t\t<meta\x20http-equiv=\"Content-Type\"\x20content=\"tex
+SF:t/html;\x20charset=UTF-8\"></meta>\r\n\t\t<title></title>\r\n\t\t<link\
+SF:x20rel=\"stylesheet\"\x20type=\"text/css\"\r\n\t\t\thref=\"ext-lib/ext/
+SF:resources/css/ext-all\.css\"\x20/>\r\n\x20\x20\x20\x20\x20\x20\x20\x20<
+SF:!--\x20added\x20by\x20jiangzehao\x20for\x20\xb7\xc0\xbb\xf0\xc7\xbd\xd2
+SF:\xd7\xd3\xc3\xd0\xd4\x20begain-->\r\n\t\t<link\x20rel=\"stylesheet\"\x2
+SF:0type=\"text/css\"\r\n\t\t\thref=\"sweb-lib/resource/sty")%r(HTTPOption
+SF:s,1DA3,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20SUN,\x2024\x20Oct\x202018\x2
+SF:023:14:04\r\nConnection:\x20Keep-Alive\r\nServer:\x20HTTP\x20Server\x20
+SF:1\.0\r\nContent-Length:\x207633\r\nContent-Type:\x20text/html;\x20chars
+SF:et=gb2312\r\nSet-Cookie:\x20SESSIONID=3gAAADzqVxCaZxEdg/werQ==&3gAAADzq
+SF:VxCaZxEdg/werQ==&HUAWEI\x20EGW2160&langfrombrows=&copyright=2008-2013\r
+SF:\n\r\n<html>\r\n\t<head>\r\n\t\t<!--\x20HTTP\x201\.1\x20-->\r\n\x20\x20
+SF:\x20\x20\x20\x20\x20\x20<meta\x20http-equiv=\"Cache-Control\"\x20conten
+SF:t=\"no-store\"/>\r\n\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20HTTP\x201\.
+SF:0\x20-->\r\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20http-equiv=\"Pragm
+SF:a\"\x20content=\"no-cache\"/>\r\n\x20\x20\x20\x20\x20\x20\x20\x20<!--\x
+SF:20Prevents\x20caching\x20at\x20the\x20Proxy\x20Server\x20-->\r\n\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20<meta\x20http-equiv=\"Expires\"\x20content=\"0
+SF:\"/>\r\n\t\t<meta\x20http-equiv=\"Content-Type\"\x20content=\"text/html
+SF:;\x20charset=UTF-8\"></meta>\r\n\t\t<title></title>\r\n\t\t<link\x20rel
+SF:=\"stylesheet\"\x20type=\"text/css\"\r\n\t\t\thref=\"ext-lib/ext/resour
+SF:ces/css/ext-all\.css\"\x20/>\r\n\x20\x20\x20\x20\x20\x20\x20\x20<!--\x2
+SF:0added\x20by\x20jiangzehao\x20for\x20\xb7\xc0\xbb\xf0\xc7\xbd\xd2\xd7\x
+SF:d3\xc3\xd0\xd4\x20begain-->\r\n\t\t<link\x20rel=\"stylesheet\"\x20type=
+SF:\"text/css\"\r\n\t\t\thref=\"sweb-lib/resource/sty");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8888-TCP:V=7.60%I=7%D=10/24%Time=5BD0712C%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,1DC0,"HTTP/1\.1\x20200\x20OK\r\nCache-Control:\x20no-cache\r\
+SF:nConnection:\x20close\r\nServer:\x20Huawei\x20Auth-Http\x20Server\x201\
+SF:.0\r\nContent-Type:\x20text/html\r\n\r\n<HTML><HEAD><title>User\x20Logi
+SF:n</title><meta\x20http-equiv=\"content-type\"\x20content=\"text/html;\x
+SF:20charset=gb2312\"><SCRIPT\x20language=JScript\x20event=\"OnCompleted\(
+SF:hResult,pErrorObject,\x20pAsyncContext\)\"\x20for=foo>\x20document\.get
+SF:ElementById\(\"userIpMacVal\"\)\.value\x20=\x20networkCardInfo;</SCRIPT
+SF:><SCRIPT\x20language=JScript\x20event=OnObjectReady\(objObject,objAsync
+SF:Context\)\x20for=foo>if\(objObject\.IPEnabled\x20!=\x20null\x20&&\x20ob
+SF:jObject\.IPEnabled\x20!=\x20\"undefined\"\x20&&\x20objObject\.IPEnabled
+SF:\x20==\x20true\){if\x20\(objObject\.MACAddress\x20!=\x20null\x20&&\x20o
+SF:bjObject\.MACAddress\x20!=\x20\"undefined\"\){var\x20i\x20=\x200;var\x2
+SF:0flag\x20=\x20true;while\x20\(flag\){if\x20\(objObject\.IPEnabled\x20&&
+SF:\x20objObject\.IPAddress\(i\)\x20!=\x20null\x20&&\x20objObject\.IPAddre
+SF:ss\(i\)\.length\x20>=\x207\x20&&\x20objObject\.IPAddress\(i\)\.length\x
+SF:20<=\x2015\){networkCardInfo\x20\+=\x20objObject\.MACAddress\x20\+\x20'
+SF:-'\x20\+\x20objObject\.IPAddress\(i\)\x20\+\x20';';");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 155.34 seconds

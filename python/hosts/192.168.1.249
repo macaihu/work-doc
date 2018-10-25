@@ -1,0 +1,29 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 22:15 CST
+Nmap scan report for 192.168.1.249
+Host is up (0.0049s latency).
+Not shown: 992 closed ports
+PORT      STATE SERVICE            VERSION
+22/tcp    open  ssh                OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 d7:4a:71:72:79:5f:f8:a5:8a:55:06:7d:0c:88:4c:c8 (DSA)
+|_  2048 2e:02:8f:3a:82:2f:8b:2d:6a:d2:bc:ab:c9:2c:0c:05 (RSA)
+111/tcp   open  rpcbind            2-4 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2,3,4        111/tcp  rpcbind
+|   100000  2,3,4        111/udp  rpcbind
+|   100024  1          39596/udp  status
+|_  100024  1          47713/tcp  status
+4000/tcp  open  telnet             MLDonkey telnetd 3.1.5
+4001/tcp  open  donkey             MLDonkey multi-network P2P server
+6881/tcp  open  bittorrent-tracker MLDonkey multi-network P2P client 3.1.5
+9418/tcp  open  git?
+10003/tcp open  ssh                OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 d7:4a:71:72:79:5f:f8:a5:8a:55:06:7d:0c:88:4c:c8 (DSA)
+|_  2048 2e:02:8f:3a:82:2f:8b:2d:6a:d2:bc:ab:c9:2c:0c:05 (RSA)
+10004/tcp open  emcrmirccd?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 95.30 seconds

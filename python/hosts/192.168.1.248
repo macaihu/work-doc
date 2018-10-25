@@ -1,0 +1,180 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 22:09 CST
+Nmap scan report for 192.168.1.248
+Host is up (0.0034s latency).
+Not shown: 984 closed ports
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           Microsoft ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| 10-22-18  05:05PM       <DIR>          0
+| 10-23-18  11:01AM       <DIR>          1
+| 10-23-18  10:28AM       <DIR>          2
+| 10-19-18  11:43AM       <DIR>          3
+| 10-24-18  06:59PM       <DIR>          4
+| 08-28-17  11:10AM                 7567 4cb7cc3b-800e-4df7-ad94-a0cf42a1f4b4.xsn
+| 08-28-17  11:10AM       <DIR>          4cb7cc3b-800e-4df7-ad94-a0cf42a1f4b4.xsn.dir
+| 10-24-18  02:00PM       <DIR>          5
+| 10-22-18  10:08AM       <DIR>          6
+| 10-23-18  12:18PM       <DIR>          7
+| 10-23-18  11:01AM       <DIR>          8
+| 10-22-18  05:05PM       <DIR>          9
+| 10-24-18  02:00PM       <DIR>          A
+| 10-22-18  05:05PM       <DIR>          B
+| 10-24-18  07:00PM       <DIR>          C
+| 10-23-18  11:01AM       <DIR>          D
+| 10-23-18  11:04AM       <DIR>          E
+| 10-22-18  10:08AM       <DIR>          F
+| 10-24-18  07:00PM       <DIR>          temp
+| 04-26-17  05:45PM       <DIR>          xsn_template
+|_Only 20 shown. Use --script-args ftp-anon.maxlist=-1 to see all.
+| ftp-syst: 
+|   SYST: Windows_NT
+|   STAT: 
+| Microsoft FTP Service status:
+|      Connected to JIAN
+|      Logged in as IEUser@
+|      TYPE: ASCII, FORM: Nonprint; STRUcture: File; transfer MODE: STREAM
+|      No data connection
+|_End of status.
+80/tcp   open  http          Microsoft IIS httpd 6.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/6.0
+|_http-title: \xBD\xA8\xC9\xE8\xD6\xD0
+81/tcp   open  hosts2-ns?
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     Connection: close
+|     Content-Type: text/html; charset=ISO-8859-1
+|     Content-Length: 76
+|     P3P: CP=CAO PSA OUR
+|     Server: VA Web Server
+|     Set-Cookie: IDHTTPSESSIONID=v9ovMedDlEHfB45; Path=/
+|     requested URL /nice ports,/Trinity.txt.bak was not found on this server.
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Connection: close
+|     Content-Type: text/html; charset=UTF-8
+|     Content-Length: 23328
+|     Cache-control: no-cache
+|     P3P: CP=CAO PSA OUR
+|     Server: VA Web Server
+|     Set-Cookie: IDHTTPSESSIONID=zyhWMR4VtagG7wZ; Path=/
+|     <!DOCTYPE html>
+|     <html xmlns="http://www.w3.org/1999/xhtml">
+|     <head>
+|     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+|     <title>
+|     </title> 
+|     <link href="../Res/css/va.css" rel="Stylesheet" type="text/css" /> 
+|     <script src="../Res/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+|     <script src="../Res/js/va.js" type="text/javascript"></script>
+|     <script type="text/javascript"> 
+|     DynArr =
+|     ["errorid", ["0", ["
+|     "OK"]]
+|     ["2000", ["
+|     "opertion failed"]]
+|     ["2010", ["
+|   HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     Connection: close
+|     Content-Type: text/html; charset=ISO-8859-1
+|     Content-Length: 0
+|     Server: VA Web Server
+|_    Set-Cookie: IDHTTPSESSIONID=RH4wTJVsLZml9xq; Path=/
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds  Windows Server 2003 3790 Service Pack 2 microsoft-ds
+1036/tcp open  msrpc         Microsoft Windows RPC
+1049/tcp open  msrpc         Microsoft Windows RPC
+1052/tcp open  msrpc         Microsoft Windows RPC
+1433/tcp open  ms-sql-s      Microsoft SQL Server 2008 R2 10.50.1600.00; RTM
+| ms-sql-ntlm-info: 
+|_  Product_Version: 5.2.3790
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Not valid before: 2018-10-22T06:02:25
+|_Not valid after:  2048-10-22T06:02:25
+|_ssl-date: 2018-10-24T14:11:36+00:00; -2s from scanner time.
+2383/tcp open  ms-olap4?
+3389/tcp open  ms-wbt-server Microsoft Terminal Service
+8009/tcp open  ajp13         Apache Jserv (Protocol v1.3)
+| ajp-methods: 
+|   Supported methods: GET HEAD POST PUT DELETE OPTIONS
+|   Potentially risky methods: PUT DELETE
+|_  See https://nmap.org/nsedoc/scripts/ajp-methods.html
+8443/tcp open  https-alt?
+9000/tcp open  http          Microsoft IIS httpd
+|_http-title: Site doesn't have a title (text/html).
+9999/tcp open  http          Apache Tomcat/Coyote JSP engine 1.1
+|_http-favicon: Apache Tomcat
+| http-methods: 
+|_  Potentially risky methods: PUT DELETE
+|_http-server-header: Apache-Coyote/1.1
+|_http-title: Apache Tomcat
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port81-TCP:V=7.60%I=7%D=10/24%Time=5BD07D09%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,5BFF,"HTTP/1\.1\x20200\x20OK\r\nConnection:\x20close\r\nContent
+SF:-Type:\x20text/html;\x20charset=UTF-8\r\nContent-Length:\x2023328\r\nCa
+SF:che-control:\x20no-cache\r\nP3P:\x20CP=CAO\x20PSA\x20OUR\r\nServer:\x20
+SF:VA\x20Web\x20Server\r\nSet-Cookie:\x20IDHTTPSESSIONID=zyhWMR4VtagG7wZ;\
+SF:x20Path=/\r\n\r\n<!DOCTYPE\x20html>\r\n<html\x20xmlns=\"http://www\.w3\
+SF:.org/1999/xhtml\">\r\n<head>\r\n<meta\x20http-equiv=\"Content-Type\"\x2
+SF:0content=\"text/html;\x20charset=utf-8\"/>\x20\x20\x20\x20\r\n\x20\x20\
+SF:x20\x20<title>\xe8\x99\x9a\xe6\x8b\x9f\xe5\xba\x94\xe7\x94\xa8\xe5\xb9\
+SF:xb3\xe5\x8f\xb0</title>\x20\x20\x20\x20\r\n\x20\x20\x20\x20<link\x20hre
+SF:f=\"\.\./Res/css/va\.css\"\x20rel=\"Stylesheet\"\x20type=\"text/css\"\x
+SF:20/>\x20\x20\x20\x20\x20\x20\x20\r\n\x20\x20\x20\x20<script\x20src=\"\.
+SF:\./Res/js/jquery-1\.8\.3\.min\.js\"\x20type=\"text/javascript\"></scrip
+SF:t>\r\n\x20\x20\x20\x20<script\x20src=\"\.\./Res/js/va\.js\"\x20type=\"t
+SF:ext/javascript\"></script>\r\n\x20\x20\x20\x20<script\x20type=\"text/ja
+SF:vascript\">\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\r\n
+SF:\x20\x20\x20\x20\x20var\x20DynArr\x20=\r\n\[\r\n\[\"errorid\",\x20\[\"0
+SF:\",\x20\[\"\xe6\x93\x8d\xe4\xbd\x9c\xe6\x88\x90\xe5\x8a\x9f\",\x20\"\xe
+SF:6\x93\x8d\xe4\xbd\x9c\xe6\x88\x90\xe5\x8a\x9f\",\x20\"OK\"\]\]\r\n\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20,\x20\[\"2000\",\x20\[\"\xe6\x93\x8d
+SF:\xe4\xbd\x9c\xe5\xa4\xb1\xe8\xb4\xa5\",\x20\"\xe6\x93\x8d\xe4\xbd\x9c\x
+SF:e5\xa4\xb1\xe6\x95\x97\",\x20\"opertion\x20failed\"\]\]\r\n\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20,\x20\[\"2010\",\x20\[\"\xe7\x99\xbb\xe5\xb
+SF:d\x95\xe5\xa4\xb1\xe8\xb4\xa5\",\x20\"\xe7\x99\xbb\xe9\x8c\x84\xe5\xa4\
+SF:xb1\xe6\x95\x97\",\x20")%r(HTTPOptions,B2,"HTTP/1\.1\x20200\x20OK\r\nCo
+SF:nnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=ISO-8859-1
+SF:\r\nContent-Length:\x200\r\nServer:\x20VA\x20Web\x20Server\r\nSet-Cooki
+SF:e:\x20IDHTTPSESSIONID=RH4wTJVsLZml9xq;\x20Path=/\r\n\r\n")%r(FourOhFour
+SF:Request,11B,"HTTP/1\.1\x20404\x20Not\x20Found\r\nConnection:\x20close\r
+SF:\nContent-Type:\x20text/html;\x20charset=ISO-8859-1\r\nContent-Length:\
+SF:x2076\r\nP3P:\x20CP=CAO\x20PSA\x20OUR\r\nServer:\x20VA\x20Web\x20Server
+SF:\r\nSet-Cookie:\x20IDHTTPSESSIONID=v9ovMedDlEHfB45;\x20Path=/\r\n\r\nTh
+SF:e\x20requested\x20URL\x20/nice\x20ports,/Trinity\.txt\.bak\x20was\x20no
+SF:t\x20found\x20on\x20this\x20server\.");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2003
+
+Host script results:
+|_clock-skew: mean: -2s, deviation: 0s, median: -3s
+| ms-sql-info: 
+|   192.168.1.248:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2008 R2 RTM
+|       number: 10.50.1600.00
+|       Product: Microsoft SQL Server 2008 R2
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+|_nbstat: NetBIOS name: SVCTAG-GZXVZ2X, NetBIOS user: <unknown>, NetBIOS MAC: 78:2b:cb:13:05:1f (Dell)
+| smb-os-discovery: 
+|   OS: Windows Server 2003 3790 Service Pack 2 (Windows Server 2003 5.2)
+|   OS CPE: cpe:/o:microsoft:windows_server_2003::sp2
+|   Computer name: svctag-gzxvz2x
+|   NetBIOS computer name: SVCTAG-GZXVZ2X\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-24T22:11:36+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 405.58 seconds

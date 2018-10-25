@@ -1,0 +1,67 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 21:37 CST
+Nmap scan report for 192.168.1.123
+Host is up (0.0037s latency).
+Not shown: 986 closed ports
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           FileZilla ftpd
+| ftp-syst: 
+|_  SYST: UNIX emulated by FileZilla
+80/tcp   open  http          Apache httpd (VisualSVN)
+|_http-server-header: Apache
+|_http-title: VisualSVN Server
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+443/tcp  open  ssl/http      SoftEther VPN httpd
+|_http-title: 403 Forbidden
+| ssl-cert: Subject: commonName=vpn150710892.sedns.cn/organizationName=vpn150710892.sedns.cn/countryName=US
+| Not valid before: 2018-09-19T08:03:29
+|_Not valid after:  2037-12-31T08:03:29
+|_sstp-discover: SSTP is supported.
+445/tcp  open  microsoft-ds  Windows Server 2003 R2 3790 Service Pack 2 microsoft-ds
+912/tcp  open  vmware-auth   VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+992/tcp  open  ssl/http      SoftEther VPN httpd
+|_http-title: 403 Forbidden
+| ssl-cert: Subject: commonName=vpn150710892.sedns.cn/organizationName=vpn150710892.sedns.cn/countryName=US
+| Not valid before: 2018-09-19T08:03:29
+|_Not valid after:  2037-12-31T08:03:29
+|_ssl-date: TLS randomness does not represent time
+1025/tcp open  msrpc         Microsoft Windows RPC
+1035/tcp open  flexlm        FlexLM license manager
+3389/tcp open  ms-wbt-server Microsoft Terminal Service
+5555/tcp open  ssl/http      SoftEther VPN httpd
+| ssl-cert: Subject: commonName=vpn150710892.sedns.cn/organizationName=vpn150710892.sedns.cn/countryName=US
+| Not valid before: 2018-09-19T08:03:29
+|_Not valid after:  2037-12-31T08:03:29
+|_ssl-date: TLS randomness does not represent time
+|_sstp-discover: SSTP is supported.
+5800/tcp open  vnc-http      TightVNC
+|_http-title: TightVNC desktop [dell-f930cb8ff7]
+5900/tcp open  vnc           VNC (protocol 3.8)
+| vnc-info: 
+|   Protocol version: 3.8
+|   Security types: 
+|     VNC Authentication (2)
+|     Tight (16)
+|   Tight auth subtypes: 
+|_    STDV VNCAUTH_ (2)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2003
+
+Host script results:
+|_nbstat: NetBIOS name: DELL-F930CB8FF7, NetBIOS user: <unknown>, NetBIOS MAC: 00:26:b9:62:c0:61 (Dell)
+| smb-os-discovery: 
+|   OS: Windows Server 2003 R2 3790 Service Pack 2 (Windows Server 2003 R2 5.2)
+|   OS CPE: cpe:/o:microsoft:windows_server_2003::sp2
+|   Computer name: dell-f930cb8ff7
+|   NetBIOS computer name: DELL-F930CB8FF7\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-24T21:38:16+08:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 239.28 seconds

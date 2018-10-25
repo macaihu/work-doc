@@ -1,0 +1,38 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-24 22:07 CST
+Nmap scan report for 192.168.1.247
+Host is up (0.00066s latency).
+Not shown: 990 closed ports
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds  Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+3389/tcp  open  ms-wbt-server Microsoft Terminal Service
+| ssl-cert: Subject: commonName=WIN-A9ULT4MB58B
+| Not valid before: 2018-10-23T01:55:21
+|_Not valid after:  2019-04-24T01:55:21
+|_ssl-date: 2018-10-24T14:09:00+00:00; 0s from scanner time.
+49152/tcp open  msrpc         Microsoft Windows RPC
+49153/tcp open  msrpc         Microsoft Windows RPC
+49154/tcp open  msrpc         Microsoft Windows RPC
+49155/tcp open  msrpc         Microsoft Windows RPC
+49156/tcp open  msrpc         Microsoft Windows RPC
+49157/tcp open  msrpc         Microsoft Windows RPC
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: WIN-A9ULT4MB58B, NetBIOS user: <unknown>, NetBIOS MAC: 84:2b:2b:54:ff:af (Dell)
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-24 22:09:00
+|_  start_date: 2018-10-24 09:33:06
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 65.36 seconds
