@@ -1,0 +1,35 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-25 10:01 CST
+Nmap scan report for 192.168.1.182
+Host is up (0.0032s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE      VERSION
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds Windows XP microsoft-ds
+2869/tcp open  http         Microsoft HTTPAPI httpd 1.0 (SSDP/UPnP)
+6001/tcp open  X11:1?
+|_x11-access: ERROR: Script execution failed (use -d to debug)
+6002/tcp open  X11:2?
+|_x11-access: ERROR: Script execution failed (use -d to debug)
+Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_xp
+
+Host script results:
+|_clock-skew: mean: 42s, deviation: 0s, median: 42s
+|_nbstat: NetBIOS name: DELLPC-6EBBA83D, NetBIOS user: <unknown>, NetBIOS MAC: 00:25:64:c8:64:4b (Dell)
+| smb-os-discovery: 
+|   OS: Windows XP (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_xp::-
+|   Computer name: dellpc-6ebba83d
+|   NetBIOS computer name: DELLPC-6EBBA83D\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-25T10:02:36+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 273.16 seconds

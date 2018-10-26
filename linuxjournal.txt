@@ -1,4 +1,8 @@
 
+2018.10.25
+python 使用len来去list的长度，为什么不是xxx.len呢？
+http://s9899.blog.163.com/blog/static/3062228820110159182166/
+
 2018.10.24
 cisco 使用exit来退出一级config.
 

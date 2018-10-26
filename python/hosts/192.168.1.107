@@ -1,0 +1,45 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-25 09:52 CST
+Nmap scan report for 192.168.1.107
+Host is up (0.00084s latency).
+Not shown: 991 closed ports
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds  Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+3389/tcp  open  ms-wbt-server Microsoft Terminal Service
+| ssl-cert: Subject: commonName=USER-20170417BF
+| Not valid before: 2018-08-06T02:05:06
+|_Not valid after:  2019-02-05T02:05:06
+|_ssl-date: 2018-10-25T01:52:09+00:00; -1m18s from scanner time.
+49152/tcp open  msrpc         Microsoft Windows RPC
+49153/tcp open  msrpc         Microsoft Windows RPC
+49154/tcp open  msrpc         Microsoft Windows RPC
+49157/tcp open  msrpc         Microsoft Windows RPC
+49161/tcp open  msrpc         Microsoft Windows RPC
+Service Info: Host: USER-20170417BF; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1m18s, deviation: 0s, median: -1m18s
+|_nbstat: NetBIOS name: USER-20170417BF, NetBIOS user: <unknown>, NetBIOS MAC: b8:ac:6f:bb:a6:49 (Dell)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: USER-20170417BF
+|   NetBIOS computer name: USER-20170417BF\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-25T09:52:09+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-10-25 09:52:09
+|_  start_date: 2018-10-25 08:10:48
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 66.07 seconds

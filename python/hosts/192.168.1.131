@@ -1,0 +1,30 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-25 09:53 CST
+Nmap scan report for 192.168.1.131
+Host is up (0.0029s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Windows XP netbios-ssn
+3389/tcp open  ms-wbt-server Microsoft Terminal Service
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 51s, deviation: 0s, median: 51s
+|_nbstat: NetBIOS name: QT-201308201136, NetBIOS user: <unknown>, NetBIOS MAC: 00:1e:c9:7b:b4:4f (Dell)
+| smb-os-discovery: 
+|   OS: Windows XP (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_xp::-
+|   Computer name: QT-201308201136
+|   NetBIOS computer name: QT-201308201136\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-25T09:54:38+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 263.61 seconds
