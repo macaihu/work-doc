@@ -1,4 +1,15 @@
 
+2018.10.26
+undefined reference to `_Unwind_Resume'
+加上编译参数“-Wl,-Bdynamic -lgcc_s”
+https://blog.csdn.net/gunwithrose/article/details/1922741
+https://stackoverflow.com/questions/5400500/makefile-how-to-fix-libc-dependency
+
+undefined reference to `__libc_setup_tls'
+要把-lpthread改为-pthread
+http://chaoslawful.iteye.com/blog/568602
+
+
 2018.10.25
 python 使用len来去list的长度，为什么不是xxx.len呢？
 http://s9899.blog.163.com/blog/static/3062228820110159182166/
@@ -5534,8 +5545,8 @@ qsdk里面编译wlan驱动的速度好慢啊。
 使用gcc-4.6编译当前有这样的错误：
 cd ../apps/autoset_channel && make CC=mips-linux-uclibc-gcc autoset_channel
 make[1]: Entering directory `/home/jian/work/ath9.5/apps/autoset_channel'
-mips-linux-uclibc-gcc -o autoset_channel -O2 -Wall -Werror -I../wireless_tools.2        9 main.o wlanconfig.o iw.o tlog.o cfg.o -lpthread -lm  -L../wireless_tools.29 -l        iw
-/usr/share/mips-gcc-4.6/staging_dir/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6        .3/../../../../mips-openwrt-linux-uclibc/bin/ld: warning: libdl.so.0, needed by         /usr/share/mips-gcc-4.6/staging_dir/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6        .3/../../../../mips-openwrt-linux-uclibc/lib/libpthread.so.0, not found (try usi        ng -rpath or -rpath-link)
+mips-linux-uclibc-gcc -o autoset_channel -O2 -Wall -Werror -I../wireless_tools.29 main.o wlanconfig.o iw.o tlog.o cfg.o -lpthread -lm  -L../wireless_tools.29 -liw
+/usr/share/mips-gcc-4.6/staging_dir/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6        .3/../../../../mips-openwrt-linux-uclibc/bin/ld: warning: libdl.so.0, needed by         /usr/share/mips-gcc-4.6/staging_dir/bin/../lib/gcc/mips-openwrt-linux-uclibc/4.6        .3/../../../../mips-openwrt-linux-uclibc/lib/libpthread.so.0, not found (try using -rpath or -rpath-link)
 这个错误一点曾经碰到过，不知道怎么解决的。
 
 git clone --bare的东西，会没有remote？奇怪啊。

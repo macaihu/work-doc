@@ -1,0 +1,160 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-10-28 20:31 CST
+Nmap scan report for 192.168.1.115
+Host is up (0.0040s latency).
+Not shown: 991 closed ports
+PORT     STATE SERVICE      VERSION
+80/tcp   open  http         Microsoft IIS httpd 5.1
+| http-methods: 
+|_  Potentially risky methods: TRACE LOCK UNLOCK DELETE PUT COPY MOVE MKCOL PROPFIND PROPPATCH SEARCH
+|_http-server-header: Microsoft-IIS/5.1
+|_http-title: \xD5\xD2\xB2\xBB\xB5\xBD\xCD\xF8\xD2\xB3
+| http-webdav-scan: 
+|   WebDAV type: Unkown
+|   Server Date: Sun, 28 Oct 2018 12:37:02 GMT
+|   Server Type: Microsoft-IIS/5.1
+|   Public Options: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH
+|_  Allowed Methods: OPTIONS, TRACE, GET, HEAD, LOCK, UNLOCK
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+443/tcp  open  ssl/https
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest, HTTPOptions, RTSPRequest, SIPOptions: 
+|     HTTP/1.1 403
+|     Connection: close
+|     Content-Type: text/html
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <HTML><HEAD>
+|     <TITLE>403 Forbidden</TITLE>
+|     </HEAD><BODY>
+|     <H1>Forbidden</H1>
+|     don't have permission to access to this server.<P>
+|_    </BODY></HTML>
+| ssl-cert: Subject: commonName=xxseoEZ/organizationName=antJBC57/stateOrProvinceName=J3y/countryName=JP
+| Not valid before: 2012-02-28T09:08:22
+|_Not valid after:  2022-02-25T09:08:22
+|_ssl-date: 2018-10-28T12:37:02+00:00; +3m25s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+|     SSL2_RC4_64_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|_    SSL2_DES_192_EDE3_CBC_WITH_MD5
+445/tcp  open  microsoft-ds Windows XP microsoft-ds
+1038/tcp open  msrpc        Microsoft Windows RPC
+1947/tcp open  http         Aladdin/SafeNet HASP license manager 13.23
+|_http-server-header: HASP LM/13.23
+|_http-title: 403 Forbidden
+3580/tcp open  http         Mbedthis-Appweb 2.5.0
+|_http-server-header: Mbedthis-Appweb/2.5.0
+|_http-title: Document Error: Not Found
+7777/tcp open  ssl/cbt?
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest, HTTPOptions, RTSPRequest, SIPOptions: 
+|     HTTP/1.1 403
+|     Connection: close
+|     Content-Type: text/html
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <HTML><HEAD>
+|     <TITLE>403 Forbidden</TITLE>
+|     </HEAD><BODY>
+|     <H1>Forbidden</H1>
+|     don't have permission to access to this server.<P>
+|_    </BODY></HTML>
+| ssl-cert: Subject: commonName=xxseoEZ/organizationName=antJBC57/stateOrProvinceName=J3y/countryName=JP
+| Not valid before: 2012-02-28T09:08:22
+|_Not valid after:  2022-02-25T09:08:22
+|_ssl-date: 2018-10-28T12:37:03+00:00; +3m26s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+|     SSL2_RC4_64_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|_    SSL2_DES_192_EDE3_CBC_WITH_MD5
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.60%T=SSL%I=7%D=10/28%Time=5BD5AC22%P=x86_64-pc-linux-gn
+SF:u%r(GetRequest,101,"HTTP/1\.1\x20403\r\nConnection:\x20close\r\nContent
+SF:-Type:\x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DT
+SF:D\x20HTML\x202\.0//EN\">\n<HTML><HEAD>\n<TITLE>403\x20Forbidden</TITLE>
+SF:\n</HEAD><BODY>\n<H1>Forbidden</H1>\nYou\x20don't\x20have\x20permission
+SF:\x20to\x20access\x20to\x20this\x20server\.<P>\n</BODY></HTML>\n\n")%r(H
+SF:TTPOptions,101,"HTTP/1\.1\x20403\r\nConnection:\x20close\r\nContent-Typ
+SF:e:\x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x2
+SF:0HTML\x202\.0//EN\">\n<HTML><HEAD>\n<TITLE>403\x20Forbidden</TITLE>\n</
+SF:HEAD><BODY>\n<H1>Forbidden</H1>\nYou\x20don't\x20have\x20permission\x20
+SF:to\x20access\x20to\x20this\x20server\.<P>\n</BODY></HTML>\n\n")%r(FourO
+SF:hFourRequest,101,"HTTP/1\.1\x20403\r\nConnection:\x20close\r\nContent-T
+SF:ype:\x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\
+SF:x20HTML\x202\.0//EN\">\n<HTML><HEAD>\n<TITLE>403\x20Forbidden</TITLE>\n
+SF:</HEAD><BODY>\n<H1>Forbidden</H1>\nYou\x20don't\x20have\x20permission\x
+SF:20to\x20access\x20to\x20this\x20server\.<P>\n</BODY></HTML>\n\n")%r(RTS
+SF:PRequest,101,"HTTP/1\.1\x20403\r\nConnection:\x20close\r\nContent-Type:
+SF:\x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20H
+SF:TML\x202\.0//EN\">\n<HTML><HEAD>\n<TITLE>403\x20Forbidden</TITLE>\n</HE
+SF:AD><BODY>\n<H1>Forbidden</H1>\nYou\x20don't\x20have\x20permission\x20to
+SF:\x20access\x20to\x20this\x20server\.<P>\n</BODY></HTML>\n\n")%r(SIPOpti
+SF:ons,101,"HTTP/1\.1\x20403\r\nConnection:\x20close\r\nContent-Type:\x20t
+SF:ext/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x
+SF:202\.0//EN\">\n<HTML><HEAD>\n<TITLE>403\x20Forbidden</TITLE>\n</HEAD><B
+SF:ODY>\n<H1>Forbidden</H1>\nYou\x20don't\x20have\x20permission\x20to\x20a
+SF:ccess\x20to\x20this\x20server\.<P>\n</BODY></HTML>\n\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port7777-TCP:V=7.60%T=SSL%I=7%D=10/28%Time=5BD5AC34%P=x86_64-pc-linux-g
+SF:nu%r(GetRequest,101,"HTTP/1\.1\x20403\r\nConnection:\x20close\r\nConten
+SF:t-Type:\x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//D
+SF:TD\x20HTML\x202\.0//EN\">\n<HTML><HEAD>\n<TITLE>403\x20Forbidden</TITLE
+SF:>\n</HEAD><BODY>\n<H1>Forbidden</H1>\nYou\x20don't\x20have\x20permissio
+SF:n\x20to\x20access\x20to\x20this\x20server\.<P>\n</BODY></HTML>\n\n")%r(
+SF:HTTPOptions,101,"HTTP/1\.1\x20403\r\nConnection:\x20close\r\nContent-Ty
+SF:pe:\x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x
+SF:20HTML\x202\.0//EN\">\n<HTML><HEAD>\n<TITLE>403\x20Forbidden</TITLE>\n<
+SF:/HEAD><BODY>\n<H1>Forbidden</H1>\nYou\x20don't\x20have\x20permission\x2
+SF:0to\x20access\x20to\x20this\x20server\.<P>\n</BODY></HTML>\n\n")%r(RTSP
+SF:Request,101,"HTTP/1\.1\x20403\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HT
+SF:ML\x202\.0//EN\">\n<HTML><HEAD>\n<TITLE>403\x20Forbidden</TITLE>\n</HEA
+SF:D><BODY>\n<H1>Forbidden</H1>\nYou\x20don't\x20have\x20permission\x20to\
+SF:x20access\x20to\x20this\x20server\.<P>\n</BODY></HTML>\n\n")%r(FourOhFo
+SF:urRequest,101,"HTTP/1\.1\x20403\r\nConnection:\x20close\r\nContent-Type
+SF::\x20text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20
+SF:HTML\x202\.0//EN\">\n<HTML><HEAD>\n<TITLE>403\x20Forbidden</TITLE>\n</H
+SF:EAD><BODY>\n<H1>Forbidden</H1>\nYou\x20don't\x20have\x20permission\x20t
+SF:o\x20access\x20to\x20this\x20server\.<P>\n</BODY></HTML>\n\n")%r(SIPOpt
+SF:ions,101,"HTTP/1\.1\x20403\r\nConnection:\x20close\r\nContent-Type:\x20
+SF:text/html\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\
+SF:x202\.0//EN\">\n<HTML><HEAD>\n<TITLE>403\x20Forbidden</TITLE>\n</HEAD><
+SF:BODY>\n<H1>Forbidden</H1>\nYou\x20don't\x20have\x20permission\x20to\x20
+SF:access\x20to\x20this\x20server\.<P>\n</BODY></HTML>\n\n");
+Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_xp
+
+Host script results:
+|_clock-skew: mean: 3m25s, deviation: 0s, median: 3m24s
+|_ms-sql-info: 
+|_nbstat: NetBIOS name: AGSIX, NetBIOS user: <unknown>, NetBIOS MAC: bc:30:5b:c7:b7:50 (Dell)
+| smb-os-discovery: 
+|   OS: Windows XP (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_xp::-
+|   Computer name: agsix
+|   NetBIOS computer name: AGSIX\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-10-28T20:37:02+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 346.11 seconds
