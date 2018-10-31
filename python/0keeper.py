@@ -19,7 +19,7 @@ def mac_isexist(cname, mac, ip, lease_time):
     for line in lines:
         #print line
         if(line.find(mac)>0):
-            print(mac+"  "+cname + lease_time + " come again.")
+            print(mac+" " + ip + "  " +cname + lease_time + " come again.")
             foundit = True
             line = cname + ' | ' +mac + ' | '+ ip + '  | ' + lease_time + '\n'
         f1.write(line)
@@ -35,7 +35,7 @@ def addit(cname, mac, ip, lease_time):
     f1=file(recorder_file, 'r')
     content=f1.readline()
     content+=f1.readline()
-    print(mac+"  "+cname + lease_time + " is new user.")
+    print(mac+" " + ip + "  " +cname + lease_time + " is new user.")
     content+=cname + ' | ' +mac + ' | '+ ip + '  | ' + lease_time + '\n'
     content+=f1.read()
     f1.close
