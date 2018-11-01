@@ -1,4 +1,9 @@
 
+2018.10.31
+mini_httpd 1.30这个版本，我们的cgi还是无法输出的。
+
+我应该曾经使用过3.18.23的内核和wlan_v10配合，好像编译错误太多，已经不这样折腾了。
+
 2018.10.26
 undefined reference to `_Unwind_Resume'
 加上编译参数“-Wl,-Bdynamic -lgcc_s”
