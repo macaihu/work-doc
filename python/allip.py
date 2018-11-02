@@ -7,7 +7,7 @@ import sys
 def get_all_survial_hosts(ips):
     os.system('mkdir -p hosts')
     #allips = os.popen('nmap -sn 192.168.1.0/24')
-    allips = os.popen('nmap -sn ' + ips)
+    allips = os.popen('sudo nmap -sn -PE ' + ips)
     lines = allips.readlines()
     for line in lines:
         if(line.find("report")>0):
