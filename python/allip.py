@@ -19,7 +19,7 @@ def get_all_survial_hosts(ips):
             #print ip
             if not os.path.isfile('hosts/'+ip) :
                 print 'checking ' +ip + '.....'
-                os.system('nmap -A ' + ip + ' >> hosts/'+ ip)
+                os.system('nmap -A -PN ' + ip + ' >> hosts/'+ ip)
             else:
                 print 'we have checked ' + ip 
         #print line

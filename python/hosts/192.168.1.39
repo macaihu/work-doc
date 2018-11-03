@@ -1,0 +1,102 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-11-02 08:55 CST
+Nmap scan report for 192.168.1.39
+Host is up (0.0019s latency).
+Not shown: 992 filtered ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+3389/tcp  open  ssl          Microsoft SChannel TLS
+| fingerprint-strings: 
+|   TLSSessionReq: 
+|     /.dW
+|     0jI)
+|     yang0
+|     181015123326Z
+|     190416123326Z0
+|     yang0
+|     <i%p
+|     pU=#
+|     +.T}
+|     ~]eZCLkv~
+|     \xe4
+|     F['hI/
+|     $0"0
+|     G\xc9
+|     ExxAO3
+|     \x83
+|     Y|9`
+|_    Ei>w
+| ssl-cert: Subject: commonName=yang
+| Not valid before: 2018-10-15T12:33:26
+|_Not valid after:  2019-04-16T12:33:26
+|_ssl-date: 2018-11-02T00:54:12+00:00; -2m24s from scanner time.
+5280/tcp  open  flexlm       FlexLM license manager
+5357/tcp  open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+49157/tcp open  msrpc        Microsoft Windows RPC
+49158/tcp open  flexlm       FlexLM license manager
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3389-TCP:V=7.60%I=7%D=11/2%Time=5BDBA099%P=x86_64-pc-linux-gnu%r(TL
+SF:SSessionReq,334,"\x16\x03\x03\x03/\x02\0\0M\x03\x03\[\xdb\xa0\x05\x0c8\
+SF:x936Rl\xfc\$\x9c\x7f\xeb\xee\xdch\"h\x98l\xc2\)\x88\x81\xac\xac1\xc4\x8
+SF:f2\x20AK\0\0\xb6/\.dW\r\xcd\x1e\x85\*!\x94\x12\xc4\\t\xc8\x8b0jI\)\x15~
+SF:\x93\x17\xa0B\0/\0\0\x05\xff\x01\0\x01\0\x0b\0\x02\xd6\0\x02\xd3\0\x02\
+SF:xd00\x82\x02\xcc0\x82\x01\xb4\xa0\x03\x02\x01\x02\x02\x10\x1e\x95\xb34\
+SF:xe9\x0e\xb0\x9bFY\x05\xc9\xe1\xbdL\xcd0\r\x06\t\*\x86H\x86\xf7\r\x01\x0
+SF:1\x05\x05\x000\x0f1\r0\x0b\x06\x03U\x04\x03\x13\x04yang0\x1e\x17\r18101
+SF:5123326Z\x17\r190416123326Z0\x0f1\r0\x0b\x06\x03U\x04\x03\x13\x04yang0\
+SF:x82\x01\"0\r\x06\t\*\x86H\x86\xf7\r\x01\x01\x01\x05\0\x03\x82\x01\x0f\x
+SF:000\x82\x01\n\x02\x82\x01\x01\0\xbf'~M\xdb\xa2\x11\x8bU\xa2\xb1_\x07\]\
+SF:xe4\xb1\xdf\xdc\xee\xd9\xae\xd9\xe8\xd5<i%p\x14\x8c\xb38\xca\xd8\x9e\xe
+SF:2\xbf\xb6\^\xb1\xecbY\x14\xd6\x16'8\?\x8dp\x9a\(\x87\*tB\xd9\xd6\xb5\x1
+SF:0`\xf0\xbe\xb9Z\xd6G\x1apU=#\xe1K}:\xc2p\xa8C\x8a\xf1\xae\xbb\t\xe6\]\x
+SF:ea\x84\x01\x8a8\xf7\xde\x8c\xc1D\xa2\xcc\x19\xa9\xd6T\xf5\x83\x88\xa6b}
+SF:\x9b#T\xd8#Y\x20;\xd6\x91\x8e\*\xdb\xd94\n\x96D\xd9\^h\xfcm\xde\x20\*F\
+SF:xb4\x0f\+\.T}\x1e\x04\xe3\x83\xc2_\xe4\x98em\xb1\xaeo\x01X\xc0\(\x8c!\0
+SF:S\xce\x99\(\xa6\xa57p\xa5~\]eZCLkv~\xa0u\x86kK\x91w\x1bA\xdf\({c\x20\xa
+SF:6\x86\\\xe4\x80\.\xb7\xecX\x03\xa1`\x17B\xcb\x81\xe4\xfex\xce\+\xb8\x98
+SF:\xec\xb0\xe5}\x1e\x98\\bk\xdc\xb6\xac\xe1\xadw\xb9\x9bF\['hI/\x0c\x1d\x
+SF:9fL\xa0\xf2\xad\xe8Q\x80\+\x9f\x95\x92q\x02\x03\x01\0\x01\xa3\$0\"0\x13
+SF:\x06\x03U\x1d%\x04\x0c0\n\x06\x08\+\x06\x01\x05\x05\x07\x03\x010\x0b\x0
+SF:6\x03U\x1d\x0f\x04\x04\x03\x02\x0400\r\x06\t\*\x86H\x86\xf7\r\x01\x01\x
+SF:05\x05\0\x03\x82\x01\x01\x002\x19Ow\x8f\x80\xaa\xeb\xf0UeW\xecO\xee\x82
+SF:\)\x08\xfc!\x0f&\xbe\xc5'kz\xb4\xbf>\xbf\x1c7\xa8\x05\x14\xbe\xf4G\\\xc
+SF:9\x86\xa0\x0f\xff\x9c\xb0K\xec\xb9G\xa3K\xfb\xc6\$\x14\x83\xb2KW\xb3\xe
+SF:e=x\xec\xfc\xa2\xc1\xc2ExxAO3\x86\xe4\xe7F\xe4\xcc1\xb61\0\xddT\xe5d\x1
+SF:81t\xe5\xfe<A\x02n\x1a\xa2\x7f\xc0\"\xe9V\x19T\x83\x08\|\xba\xeb\xf5\xa
+SF:b#\x17oN\x02\x1do\xe6\x93\]\x0cy\xbb\xa4\x12G\xb9!\xbc\x9a\x95\xaa\x95U
+SF:=\x92\xdc\xc4\r\\\x83\xac\xd2\xf9\xc1u\xaeY\|9`\xb3g\x1d\x16\xb1\xa5\xd
+SF:a\xf7@'\xbdC\xe9\x93\x9e\x85\xd1HN\xf9\x82\xe7\x19\x0f\xea\0t\x18l:\x0f
+SF:\xb4\x06A\xd2\xb1Ei>w\x93v\xcc\x17<{\xf9\xf2\x82\xf5w\xe1t\x16\x89o\0\x
+SF:b0\x89\x9f\xcey\xebP\x8f\x7f\xd3\xbc@\xfc\x80\xf7\x18S\x8c\r\0\.o\x0co\
+SF:x96\xf0\x85L\x04\xa53\x8dJ\x81\x92}q\x87\x9f\xbc\x20\xaf\xbf\x0e\0\0\0"
+SF:);
+Service Info: Host: YANG; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -2m24s, deviation: 0s, median: -2m24s
+|_nbstat: NetBIOS name: YANG, NetBIOS user: <unknown>, NetBIOS MAC: 48:4d:7e:c9:31:2f (Dell)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: yang
+|   NetBIOS computer name: YANG\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-11-02T08:54:12+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-11-02 08:54:13
+|_  start_date: 2018-11-02 08:28:36
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 105.87 seconds

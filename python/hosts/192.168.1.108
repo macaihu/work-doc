@@ -1,0 +1,61 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-11-02 09:11 CST
+Nmap scan report for 192.168.1.108
+Host is up (0.0025s latency).
+Not shown: 998 filtered ports
+PORT     STATE  SERVICE    VERSION
+1723/tcp closed pptp
+8080/tcp open   http-proxy httpd
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.1 400 Bad Request (5)
+|     Server: httpd
+|     Date: Fri, 02 Nov 2018 09:11:15 GMT
+|     Content-Type: text/html
+|     <HTML><HEAD>
+|     <meta http-equiv="content-type" content="text/html;charset=utf-8">
+|     <TITLE>400 Bad Request (5)</TITLE></HEAD>
+|     <style><!--
+|     body {background-color:#cc9999}
+|     div.nav {margin-top: 1ex}
+|     div.nav A {font-size: 10pt; font-family: arial,sans-serif}
+|     span.nav {font-size: 10pt; font-family: arial,sans-serif; font-weight: bold}
+|     div.nav A,span.big {font-size: 12pt; color: #0000cc}
+|     div.nav A {font-size: 10pt; color: black}
+|     A.l:link {color: #6f6f6f}
+|     A.u:link {color: green}
+|     //--></style>
+|     </head><body><H4>Can't parse request.</H4>
+|_    </BODY></HTML>
+|_http-server-header: httpd
+|_http-title: Welcome to CVR100W
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8080-TCP:V=7.60%I=7%D=11/2%Time=5BDBA433%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,28E,"HTTP/1\.1\x20400\x20Bad\x20Request\x20\(5\)\r\nServer:\x2
+SF:0httpd\r\nDate:\x20Fri,\x2002\x20Nov\x202018\x2009:11:15\x20GMT\r\nCont
+SF:ent-Type:\x20text/html\r\n\r\n<HTML><HEAD>\n<meta\x20http-equiv=\"conte
+SF:nt-type\"\x20content=\"text/html;charset=utf-8\">\n<TITLE>400\x20Bad\x2
+SF:0Request\x20\(5\)</TITLE></HEAD>\n<style><!--\nbody\x20{background-colo
+SF:r:#cc9999}\ndiv\.nav\x20{margin-top:\x201ex}\ndiv\.nav\x20A\x20{font-si
+SF:ze:\x2010pt;\x20font-family:\x20arial,sans-serif}\nspan\.nav\x20{font-s
+SF:ize:\x2010pt;\x20font-family:\x20arial,sans-serif;\x20font-weight:\x20b
+SF:old}\ndiv\.nav\x20A,span\.big\x20{font-size:\x2012pt;\x20color:\x20#000
+SF:0cc}\ndiv\.nav\x20A\x20{font-size:\x2010pt;\x20color:\x20black}\nA\.l:l
+SF:ink\x20{color:\x20#6f6f6f}\nA\.u:link\x20{color:\x20green}\n//--></styl
+SF:e>\n</head><body><H4>Can't\x20parse\x20request\.</H4>\n</BODY></HTML>\n
+SF:")%r(FourOhFourRequest,28E,"HTTP/1\.1\x20400\x20Bad\x20Request\x20\(5\)
+SF:\r\nServer:\x20httpd\r\nDate:\x20Fri,\x2002\x20Nov\x202018\x2009:11:15\
+SF:x20GMT\r\nContent-Type:\x20text/html\r\n\r\n<HTML><HEAD>\n<meta\x20http
+SF:-equiv=\"content-type\"\x20content=\"text/html;charset=utf-8\">\n<TITLE
+SF:>400\x20Bad\x20Request\x20\(5\)</TITLE></HEAD>\n<style><!--\nbody\x20{b
+SF:ackground-color:#cc9999}\ndiv\.nav\x20{margin-top:\x201ex}\ndiv\.nav\x2
+SF:0A\x20{font-size:\x2010pt;\x20font-family:\x20arial,sans-serif}\nspan\.
+SF:nav\x20{font-size:\x2010pt;\x20font-family:\x20arial,sans-serif;\x20fon
+SF:t-weight:\x20bold}\ndiv\.nav\x20A,span\.big\x20{font-size:\x2012pt;\x20
+SF:color:\x20#0000cc}\ndiv\.nav\x20A\x20{font-size:\x2010pt;\x20color:\x20
+SF:black}\nA\.l:link\x20{color:\x20#6f6f6f}\nA\.u:link\x20{color:\x20green
+SF:}\n//--></style>\n</head><body><H4>Can't\x20parse\x20request\.</H4>\n</
+SF:BODY></HTML>\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 49.81 seconds

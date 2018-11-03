@@ -1,0 +1,37 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-11-02 09:22 CST
+Nmap scan report for 192.168.1.158
+Host is up (0.0020s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE  VERSION
+21/tcp   open  ftp      FileZilla ftpd
+| ftp-syst: 
+|_  SYST: UNIX emulated by FileZilla
+1433/tcp open  ms-sql-s Microsoft SQL Server 2008 10.00.1600.00; RTM
+| ms-sql-ntlm-info: 
+|   Target_Name: CHEN-PC
+|   NetBIOS_Domain_Name: CHEN-PC
+|   NetBIOS_Computer_Name: CHEN-PC
+|   DNS_Domain_Name: Chen-PC
+|   DNS_Computer_Name: Chen-PC
+|_  Product_Version: 6.1.7601
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Not valid before: 2018-10-19T07:43:08
+|_Not valid after:  2048-10-19T07:43:08
+|_ssl-date: 2018-11-02T01:22:45+00:00; -3s from scanner time.
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -3s, deviation: 0s, median: -3s
+| ms-sql-info: 
+|   192.168.1.158:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2008 RTM
+|       number: 10.00.1600.00
+|       Product: Microsoft SQL Server 2008
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 20.45 seconds
