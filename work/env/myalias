@@ -1,5 +1,5 @@
 alias ath9='cd ~/work/ath9.5/build'
-alias zte='cd ~/work/zte7520_ap'
+alias zte='cd ~/work/zte7520_apv3'
 alias bigap='cd ~/work/bigap/ar9334/build'
 alias s='sshpass -p sztz369147258 ssh root@192.168.19.1 -p 8357'
 alias p25='sshpass -p keep0It3 ssh admin@192.168.0.1 -p 8357'
