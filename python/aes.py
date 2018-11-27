@@ -67,7 +67,7 @@ def encode(afileName):
   org_fiile = open(afileName, 'r')
   message = org_fiile.read()
   length = 16 - (len(message) % 16)
-  message += '\0'*length
+  message += ' '*length
   ciphertext = obj.encrypt(message)
   #print ciphertext
   ace_file = open(os.path.splitext(afileName)[0]+'.bin', 'w')

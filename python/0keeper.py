@@ -9,13 +9,21 @@ import time
 import os
 
 recorder_file='0keeper.md'
+log_file='0keeper.log'
+
+def cur_file_dir():
+     path = sys.path[0]
+     if os.path.isdir(path):
+         return path + '/'
+     elif os.path.isfile(path):
+         return os.path.dirname(path)
 
 def mac_isexist(cname, mac, ip, lease_time):
-    f1=file(recorder_file)
+    f1=file(cur_file_dir() + recorder_file)
     #print("we are find " + mac)
     lines = f1.readlines()
     foundit = False
-    f1=file(recorder_file, 'w')
+    f1=file(cur_file_dir() + recorder_file, 'w')
     for line in lines:
         #print line
         if(line.find(mac)>0):
@@ -30,19 +38,31 @@ def addit(cname, mac, ip, lease_time):
         cname += " "    
     for _ in range(14-len(ip)):
         ip += " "    
+    addlog(cname + ' | ' +mac + ' | '+ ip + '  | ' + lease_time )
     if(mac_isexist(cname, mac, ip, lease_time)):
         return False
-    f1=file(recorder_file, 'r')
+    f1=file(cur_file_dir() + recorder_file, 'r')
     content=f1.readline()
     content+=f1.readline()
     print(mac+" " + ip + "  " +cname + lease_time + " is new user.")
     content+=cname + ' | ' +mac + ' | '+ ip + '  | ' + lease_time + '\n'
     content+=f1.read()
     f1.close
-    f1=file(recorder_file,'w')
+    f1=file(cur_file_dir() +recorder_file,'w')
     f1.write(content)
     f1.close
     return True
+
+def addlog(content2):
+    f1=file(cur_file_dir() + log_file, 'r')
+    readlines = f1.read()
+    #print readlines
+    if(readlines.find(content2)>=0):
+        return
+    readlines +=  content2 + '\n'
+    f1=file(cur_file_dir() + log_file, 'w')
+    f1.write(readlines)
+    return
 
 def addhttp1():
    connection = http.client.HTTPConnection('192.168.19.1', 80, timeout=10) 
