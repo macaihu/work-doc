@@ -1,0 +1,44 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-11-27 09:00 CST
+Nmap scan report for 192.168.1.253
+Host is up (0.0016s latency).
+Not shown: 991 filtered ports
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds  Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+3000/tcp  open  flexlm        FlexLM license manager
+3389/tcp  open  ms-wbt-server Microsoft Terminal Service
+|_ssl-date: 2018-11-27T01:01:59+00:00; -10s from scanner time.
+5280/tcp  open  flexlm        FlexLM license manager
+5357/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+49153/tcp open  msrpc         Microsoft Windows RPC
+49154/tcp open  msrpc         Microsoft Windows RPC
+Service Info: Host: NICK-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -10s, deviation: 0s, median: -10s
+|_nbstat: NetBIOS name: NICK-PC, NetBIOS user: <unknown>, NetBIOS MAC: 48:4d:7e:c8:c4:5f (Dell)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: Nick-PC
+|   NetBIOS computer name: NICK-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2018-11-27T09:01:59+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2018-11-27 09:01:59
+|_  start_date: 2018-11-26 09:10:33
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 131.04 seconds
