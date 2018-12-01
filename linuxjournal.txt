@@ -1,4 +1,8 @@
 
+2018.11.30
+所有的mac地址公司在这里:
+http://standards-oui.ieee.org/oui/oui.txt
+
 2018.11.14
 在77上这样设置后， 77上可以ping到p53的lan口。
 sudo ip route add 192.168.19.0/24 dev ppp1 

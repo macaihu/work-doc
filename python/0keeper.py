@@ -71,6 +71,19 @@ def addhttp1():
    print(response.read())
    connection.close()
 
+def find_oui(mac):
+    shortmac=mac.replace(':', '')[:6]
+    #print '1111111111111111111 '+shortmac
+    oui = os.popen("cat oui.csv | grep " + shortmac).readline()
+    #print oui
+    company = oui.split(',')[2][0:31]       
+    if company[0] == '\"':
+        company = oui.split(',')[2][1:32]       
+    company = company.replace(' ', '_')
+    #print company
+    return company
+
+
 def addhttp():
     loginpayload={'cmd':100,'method':"POST", 'language':'EN', 'username':'admin', 'passwd':'f6339c4179e7b9b4b7c9da08502184ec', 'sessionId':'a6083050f134e86e79a7af2a5217ab4ea0ff26b8b1a25ea4b45fb969aa49d457' }
     test = 'test=test'
@@ -89,6 +102,8 @@ def addhttp():
         mac=pc[1].upper()
         ip=pc[2]
         pcname=pc[3]
+        if pcname == '*':
+            pcname = find_oui(mac)
         datetime_struct = datetime.datetime.fromtimestamp(float(time1)-60*60*24)
         localtime=datetime_struct.strftime(" %Y-%m-%d %H:%M:%S")
         if(addit(pcname, mac, ip, localtime)):
