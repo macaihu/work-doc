@@ -1,4 +1,20 @@
 
+2018.12.2
+rendezvous  ['rɑndɪvuː]   n.  约会; 会合; 会面; 约会地点
+                          v.  在指定地点见面; 使在指定地点集合; 约会; 会合; 会面
+chap  [tʃæp]              n.  皲裂; 龟裂#家伙, 男人, 小伙子
+                          v.  使皲裂; 使龟裂; 出现皲裂; 出现龟裂
+ambient  ['am·bi·ent]     adj.  周围的
+derelict  [der·e·lict]    n.  遗弃物, 玩忽职守者, 被遗弃的人
+                          adj.  被抛弃了的, 玩忽职守的, 无主的
+dissection  [dis'sec·tion] n.  切开; 解剖体; 解剖; 仔细分析
+effeminate  [ef'fem·i·nate ] adj.  柔弱的; 娇气的; 女人气的
+bureaucratic  [bu·reau·crat·ic] adj.  官僚政治的
+pathologist  [pa·thol·o·gist] n.  病理学者
+invigorate  [in·vig·or·ate] v.  赋予精神; 鼓舞
+incubation  [in·cu·ba·tion] n.  孵卵; 潜伏期; 熟虑, 筹划
+adjutant  [ad·ju·tant]   n.  副官; 助手; 人事行政参谋; 大鹳
+
 2018.10.12
 philosophical  ['fɪlə'sɑfɪkl /-'sɒf-] adj.  哲学的, 哲学上的, 冷静的
 blockbuster    n.  巨型炸弹; 一鸣惊人者
@@ -1106,9 +1122,8 @@ a.  卑鄙的
 
 proponent  [prә'pәunәnt]
 n.  建议者, 支持者
-recuperate  [ri'kju:pәreit]
-vt.  恢复, 使复原, 使恢复健康, 使恢复精神
-vi.  复原, 恢复健康, 挽回损失
+recuperate  [ri'kju:pәreit] vt.  恢复, 使复原, 使恢复健康, 使恢复精神 2018.12.2
+                            vi.  复原, 恢复健康, 挽回损失
 
 2015.6.7 
 emaciated     [i'meisieitid] a.  瘦弱的, 衰弱的  2018.1.7
@@ -1612,7 +1627,7 @@ n.  溅, 少量
 hempen       ['hempәn] a.  大麻制的, 大麻的
 fuzzy  ['fʌzi]
 a.  有微毛的, 模糊的
-harbinger              ['hɑ:bindʒә] n.  通告者, 预告者, 先驱, 预兆 vt.  预告, 充做...的前驱  20171221
+harbinger     ['hɑ:bindʒә] n.  通告者, 预告者, 先驱, 预兆 vt.  预告, 充做...的前驱  20181202
 perverse  [pә'vә:s]
 a.  乖张的, 故意作对的, 有悖常情的, 执迷不悟的, 歪曲的, 错误的, 不正当的
 jet  [dʒet]
@@ -2277,7 +2292,7 @@ vt.  乱砍, 乱劈
 n.  杀价, 讨论, 争论
 freakish  ['fri:kiʃ] a.  朝三暮四的, 见异思迁的, 畸形的
 unduly  [,ʌn'dju:li] ad.  不适当地, 过度地
-sentiment  ['sentimәnt] n.  感情, 感伤, 情操, 情绪, 感想, 意见 2017.12.18
+sentiment  ['sentimәnt] n.  感情, 感伤, 情操, 情绪, 感想, 意见 2018.12.2
 unruly  [,ʌn'ru:li] a.  难控制的, 无法无天的, 任性的
 
 2015.5.5 49.49%
@@ -5383,7 +5398,7 @@ If they are to distinguish their wares form selfpublished dross, they must….
 2	cub	(熊、狮、虎、狼等的)幼兽;幼鲸;幼鲨
 1	pur	姑噜姑噜叫，发出喉音
 1	stripe	条纹,斑纹;线条
-1	blur	模糊;模糊不清的事物
+1	blur	模糊;模糊不清的事物  2018.12.2
 2	topple	使倒塌;推翻;颠覆
 1	wreck	(船等的)失事,遇难
 1	shovel	铲子,铁锹
