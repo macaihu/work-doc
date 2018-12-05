@@ -8,6 +8,7 @@ import datetime
 import time
 import os
 
+#wget http://standards-oui.ieee.org/oui/oui.csv -O oui.csv
 recorder_file='0keeper.md'
 log_file='0keeper.log'
 

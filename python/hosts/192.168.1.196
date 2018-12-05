@@ -1,0 +1,44 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-12-03 14:28 CST
+Nmap scan report for 192.168.1.196
+Host is up (0.0056s latency).
+Not shown: 988 closed ports
+PORT     STATE SERVICE    VERSION
+21/tcp   open  ftp        oftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_.
+| ftp-syst: 
+|_  SYST: .
+23/tcp   open  telnet     HP LaserJet printer telnetd (busy)
+80/tcp   open  soap       gSOAP 2.7
+| http-server-header: 
+|   Virata-EmWeb/R6_2_1
+|_  gSOAP/2.7
+81/tcp   open  tcpwrapped
+82/tcp   open  tcpwrapped
+83/tcp   open  tcpwrapped
+443/tcp  open  tcpwrapped
+| http-server-header: 
+|   Virata-EmWeb/R6_2_1
+|_  gSOAP/2.7
+|_http-title: HP LaserJet 400 M401n&nbsp;&nbsp;&nbsp;192.168.1.196
+| ssl-cert: Subject: commonName=NPI7D7005/organizationName=Hewlett-Packard Co.
+| Not valid before: 2013-04-01T00:00:00
+|_Not valid after:  2023-04-01T00:00:00
+|_ssl-date: TLS randomness does not represent time
+515/tcp  open  printer
+631/tcp  open  soap       gSOAP 2.7
+| http-server-header: 
+|   Virata-EmWeb/R6_2_1
+|_  gSOAP/2.7
+5222/tcp open  tcpwrapped
+|_xmpp-info: ERROR: Script execution failed (use -d to debug)
+8080/tcp open  soap       gSOAP 2.7
+| http-server-header: 
+|   Virata-EmWeb/R6_2_1
+|_  gSOAP/2.7
+9100/tcp open  jetdirect?
+Service Info: OS: Unix; Device: printer
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 18.95 seconds

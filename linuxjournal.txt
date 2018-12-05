@@ -1,4 +1,30 @@
 
+2018.12.4
+{"cmd":3,"method":"GET","network":"LAN","language":"CN","sessionId":"a60830507a56d41d89bf015dbfa68caa3cf69144d6f1db74a37933adacf8ed0d"}
+{"success":true,"cmd":3,"lanIp":"192.168.19.1","netMask":"255.255.240.0","dhcpServer":"yes","ipBegin":"192.168.16.10","ipEnd":"192.168.31.250","expireTime":"86400"}
+
+
+sublime License
+----- BEGIN LICENSE -----
+sgbteam
+Single User License
+EA7E-1153259
+8891CBB9 F1513E4F 1A3405C1 A865D53F
+115F202E 7B91AB2D 0D2A40ED 352B269B
+76E84F0B CD69BFC7 59F2DFEF E267328F
+215652A3 E88F9D8F 4C38E3BA 5B2DAAE4
+969624E7 DC9CD4D5 717FB40C 1B9738CF
+20B3C4F1 E917B5B3 87C38D9C ACCE7DD8
+5F7EF854 86B9743C FADC04AA FB0DA5C0
+F913BE58 42FEA319 F954EFDD AE881E0B
+------ END LICENSE ------
+修改hosts:
+127.0.0.1 www.sublimetext.com
+127.0.0.1 license.sublimehq.com
+127.0.0.1 45.55.255.55
+127.0.0.1 45.55.41.223
+https://www.cmsky.com/sublime-text-key/
+
 2018.11.30
 所有的mac地址公司在这里:
 http://standards-oui.ieee.org/oui/oui.txt
