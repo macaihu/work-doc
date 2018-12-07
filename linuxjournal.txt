@@ -1,9 +1,5 @@
 
 2018.12.4
-{"cmd":3,"method":"GET","network":"LAN","language":"CN","sessionId":"a60830507a56d41d89bf015dbfa68caa3cf69144d6f1db74a37933adacf8ed0d"}
-{"success":true,"cmd":3,"lanIp":"192.168.19.1","netMask":"255.255.240.0","dhcpServer":"yes","ipBegin":"192.168.16.10","ipEnd":"192.168.31.250","expireTime":"86400"}
-{"successs":true,"ipBegin":"192.168.0.100","expireTime":"86400","ipEnd":"192.168.0.100","dhcpServer":"yes","cmd":3,"lanIp":"192.168.0.1","netMask":"255.255.255.0"}
-
 
 sublime License
 ----- BEGIN LICENSE -----
