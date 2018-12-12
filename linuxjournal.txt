@@ -1,6 +1,10 @@
 
-2018.12.4
+2018.12.11
+这样还能得到本机ip
+curl  http://2018.ip138.com/ic.asp
+ip.cn貌似封锁了sim卡的地址。
 
+2018.12.4
 sublime License
 ----- BEGIN LICENSE -----
 sgbteam
