@@ -118,5 +118,7 @@ def addhttp():
 if __name__ == '__main__':
     if(len(sys.argv) == 1):
         addhttp()
+    elif (sys.argv[1] == 'oui'):
+        os.system("wget http://standards-oui.ieee.org/oui/oui.csv -O oui.csv")
     else:
 	    addit(sys.argv[1], sys.argv[2], sys.argv[3],sys.argv[4])

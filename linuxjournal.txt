@@ -1,6 +1,11 @@
+2018.12.28
+https://www.geeflex.com/Blog/2018-03-12-srsLTE/
+
 2018.12.20
 这样可以显示所有文件的内容，不能用xargs。
  find -type f -print -exec cat {} \;
+这样也可以：
+ls | xargs -n1 -t cat
 
 2018.12.14
 linux grep 正则表达式
