@@ -10,4 +10,5 @@ alias p53='sshpass -p sztz369147258 ssh root@192.168.0.1 -p 8357 -F ~/work/jian-
 alias lenovo='ssh jian@192.168.19.2 -F ~/work/jian-doc/work/env/ssh_config'
 alias scp53='s_func(){ sshpass -p sztz369147258 scp -P 8357 -F ~/work/jian-doc/work/env/ssh_config $@ root@192.168.0.1:/tmp ;}; s_func $1'
 alias scp59='s_func(){ sshpass -p sztz369147258 scp -P 8357 $@ root@192.168.19.1:/tmp ;}; s_func $1'
+alias scp7621='s_func(){ sshpass -p 123456 scp  -F ~/work/jian-doc/work/env/ssh_config $@ root@192.168.2.1:/tmp ;}; s_func $1'
 alias readb='sudo adb kill-server ; sudo adb start-server'
