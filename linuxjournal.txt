@@ -1,3 +1,6 @@
+2019.01.09
+华泰  020 900 256 538
+
 2019.01.03
 解决Could not get lock /var/cache/apt/archives/lock
 sudo rm -rf /var/cache/apt/archives/lock
