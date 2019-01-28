@@ -24,6 +24,7 @@ ls | xargs -n1 -t cat
 2018.12.14
 linux grep 正则表达式
 http://www.cnblogs.com/xiaouisme/archive/2012/11/09/2762543.html
+^ 锚定行的开始 如：'^grep'匹配所有以grep开头的行。 
 
 ip -6 route add ::1/0 via 240e:ff:b353:4e6b:1:1:703d:f994 dev usb0
 
