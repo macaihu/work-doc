@@ -1,8 +1,20 @@
 
-Starting Nmap 7.60 ( https://nmap.org ) at 2018-11-02 09:00 CST
+Starting Nmap 7.60 ( https://nmap.org ) at 2019-01-29 17:40 CST
 Nmap scan report for 192.168.1.67
-Host is up.
-All 1000 scanned ports on 192.168.1.67 are filtered
+Host is up (0.0047s latency).
+Not shown: 763 filtered ports, 233 closed ports
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 7.2p2 Ubuntu 4ubuntu2.6 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 c9:31:83:84:64:30:8a:4b:9e:ca:d3:c7:54:64:d6:9e (RSA)
+|   256 ff:2b:38:1a:08:5c:3e:99:83:51:10:f3:7c:9c:41:29 (ECDSA)
+|_  256 c7:aa:8b:de:ea:1d:13:dc:82:ad:a4:7e:71:18:7f:2d (EdDSA)
+23/tcp   open  telnet      Linux telnetd
+8080/tcp open  http        Apache Tomcat 8.5.35
+|_http-favicon: Apache Tomcat
+|_http-title: Apache Tomcat/8.5.35
+9000/tcp open  cslistener?
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 201.59 seconds
+Nmap done: 1 IP address (1 host up) scanned in 92.82 seconds
