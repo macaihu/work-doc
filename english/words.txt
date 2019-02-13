@@ -1,4 +1,7 @@
 
+2019.1.31 
+mahogany    [ma·hog·a·ny] n.  桃花心木; 红褐色; 其木材
+
 2018.12.2
 rendezvous  ['rɑndɪvuː]   n.  约会; 会合; 会面; 约会地点
                           v.  在指定地点见面; 使在指定地点集合; 约会; 会合; 会面
@@ -386,7 +389,7 @@ cowl           [kau] n.  蒙头斗篷, 通风帽
 puissant       ['pju:isnt] a.  强有力的, 强盛的, 有权力的  2018.1.7
 feral          ['fiәrәl] a.  野生的, 凶猛的, 野兽的 
 queasy         ['kwi:zi]a.  呕吐的, 使人呕吐的
-quaver         ['kweivә] vi.  发颤音, 颤抖vt.  颤抖地说, 用颤声唱出n.  颤抖, 颤声, 八分音符
+quaver         ['kweivә] vi.  发颤音, 颤抖vt.  颤抖地说, 用颤声唱出n.  颤抖, 颤声, 八分音符 
 succor         ['sʌkә]n.  救援, 援助者vt.  救援, 援助
 attest         [ә'test]vi.  证明, 表明, 作证vt.  为...作证
 abduction      [æb'dʌkʃәn] n.  诱拐, 绑架, 外展
@@ -3448,7 +3451,7 @@ n.  泛滥, 大雨, 洪水
 10	portent	      预兆；征兆
 11	itch	     渴望;迫切想要
 12	chivalry	（中世纪的）骑士精神，骑士风范
-13	scowl	     作怒容;沉下脸;绷着脸
+13	scowl	     作怒容;沉下脸;绷着脸    2019.1.31
 14	vassal	    （封建社会的）封臣
 15	blustery	（天气）风雨大作的，恶劣的
 16	retinue	    随行人员;随从;随员
@@ -4573,7 +4576,7 @@ n.  小桶
 taunt  [tɒ:nt]n.  辱骂, 嘲弄vt.  嘲弄, 奚落
 screech      [skri:tʃ]n.  尖声喊叫, 尖叫声, 煞车声vt.  尖声讲vi.  发出尖声  2018.1.6
 grit  [grit]n.  砂砾, 粗砂石vt.  覆以砂砾, 咬牙切齿地说vi.  摩擦作声
-scowl  [skaul]n.  愁容, 阴沉脸色vi.  皱眉, 绷着脸vt.  怒视
+scowl       [skaul]n.  愁容, 阴沉脸色vi.  皱眉, 绷着脸vt.  怒视
 craven  ['kreivәn]n.  懦夫, 怯懦者, 胆小鬼a.  怯懦的, 畏缩的, 胆小的
 cherish  ['tʃeriʃ]vt.  珍爱, 怀有, 爱护
 winch  [wintʃ]
