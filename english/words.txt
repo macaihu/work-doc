@@ -1,4 +1,11 @@
 
+2019.2.14
+connotation  [kɒnəʊ'teɪʃn] n.  含蓄; 内涵; 储蓄的东西
+tantrum  ['tæntrəm]        n.  发脾气, 发怒
+testosterone  [te'stɑstərəʊn /-tɒs-] n.  睾丸激素
+divot  ['dɪvət]           n.  草皮
+amperage  [æm'peərɪdʒ]    n.  安培数
+
 2019.2.13
 rover  ['rəʊvə(r)]        n.  流浪者; 远距离箭靶; 漫游者; 任意箭靶#海盗; 海盗船
 pressurization  ['preʃərə'zeɪʃn /-raɪ'z-] n.  压力输送; 加压; 挤压; 气密
