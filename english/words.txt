@@ -1,4 +1,15 @@
 
+2019.2.19
+unnerve                  v.  使失去勇气, 使失常, 使身心交疲
+beeline                  n.  直线
+terra  ['terə]  n.  地; 土地
+trajectory  [trə'dʒektərɪ] n.  轨道, 轨线, 弹道
+contraption  [kən'træpʃn] n.  精巧的设计; 装置
+tarnish  ['tɑrnɪʃ /'tɑː-] n.  晦暗, 污点, 玷污 v.  使失去光泽, 玷污; 败坏; 失去光泽, 变灰暗; 蒙受耻辱, 被玷污
+entropy    n.  熵
+morale  [mə'ræl /-'rɑːl] n.  士气, 民心
+impunity  [ɪm'pjuːnətɪ] n.  不受惩罚, 无患, 无事
+
 2019.2.18
 demotion  [‚diː'məʊʃn]   n.  降级
 
@@ -4451,8 +4462,7 @@ brow  [braʊ]
 n.  额头; 面容, 表情; 眉毛; 悬崖边缘, 峭壁顶端
 pocked  [pɑkt /pɒkt]
 adj.  麻子的; 满是凹痕的
-crater  [cra·ter || 'kreɪtə]
-n.  火山口, 弹坑, 喷火口
+crater  ['kreɪtə]  n.  火山口, 弹坑, 喷火口  2019.2.18
 fissure  [fis·sure || 'fɪʃə(r)]
 n.  裂缝, 裂隙
 sear  [sɪr /sɪə]
