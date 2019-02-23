@@ -1,4 +1,10 @@
 
+2019.2.20
+valve  [vælv]            n.  活瓣, 活门, 阀
+aperture  ['æpə‚tjʊə]    n.  缝隙; 穴; 孔
+basin  ['beɪsn]          n.  盆; 水池; 盆地
+tarp  [tɑrp /tɑːp]       n.  防水布; 油布
+
 2019.2.19
 unnerve                  v.  使失去勇气, 使失常, 使身心交疲
 beeline                  n.  直线
@@ -963,20 +969,11 @@ n.  葡萄干
 heresy  ['herәsi]
 n.  异端, 异教
 aroma     [ә'rәumә]n.  浓香, 香气
-shred  [ʃred]
-n.  碎布条, 细片, 少量
-vt.  撕碎
-vi.  撕碎
-whistle  ['hwisl]
-n.  口哨, 汽笛, 啸啸声, 口哨声
-vi.  吹口哨, 鸣汽笛, 发嘘嘘声
-vt.  用口哨或吹哨传意, 用口哨演奏
-castrate  ['kæstreit]
-vt.  阉割, 删除, 使丧失力量(或效果)
-spittle  ['spitl]
-n.  唾沫, 吐出的泡沫
-tiller  [till·er || 'tɪlə(r)]
-n.  耕作者, 农夫; 耕作机#舵柄#分蘖
+shred  [ʃred] n.  碎布条, 细片, 少量 vt.  撕碎 vi.  撕碎
+whistle  ['hwisl] n.  口哨, 汽笛, 啸啸声, 口哨声 vi.  吹口哨, 鸣汽笛, 发嘘嘘声 vt.  用口哨或吹哨传意, 用口哨演奏
+castrate  ['kæstreit] vt.  阉割, 删除, 使丧失力量(或效果)
+spittle  ['spitl] n.  唾沫, 吐出的泡沫
+tiller  [till·er || 'tɪlə(r)] n.  耕作者, 农夫; 耕作机#舵柄#分蘖
 pinch  [pintʃ]
 n.  捏, 拧, 撮, 少量, 收缩, 挤压, 夹痛, 苦恼, 逮捕, 指控, 匮乏, 紧急关头
 vt.  捏, 拧, 掐, 挤压, 修剪, 使困苦, 使萎缩, 节制, 少量加入, 逮捕, 勒索

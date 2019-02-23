@@ -8597,125 +8597,167 @@ calculations are correct, I’ve got another 1030 kilometers to get there.
 Accounting for Air Days and presuming 90 kilometers of travel per sol, I
 should arrive on Sol 498. Not too bad, really. The Nearly-Mark-Killin’ storm
 only ended up delaying me by four sols.
+
 I’ll still have forty-four sols to do whatever MAV modifications NASA has
 in mind.
+
 LOG ENTRY: SOL 487
+
 I have an interesting opportunity here. And by “opportunity” I mean
 Opportunity.
+
 I got pushed so far off course, I’m actually not far from the Mars
 exploration rover Opportunity. It’s about 300 kilometers away. I could get
 there in about four sols.
+
 Damn it’s tempting. If I could get Opportunity’s radio working, I’d be in
 touch with humanity again. NASA would continually tell me my exact
 position and best course, warn me if another storm was on its way, and
 generally be there watching over me.
+
 But if I’m being honest, that’s not the real reason I’m interested. I’m sick of
 being on my own, damn it! Once I got Pathfinder working, I got used to
 talking to Earth. All that went away because I leaned a drill against the wrong
 table, and now I’m alone again. I could end that in just four sols.
+
 But it’s an irrational, stupid thought. I’m only eleven sols away from the
 MAV. Why go out of my way to dig up another broken-ass rover to use as a
 makeshift radio when I’ll have a brand-new, fully functional communications
 system within a couple of weeks?
+
 So, while it’s really tempting that I’m within striking range of another rover
 (man, we really littered this planet with them, didn’t we?), it’s not the smart
 move.
+
 Besides, I’ve defiled enough future historical sites for now.
-231LOG ENTRY: SOL 492
+
+LOG ENTRY: SOL 492
+
 I need to put some thought into the bedroom.
+
 Right now, I can only have it set up when I’m inside the rover. It attaches to
 the airlock, so I can’t get out if it’s there. During my road trip that doesn’t
 matter, because I have to furl it every day anyway. But once I get to the MAV,
 I won’t have to drive around anymore. Each decompress/recompress of the
 bedroom stresses the seams (I learned that lesson the hard way when the Hab
 blew up), so it’s best if I can find a way to leave it out.
+
 Holy shit. I just realized I actually believe I’ll get to the MAV. See what I
 did there? I casually talked about what I’ll do after I get to the MAV. Like it
 was nothing. No big deal. I’m just going to pop over to Schiaparelli and hang
 with the MAV there.
+
 Nice.
+
 Anyway, I don’t have another airlock. I’ve got one on the rover and one on
 the trailer and that’s it. They’re firmly fixed in place, so it’s not like I can
 detach one and attach it to the bedroom.
+
 But I can seal the bedroom entirely. I don’t even have to do any hatchet
 jobs on it. The airlock attachment point has a flap I can unroll and seal the
 opening with. Remember, I stole the airlock attachment from a pop-tent,
 which is an emergency feature for pressure loss while in the rover. It’d be
 pretty useless if it couldn’t seal itself off.
+
 Unfortunately, as an emergency device, it was never intended to be
 reusable. The idea was that people seal themselves in the pop-tent, then the
 rest of the crew drives to wherever they are in the other rover and rescues
 them. The crew of the good rover detaches the pop-tent from the breached
 rover and reattaches it to theirs. Then they cut through the seal from their side
 to recover their crewmates.
+
 To make sure this would always be an option, mission rules dictated no
 more than three people could be in a rover at once, and both rovers had to be
 fully functional or we couldn’t use either.
+
 So here’s my brilliant plan: I won’t use the bedroom as a bedroom anymore
 once I get to the MAV. I’ll use it to house the oxygenator and atmospheric
 regulator. Then I’ll use the trailer as my bedroom. Neat, eh?
+
 The trailer has tons of space. I put a shitload of work into making that
 happen. The balloon gives plenty of headroom. Not a lot of floor space, but
 still lots of vertical area.
+
 Also, the bedroom has several valve apertures in its canvas. I have the
 Hab’s design to thank for that. The canvas I stole from it has valve apertures
 (triple-redundant ones, actually). NASA wanted to make sure the Hab could
 be refilled from the outside if necessary.
+
 In the end, I’ll have the bedroom sealed with the oxygenator and
-232atmospheric regulator inside. It’ll be attached to the trailer via hoses to share
+atmospheric regulator inside. It’ll be attached to the trailer via hoses to share
 the same atmosphere, and I’ll run a power line through one of the hoses. The
 rover will serve as storage (because I won’t need to get to the driving controls
 anymore), and the trailer will be completely empty. Then I’ll have a
 permanent bedroom. I’ll even be able to use it as a workshop for whatever
 MAV modifications I need to do on parts that can fit through the trailer’s
 airlock.
+
 Of course, if the atmospheric regulator or oxygenator have problems, I’ll
 need to cut into the bedroom to get to them. But I’ve been here 492 sols and
 they’ve worked fine the whole time, so I’ll take that risk.
+
 LOG ENTRY: SOL 497
+
 I’ll be at the entrance to Schiaparelli tomorrow!
+
 Presuming nothing goes wrong, that is. But hey, everything else has gone
 smoothly this mission, right? (That was sarcasm.)
+
 Today’s an Air Day, and for once, I don’t want it. I’m so close to
 Schiaparelli, I can taste it. I guess it would taste like sand, mostly, but that’s
 not the point.
+
 Of course, that won’t be the end of the trip. It’ll take another three sols to
 get from the entrance to the MAV, but hot damn! I’m almost there!
+
 I think I can even see the rim of Schiaparelli. It’s way the hell off in the
 distance and it might just be my imagination. It’s 62 kilometers away, so if
 I’m seeing it, I’m only just barely seeing it.
+
 Tomorrow, once I get to Entrance Crater, I’ll turn south and enter the
 Schiaparelli Basin via the “Entrance Ramp.” I did some back-of-the-napkin
 math, and the slope should be pretty safe. The elevation change from the rim
 to the basin is 1.5 kilometers, and the ramp is at least 45 kilometers long. That
 makes for a two-degree grade. No problem.
+
 Tomorrow night, I’ll sink to an all-new low!
+
 Lemme rephrase that....
+
 Tomorrow night, I’ll be at rock bottom!
+
 No, that doesn’t sound good either....
+
 Tomorrow night, I’ll be in Giovanni Schiaparelli’s favorite hole!
 Okay, I admit I’m just playing around now.
-•••
-FOR MILLIONS
-of years, the rim of the crater had been under constant attack from
-233wind. It eroded the rocky crest the way a river cuts through a mountain range.
+
+                                     •••
+
+FOR MILLIONS of years, the rim of the crater had been under constant attack from
+wind. It eroded the rocky crest the way a river cuts through a mountain range.
 After eons, it finally breached the edge.
+
 The high-pressure zone created by the wind now had an avenue to drain.
 The breach widened more and more with each passing millennium. As it
 widened, dust and sand particles carried along with the attack settled in the
 basin below.
+
 Eventually, a balance point was reached. The sand had piled up high
 enough to be flush with the land outside the crater. It no longer built upward
 but outward. The slope lengthened until a new balance point was reached, one
 defined by the complex interactions of countless tiny particles and their
 ability to maintain an angled shape. Entrance Ramp had been born.
+
 The weather brought dunes and desert terrain. Nearby crater impacts
 brought rocks and boulders. The shape became uneven.
+
 Gravity did its work. The ramp compressed over time. But it did not
 compress evenly. Differing densities shrunk at different rates. Some areas
 became hard as rock while others remained as soft as talc.
+
 While providing a small average slope into the crater, the ramp itself was
 rugged and bitterly uneven.
+
 On reaching Entrance Crater, the lone inhabitant of Mars turned his vehicle
 toward the Schiaparelli Basin. The difficult terrain of the ramp was
 unexpected, but it looked no worse than other terrain he routinely navigated.
@@ -8723,72 +8765,100 @@ He went around the smaller dunes and carefully crested the larger ones. He
 took care with every turn, every rise or fall in elevation, and every boulder in
 his path. He thought through every course and considered all alternatives.
 But it wasn’t enough.
+
 The rover, while descending down a seemingly ordinary slope, drove off an
 invisible ridge. The dense, hard soil suddenly gave way to soft powder. With
 the entire surface covered by at least five centimeters of dust, there were no
 visual hints to the sudden change.
+
 The rover’s left front wheel sank. The sudden tilt brought the right rear
 wheel completely off the ground. This in turn put more weight on the left rear
 wheel, which slipped from its precarious purchase into the powder as well.
 Before the traveler could react, the rover rolled onto its side. As it did, the
 solar cells neatly stacked on the roof flew off and scattered like a dropped
 deck of cards.
+
 The trailer, attached to the rover with a tow clamp, was dragged along. The
 torsion on the clamp snapped the strong composite like a brittle twig. The
 hoses connecting the two vehicles also snapped. The trailer plunged headlong
 into the soft soil and flipped over on to its balloon-roof, shuddering to an
 abrupt halt.
-234The rover was not so lucky. It continued tumbling down the hill, bouncing
+
+The rover was not so lucky. It continued tumbling down the hill, bouncing
 the traveler around like clothes in a dryer. After twenty meters, the soft
 powder gave way to more solid sand and the rover shuddered to a halt.
 It had come to rest on its side. The valves leading to the now- missing
 hoses had detected the sudden pressure drop and closed. The pressure seal
 was not breached.
+
 The traveler was alive, for now.
-235CHAPTER 24
-heads stared at the satellite image on the projection screen.
+
+CHAPTER 24
+
+THE DEPARTMENT heads stared at the satellite image on the projection screen.
+
 “Jesus,” Mitch said. “What the hell happened?”
+
 “The rover’s on its side,” Mindy said, pointing to the screen. “The trailer’s
 upside down. Those rectangles scattered around are solar cells.”
+
 Venkat put a hand on his chin. “Do we have any information on the state of
 the rover pressure vessel?”
+
 “Nothing obvious,” Mindy said.
+
 “Any signs of Watney doing something after the accident? An EVA
 maybe?”
+
 “No EVA,” Mindy said. “The weather’s clear. If he’d come out, there’d be
 visible footsteps.”
+
 “Is this the entire crash site?” Bruce Ng asked.
+
 “I think so,” Mindy said. “Up toward the top of the photo, which is north,
 there are ordinary wheel tracks. Right here,” she pointed to a large
 disturbance in the soil, “is where I think things went wrong. Judging by where
 that ditch is, I’d say the rover rolled and slid from there. You can see the
 trench it left behind. The trailer flipped forward onto its roof.”
+
 “I’m not saying everything’s okay,” Bruce said, “but I don’t think it’s as
 bad as it looks.”
+
 “Go on,” Venkat said.
+
 “The rover’s designed to handle a roll,” Bruce explained. “And if there’d
 been pressure loss, there’d be a starburst pattern in the sand. I don’t see
 anything like that.”
+
 “Watney may still be hurt inside,” Mitch said. “He could have banged his
 head or broken an arm or something.”
+
 “Sure,” Bruce said. “I’m just saying the rover is probably okay.”
+
 “When was this taken?”
+
 Mindy checked her watch. “We got it seventeen minutes ago. We’ll get
 another pic in nine minutes when MGS4’s orbit brings it into view.”
 “First thing he’ll do is an EVA to assess damage,” Venkat said. “Mindy,
 keep us posted on any changes.”
-THE DEPARTMENT
+
 LOG ENTRY: SOL 498
+
 Hmm.
+
 Yeah.
-236Things didn’t go well on the descent into Schiaparelli Basin. To give you
+
+Things didn’t go well on the descent into Schiaparelli Basin. To give you
 some indication of how unwell they went, I’m reaching up to the computer to
 type this. Because it’s still mounted near the control panel, and the rover is on
 its side.
+
 I got bounced around a lot, but I’m a well-honed machine in times of crisis.
 As soon as the rover toppled, I curled into a ball and cowered. That’s the kind
 of action hero I am.
+
 It worked, too. ’Cause I’m not hurt.
+
 The pressure vessel is intact, so that’s a plus. The valves that lead to the
 trailer hoses are shut. Probably means the hoses disconnected. And that means
 the trailer junction snapped. Wonderful.
