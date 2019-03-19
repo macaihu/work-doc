@@ -1,4 +1,10 @@
 
+2019.3.18
+sequans的新cloud信息。
+https://cloud.sequans.com
+login：dl-tozed@sequans.com
+password：tozed369147258
+
 2019.2.27
 SSH服务修改默认22端口或同时监听多个端口
 http://blog.licess.com/sshd_listen_address/
