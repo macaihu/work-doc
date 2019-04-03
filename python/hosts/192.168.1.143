@@ -1,0 +1,20 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2019-03-26 17:48 CST
+Nmap scan report for 192.168.1.143
+Host is up (0.0084s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE      VERSION
+53/tcp   open  tcpwrapped
+80/tcp   open  http         GoAhead WebServer
+| http-title: Site doesn't have a title (text/html).
+|_Requested resource was http://192.168.1.143/main.html
+443/tcp  open  ssl/http     GoAhead WebServer
+| http-title: Site doesn't have a title (text/html).
+|_Requested resource was https://192.168.1.143/main.html
+| ssl-cert: Subject: organizationName=tz/stateOrProvinceName=gd/countryName=cn
+| Not valid before: 2018-07-03T06:49:39
+|_Not valid after:  2028-06-30T06:49:39
+1999/tcp open  tcp-id-port?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 198.37 seconds

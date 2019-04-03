@@ -1,4 +1,14 @@
-
+2019.3.23
+steroid  [ster·oid || 'stɪrɔɪd /'stɪər-]  n.  类固醇  
+tuberculosis  [tu·ber·cu·lo·sis || tʊ'bɜrkjə'ləʊsɪs /tjʊ'bɜːkjʊ'ləʊsɪs]n.  肺结核
+lubricant  [lu·bri·cant || 'luːbrɪkənt]n.  润滑油, 润滑剂
+nitrite  ['ni·trite || 'naɪtraɪt] n.  亚硝酸盐
+dementia  [de'men·ti·a || -nʃɪə] n.  痴呆
+docile  [doc·ile || 'dəʊsaɪl] adj.  容易教的, 温顺的
+euphoric  [eu'phor·ic || -'fɒrɪk] adj.  心情愉快的; 心满意足的
+etiquette  [et·i·quette || 'etɪket] n.  礼仪, 成规, 礼节
+condiment  [con·di·ment || 'kɒndɪmənt] n.  调味品; 佐料
+duvet  [du·vet || 'duːveɪ] n.  用羽毛; 绒毛等制成的棉被
 
 2019.2.25
 disingenuous  [dɪsɪn'dʒenjʊəs] adj.  不诚实的; 虚伪的
@@ -11,9 +21,9 @@ basin  ['beɪsn]          n.  盆; 水池; 盆地
 tarp  [tɑrp /tɑːp]       n.  防水布; 油布
 
 2019.2.19
-unnerve                  v.  使失去勇气, 使失常, 使身心交疲
-beeline                  n.  直线
-terra  ['terə]  n.  地; 土地
+unnerve                    v.  使失去勇气, 使失常, 使身心交疲
+beeline                    n.  直线
+terra  ['terə]             n.  地; 土地
 trajectory  [trə'dʒektərɪ] n.  轨道, 轨线, 弹道
 contraption  [kən'træpʃn] n.  精巧的设计; 装置
 tarnish  ['tɑrnɪʃ /'tɑː-] n.  晦暗, 污点, 玷污 v.  使失去光泽, 玷污; 败坏; 失去光泽, 变灰暗; 蒙受耻辱, 被玷污
@@ -3763,7 +3773,7 @@ n.  泛滥, 大雨, 洪水
 14	privy	尤指户外的）厕所，茅房
 15	tingle	感到刺痛   2018.1.7
 16	filch	(尤指不构成严重犯罪地)偷
-17	fart	放屁
+17	fart	放屁   2019.3.23
 18	fiery	火红的，似火的
 19	sortie	突围反击
 20	bedridden	（因患病或体弱的）卧床不起的。

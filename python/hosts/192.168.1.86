@@ -1,0 +1,40 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2019-03-26 17:47 CST
+Nmap scan report for 192.168.1.86
+Host is up (0.0011s latency).
+Not shown: 992 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+Service Info: Host: 8A7SX6YU8CDGKCN; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -2m03s, deviation: 0s, median: -2m03s
+|_nbstat: NetBIOS name: 8A7SX6YU8CDGKCN, NetBIOS user: <unknown>, NetBIOS MAC: b8:ac:6f:b4:fc:16 (Dell)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: 8A7SX6YU8CDGKCN
+|   NetBIOS computer name: 8A7SX6YU8CDGKCN\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2019-03-26T17:46:33+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2019-03-26 17:46:33
+|_  start_date: 2019-03-26 08:25:10
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 67.15 seconds

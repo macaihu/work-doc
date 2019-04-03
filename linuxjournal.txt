@@ -1,4 +1,17 @@
 
+2019.3.24
+VIM 打开文件，光标定位到上次退出的位置
+vim ～/.vimrc 添加下面几行
+
+if has("autocmd")
+  autocmd BufReadPost *
+    \ if line("'\"") > 0 && line("'\"") <= line("$") |
+    \   exe "normal g`\"" |
+    \ endif
+endif 
+https://blog.csdn.net/u011383474/article/details/46953177
+
+
 2019.3.18
 sequans的新cloud信息。
 https://cloud.sequans.com
