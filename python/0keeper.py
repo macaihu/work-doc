@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import sys
 import http.client
@@ -20,11 +20,11 @@ def cur_file_dir():
          return os.path.dirname(path)
 
 def mac_isexist(cname, mac, ip, lease_time):
-    f1=file(cur_file_dir() + recorder_file)
+    f1=open(cur_file_dir() + recorder_file)
     #print("we are find " + mac)
     lines = f1.readlines()
     foundit = False
-    f1=file(cur_file_dir() + recorder_file, 'w')
+    f1=open(cur_file_dir() + recorder_file, 'w')
     for line in lines:
         #print line
         if(line.find(mac)>0):
@@ -55,13 +55,13 @@ def addit(cname, mac, ip, lease_time):
     return True
 
 def addlog(content2):
-    f1=file(cur_file_dir() + log_file, 'r')
+    f1=open(cur_file_dir() + log_file, 'r')
     readlines = f1.read()
     #print readlines
     if(readlines.find(content2)>=0):
         return
     readlines +=  content2 + '\n'
-    f1=file(cur_file_dir() + log_file, 'w')
+    f1=open(cur_file_dir() + log_file, 'w')
     f1.write(readlines)
     return
 
@@ -112,7 +112,7 @@ def addhttp():
         #print(mac, ip, pcname,time1)
         #print time.localtime(float(time1))
         #print localtime
-    print "add ", count 
+    print("add ", count )
     os.system("cat 0keeper.md | grep ':' | sort -r -k 6 -o 0keeper.md")
 
 if __name__ == '__main__':
