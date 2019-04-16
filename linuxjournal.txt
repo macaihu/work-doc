@@ -1,4 +1,79 @@
 
+
+2019.4.15
+线性代数学习：
+视频：
+http://open.163.com/special/opencourse/daishu.html
+笔记
+https://nbviewer.jupyter.org/github/zlotus/notes-linear-algebra/blob/master/ReadMe.ipynb
+
+Python关于%matplotlib inline
+https://www.jianshu.com/p/2dda5bb8ce7d
+是在使用jupyter notebook 或者 jupyter qtconsole的时候，才会经常用到%matplotlib，也就是说那一份代码可能就是别人使用jupyter notebook 或者 jupyter qtconsole进行编辑的。关于jupyter notebook是什么，可以参考这个链接：[Jupyter Notebook介绍、安装及使用教程][1]
+而%matplotlib具体作用是当你调用matplotlib.pyplot的绘图函数plot()进行绘图的时候，或者生成一个figure画布的时候，可以直接在你的python console里面生成图像。
+
+在vscode中，要用plt.show来显示图，而在jupyter中draw和show都可以。
+
+python3中file不见了，要改用open
+https://blog.csdn.net/menuconfig/article/details/8672118
+
+
+这样就可以根据函数画线，不明白为什么那个线性代数的笔记中使用若干个点的方式，不容易懂。
+x = np.arange(-2, 2, 0.1)
+y = x * 2
+plt.plot(x,y)
+
+y = (3+x)/2
+plt.plot(x,y)
+plt.draw()
+
+functools.partial的主要作用是简化调用过程：
+import functools
+
+def add(a,b):
+    return a + b
+
+add3 = functools.partial(add,3)
+add5 = functools.partial(add,5)
+
+print add3(4)
+print add5(10)
+
+控制台输出，
+
+7
+15
+
+jupyter支持markdown和LaTex数学表达式。
+像代码单元格一样，按 Shift + Enter 或 Ctrl + Enter 可运行 Markdown 单元格，这会将 Markdown 呈现为格式化文本。
+
+LaTex
+LaTeX 中有两种数学公式的表达方式: 行内公式和行间公式. 第一种方式直接将公式作为放在句子里面作为其一部分. 第二种则将公式单独放在一行, 通常居中显示.
+行内公式的分隔符通常为: \( \), $ $ 或者 \begin{math} \end{math}. 这些都可以达到同样的效果. 理论上第一种最好用, 但是输出比较麻烦(毕竟多两个字符😄), 所以通常会使用第二种方式.
+
+2019.4.11
+使用机器学习来发掘表示本身,而不仅仅把表示映射到输出。这种方法我们称之为 表示学习(representation learning)。
+深度学习(deep learning)通过其他较简单的表示来表达复杂表示,解决了表示学习中的核心问题。
+深度学习让计算机通过较简单概念构建复杂的概念。
+输入展示在 可见层(visible layer),这样命名的原因是因为它包含我们能观察到的变量。
+然后是一系列从图像中提取越来越多抽象特征的 隐藏层(hidden layer)。
+深度学习模型的典型例子是前馈深度网络或 多层感知机(multilayer perceptron, MLP)。多层感知机仅仅是一个将一组输入值映射到输出值的数学函数。
+
+三次发展浪潮:
+20 世纪40 年代到 60 年代深度学习的雏形出现在 控制论(cybernetics)中
+20 世纪 80 年代到 90 年代深度学习表现为 联结主义(connectionism)
+直到 2006 年,才真正以深度学习之名复兴。
+
+大家不应该认为深度学习在尝试模拟大脑。现代深度学习从许多领域获取灵感,特别是应用数学的基本内容如线性代数、概率论、信息论和数值优化。
+
+联结主义是在认知科学的背景下出现的。认知科学是理解思维的跨学科途径,即它融合多个不同的分析层次。
+联结主义的中心思想是,当网络将大量简单的计算单元连接在一起时可以实现智能行为。
+分布式表示 系统的每一个输入都应该由多个特征表示,并且每一个特征都应该参与到多个可能输入的表示。
+联结主义潮流的另一个重要成就是反向传播在训练具有内部表示的深度神经网络中的成功使用以及反向传播算法的普及
+
+anaconda的下载列表在这里：
+https://repo.continuum.io/archive/
+
 2019.3.24
 VIM 打开文件，光标定位到上次退出的位置
 vim ～/.vimrc 添加下面几行
