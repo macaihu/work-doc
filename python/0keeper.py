@@ -42,14 +42,14 @@ def addit(cname, mac, ip, lease_time):
     addlog(cname + ' | ' +mac + ' | '+ ip + '  | ' + lease_time )
     if(mac_isexist(cname, mac, ip, lease_time)):
         return False
-    f1=file(cur_file_dir() + recorder_file, 'r')
+    f1=open(cur_file_dir() + recorder_file, 'r')
     content=f1.readline()
     content+=f1.readline()
     print(mac+" " + ip + "  " +cname + lease_time + " is new user.")
     content+=cname + ' | ' +mac + ' | '+ ip + '  | ' + lease_time + '\n'
     content+=f1.read()
     f1.close
-    f1=file(cur_file_dir() +recorder_file,'w')
+    f1=open(cur_file_dir() +recorder_file,'w')
     f1.write(content)
     f1.close
     return True
