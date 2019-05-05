@@ -1,4 +1,8 @@
 
+2019.4.29
+putty+xming远程登录Ubuntu16.04图形界面
+https://www.cnblogs.com/xuanxufeng/p/6243244.html
+
 
 2019.4.24
 世界各国时区表以及与北京时差
