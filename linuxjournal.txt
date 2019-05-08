@@ -1,4 +1,11 @@
 
+2019.5.8
+这样就可以直接把那个工时的execl的每行变成markdown的表格了。
+=CONCATENATE(C45,"|", D45,"|",TEXT(E45,"[h]:mm"),"|",TEXT(F45,"[h]:mm"),"|",TEXT(G45,"[h]:mm"),"|",TEXT(H45,"[h]:mm"),"|",TEXT(I45,"[h]:mm"),"|",J45)
+
+这个我机器上运行tf的命令。
+docker run  -it -u $(id -u):$(id -g) --rm -v $(realpath .):/tf/notebooks -p 8888:8888 tensorflow/tensorflow:latest-py3-jupyter
+
 2019.4.29
 putty+xming远程登录Ubuntu16.04图形界面
 https://www.cnblogs.com/xuanxufeng/p/6243244.html
