@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
-
 import urllib3
+import sys
+import os
+from bs4 import BeautifulSoup
+import datetime
 
 def download( url):
     http = urllib3.PoolManager()
@@ -10,10 +13,6 @@ def download( url):
     #    return None
     return response.data
 
-import sys
-import os
-from bs4 import BeautifulSoup
-#import bs4
 
 def bs4_paraser(html):
     all_value = []
@@ -31,7 +30,8 @@ def bs4_paraser(html):
         #print(des_str.strip())
         price_div_item = row.find_all('span', attrs={'class': 'content__list--item-price'})
         price_str = price_div_item[0].contents[0].contents[0].strip()
-        print(area_str, price_str, title_str, des_str)
+        #print(area_str, price_str, title_str, des_str)
+        all_value += area_str + "|" + price_str + "|" + title_str + "|" + des_str + '\n'
     return all_value
 
 def cur_file_dir():
@@ -45,13 +45,24 @@ if __name__ == '__main__':
     #f = open(cur_file_dir() + 'test.html', 'r')
     #html = f.read()
     #print(html)
-    print('祥云天都')
+    now = datetime.datetime.now()
+    now_str= now.strftime("%Y.%m.%d")
+    title_str = "面积 | 价格 | 标题 | 描述 \n ----|---|---|----\n"
+
+    f = open(cur_file_dir() +'rent_price.md', 'a+')
+    #f.seek(2,0)
+    f.write('\n# 祥云天都' + now_str + '\n')
+    f.write(title_str)
     html = download('https://sz.lianjia.com/zufang/c2411048614076?sug=%E7%A5%A5%E4%BA%91%E5%A4%A9%E9%83%BD%E4%B8%96%E7%BA%AA%E5%A4%A7%E5%8E%A6')
-    bs4_paraser(html)
-    print('雍翠华府')
+    f.writelines(bs4_paraser(html))
+    f.write('\n# 雍翠华府' +now_str + '\n')
+    f.write(title_str)
     html = download('https://sz.lianjia.com/zufang/c2411048903207/?sug=%E9%9B%8D%E7%BF%A0%E5%8D%8E%E5%BA%9C')
-    bs4_paraser(html)
-    print('保利上城')
+    f.writelines(bs4_paraser(html))
+    f.write('\n# 保利上城' + now_str+ '\n')
+    f.write(title_str)
     html = download('https://sz.lianjia.com/zufang/c2411052622309/?sug=%E4%BF%9D%E5%88%A9%E4%B8%8A%E5%9F%8E')
-    bs4_paraser(html)
+    f.writelines(bs4_paraser(html))
+
+    f.close()
 

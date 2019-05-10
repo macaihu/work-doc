@@ -1,10 +1,10 @@
 
-#### 2019.5.8
+#### 2019.05.08
 
 廖媛  
 ucloudlink的模块没有做at&t的认证。
 
-#### 2019.5.7
+#### 2019.05.07
 
 Kevin Arnold  
 仍然希望考虑sierra wireless 和ucloudlink.  
@@ -15,7 +15,7 @@ I understand the Sierra Wireless is more expensive, but there is value in having
 Have you had a chance to talk with GlocalMe/uCloudLink? I can send you our contact there if you would like.   
 
 
-#### 2019.5.6
+#### 2019.05.06
 
 廖媛  
 1.  Sierra wireless module is good ,but very expensive .  we donn't suggest it .

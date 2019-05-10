@@ -1,4 +1,8 @@
 
+2019.5.9
+c99标准已经支持边长数组
+https://blog.csdn.net/hannick/article/details/2119223
+
 2019.5.8
 这样就可以直接把那个工时的execl的每行变成markdown的表格了。
 =CONCATENATE(C45,"|", D45,"|",TEXT(E45,"[h]:mm"),"|",TEXT(F45,"[h]:mm"),"|",TEXT(G45,"[h]:mm"),"|",TEXT(H45,"[h]:mm"),"|",TEXT(I45,"[h]:mm"),"|",J45)
