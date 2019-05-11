@@ -28,16 +28,21 @@ def read_new_title(project_file,mydate, days):
         first = contents.find('#### '+mydate)
         end = contents.find('#### ', 20+first)
         if( first > 0):
-            content = contents[first+len('#### '+mydate)+1:end]
             if showtitile == 1:
-                content = content.replace("\n\n", "\n")
-                print(project_file.replace('.md','') ,"|", mydate, "|",content.replace('\n','<br>') )
+                print("<font color= #66cc00>日期" +"</font> | <font color= #66cc00>"+project_file.replace('.md','') +"</font>")
+                print("---|---- ")
+
+                #print( , "||")
                 showtitile = 0
-            else:
-                print(" |   |", mydate, "|",content.replace('\n','<br>') )
+            content = contents[first+len('#### '+mydate)+1:end]
+            content = content.replace("\n\n", "\n")
+            print(mydate, "|",content.replace('\n','<br>') )
+#            else:
+#                print(" |   |", mydate, "|",content.replace('\n','<br>') )
         i = i+1
         mydate = inc_day(mydate)
-     
+    if(showtitile == 0) :
+        print("\n\n")
     #return f
     #print(contents)
     
@@ -52,8 +57,6 @@ def cat_projects(mydate, days):
 
 
 if __name__ == '__main__':
-    print("项目 | 日期 | 更新内容 ")
-    print("-- |---|---- ")
     if(len(sys.argv)== 1):
         now = datetime.datetime.now()
         cat_projects(now.strftime("%Y.%m.%d"), 10)
