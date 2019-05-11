@@ -19,6 +19,16 @@ def inc_day(adate):
     mydate = mydate + datetime.timedelta(days=-1)
     return mydate.strftime("%Y.%m.%d")
 
+def rm_hide(text):
+    remain_text = text
+    first = text.find("<hide>")
+    end = text.find("</hide>")
+    if first > 0:
+        remain_text = text[0:first]
+        if end > 0:
+            remain_text = remain_text + text[end+7:]
+    return remain_text
+
 def read_new_title(project_file,mydate, days):
     f = open(cur_file_dir() + '../projects/'+project_file, "rU")
     contents = f.read()
@@ -36,6 +46,7 @@ def read_new_title(project_file,mydate, days):
                 showtitile = 0
             content = contents[first+len('#### '+mydate)+1:end]
             content = content.replace("\n\n", "\n")
+            content = rm_hide(content)
             print(mydate, "|",content.replace('\n','<br>') )
 #            else:
 #                print(" |   |", mydate, "|",content.replace('\n','<br>') )
