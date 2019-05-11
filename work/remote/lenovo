@@ -1,2 +1,2 @@
 
-rdesktop 192.168.20.180-g 1440x870 -u lenovo -p 123456 -r disk:f=/media/jian/518C138300565C98,g=/ -r sound:remote -a 16 -k en-us &
+rdesktop 192.168.17.12 -g 1440x870 -u lenovo -p 123456 -r disk:f=/media/jian/518C138300565C98,g=/ -r sound:remote -a 16 -k en-us &
