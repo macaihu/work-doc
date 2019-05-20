@@ -56,15 +56,23 @@ def read_new_title(project_file,mydate, days):
         print("\n\n")
     #return f
     #print(contents)
-    
+
+
+def write2_single_one(p):
+    f = open(cur_file_dir() + '../projects/projects_all.md', "a+")
+    f.write("\n\n# " +p.replace('.md','') +'\n' )
+    f.write(open(cur_file_dir() + '../projects/'+p,'r').read())
+    f.close()
 
 def cat_projects(mydate, days):
     projects = os.listdir(cur_file_dir() + '../projects/')         
     #print(projects)
+    os.remove(cur_file_dir() + '../projects/projects_all.md')
     for p in projects:
         content = read_new_title(p,mydate, days)
         #print(p)
         #print(content)
+        write2_single_one(p)
 
 
 if __name__ == '__main__':
