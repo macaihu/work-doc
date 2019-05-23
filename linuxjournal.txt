@@ -4,6 +4,9 @@
 sudo apt-get install freerdp2-x11
 https://www.linuxquestions.org/questions/linux-networking-3/failed-to-connect-credssp-required-by-server-4175611983/
 
+使用python共享文件
+python -m SimpleHTTPServer 8000
+
 2019.5.9
 c99标准已经支持边长数组
 https://blog.csdn.net/hannick/article/details/2119223
