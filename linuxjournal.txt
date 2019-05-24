@@ -1,4 +1,7 @@
 
+2019.5.23
+python 多行注释是用三引号'''   '''
+
 2019.5.20
 连接到win2012上，用这个软件：
 sudo apt-get install freerdp2-x11
