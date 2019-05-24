@@ -44,7 +44,7 @@ V3E去射频nv的网页升级，目前中兴微还在开发阶段|1900-01-00|吴
 #### 2019.05.09
 **刘云** PCB的layout和原理图先发给代理商了，源代码处理下再交付（跟进度）。
 #### 2019.05.04
-**刘云** 今天去运营商那边测试TR069和SNMP，TR069目前优先级最高，需要及时修改的地方已邮件反馈给周湘里，SNMP测试的时间少，暂时发现的问题已反馈给光华。<font color=red>可能不是需要l2tp v3。</font><hide>
+**刘云** 今天去运营商那边测试TR069和SNMP，TR069目前优先级最高，需要及时修改的地方已邮件反馈给周湘里，SNMP测试的时间少，暂时发现的问题已反馈给光华。[宽兆的设置说明](http://192.168.1.93:8000/arg_s12/L2TP%20BCP%20WH%20configuration%20Am3100V.PDF)<hide>
 
 Actually the requirement is to allow the L2 traffic coming from CPE LAN interface to be passed to a system that resides in Core network like BRAS. Also, BRAS should send L2 traffic to other network like Customer HQ. we did the test with KZtech AM3100V that you can check the attached file about instruction CPE configuration, I can prepare a sample of AM3100V for your test but need to officially email.
  

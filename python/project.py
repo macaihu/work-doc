@@ -47,6 +47,7 @@ def read_new_title(project_file,mydate, days):
             content = contents[first+len('#### '+mydate)+1:end]
             content = content.replace("\n\n", "\n")
             content = rm_hide(content)
+            content = rm_hide(content)
             print(mydate, "|",content.replace('\n','<br>') )
 #            else:
 #                print(" |   |", mydate, "|",content.replace('\n','<br>') )
@@ -59,20 +60,21 @@ def read_new_title(project_file,mydate, days):
 
 
 def write2_single_one(p):
-    f = open(cur_file_dir() + '../projects/projects_all.md', "a+")
+    f = open(cur_file_dir() + '../projects/log/projects_all.md', "a+")
     f.write("\n\n# " +p.replace('.md','') +'\n' )
     f.write(open(cur_file_dir() + '../projects/'+p,'r').read())
     f.close()
 
 def cat_projects(mydate, days):
-    projects = os.listdir(cur_file_dir() + '../projects/')         
+    projects = os.listdir(cur_file_dir() + '../projects/') 
     #print(projects)
-    os.remove(cur_file_dir() + '../projects/projects_all.md')
+    #os.remove(cur_file_dir() + '../projects/log/projects_all.md')
     for p in projects:
-        content = read_new_title(p,mydate, days)
-        #print(p)
-        #print(content)
-        write2_single_one(p)
+        if '.md' in p :
+            content = read_new_title(p,mydate, days)
+            #print(p)
+            #print(content)
+            write2_single_one(p)
 
 
 if __name__ == '__main__':
