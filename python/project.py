@@ -58,23 +58,52 @@ def read_new_title(project_file,mydate, days):
     #return f
     #print(contents)
 
-
-def write2_single_one(p):
+def write2_single_head():
     f = open(cur_file_dir() + '../projects/log/projects_all.md', "a+")
-    f.write("\n\n# " +p.replace('.md','') +'\n' )
+    f.write( '<span id=head>目录</span>')
+    f.close()
+
+def write2_single_title(p):
+    f = open(cur_file_dir() + '../projects/log/projects_all.md', "a+")
+    f.write( '|&ensp;['+ p.replace('.md','') + '](#' +  p.replace('.md','') +')&ensp;   ' )
+    f.close()
+
+
+def write2_single_detail(p):
+    f = open(cur_file_dir() + '../projects/log/projects_all.md', "a+") 
+    f.write("\n\n# <span id=" + p.replace('.md','')+ ">" +p.replace('.md','') +'</span>\n' )
+    f.write(" [回到目录](#head)")
     f.write(open(cur_file_dir() + '../projects/'+p,'r').read())
     f.close()
 
+def mkdir(path):
+    path=path.strip()
+    path=path.rstrip("\\")
+    isExists=os.path.exists(path)
+    if not isExists:
+        #print path+' 创建成功'
+        os.makedirs(path)
+        return True
+    else:
+        #print path+' 目录已存在'
+        return False
+
 def cat_projects(mydate, days):
     projects = os.listdir(cur_file_dir() + '../projects/') 
+    mkdir(cur_file_dir() + '../projects/log/')
     #print(projects)
-    #os.remove(cur_file_dir() + '../projects/log/projects_all.md')
+    if os.path.exists(cur_file_dir() + '../projects/log/projects_all.md'):
+       os.remove(cur_file_dir() + '../projects/log/projects_all.md')
+    write2_single_head()
     for p in projects:
         if '.md' in p :
             content = read_new_title(p,mydate, days)
             #print(p)
             #print(content)
-            write2_single_one(p)
+            write2_single_title(p)
+    for p in projects:
+        if '.md' in p :
+            write2_single_detail(p)
 
 
 if __name__ == '__main__':
