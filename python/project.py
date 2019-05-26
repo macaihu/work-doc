@@ -65,13 +65,14 @@ def write2_single_head():
 
 def write2_single_title(p):
     f = open(cur_file_dir() + '../projects/log/projects_all.md', "a+")
-    f.write( '|&ensp;['+ p.replace('.md','') + '](#' +  p.replace('.md','') +')&ensp;   ' )
+    f.write( '|&ensp;['+ p.replace('.md','') + '](#' +  str(hash(p.replace('.md',''))) +')&ensp;   ' )
     f.close()
 
 
 def write2_single_detail(p):
     f = open(cur_file_dir() + '../projects/log/projects_all.md', "a+") 
-    f.write("\n\n# <span id=" + p.replace('.md','')+ ">" +p.replace('.md','') +'</span>\n' )
+    #f.write("\n\n# " +"<span id=" + str(hash(p.replace('.md','')))+ ">" +p.replace('.md','') +'</span>\n' )
+    f.write("\n\n# " +"<span id=" + str(hash(p.replace('.md','')))+ "><font color= #66cc00>" +p.replace('.md','') +'</font></span>\n' )
     f.write(" [回到目录](#head)")
     f.write(open(cur_file_dir() + '../projects/'+p,'r').read())
     f.close()
