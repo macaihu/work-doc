@@ -1,6 +1,38 @@
 
+#### 2019.05.30
+**喻潇**  TR069和WIFI还没测完，问题也提交禅道，请将浏览器问题、网页问题、配置问题先修正，方便测试。
+**江义波**  配置升级的没做
+**郑达**  禅道用起来不错，喻潇已经把bug提交上去，有配图。ipv6,pc已经得到了公网的ip.
+ie阻塞的问题，实在没有办法，改用c写了fread，就没有问题。
+#### 2019.05.29
+**王伍**  BRIDGE目录下有[IGMP的代码](http://192.168.1.93:8000/s21_cat6/VT6526.rar), [ds6526100datasheet](http://192.168.1.93:8000/s21_cat6/DS6526100.pdf)
+**郑达** 最新版本v1.06<hide>
+web: 高级设置页面下新增DDNS分页（董锡文）  
+产测软件：升级程序，配置使用md5进行包校验（封远钊）  
+增加upnp功能并添加调用接口（封远钊）  
+解决tr069 wan口检测失败问题（江义波）  
+web: 添加upnp网页（向杰）  
+web: 更改登录界面（董锡文）  
+web: 解决网页不断刷新问题（向杰）  
+web: 解决登录页4G info名称不规范问题（董锡文）  
+web: 修改wan info页面内容显示（董锡文）  
+增加读工厂区imei的接口（郑达）  
+新增解puk接口和修改pin码的接口（封远钊）  
+默认tr069为关闭状态（江义波）  
+web: 移除了HOME页面，登录后显示页面为4G Information页面（董锡文）  
+web: 优化4G Info页面显示（董锡文）  
+web: 调整upnp界面（向杰）  
+web: 添加pin码功能，包括解pin，锁pin，更改pin，解puk（向杰）  
+web: 实现了WAN Info页面右侧的help内容显示（董锡文）  
+web: 实现了DHCP Settings页面LAN Device List分页右侧的help内容显示,同时修复了DHCP Settings页面的Main DHCP Settinga分页、Auxiliary DHCP1 Setting分页以及Auxiliary DHCP2 Setting分页右侧的help内容显示问题（董锡文）  
+web: 修改version info页面的imei, sn显示（董锡文）
+</hide>
 #### 2019.05.28
 **郑达**  tr069江义波修改后可以在服务器上看到数据了。
+ie卡住的问题，封远钊跟踪代码，认为是mini_httpd没有给cgi标准输入。
+网关消失的问题，是自己的程序的问题，已解。
+宽翼还要2个问题，apn数量包括volte也只有3个。at并发会挂。
+ipv6 设备可以ping到google和dns。在看给pc分配ip的部分。
 #### 2019.05.27
 **何旭晨**  第三板，wifi部分要重新调整，估计要到6月下旬。
 #### 2019.05.24
