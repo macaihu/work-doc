@@ -29,6 +29,10 @@ https://blog.csdn.net/hannick/article/details/2119223
 这个我机器上运行tf的命令。
 docker run  -it -u $(id -u):$(id -g) --rm -v $(realpath .):/tf/notebooks -p 8888:8888 tensorflow/tensorflow:latest-py3-jupyter
 
+2019.05.05
+L2TPv3简单测试脚本
+https://blog.csdn.net/bingyu9875/article/details/79075828
+
 2019.4.29
 putty+xming远程登录Ubuntu16.04图形界面
 https://www.cnblogs.com/xuanxufeng/p/6243244.html
@@ -600,7 +604,7 @@ https://linux.cn/article-6127-1.html
 根本不限速，如果去掉limit，直接drop，是有效果的。
 今天早上吴曦再测试，又可以了，真的无法解释。
 
-张跃玲调试电话，这个codec在电话上应该没有调试过。加上了codec的驱动后，电话就无法接通了。再加上cp的一个可以录音的参数区后，可以拨打电话了，但是，没有声音，而且20秒必断。
+张悦铃调试电话，这个codec在电话上应该没有调试过。加上了codec的驱动后，电话就无法接通了。再加上cp的一个可以录音的参数区后，可以拨打电话了，但是，没有声音，而且20秒必断。
 
 2018.7.4
 iw - 3.17-1,  - 1-6, 8021xd - 1, ated - 1, libiwinfo-lua  liblua libpcap - 1.5.3-1
