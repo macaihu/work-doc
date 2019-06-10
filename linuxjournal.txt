@@ -1,4 +1,7 @@
 
+#### 2019.06.05
+gdbserver 居然用的是c++，而且需要texinfo支持。
+
 2019.5.30
 GB 2312 是參考 JIS 的字符集。
 GBK 是在 GB 2312-EUC 的基礎上按當時的 Unicode CJKV 擴充的。但是有很重要的一點，就是「鍾」被修改成了「锺」。
@@ -19,7 +22,7 @@ https://www.linuxquestions.org/questions/linux-networking-3/failed-to-connect-cr
 python -m SimpleHTTPServer 8000
 
 2019.5.9
-c99标准已经支持边长数组
+c99标准已经支持变长数组
 https://blog.csdn.net/hannick/article/details/2119223
 
 2019.5.8

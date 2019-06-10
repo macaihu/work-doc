@@ -17,7 +17,7 @@
 	"hide": {
 		"prefix": "hide",
 		"body": [
-			"<hide>'$1'</hide>",
+			"<hide>$1</hide>",
 			"$2"
 		],
 		"description": "hide some thing"

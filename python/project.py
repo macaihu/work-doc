@@ -37,7 +37,7 @@ def read_new_title(project_file,mydate, days):
     while i < int(days) : 
         first = contents.find('#### '+mydate)
         end = contents.find('#### ', 20+first)
-        if( first > 0):
+        if( first >= 0):
             if showtitile == 1:
                 print("<font color= #66cc00>日期" +"</font> | <font color= #66cc00>"+project_file.replace('.md','') +"</font>")
                 print("---|---- ")
