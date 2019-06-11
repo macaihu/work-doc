@@ -6,9 +6,9 @@
 认识到 git subtree 这个工具。
 现将仓库拆分迁移步骤描述如下，以供大家参考：
 
-1.  $ cd /work/msm8905  
+1. $ cd /work/msm8905  
 先切换到包含准备要拆分的文件夹 tozed 所在的工程根目录。
-2.  $ git subtree split -P tozed master -b tozed  
+2. $ git subtree split -P tozed master -b tozed  
 -P tozed  为准备要拆分出来的文件目录，应该可以使用目录结构，没试；  
 master 为主分支名，默认为当前所在分支，可以试试改为其他分支名是否可行；  
 -b tozed 为要分离出的子树名，可随意取不与现有分支名相同的即可。
@@ -28,5 +28,5 @@ $ git init
 
 ## Format-patch am
 在当前 tozed 仓不为空情况下，应该可以使用 format-patch 和 am 命令进行移植。  
-[参考资料](https://blog.csdn.net/qq_27636049/article/details/81351739)  
+参考资料 [git am说明](https://blog.csdn.net/qq_27636049/article/details/81351739)  
 有待完善。。。
