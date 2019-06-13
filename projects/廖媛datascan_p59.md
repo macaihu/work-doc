@@ -1,5 +1,12 @@
 
+#### 2019.06.13
+**Kevin Arnold**  shooting for a $135 price point for the EM7455
+**廖媛**  Sierra Wireless 报价80美金。
 
+#### 2019.06.10
+**Kevin Arnold**  不需要千兆口。
+#### 2019.06.06
+**Kevin Arnold**  想用Sierra Wireless MC 7455
 #### 2019.05.21
 **廖媛**  Kevin没有正式确认使用sierra wireless。
 #### 2019.05.21
