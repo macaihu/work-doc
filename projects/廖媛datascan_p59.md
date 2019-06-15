@@ -1,8 +1,10 @@
 
+#### 2019.06.14
+**Kevin Arnold** Datascan agrees to pay the $5000.00 USD NRE charge for integrating the
+MC7455 into your router. 
 #### 2019.06.13
 **Kevin Arnold**  shooting for a $135 price point for the EM7455
 **廖媛**  Sierra Wireless 报价80美金。
-
 #### 2019.06.10
 **Kevin Arnold**  不需要千兆口。
 #### 2019.06.06
