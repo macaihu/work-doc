@@ -22,7 +22,8 @@ def bs4_paraser(html):
     for row in all_div:
         #print(row)
         title_div_item = row.find_all('p', attrs={'class': 'content__list--item--title twoline'})
-        title_str = title_div_item[0].contents[1].contents[0].strip()
+        title_str = title_div_item[0].contents[1].contents[0].strip().replace("前发布","")
+        url_str = title_div_item[0].contents[1].attrs['href'].strip()
         #print(title_str.strip())
         des_div_item = row.find_all('p', attrs={'class': 'content__list--item--des'})
         area_str = des_div_item[0].contents[6].strip() 
@@ -30,8 +31,10 @@ def bs4_paraser(html):
         #print(des_str.strip())
         price_div_item = row.find_all('span', attrs={'class': 'content__list--item-price'})
         price_str = price_div_item[0].contents[0].contents[0].strip()
+        last_div_item = row.find_all('p', attrs={'class': 'content__list--item--time oneline'})
+        last_str = last_div_item[0].contents[0].strip()
         #print(area_str, price_str, title_str, des_str)
-        all_value += area_str + "|" + price_str + "|" + title_str + "|" + des_str + '\n'
+        all_value += last_str + "|" + area_str + "|" + price_str + "| [" + title_str + "](https://sz.lianjia.com"+url_str+") |" + des_str + '\n'
     return all_value
 
 def cur_file_dir():
@@ -47,7 +50,7 @@ if __name__ == '__main__':
     #print(html)
     now = datetime.datetime.now()
     now_str= now.strftime("%Y.%m.%d")
-    title_str = "面积 | 价格 | 标题 | 描述 \n ----|---|---|----\n"
+    title_str = "时间 | 面积 | 价格 | 标题 | 描述 \n ----|----|---|---|----\n"
 
     f = open(cur_file_dir() +'rent_price.md', 'a+')
     #f.seek(2,0)
