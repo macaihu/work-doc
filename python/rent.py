@@ -22,7 +22,7 @@ def bs4_paraser(html):
     for row in all_div:
         #print(row)
         title_div_item = row.find_all('p', attrs={'class': 'content__list--item--title twoline'})
-        title_str = title_div_item[0].contents[1].contents[0].strip().replace("前发布","")
+        title_str = title_div_item[0].contents[1].contents[0].strip()
         url_str = title_div_item[0].contents[1].attrs['href'].strip()
         #print(title_str.strip())
         des_div_item = row.find_all('p', attrs={'class': 'content__list--item--des'})
@@ -32,7 +32,7 @@ def bs4_paraser(html):
         price_div_item = row.find_all('span', attrs={'class': 'content__list--item-price'})
         price_str = price_div_item[0].contents[0].contents[0].strip()
         last_div_item = row.find_all('p', attrs={'class': 'content__list--item--time oneline'})
-        last_str = last_div_item[0].contents[0].strip()
+        last_str = last_div_item[0].contents[0].strip().replace("发布","")
         #print(area_str, price_str, title_str, des_str)
         all_value += last_str + "|" + area_str + "|" + price_str + "| [" + title_str + "](https://sz.lianjia.com"+url_str+") |" + des_str + '\n'
     return all_value
