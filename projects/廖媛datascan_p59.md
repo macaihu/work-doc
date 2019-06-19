@@ -1,7 +1,11 @@
 
+#### 2019.06.17
+**王松勇**  发出at命令集，linux驱动，编程指南等。样品模块需要购买。
+**廖媛**  认证费再和Kevin谈。
+#### 2019.06.16
+**王松勇**  发了EM7455與MC7455的规格书。7455 基于mdm9230. lte  3GPP Release 11 UMTS • 3GPP Release 9
 #### 2019.06.14
-**Kevin Arnold** Datascan agrees to pay the $5000.00 USD NRE charge for integrating the
-MC7455 into your router. 
+**Kevin Arnold** Datascan agrees to pay the $5000.00 USD NRE charge for integrating the MC7455 into your router. 
 #### 2019.06.13
 **Kevin Arnold**  shooting for a $135 price point for the EM7455
 **廖媛**  Sierra Wireless 报价80美金。
