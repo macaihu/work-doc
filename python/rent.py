@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 
-import urllib3
+
 import sys
 import os
 from bs4 import BeautifulSoup
 import datetime
+import urllib3
 
 def download( url):
     http = urllib3.PoolManager()
