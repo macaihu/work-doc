@@ -1,6 +1,65 @@
 
+#### 2019.06.29
+**郑达**  约宽翼的周一来现场调试。
+#### 2019.06.28
+**郑达**  S21软件版本发布临时版本 v1.09.1
+**余小虎**  dialog添加3条TR069要求
+<hide>
+- 网页TR069菜单中，修改心跳需要马上生效，且以新设置的心跳时间开始倒计时，而不能等到当前心跳周期结束才生效
+- 网页TR069菜单中，修改参数应该重启TR069服务，而不应该要求用户重启机器
+- 交互流程中，终端上报第1个包需要是BOOT消息，而不能是空包。空包会导致服务器报错，后续流程无法继续进行。
+</hide>
+#### 2019.06.27
+**徐刚雄**   5.8G还在调。
+宽翼 放出BM916R  B41 200M的软件版本
+#### 2019.06.26
+**郑达**  b41的模块无法在小基站注册到载波聚合。
+#### 2019.06.25
+**李柱栋**  吕强发的对于pcm格式数据调试可以参考文档pdf并没有什么用。
+宽翼：
+两路发at命令导致模块异常：需要高通新基线解决，目前高通最新回复是本周末前会把基线释放出来。
+锁小区功能问题：高通方案决定的，所有使用高通方案的竞品都遵循同样的规则
+ECI 与小区id对应关系 AT指令bmtcellinfo里面的这个cell id就是eci，该值除以256  得到的是eNode ID   对256求余  得到cell id，也就是：ECI (28 Bits) = eNB ID(20 Bits) + Cell ID(8 Bits)
+模块支持4路apn 研发已经在开始调试，大概需要2周时间
+ipv6断掉其中一路会影响其他的链路 Gobi的问题我们一直在分析解决，我们计划此问题在本周内解决掉
+#### 2019.06.24
+**郑达**  S21最新版本v1.09 <hide>
+- web: 在防火墙中添加url默认设置（向杰）
+- 修改设备型号为S21（郑达）
+- web: 修复wifi页面隐藏问题（董锡文）
+- web: 实现了Login页面型号和SN号的内容显示（董锡文）
+- web: 修复了DHCP Settings页面Main DHCP Setting分页的Main DNS和Vice DNS字段命名不规范问题（董锡文）
+- web: 修复了Version Infomation页面的Memory字段显示问题，将Memory字段拆分为Memory Total、Memory Free以及Memory Cache三个字段（董锡文）
+- web: 修复了WiFi-2.4G Settings和WiFi-5G Settings页面的WPS Settings分页弹窗倒计时到0秒自动关闭弹窗后再次点击所有弹窗会造成当前弹窗立刻闪退的问题（董锡文）
+- web: 添加配置控制 WAN配置的显示和隐藏（董锡文）
+- web: 修复了Advanced Settings页面Remote Ping分页点击Edit弹窗异常的问题（董锡文）
+- web: 优化了WiFi-2.4G Settings和Wifi-5G Settings页面的WPS Settings分页的定时器（董锡文）
+- web: 去除了WiFi-5G Settings页面Connected List分页表体的Edit列（董锡文）
+- 解决url默认规则获取错误问题（封远钊）
+- 产测工具：升级和升配置后通过亮灯来标记状态（封远钊）
+- 实现ipv6 多路拨号并分配Global ipv6 地址到底下lan设备、下发dns（封远钊）
+- web: 优化了首屏加载速度（董锡文）
+- web: 优化了登录页的加载速度（董锡文）
+- ipv6 添加无线网络策略路由（暂时不包括有线V6，有线V6 未测试）（封远钊）
+- 添加ipv6 nat（封远钊）
+- 添加判别V4 V6 网口，防止ipv4 v6 配置冲突重叠（封远钊）
+- web: 修复了WiFi-2.4G Settings和WiFi-5G Settings页面的Auxiliary Wi-Fi1 Settings和Auxiliary Wi-Fi2 Settings分页选择Encrypt Algorithm的TKIP/AES并保存后并不是选择TKIP/AES而是选择AES的问题（董锡文）
+- web: 去除了Wan Infomation页面主辅APN的MAC Address字段（董锡文）
+- web: 修复了登录页分辨率过低时登录有右侧部分信息和左侧登录背景图部分看不到的问题，实现成可滚动（董锡文）
+- tr069: 实现编辑主动上报时间不用重启tr069客户端功能，添加https节点（江义波）
+- 实现了登录后的会话超时的时间可配置（董锡文）
+- 实现sip alg功能（郑达）
+- web: 修复了WiFi-5G Settings页面Wi-Fi Advanced Settings分页选择Wi-Fi Mode字段的值不为11AC时仍然可以在Bandwidth字段选择80MHz的问题（董锡文）
+- 配置: 支持配置网页的https端口.（郑达）
+- 添加wan访问列表权限控制配置，并且只允许通过https访问设备web.（郑达）
+- web: 将WiFi-2.4G Settings和WiFi-5G页面的Main WiFi-Settings、Auxiliary Wi-Fi1 Settings、AuxiLiary Wi-Fi2 Settings以及Wi-Fi Advanced Settings分页Save之后先set再get数据回来更新页面状态，修改为只将当前页面的分页所修改的数据set之后不用把数据get回来更新页面状态（董锡文）
+</hide>
+#### 2019.06.22
+**郑达**  宽翼存在的问题：两路发at命令导致模块异常，锁小区功能会注册到非指定小区，启动时候概率性出现at不通情况，需要重启916模块才能解决，加载gobinet驱动后，概率性出现拨不上号问题。
+用户的新要求：ECI 与小区id对应关系，模块支持4路apn
 #### 2019.06.21
 **何旭晨**  5.8G 还在调。
+**罗厅**  江义波完成上报RSRP/RSRQ/RSSI/SINR/CQI/MCS/IMEI/IMSI/ICCID/CellID,dhcp修改等。
 #### 2019.06.18
 **董锡文**  登录页的速度可以在1s左右了。ie的体验会好一些。  
 **郑达**  siproxd可以运行了。openwrt系统中的sip alg看起来是关闭的。  

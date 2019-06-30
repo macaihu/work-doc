@@ -30,5 +30,11 @@
 		],
 		"description": "hide some thing"
 	},
+	"br": {
+		"prefix": "br",
+		"body": [
+			"<br>$0"
+		],
+		"description": "<br>"
+	},	
 }	 
-}
