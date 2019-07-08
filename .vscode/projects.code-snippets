@@ -16,7 +16,7 @@
 	// 	"description": "Log output to console"
 	// }
 	"mls": {"prefix": "mls","body": ["**苗立双**  $1","$2"],"description": "苗立双"	},	
-	"zyl": {"prefix": "zyl","body": ["**张悦铃**  $1","$2"],"description": "张悦铃"	},	
+	"zyl": {"prefix": "zyl","body": ["**张悦玲**  $1","$2"],"description": "张悦玲"	},	
 	"csy": {"prefix": "csy","body": ["**蔡松岩**  $1","$2"],"description": "蔡松岩"	},	
 	"bjj": {"prefix": "bjj","body": ["**白俊剑**  $1","$2"],"description": "白俊剑"	},	
 	"rys": {"prefix": "rys","body": ["**任银善**  $1","$2"],"description": "任银善"	},	

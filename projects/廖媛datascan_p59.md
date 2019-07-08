@@ -1,4 +1,17 @@
 
+#### 2019.07.05
+**喻潇**  PIN菜单编辑PIN然后点OK，和锁频菜单点Set Bands；这两个菜单没反应；
+#### 2019.07.02
+**皮晓聪**  tzgap_P59_4.1.14.zip版本 Sierra wireless 的MC7455模块支持已添加请测试。<hide>
+    P59:Release P59 V4.1.14  <PiXiaocong>
+    apps/dialtool2:MC7455模块暂不启用GPS,以修复启用GPS后MC7455模块初始化失败问题  (PiXiaocong)
+    apps/dialtool2:修复不能配置MC7455模块工作在3G网络和4G模式时无法获取信号强度问题 (PiXiaocong)
+    P53: 内核支持MC74xx模块 <CONFIG_4G_MODULE_MC74xx=m>  (renyinshan)
+    version: 解决version文件中os参数为空的bug.  (renyinshan)
+    P59: 解决新拉的仓，直接编译6 or 8 报错的问题，需要一个mkimage工具，原来是从boot代码中生成的（只用此工具，其他不用） (renyinshan)
+</hide>
+#### 2019.07.01
+**Vince Lai**  AT!SELRAT=? 可搜尋模塊支持的設置 AT!SELRAT=00    範例:該指令設置為AUTO
 #### 2019.06.26
 **皮晓聪**  插入SIM后发相关的AT指令无法拨号获取网络地址。
 Vince Lai  使用AT命令操作可以但未來原廠不提供技術支持
