@@ -1,4 +1,7 @@
 
+#### 2019.07.08
+**叶京平**  中东客户反馈我们的P11有如下反馈（重启CPE LAN口无网络，需要恢复出厂设置才能正常，）  
+立陶宛 NRO361 程序还需要修改：當收到PING的echo reply後, 就不用繼續PING完剩下的次數. WatchDog的信息要加入Time stamp.正常版(不寫Flash)的PING Watchdog預設要Disable. 只有Debug版預設才要Enable.
 #### 2019.07.05
 **苗立双**  立陶宛Ｐ１1Ｓ v22debug程序,使用lt10模块,仅用于调试验证找问题;ping watchdog部分网页为空情况下,显示默认值;  
 立陶宛Ｐ１1Ｓ v22正式版程序,使用lt10模块; ping watchdog部分网页为空情况下,显示默认值;

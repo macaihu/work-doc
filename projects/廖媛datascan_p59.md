@@ -1,14 +1,39 @@
 
+#### 2019.07.08
+**皮晓聪**  P59更新版本为V4.1.15。Sierra wireless 的MC7455模块测试。<hide>
+- apps/dialtool2:修复MC7455模块有时获取IMSI失败造成无法注册网络问题 (PiXiaocong)
+- apps/dialtool2:修复使用MC7455模块时未查询当前已锁定判断信息 (PiXiaocong)
+- cmdlib: 上传一个单独调试cmdlib的c文件（如果cmdlib接口有问题，可以直接用此文件使用gdb进行单步调试） (renyinshan)
+- document: 上传一份P5x GDB调试的文档说明 (renyinshan)
+- gdb: Add installgdbserver directory to .gitignore (renyinshan)
+- Modem Log： 底层脚本增加启动判断（支持直接编译到系统和临时上传） (renyinshan)
+- cmdlib: 增加bmlogproxy是否运行的判断，如果是临时上传的，则需要增加/tmp/bmlogproxy的判断（底层接口判断比较严谨） (renyinshan)
+- web[Modem Log]: 解决开启log提示失败的错误。（响应太快，cgi还没收到判断结果） (renyinshan)
+- Modem Log： 增加抓取宽翼模块log的底层脚本，供网页调用。（至此，此功能在管理页面和普通页面都可正常工作） (renyinshan)
+- web [Modem Log]: 普通页面增加抓取模块log的功能 (renyinshan)
+- cmdlib: 增加抓取宽翼模块log的代理程序"bmlogproxy"是否运行的判断。 (renyinshan)
+- apps/switchwan:修复WAN模式为doublewiredlte模式时由于有些LTE模块网络接口不为usb0没有删除多出默认路由而无法上网问题 (PiXiaocong)
+- P59:修复WAN模式切换到singlewan模式时由于有些LTE模块网络接口不为usb0造成无法添加默认路由问题 (PiXiaocong)
+- apps/dialtool2:输出当前LTE模块网络接口名称到/tmp/.system_info_static文件 (PiXiaocong)
+- 修复使用BM816模块(网络接口为wwan0)WEB页面不显示4G网口信息问题 (PiXiaocong)
+- apps/dialtool2:增加P59(TZ7.823.317板型)支持BM816模块处理 (PiXiaocong)
+- 添加BM816模块驱动 (PiXiaocong)
+- bmlogproxy: Fix a build error. (renyinshan)
+- .gitignore: 增加build_dir到.gitignore文件中 (renyinshan)
+- bmlogproxy: 增加宽翼模块的抓包工具bmlogproxy. 并更新一个比较通用的Makefile，以后新增加的app可以以此来参考 (renyinshan)
+- compile.mk: 增加一个编译app所需的mk文件 (renyinshan)
+</hide>
+
 #### 2019.07.05
 **喻潇**  PIN菜单编辑PIN然后点OK，和锁频菜单点Set Bands；这两个菜单没反应；
 #### 2019.07.02
 **皮晓聪**  tzgap_P59_4.1.14.zip版本 Sierra wireless 的MC7455模块支持已添加请测试。<hide>
-    P59:Release P59 V4.1.14  <PiXiaocong>
-    apps/dialtool2:MC7455模块暂不启用GPS,以修复启用GPS后MC7455模块初始化失败问题  (PiXiaocong)
-    apps/dialtool2:修复不能配置MC7455模块工作在3G网络和4G模式时无法获取信号强度问题 (PiXiaocong)
-    P53: 内核支持MC74xx模块 <CONFIG_4G_MODULE_MC74xx=m>  (renyinshan)
-    version: 解决version文件中os参数为空的bug.  (renyinshan)
-    P59: 解决新拉的仓，直接编译6 or 8 报错的问题，需要一个mkimage工具，原来是从boot代码中生成的（只用此工具，其他不用） (renyinshan)
+- P59:Release P59 V4.1.14  <PiXiaocong>
+- apps/dialtool2:MC7455模块暂不启用GPS,以修复启用GPS后MC7455模块初始化失败问题  (PiXiaocong)
+- apps/dialtool2:修复不能配置MC7455模块工作在3G网络和4G模式时无法获取信号强度问题 (PiXiaocong)
+- P53: 内核支持MC74xx模块 <CONFIG_4G_MODULE_MC74xx=m>  (renyinshan)
+- version: 解决version文件中os参数为空的bug.  (renyinshan)
+- P59: 解决新拉的仓，直接编译6 or 8 报错的问题，需要一个mkimage工具，原来是从boot代码中生成的（只用此工具，其他不用） (renyinshan)
 </hide>
 #### 2019.07.01
 **Vince Lai**  AT!SELRAT=? 可搜尋模塊支持的設置 AT!SELRAT=00    範例:該指令設置為AUTO

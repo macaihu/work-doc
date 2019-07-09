@@ -1,4 +1,8 @@
 
+#### 2019.07.08
+**Pathompong** TOT’s Customer said “ they received many more 25-30 called to received the tea ordering.The called can pick up & talk. 
+#### 2019.07.05
+**张悦玲**  双sip有样子了。
 #### 2019.06.24
 **eddy**  发出通话品质档案文件。  
 希望你們新增 1B 命令, 當確定掛幾時, 發送 1B 命令給我們, 我們好做一些電話收尾的動作。

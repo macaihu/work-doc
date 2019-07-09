@@ -25,8 +25,7 @@
 	"now": {
 		"prefix": "now",
 		"body": [
-			"#### $CURRENT_YEAR.$CURRENT_MONTH.$CURRENT_DATE\n$1",
-			"$2"
+			"#### $CURRENT_YEAR.$CURRENT_MONTH.$CURRENT_DATE\n$1"
 		],
 		"description": "hide some thing"
 	},
