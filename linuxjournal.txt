@@ -1,4 +1,8 @@
 
+#### 2019.07.10
+vscode 清除多余空行:
+https://blog.csdn.net/qq_36051316/article/details/84136805
+^\s*(?=\r?$)\n
 
 #### 2019.07.01
 HTML 段落是通过 <p> 标签进行定义的。

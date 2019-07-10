@@ -1,4 +1,14 @@
 
+#### 2019.07.10
+**皮晓聪**  mc7455看起来只有一个串口可以发送at。
+#### 2019.07.09
+**赵金**  imei只能写一次。
+**Vince Lai**  查詢不到pin和puk可輸入剩餘次數，我會請教原廠是否有支持 請試試看AT+CPINR
+**皮晓聪**  P59更新版本为V4.1.16。           Sierra wireless 的MC7455模块测试。<hide>  
+- apps/dialtool2:MC7455模块查询PIN和PUK剩余输入次数  (PiXiaocong)
+- 修复使用MC7455模块时WEB页面PIN码配置失败或无响应问题  (PiXiaocong)
+- 修复WEB页面设置频带响应慢或有时不响应问题  (PiXiaocong)
+</hide>
 #### 2019.07.08
 **皮晓聪**  P59更新版本为V4.1.15。Sierra wireless 的MC7455模块测试。<hide>
 - apps/dialtool2:修复MC7455模块有时获取IMSI失败造成无法注册网络问题 (PiXiaocong)

@@ -58,5 +58,6 @@
 	"cl": {"prefix": "cl","body": ["**陈良**  $1"],"description": "陈良"},	
 	"ly": {"prefix": "ly","body": ["**刘云**  $1"],"description": "刘云"},	
 	"jj": {"prefix": "jj","body": ["**江健**  $1"],"description": "江健"},	
+	"yj": {"prefix": "yj","body": ["**杨杰**  $1"],"description": "杨杰"},	
 
 }
