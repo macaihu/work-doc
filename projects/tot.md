@@ -1,4 +1,6 @@
 
+#### 2019.07.12
+**刘永辉**  预计周五上午去用户店内升级并测试最终结果
 #### 2019.07.08
 **Pathompong** TOT’s Customer said “ they received many more 25-30 called to received the tea ordering.The called can pick up & talk. 
 #### 2019.07.05

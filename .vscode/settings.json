@@ -8,5 +8,9 @@
         "projects/**/*.pdf": true,
         "python/**/core/": true,
         "**/projects/.ipynb_checkpoints/": true
-    }
+    },
+    "[markdown]":  {
+        "editor.quickSuggestions": true
+      },
+    "markdown-pdf.executablePath": "C:\\Users\\jian\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
 }

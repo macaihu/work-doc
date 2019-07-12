@@ -60,4 +60,5 @@
 	"jj": {"prefix": "jj","body": ["**江健**  $1"],"description": "江健"},	
 	"yj": {"prefix": "yj","body": ["**杨杰**  $1"],"description": "杨杰"},	
 
+	"br": {"prefix": "r","body": ["<br>$0"],"description": "<br>"},	
 }
