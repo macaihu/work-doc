@@ -1,4 +1,11 @@
 
+#### 2019.07.12
+specimen  [spec·i·men] n.  范例, 样品, 标本
+bib  [bɪb] n.  围兜
+holler  [hol·ler] v.  叫喊, 发牢骚, 说怨言; 大声叫喊
+grain  [greɪn]    n.  谷物; 谷粒; 谷类
+hominy  [hom·i·ny] n.  碾碎的玉米; 玉米粥
+
 #### 2019.07.01
 pseudo  ['suːdəʊ]        adj.  假的; 冒充的
 
@@ -2457,8 +2464,7 @@ cobweb  ['kɒbweb]
 n.  蜘蛛网, 蛛丝, 混乱
 vt.  使布满蛛网
 effrontery      [i'frʌntәri] n.  厚颜无耻  2017.12.22
-glutton  ['glʌtn]
-n.  暴食者, 酷爱...的人
+glutton  ['glʌtn]   n.  暴食者, 酷爱...的人  2019.07.12
 Harpy  [har·py || 'hɑrpɪ /'hɑːp-]
 n.  鸟身女妖; 悍妇; 贪婪无厌的人
 mongrel  ['mʌŋgrәl]
@@ -3513,7 +3519,7 @@ n.  泛滥, 大雨, 洪水
 
 日期	2015.3.18	复习1		2		3		4		5	
 1	tangle	         缠结;纠结;乱糟糟的一团  2018.1.5
-2	dejected	     沮丧的;失意的;泄气的   2017.12.24
+2	dejected	     沮丧的;失意的;泄气的   2019.07.12
 3	despondent	沮丧的;泄气的;失望的
 4	otter	     水獭
 5	sail	          帆
