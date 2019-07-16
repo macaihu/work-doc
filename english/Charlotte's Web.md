@@ -661,8 +661,7 @@ Wilbur shook his head.  "Is it a web?"
 
 "What do people catch in the Queensborough Bridge - bugs?" asked Wilbur.
 
-"No," said Charlotte.  "They don't catch anything.  They just keep trotting back and forth across the bridge thinking there is something better on the other side.  If they'd hang head-down at the top of the
-thing and wait quietly, maybe something good would come along.  But no - with men it's rush, rush, rush, every minute.  I'm glad I'm a sedentary spider."
+"No," said Charlotte.  "They don't catch anything.  They just keep trotting back and forth across the bridge thinking there is something better on the other side.  If they'd hang head-down at the top of the thing and wait quietly, maybe something good would come along.  But no - with men it's rush, rush, rush, every minute.  I'm glad I'm a sedentary spider."
 
 "What does sedentary mean?" asked Wilbur.
 
@@ -672,9 +671,7 @@ thing and wait quietly, maybe something good would come along.  But no - with me
 
 "Where?"
 
-"In a forest looking for beechnuts and truffles and delectable roots,
-pushing leaves aside with my wonderful strong nose, searching and
-sniffing along the ground, smelling, smelling, smelling..."
+"In a forest looking for beechnuts and truffles and delectable roots,pushing leaves aside with my wonderful strong nose, searching and sniffing along the ground, smelling, smelling, smelling..."
 
 "You smell just the way you are," remarked a lamb who had just walked in.  "I can smell you from here.  You're the smelliest creature in the place."
 
@@ -708,13 +705,11 @@ The goose appeared, followed by her seven goslings.  They thrust their little ne
 
 "Were you serious when you promised you would keep them from killing me?"
 
-"I was never more serious in my life.  I am not going to let you die,
-Wilbur."
+"I was never more serious in my life.  I am not going to let you die, Wilbur."
 
 "How are you going to save me?" asked Wilbur, whose curiosity was very strong on this point.
 
-"Well," said Charlotte, vaguely, "I don't really know.  But I'm working
-on a plan."
+"Well," said Charlotte, vaguely, "I don't really know.  But I'm working on a plan."
 
 "That's wonderful," said Wilbur.  "How is the plan coming, Charlotte? Have you got very far with it?  Is it coming along pretty well?" Wilbur was trembling again, but Charlotte was cool and collected.
 
@@ -730,8 +725,7 @@ on a plan."
 
 "All right," said Wilbur.  "But don't fail to let me know if there's anything I can do to help, no matter how slight."
 
-"Well," replied Charlotte, "you must try to build yourself up.  I want
-you to get plenty of sleep, and stop worrying.  Never hurry and never worry!  Chew your food thoroughly and eat every bit of it, except you must leave just enough for Templeton.  Gain weight and stay well - that's the way you can help.  Keep fit, and don't lose your nerve.  Do you think you understand?"
+"Well," replied Charlotte, "you must try to build yourself up.  I want you to get plenty of sleep, and stop worrying.  Never hurry and never worry!  Chew your food thoroughly and eat every bit of it, except you must leave just enough for Templeton.  Gain weight and stay well - that's the way you can help.  Keep fit, and don't lose your nerve.  Do you think you understand?"
 
 "Yes, I understand," said Wilbur.
 
@@ -757,8 +751,7 @@ Wilbur checked himself and crept slowly to his trough.  He found a bit of potato
 
 "Yes?
 
-"May I get a drink of milk?  I think there are a few drops of milk left
-in my trough."
+"May I get a drink of milk?  I think there are a few drops of milk left in my trough."
 
 "No, the trough is dry, and I want you to go to sleep.  No more talking! Close your eyes and go to sleep!"
 
@@ -778,8 +771,7 @@ There was a pause.
 
 "Good night!"
 
-CHAPTER 10
-An Explosion
+## CHAPTER 10 An Explosion
 
 Day after day the spider waited, head-down, for an idea to come to her. Hour by hour she sat motionless, deep in thought.
 
