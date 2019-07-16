@@ -1,4 +1,13 @@
 
+#### 2019.07.15
+**苗丽双**  立陶宛Ｐ１1Ｓ v24正式版程序,使用lt10模块版本为V24;修正无法映射wan端口161的bug;
+**叶京平**  客戶再測試port mapping時, 發現port 161不能正常工作
+**苗立双**  立陶宛Ｐ１1Ｓ v23正式版程序,使用lt10模块;<hide>
+- 网页默认关掉ping watchdog;
+- 去掉网页日志中的"Search currently available networks";
+- 按照客户要求,重启模块或者整个系统情况下,写入重启的时间;
+- ping watchdog ping一次后等待3秒,如果成功,则不继续ping；
+</hide>
 #### 2019.07.08
 **叶京平**  中东客户反馈我们的P11有如下反馈（重启CPE LAN口无网络，需要恢复出厂设置才能正常，）  
 立陶宛 NRO361 程序还需要修改：當收到PING的echo reply後, 就不用繼續PING完剩下的次數. WatchDog的信息要加入Time stamp.正常版(不寫Flash)的PING Watchdog預設要Disable. 只有Debug版預設才要Enable.
