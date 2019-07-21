@@ -96,6 +96,7 @@ def cat_projects(mydate, days):
     if os.path.exists(cur_file_dir() + '../projects/log/projects_all.md'):
        os.remove(cur_file_dir() + '../projects/log/projects_all.md')
     write2_single_head()
+    print('# 近期项目简述  ' + mydate )
     for p in projects:
         if '.md' in p :
             content = read_new_title(p,mydate, days)

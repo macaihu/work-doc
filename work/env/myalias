@@ -16,4 +16,5 @@ alias readb='sudo adb kill-server ; sudo adb start-server'
 alias lte='ssh jian@192.168.1.67'
 alias dingwei='sshpass -p sztozed@8358# ssh root@39.108.181.220'
 alias share="python -m SimpleHTTPServer 8000"
+alias p59.3='sshpass -p sztz369147258 ssh root@192.168.1.3 -p 8357 -F ~/work/jian-doc/work/env/ssh_config'
 
