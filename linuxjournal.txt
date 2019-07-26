@@ -1,4 +1,14 @@
 
+#### 2019.07.25
+sudo iptables -t nat -D INPUT -i eth0 -p tcp -m tcp --dport 110 -j SNAT --to-source 220.181.72.229
+这样好像没有用的。
+
+sudo iptables -t nat -A PREROUTING -i eth0 -p tcp -m tcp --dport 25 -j DNAT --to-destination 220.181.97.150
+sudo iptables -t nat -A PREROUTING -i eth0 -p tcp -m tcp --dport 110 -j DNAT --to-destination 220.181.72.229
+
+#### 2019.07.23
+win7下的ssh也可以进行端口转发。
+
 #### 2019.07.20
 apt-get install gcc g++ liblzma-dev zlib1g-dev libncurses5-dev ia32-libs 
 
