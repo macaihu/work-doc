@@ -20,22 +20,27 @@ def bs4_paraser(html):
     value = {}
     soup = BeautifulSoup(html, 'html.parser')
     all_div = soup.find_all('div', attrs={'class': 'content__list--item'})
-    for row in all_div:
-        #print(row)
-        title_div_item = row.find_all('p', attrs={'class': 'content__list--item--title twoline'})
-        title_str = title_div_item[0].contents[1].contents[0].strip()
-        url_str = title_div_item[0].contents[1].attrs['href'].strip()
-        #print(title_str.strip())
-        des_div_item = row.find_all('p', attrs={'class': 'content__list--item--des'})
-        area_str = des_div_item[0].contents[6].strip() 
-        des_str =  des_div_item[0].contents[8].strip() + des_div_item[0].contents[10].strip()
-        #print(des_str.strip())
-        price_div_item = row.find_all('span', attrs={'class': 'content__list--item-price'})
-        price_str = price_div_item[0].contents[0].contents[0].strip()
-        last_div_item = row.find_all('p', attrs={'class': 'content__list--item--time oneline'})
-        last_str = last_div_item[0].contents[0].strip().replace("发布","")
-        #print(area_str, price_str, title_str, des_str)
-        all_value += last_str + "|" + area_str + "|" + price_str + "| [" + title_str + "](https://sz.lianjia.com"+url_str+") |" + des_str + '\n'
+    try:
+        for row in all_div:
+            #print(row)
+            title_div_item = row.find_all('p', attrs={'class': 'content__list--item--title twoline'})
+            title_str = title_div_item[0].contents[1].contents[0].strip()
+            url_str = title_div_item[0].contents[1].attrs['href'].strip()
+            #print(title_str.strip())
+            des_div_item = row.find_all('p', attrs={'class': 'content__list--item--des'})
+            area_str = des_div_item[0].contents[8].strip() 
+            des_str =  des_div_item[0].contents[12].strip() + des_div_item[0].contents[10].strip()
+            #print(des_str.strip())
+            price_div_item = row.find_all('span', attrs={'class': 'content__list--item-price'})
+            price_str = price_div_item[0].contents[0].contents[0].strip()
+            last_div_item = row.find_all('p', attrs={'class': 'content__list--item--time oneline'})
+            last_str = last_div_item[0].contents[0].strip().replace("发布","")
+            #print(area_str, price_str, title_str, des_str)
+            all_value += last_str + "|" + area_str + "|" + price_str + "| [" + title_str + "](https://sz.lianjia.com"+url_str+") |" + des_str + '\n'
+    except:
+        print ("something wrong")
+    #finally:
+    #    print(all_value)
     return all_value
 
 def cur_file_dir():
