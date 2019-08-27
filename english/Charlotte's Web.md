@@ -791,8 +791,7 @@ Wilbur walked into his yard just at that moment.
 
 "Easy to fool," said Charlotte.
 
-"That's a mercy," replied Wilbur, and he lay down in the shade of his
-fence and went fast asleep. The spider, however, stayed wide awake, gazing affectionately at him and making plans for his future.  Summer was half gone.  She knew she didn't have much time.
+"That's a mercy," replied Wilbur, and he lay down in the shade of his fence and went fast asleep. The spider, however, stayed wide awake, gazing affectionately at him and making plans for his future.  Summer was half gone.  She knew she didn't have much time.
 
 That morning, just as Wilbur fell asleep, Avery Arable wandered into the Zuckerman's front yard, followed by Fern. Avery carried a live frog in his hand.  Fern had a crown of daisies in her hair.  The children ran for the kitchen.
 
