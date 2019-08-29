@@ -1,5 +1,8 @@
 
 
+#### 2019.08.13
+**徐刚雄**   [ZLT S30 Datasheet V1.0.docx](https://pan.wps.cn/l/s45N9drBG?f=151) 和
+[ZLT S30立项报告.doc](https://pan.wps.cn/l/sn0IbZQz5?f=151)
 #### 2019.08.09
 **胡媛媛**  关于方形的盒子CPE，客户要我们做如下改动 <hide>  
 1. 不要留USB口
@@ -15,5 +18,4 @@
    - 数据信号强度灯
    - 电池用电指示灯
 </hide>  
-
 **王伍** 不用自弹式 USIM卡座， 使用与P10M一样的灯，除非客户有要求。
