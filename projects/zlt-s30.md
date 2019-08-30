@@ -1,5 +1,7 @@
 
-
+#### 2019.08.14
+**胡媛媛** [Design specification ZLT S30.pdf](https://pan.wps.cn/l/s9ZeIkdBt?f=151)  
+客户确认了我们的设计
 #### 2019.08.13
 **徐刚雄**   [ZLT S30 Datasheet V1.0.docx](https://pan.wps.cn/l/s45N9drBG?f=151) 和
 [ZLT S30立项报告.doc](https://pan.wps.cn/l/sn0IbZQz5?f=151)
