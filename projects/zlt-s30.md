@@ -1,4 +1,6 @@
 
+#### 2019.08.30
+**胡媛媛**  绿色-信号强 蓝色-信号中等 黄色- 信号弱
 #### 2019.08.14
 **胡媛媛** [Design specification ZLT S30.pdf](https://pan.wps.cn/l/s9ZeIkdBt?f=151)  
 客户确认了我们的设计
