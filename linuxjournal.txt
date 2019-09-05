@@ -1,4 +1,7 @@
 
+#### 2019.09.05
+=CONCATENATE(A1,"|",B1,"|",TEXT(C1,"[h]:mm"),"|",TEXT(D1,"[h]:mm"),"|",TEXT(E1,"[h]:mm"),"|",TEXT(F1,"[h]:mm"),"|",TEXT(G1,"[h]:mm"),"|",H1)
+
 #### 2019.07.25
 sudo iptables -t nat -D INPUT -i eth0 -p tcp -m tcp --dport 110 -j SNAT --to-source 220.181.72.229
 这样好像没有用的。

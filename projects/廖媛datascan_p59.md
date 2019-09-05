@@ -1,4 +1,9 @@
 
+#### 2019.08.26
+**皮晓聪**  Version: V4.1.18 Changes:
+-    P59:Release P59 V4.1.18  <PiXiaocong>
+-    P59:修复ping包每隔一小时连续丢5个包问题  <PiXiaocong>
+-   pppd: 解决重复编译pppd报错的问题  <renyinshan>
 #### 2019.08.19
 **廖媛**  客户那边锁了ATT 频段后测试，发现还是有丢包情况。
 #### 2019.08.02
