@@ -1,4 +1,20 @@
 
+#### 2019.09.10
+docker 使用--network=host可以看到所有的网卡。
+
+没有ifconfig
+sudo apt install net-tools 
+
+airmon-ng 在这里:
+apt-get install aircrack-ng
+apt-get install pciutils
+
+RTL8188cus开启监听模式 
+https://www.findhao.net/easycoding/1498.html
+感觉好麻烦的样子，以后再说。
+
+某台机器的多选鼠标居然没有用了，只好改快捷键，还不知道被什么程序占用的。
+
 #### 2019.09.05
 =CONCATENATE(A1,"|",B1,"|",TEXT(C1,"[h]:mm"),"|",TEXT(D1,"[h]:mm"),"|",TEXT(E1,"[h]:mm"),"|",TEXT(F1,"[h]:mm"),"|",TEXT(G1,"[h]:mm"),"|",H1)
 
