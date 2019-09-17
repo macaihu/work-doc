@@ -2393,9 +2393,7 @@ excruciating  [iks'kru:ʃieitiŋ]
 a.  极痛苦的, 折磨人的, 精心制作的
 complacent  [kәm'pleisnt]
 a.  满足的, 自满的, 得意的
-gauge  [geidʒ]
-n.  标准度量, 计量器
-vt.  精确计量, 估计
+gauge  [geidʒ] n.  标准度量, 计量器 vt.  精确计量, 估计  2019.09.11
 unrelenting  
 adj.  不宽恕的, 冷酷的, 无情的
 locust  ['lәukәst]
