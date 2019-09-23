@@ -26,6 +26,6 @@
 		"body": [
 			"#### $CURRENT_YEAR.$CURRENT_MONTH.$CURRENT_DATE\n$1"
 		],
-		"description": "hide some thing"
+		"description": "#### and date"
 	},
 }	 
