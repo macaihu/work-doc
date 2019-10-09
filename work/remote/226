@@ -1,0 +1,2 @@
+rdesktop 192.168.80.226 -g 1440x870 -u pailian -p 20192019 -r disk:f=/media/jian/518C138300565C98,g=/ -r sound:remote -a 16 -k en-us 
+date
