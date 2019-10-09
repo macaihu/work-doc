@@ -12,5 +12,8 @@
     "[markdown]":  {
         "editor.quickSuggestions": true
       },
-    "markdown-pdf.executablePath": "C:\\Users\\jian\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"
+    "markdown-pdf.executablePath": "C:\\Users\\jian\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.banditEnabled": false
 }
