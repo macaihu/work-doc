@@ -1,9 +1,9 @@
 
 
-#### 2019.09.30
+#### 2019.10.11
 todo:
-10.10 还建行信用卡
-结合白俊剑的邮件，写分组的详细划分信息
+10.19 中信银行信用卡
+10.15日开始扣贷款的费用了。银行在东涌吉祥东路2号。坐车过去要好久。二楼免签室。
 天门新增省直辖市，我们的平台中没有该行政区，需修改平台（9/11已完成）这个修改看起来没有在代码仓中体现。
 做一个脚本，得到链接上三个楼盘的卖盘放盘情况。
 在脚本中增加一个统计功能，放盘的退出时间。
@@ -11,11 +11,27 @@ todo:
 我的s21貌似不能上网
 win7,win10 必须能拨上这里的vpn，否则出差非常麻烦。
 学会如何对java平台编译，部署。
-杨谋均的硬件调试貌似没有动静。
 写一个自动下载，自动编译的脚本，检查每个仓是否可以一次编译。每个仓轮着来编译。
-10.15日开始扣贷款的费用了。银行在东涌吉祥东路2号。坐车过去要好久。二楼免签室。
 重新摄像头android app，看看事件列表是不是自动有了缩略图。
 p53 EM7455 问徐工是否要改电路
+邮件服务器容易收到伪冒发件人的邮件。
+
+
+#### 2019.10.10
+
+10.10 还建行信用卡
+杨谋均的硬件调试貌似没有动静。杨谋均正在做v10的东西。
+https://blog.csdn.net/russell_tao/article/details/9171375
+
+继续收到伪冒的邮件，江健认为是我们的服务器需要调整MDaemon的策略，启用它的垃圾邮件过滤器，启用DNS-BL这些。
+
+s30的wifi按键似乎有些问题。
+
+http://ftp.gnu.org/gnu/gdb 是所有版本的gdb下载地址。
+
+结合白俊剑的邮件，写分组的详细划分信息，算了。
+
+#### 2019.09.30
 
 **刘云** L2TP BCP功能 前方反馈1.2版本不能TR069降级到1.1，我们这边验证好是可以正常升降级的，而且升降级前都有上报TransferComplete.已让前方进一步帮忙确认。
 
@@ -1529,15 +1545,15 @@ assert(file);
 local onenet=file:read("*a");
 file:close();
 screen:print(10,10,onenet,white);
-sudo apt install synaptic
-sudo apt install synaptic
-sudo apt install synaptic情况下, 采集的声音居然是噪声.
-sudo apt install synaptic引入, 那么使用8k和44.8k, 听起来没有什么不同.
-sudo apt install synaptic
-sudo apt install synaptic
-sudo apt install synaptic在isp328/input_module中.
-sudo apt install synaptic密码改为Oo0keeper
-sudo apt install synaptic
+
+-2018.1.8
+-在没有咪头的情况下, 采集的声音居然是噪声.
+-在audacity中引入, 那么使用8k和44.8k, 听起来没有什么不同.
+-
+-2018.1.5
+-sensor的源码在isp328/input_module中.
+-那个博客园的密码改为Oo0keeper
+
 2018.1.2
 计算机的速度又开始变慢, 那个xorg又开始狂占cpu.
 乱改了参数后, 只有桌面图, 什么都没有啦, 最后解决的方法居然是插入一个u盘, 然后右键, open一个terminal, 运行
